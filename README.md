@@ -1,1 +1,1 @@
-# MagentaWEB
+# MagentaWeb
