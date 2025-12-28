@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Haltestellen- & Linieninformationssystem (HAlis)</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f0f0f0;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-bottom: 30px;
+      max-width: 300px;
+    }
+    .button-container a, .back-button {
+      display: inline-block;
+      padding: 12px 20px;
+      background-color: #0078d7;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+      cursor: pointer;
+      user-select: none;
+    }
+    .button-container a:hover, .back-button:hover {
+      background-color: #005fa3;
+    }
+    .back-button {
+      margin-top: 10px;
+      max-width: 300px;
+      text-align: center;
+    }
+  </style>
+<body>
+  <h1>HALIS (HIS) - Haltestellen & Linieninformationssystem</h1>
+  <iframe id="vrsinfo-partner" scrolling="no" style="width: 100%; height: 700px; border: none;"></iframe>
+  <script type="text/javascript" src="https://www.vrs.de/partner/service/his/rsvg"></script>
+  <a class="back-button" href="../">← Zurück zur VRS</a>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "components": [],
+  "embeds": [
+    {
+      "author": {
+        "name": "MagentaAccountSecurityService (MASS)"
+      },
+      "title": "Doogle GDPR Violation",
+      "url": "https://datenschutz.magentaweb.org/doogle",
+      "color": 16711935,
+      "description": "Doogle, operated by DoubleCounter (a subsidiary of Tellter SAS, Paris), collects Discord user IDs from all users without explicit consent, allows anyone to look up linked alt accounts, provides only limited opt-out options, and is involved in multiple GDPR violations including lack of transparency, restricted deletion rights, and excessive data processing; more information can be found [here](https://datenschutz.magentaweb.org/doogle) or by clicking on the title.",
+      "footer": {
+        "text": "MagentaSecurity"
+      },
+      "timestamp": "2025-10-31T22:16:45.922Z"
+    }
+  ]
+}

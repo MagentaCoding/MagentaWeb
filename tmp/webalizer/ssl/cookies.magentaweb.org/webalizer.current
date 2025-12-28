@@ -1,0 +1,675 @@
+# Webalizer V2.23-08 Incremental Data - 12/28/2025 02:42:59
+2025 12 28 2 42 59
+923 133 132 1 4 76 1093074 193 118 0
+1 1 249 1 28
+275 13 365067 15 25 12
+7 3 6933 6 3 3
+6 3 5184 5 3 3
+16 7 11124 11 9 8
+282 17 361137 13 33 14
+113 3 129537 6 11 3
+16 10 10139 11 10 10
+8 2 10097 6 2 2
+13 6 5124 6 10 5
+9 4 8447 6 4 4
+7 3 7023 6 3 3
+7 4 5096 6 4 4
+7 3 6859 6 3 3
+6 1 8609 5 1 1
+7 3 6846 5 4 3
+13 6 3835 8 11 6
+7 4 5149 6 4 4
+16 6 17137 5 8 3
+40 15 42504 7 21 6
+25 2 33968 5 6 3
+6 2 6967 5 2 2
+7 4 5150 6 4 4
+7 4 5154 6 4 4
+4 1 5212 3 1 1
+4 1 5181 4 1 1
+4 2 3400 3 2 2
+9 4 8685 7 4 4
+2 0 3510 1 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+11 4 11906 6
+117 7 129738 16
+177 11 248136 21
+11 5 10397 6
+17 7 17135 8
+257 6 346721 14
+6 3 3776 4
+14 8 10296 9
+23 9 23538 11
+3 1 3391 1
+8 2 10394 2
+41 10 49148 15
+6 3 5266 3
+11 4 10101 4
+15 7 6759 11
+22 9 15230 15
+12 8 6908 8
+8 4 6914 4
+5 3 3290 3
+16 5 18833 6
+7 3 6959 3
+116 5 130988 13
+12 4 12191 5
+8 5 5059 5
+4
+0
+0
+133
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+1
+785
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/
+0 133 7814716426037852777 0 114 25
+# End Of Table - urls
+# -sites- (monthly)
+unused-space.coop.net
+0 3 2 1641 2 1766625262
+/
+74.7.227.165
+0 1 1 0 1 1764684113
+/
+164.92.219.70
+0 2 1 1661 1 1765407125
+/
+142.93.234.44
+0 2 1 1692 1 1765224041
+/
+195.178.110.54
+0 4 4 0 4 1765128854
+/
+209.38.24.140
+0 11 4 11871 1 1766132874
+-
+74.7.241.131
+0 1 0 1755 0 0
+-
+167.94.138.193
+0 2 1 1637 1 1765999053
+/
+74.7.228.20
+0 1 0 1758 0 0
+-
+74.7.175.178
+0 2 0 3518 0 0
+-
+178.128.203.51
+0 2 1 1662 1 1766879601
+/
+103.4.251.170
+0 1 1 0 1 1764901487
+/
+ec2-44-218-6-122.compute-1.amazonaws.com
+0 2 2 0 2 1766142282
+/
+ec2-34-248-148-203.eu-west-1.compute.amazonaws.com
+0 1 1 0 1 1765428266
+/
+74.7.227.57
+0 2 2 0 2 1765602524
+/
+ec2-35-87-248-149.us-west-2.compute.amazonaws.com
+0 2 1 1638 1 1766446934
+/
+195.178.110.223
+0 5 0 8300 0 0
+-
+ec2-34-206-1-6.compute-1.amazonaws.com
+0 1 1 0 1 1766099653
+/
+104.252.191.178
+0 2 2 0 1 1764897261
+/
+104.164.173.105
+0 1 1 0 1 1764897250
+/
+74.7.230.57
+0 1 0 1754 0 0
+-
+103.4.251.195
+0 2 2 0 1 1764866039
+/
+74.7.241.184
+0 4 0 7020 0 0
+-
+164.92.147.118
+0 2 1 1701 1 1765316500
+/
+ec2-18-179-142-151.ap-northeast-1.compute.amazonaws.com
+0 6 2 0 1 1765288998
+/
+45.144.212.43
+0 2 0 3381 0 0
+-
+170.64.232.38
+0 11 4 11871 1 1766072688
+-
+167.71.189.240
+0 2 1 1670 1 1764573392
+/
+74.7.175.172
+0 1 0 1759 0 0
+-
+scanner-001.ch1.censys-scanner.com
+0 2 1 1637 1 1765372809
+/
+74.7.227.60
+0 3 3 0 3 1765077226
+/
+74.7.175.163
+0 1 0 1759 0 0
+-
+68.183.39.68
+0 2 1 1668 1 1765264278
+/
+ec2-18-201-248-219.eu-west-1.compute.amazonaws.com
+0 1 1 0 1 1765311434
+/
+static.239.224.75.5.clients.your-server.de
+0 2 1 1676 1 1764603818
+/
+ec2-16-146-155-29.us-west-2.compute.amazonaws.com
+0 2 1 1642 1 1766456466
+/
+216.73.216.112
+0 4 2 3342 1 1764972391
+/
+45.139.104.171
+0 4 0 6705 0 0
+-
+ec2-54-169-199-66.ap-southeast-1.compute.amazonaws.com
+0 106 1 121055 1 1764969840
+-
+74.7.241.134
+0 1 0 1755 0 0
+-
+167.71.13.91
+0 2 1 1691 1 1764877096
+/
+ec2-52-40-6-116.us-west-2.compute.amazonaws.com
+0 248 1 339798 1 1764565471
+/
+vps-1500767a.vps.ovh.net
+0 4 2 3346 1 1764563265
+-
+195.178.110.201
+0 4 4 0 4 1764929551
+/
+173.244.32.7
+0 1 0 322 0 0
+-
+74.7.242.45
+0 1 1 0 1 1766076474
+/
+ec2-52-196-91-90.ap-northeast-1.compute.amazonaws.com
+0 155 1 230223 1 1764900571
+/
+74.7.244.60
+0 1 0 1758 0 0
+-
+104.164.173.83
+0 2 2 0 1 1764901498
+/
+74.7.227.176
+0 1 1 0 1 1765831928
+/
+204.76.203.25.ptr.pfcloud.network
+0 6 3 5007 3 1766407642
+/
+24.199.115.93
+0 2 1 1700 1 1766557904
+/
+74.7.230.17
+0 2 0 3516 0 0
+-
+207.154.238.236
+0 1 1 0 1 1766369810
+/
+ec2-3-255-148-63.eu-west-1.compute.amazonaws.com
+0 2 1 1588 1 1764924094
+/
+74.7.228.61
+0 2 0 3516 0 0
+-
+74.7.175.158
+0 2 0 3518 0 0
+-
+45.148.10.238
+0 2 0 3363 0 0
+-
+74.7.230.53
+0 7 0 12278 0 0
+-
+74.7.244.47
+0 1 0 1754 0 0
+-
+74.7.175.173
+0 3 0 5265 0 0
+-
+74.7.244.57
+0 1 0 1754 0 0
+-
+74.7.244.44
+0 3 0 5262 0 0
+-
+74.7.244.36
+0 1 0 1754 0 0
+-
+74.7.227.48
+0 1 1 0 1 1765885701
+/
+84.84.147.34.bc.googleusercontent.com
+0 1 1 0 1 1765114005
+/
+93.123.109.132
+0 2 0 3322 0 0
+-
+74.7.175.168
+0 1 0 1759 0 0
+-
+104.164.126.209
+0 1 1 0 1 1764866037
+/
+74.7.175.176
+0 1 0 1755 0 0
+-
+ec2-13-217-204-224.compute-1.amazonaws.com
+0 1 1 0 1 1764572797
+/
+205.210.31.134
+0 1 1 0 1 1766381629
+/
+178.62.251.141
+0 2 1 1670 1 1764749449
+/
+ec2-108-130-163-41.eu-west-1.compute.amazonaws.com
+0 1 1 0 1 1765407726
+/
+74.7.230.4
+0 2 0 3514 0 0
+-
+gutsy.monitoring.internet-measurement.com
+0 1 1 0 1 1765598014
+/
+74.7.175.191
+0 1 0 1755 0 0
+-
+74.7.241.21
+0 1 1 0 1 1765426425
+/
+147.182.228.101
+0 2 1 1663 1 1765055076
+/
+ec2-50-17-164-180.compute-1.amazonaws.com
+0 1 1 0 1 1766475478
+/
+195.178.110.160
+0 21 1 30208 1 1766228779
+/
+scanner-204.hk2.censys-scanner.com
+0 2 1 1640 1 1766161854
+/
+84.239.42.146
+0 1 0 322 1 1764813911
+/
+ec2-16-52-82-182.ca-central-1.compute.amazonaws.com
+0 2 1 1584 1 1765132559
+/
+74.7.244.42
+0 1 0 1758 0 0
+-
+147.182.187.228
+0 2 1 1702 1 1765103013
+/
+ec2-13-250-101-25.ap-southeast-1.compute.amazonaws.com
+0 6 2 0 1 1765897230
+/
+static.196.236.199.138.clients.your-server.de
+0 2 1 1683 1 1764602745
+/
+ec2-3-88-131-80.compute-1.amazonaws.com
+0 2 0 3338 0 0
+-
+74.7.241.47
+0 1 1 0 1 1765203199
+/
+138.197.69.94
+0 2 1 1661 1 1764703364
+/
+74.7.241.36
+0 1 1 0 1 1764991962
+/
+157.230.31.82
+0 2 1 1692 1 1765690617
+/
+node004.webhostingpremium.com
+0 2 0 1761 1 1764875711
+-
+74.7.241.160
+0 2 0 3510 0 0
+-
+74.7.243.227
+0 1 1 0 1 1765389365
+/
+191.243.208.85
+0 1 1 0 1 1766835477
+/
+ec2-100-30-248-17.compute-1.amazonaws.com
+0 2 2 0 2 1765956717
+/
+74.7.230.48
+0 2 0 3508 0 0
+-
+scan.cypex.ai
+0 3 3 0 3 1766304627
+/
+74.7.230.51
+0 1 0 1758 0 0
+-
+205.210.31.249
+0 1 1 0 1 1765508018
+/
+ec2-34-221-21-250.us-west-2.compute.amazonaws.com
+0 3 3 0 3 1765146679
+/
+1b2.crawl.securitytrails.com
+0 2 0 644 2 1766213154
+/
+74.7.244.38
+0 1 0 1758 0 0
+-
+170.64.167.148
+0 22 8 23812 2 1766144196
+-
+45.88.147.34.bc.googleusercontent.com
+0 1 1 0 1 1765114029
+/
+198.235.24.140
+0 1 1 0 1 1765980189
+/
+ec2-18-208-174-226.compute-1.amazonaws.com
+0 2 2 0 2 1764592162
+/
+ec2-35-94-137-252.us-west-2.compute.amazonaws.com
+0 2 1 1585 1 1764922892
+/
+74.7.175.132
+0 1 0 1759 0 0
+-
+ec2-15-222-9-45.ca-central-1.compute.amazonaws.com
+0 2 1 1583 1 1765119483
+/
+138.68.79.50
+0 1 1 0 1 1765553072
+/
+74.7.244.33
+0 7 0 12306 0 0
+-
+bot-h6n5ae.vertexwp.com
+0 2 1 1582 1 1765515164
+/
+red234.0.145.fibratv.com.mx
+0 1 1 0 1 1766835477
+/
+205.210.31.80
+0 1 0 1719 0 0
+-
+merciful.monitoring.internet-measurement.com
+0 1 1 0 1 1765439419
+/
+167.94.138.186
+0 2 1 1641 1 1766776606
+/
+213.209.157.81
+0 1 0 1633 0 0
+-
+74.7.241.183
+0 2 0 3510 0 0
+-
+74.7.242.27
+0 1 1 0 1 1765939243
+/
+74.7.175.161
+0 2 0 3518 0 0
+-
+207.154.244.234
+0 1 1 0 1 1765555747
+/
+74.7.227.20
+0 3 3 0 3 1766765787
+/
+ec2-3-250-133-58.eu-west-1.compute.amazonaws.com
+0 1 1 0 1 1765290822
+/
+ec2-13-126-129-205.ap-south-1.compute.amazonaws.com
+0 106 1 121131 1 1764983009
+-
+45.148.10.80
+0 2 2 0 2 1764831315
+/
+247.186.236.35.bc.googleusercontent.com
+0 1 0 1577 0 0
+-
+74.7.227.51
+0 3 3 0 3 1766809528
+/
+vps-5f962ba0.vps.ovh.net
+0 6 3 5055 3 1765782515
+-
+74.7.244.4
+0 1 0 1757 0 0
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+74.7.241.184
+0 2 0 3510 0 0
+-
+# End Of Table - sites (daily)
+# -referrers- 
+https://www.google.com/
+0 2
+- (Direct Request)
+0 908
+https://www.cookies.magentaweb.org/
+0 6
+https://cookies.magentaweb.org/
+0 7
+# End Of Table - referrers
+# -agents- 
+cypex.ai/scanning Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126.0.0.0 Safari/537.36
+0 3
+Mozilla/5.0
+0 5
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36
+0 1
+Python/3.14 aiohttp/3.13.2
+0 3
+Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)
+0 2
+Mozilla/5.0 (Windows NT 6.2) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/30.0.963.12 Safari/535.11
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 4
+RecordedFuture Global Inventory Crawler
+0 2
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+0 3
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/136.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Linux i686; rv:32.0) Gecko/20100101 Firefox/32.0
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+0 44
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36 Assetnote
+0 12
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+0 2
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Sa
+0 2
+Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+0 11
+Mozilla/5.0 (X11; Linux i686; rv:28.0) Gecko/20100101 Firefox/28.0
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compat
+0 60
+Mozilla/5.0 (iPhone; CPU iPhone OS 12_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/75.0.3770.103 Mobile/15
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/91.0.4472.124
+0 8
+Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaE6-00/021.002; Profile/MIDP-2.1 Configuration/CLDC-1.1) AppleWebKit/533.4 (KHTML, l
+0 1
+Mozilla/5.0 (Ubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15
+0 1
+Go-http-client/1.1
+0 3
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+0 1
+python-httpx/0.27.2
+0 2
+Mozilla/5.0 (X11; Linux x86_64; rv:139.0) Gecko/20100101 Firefox/139.0
+0 8
+Mozilla/5.0 (X11; Linux x86_64; rv:55.0) Gecko/20100101 Firefox/55.0
+0 1
+Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.12 Safari/537.36 OPR/14.0.1116.4
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (SS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0
+0 1
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3058.0 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+0 21
+Scrapy/2.13.3 (+https://scrapy.org)
+0 2
+Mozilla/5.0 (Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ClaudeBot/1.0; +claudebot@anthropic.com)
+0 4
+Mozilla/5.0 (Windows Phone 8.1; ARM; Trident/7.0; Touch; rv:11.0; IEMobile/11.0; NOKIA; Lumia 530) like Gecko
+0 1
+Mozilla/5.0 (Linux; Android 4.4.2; SM-T230NU Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Safari/
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2; rv:10.0.1) Gecko/20100101 Firefox/10.0.1
+0 1
+Mozilla/5.0 (X11; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0
+0 6
+Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_7; en-us) AppleWebKit/534.20.8 (KHTML, like Gecko) Version/5.1 Safari/534.20.8
+0 1
+Mozilla/5.0 (compatible; VertexWP/1.0; +https://vertexwp.com/bot)
+0 1
+Mozilla/5.0 (Maemo; Linux armv7l; rv:2.0.1) Gecko/20100101 Firefox/4.0.1 Fennec/2.0.1
+0 1
+python-httpx/0.28.1
+0 613
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+0 4
+Windows / Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+0 3
+Hello from Palo Alto Networks, find out more about our scans in https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Sc
+0 3
+Mozilla/5.0 (Linux; Android 8.0.0; SM-G950U1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.3
+0 1
+Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaX7-00/021.004; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, 
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+0 1
+Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.5; en-US; rv:1.9.2.15) Gecko/20110303 Firefox/3.6.15
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+0 8
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.3; +https://openai.com/gptbot)
+0 20
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+0 4
+Mozilla/5.0 (Linux; Android 8.0.0; moto e5 cruise Build/OCPS27.91-157-12) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.
+0 1
+Mozilla/5.0 (Linux; Android 8.0.0; F5321) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.89 Mobile Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 6.2) AppleWebKit/537.21 (KHTML, like Gecko) Chrome/25.0.1353.0 Safari/537.21
+0 1
+iTunes/9.0.2 (Windows; N)
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (compatible; wpbot/1.3; +https://forms.gle/ajBaxygz9jSR8p8G9)
+0 4
+Mozilla/5.0 (X11; Linux i686; rv:124.0) Gecko/20100101 Firefox/124.0
+0 3
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1615.0 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15
+0 1
+Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.3
+0 6
+Mozilla/5.0 (Knoppix; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+0 1
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

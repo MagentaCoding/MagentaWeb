@@ -1,0 +1,399 @@
+# Webalizer V2.23-08 Incremental Data - 12/27/2025 03:20:27
+2025 12 27 3 20 27
+469 305 54 32 10 18 895036 163 81 0
+1 2 64 2 27
+0 0 0 0 0 0
+1 1 797 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+2 1 2487 1 1 1
+0 0 0 0 0 0
+35 6 41470 6 10 5
+62 60 141499 13 8 7
+12 6 27102 1 4 1
+79 70 171149 2 12 3
+42 9 60704 3 15 2
+6 3 11085 1 0 0
+37 29 96813 15 21 15
+0 0 0 0 0 0
+8 5 11803 3 2 2
+2 2 1594 2 2 2
+19 12 25671 8 18 8
+44 19 78305 11 23 11
+2 1 2488 1 1 1
+1 1 797 1 1 1
+0 0 0 0 0 0
+23 4 33713 2 4 2
+62 60 138370 14 11 8
+2 1 2413 1 1 1
+25 11 41749 6 24 6
+3 3 2496 3 3 3
+2 1 2531 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+4 2 3301 2
+19 9 38540 15
+0 0 0 0
+5 3 5701 3
+7 5 10262 2
+4 2 6155 1
+2 1 2449 2
+23 4 33809 4
+8 6 10598 4
+24 5 34604 5
+73 66 153687 20
+5 4 4859 4
+32 3 40640 7
+30 19 59876 25
+10 6 13721 9
+10 6 18861 9
+24 21 70613 14
+103 98 235882 13
+5 3 10756 3
+12 6 19309 12
+21 19 49320 2
+18 15 33942 1
+0 0 0 0
+30 2 38151 6
+0
+0
+0
+305
+0
+0
+0
+0
+0
+0
+0
+20
+0
+0
+0
+0
+0
+0
+0
+0
+12
+132
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/error/510.shtml
+0 7 7311142299539700329 13902 0 0
+/error/416.shtml
+0 7 94364670363904 14314 0 0
+/error/404.shtml
+0 5 0 8263 0 0
+/error/410.shtml
+0 6 0 11787 0 0
+/error/424.shtml
+0 7 0 12512 0 0
+/error/417.shtml
+0 7 0 14049 0 0
+/error/408.shtml
+0 6 0 12008 0 0
+/error/504.shtml
+0 7 0 13972 0 0
+/error/500.shtml
+0 7 0 14126 0 0
+/error/407.shtml
+0 5 0 10124 0 0
+/error/
+0 43 0 254480 16 14
+/error/506.shtml
+0 7 0 14238 0 0
+/error/405.shtml
+0 4 0 7948 0 0
+/error/406.shtml
+0 5 0 9959 0 0
+/error/400.shtml
+0 3 0 4930 0 0
+/error/423.shtml
+0 7 0 13823 0 0
+/error/414.shtml
+0 7 0 14000 0 0
+/error/412.shtml
+0 7 0 14174 0 0
+/error/505.shtml
+0 7 0 14188 0 0
+/error/502.shtml
+0 7 0 14063 0 0
+/error/507.shtml
+0 7 0 14119 0 0
+/error/402.shtml
+0 5 0 8226 0 0
+/error/401.shtml
+0 5 0 8283 0 0
+/error/501.shtml
+0 7 0 14021 0 0
+/
+0 80 0 64355 62 13
+/error/411.shtml
+0 7 0 14181 0 0
+/error/503.shtml
+0 7 0 13972 0 0
+/error/422.shtml
+0 5 0 10043 0 0
+/error/413.shtml
+0 6 0 12034 0 0
+/error/409.shtml
+0 3 0 5980 0 0
+/error/415.shtml
+0 7 0 14189 0 0
+/error/403.shtml
+0 5 0 8167 0 0
+# End Of Table - urls
+# -sites- (monthly)
+unused-space.coop.net
+0 11 5 18512 1 1766000169
+/error/
+195.178.110.54
+0 1 1 797 1 1765960691
+/
+scanner-205.hk2.censys-scanner.com
+0 7 3 11295 1 1765376773
+/error/
+45.148.10.204
+0 30 2 38266 1 1765110258
+/
+27.166.245.35.bc.googleusercontent.com
+0 1 1 797 1 1765972491
+/
+c107.babbar.eu
+0 13 12 39680 2 1766065657
+/error/
+c104.babbar.eu
+0 12 12 38529 3 1766487269
+/error/
+c223.babbar.eu
+0 10 10 29769 3 1766487273
+/error/
+25.192.7.34.bc.googleusercontent.com
+0 1 1 832 1 1766745345
+/
+ec2-3-85-231-242.compute-1.amazonaws.com
+0 1 1 797 1 1766189799
+/
+c110.babbar.eu
+0 16 15 37469 4 1766487238
+/error/
+93.158.90.137
+0 1 1 832 1 1766637507
+/
+167.94.138.180
+0 5 2 9008 1 1766624930
+/error/
+scanner-001.ch1.censys-scanner.com
+0 7 3 11275 1 1766054872
+/error/
+unrivalled.monitoring.internet-measurement.com
+0 1 1 797 1 1765769982
+/
+66.132.153.113
+0 7 3 11460 1 1766668969
+/error/
+45.148.10.63
+0 30 2 38151 1 1765497483
+/
+216.73.216.112
+0 86 74 190648 3 1765392738
+/error/
+internettl.org
+0 8 4 9537 4 1766571594
+/
+254.116.169.34.bc.googleusercontent.com
+0 1 1 797 1 1765096374
+/
+essential.monitoring.internet-measurement.com
+0 1 1 797 1 1765902174
+/
+192.71.12.140
+0 1 0 1617 1 1766643087
+/
+216.73.216.109
+0 10 6 18861 1 1765467789
+/error/
+33.238.231.35.bc.googleusercontent.com
+0 21 3 31322 1 1766041537
+/
+c111.babbar.eu
+0 12 11 34198 4 1766487288
+/error/
+216.73.216.53
+0 22 13 43455 3 1765656653
+/error/
+146.190.247.25
+0 2 1 2487 1 1764918076
+/
+49.170.230.35.bc.googleusercontent.com
+0 1 1 797 1 1765982376
+/
+scanner-206.hk2.censys-scanner.com
+0 5 2 8992 1 1766670503
+-
+138.68.167.90
+0 2 1 2463 1 1765603341
+/
+11.42.247.35.bc.googleusercontent.com
+0 1 1 797 1 1765094712
+/
+151.245.236.35.bc.googleusercontent.com
+0 21 3 31339 1 1766394773
+/
+93.137.38.34.bc.googleusercontent.com
+0 1 1 797 1 1765981731
+/
+161.193.23.34.bc.googleusercontent.com
+0 1 1 797 1 1765097877
+/
+c247.babbar.eu
+0 17 16 31849 3 1766487253
+/error/
+116.76.14.34.bc.googleusercontent.com
+0 1 1 832 1 1766731781
+/
+c108.babbar.eu
+0 10 9 21584 2 1766065611
+/
+137.184.143.190
+0 2 1 2488 1 1766105369
+/
+c106.babbar.eu
+0 14 13 24799 1 1766065770
+/
+compassionate.monitoring.internet-measurement.com
+0 1 1 797 1 1765995236
+/
+137.184.234.224
+0 2 1 2531 1 1766805627
+/
+crawl-prodd4-11.babbar.eu
+0 13 11 26294 3 1766487115
+/
+235.191.187.35.bc.googleusercontent.com
+0 1 1 832 1 1766757960
+/
+ec2-100-30-248-17.compute-1.amazonaws.com
+0 2 2 1594 2 1765913234
+/
+219.76.230.35.bc.googleusercontent.com
+0 1 1 797 1 1765972784
+/
+167.94.138.195
+0 6 3 9840 1 1766624880
+-
+c102.babbar.eu
+0 11 10 18823 2 1766487130
+/
+c103.babbar.eu
+0 13 13 32350 2 1766487258
+/error/
+c224.babbar.eu
+0 2 2 3956 0 0
+-
+c109.babbar.eu
+0 8 8 26153 2 1766065832
+/error/
+188.153.118.136.bc.googleusercontent.com
+0 1 1 797 1 1765082800
+/
+45.148.10.80
+0 1 1 797 1 1764711780
+/
+64.227.135.113
+0 1 0 16 0 0
+-
+c105.babbar.eu
+0 12 11 19940 3 1766065755
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+137.184.234.224
+0 2 1 2531 1 1766805627
+/
+# End Of Table - sites (daily)
+# -referrers- 
+http://www.events.magentaweb.org:80/cgi-bin
+0 5
+http://www.events.magentaweb.org:80/error
+0 5
+http://events.magentaweb.org:80/error
+0 3
+- (Direct Request)
+0 445
+http://events.magentaweb.org/
+0 2
+http://www.events.magentaweb.org/cgi-bin
+0 1
+http://events.magentaweb.org:80/cgi-bin
+0 3
+http://www.events.magentaweb.org/error
+0 2
+http://www.events.magentaweb.org/
+0 2
+http://events.magentaweb.org/error
+0 1
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0
+0 1
+Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)
+0 3
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (iPhone; CPU iPhone OS 16_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/122.0.6261.89 Mobile/15
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+0 48
+Mozilla/5.0 (compatible; Barkrowler/0.9; +https://babbar.tech/crawler)
+0 163
+Mozilla/5.0 (X11; Linux x86_64; rv:139.0) Gecko/20100101 Firefox/139.0
+0 2
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ClaudeBot/1.0; +claudebot@anthropic.com)
+0 118
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+0 42
+curl/7.61.1
+0 8
+python-httpx/0.28.1
+0 60
+Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+0 6
+Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36
+0 1
+Mozilla/5.0 (Linux; Android 9; MIX 2S Build/PKQ1.180729.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66
+0 1
+Mozilla/5.0 (compatible; CMS-Checker/1.0; +https://example.com)
+0 11
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

@@ -1,0 +1,257 @@
+# Webalizer V2.23-08 Incremental Data - 12/27/2025 20:49:01
+2025 12 27 20 49 1
+186 72 30 3 9 13 60749 124 34 0
+1 1 21 2 27
+0 0 0 0 0 0
+2 1 794 1 1 1
+12 6 4985 3 10 3
+0 0 0 0 0 0
+5 5 3970 5 5 5
+0 0 0 0 0 0
+0 0 0 0 0 0
+9 4 3397 1 8 1
+9 4 3385 1 8 1
+32 8 6653 4 16 4
+1 1 794 1 1 1
+0 0 0 0 0 0
+2 2 1588 2 2 2
+0 0 0 0 0 0
+45 8 6384 4 8 4
+10 6 4973 3 10 3
+18 8 6794 3 16 3
+0 0 0 0 0 0
+9 4 3397 1 8 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+15 7 6391 2 15 2
+0 0 0 0 0 0
+16 7 6415 2 15 2
+1 1 829 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+15 7 6391 15
+0 0 0 0
+23 4 3192 4
+2 1 794 1
+3 3 2382 3
+2 1 794 1
+0 0 0 0
+0 0 0 0
+25 6 4844 10
+1 1 794 1
+21 3 2398 3
+2 2 1588 2
+19 9 7588 17
+0 0 0 0
+0 0 0 0
+9 4 3397 8
+9 4 3385 8
+10 5 4191 9
+41 19 16594 39
+1 1 829 1
+2 1 794 1
+1 1 794 1
+0 0 0 0
+0
+0
+0
+72
+0
+0
+0
+0
+0
+0
+0
+36
+0
+0
+0
+0
+0
+0
+0
+0
+0
+78
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/8d/
+0 12 8314054134234184297 9368 0 0
+/8d/klasse/
+0 12 94770724948240 3444 0 0
+/
+0 48 0 38357 34 3
+# End Of Table - urls
+# -sites- (monthly)
+unused-space.coop.net
+0 16 7 6190 2 1766776160
+/8d/klasse/
+scanner-205.hk2.censys-scanner.com
+0 9 4 3385 1 1765299875
+-
+162.142.125.125
+0 7 3 2603 1 1765999325
+/8d/klasse/
+66.132.153.122
+0 9 4 3397 1 1764768041
+/8d/klasse/
+ec2-3-253-235-217.eu-west-1.compute.amazonaws.com
+0 1 1 794 1 1764936471
+/
+scanner-202.hk2.censys-scanner.com
+0 9 4 3397 1 1765374583
+/8d/klasse/
+254.184.113.136.bc.googleusercontent.com
+0 21 3 2398 1 1765768843
+/
+scanner-001.ch1.censys-scanner.com
+0 8 4 3610 1 1766538829
+/8d/klasse/
+167.71.5.131
+0 2 1 794 1 1765832525
+/
+66.132.153.60
+0 2 2 1588 1 1765912684
+/
+194.180.49.170
+0 21 2 1668 1 1765360312
+/
+36.250.42.34.bc.googleusercontent.com
+0 21 3 2398 1 1765797538
+/
+66.132.153.115
+0 9 4 3622 1 1766776777
+-
+scanner-202.ch1.censys-scanner.com
+0 9 4 3397 1 1766161978
+/8d/klasse/
+238.206.148.34.bc.googleusercontent.com
+0 1 1 794 1 1764925862
+/
+renowned.monitoring.internet-measurement.com
+0 1 1 794 1 1765343966
+/
+239.150.23.34.bc.googleusercontent.com
+0 1 1 794 1 1764927063
+/
+165.232.94.205
+0 2 1 794 1 1765953861
+/
+audacious.monitoring.internet-measurement.com
+0 1 1 794 1 1765344665
+/
+ec2-44-210-117-108.compute-1.amazonaws.com
+0 1 1 794 1 1765628176
+/
+143.198.32.89
+0 2 1 794 1 1764737203
+/
+72.181.245.35.bc.googleusercontent.com
+0 1 1 794 1 1764928619
+/
+66.132.159.246
+0 7 3 2591 1 1765912326
+-
+ec2-100-30-248-17.compute-1.amazonaws.com
+0 2 2 1588 2 1765911558
+/
+scan.cypex.ai
+0 3 3 2417 3 1766868541
+/
+138.68.164.45
+0 2 1 794 1 1764645950
+/
+167.94.138.177
+0 9 4 3397 1 1765217923
+-
+156.67.145.34.bc.googleusercontent.com
+0 1 1 794 1 1764928692
+/
+66.132.153.54
+0 7 3 2781 1 1766538235
+-
+45.148.10.80
+0 1 1 794 1 1764738065
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+scan.cypex.ai
+0 1 1 829 1 1766868541
+/
+# End Of Table - sites (daily)
+# -referrers- 
+http://taskcards.magentaweb.org:80/cgi-bin
+0 4
+http://taskcards.magentaweb.org:80/8d/klasse
+0 4
+- (Direct Request)
+0 146
+http://www.taskcards.magentaweb.org:80/8d/klasse
+0 8
+http://www.taskcards.magentaweb.org/
+0 2
+http://taskcards.magentaweb.org/
+0 2
+http://www.taskcards.magentaweb.org:80/8d
+0 8
+http://taskcards.magentaweb.org:80/8d
+0 4
+http://www.taskcards.magentaweb.org:80/cgi-bin
+0 8
+# End Of Table - referrers
+# -agents- 
+cypex.ai/scanning Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126.0.0.0 Safari/537.36
+0 3
+Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)
+0 2
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+0 101
+Mozilla/5.0 (X11; Linux x86_64; rv:139.0) Gecko/20100101 Firefox/139.0
+0 4
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:92.0) Gecko/20100101 Firefox/92.0
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+0 42
+python-httpx/0.28.1
+0 21
+Mozilla/5.0 (Linux; Android 8.0.0; SM-G950U1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.111 Mobile Safari/537.3
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+0 4
+Mozilla/5.0 (compatible; CMS-Checker/1.0; +https://example.com)
+0 4
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36
+0 1
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

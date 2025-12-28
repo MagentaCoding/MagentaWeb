@@ -1,0 +1,583 @@
+AWSTATS DATA FILE 8.0 (build 20240604)
+# If you remove this file, all statistics for date 202512 will be lost/reset.
+# Last config file used to build this data file was /home/magentaw/tmp/awstats/ssl/awstats.emil.magentaweb.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2091                
+POS_TIME 2756                
+POS_VISITOR 12593               
+POS_DAY 14970               
+POS_DOMAIN 3409                
+POS_LOGIN 3773                
+POS_ROBOT 3928                
+POS_WORMS 4246                
+POS_EMAILSENDER 4377                
+POS_EMAILRECEIVER 4520                
+POS_SESSION 15459               
+POS_FILESIZE 15719               
+POS_REQUESTTIME 15824               
+POS_SIDER 15639               
+POS_FILETYPES 4655                
+POS_DOWNLOADS 4739                
+POS_OS 4787                
+POS_BROWSER 4950                
+POS_SCREENSIZE 5537                
+POS_UNKNOWNREFERER 5611                
+POS_UNKNOWNREFERERBROWSER 6818                
+POS_ORIGIN 7702                
+POS_SEREFERRALS 7836                
+POS_PAGEREFS 7980                
+POS_SEARCHWORDS 8128                
+POS_KEYWORDS 8280                
+POS_MISC 2420                
+POS_ERRORS 8339                
+POS_CLUSTER 3629                
+POS_SIDER_404 8440                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20251228003616 10 1872 16730716159668
+FirstTime 0
+LastTime 20251227113757
+LastUpdate 20251228070348 10 0 10 0 0
+TotalVisits 69                  
+TotalUnique 60                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 60                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 3 4824 5 9 6745
+1 2 2 3217 0 2 1716
+2 4 4 6517 8 13 12525
+3 5 5 7865 45 63 87943
+4 4 4 3204 2 3 3188
+5 2 2 3094 6 9 14884
+6 14 14 14366 10 19 23511
+7 5 5 6387 6 17 25714
+8 1 1 1582 9 13 21346
+9 1 1 1591 3 6 8364
+10 2 2 3122 3 9 10163
+11 6 6 9583 6 11 10060
+12 1 1 1512 5 8 11638
+13 7 7 11121 9 15 15071
+14 14 14 20810 147 173 218890
+15 6 6 9530 5 8 8304
+16 2 2 3119 0 2 0
+17 6 6 9305 10 16 12103
+18 0 0 0 2 4 6591
+19 1 1 1561 1 5 6853
+20 3 3 4751 0 0 0
+21 3 3 4783 3 5 6682
+22 3 3 4826 7 11 11867
+23 9 9 12519 26 38 56972
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 12
+us 58 58 87007
+de 13 13 20677
+ca 9 9 12894
+gb 8 8 3196
+in 7 7 11309
+ru 3 3 4603
+br 1 1 1609
+cn 1 1 1606
+gr 1 1 1593
+au 1 1 1588
+mx 1 1 1611
+no 1 1 1496
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+GPTBot/ 21 33352 20251227220116 0
+survey 4 6227 20251211043612 0
+bot[\s_+:,\.\;\/\\-] 3 4715 20251224181321 0
+scrapy 2 3045 20251217032002 0
+[\s_+:,\.\;\/\\-]bot 1 1550 20251221081948 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 1
+html 104 149189 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+win8.1 1 1
+win10 50 50
+linux 15 15
+macosx15 6 6
+Unknown 25 25
+macosx14 1 1
+wii 1 1
+ios_iphone 5 5
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 28
+firefox124.0 1 1
+chrome58.0.3029.110 6 6
+chrome143.0.0.0 1 1
+netscape5.0 8 8
+chrome109.0.5414.168 1 1
+opera124.0.0.0 5 5
+chrome125.0.0.0 12 12
+Unknown 14 14
+chrome134.0.0.0 3 3
+chrome96.0.4664.110 1 1
+chrome60.0.3112.113 10 10
+safari16.5 2 2
+chrome126.0.0.0 2 2
+chrome117.0.0.0 4 4
+chrome91.0.4472.124 2 2
+firefox139.0 1 1
+firefox142.0 1 1
+chrome75.0.3770.80 1 1
+chrome139.0.0.0 3 3
+chrome143.0.7499.4 2 2
+mozilla 11 11
+chrome142.0.0.0 4 4
+safari 2 2
+chrome120.0.0.0 2 2
+firefox146.0 1 1
+chrome116.0.0.0 2 2
+firefox141.0 1 1
+iphone 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 10
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20251225203534
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20251225230030
+a 20251213142307
+Python/3.14_aiohttp/3.13.2 20251217060433
+abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789\xe2\x81\xb0\xc2\xb9\xc2\xb2\xc2\xb3\xe2\x81\xb4\xe2\x81\xb5\xe2\x81\xb6\xe2\x81\xb7\xe2\x81\xb8\xe2\x81\xb9\xe2\x82\x80\xe2\x82\x81\xe2\x82\x82\xe2\x82\x83\xe2\x82\x84\xe2\x82\x85\xe2\x82\x86\xe2\x82\x87\xe2\x82\x88\xe2\x82\x89\xc2\xbc\xe2\x85\x93\xe2\x85\x96\xe2\x85\x99\xe2\x85\x9b\xe2\x85\x9e\xc2\xbd\xc2\xbe\xe2\x85\x94\xe2\x85\x95\xe2\x85\x97\xe2\x85\x98\xe2\x85\x9a\xe2\x85\x90\xe2\x85\x9c\xe2\x85\x9d\xe2\x85\x91\xe2\x85\x92 20251213142807
+Python/3.10_aiohttp/3.13.2 20251218235059
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20251218062307
+Mozilla/5.0 20251222231627
+python-httpx/0.28.1 20251220033350
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20251225132231
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+Python/3.10_aiohttp/3.13.2 20251218235059
+abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789\xe2\x81\xb0\xc2\xb9\xc2\xb2\xc2\xb3\xe2\x81\xb4\xe2\x81\xb5\xe2\x81\xb6\xe2\x81\xb7\xe2\x81\xb8\xe2\x81\xb9\xe2\x82\x80\xe2\x82\x81\xe2\x82\x82\xe2\x82\x83\xe2\x82\x84\xe2\x82\x85\xe2\x82\x86\xe2\x82\x87\xe2\x82\x88\xe2\x82\x89\xc2\xbc\xe2\x85\x93\xe2\x85\x96\xe2\x85\x99\xe2\x85\x9b\xe2\x85\x9e\xc2\xbd\xc2\xbe\xe2\x85\x94\xe2\x85\x95\xe2\x85\x97\xe2\x85\x98\xe2\x85\x9a\xe2\x85\x90\xe2\x85\x9c\xe2\x85\x9d\xe2\x85\x91\xe2\x85\x92 20251213142807
+a 20251213142307
+Python/3.14_aiohttp/3.13.2 20251217060433
+python-httpx/0.28.1 20251220033350
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20251225230030
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 104 104
+From1 0 0
+From2 0 0
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+404 392 531597
+421 2 644
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 195
+/tokens.json 1 -
+/test/info.php 1 -
+/.dockerenv 1 -
+/wp-config.php 2 -
+/.env.example 1 -
+/debug.php 2 -
+/vendor/.env 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 -
+/uploads/.env 1 -
+/lab/.env 1 -
+/core/app/.env 1 -
+/config.json 2 -
+/phpinfo.php 2 -
+/.env.sample 1 -
+/kubernetes.yml 1 -
+/app_dev.php/_profiler/open 1 -
+/docker-compose.override.yml 1 -
+/probe.php 1 -
+/.env.log 1 -
+/.env.1 1 -
+/.aws/config 1 -
+/info2.php 1 -
+/backup/phpinfo.php 1 -
+/app/logs/dev.log 1 -
+/2.php 1 -
+/app/etc/env.php 1 -
+/deploy.sh 1 -
+/check.php 1 -
+/oauth.json 1 -
+/aws.config.js 2 -
+/_next 2 -
+/includes/.env 1 -
+/api/v1/config 1 -
+/Thumbs.db 1 -
+/backup.zip 1 -
+/3.php 1 -
+/var/log/nginx/error.log 1 -
+/_profiler/phpinfo 2 -
+/t.php 1 -
+/assets/.env 1 -
+/.env.production 2 -
+/php.php 1 -
+/en/.env 1 -
+/.azure/credentials 1 -
+/storage/logs/laravel.log 1 -
+/php-info.php 1 -
+/v2/.env 1 -
+/config/.env 2 -
+/psnlink/.env 1 -
+/api/v2/config 1 -
+/themes/.env 1 -
+/apikeys.json 1 -
+/s3.yml 1 -
+/src/.env 1 -
+/.DS_Store 1 -
+/sites/default/settings.php 1 -
+/apps/.env 1 -
+/.env.txt 1 -
+/app/.env 1 -
+/api/.env 1 -
+/admin/.env 3 -
+/docker-compose.yaml 1 -
+/.env.test 2 -
+/php_version.php 1 -
+/_fragment 1 -
+/aws-config.json 1 -
+/testphp.php 1 -
+/i.php 1 -
+/logs/error.log 1 -
+/debug.log 1 -
+/README.md 1 -
+/_next/data 7 -
+/logs/application.log 1 -
+/api/action 7 -
+/saas/.env 1 -
+/diagnostic.php 1 -
+/logs/phpinfo.php 1 -
+/backend/.env 3 -
+/.well-known/security.txt 4 -
+/info.php 2 -
+/dev/phpinfo.php 1 -
+/lib/.env 1 -
+/cron/.env 1 -
+/frontend/.env 1 -
+/secrets.yml 1 -
+/.env.2 1 -
+/.gcloud/credentials 1 -
+/.env 12 -
+/apps 7 -
+/web/.env 1 -
+/kubernetes/.env 1 -
+/robots.txt 70 -
+/database/.env 1 -
+/wp-content/debug.log 1 -
+/https%3A/fonts.googleapis.com/https%3A/fonts.googleapis.com/css2%3Ffamily%3DNabla%26family%3DNova%2BSquare%26display%3Dswap 1 -
+/docker-compose.yml 2 -
+/var/log/apache2/error.log 1 -
+/core/Datavase/.env 1 -
+/.dockerignore 1 -
+/dump.sql 1 -
+/server/.env 1 -
+/site-backup.zip 1 -
+/Dockerfile 1 -
+/exapi/.env 1 -
+/.aws/credentials 2 -
+/backup.tar.gz 1 -
+/error.log 1 -
+/.env.prod.local 1 -
+/modules/.env 1 -
+/aws.json 1 -
+/laravel/.env 1 -
+/db_backup.sql 1 -
+/https%3A/fonts.googleapis.com/css2%3Ffamily%3DNabla%26family%3DNova%2BSquare%26display%3Dswap 2 -
+/enhancecp 1 -
+/public/.env 2 -
+/var/www/html/error_log 1 -
+/pi.php 1 -
+/config.js 2 -
+/config/parameters.yml 1 -
+/.docker/config.json 1 -
+/info_php.php 1 -
+/.s3cfg 1 -
+/.env.dev.local 2 -
+/configuration.php 1 -
+/sitemaps/.env 1 -
+/p.php 1 -
+/info3.php 1 -
+/php_info.php 2 -
+/.git/logs/HEAD 2 -
+/cronlab/.env 1 -
+/api/actions 7 -
+/_debug 1 -
+/log/error.log 1 -
+/.env.staging 2 -
+/.env.save 3 -
+/core/.env 1 -
+/client/.env 1 -
+/azure.json 1 -
+/secrets.json 1 -
+/.env.remote 1 -
+/admin/info.php 1 -
+/storage/.env 2 -
+/config.zip 1 -
+/.git/config 18 -
+/serverinfo.php 1 -
+/vendor/laravel-filemanager/js/script.js 3 -
+/.vscode/settings.json 1 -
+/aws-config.js 2 -
+/.npmrc 2 -
+/public/vendor/laravel-filemanager/js/script.js 3 -
+/sendgrid.env 2 -
+/database.sql 1 -
+/tools/.env 1 -
+/plugins/.env 1 -
+/tmp/.env 1 -
+/config/settings.js 1 -
+/.env.bak 4 -
+/auth.json 1 -
+/test.php 2 -
+/errors.log 1 -
+/keys.json 1 -
+/api/config 1 -
+/terraform.tfvars 1 -
+/.env.backup 2 -
+/phpinfo 2 -
+/info1.php 1 -
+/credentials.json 1 -
+/site/.env 1 -
+/.well-known/discord 24 -
+/administrator/.env 1 -
+/.api_keys 1 -
+/backup.sql 1 -
+/staging/phpinfo.php 1 -
+/infophp.php 2 -
+/public/_ignition/execute-solution 3 -
+/k8s-config.yml 1 -
+/_ignition/execute-solution 3 -
+/v1/.env 1 -
+/php_error.log 1 -
+/security.txt 1 -
+/server.php 2 -
+/docker/.env 1 -
+/.env.development 2 -
+/dashboard/info.php 1 -
+/api_keys.json 1 -
+/app/etc/local.xml 1 -
+/.secrets 1 -
+/phptest.php 1 -
+/gcp-credentials.json 1 -
+/phpversion.php 1 -
+/app/logs/prod.log 1 -
+/admin/phpinfo.php 1 -
+/.env.old 1 -
+/1.php 1 -
+/.env.local 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 60
+146.70.185.32 8 8 3196 20251220043831
+80.134.128.183 8 8 12862 20251219151716
+13.233.121.227 4 4 6188 20251222172226
+209.38.82.156 4 4 4803 20251218232908
+170.64.175.202 4 4 4794 20251219074408
+134.199.149.81 4 4 4794 20251218144014
+204.76.203.25 3 3 4788 20251222220912
+65.87.7.112 3 3 3142 20251218062307
+13.201.99.219 2 2 3234 20251217004232
+103.4.250.26 2 2 3204 20251219112547
+100.30.248.17 2 2 3179 20251215100456
+34.124.135.103 2 2 3094 20251212054413
+107.172.195.155 2 2 3178 20251219155947
+87.157.88.166 2 2 3163 20251224155138
+15.228.198.51 2 2 3242 20251222142739
+45.148.10.80 2 2 3261 20251205020555
+194.180.49.169 2 2 3020 20251220033350
+195.178.110.132 2 2 3032 20251218235059
+64.226.126.21 2 2 3028 20251217060433
+100.24.28.182 2 2 3234 20251218021509
+35.156.131.198 2 2 3236 20251222134258
+34.252.52.2 2 2 3230 20251219222540
+103.196.9.98 1 1 1586 20251219155943
+103.142.70.242 1 1 1628 20251218062833
+18.196.196.58 1 1 1548 20251223132909
+104.248.29.253 1 1 1588 20251202214406
+139.59.142.178 1 1 1588 20251220142953
+178.128.165.230 1 1 1593 20251220074747
+161.35.77.148 1 1 1587 20251222131810
+159.89.14.89 1 1 1590 20251222004742
+66.132.153.130 1 1 1561 20251221110637
+45.148.104.161 1 1 1630 20251218062853
+146.59.34.59 1 1 1496 20251222231627
+3.146.111.124 1 1 1582 20251206084249
+187.189.17.40 1 1 1611 20251227113757
+185.247.137.3 1 1 1571 20251225203534
+172.111.15.241 1 1 1624 20251218062835
+44.221.70.185 1 1 1554 20251215201856
+199.45.155.76 1 1 1556 20251218104859
+164.92.210.53 1 1 1591 20251222090338
+5.182.124.85 1 1 1632 20251218062918
+162.142.125.219 1 1 1558 20251212162021
+198.235.24.166 1 1 1631 20251225230030
+147.185.132.90 1 1 1627 20251202020244
+207.154.217.153 1 1 1599 20251222211949
+167.94.138.184 1 1 1561 20251219193910
+134.209.45.46 1 1 1591 20251208011120
+18.117.110.225 1 1 1551 20251222172503
+66.132.153.141 1 1 1557 20251225132231
+3.138.185.30 1 1 1581 20251217135924
+104.252.191.49 1 1 1598 20251219112539
+205.210.31.241 1 1 1627 20251206033721
+18.194.223.96 1 1 1548 20251202144246
+159.223.220.95 1 1 1557 20251218154814
+205.210.31.80 1 1 1626 20251225204356
+199.45.154.151 1 1 1561 20251212162756
+205.210.31.58 1 1 1626 20251223013351
+134.122.55.242 1 1 1557 20251216230839
+111.7.96.154 1 1 1606 20251226044052
+186.251.213.225 1 1 1609 20251227113757
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 21
+20251202 3 3 4763 3
+20251203 1 1 1596 1
+20251204 1 1 1605 1
+20251205 1 1 1656 1
+20251206 2 2 3209 2
+20251208 1 1 1591 1
+20251212 5 5 7826 4
+20251213 7 7 11204 2
+20251215 2 2 3120 2
+20251216 4 4 6277 4
+20251217 4 4 6331 3
+20251218 26 26 30230 12
+20251219 14 14 20763 8
+20251220 7 7 7799 4
+20251221 1 1 1561 1
+20251222 15 15 23676 10
+20251223 2 2 3174 2
+20251224 1 1 1597 1
+20251225 4 4 6385 4
+20251226 1 1 1606 1
+20251227 2 2 3220 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+5mn-15mn 1
+15mn-30mn 2
+0s-30s 65
+2mn-5mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 1
+/ 104 149189 69 69
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 3
+1K-2K 483
+0-44 78
+100-500 2
+END_FILESIZE
+
+# Request Time Range - Request Time Frequency
+BEGIN_REQUESTTIME 0
+END_REQUESTTIME

@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+
+  <!-- Google Fonts Einbettung -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Ubuntu&family=Jersey+20&family=Tektur&family=Cairo+Play&family=Rubik+Glitch&display=swap" rel="stylesheet">
+  
+  <meta charset="UTF-8" />
+  <title>Sitzordnung</title>
+  <style>
+    body {
+      font-family: "Ubuntu", sans-serif;
+      padding: 30px;
+      background-color: #f0f0f0;
+    }
+    h1 {
+      font-family: "Jersey 10";
+      text-align: center;
+    }
+    h2 {
+      font-family: "Jersey 20";
+      text-align: center;
+    }
+    p {
+      font-family: Tektur;
+    }
+    b {
+      font-family: "Cairo Play";
+      font-size: 20px
+    }
+    .info, .ordnungsdienst, .wichtigeinfo, .credits, .info-hide-on-print, .nav {
+      padding: 10px;
+      margin: 20px auto;
+      max-width: 800px;
+      border-radius: 5px;
+    }
+    .nav {
+      font-family: "Rubik Glitch";
+      font-size: 21px;
+    }
+    .credits {
+      background-color: #ff00ff;
+      border: 5px solid #ff33ff;
+    }
+    .info, .info-hide-on-print {
+      background-color: #fff3cd;
+      border: 1px solid #ffeeba;
+    }
+    .wichtigeinfo {
+      background-color: #ff0000;
+      border: 1px solid #bee5eb;
+    }
+    .ordnungsdienst {
+      background-color: #d1ecf1;
+      border: 1px solid #bee5eb;
+    }
+    .klassenzimmer {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 40px;
+      justify-items: center;
+      margin-top: 40px;
+    }
+    .tisch {
+      display: grid;
+      grid-template-columns: repeat(2, 60px);
+      grid-template-rows: repeat(3, 60px);
+      gap: 5px;
+      padding: 10px;
+      border: 2px solid #444;
+      border-radius: 8px;
+      background: white;
+      position: relative;
+    }
+    .tisch-nw {
+      display: grid;
+      grid-template-columns: repeat(4, 60px);
+      grid-template-rows: repeat(1, 60px);
+      gap: 5px;
+      padding: 10px;
+      border: 2px solid #444;
+      border-radius: 8px;
+      background: white;
+      position: relative;
+    }
+    .klein {
+      grid-template-columns: repeat(2, 60px);
+      grid-template-rows: repeat(2, 60px);
+    }
+    .platz {
+      font-size: 25px;
+      background: #fff;
+      border: 1px solid #888;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: bold;
+      border-radius: 4px;
+    }
+    .platz-unbekannt {
+      font-size: 12px;
+      background: #fff;
+      border: 1px solid #888;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: bold;
+      border-radius: 4px;
+    }
+    .pult-container {
+      margin-top: 60px;
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      align-items: center;
+    }
+    .pult-box {
+      border: 2px solid #222;
+      padding: 10px 20px;
+      font-weight: bold;
+      background-color: #ddd;
+      border-radius: 5px;
+    }
+    .agrin-box {
+      border: 2px solid #222;
+      padding: 10px 15px;
+      font-weight: bold;
+      background-color: #fff3cd;
+      border-radius: 5px;
+      font-size: 14px;
+      text-align: center;
+      min-width: 60px;
+    }
+    button.hide-on-print {
+      background-color: #d80073;
+      color: white;
+      border: none;
+      padding: 10px 18px;
+      font-size: 14px;
+      font-weight: bold;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button.hide-on-print:hover {
+      background-color: #a00054;
+    }
+    .cookie-banner {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+    }
+    .cookie-content {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 500px;
+      text-align: left;
+      font-family: "Ubuntu", sans-serif;
+    }
+    .cookie-option {
+      margin: 10px 0;
+    }
+    .cookie-buttons {
+      margin-top: 20px;
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+    }
+    .cookie-buttons button {
+      padding: 10px 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    #accept-all {
+      background: #28a745;
+      color: white;
+    }
+    #save-settings {
+      background: #007bff;
+      color: white;
+    }
+    @media print {
+      body {
+        background-color: white;
+        color: black;
+      }
+      .info, .ordnungsdienst, .wichtigeinfo, .credits {
+        background-color: white;
+        border: none;
+      }
+      .hide-on-print, .info-hide-on-print {
+        display: none;
+      }
+      .platz {
+        border: 1px solid #000;
+      }
+      .tisch {
+        border-color: #000;
+      }
+      .pult-box {
+        background-color: #fff;
+        border-color: #000;
+      }
+      .agrin-box {
+        background-color: white;
+        border-color: #000;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Cookie Consent Banner -->
+<div id="cookie-banner" class="cookie-banner">
+  <div class="cookie-content">
+    <h2>Cookie-Einstellungen</h2>
+    <p>Wir verwenden Cookies, um unsere Website zu betreiben und zu verbessern. Bitte wähle aus:</p>
+
+    <div class="cookie-option">
+      <input type="checkbox" id="necessary" checked disabled>
+      <label for="necessary"><b>Notwendige Cookies</b> (immer aktiv, z. B. Google Fonts)</label>
+    </div>
+
+    <div class="cookie-option">
+      <input type="checkbox" id="analytics">
+      <label for="analytics"><b>Analyse-Cookies</b> (Google Tag Manager)</label>
+    </div>
+
+    <div class="cookie-buttons">
+      <button id="accept-all">Alle akzeptieren</button>
+      <button id="save-settings">Speichern</button>
+    </div>
+  </div>
+</div>
+
+<h1>Sitzordnung</h1>
+<nav class="nav">
+  <a href="#INFO">Info</a><br>
+  <a href="#SO">Normale Sitzordnung</a><br>
+  <a href="#SO-HW">Hauswirtschaftliche Sitzordnung</a><br>
+  <a href="#SO-NW">Naturwissenschaftliche Sitzordnung</a><br>
+  <a href="#NZG">Namenszufallsgenerator</a>
+</nav>
+
+<section id="INFO">
+  <div class="wichtigeinfo">
+    <p><strong>Bitte immer regelmäsig aktualisieren, denn es kann vorkommen das der Sitzplan aktualisiert wird, wenn etwas falsch eingetragen oder eine neue Funktion hinzugefügt wurde</strong></p>
+  </div>
+
+  <div class="info">
+    <p><strong>Funktionen</strong><br>
+    Sitzplan/Sitzordnung<br>
+    Interaktive Buttons<br>
+    Ordnungsdienstfeld<br>
+    Namenszufallsgenerator
+    </p>
+  </div>
+
+  <div class="info">
+    <p>
+      <strong>Hinweis für die Lehrer:</strong><br>
+      Einige Fächer haben eine eigene Sitzordnung, bitte beachten sie dies.<br>
+      Fächer mit eigener Sitzordnung:<br>
+      <ul>
+        <li><b>Hauswirtschaft</b></li>
+      </ul><br>
+      Das Umsetzen ohne Genehmigung ist verboten (Ausrichtung & Anweisung von Herr Oels).<br>
+      Bitte überprüfen Sie ab Beginn der Stunde, ob die Kinder richtig sitzen. Dafür ist dieser Sitzplan da.<br>
+      Denken Sie daran, am Anfang der Stunde die Anwesenheit der Schüler zu überprüfen. Mit dem Button unten geht es zum digitalen Klassenbuch.<br>
+      Vielen Dank!
+      <br>
+      <button class="hide-on-print" onclick="window.open('https://my.mnspro.cloud/', '_blank')">Zum digitalen Klassenbuch</button>
+      <button class="hide-on-print" onclick="window.open('mailto:alexander.gal@fbges.de?subject=Verbesserungsvorschlag%20f%C3%BCr%20die%20Sitzrdnung%20der%20Klasse%208d', '_blank')">Senden einer E-Mail bezüglich zu Fehlern oder Verbesserungsvorschlägen</button>
+    </p>
+  </div>
+</section>
+
+<section id="SO">
+  <h3>Normale Sitzordnung</h3>
+  <div class="klassenzimmer">
+    <div class="tisch" id="1">
+      <div class="platz">Ajan</div>
+      <div class="platz">Alexander</div>
+      <div class="platz">Agrin</div>
+      <div class="platz">Giulia</div>
+      <div class="platz">Patrick</div>
+      <div class="platz">Erta</div>
+    </div>
+    <div class="tisch" id="2">
+      <div class="platz">-- FREI --</div>
+      <div class="platz">Azad</div>
+      <div class="platz">Melina</div>
+      <div class="platz">Timo</div>
+      <div class="platz">Eftelya</div>
+      <div class="platz">Dominic</div>
+    </div>
+    <div class="tisch klein" id="3">
+      <div class="platz">Julian</div>
+      <div class="platz">Fabian</div>
+      <div class="platz">Maxim</div>
+      <div class="platz">Tana</div>
+    </div>
+    <div class="tisch klein" id="4">
+      <div class="platz">Ariana</div>
+      <div class="platz">Leo</div>
+      <div class="platz">Luisa</div>
+      <div class="platz">Noura</div>
+    </div>
+    <div class="tisch klein" id="5">
+      <div class="platz">Jana</div>
+      <div class="platz">Riman</div>
+      <div class="platz">Gero</div>
+      <div class="platz">Zeynep</div>
+    </div>
+    <div class="tisch klein" id="6">
+      <div class="platz">Ismael</div>
+      <div class="platz">Ben</div>
+      <div class="platz">Jamie</div>
+      <div class="platz">Yorick</div>
+    </div>
+    <div class="pult-container">
+      <div class="agrin-box">-- FREI --</div>
+      <div class="pult-box">Pult</div>
+    </div>
+  </div>
+</section>
+
+<section id="SOR1" style="display: none;">
+  <h3>Zufällige Sitzordnung</h3>
+  <div class="klassenzimmer">
+    <div class="tisch" id="1">
+      <div class="platz">Ismael</div>
+      <div class="platz">Leo</div>
+      <div class="platz">Dominic</div>
+      <div class="platz">Ismael</div>
+      <div class="platz">Jamie</div>
+      <div class="platz">Julian</div>
+    </div>
+    <div class="tisch" id="2">
+      <div class="platz">-- FREI --</div>
+      <div class="platz">Patrick</div>
+      <div class="platz">Agrin</div>
+      <div class="platz">Luisa</div>
+      <div class="platz">Ben</div>
+      <div class="platz">Ajan</div>
+    </div>
+    <div class="tisch klein" id="3">
+      <div class="platz">Azad</div>
+      <div class="platz">Noura</div>
+      <div class="platz">Tana</div>
+      <div class="platz">Fabian</div>
+    </div>
+    <div class="tisch klein" id="4">
+      <div class="platz">Alexander</div>
+      <div class="platz">Riman</div>
+      <div class="platz">Yorick</div>
+      <div class="platz">Maxim</div>
+    </div>
+    <div class="tisch klein" id="5">
+      <div class="platz">Zeynep</div>
+      <div class="platz">Ariana</div>
+      <div class="platz">Melina</div>
+      <div class="platz">Gero</div>
+    </div>
+    <div class="tisch klein" id="6">
+      <div class="platz">Erta</div>
+      <div class="platz">Jana</div>
+      <div class="platz">Timo</div>
+      <div class="platz">Eftelya</div>
+    </div>
+    <div class="pult-container">
+      <div class="agrin-box">-- FREI --</div>
+      <div class="pult-box">Pult</div>
+    </div>
+  </div>
+</section>
+
+<section id="SO2" style="display: none;">
+  <h3>Zufällige Sitzordnung 2</h3>
+  <div class="klassenzimmer">
+    <div class="tisch" id="1">
+      <div class="platz">Ajan</div>
+      <div class="platz">Jamie</div>
+      <div class="platz">Giulia</div>
+      <div class="platz">Leo</div>
+      <div class="platz">Dominic</div>
+      <div class="platz">Agrin</div>
+    </div>
+    <div class="tisch" id="2">
+      <div class="platz">-- FREI --</div>
+      <div class="platz">Julian</div>
+      <div class="platz">Fabian</div>
+      <div class="platz">Timo</div>
+      <div class="platz">Melina</div>
+      <div class="platz">Noura</div>
+    </div>
+    <div class="tisch klein" id="3">
+      <div class="platz">Patrick</div>
+      <div class="platz">Azad</div>
+      <div class="platz">Ben</div>
+      <div class="platz">Eftelya</div>
+    </div>
+    <div class="tisch klein" id="4">
+      <div class="platz">Ismael</div>
+      <div class="platz">Ariana</div>
+      <div class="platz">Riman</div>
+      <div class="platz">Erta</div>
+    </div>
+    <div class="tisch klein" id="5">
+      <div class="platz">Zeynep</div>
+      <div class="platz">Alexander</div>
+      <div class="platz">Luisa</div>
+      <div class="platz">Tana</div>
+    </div>
+    <div class="tisch klein" id="6">
+      <div class="platz">Maxim</div>
+      <div class="platz">Yorick</div>
+      <div class="platz">Jana</div>
+      <div class="platz">Gero</div>
+    </div>
+    <div class="pult-container">
+      <div class="agrin-box">-- FREI --</div>
+      <div class="pult-box">Pult</div>
+    </div>
+  </div>
+</section>
+
+<section id="SOR3" style="display: none;">
+  <h3>Zufällige Sitzordnung 3</h3>
+  <div class="klassenzimmer">
+    <div class="tisch" id="1">
+      <div class="platz">Jamie</div>
+      <div class="platz">Agrin</div>
+      <div class="platz">Giulia</div>
+      <div class="platz">Ben</div>
+      <div class="platz">Tana</div>
+      <div class="platz">Dominic</div>
+    </div>
+    <div class="tisch" id="2">
+      <div class="platz">-- FREI --</div>
+      <div class="platz">Yorick</div>
+      <div class="platz">Julian</div>
+      <div class="platz">Patrick</div>
+      <div class="platz">Riman</div>
+      <div class="platz">Luisa</div>
+    </div>
+    <div class="tisch klein" id="3">
+      <div class="platz">Ismael</div>
+      <div class="platz">Ajan</div>
+      <div class="platz">Maxim</div>
+      <div class="platz">Alexander</div>
+    </div>
+    <div class="tisch klein" id="4">
+      <div class="platz">Leo</div>
+      <div class="platz">Noura</div>
+      <div class="platz">Azad</div>
+      <div class="platz">Eftelya</div>
+    </div>
+    <div class="tisch klein" id="5">
+      <div class="platz">Jana</div>
+      <div class="platz">Ariana</div>
+      <div class="platz">Timo</div>
+      <div class="platz">Zeynep</div>
+    </div>
+    <div class="tisch klein" id="6">
+      <div class="platz">Melina</div>
+      <div class="platz">Fabian</div>
+      <div class="platz">Erta</div>
+      <div class="platz">Gero</div>
+    </div>
+    <div class="pult-container">
+      <div class="agrin-box">-- FREI --</div>
+      <div class="pult-box">Pult</div>
+    </div>
+  </div>
+</section>
+
+<section id="SO-HW">
+  <h3>Sitzordnung Hauswirtschaft</h3>
+  <div class="info">
+    <p><em><strong>¡Hola! Fach wird nicht unterrichtet!</em></strong><br>Hallo und herzlich willkommen, also, kommen wir direkt zum Punkt: Dieses Fach wird gerade nicht gerade nicht unterrichtet und deswegen gibt es auch für Hauswirtschaft gerade keine Sitzordnung<br><br>Vielen Dank für ihr Verständnis und danke das ich ihre Zeit verschwenden konnte</p>
+  </div>
+</section>
+
+<section id="SO-NW">
+  <h3>Sitzordnung Naturwissenschaft</h3>
+  <div class="info">
+    <p><em><strong>¡Hola! Fach wird nicht unterrichtet!</em></strong><br>Hallo und herzlich willkommen, also, kommen wir direkt zum Punkt: Dieses Fach wird gerade nicht gerade nicht unterrichtet und deswegen gibt es auch für Hauswirtschaft gerade keine Sitzordnung<br><br>Vielen Dank für ihr Verständnis und danke das ich ihre Zeit verschwenden konnte</p>
+  </div>
+<br>
+<div class="ordnungsdienst">
+  <p><strong>Ordnungsdienst:</strong> Luisa & Melina<br>Stellvertretend: Giulia</p>
+</div>
+
+<div class="credits">
+  <p>Erstellt von Alexander</p>
+</div>
+
+<section id="NZG">
+  <div class="info-hide-on-print">
+    <!-- Anfangsanzeige -->
+    <div id="anzeigeBereich"><h1>Um den Namenszufallsgenerator (NZG) zu verwenden müssen sie sich 3 Erkärungen durchlesen, ggf. können sie sich auch einfach durchklicken</h1></div>
+
+   <!-- NZG | Namensgenerator -->
+    <div class="info-hide-on-print" id="namensGenerator" style="display: none;">
+      <h3>Namenszufallsgenerator</h3>
+      <label for="modus">Modus auswählen:</label>
+      <select id="modus" class="hide-on-print">
+        <option value="normal">Normal (mehrfach möglich)</option>
+        <option value="einmalig">Einmalig (jeder Name nur 1×)</option>
+      </select>
+      <br><br>
+      <button class="hide-on-print" onclick="zufallsname()">Zufallsnamen anzeigen</button>
+      <button class="hide-on-print" onclick="zuruecksetzen()">Auswahl zurücksetzen</button>
+
+      <p id="ausgabe-name" style="margin-top: 10px; font-weight: bold;"></p>
+      <h4>Bisherige Auswahl:</h4>
+      <ul id="statistik-liste" style="margin-left: 20px;"></ul>
+    </div>
+
+  <!-- Button -->
+    <button class="hide-on-print" id="WEITER">Weiter</button>
+  </div>
+</section>
+
+<script>
+  const namensGenerator = document.getElementById('namensGenerator');
+  const anzeigeBereich = document.getElementById('anzeigeBereich');
+  const klickButton = document.getElementById('WEITER');
+  let klickZaehler = 0;
+
+  const zitate = [
+    "Der normale Modus zeigt jeden Namen mehr als nur einmal an, bedeutet das ein Schüler eine Wahrscheinlichkeit von 3,7 % hat, jetzt dranzukommen.",
+    "Der Einmalmodus zeigt jeden Namen, bzw. jeden Schüler nur einmal an. Jeder Schüler hat die Wahrscheinlichkeit von 3,7 % jetzt dranzukommen. Außerdem steigt die Wahrscheinlichkeit mit jedem Klick auf den „Namen anzeigen“-Button.",
+    "Der „Zurücksetzen“-Button setzt die Statistikanzeige sowie die ausgewählten Namen zurück. Dadurch muss die Website nichtmehr neu geladen werden.",
+    "Dieser Namenszufallsgenerator fuktioniert mit einer vorgefertigten Namensliste, diese Namensliste kann unter https://fbges.w3spaces.com/fbges/7d/source_code.txt bei Zeile 344 sowie von Zeile 183 bis Zeile 224 eingesehen werden"
+  ];
+
+    const banner = document.getElementById("cookie-banner");
+  const acceptAllBtn = document.getElementById("accept-all");
+  const saveBtn = document.getElementById("save-settings");
+  const analyticsCheckbox = document.getElementById("analytics");
+
+  // Überprüfen, ob schon eine Entscheidung gespeichert ist
+  window.onload = function() {
+    const consent = localStorage.getItem("cookie-consent");
+    if (consent) {
+      banner.style.display = "none";
+      if (consent === "all" || consent === "analytics") {
+        loadAnalytics();
+      }
+    }
+  };
+
+  acceptAllBtn.onclick = function() {
+    localStorage.setItem("cookie-consent", "all");
+    loadAnalytics();
+    banner.style.display = "none";
+  };
+
+  saveBtn.onclick = function() {
+    if (analyticsCheckbox.checked) {
+      localStorage.setItem("cookie-consent", "analytics");
+      loadAnalytics();
+    } else {
+      localStorage.setItem("cookie-consent", "necessary");
+    }
+    banner.style.display = "none";
+  };
+
+  function loadAnalytics() {
+    // Google Tag Manager laden
+    const gtm = document.createElement("script");
+    gtm.src = "https://www.googletagmanager.com/gtag/js?id=G-SDW62HFVYK$0"; // <-- Deine GTM-ID einsetzen
+    gtm.async = true;
+    document.head.appendChild(gtm);
+  }
+
+  klickButton.addEventListener('click', () => {
+    klickZaehler++;
+
+    if (klickZaehler <= zitate.length) {
+      anzeigeBereich.textContent = zitate[klickZaehler - 1];
+    }
+
+    if (klickZaehler === 5) {
+      anzeigeBereich.style.display = 'none';
+      klickButton.style.display = 'none';
+      namensGenerator.style.display = 'block';
+    }
+  });
+
+  const schuelernamen = ["Jana", "Melina", "Patrick", "Erta", "Ariana", "Luisa", "Yorick", "Alexander", "Giulia", "Riman", "Leo", "Ben", "Maxim", "Ajan", "Gero", "Zeynep", "Tana", "Dominic", "Azad", "Eftelya", "Jamie", "Ismael", "Agrin", "Timo", "Julian", "Fabian", "Nora"];
+  const statistik = {};
+  let einmaligeListe = [];
+
+  // Initialisiere Statistik
+  schuelernamen.forEach(name => statistik[name] = 0);
+
+  function zufallsname() {
+    const modus = document.getElementById("modus").value;
+    let name = null;
+
+    if (modus === "normal") {
+      const index = Math.floor(Math.random() * schuelernamen.length);
+      name = schuelernamen[index];
+      statistik[name]++;
+    } else if (modus === "einmalig") {
+      if (einmaligeListe.length === 0) {
+        einmaligeListe = schuelernamen.filter(n => statistik[n] === 0);
+      }
+      if (einmaligeListe.length === 0) {
+        document.getElementById("ausgabe-name").textContent = "Alle Namen wurden bereits einmal gezogen...";
+        return;
+      }
+      const index = Math.floor(Math.random() * einmaligeListe.length);
+      name = einmaligeListe.splice(index, 1)[0];
+      statistik[name]++;
+    }
+
+    if (name) {
+      document.getElementById("ausgabe-name").textContent = "Der Gewinner der Auslosung ist: " + name;
+      aktualisiereStatistikAnzeige();
+    }
+  }
+
+  function aktualisiereStatistikAnzeige() {
+    const liste = document.getElementById("statistik-liste");
+    liste.innerHTML = "";
+
+    Object.entries(statistik)
+      .filter(([_, count]) => count > 0)
+      .sort((a, b) => b[1] - a[1])
+      .forEach(([name, count]) => {
+        const li = document.createElement("li");
+        li.textContent = `${name}: ${count}×`;
+        liste.appendChild(li);
+      });
+  }
+
+  function zuruecksetzen() {
+    einmaligeListe = [];
+    schuelernamen.forEach(name => statistik[name] = 0);
+    document.getElementById("ausgabe-name").textContent = "";
+    document.getElementById("statistik-liste").innerHTML = "";
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Infracciones del RGPD: Tellter SAS / DoubleCounter / Doogle</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tomorrow&display=swap" rel="stylesheet">
+<style>
+    body {
+        font-family: 'Tomorrow', sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+        color: #333;
+    }
+    header {
+        background-color: #0b3d91;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    header h1 {
+        margin: 0;
+        font-size: 2em;
+    }
+    header p {
+        font-size: 0.9em;
+        margin-top: 5px;
+        color: #ccc;
+    }
+    main {
+        max-width: 900px;
+        margin: 40px auto;
+        background-color: white;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0 0 25px rgba(0,0,0,0.1);
+    }
+    h2 {
+        color: #0b3d91;
+        margin-top: 30px;
+    }
+    h3 {
+        color: #0b3d91;
+        margin-top: 20px;
+    }
+    ul {
+        padding-left: 20px;
+    }
+    li {
+        margin-bottom: 10px;
+    }
+    .highlight {
+        color: #d32f2f;
+        font-weight: bold;
+    }
+    .fact-box {
+        background-color: #e0e7ff;
+        padding: 15px;
+        margin: 20px 0;
+        border-left: 5px solid #0b3d91;
+    }
+    .timeline {
+        margin: 20px 0;
+        padding-left: 20px;
+        border-left: 3px solid #0b3d91;
+    }
+    .timeline-item {
+        margin-bottom: 20px;
+        padding-left: 10px;
+    }
+    footer {
+        text-align: center;
+        margin-top: 50px;
+        padding: 20px;
+        font-size: 0.9em;
+        color: #666;
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>Infracciones del RGPD en Tellter SAS / DoubleCounter / Doogle</h1>
+    <p>Resumen de estilo periodístico por Alexander Gal</p>
+</header>
+
+<main>
+    <h2>Resumen general</h2>
+    <p><strong>Tellter SAS</strong>, una empresa de software e inversiones con sede en París, Francia, es la empresa matriz de <strong>DoubleCounter</strong>. Esta opera las plataformas <strong>Doogle</strong> y <strong>Lens</strong>, utilizadas en Discord.</p>
+    <p>Las plataformas procesan datos personales, incluidos los ID de Discord, los datos de actividad y los vínculos con posibles cuentas alternativas (“alts”). Las primeras investigaciones indican que el procesamiento <strong>viola sistemáticamente el RGPD</strong>.</p>
+
+    <div class="fact-box">
+        <h3>Usuarios afectados</h3>
+        <p>Todos los usuarios de Discord pueden verse potencialmente afectados, incluso si nunca han utilizado Doogle ni se han registrado en DoubleCounter. El procesamiento se realiza en parte sin consentimiento explícito ni información transparente.</p>
+    </div>
+
+    <h2>Antecedentes de las plataformas</h2>
+    <p>Doogle es una herramienta para analizar los ID de los usuarios de Discord con el fin de identificar posibles cuentas alternativas. Lens registra acciones administrativas como expulsiones, bloqueos y silencios para documentar los procesos de moderación. Ambas plataformas son utilizadas por moderadores para hacer más eficiente la gestión de comunidades.</p>
+    <p>Según documentos internos (LIA y DPIA, mayo de 2025), el procesamiento de datos está automatizado, cifrado y se supone que es mínimo. En la práctica, las pruebas muestran que <strong>cualquier usuario puede usar Doogle</strong> para buscar otros ID de Discord, independientemente de si tienen o no conexión con DoubleCounter.</p>
+
+    <h2>Infracciones del RGPD en detalle</h2>
+    <ul>
+        <li><span class="highlight">Artículo 5</span> – Principios de procesamiento violados: no se cumplen la minimización, la limitación del propósito, la limitación del almacenamiento ni la integridad.</li>
+        <li><span class="highlight">Artículo 6</span> – Falta de base legal válida: el procesamiento se realiza sin consentimiento.</li>
+        <li><span class="highlight">Artículos 12–14</span> – Obligaciones de información no cumplidas: los usuarios no son informados adecuadamente sobre el procesamiento.</li>
+        <li><span class="highlight">Artículos 15 y 17</span> – Derechos de acceso y eliminación gravemente restringidos; los vínculos de cuentas alternativas permanecen incluso después de darse de baja.</li>
+        <li><span class="highlight">Artículo 21</span> – El derecho de oposición al procesamiento es limitado, ya que la exclusión solo funciona mediante comandos de servidor de Discord.</li>
+        <li><span class="highlight">Artículo 25</span> – El análisis de datos se realiza sin el consentimiento de los interesados.</li>
+        <li><span class="highlight">Artículo 32</span> – Protección de acceso y seguridad de datos insuficientes; no existe un aviso legal completo de Tellter SAS.</li>
+        <li><span class="highlight">Artículos 35 y 36</span> – Evaluación de impacto en la protección de datos incompleta; los riesgos para los usuarios no se abordan adecuadamente.</li>
+    </ul>
+
+    <h2>Línea de tiempo de los acontecimientos</h2>
+    <div class="timeline">
+        <div class="timeline-item">
+            <strong>Mayo de 2025:</strong> Publicación de la Evaluación de Intereses Legítimos (LIA) y de la Evaluación de Impacto en la Protección de Datos (DPIA) para Doogle y Lens.
+        </div>
+        <div class="timeline-item">
+            <strong>Mayo de 2025:</strong> Inicio del procesamiento automatizado de ID de Discord y metadatos de moderación.
+        </div>
+        <div class="timeline-item">
+            <strong>Junio de 2025:</strong> Las primeras pruebas muestran que cualquier usuario de Discord puede usar Doogle para buscar otros ID sin su consentimiento.
+        </div>
+        <div class="timeline-item">
+            <strong>Octubre de 2025:</strong> Publicación de un análisis realizado por usuarios independientes (Alexander Gal) que documenta las infracciones del RGPD.
+        </div>
+    </div>
+
+    <h2>Consecuencias para los usuarios</h2>
+    <ul>
+        <li>Se crean vínculos entre cuentas sin consentimiento.</li>
+        <li>La exclusión (opt-out) es limitada y no garantiza protección total.</li>
+        <li>Los usuarios afectados no tienen control total sobre sus datos.</li>
+        <li>El procesamiento ocurre entre países, especialmente entre Francia y Alemania.</li>
+        <li>Riesgos sistémicos para toda la comunidad de Discord.</li>
+    </ul>
+
+    <h2>Relevancia mediática y pública</h2>
+    <p>Las infracciones no afectan solo a usuarios individuales, sino a toda la comunidad de Discord. Los informes periodísticos e investigaciones podrían arrojar más luz sobre la situación legal, ya que prácticamente no existen opciones de exclusión ni transparencia. Ya se han preparado informes para las autoridades de protección de datos CNIL (Francia) y LDI (Alemania).</p>
+
+    <h2>Conclusión</h2>
+    <p>Doogle, operado por DoubleCounter y parte de Tellter SAS, presenta deficiencias sistemáticas en la protección de datos. Los derechos de los usuarios no están suficientemente protegidos, falta transparencia y las opciones existentes de exclusión no brindan una protección completa. Las infracciones son graves, afectan a toda la comunidad de Discord y son relevantes tanto jurídica como mediáticamente.</p>
+
+    <h2>Acciones recomendadas</h2>
+    <ul>
+        <li>Presentar informes a la CNIL (Francia) y a la LDI (Alemania).</li>
+        <li>Documentar todas las infracciones, recopilar capturas de pantalla e informes de prueba.</li>
+        <li>Realizar campañas públicas en medios y canales comunitarios para sensibilizar.</li>
+        <li>Supervisar las respuestas de DoubleCounter / Doogle y hacer valer los derechos de los interesados.</li>
+    </ul>
+    
+    <h2>Enlaces y documentos</h2>
+    <ul>
+        <li><a href="https://files.magentaweb.org/pdf/doogle/LIA%20Doogle%20and%20Lens%20Features.pdf">Evaluación de Intereses Legítimos (LIA) Doogle y Lens (inglés)</a></li>
+        <li><a href="https://files.magentaweb.org/pdf/doogle/DPIA%20Doogle%20and%20Lens%20Features.pdf">Evaluación de Impacto en la Protección de Datos (DPIA) Doogle y Lens (inglés)</a></li>
+        <li><a href="https://docs.doublecounter.gg/double-counter-en/legal">Política de privacidad del operador Doogle</a></li>
+    </ul>
+</main>
+
+<footer>
+    &copy; 2025 Alexander Gal – Resumen detallado de las infracciones del RGPD en Tellter SAS / DoubleCounter / Doogle
+</footer>
+</body>
+</html>

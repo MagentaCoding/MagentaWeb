@@ -1,0 +1,521 @@
+AWSTATS DATA FILE 8.0 (build 20240604)
+# If you remove this file, all statistics for date 202510 will be lost/reset.
+# Last config file used to build this data file was /home/magentaw/tmp/awstats/awstats.cookies.magentaweb.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2090                
+POS_TIME 2761                
+POS_VISITOR 14436               
+POS_DAY 16137               
+POS_DOMAIN 3330                
+POS_LOGIN 3634                
+POS_ROBOT 3789                
+POS_WORMS 4063                
+POS_EMAILSENDER 4194                
+POS_EMAILRECEIVER 4337                
+POS_SESSION 16469               
+POS_FILESIZE 16690               
+POS_REQUESTTIME 16786               
+POS_SIDER 16616               
+POS_FILETYPES 4472                
+POS_DOWNLOADS 4550                
+POS_OS 4598                
+POS_BROWSER 4792                
+POS_SCREENSIZE 5235                
+POS_UNKNOWNREFERER 5309                
+POS_UNKNOWNREFERERBROWSER 5645                
+POS_ORIGIN 5762                
+POS_SEREFERRALS 5894                
+POS_PAGEREFS 6057                
+POS_SEARCHWORDS 6205                
+POS_KEYWORDS 6357                
+POS_MISC 2425                
+POS_ERRORS 6416                
+POS_CLUSTER 3490                
+POS_SIDER_404 6515                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20251101155452 1 0 8521163801597
+FirstTime 20251001002346
+LastTime 20251031175632
+LastUpdate 20251102071612 1 0 0 0 0
+TotalVisits 50                  
+TotalUnique 46                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 46                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 3 0 66 66 107341
+1 7 7 0 20 20 22940
+2 2 2 0 0 2 0
+3 0 0 0 1 1 1587
+4 8 8 0 25 26 34069
+5 3 3 0 0 1 0
+6 3 3 0 18 18 28812
+7 1 1 0 0 1 0
+8 3 3 0 1 7 1578
+9 1 1 0 1 3 0
+10 4 4 0 30 32 33441
+11 4 4 0 18 20 27245
+12 4 4 0 63 64 106481
+13 1 1 0 7 9 3175
+14 3 3 0 18 18 19139
+15 4 4 0 8 12 11212
+16 2 2 0 1 3 1584
+17 2 2 0 9 10 11162
+18 1 1 0 0 0 0
+19 5 5 0 2 4 3169
+20 1 1 0 9 10 12834
+21 2 2 0 129 130 215962
+22 1 1 0 0 2 1755
+23 2 2 0 0 3 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 10
+us 47 47 0
+ru 7 7 0
+ca 4 4 0
+rs 2 2 0
+in 2 2 0
+gb 1 1 0
+sc 1 1 0
+cl 1 1 0
+cn 1 1 0
+be 1 1 0
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+checker 7 0 20251012134426 0
+curl 2 0 20251005194433 0
+(firefox/)([0-9]\.|[0-1][0]\.) 2 0 20251001005423 0
+no_user_agent 1 0 20251012045252 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 1
+html 67 0 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+Unknown 20 20
+androidlollipop 1 1
+macosx 1 1
+linux 15 15
+androidoreo 3 3
+win10 17 17
+linuxubuntu 3 3
+macosx15 4 4
+ios_iphone 3 3
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 21
+msie7.0 2 2
+firefox139.0 3 3
+chrome101.0.2434 1 1
+chrome63.0.3239.111 3 3
+firefox35.0 1 1
+chrome58.0.3029.110 5 5
+chrome117.0.5938.132 1 1
+chrome137.0.0.0 1 1
+chrome99.0.1627 1 1
+chrome88.0.4240.193 6 6
+Unknown 7 7
+netscape5.0 2 2
+chrome78.0.3904.108 3 3
+firefox134.0 2 2
+safari15.4 3 3
+chrome113.0.0.0 4 4
+firefox18.0 2 2
+mozilla 12 12
+chrome81.0.4044.129 2 2
+edge18 2 2
+chrome139.0.0.0 4 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20251031175632
+Mozilla/5.0 20251001120804
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20251001185539
+python-httpx/0.28.1 20251016104222
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+python-httpx/0.28.1 20251016104222
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 63 63
+From1 0 0
+From2 4 4
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 4 4
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+404 420 643486
+403 1 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 175
+//.svn/text-base/.env 1 https://www.google.com/
+/sitemap.xml 3 -
+//.env.prod 1 https://www.google.com/
+/.env_old 1 https://www.google.com/
+//apps/.gitignore 1 https://www.google.com/
+//app/.env 3 https://www.google.com/
+//v2/.env 3 https://www.google.com/
+//backend/.env 1 https://www.google.com/
+//exapi/.env 3 https://www.google.com/
+/tool/view/phpinfo.view.php 5 -
+/php.php 2 -
+/wp/wp-includes/wlwmanifest.xml 3 -
+/test 2 -
+/config/.env 7 -
+/.env.dev 3 https://www.google.com/
+/.env.backup 3 https://www.google.com/
+//web/.env.example 1 https://www.google.com/
+//.env.dev 1 https://www.google.com/
+//vendor/phpunit/Util/PHP/eval-stdin.php 3 https://www.google.com/
+/.remote.env 1 https://www.google.com/
+//web/.env 3 https://www.google.com/
+//.env.save 1 https://www.google.com/
+/.env.debug 1 https://www.google.com/
+//.env.example.1 1 https://www.google.com/
+//.env.db 1 https://www.google.com/
+//lib/.env 3 https://www.google.com/
+//.env.sample 1 https://www.google.com/
+/shop/wp-includes/wlwmanifest.xml 3 -
+//sitemaps/.env 3 https://www.google.com/
+/.env.docker 1 https://www.google.com/
+/2020/wp-includes/wlwmanifest.xml 2 -
+/.env 15 -
+//uploads/.env 3 https://www.google.com/
+//core/app/.env 3 https://www.google.com/
+//backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//.env.production 1 https://www.google.com/
+//.env.test 1 https://www.google.com/
+/info 2 -
+/2019/wp-includes/wlwmanifest.xml 3 -
+/2018/wp-includes/wlwmanifest.xml 1 -
+//api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//.env.debug 1 https://www.google.com/
+//laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+/wp1/wp-includes/wlwmanifest.xml 3 -
+//sites/all/libraries/mailchimp/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+/api/.env 7 -
+//.env~ 1 https://www.google.com/
+//API/.env 1 https://www.google.com/
+//saas/.env 3 https://www.google.com/
+/.env.example 2 -
+//log/.env 1 https://www.google.com/
+//.env.www 1 https://www.google.com/
+/.local 2 https://www.google.com/
+//.env_old 1 https://www.google.com/
+/.env.production 2 -
+//upload/.env 1 https://www.google.com/
+/site/wp-includes/wlwmanifest.xml 3 -
+//api/.env.example 1 https://www.google.com/
+//api/.env 3 https://www.google.com/
+//.env.angular 1 https://www.google.com/
+/_profiler/phpinfo 9 -
+/.env.live 1 https://www.google.com/
+//wp-content/plugins/mm-plugin/inc/vendors/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//.env.zip 1 https://www.google.com/
+//wp-content/plugins/jekyll-exporter/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//vendor/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+/.env.test.local 1 https://www.google.com/
+//.database.env 1 https://www.google.com/
+//.env.backup 1 https://www.google.com/
+/cms/wp-includes/wlwmanifest.xml 3 -
+/phpinfo 7 -
+//vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//.env.staging 1 https://www.google.com/
+//.environment 1 https://www.google.com/
+//dev/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//protected/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//api/v2/.env 1 https://www.google.com/
+//www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//core/.env 3 https://www.google.com/
+//assets/.env 3 https://www.google.com/
+//panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//administrator/.env 3 https://www.google.com/
+//phpunit/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//lib/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//.env.swp 1 https://www.google.com/
+//admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//.env.orig 1 https://www.google.com/
+//psnlink/.env 3 https://www.google.com/
+/info.php 7 -
+//.env_sample 1 https://www.google.com/
+/news/wp-includes/wlwmanifest.xml 3 -
+//admin/.env 3 https://www.google.com/
+//phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//.env.bkp 1 https://www.google.com/
+/blog/wp-includes/wlwmanifest.xml 3 -
+/.env.sqlite 1 https://www.google.com/
+//.env.postgres 1 https://www.google.com/
+/xmlrpc.php 3 -
+//database/.env 3 https://www.google.com/
+//lib/phpunit/Util/PHP/eval-stdin.php 3 https://www.google.com/
+/website/wp-includes/wlwmanifest.xml 3 -
+//lib/phpunit/phpunit/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//.env.docker 1 https://www.google.com/
+//lab/.env 3 https://www.google.com/
+//.env.template 1 https://www.google.com/
+//.env.sqlite 1 https://www.google.com/
+/.git/HEAD 2 -
+//main/.env 1 https://www.google.com/
+//vendor/.env 3 https://www.google.com/
+/.env_sample 1 https://www.google.com/
+/test.php 4 -
+/.remote 2 https://www.google.com/
+/wp2/wp-includes/wlwmanifest.xml 3 -
+/.aws/credentials 2 -
+/.production 2 https://www.google.com/
+//.env.development 1 https://www.google.com/
+/robots.txt 6 -
+/.env.old 1 https://www.google.com/
+//tests/.env 1 https://www.google.com/
+//new/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//en/.env 3 https://www.google.com/
+//phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//core/Datavase/.env 3 https://www.google.com/
+//public/.env 3 https://www.google.com/
+/.env.bkp 1 https://www.google.com/
+//cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//.env.live 1 https://www.google.com/
+/i.php 2 -
+//cronlab/.env 3 https://www.google.com/
+/wp-login.php 1 -
+//.env.elastic 1 https://www.google.com/
+/sito/wp-includes/wlwmanifest.xml 3 -
+//.env.local 1 https://www.google.com/
+//blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//laravel/.env.local 1 https://www.google.com/
+/wp-includes/wlwmanifest.xml 3 -
+//site/.env 3 https://www.google.com/
+/.env.testing 1 https://www.google.com/
+//cron/.env 3 https://www.google.com/
+//wp-content/plugins/cloudflare/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+/.git/config 9 -
+//v1/.env 3 https://www.google.com/
+/index.php 2 -
+//phpunit/phpunit/Util/PHP/eval-stdin.php 3 https://www.google.com/
+/.env.swp 1 https://www.google.com/
+//lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//laravel/.env 3 https://www.google.com/
+/wordpress/wp-includes/wlwmanifest.xml 3 -
+/backend/.env 2 -
+//.env.copy 1 https://www.google.com/
+/web/wp-includes/wlwmanifest.xml 3 -
+//test/.env 1 https://www.google.com/
+//apps/.env 3 https://www.google.com/
+//.env 1 https://www.google.com/
+//.env.project 1 https://www.google.com/
+/test/wp-includes/wlwmanifest.xml 3 -
+//.env.bak 1 https://www.google.com/
+//es/.env 1 https://www.google.com/
+//.env.test.local 1 https://www.google.com/
+//demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+/phpinfo.php 9 -
+//public/.env.example 1 https://www.google.com/
+//.env.testing 1 https://www.google.com/
+//config/.env 3 https://www.google.com/
+//tools/.env 3 https://www.google.com/
+//application/.env 1 https://www.google.com/
+//old/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//.env.example 1 https://www.google.com/
+/phpversion.php 2 -
+//.env.remote 1 https://www.google.com/
+//.env.old 1 https://www.google.com/
+/media/wp-includes/wlwmanifest.xml 1 -
+/wordpress/ 1 -
+//wp-content/plugins/dzs-videogallery/class_parts/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 46
+54.218.81.185 4 4 0 20251003043909
+136.114.47.49 3 3 0 20251012115953
+185.177.72.13 3 3 0 20251003205447
+34.73.220.97 3 3 0 20251013061403
+134.199.235.22 3 3 0 20251012040431
+34.213.0.82 2 2 0 20251001195202
+185.177.72.30 2 2 0 20251004012930
+54.70.98.67 2 2 0 20251001011356
+104.131.186.255 2 2 0 20251001015949
+35.90.179.86 2 2 0 20251001002349
+18.130.147.178 2 2 0 20251001124624
+35.86.140.116 2 2 0 20251001044420
+35.92.177.186 2 2 0 20251001052322
+44.246.198.169 2 2 0 20251001193302
+52.195.166.174 2 2 0 20251013214042
+167.94.145.110 1 1 0 20251004081839
+162.142.125.112 1 1 0 20251001082041
+181.214.218.239 1 1 0 20251022041224
+23.95.184.98 1 1 0 20251001120804
+199.45.155.107 1 1 0 20251022154437
+66.132.153.115 1 1 0 20251014231129
+161.35.26.96 1 1 0 20251019023404
+3.82.247.226 1 1 0 20251002123747
+185.177.72.47 1 1 0 20251001141642
+128.199.14.241 1 1 0 20251015025819
+167.94.145.101 1 1 0 20251009110818
+162.142.125.220 1 1 0 20251013104634
+45.148.10.249 1 1 0 20251015140938
+118.193.39.117 1 1 0 20251005194627
+66.132.153.134 1 1 0 20251001083339
+167.99.88.152 1 1 0 20251002100740
+167.94.138.200 1 1 0 20251031175632
+45.148.10.42 1 1 0 20251016104222
+205.169.39.31 1 1 0 20251021140849
+91.231.89.36 1 1 0 20251001154856
+91.231.89.124 1 1 0 20251001155119
+45.194.70.253 1 1 0 20251005134557
+161.35.75.162 1 1 0 20251001232435
+159.89.115.172 1 1 0 20251005074601
+185.247.137.112 1 1 0 20251001161544
+161.35.176.232 1 1 0 20251029055107
+87.236.176.33 1 1 0 20251001185539
+162.142.125.119 1 1 0 20251022161141
+34.143.132.160 1 1 0 20251001003454
+66.132.153.126 1 1 0 20251002092949
+165.22.206.130 1 1 0 20251003220429
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 16
+20251001 28 28 0 20
+20251002 5 5 0 4
+20251003 5 5 0 4
+20251004 2 2 0 2
+20251005 3 3 0 3
+20251009 1 1 0 1
+20251012 6 6 0 2
+20251013 6 6 0 3
+20251014 1 1 0 1
+20251015 2 2 0 2
+20251016 1 1 0 1
+20251019 1 1 0 1
+20251021 1 1 0 1
+20251022 3 3 0 3
+20251029 1 1 0 1
+20251031 1 1 0 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 50
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 1
+/ 67 0 50 50
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 2
+0-44 112
+1K-2K 417
+END_FILESIZE
+
+# Request Time Range - Request Time Frequency
+BEGIN_REQUESTTIME 0
+END_REQUESTTIME

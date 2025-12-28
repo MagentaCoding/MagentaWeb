@@ -1,0 +1,614 @@
+AWSTATS DATA FILE 8.0 (build 20240604)
+# If you remove this file, all statistics for date 202511 will be lost/reset.
+# Last config file used to build this data file was /home/magentaw/tmp/awstats/awstats.friends.magentaweb.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2090                
+POS_TIME 2759                
+POS_VISITOR 12378               
+POS_DAY 14454               
+POS_DOMAIN 3380                
+POS_LOGIN 3706                
+POS_ROBOT 3861                
+POS_WORMS 4063                
+POS_EMAILSENDER 4194                
+POS_EMAILRECEIVER 4337                
+POS_SESSION 14913               
+POS_FILESIZE 16758               
+POS_REQUESTTIME 16890               
+POS_SIDER 15060               
+POS_FILETYPES 4472                
+POS_DOWNLOADS 4622                
+POS_OS 4670                
+POS_BROWSER 4834                
+POS_SCREENSIZE 5221                
+POS_UNKNOWNREFERER 5295                
+POS_UNKNOWNREFERERBROWSER 5851                
+POS_ORIGIN 6127                
+POS_SEREFERRALS 6259                
+POS_PAGEREFS 6403                
+POS_SEARCHWORDS 6598                
+POS_KEYWORDS 6750                
+POS_MISC 2423                
+POS_ERRORS 6809                
+POS_CLUSTER 3562                
+POS_SIDER_404 6921                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20251201022426 199 34522 15844532833123
+FirstTime 0
+LastTime 20251130214210
+LastUpdate 20251201071220 199 0 198 0 0
+TotalVisits 57                  
+TotalUnique 54                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 54                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 2 2 1524 0 2 1746
+2 1 1 762 0 1 1755
+3 0 0 0 0 2 3492
+4 2 2 1524 6 8 12096
+5 2 2 1524 0 3 3467
+6 4 4 3048 18 22 35914
+7 3 3 1524 1 5 3508
+8 7 7 5334 23 23 32758
+9 3 3 2286 0 5 5238
+10 7 7 3810 11 14 18956
+11 1 1 762 114 162 264169
+12 19 19 6332 69 71 111972
+13 4 4 2286 3 8 7509
+14 0 0 0 4 4 6702
+15 6 6 4572 19 22 34046
+16 2 2 762 0 3 3492
+17 1 1 762 0 0 0
+18 1 1 762 0 2 3492
+19 0 0 0 0 0 0
+20 20 20 152760 1 2 1985
+21 5 5 3810 19 22 34391
+22 0 0 0 1 2 3387
+23 0 0 0 3 5 4513
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 9
+us 38 38 22160
+il 23 23 155046
+ca 10 10 3810
+in 7 7 5334
+rs 4 4 3048
+cn 3 3 2286
+bg 2 2 1524
+zz 2 2 174
+se 1 1 762
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+checker 6 4572 20251130132618 0
+no_user_agent 5 3810 20251130105936 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+html 58 40386 0 0
+cgi 2 15276 0 0
+Unknown 12 998 0 0
+xml 17 129846 0 0
+php 1 7638 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+macosx15 3 3
+win8.1 1 1
+android 1 1
+win7 1 1
+win10 38 38
+linuxubuntu 4 4
+Unknown 32 32
+linux 10 10
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 17
+chrome92.0.4515.107 2 2
+chrome81.0.4044.129 3 3
+mozilla 16 16
+chrome126.0.0.0 1 1
+Unknown 12 12
+chrome131.0.0.0 1 1
+chrome107.0.0.0 1 1
+opera80.4.4244.7786 1 1
+chrome120.0.0.0 3 3
+netscape5.0 4 4
+chrome106.0.0.0 1 1
+chrome139.0.0.0 5 5
+chrome77.0.3865.120 1 1
+firefox47.0 1 1
+chrome78.0.3904.108 32 32
+firefox139.0 2 2
+firefox134.0 4 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20251127122435
+Mozilla/5.0_(l9scan/2.0.1333e26373e2231313e24373;__https://leakix.net) 20251127122453
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20251122100701
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20251125101937
+Cpanel-HTTP-Client/1.0 20251127121713
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Cpanel-HTTP-Client/1.0 20251127121713
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20251122100701
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 89 89
+From1 0 0
+From2 0 0
+From3 1 1
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://friarsgreenimc.co.uk//wp-login.php 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+404 359 583817
+302 3 721
+403 1 1668
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 229
+/.env.live 1 -
+/.well-known/security.txt 3 -
+/keys.js 1 -
+/api 2 -
+/.env.save 1 -
+/.env.secrets 1 -
+/payment.config.js 1 -
+/swagger/v1/swagger.json 2 -
+/sito/wp-includes/wlwmanifest.xml 4 -
+/web/wp-includes/wlwmanifest.xml 4 -
+/debug/default/view 2 -
+/stripe-keys.js 1 -
+/settings.json 1 -
+/config/settings.js 1 -
+/.vscode/.env 1 -
+/functions/.env 1 -
+/config/checkout.js 1 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 2 -
+/config/payments.js 1 -
+/billing.config.js 1 -
+/blog/robots.txt 1 https://friarsgreenimc.co.uk//wp-login.php
+/.env 7 -
+/credentials.js 1 -
+/frontend/.env 1 -
+/main/.env 1 -
+/actuator/env 2 -
+/config/stripe.json 1 -
+/config/parameters.yml 1 -
+/config/keys.js 1 -
+/robots.txt 33 -
+/@fs/etc/passwd 2 -
+/config/private.js 1 -
+/server.js 1 -
+/server/.env.production 1 -
+/website/.env 1 -
+/settings.js 1 -
+/backend/.env.production 1 -
+/constants.json 1 -
+/config/local.js 1 -
+/config/local.json 1 -
+/2019/wp-includes/wlwmanifest.xml 4 -
+/api/config.env 1 -
+/.env.example 1 -
+/appsettings.Development.json 1 -
+/api-keys.js 1 -
+/graphql 2 -
+/.env.swp 1 -
+/stripe-config.json 1 -
+/docker/.env 1 -
+/stripe.js 1 -
+/stripe-secret.json 1 -
+/config/settings.json 1 -
+/dev/.env 1 -
+/api/shared/.env 1 -
+/appsettings.Production.json 1 -
+/application.yaml 1 -
+/.env~ 1 -
+/wp1/wp-includes/wlwmanifest.xml 4 -
+/new/.env.local 1 -
+/billing.js 1 -
+/appsettings.json 1 -
+/.env.old 1 -
+/app/config/parameters.yml 1 -
+/wp-content/ 1 -
+/server 2 -
+/.env.backup 1 -
+/shop/wp-includes/wlwmanifest.xml 4 -
+/admin/.env 1 -
+/keys.json 1 -
+/config/credentials.js 1 -
+/blog//wp-json/wp/v2/users/ 1 https://friarsgreenimc.co.uk//wp-login.php
+/js/.env 1 -
+/application.properties 1 -
+/api-keys.json 1 -
+/api/.env.production 1 -
+/microservices/.env 1 -
+/config/payment.js 1 -
+/stripe_keys.js 1 -
+/config/application.yml 1 -
+/secrets.json 1 -
+/config/secrets.json 1 -
+/.env.stage 1 -
+/xmlrpc.php 5 -
+/config/credentials.json 1 -
+/src/.env 1 -
+/.env.production.local 1 -
+/swagger/swagger-ui.html 2 -
+/config/payments.json 1 -
+/blog//wp-login.php 1 friends.magentaweb.org/blog//wp-login.php
+/config/config.json 1 -
+/config/production.js 1 -
+/stripe.config.json 1 -
+/config/env/.env 1 -
+/config.js 1 -
+/website/wp-includes/wlwmanifest.xml 4 -
+/wordpress/wp-includes/wlwmanifest.xml 4 -
+/payment.js 1 -
+/static/js/main.js 1 -
+/index.js 1 -
+/conf/.env 1 -
+/login.action 2 -
+/new/.env 1 -
+/.env.secret 1 -
+/api/shared/config/.env 1 -
+/api/graphql 2 -
+/.DS_Store 2 -
+/config/keys.json 1 -
+/api/gql 2 -
+/docker/app/.env 1 -
+/client/.env 1 -
+/backend/.env 1 -
+/.stripe.json 1 -
+/payment/.env 1 -
+/api/shared/config/config.env 1 -
+/credentials.json 1 -
+/.env.staging 1 -
+/config.yaml 1 -
+/billing.json 1 -
+/stripe.yml 1 -
+/server/.env 1 -
+/.env.bak 1 -
+/live/.env 1 -
+/stripe-secret.js 1 -
+/checkout.config.js 1 -
+/graphql/api 2 -
+/stripe-config.js 1 -
+/nginx/.env 1 -
+/api.js 1 -
+/.env.private 1 -
+/config/prod.js 1 -
+/config/live.js 1 -
+/backend/.env.local 1 -
+/payments.js 1 -
+/config.yml 1 -
+/wp-login.php 2 -
+/billing/.env 1 -
+/payment.json 1 -
+/config/stripe.yml 1 -
+/payment-config.js 1 -
+/app/.env 1 -
+/site/wp-includes/wlwmanifest.xml 4 -
+/stripe.config.js 1 -
+/config/config.js 1 -
+/public/.env 1 -
+/wp-includes/wlwmanifest.xml 4 -
+/wp-admin/setup-config.php 1 -
+/env/.env 1 -
+/prod/.env 1 -
+/config/local.yml 1 -
+/secrets.js 1 -
+/application/.env 1 -
+/stripe-keys.json 1 -
+/services/.env 1 -
+/.env.local 1 -
+/wp/wp-includes/wlwmanifest.xml 4 -
+/blog/wp-includes/wlwmanifest.xml 4 -
+/payments.json 1 -
+/config/payment.json 1 -
+/checkout/.env 1 -
+/core/.env 1 -
+/application-production.properties 1 -
+/swagger.json 2 -
+/site/.env 1 -
+/stripe.yaml 1 -
+/.env.prod 1 -
+/config/secrets.js 1 -
+/.vscode/sftp.json 2 -
+/checkout.json 1 -
+/blog//xmlrpc.php 1 -
+/config.json 3 -
+/config/production.json 1 -
+/_all_dbs 2 -
+/crm/.env 1 -
+/swagger/index.html 2 -
+/v2/api-docs 2 -
+/api/swagger.json 2 -
+/application-prod.properties 1 -
+/swagger-ui.html 2 -
+/news/wp-includes/wlwmanifest.xml 4 -
+/server-status 2 -
+/test/wp-includes/wlwmanifest.xml 4 -
+/api/.env.local 1 -
+/development/.env 1 -
+/portal/.env 1 -
+/app.js 1 -
+/api-docs/swagger.json 2 -
+/lambda/.env 1 -
+/@vite/env 2 -
+/.env_sample 1 -
+/local/.env 1 -
+/application.yml 1 -
+/config/settings.yml 1 -
+/info.php 2 -
+/config/.env 1 -
+/config/billing.js 1 -
+/settings.yml 1 -
+/config.env 1 -
+/payment.config.json 1 -
+/.stripe 1 -
+/payments.config.js 1 -
+/api/.env 1 -
+/v3/api-docs 2 -
+/stripe/.env 1 -
+/webjars/swagger-ui/index.html 2 -
+/blog//wp-json/oembed/1.0/embed 1 https://friarsgreenimc.co.uk//wp-login.php
+/config/constants.js 1 -
+/checkout.js 1 -
+/stripe_config.js 1 -
+/about 2 -
+/cms/wp-includes/wlwmanifest.xml 4 -
+/www/.env 1 -
+/2018/wp-includes/wlwmanifest.xml 4 -
+/telescope/requests 2 -
+/web/.env 1 -
+/v2/_catalog 2 -
+/apps/.env 1 -
+/s/1333e26373e2231313e24373/_/ 2 -
+/.git/config 2 -
+/stripe.json 1 -
+/blog// 1 https://friarsgreenimc.co.uk//wp-login.php
+/new/.env.production 1 -
+/config/stripe.js 1 -
+/.env.production 1 -
+/wp2/wp-includes/wlwmanifest.xml 4 -
+/config/config.yml 1 -
+/constants.js 1 -
+/media/wp-includes/wlwmanifest.xml 4 -
+/.git/HEAD 1 -
+/main.js 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 54
+2.58.56.222 23 23 155046 20251130210828
+45.154.98.144 6 6 4572 20251130061132
+34.72.56.198 3 3 2286 20251119155556
+91.92.241.199 2 2 1524 20251111124824
+64.23.218.208 2 2 1524 20251127122453
+56.228.22.38 2 2 174 20251127122435
+18.136.119.70 2 2 174 20251127122435
+74.112.76.31 2 2 128 20251127121713
+167.99.182.39 2 2 1524 20251127122449
+111.7.100.27 2 2 1524 20251121083219
+198.235.24.239 1 1 762 20251114064640
+207.154.252.118 1 1 762 20251129091424
+198.235.24.223 1 1 0 20251105160702
+45.55.73.131 1 1 762 20251120075825
+147.182.165.211 1 1 762 20251108053206
+205.210.31.22 1 1 0 20251111130915
+205.210.31.173 1 1 0 20251114100711
+3.142.51.249 1 1 87 20251127122435
+3.146.111.124 1 1 762 20251120021455
+3.132.214.65 1 1 87 20251127122434
+184.73.189.76 1 1 762 20251128052922
+183.207.45.112 1 1 762 20251130214210
+91.231.89.37 1 1 762 20251128154526
+44.220.48.213 1 1 762 20251130090255
+199.45.154.139 1 1 762 20251107130511
+205.210.31.166 1 1 762 20251105132913
+67.205.137.50 1 1 762 20251130101317
+91.231.89.101 1 1 762 20251128154716
+52.43.155.17 1 1 87 20251127122435
+164.92.199.34 1 1 762 20251122011916
+205.169.39.8 1 1 762 20251128185128
+198.235.24.182 1 1 762 20251118040139
+205.210.31.110 1 1 0 20251118071048
+147.182.201.169 1 1 762 20251128071507
+199.45.154.132 1 1 762 20251115150451
+23.178.112.210 1 1 87 20251127122434
+205.210.31.215 1 1 762 20251111105155
+91.231.89.19 1 1 762 20251127125359
+18.224.192.118 1 1 762 20251109082832
+93.158.90.155 1 1 762 20251107214916
+91.231.89.97 1 1 762 20251127125617
+199.45.154.119 1 1 762 20251115165803
+143.198.74.120 1 1 762 20251130041517
+23.178.112.213 1 1 87 20251127122434
+199.45.154.138 1 1 762 20251125101937
+167.99.202.2 1 1 762 20251106115137
+205.210.31.11 1 1 762 20251122084355
+103.133.214.127 1 1 762 20251128102558
+66.132.153.142 1 1 762 20251114093140
+3.138.185.30 1 1 762 20251104010209
+34.224.21.88 1 1 762 20251130105937
+54.244.210.199 1 1 87 20251127122435
+66.132.153.141 1 1 762 20251117175758
+205.210.31.37 1 1 0 20251122100701
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 20
+20251104 1 1 762 1
+20251105 2 2 762 2
+20251106 1 1 762 1
+20251107 2 2 1524 2
+20251108 1 1 762 1
+20251109 2 2 1524 2
+20251111 3 3 1524 3
+20251114 3 3 1524 3
+20251115 2 2 1524 2
+20251117 1 1 762 1
+20251118 2 2 762 2
+20251119 3 3 2286 1
+20251120 2 2 1524 2
+20251121 2 2 1524 1
+20251122 3 3 1524 3
+20251125 1 1 762 1
+20251127 18 18 5570 13
+20251128 6 6 4572 6
+20251129 24 24 155808 3
+20251130 11 11 8382 7
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 57
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 25
+/ 53 40386 42 42
+/julianhesse/ 5 0 5 5
+/.well-known/acme-challenge/Q0028VVRSyldW6y5E9Kc0WmtClLiZWp1B50I9hLQm8Q 5 435 5 3
+/.well-known/acme-challenge/JLDLSFndpeSPbyhjIso1ygjsWH-m0AZWI28XxC5ecB8 5 435 3 5
+/cgi-sys/suspendedpage.cgi 2 15276 1 0
+/cgi-sys/suspendedpage.cgi/web/wp-includes/wlwmanifest.xml 1 7638 0 0
+/cgi-sys/suspendedpage.cgi/wp1/wp-includes/wlwmanifest.xml 1 7638 0 0
+/cgi-sys/suspendedpage.cgi/wp/wp-includes/wlwmanifest.xml 1 7638 0 0
+/cgi-sys/suspendedpage.cgi/wp2/wp-includes/wlwmanifest.xml 1 7638 0 0
+/cgi-sys/suspendedpage.cgi/2018/wp-includes/wlwmanifest.xml 1 7638 0 0
+/cgi-sys/suspendedpage.cgi/media/wp-includes/wlwmanifest.xml 1 7638 0 0
+/.well-known/acme-challenge/762IMFAHT1W477KO3_NDL8LLAKBWND3M 1 64 0 1
+/cgi-sys/suspendedpage.cgi/news/wp-includes/wlwmanifest.xml 1 7638 0 0
+/cgi-sys/suspendedpage.cgi/wordpress/wp-includes/wlwmanifest.xml 1 7638 0 0
+/cgi-sys/suspendedpage.cgi/website/wp-includes/wlwmanifest.xml 1 7638 0 0
+/cgi-sys/suspendedpage.cgi/cms/wp-includes/wlwmanifest.xml 1 7638 0 0
+/cgi-sys/suspendedpage.cgi/shop/wp-includes/wlwmanifest.xml 1 7638 0 0
+/cgi-sys/suspendedpage.cgi/wp-includes/wlwmanifest.xml 1 7638 0 0
+/.well-known/acme-challenge/20YYU9DX2ARUKGKPR2922WJW-2I94RS4 1 64 1 0
+/cgi-sys/suspendedpage.cgi/test/wp-includes/wlwmanifest.xml 1 7638 0 0
+/cgi-sys/suspendedpage.cgi/2019/wp-includes/wlwmanifest.xml 1 7638 0 0
+/cgi-sys/suspendedpage.cgi/sito/wp-includes/wlwmanifest.xml 1 7638 0 1
+/cgi-sys/suspendedpage.cgi/blog/wp-includes/wlwmanifest.xml 1 7638 0 0
+/cgi-sys/suspendedpage.cgi/xmlrpc.php 1 7638 0 0
+/cgi-sys/suspendedpage.cgi/site/wp-includes/wlwmanifest.xml 1 7638 0 0
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 6
+100-500 3
+1K-2K 365
+44-100 12
+0-44 14
+5K+ 20
+500-1K 64
+END_FILESIZE
+
+# Request Time Range - Request Time Frequency
+BEGIN_REQUESTTIME 0
+END_REQUESTTIME

@@ -1,0 +1,1000 @@
+AWSTATS DATA FILE 8.0 (build 20240604)
+# If you remove this file, all statistics for date 202512 will be lost/reset.
+# Last config file used to build this data file was /home/magentaw/tmp/awstats/ssl/awstats.mailsystem.magentaweb.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2097                
+POS_TIME 2762                
+POS_VISITOR 22066               
+POS_DAY 24645               
+POS_DOMAIN 3472                
+POS_LOGIN 3834                
+POS_ROBOT 3989                
+POS_WORMS 4464                
+POS_EMAILSENDER 4595                
+POS_EMAILRECEIVER 4738                
+POS_SESSION 25217               
+POS_FILESIZE 25455               
+POS_REQUESTTIME 25577               
+POS_SIDER 25374               
+POS_FILETYPES 4873                
+POS_DOWNLOADS 4958                
+POS_OS 5006                
+POS_BROWSER 5220                
+POS_SCREENSIZE 5921                
+POS_UNKNOWNREFERER 5995                
+POS_UNKNOWNREFERERBROWSER 6691                
+POS_ORIGIN 7006                
+POS_SEREFERRALS 7140                
+POS_PAGEREFS 7284                
+POS_SEARCHWORDS 7432                
+POS_KEYWORDS 7584                
+POS_MISC 2426                
+POS_ERRORS 7643                
+POS_CLUSTER 3690                
+POS_SIDER_404 7778                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20251228060843 19 4147 10355211585086
+FirstTime 0
+LastTime 20251228060843
+LastUpdate 20251228070348 19 0 19 0 0
+TotalVisits 73                  
+TotalUnique 63                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 63                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 2 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 11 11 145640 47 53 122574
+1 10 10 92680 10 16 33487
+2 2 2 26480 12 16 78747
+3 1 1 13240 7 13 34565
+4 5 5 66200 13 26 76964
+5 2 2 26480 10 16 51882
+6 6 6 66200 9 12 23430
+7 0 0 0 8 12 33474
+8 3 3 39720 16 21 35924
+9 2 2 26480 6 12 28641
+10 4 4 52960 360 563 894296
+11 2 2 26480 4 11 50207
+12 3 3 39720 3 6 20104
+13 7 7 92680 3 14 25951
+14 4 4 52960 6 11 20100
+15 17 17 172120 111 118 205748
+16 4 4 52960 9 21 88342
+17 3 3 39720 6 14 35458
+18 3 3 39720 19 23 40711
+19 0 0 0 1 5 6967
+20 2 2 26480 4 8 36923
+21 8 8 105920 34 41 88414
+22 2 2 26480 12 17 50068
+23 1 1 13240 80 84 194094
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 11
+us 61 61 754680
+ru 11 11 132400
+de 9 9 119160
+cn 6 6 66200
+in 5 5 66200
+gb 4 4 26480
+au 2 2 26480
+ar 1 1 13240
+jp 1 1 13240
+be 1 1 13240
+ca 1 1 13240
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+bot[\s_+:,\.\;\/\\-] 117 351245 20251225052318 0
+SemrushBot/ 62 142526 20251216105411 0
+GPTBot/ 22 291280 20251227033250 0
+survey 4 52960 20251211024859 0
+no_user_agent 2 26480 20251210152350 0
+scrapy 2 26480 20251211213731 0
+[\s_+:,\.\;\/\\-]bot 1 13240 20251213183041 0
+Barkrowler 1 2006 20251208174749 0
+Googlebot/ 1 13240 20251202201443 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 1
+html 102 1244560 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 11
+linuxdebian 1 1
+Unknown 32 32
+win10 35 35
+ios_iphone 1 1
+macosx15 9 9
+android10 1 1
+wii 1 1
+androidmarshmallow 1 1
+linux 19 19
+winnt 1 1
+macosx 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 33
+chrome108.0.0.0 2 2
+chrome126.0.0.0 3 3
+chrome137.0.0.0 2 2
+Unknown 9 9
+chrome75.0.3770.143 1 1
+chrome114.0.0.0 1 1
+firefox121.0 1 1
+chrome66.0.3359.139 1 1
+chrome138.0.7204.23 1 1
+firefox139.0 2 2
+chrome142.0.0.0 5 5
+chrome133.0.0.0 1 1
+chrome96.0.4664.110 1 1
+safari16.5 1 1
+chrome60.0.3112.113 14 14
+chrome54.0.210 1 1
+chrome134.0.0.0 3 3
+chrome76.0.3809.87 1 1
+chrome124.0.0.0 1 1
+chrome139.0.0.0 2 2
+chrome116.0.0.0 5 5
+chrome120.0.0.0 4 4
+opera9.30 1 1
+mozilla 19 19
+chrome117.0.0.0 2 2
+chrome58.0.3029.110 2 2
+netscape5.0 6 6
+chrome141.0.7390.37 2 2
+chrome138.0.0.0 1 1
+edge107 1 1
+chrome75.0.3770.142 1 1
+firefox124.0 4 4
+chrome69.0.1236 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20251223133829
+Python/3.12_aiohttp/3.13.2 20251211150831
+Mozilla/5.0_(l9scan/2.0.1333e26373e2231313e24373;__https://leakix.net) 20251210152424
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20251205055343
+python-httpx/0.28.1 20251216152152
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20251223151524
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20251210152422
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Python/3.12_aiohttp/3.13.2 20251211150831
+python-httpx/0.28.1 20251216152152
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20251205055343
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 102 102
+From1 0 0
+From2 0 0
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 1 1670
+404 883 1345064
+301 3 752
+206 4 8196
+421 4 1288
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 598
+/symfony/_profiler/phpinfo 4 -
+/.DS_Store 2 -
+/backend/.env.development 1 -
+/Cloud.md 1 -
+/angular.json 1 -
+/app.js 1 -
+/web/index.js 1 -
+/api-docs/swagger.json 2 -
+/settings.yaml 1 -
+/utils/phpinfo.php 1 -
+/config/.env.js 1 -
+/config/test.json 1 -
+/settings.ini 1 -
+/_next/data 7 -
+/appsettings.QA.json 1 -
+/helpers/fileUpload.js 1 -
+/config/default.json 1 -
+/application.ini 1 -
+/controller.js 1 -
+/src/Utils/FileUpload.js 1 -
+/aws-example.toml 1 -
+/wp-config.php 2 -
+/dev/utils.js 1 -
+/.drone.yml 1 -
+/.well-known/security.txt 1 -
+/.env.production 4 -
+/about 2 -
+/src/.env.js 1 -
+/config/aws.json 1 -
+/var/www/.aws/credentials 1 -
+/.local 1 -
+/config/local.json 1 -
+/conf/application.json 1 -
+/admin/phpinfo.php 4 -
+/index.ts 1 -
+/application/config/hooks.php 1 -
+/configs/routes-4aug.js 1 -
+/api/utils.js 1 -
+/robots.txt 110 -
+/config/config.js 1 -
+/backend/app.js 1 -
+/src/controller.js 1 -
+/circle.yml 1 -
+/.vscode/sftp.json 3 -
+/config/application.yml 1 -
+/server/utils.js 1 -
+/main.go 1 -
+/appsettings.json 1 -
+/vendor/phpinfo.php 1 -
+/libs/fileUpload.js 1 -
+/sitemap.xml 2 -
+/frontend_dev.php/$ 1 -
+/API/config.js 1 -
+/.env.bak 2 -
+/pinfo.php 1 -
+/backend/constant.js 1 -
+/src/config/common.js 1 -
+/server/src/util/s3_operation.go 1 -
+/config/app_local.php 1 -
+/api/.env.development 1 -
+/constant.js 1 -
+/public/wp-config.php.bak 1 -
+/backend/.env 6 -
+/src/config/aws.ts 1 -
+/storage/logs/laravel.log 1 -
+/src/mailserver.js 1 -
+/src/libs/aws-notifications.ts 1 -
+/application/config/migration.php 1 -
+/graphql 2 -
+/config/sitemap.rb 1 -
+/web/app.js 1 -
+/wp-config.php.save 1 -
+/application/config/profiler.php 1 -
+/apis/index.js 1 -
+/phpinfoposmeta.php 1 -
+/backend/constants.js 1 -
+/src/constant.js 1 -
+/configs/routes.js 1 -
+/apps 7 -
+/sftp.json 1 -
+/server/controller.js 1 -
+/.env.development 4 -
+/server/main.go 1 -
+/config/app.default.php 1 -
+/web/helper.js 1 -
+/src/config/constants.js 1 -
+/tsconfig.app.json 1 -
+/test.php 4 -
+/config/security.config.php 1 -
+/backend/config/development.yml 1 -
+/swagger/index.html 2 -
+/Docker.md 1 -
+/config/server.js 1 -
+/application/config/doctypes.php 1 -
+/user/config/config.js 1 -
+/credentials.properties 1 -
+/config/database.php 1 -
+/ansible/aws/inventory/ec2.ini 1 -
+/AWSCredentials.properties 1 -
+/.remote 1 -
+/shared/backend/aws/identity.go 1 -
+/staging/config/common.js 1 -
+/readme.md 1 -
+/config/services.php 1 -
+/constants.ts 1 -
+/config/production.json 1 -
+/api/config.ino 1 -
+/config/initializers/smtp.rb 1 -
+/application/config/constants.js 1 -
+/application/libraries/aws-config.ini 1 -
+/emailconfig.toml 1 -
+/admin/test.php 1 -
+/manifest.json 1 -
+/.properties 1 -
+/data/credentials.ini 1 -
+/elasticsearch.yml 1 -
+/app/config/parameters.yml 1 -
+/conf/monitor.toml 1 -
+/backend/.env.example 1 -
+/server/helper.js 1 -
+/config/development.json 1 -
+/application/config/encryption.php 1 -
+/debug/default/view 2 -
+/config/broadcasting.php 1 -
+/conf/s3.toml 1 -
+/NOTES.md 1 -
+/configs/aws.config.ts 1 -
+/admin/config_pro.toml 1 -
+/config/dev.json 1 -
+/compose.yaml 1 -
+/web/config/template.js 1 -
+/config/config.json 1 -
+/config/queue.php 1 -
+/web/mailer.js 1 -
+/API/constants.js 1 -
+/api/node/config.js 1 -
+/API/config/database.js 1 -
+/config/app.php 1 -
+/config/prod.json 1 -
+/defaults.yaml 1 -
+/admin/server.js 1 -
+/web/mail.js 1 -
+/api/config/tsconfig.json 1 -
+/web/controller.js 1 -
+/apis/config/config.js 1 -
+/AWS/ProfileUpload.js 1 -
+/aws-s3.ts 1 -
+/backend/aws/conf.py 1 -
+/README.md 1 -
+/settings.py 1 -
+/api/node/constant.js 1 -
+/src/FileUpload.js 1 -
+/config/mail.php 1 -
+/config/auth.php 1 -
+/src/s3.ts 1 -
+/swagger-ui.html 2 -
+/providers/aws.service.ts 1 -
+/helpers/utility.js 1 -
+/user/controllers/index.js 1 -
+/passwords.yml 1 -
+/admin_phpinfo.php 1 -
+/mailer.js 1 -
+/.git/config 27 -
+/dev/config/database.js 1 -
+/config/template.js 1 -
+/dev/constants.js 1 -
+/web/config/common.js 1 -
+/.vscode/settings.json 1 -
+/config.prod.ini 1 -
+/admin/mailserver.js 1 -
+/utils.js 1 -
+/server/constants.js 1 -
+/src/app.js 1 -
+/application/libraries/aws/access.ini 1 -
+/config.ts 1 -
+/graphql/api 2 -
+/config/app.js 1 -
+/config/mail.js 1 -
+/web/mailserver.js 1 -
+/awsS3.util.ts 1 -
+/backend/config/template.js 1 -
+/server_info.php 1 -
+/src/index.js 1 -
+/api/constants.js 1 -
+/api/config/database.js 1 -
+/.aws/credentials 4 -
+/appsettings.Staging.json 1 -
+/admin/index.js 1 -
+/config/common.js 1 -
+/src/main.rb 1 -
+/api/info.php 1 -
+/.lakectl.yaml 1 -
+/server/config/template.js 1 -
+/backend/index.js 1 -
+/wp-config.php.bak 1 -
+/src/helpers/s3fileUpload.js 1 -
+/configuration.json.dist 1 -
+/.gitlab-ci.yml 3 -
+/bundleconfig.json 1 -
+/config/index.js 1 -
+/constants.yml 1 -
+/.env.js 1 -
+/default.ts 1 -
+/config/requirements.php 1 -
+/BackEnd/config.js 1 -
+/app.yaml 1 -
+/backend/web/phpinfo.php 1 -
+/aws.show.yaml 1 -
+/php-info.php 1 -
+/dashboard/phpinfo.php 1 -
+/src/app/services/aws.service.ts 1 -
+/backend/.env.production 1 -
+/config/daemon.json 1 -
+/dev/config.js 1 -
+/utils/awsS3.util.ts 1 -
+/backend/node/constant.js 1 -
+/_profiler/phpinfo 4 -
+/partner/config/config.js 1 -
+/backend/config/constants.js 1 -
+/.production 1 -
+/server/config/database.js 1 -
+/mailserver.js 1 -
+/.docker/config.json 1 -
+/elasticsearch_cluster_yml 1 -
+/staging/config.js 1 -
+/wp-content/phpinfo.php 1 -
+/temp.php 1 -
+/config/development.config.php 1 -
+/appsettings.Test.json 1 -
+/admin/mail.js 1 -
+/sftp-config.json 1 -
+/phpinfos.php 1 -
+/api/server.js 1 -
+/backend/node/constants.js 1 -
+/home/user/.aws/credentials 1 -
+/src/config/template.js 1 -
+/config/constant.js 1 -
+/appveyor.yml 1 -
+/api/phpinfo.php 1 -
+/wp-admin/phpinfo.php 1 -
+/config/mailserver.js 1 -
+/configs/application.ini 1 -
+/configs/s3_config.json 1 -
+/src/mail.js 1 -
+/application/config/autoload.php 1 -
+/credentials.json 1 -
+/aws/index.ts 1 -
+/index.md 1 -
+/application/config/aws_constants.js 1 -
+/phpinfo.php 4 -
+/src/mailer.js 1 -
+/api/action 7 -
+/phpversion.php 1 -
+/src/settings.json 1 -
+/backend/controller.js 1 -
+/web/constant.js 1 -
+/aws-lambda.properties 1 -
+/config/mailer.js 1 -
+/config/view.php 1 -
+/aws.yml 1 -
+/dev/phpinfo.php 1 -
+/admin/sys_phpinfo.php 1 -
+/src/config.ts 1 -
+/conf/config.toml 1 -
+/config.json 5 -
+/wp-config.php.old 1 -
+/time.php 1 -
+/admin/server_info.php 1 -
+/application/config/email.php 1 -
+/src/helper.js 1 -
+/web/config/constants.js 1 -
+/test1.php 1 -
+/backend/node/common.js 1 -
+/docker-compose.yml 1 -
+/login/index.php 1 -
+/api/graphql 2 -
+/config.js 3 -
+/admin/info.php 1 -
+/base.yaml 1 -
+/.git/ 2 -
+/api/config.js 1 -
+/_config.rb.erb 1 -
+/aws_credentials.ini 1 -
+/aws.config.js 2 -
+/aws.properties 1 -
+/config/parameters.yml.dist 1 -
+/dev/server.js 1 -
+/.aws-secrets 1 -
+/v2/api-docs 2 -
+/config/staging.json 1 -
+/server/config/common.js 1 -
+/credentials.go 1 -
+/DOCS.md 1 -
+/conf/aws.properties 1 -
+/core/.env 2 -
+/config/autoload/global.php 1 -
+/aws-nuke.yaml 1 -
+/logs/error_log 1 -
+/secured/phpinfo.php 1 -
+/config.php 1 -
+/aws_cred.yml 1 -
+/admin/config/common.js 1 -
+/secrets.toml 1 -
+/backend/mail.js 1 -
+/secrets.yaml 1 -
+/mail.js 1 -
+/constants.ini 1 -
+/install/index.php 1 -
+/app/etc/config.local.php 1 -
+/app/etc/config.php 1 -
+/aws.md 1 -
+/admin/utils.js 1 -
+/aws/s3.py 1 -
+/src/config/database.js 1 -
+/src/constants.js 1 -
+/aws-notifications.ts 1 -
+/API.md 1 -
+/api/index.js 1 -
+/api_gateway/conf/pay.toml 1 -
+/application/config/database.php 1 -
+/server/mailserver.js 1 -
+/install/phpinfo.php 1 -
+/backend/server.js 1 -
+/server/constant.js 1 -
+/server/config/constants.js 1 -
+/settings.json 1 -
+/old_phpinfo.php 1 -
+/phpinfo 4 -
+/application/config/config.php 1 -
+/api/gql 2 -
+/recipes/elb.rb. 1 -
+/dev/app.js 1 -
+/phpinfo.php4 1 -
+/swagger.json 2 -
+/server/mailer.js 1 -
+/API/config/constants.js 1 -
+/staging/config/constants.js 1 -
+/https%3A/fonts.googleapis.com/https%3A/fonts.googleapis.com/css2%3Ffamily%3DNabla%26family%3DNova%2BSquare%26display%3Dswap 2 -
+/dev/index.js 1 -
+/config/acl.config.php 1 -
+/application/config/foreign_chars.php 1 -
+/assets/js/config.js 1 -
+/v3/api-docs 2 -
+/config.rb 1 -
+/api/app.js 1 -
+/server.js 1 -
+/backend/config/common.js 1 -
+/appsettings.Local.json 1 -
+/actuator/env 2 -
+/config.yaml 1 -
+/app_dev.php/_profiler/phpinfo 4 -
+/.sync.yml 1 -
+/appsettings.Development.json 1 -
+/conf/aws.toml 1 -
+/dashboard/info.php 4 -
+/model/config.ts 1 -
+/web/utils.js 1 -
+/admin/config/database.js 1 -
+/api/common.js 1 -
+/src/config.json 1 -
+/backend/config/default.yml 1 -
+/helper/EmailHelper.js 1 -
+/.git/logs/HEAD 2 -
+/aws-wrapper.ts 1 -
+/awsKEY.py 1 -
+/v2/_catalog 2 -
+/app.yml 1 -
+/admin/config/template.js 1 -
+/credentials.js 1 -
+/application/config/mimes.php 1 -
+/admin/mailer.js 1 -
+/app/config/development.ini 1 -
+/config.yml 1 -
+/src/config.js 1 -
+/src/src.js 1 -
+/admin/constants.js 1 -
+/api/model/config.ts 1 -
+/.jaynes.yml 1 -
+/administrator/phpinfo.php 1 -
+/swagger.yaml 1 -
+/application/config/constants.php/ 1 -
+/aws-config.js 2 -
+/backend/helper.js 1 -
+/_config.yml 1 -
+/api/.env.example 1 -
+/LOG.md 1 -
+/phpinfo.php5 1 -
+/server 2 -
+/private/config.json 1 -
+/admin/controller.js 1 -
+/config/paths.php 1 -
+/config/test.config.php 1 -
+/webjars/swagger-ui/index.html 2 -
+/infophp.php 1 -
+/app/sign.go 1 -
+/dev/config/template.js 1 -
+/tmp/error_log 1 -
+/s/1333e26373e2231313e24373/_/ 2 -
+/myproject/settings.py 1 -
+/config/database.config.php 1 -
+/aws.config.ts 1 -
+/config/smtp.rb 1 -
+/API/config/common.js 1 -
+/server/app.js 1 -
+/dev/mailer.js 1 -
+/server/mail.js 1 -
+/helper/helper.go 1 -
+/elb.rb 1 -
+/app/config/parameters.yml.dist 1 -
+/conf.yaml 1 -
+/login.action 2 -
+/credentials.ini 1 -
+/config/constants.js 1 -
+/api/helper.js 1 -
+/_all_dbs 2 -
+/dev/mail.js 1 -
+/info.php 6 -
+/application/config/db.js 1 -
+/staging/config/config.js 1 -
+/public/client/planinfo 1 -
+/aws_config.py 1 -
+/ppinfo.php 1 -
+/api/config/template.js 1 -
+/app/models/post.rb 1 -
+/api/.env 4 -
+/config/model.properties 1 -
+/qa/config.js 1 -
+/credentials.ts 1 -
+/app-config.local.properties 1 -
+/server/index.js 1 -
+/linusadmin-phpinfo.php 1 -
+/api 2 -
+/api/mail.js 1 -
+/be/config.js 1 -
+/constants.json 1 -
+/dev/helper.js 1 -
+/public/.env.js 1 -
+/constants.js 1 -
+/config/dev/config.toml 1 -
+/api/mailer.js 1 -
+/php.php 1 -
+/api/settings.py 1 -
+/admin/helper.js 1 -
+/api/.env.production 1 -
+/config/session.php 1 -
+/i.php 1 -
+/application/config/constants.php 1 -
+/public/phpinfo.php 1 -
+/config/aws.yml 1 -
+/manifest.yaml 1 -
+/backend/utils.js 1 -
+/IAM.md 1 -
+/tool/phpinfo.php 1 -
+/credentials.csv 1 -
+/heroku.yml 1 -
+/config/module.config.php 1 -
+/config_tmp.ini 1 -
+/.ssh/sftp-config.json 1 -
+/api/node/common.js 1 -
+/index.js 1 -
+/src/server.js 1 -
+/config/config.exs 1 -
+/minio.md 1 -
+/config/controller.js 1 -
+/api/config/common.js 1 -
+/swagger/v1/swagger.json 2 -
+/backend/settings.py 1 -
+/assets/config.json 1 -
+/connect/call.js 1 -
+/config/routes.php 1 -
+/config/storage.yml 1 -
+/application/configs/application.ini 1 -
+/AWS/AWSDetails.ts 1 -
+/phpinfo.php3 1 -
+/src/constants.ts 1 -
+/.wp-config.php.swp 1 -
+/api/mailserver.js 1 -
+/tsconfig.json 1 -
+/_profiler/phpinfo.php 1 -
+/config/cli_bootstrap.php 1 -
+/appsettings.Production.json 1 -
+/insta-compose.yml 1 -
+/helper.js 1 -
+/_config_base.yml 1 -
+/aws.service.ts 1 -
+/src/utils.js 1 -
+/notes.yml 1 -
+/src/lib/aws-s3.ts 1 -
+/api/controller.js 1 -
+/.travis.old.yml 1 -
+/server/server.js 1 -
+/app.py 1 -
+/admincontrol/sys_phpinfo.php 1 -
+/test2.php 1 -
+/wordpress/wp-config.php.bak 1 -
+/meteor.settings.json 1 -
+/php_info.php 1 -
+/admin/app.js 1 -
+/Client/netlify.toml 1 -
+/api/aws/s3.ts 1 -
+/prevlaravel/sftp-config.json 1 -
+/dev/controller.js 1 -
+/config/config.ino 1 -
+/config/aws.ini 1 -
+/app/.secrets 1 -
+/server/helper/aws_s3.js 1 -
+/awsApp.properties 1 -
+/config/helper.js 1 -
+/docker-cloud.yml 1 -
+/server/configs/aws.config.ts 1 -
+/api/node/constants.js 1 -
+/config/s3.yml 1 -
+/config/config.go 1 -
+/utils/s3Client.ts 1 -
+/awsconfig.properties 1 -
+/aws_ec2.yaml 1 -
+/wp_mail_smtp.ini 1 -
+/credentials_aws.go 1 -
+/telescope/requests 2 -
+/.git-secrets 1 -
+/web/constants.js 1 -
+/web/config/database.js 1 -
+/config/filesystems.php 1 -
+/dev/config/common.js 1 -
+/web/web.js 1 -
+/API/config/template.js 1 -
+/backend/config.js 1 -
+/application/config/routes.php 1 -
+/admin/constant.js 1 -
+/dev/mailserver.js 1 -
+/tsconfig.spec.json 1 -
+/aws/access.ini 1 -
+/config/php.ini 1 -
+/config/settings.json 1 -
+/Properties/launchSettings.json 1 -
+/dev/constant.js 1 -
+/index.php/phpinfo 4 -
+/src/aws.ts 1 -
+/api/swagger.json 2 -
+/src/lib/aws-wrapper.ts 1 -
+/web/phpinfo.php 1 -
+/launchSettings.json 1 -
+/_next 8 -
+/config/parameters.yml 1 -
+/src/main.py 1 -
+/swagger/swagger-ui.html 2 -
+/aws-s3.service.ts 1 -
+/dev/config/constants.js 1 -
+/config/bootstrap.php 1 -
+/debug/phpinfo.php 1 -
+/backend/config/database.js 1 -
+/backend/mailserver.js 1 -
+/config/base.properties 1 -
+/staging/index.js 1 -
+/hosting.json 1 -
+/api/actions 7 -
+/modules/phpinfo.php 1 -
+/.env 16 -
+/.travis.yml 1 -
+/asdf.php 1 -
+/backend/mailer.js 1 -
+/scripts/controller.js 1 -
+/.aws/config 1 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 2 -
+/web/server.js 1 -
+/infos.php 1 -
+/app.toml 1 -
+/apis/controllers/users.js 1 -
+/@vite/env 2 -
+/config/cache.php 1 -
+/server/config.js 1 -
+/website/index.js 1 -
+/wp-content/debug.log 4 -
+/admin/.env 2 -
+/https%3A/fonts.googleapis.com/css2%3Ffamily%3DAldrich%26family%3DAudiowide%26family%3DBad%2BScript%26family%3DBitcount%2BSingle%2BInk%3Aslnt%2Cwght%2CCRSV%2CELSH%2CELXP%2CSZP1%2CSZP2%2CXPN1%2CXPN2%2CYPN1%2CYPN2%40-8..0%2C100..900%2C0..1%2C0..100%2C0..100% 2 -
+/config/application.config.php 1 -
+/server-status 2 -
+/laravel/storage/logs/laravel.log 1 -
+/minio.yml 1 -
+/conf/conf.toml 1 -
+/.env.example 4 -
+/API/common.js 1 -
+/config/utils.js 1 -
+/config/autoload/local.php 1 -
+/cron/index.js 1 -
+/admin/config/constants.js 1 -
+/tools/phpinfo.php 1 -
+/.cirrus.yml 1 -
+/aws.ino 1 -
+/api/constant.js 1 -
+/config/production.config.php 1 -
+/src/config/config.json 1 -
+/SendMail.ts 1 -
+/api/config/constants.js 1 -
+/AWSDetails.ts 1 -
+/aws/s3.ts 1 -
+/backend/node/config.js 1 -
+/prod/config.js 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 63
+65.87.7.112 8 8 52960 20251210152422
+194.180.49.167 5 5 66200 20251216152152
+146.70.185.32 4 4 26480 20251211013358
+204.76.203.25 3 3 39720 20251222235626
+165.22.34.189 2 2 26480 20251210152424
+103.4.251.157 2 2 26480 20251214003909
+202.120.37.109 2 2 13240 20251212013357
+195.178.110.242 2 2 26480 20251215121252
+194.180.49.170 2 2 26480 20251211215634
+34.124.135.103 2 2 26480 20251215210716
+193.19.82.13 2 2 13240 20251225062322
+195.178.110.201 2 2 26480 20251211150831
+18.224.192.118 2 2 26480 20251228060843 20251228060843 /
+52.214.164.188 2 2 26480 20251217024904
+52.221.252.209 2 2 26480 20251227083940
+18.171.157.194 2 2 26480 20251216143242
+194.180.49.169 2 2 26480 20251213181919
+13.231.193.174 2 2 26480 20251224064409
+195.178.110.54 2 2 26480 20251211171613
+3.82.106.136 2 2 26480 20251224010157
+100.30.248.17 2 2 26480 20251215064909
+139.59.136.184 2 2 26480 20251210152424
+3.120.183.164 2 2 26480 20251210210526
+104.252.191.98 2 2 26480 20251214005216
+52.64.67.153 2 2 26480 20251213004445
+106.75.10.41 1 1 13240 20251210045414
+66.132.153.116 1 1 13240 20251209160013
+104.252.191.176 1 1 13240 20251214003900
+147.182.227.144 1 1 13240 20251212131917
+123.160.223.73 1 1 13240 20251211213833
+45.148.10.154 1 1 13240 20251218000016
+199.45.155.64 1 1 13240 20251201171316
+199.45.155.80 1 1 13240 20251214090946
+168.119.245.209 1 1 13240 20251211134003
+71.6.134.231 1 1 13240 20251221185949
+133.242.174.119 1 1 13240 20251211011650
+201.219.167.136 1 1 13240 20251227113757
+167.94.138.181 1 1 13240 20251222123932
+3.138.185.30 1 1 13240 20251218170048
+165.232.134.47 1 1 13240 20251214220525
+45.178.149.244 1 1 13240 20251227113757
+64.226.87.93 1 1 13240 20251205093750
+199.45.155.69 1 1 13240 20251215163542
+185.247.137.199 1 1 13240 20251212124604
+66.132.153.126 1 1 13240 20251217163549
+205.210.31.67 1 1 13240 20251205055343
+157.230.112.167 1 1 13240 20251212133624
+104.252.191.145 1 1 13240 20251214005210
+185.177.72.11 1 1 13240 20251215045843
+64.23.239.56 1 1 13240 20251214130747
+106.75.20.152 1 1 13240 20251210045429
+66.132.159.252 1 1 13240 20251221130129
+45.148.10.80 1 1 13240 20251204042007
+146.190.78.58 1 1 13240 20251214133021
+5.75.224.239 1 1 13240 20251211140544
+123.160.223.75 1 1 13240 20251211213834
+167.94.138.180 1 1 13240 20251223133829
+64.227.130.185 1 1 13240 20251219103324
+34.221.21.250 2 2 26480 20251212163518
+87.236.176.32 1 1 13240 20251223151524
+16.147.7.175 2 2 26480 20251215005342
+172.111.15.112 1 1 13240 20251210153028
+199.45.154.112 1 1 13240 20251210142853
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 24
+20251201 1 1 13240 1
+20251202 3 3 39720 1
+20251203 1 1 13240 1
+20251204 1 1 13240 1
+20251205 2 2 26480 2
+20251206 1 1 13240 1
+20251209 1 1 13240 1
+20251210 18 18 185360 8
+20251211 15 15 172120 11
+20251212 8 8 92680 7
+20251213 4 4 52960 2
+20251214 11 11 145640 9
+20251215 8 8 105920 7
+20251216 5 5 66200 3
+20251217 3 3 39720 2
+20251218 2 2 26480 2
+20251219 1 1 13240 1
+20251221 2 2 26480 2
+20251222 2 2 26480 2
+20251223 2 2 26480 2
+20251224 4 4 52960 2
+20251225 2 2 13240 1
+20251227 4 4 52960 3
+20251228 1 1 13240 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 69
+30s-2mn 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 1
+/ 102 1244560 73 72
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 5
+2K-5K 23
+5K+ 151
+1K-2K 963
+100-500 9
+0-44 89
+END_FILESIZE
+
+# Request Time Range - Request Time Frequency
+BEGIN_REQUESTTIME 0
+END_REQUESTTIME

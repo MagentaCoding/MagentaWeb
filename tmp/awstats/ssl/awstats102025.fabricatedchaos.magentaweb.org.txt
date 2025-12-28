@@ -1,0 +1,695 @@
+AWSTATS DATA FILE 8.0 (build 20240604)
+# If you remove this file, all statistics for date 202510 will be lost/reset.
+# Last config file used to build this data file was /home/magentaw/tmp/awstats/ssl/awstats.fabricatedchaos.magentaweb.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2102                
+POS_TIME 2774                
+POS_VISITOR 13267               
+POS_DAY 16533               
+POS_DOMAIN 3479                
+POS_LOGIN 3889                
+POS_ROBOT 4044                
+POS_WORMS 4398                
+POS_EMAILSENDER 4529                
+POS_EMAILRECEIVER 4672                
+POS_SESSION 17000               
+POS_FILESIZE 18524               
+POS_REQUESTTIME 18657               
+POS_SIDER 17194               
+POS_FILETYPES 4807                
+POS_DOWNLOADS 4957                
+POS_OS 5058                
+POS_BROWSER 5342                
+POS_SCREENSIZE 6037                
+POS_UNKNOWNREFERER 6111                
+POS_UNKNOWNREFERERBROWSER 6758                
+POS_ORIGIN 7079                
+POS_SEREFERRALS 7215                
+POS_PAGEREFS 7359                
+POS_SEARCHWORDS 7541                
+POS_KEYWORDS 7693                
+POS_MISC 2438                
+POS_ERRORS 7752                
+POS_CLUSTER 3745                
+POS_SIDER_404 7876                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20251101082815 1 0 15896055996012
+FirstTime 20251003062956
+LastTime 20251031191814
+LastUpdate 20251102071612 1 0 0 0 0
+TotalVisits 103                 
+TotalUnique 83                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 83                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 0 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 3 4 5231
+1 8 8 3892 1 2 3351
+2 2 2 2132 4 6 7457
+3 78 78 205955 141 181 284237
+4 8 8 6902 3 12 10305
+5 3 3 3477 2 6 6100
+6 69 69 128633 17 34 44372
+7 8 8 9272 2 24 37406
+8 15 15 19393 5 9 6855
+9 17 17 28823 67 78 159027
+10 22 22 71821 55 59 136199
+11 31 32 117769 102 109 162482
+12 12 12 21384 6 15 13134
+13 25 25 37122 7 12 13058
+14 5 5 5609 1 5 4667
+15 66 66 169088 155 199 285254
+16 30 30 55514 16 23 37358
+17 4 4 4264 1 4 6939
+18 2 2 2132 0 1 1754
+19 16 16 38576 4 14 22156
+20 2 2 2132 1 2 3394
+21 1 1 973 3 6 10211
+22 1 1 1159 47 50 111962
+23 1 1 1159 54 56 139049
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 15
+us 146 146 287626
+in 124 124 303926
+de 111 112 281562
+cn 20 20 37490
+be 6 6 6024
+ca 4 4 4636
+gb 3 3 3477
+vn 2 2 1946
+au 2 2 1956
+ru 2 2 2318
+rs 2 2 2318
+cz 1 1 973
+ua 1 1 797
+bg 1 1 1159
+jp 1 1 973
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+GPTBot/ 194 482223 20251031230438 0
+no_user_agent 11 12563 20251018112855 0
+[\s_+:,\.\;\/\\-]bot 2 6047 20251004135632 0
+scrapy 2 2318 20251005021936 0
+curl 2 2318 20251009155852 0
+Go\-http\-client/ 1 973 20251003154646 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+shtml 153 298115 0 0
+html 251 598925 0 0
+json 21 6492 0 0
+php 1 0 0 0
+txt 1 33649 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/crashed/uploads/MagentaGaming/modlist.txt 1 0 33649
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 16
+win10 154 153
+androidoreo 1 1
+macosx9 2 2
+win7 139 139
+ios_iphone 4 4
+androidmarshmallow 13 13
+winxp 1 1
+linux 58 58
+Unknown 33 33
+macosx14 1 1
+winnt 2 2
+macosx7 8 8
+win8 1 1
+linuxubuntu 2 2
+android10 3 3
+macosx15 5 5
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 34
+chrome118.0.0.0 1 1
+mozilla 20 20
+firefox137.0 1 1
+netscape5.0 2 2
+chrome82.0.1383 1 1
+firefox134.0 2 2
+chrome116.0.0.0 27 27
+opera122.0.0.0 106 105
+chrome139.0.0.0 7 7
+chrome49.0.2623.112 3 3
+chrome17.0.963.56 8 8
+chrome119.0.0.0 4 4
+chrome130.0.0.0 13 13
+chrome134.0.0.0 1 1
+firefox120.0 11 11
+firefox139.0 4 4
+msie6.0 1 1
+firefox125.0 1 1
+safari13.0.1 1 1
+chrome63.0.3239.111 1 1
+safari 9 9
+chrome125.0.0.0 1 1
+chrome93.0.777 1 1
+chrome117.0.0.0 38 38
+chrome132.0.0.0 3 3
+firefox83.0 2 2
+edge18 1 1
+chrome137.0.0.0 4 4
+chrome120.0.0.0 2 2
+firefox47.0 136 136
+chrome76.0.3809.132 1 1
+Unknown 11 11
+chrome113.0.0.0 1 1
+chrome33.0.1750.152 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+Python/3.10_aiohttp/3.12.15 20251005092427
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20251004201235
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20251018024936
+Mozilla/5.0_zgrab/0.x 20251022080110
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20251023124206
+Mozilla/5.0_(compatible;_UGAResearchAgent/1.0;_Please_visit:_NISLabUGA.github.io) 20251003132713
+Python/3.9_aiohttp/3.8.1 20251004013248
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Python/3.10_aiohttp/3.12.15 20251005092427
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20251018024936
+Python/3.9_aiohttp/3.8.1 20251004013248
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 370 370
+From1 0 0
+From2 0 0
+From3 1 1
+From4 55 56
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://cpanel.magentaweb.org 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+403 16 26492
+404 607 973774
+301 20 5250
+500 3 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 219
+/crashed/submitted/formanswers.json 1 https://fabricatedchaos.magentaweb.org/crashed/submitted/
+/.aws/credentials 5 -
+/error/%3FC%3DD%3BO%3DA 2 -
+/config.env 3 -
+/env.backup 3 -
+/dashboard/phpinfo.php 2 -
+/config.php 1 -
+/web/.env 4 -
+/admin/config 1 -
+/config/settings.prod 2 -
+/development/.env 3 -
+/karma.conf.json 2 -
+/createbreaktrough/fonts/creepster.ttf 1 https://fabricatedchaos.magentaweb.org/createbreaktrough/
+/error/425.shtml 1 -
+/crm/.env 3 -
+/s3.js 1 -
+/robots.txt 47 -
+/env/.env 4 -
+/appsettings.json 3 -
+/public/js/main.js 2 -
+/helper.js 2 -
+/laravel/core/.env 3 -
+/.env_sample 3 -
+/backend/config/default.yml 2 -
+/crashed/uploads 3 -
+/mytest/astech_robot.js 2 -
+/main.js 2 -
+/aws-secret.yaml 4 -
+/api/v1/format_query 1 -
+/config/settings.local 2 -
+/error/419.shtml 1 -
+/www/.env 4 -
+/app.py 2 -
+/node_modules/.env 3 -
+/api/config/config.yml 2 -
+/config/settings.json 2 -
+/dev/.env 2 -
+/controller/api/post.js 2 -
+/apis/controllers/users.js 2 -
+/.git/HEAD 1 -
+/.ssh/id_ed25519 1 -
+/new/.env.staging 3 -
+/docker/app/.env 4 -
+/site/.env 3 -
+/.circleci/configs/development.yml 2 -
+/awstats/.env 3 -
+/laravel/info.php 3 -
+/error/%3FC%3DS%3BO%3DA 2 -
+/.svn/wc.db 1 -
+/user_secrets.yml 1 -
+/@vite/env 1 -
+/new/.env.local 3 -
+/admin/.env 6 -
+/config.yaml 1 -
+/%3FC%3DD%3BO%3DA 3 -
+/api/.env 6 -
+/api/shared/.env 3 -
+/configs/s3_config.json 2 -
+/.env.prod 4 -
+/static/js/main.141b0494.js 2 -
+/.vscode/.env 4 -
+/conf/.env 4 -
+/wp-admin/setup-config.php 1 -
+/_phpinfo.php 3 -
+/css/support_parent.css 12 -
+/controller/admin/post.js 2 -
+/_profiler/phpinfo 4 -
+/api/shared/config.env 3 -
+/wp-config 3 -
+/node/.env_example 3 -
+/user/config/config.js 2 -
+/.env.production.local 3 -
+/etc/ssl/private/server.key 1 -
+/.git/ 1 -
+/error/%3FC%3DN%3BO%3DD 2 -
+/config/parameters.yml 2 -
+/config.json 5 -
+/_profiler/phpinfo/phpinfo.php 4 -
+/shared/config/config.js 2 -
+/wp-config.php.bak 4 -
+/app.js 2 -
+/api/config.env 3 -
+/mail/.env 2 -
+/database.sql 1 -
+/portal/.env 4 -
+/.git/logs/HEAD 1 -
+/server-info 2 -
+/user/controllers/index.js 2 -
+/partner/config/config.js 2 -
+/config/constants.js 2 -
+/index.js 2 -
+/website/.env 3 -
+/xampp/.env 3 -
+/.aws/config 1 -
+/files.magentaweb.org/forms/fabricatedchaos 1 https://fabricatedchaos.magentaweb.org/crashed/
+/admin/controllers/partner.js 1 -
+/main.yml 1 -
+/configs/routes-4aug.js 2 -
+/dump.sql 1 -
+/application.properties 2 -
+/docker/.env 3 -
+/app/.env 3 -
+/backup.sql 1 -
+/public/.env 5 -
+/apps/.env 3 -
+/info.php 2 -
+/.git/config 16 -
+/new/.env 3 -
+/config/local.yml 3 -
+/crashed/fonts/creepster.ttf 1 https://fabricatedchaos.magentaweb.org/crashed/
+/new/.env.production 3 -
+/gatsby-config.js 2 -
+/error/421.shtml 1 -
+/apis/config/config.js 2 -
+/app_dev.php/_profiler/phpinfo 2 -
+/configs/routes.js 2 -
+/server-info.php 2 -
+/.env 11 -
+/service/email_service.py 3 -
+/backup.zip 1 -
+/nginx/.env 3 -
+/server.key 1 -
+/js/.env 4 -
+/error/420.shtml 1 -
+/sms.py 1 -
+/config/storage.yml 3 -
+/sitemap.xml 5 -
+/https%3A/fonts.googleapis.com/css2%3Ffamily%3DNabla%26family%3DNova%2BSquare%26display%3Dswap 3 -
+/backup.tar.gz 1 -
+/debug/default/view 1 -
+/actuator/heapdump 1 -
+/server/s3.js 1 -
+/admin/server_info.php 2 -
+/main/.env 3 -
+/secrets.json 1 -
+/api/objects/codes.php.save 2 -
+/storage/logs/laravel.log 2 -
+/api/config.js 2 -
+/%3FC%3DN%3BO%3DD 3 -
+/scripts/nodemailer.js 3 -
+/laravel/.env 3 -
+/core/.env 4 -
+/aws.config.js 1 -
+/api/shared/config/.env 4 -
+/xampp/phpinfo.php 4 -
+/settings.py 3 -
+/backend/config/development.yml 2 -
+/my_env/newsletter.py 2 -
+/lara/phpinfo.php 3 -
+/server.js 2 -
+/server/config/database.js 3 -
+/helpers/utility.js 1 -
+/my_env/chakaash.py 2 -
+/static/js/main.e85f7a37.js 2 -
+/.well-known/security.txt 1 -
+/app/config/parameters.yml 2 -
+/my_env/palash.py 2 -
+/application/.env 5 -
+/error/413shtml 1 -
+/.env.bak 5 -
+/index.html 2 -
+/.vscode/sftp.json 2 -
+/config.js 3 -
+/.env.stage 3 -
+/.env.old 3 -
+/wp-config.php 2 -
+/static/js/2.ca066a4b.chunk.js 2 -
+/error/%3FC%3DM%3BO%3DA 2 -
+/js/lkk_ch.js 12 -
+/cloud-config.yml 1 -
+/_profiler/phpinfo/info.php 5 -
+/.env.production 1 -
+/config/config.json 1 -
+/mailer/.env 3 -
+/cron/.env 3 -
+/%3FC%3DS%3BO%3DA 3 -
+/controllers/settings.js 2 -
+/admin/controllers/merchant.js 2 -
+/.env.local 3 -
+/db/schema.rb 1 -
+/.travis.yml 1 -
+/metrics 1 -
+/config.xml 1 -
+/getcpuutil.php-bakworking 2 -
+/prod/.env 3 -
+/server-status 1 -
+/api/shared/config/config.env 3 -
+/backend/.env 4 -
+/.AWS_/credentials 2 -
+/secured/phpinfo.php 3 -
+/feed 1 -
+/%3FC%3DM%3BO%3DA 3 -
+/kyc/.env 3 -
+/config.yml 1 -
+/createbreaktrough 2 -
+/aws-config.js 1 -
+/phpinfo.php 7 -
+/local/.env 3 -
+/js/main.js 2 -
+/config/application.yml 2 -
+/actutor/env 1 -
+/swagger.js 2 -
+/test.php 2 -
+/lara/info.php 4 -
+/.env.example 3 -
+/aws/credentials 1 -
+/_vti_pvt/service.pwd 1 -
+/helper/EmailHelper.js 2 -
+/swagger.json 2 -
+/js/twint_ch.js 12 -
+/cgi-bin/https%3A/fonts.googleapis.com/css2%3Ffamily%3DNabla%26family%3DNova%2BSquare%26display%3Dswap 3 -
+/config/aws.yml 2 -
+/.gitlab-ci.yml 1 -
+/backend/config/settings.yml 2 -
+/phpinfo 4 -
+/aws.yml 1 -
+/cloud/Scraper.js 2 -
+/server_info.php 2 -
+/error/418.shtml 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 83
+79.217.216.128 107 108 276926 20251005122634
+45.148.10.166 77 77 204796 20251013034153
+54.234.247.214 51 51 130927 20251004151235
+103.4.250.69 34 34 67419 20251003063108
+107.172.195.207 25 25 50463 20251003163817
+157.143.122.60 10 10 10846 20251017064230
+45.148.10.203 8 8 19660 20251018112930
+106.74.80.6 8 8 3892 20251004013248
+54.247.57.72 6 6 4782 20251003093247
+66.132.153.117 5 5 16183 20251022154617
+162.142.125.218 5 5 16183 20251005121831
+57.129.46.185 5 5 4865 20251004020354
+162.142.125.117 5 5 16183 20251022152241
+103.4.250.249 4 4 11078 20251003095031
+91.84.86.2 3 3 3477 20251031071844
+80.134.135.17 3 3 3477 20251026113709
+68.183.0.198 2 2 2318 20251014041650
+44.247.148.152 2 2 1946 20251004082113
+171.244.43.14 2 2 1946 20251004044542
+23.27.145.187 1 1 973 20251003192315
+104.252.191.33 1 1 973 20251003163743
+113.201.88.112 1 1 3067 20251031191755
+198.235.24.92 1 1 1159 20251014044311
+138.68.135.84 1 1 973 20251003163106
+138.201.135.169 1 1 1159 20251004140404
+149.57.180.129 1 1 1159 20251005135022
+39.162.191.250 1 1 5910 20251031191814
+3.146.111.124 1 1 1159 20251022080110
+119.163.153.244 1 1 1159 20251031191732
+149.57.180.7 1 1 973 20251003174047
+47.237.90.178 1 1 1159 20251014075256
+149.57.180.51 1 1 1159 20251013191045
+103.196.9.121 1 1 973 20251003095015
+149.57.180.161 1 1 973 20251003142919
+23.27.145.168 1 1 973 20251003125116
+185.247.137.54 1 1 1159 20251004094117
+147.185.132.97 1 1 1159 20251018024936
+79.127.222.198 1 1 973 20251004042007
+96.41.38.202 1 1 973 20251003163820
+101.74.59.19 1 1 1159 20251031191807
+164.92.156.176 1 1 1159 20251027232841
+167.94.138.59 1 1 1159 20251023124206
+204.76.203.25 1 1 1159 20251028161453
+110.53.47.85 1 1 3067 20251031191810
+23.27.145.18 1 1 1159 20251010182226
+143.198.74.255 1 1 1159 20251006140945
+87.236.176.123 1 1 1159 20251004201235
+119.13.199.237 1 1 797 20251003063219
+23.27.145.63 1 1 973 20251003135145
+104.232.199.32 1 1 797 20251003063219
+18.224.192.118 1 1 1159 20251014124923
+106.75.129.36 1 1 797 20251003063206
+39.73.137.42 1 1 1159 20251031191749
+23.27.145.178 1 1 1159 20251004152105
+85.235.205.186 1 1 1159 20251012190427
+168.119.80.126 1 1 1159 20251004140427
+133.242.174.119 1 1 973 20251003194223
+128.192.12.118 1 1 973 20251003132709
+149.57.180.160 1 1 1159 20251005174831
+149.57.180.171 1 1 1159 20251017153558
+93.123.109.60 1 1 1159 20251005092427
+23.27.145.211 1 1 1159 20251004134333
+149.57.180.152 1 1 1159 20251004174425
+165.154.182.168 1 1 1159 20251009054222
+128.192.12.101 1 1 973 20251003132713
+207.154.218.213 1 1 1159 20251005151239
+91.231.89.124 1 1 1159 20251005055350
+91.231.89.125 1 1 1159 20251005055614
+149.57.180.5 1 1 973 20251003132126
+18.228.13.238 1 1 1159 20251005123707
+39.149.242.108 1 1 4888 20251031191812
+23.27.145.50 1 1 1159 20251004192008
+93.180.195.170 1 1 797 20251003063219
+165.227.69.92 1 1 1159 20251007154201
+142.93.203.150 1 1 1159 20251023220203
+106.75.166.158 1 1 797 20251003063147
+123.14.148.163 1 1 4888 20251031191758
+106.75.141.23 1 1 797 20251003063130
+68.183.128.252 1 1 1159 20251004145738
+104.232.199.14 1 1 797 20251003063219
+139.59.65.143 1 1 1159 20251010045047
+42.229.134.88 1 1 5910 20251031191759
+152.32.128.85 1 1 1159 20251009155934
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 19
+20251003 167 168 383905 33
+20251004 105 105 195268 18
+20251005 20 20 35209 12
+20251006 1 1 1159 1
+20251007 2 2 2318 2
+20251009 2 2 2318 2
+20251010 4 4 4636 3
+20251012 1 1 1159 1
+20251013 78 78 205955 2
+20251014 5 5 5795 4
+20251017 2 2 2318 2
+20251018 9 9 20819 2
+20251022 11 11 33525 3
+20251023 3 3 3477 3
+20251024 2 2 2318 1
+20251026 2 2 2318 2
+20251027 1 1 1159 1
+20251028 1 1 1159 1
+20251031 10 10 32366 10
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 4
+30s-2mn 4
+1h+ 2
+30mn-1h 3
+0s-30s 88
+2mn-5mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 43
+/ 140 144588 92 84
+/crashed/ 43 139928 2 6
+/error/ 34 200940 2 3
+/createbreaktrough/ 18 57557 4 3
+/createbreaktrough/mc.json 16 3560 2 4
+/createbreaktrough/info/ 8 23904 0 0
+/error/403.shtml 6 9951 0 0
+/error/501.shtml 6 12123 0 0
+/error/412.shtml 6 12255 0 0
+/error/408.shtml 6 12099 0 0
+/error/401.shtml 6 10128 0 0
+/error/407.shtml 6 12297 0 0
+/error/414.shtml 6 12105 0 0
+/error/404.shtml 6 10065 0 0
+/error/422.shtml 6 12123 0 0
+/error/410.shtml 6 11877 0 0
+/error/400.shtml 6 10020 0 0
+/error/405.shtml 6 12057 0 0
+/error/413.shtml 5 10126 0 0
+/error/503.shtml 5 10038 0 0
+/error/402.shtml 5 8258 0 0
+/error/411.shtml 5 10211 0 0
+/error/416.shtml 5 10328 0 0
+/error/424.shtml 5 8933 0 0
+/error/406.shtml 5 10098 0 0
+/crashed/submitted/ 3 24325 0 0
+/createbracktrough/mc.json 1 0 0 0
+/crashed/formanswers.json 4 2932 0 0
+/error/506.shtml 4 8192 0 0
+/error/502.shtml 4 8115 0 1
+/crashed/uploads/ 2 1620 0 0
+/crashed/submit.php 1 0 0 0
+/error/417.shtml 5 10116 0 0
+/error/507.shtml 3 6083 0 1
+/error/504.shtml 5 10038 0 0
+/crashed/uploads/MagentaGaming/ 2 2272 0 0
+/error/505.shtml 3 6113 0 0
+/error/510.shtml 5 9988 0 1
+/createbracktrough/ 1 3791 1 0
+/error/415.shtml 4 8187 0 0
+/error/500.shtml 4 8151 0 0
+/error/423.shtml 4 7979 0 0
+/error/409.shtml 5 10061 0 0
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 6
+0-44 48
+500-1K 79
+2K-5K 116
+5K+ 70
+100-500 32
+1K-2K 993
+END_FILESIZE
+
+# Request Time Range - Request Time Frequency
+BEGIN_REQUESTTIME 0
+END_REQUESTTIME

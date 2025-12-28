@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waffen‑Glücksrad</title>
+    <style>
+        body {
+            background: #111;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        #wheel {
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+            border: 10px solid #444;
+            margin: 40px auto;
+            position: relative;
+            overflow: hidden;
+            transition: transform 5s cubic-bezier(.17,.67,.83,.67);
+        }
+        .slice {
+            position: absolute;
+            width: 50%;
+            height: 50%;
+            top: 50%;
+            left: 50%;
+            transform-origin: 0% 0%;
+            background: #222;
+            border: 1px solid #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            font-size: 12px;
+        }
+        #pointer {
+            width: 0;
+            height: 0;
+            border-left: 30px solid transparent;
+            border-right: 30px solid transparent;
+            border-bottom: 40px solid red;
+            margin: 0 auto;
+        }
+        button {
+            padding: 10px 30px;
+            background: #cc00ff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        #result {
+            margin-top: 30px;
+            font-size: 26px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Waffen‑Glücksrad für alle Waffen der Mod SuperB Warfare</h1>
+    <div id="pointer"></div>
+    <div id="wheel"></div>
+    <button onclick="spin()">Drehen</button>
+    <div id="result"></div>
+
+<script>
+    const weapons = [
+        "Taser (uncharged)",
+        "Taser (charged)",
+        "GLOCK 17",
+        "GLOCK 18",
+        "MP-443",
+        "M1911A1",
+        "Homemade Shotgun",
+        "Trachelium-Caeruleum",
+        "MP5",
+        "Vector",
+        "AK-47",
+        "AK-12",
+        "SKS",
+        "M4A1",
+        "HK-416",
+        "QBZ-95-1",
+        "QBZ-191",
+        "Insidious",
+        "MK-14EBR",
+        "Marlin-1894",
+        "KAR-98K",
+        "Mosin Nagant",
+        "SVD",
+        "AWM",
+        "M98B",
+        "Sentinel (uncharged)",
+        "Sentinel (charged)",
+        "Hunting Rifle",
+        "NTW-20",
+        "M870 MCS",
+        "AA-12",
+        "Devotion",
+        "RPK",
+        "M60",
+        "M2HB",
+        "M134 Minigun",
+        "M79 Launcher",
+        "Secondary Cataclysm (uncharged)",
+        "Secondary Cataclysm (charged)",
+        "RPG-7",
+        "FGM-148 – Javelin",
+        "IGLA-9K28",
+        "Aurelia Sceptre",
+        "Bocek"
+    ];
+
+    const wheel = document.getElementById("wheel");
+    const sliceCount = weapons.length;
+    const sliceAngle = 360 / sliceCount;
+    
+    // Rad zeichnen
+    weapons.forEach((w, i) => {
+        const slice = document.createElement("div");
+        slice.className = "slice";
+        slice.style.transform = `rotate(${i * sliceAngle}deg) skewY(${90 - sliceAngle}deg)`;
+        slice.innerHTML = w;
+        wheel.appendChild(slice);
+    });
+    
+    let spinning = false;
+    
+    function spin() {
+        if (spinning) return;
+        spinning = true;
+    
+        const randomIndex = Math.floor(Math.random() * weapons.length);
+        const rotation = 3600 + (360 - randomIndex * sliceAngle);
+    
+        wheel.style.transform = `rotate(${rotation}deg)`;
+    
+        setTimeout(() => {
+            document.getElementById("result").innerText = "Gewonnen: " + weapons[randomIndex];
+            spinning = false;
+        }, 5000);
+    }
+</script>
+</body>
+</html>

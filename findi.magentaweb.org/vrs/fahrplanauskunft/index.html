@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>VRS Fahrplanauskunft</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 10px;
+    }
+    header, footer {
+      background-color: #f0f0f0;
+      padding: 10px;
+      text-align: center;
+    }
+    nav {
+      margin: 10px 0;
+    }
+    nav a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #0077cc;
+    }
+    section {
+      margin-bottom: 20px;
+    }
+  </style>
+<body>
+<section id="fahrwegsuche">
+  <h1>Fahrwegsuche</h1>
+  <iframe id="vrsinfo-partner" scrolling="no" style="width: 100%; height: 1000px; border: none;"></iframe>
+  <script type="text/javascript" src="https://www.vrs.de/partner/service/fahrplanauskunft/rsvg"></script>
+  <a class="back-button" href="../">← Zurück zur VRS</a>
+</section>
+</body>
+</html>

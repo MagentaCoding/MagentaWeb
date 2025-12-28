@@ -1,0 +1,30 @@
+[17-Oct-2025 20:14:56 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 11 database disk image is malformed in /home/magentaw/public_html/friends/admin/add.php:13
+Stack trace:
+#0 /home/magentaw/public_html/friends/admin/add.php(13): PDO->prepare('INSERT INTO use...')
+#1 {main}
+  thrown in /home/magentaw/public_html/friends/admin/add.php on line 13
+[17-Oct-2025 20:15:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 11 database disk image is malformed in /home/magentaw/public_html/friends/admin/add.php:13
+Stack trace:
+#0 /home/magentaw/public_html/friends/admin/add.php(13): PDO->prepare('INSERT INTO use...')
+#1 {main}
+  thrown in /home/magentaw/public_html/friends/admin/add.php on line 13
+[17-Oct-2025 20:15:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 11 database disk image is malformed in /home/magentaw/public_html/friends/index.php:15
+Stack trace:
+#0 /home/magentaw/public_html/friends/index.php(15): PDO->prepare('SELECT id, pass...')
+#1 {main}
+  thrown in /home/magentaw/public_html/friends/index.php on line 15
+[17-Oct-2025 20:15:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 11 database disk image is malformed in /home/magentaw/public_html/friends/index.php:15
+Stack trace:
+#0 /home/magentaw/public_html/friends/index.php(15): PDO->prepare('SELECT id, pass...')
+#1 {main}
+  thrown in /home/magentaw/public_html/friends/index.php on line 15
+[17-Oct-2025 20:16:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 11 database disk image is malformed in /home/magentaw/public_html/friends/index.php:15
+Stack trace:
+#0 /home/magentaw/public_html/friends/index.php(15): PDO->prepare('SELECT id, pass...')
+#1 {main}
+  thrown in /home/magentaw/public_html/friends/index.php on line 15
+[17-Oct-2025 20:18:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 11 database disk image is malformed in /home/magentaw/public_html/friends/index.php:16
+Stack trace:
+#0 /home/magentaw/public_html/friends/index.php(16): PDO->prepare('SELECT id, pass...')
+#1 {main}
+  thrown in /home/magentaw/public_html/friends/index.php on line 16

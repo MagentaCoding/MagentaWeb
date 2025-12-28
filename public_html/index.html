@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Bestehende META bleiben -->
+  <title>MagentaWeb — Home</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <!-- Neue SEO-Optimierungen zusätzlich -->
+  <meta name="description" content="MagentaWeb: Innovative web technologies, fonts, and projects. Explore MagentaHTML, MagentaStyle, MagentaScript, MagentaData, MagentaBackend, and MagentaNet Protocol.">
+  <meta name="keywords" content="MagentaWeb, MagentaHTML, MagentaStyle, MagentaScript, MagentaData, MagentaBackend, MagentaNet, web development, modular web platform, Magenta">
+  <meta name="robots" content="index, follow">
+
+  <!-- Strukturierte Daten für Rich Snippets -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "MagentaWeb",
+    "url": "https://www.magentaweb.org",
+    "description": "Innovative modular web technologies and tools including MagentaHTML, MagentaStyle, MagentaScript, MagentaData, MagentaBackend, and MagentaNet Protocol.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "MagentaWeb",
+      "logo": "https://www.magentaweb.org/favicon.ico"
+    }
+  }
+  </script>
+
+  <!-- Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Audiowide&family=Bad+Script&family=Bitcount+Single+Ink:slnt,wght,CRSV,ELSH,ELXP,SZP1,SZP2,XPN1,XPN2,YPN1,YPN2@-8..0,100..900,0..1,0..100,0..100,0..100,0..100,-100..100,-100..100,-100..100,-100..100&family=Cairo+Play:slnt,wght@-11..11,200..1000&family=Electrolize&family=Fugaz+One&family=Geo:ital@0;1&family=Germania+One&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Honk:MORF,SHLN@0..45,0..100&family=Iceberg&family=Iceland&family=Jacquard+24&family=Kings&family=Michroma&family=Nabla:EDPT,EHLT@0..200,0..24&family=New+Amsterdam&family=Nosifer&family=Orbit&family=Orbitron:wght@400..900&family=Protest+Guerrilla&family=Quantico:ital,wght@0,400;0,700;1,400;1,700&family=Saira+Stencil+One&family=Silkscreen:wght@400;700&family=Syne+Mono&family=Tektur:wdth,wght@75..100,400..900&display=swap" rel="stylesheet" >
+
+  <!-- CSS -->
+  <style>
+    /* Basic layout + typography */
+    :root {
+      --bg: #070708;
+      --card: #141418;
+      --accent1: #ff00aa;
+      --accent2: #8800ff;
+      --muted: #9aa0a6;
+      --radius: 12px;
+    }
+    * { box-sizing: border-box; }
+    html,body { height:100%; }
+    body {
+      margin: 0;
+      background: linear-gradient(180deg, #050506 0%, #0b0b10 100%);
+      color: #000000;
+      font-family: 'Google Sans Code', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height: 1.5;
+    }
+
+    header {
+      padding: 2rem 1rem;
+      text-align: center;
+      background: linear-gradient(90deg, var(--accent1), var(--accent2));
+      box-shadow: 0 6px 24px rgba(0,0,0,0.5);
+    }
+    header h1 {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 2.4rem;
+      letter-spacing: 1px;
+    }
+    header p {
+      margin: .5rem 0 0;
+      font-size: 0.95rem;
+      color: rgba(255,255,255,0.92);
+    }
+    
+    /* Erzwinge gelb für Nabla überall */
+    .nabla-text {
+        font-family: 'Nabla', cursive;
+        color: #FFD700; /* Gelb */
+    }
+
+
+
+    .container {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .controls {
+      display:flex;
+      align-items:center;
+      gap:0.75rem;
+      justify-content:flex-end;
+      margin-bottom: 1rem;
+    }
+    .lang-btn {
+      background: transparent;
+      color: var(--muted);
+      border: 1px solid rgba(255,255,255,0.06);
+      padding: 0.45rem 0.7rem;
+      border-radius: 8px;
+      cursor: pointer;
+      font-family: 'Google Sans Code', monospace;
+      transition: all .15s ease;
+    }
+    .lang-btn.active {
+      color: white;
+      border-color: rgba(255,255,255,0.18);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+      background: linear-gradient(90deg, rgba(255,0,170,0.06), rgba(136,0,255,0.06));
+    }
+
+    .grid {
+      display:grid;
+      grid-template-columns: 1fr 360px;
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: var(--radius);
+      padding: 1.25rem;
+      border: 1px solid rgba(255,255,255,0.03);
+      box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+    }
+    .card h2 {
+      margin-top: 0;
+      font-family: 'Audiowide', sans-serif;
+      color: var(--accent1);
+    }
+    .fonts-list p {
+      margin: .45rem 0;
+      font-size: .98rem;
+    }
+    .font-sample {
+      display:flex;
+      flex-direction:column;
+      gap:0.6rem;
+      margin-top:0.6rem;
+    }
+    .font-sample .sample {
+      padding: .5rem;
+      border-radius: 8px;
+      background: rgba(255,255,255,0.01);
+      border: 1px dashed rgba(255,255,255,0.02);
+    }
+    .projects-grid {
+      display:grid;
+      gap: .9rem;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      margin-top: .8rem;
+    }
+    .project {
+      padding: .9rem;
+      border-radius: 10px;
+      background: linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.015));
+      border: 1px solid rgba(255,255,255,0.02);
+    }
+    .project h3 { margin:0 0 .4rem 0; font-size:1.02rem; }
+    .muted { color: var(--muted); font-size: .95rem; }
+
+    footer {
+      margin-top: 2rem;
+      padding: 1.25rem;
+      text-align:center;
+      color: var(--muted);
+      font-size: .9rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 980px) {
+      .grid { grid-template-columns: 1fr; }
+      .controls { justify-content:flex-start; margin-bottom:1rem; }
+    }
+  </style>
+</head>
+<body>
+    <!-- Werbepopup Overlay -->
+    <div id="popup-overlay" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background-color:rgba(0,0,0,0.5); z-index:10000; transition: opacity 0.3s;"></div>
+    
+    <!-- Popup -->
+    <div id="popup" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%) scale(0.8); background-color:white; padding:10px; border-radius:12px; box-shadow:0 12px 40px rgba(0,0,0,0.6); z-index:10001; max-width:420px; width:90%; text-align:center; font-family:'Google Sans Code', monospace; transition: all 0.3s ease;">
+        <a href="https://ads.magentaweb.org/lsd-250" target="_blank">
+            <img src="https://files.magentaweb.org/png/1und1-lsd-250-0-monate-kostenlos.png" alt="MagentaWeb Fake Werbung – Bitte keine Werbebanner auf dieser Website als wahr betrachten" style="width:100%; border-radius:8px;">
+        </a>
+        <button id="close-popup" style="margin-top:12px; padding:0.5rem 1rem; border:none; background:#8800ff; color:white; border-radius:8px; cursor:pointer; font-weight:bold;">Schließen</button>
+    </div>
+
+  
+    <header>
+        <h1 id="site-title">MagentaWeb</h1>
+        <p id="site-tagline">Innovation — Development — Freedom</p>
+    </header>
+
+    <div class="container">
+        <div class="controls" aria-hidden="false">
+            <div class="muted" id="lang-label">Language:</div>
+            <button class="lang-btn" data-lang="en" id="btn-en">English</button>
+            <button class="lang-btn" data-lang="de" id="btn-de">Deutsch</button>
+            <button class="lang-btn" data-lang="fr" id="btn-fr">Français</button>
+            <button class="lang-btn" data-lang="es" id="btn-es">Español</button>
+        </div>
+        
+        <div class="grid">
+            <!-- Main column -->
+            <main class="card" id="main-card" role="main">
+                <h2 id="main-heading">Welcome to MagentaWeb</h2>
+                <p id="intro">
+                    MagentaWeb is designed to be a lightweight platform on which a wide range of proprietary standards and apps can be used. At MagentaWeb, we place great importance on data protection (as long as you don't live in the US) and operate in the European Union in accordance with the General Data Protection Regulation. If we/I ever start to set up or expand a server network, we will not have a single byte of data or any servers in the USA, due to the Cloud Act and other acts that require or enable the authorities of the United States of America (USA) to access our data in any form. Furthermore, if a US authority needs our data for any reason, it too (and especially it) must fill out a data request form in typical German fashion. Processing this form can take months or even years, given the speed of German authorities, but since we are in Germany and the operator of MagentaWeb does not like US data security and data protection, it should also be noted that, as with the IRS (the US tax authority, equivalent to the “Finanzamt” in Germany), the smallest error will result in immediate rejection.
+                </p>
+                
+                <section aria-labelledby="fonts-heading" style="margin-top:1rem">
+                    <h3 id="fonts-heading">Fonts included</h3>
+                    <div class="fonts-list" id="fonts-list">
+                    <p class="muted">The following Google Fonts are preloaded and available for use across the site.</p>
+                        <div class="font-sample">
+                            <div class="sample" style="font-family:'Aldrich', sans-serif;">Aldrich — modern & angular</div>
+                            <div class="sample" style="font-family:'Audiowide', cursive;">Audiowide — futuristic & techy</div>
+                            <div class="sample" style="font-family:'Bad Script', cursive;">Bad Script — casual handwriting</div>
+                            <div class="sample" style="font-family:'Orbitron', sans-serif;">Orbitron — clean & digital</div>
+                            <div class="sample" style="font-family:'Nosifer', cursive;">Nosifer — drip / display style</div>
+                            <div class="sample" style="font-family:'Quantico', sans-serif;">Quantico — strong & technical</div>
+                            <div class="sample" style="font-family:'Silkscreen', monospace;">Silkscreen — pixel / bitmap look</div>
+                            <div class="sample" style="font-family:'Google Sans Code', monospace;">Google Sans Code — modern code-friendly face</div>
+                            <div class="sample" style="font-family:'Michroma', sans-serif;">Michroma — sleek & futuristic</div>
+                            <div class="sample nabla-text" style="font-family:'Nabla', cursive;">Nabla — decorative / display</div>
+                        </div>
+                    </div>
+                </section>
+                
+                <section aria-labelledby="projects-heading" style="margin-top:1.4rem">
+                    <h3 id="projects-heading">Active projects</h3>
+                    <p class="muted" id="projects-sub">Core initiatives currently under development at MagentaWeb.</p>
+                    
+                    <div class="projects-grid" id="projects-grid">
+                        <div class="project">
+                            <h3>MagentaWeb System</h3>
+                            <p class="muted" id="mweb">The complete system for all of MagentaWeb, which includes MagentaHTML, MagentaSytle, MagentaScript, MagentaData, MagentaBackend and the MagentaNet Protocol. </p>
+                        </div>
+                        <div class="project">
+                            <h3>MagentaNet Protocol</h3>
+                            <p class="muted" id="mnet">The MagentaNet Protocol is a protocol for all across MagentaWeb and MagentaNet, the MagentaNet Protocol uses magenta:// for unsecure connections and MAGENTA:// and magentasecure:// for secure connections. </p>
+                        </div>
+                        <div class="project">
+                          <h3>MagentaHTML</h3>
+                          <p class="muted" id="html">A reimagined HTML layer: semantic, compact, and extendable for component-first workflows.</p>
+                        </div>
+                        <div class="project">
+                          <h3>MagentaStyle</h3>
+                          <p class="muted" id="style">A modern alternative to CSS with simplified, composable rules and theme primitives.</p>
+                        </div>
+                        <div class="project">
+                          <h3>MagentaScript</h3>
+                          <p class="muted" id="script">A lightweight scripting language with safe-by-default semantics and first-class async primitives.</p>
+                        </div>
+                        <div class="project">
+                          <h3>MagentaData</h3>
+                          <p class="muted" id="data">A next-gen datastore abstraction focused on multi-device sync and privacy-centric replication.</p>
+                        </div>
+                        <div class="project">
+                          <h3>MagentaBackend</h3>
+                          <p class="muted" id="backend">Unified backend platform to replace common stacks (PHP, Node.js etc.) with a modular runtime.</p>
+                        </div>
+                        <div class="project">
+                          <h3>FINDI</h3>
+                          <p class="muted" id="findi">A smart route planner to plan your route and navigate you trough the local transport system on the local transport network of the Rhein-Sieg Transport Association (VRS).</p>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            
+            <!-- Side column -->
+            <aside class="card" id="side-card" aria-label="Quick info">
+                <h2 id="side-heading">Quick settings</h2>
+                <p class="muted" id="detect-msg">Browser language detection: <strong id="detected-lang">—</strong></p>
+                
+                <div style="margin-top:.8rem">
+                    <h3 style="margin:.25rem 0">How language switching works</h3>
+                    <p class="muted" id="how-it-works">The site stores your preference in the browser (localStorage) and updates the visible text instantly. Content is provided in English, German, French and Spanish.</p>
+                </div>
+                
+                <div style="margin-top:1rem">
+                    <h3 style="margin:.25rem 0">Developer notes</h3>
+                    <p class="muted">You can extend the <code>translations</code> object in the inline script to add or change phrases. All visible content uses IDs so translation is fast and simple.</p>
+                </div>
+              </aside>
+        </div>
+    
+        <footer>
+            <div id="footer-text">&copy; 2025 MagentaWeb — All rights reserved.</div>
+        </footer>
+    </div>
+
+  <script>
+    // Popup öffnen
+    function openPopup() {
+        document.getElementById('popup-overlay').style.display = 'block';
+        document.getElementById('popup').style.display = 'block';
+        setTimeout(() => {
+            document.getElementById('popup-overlay').style.opacity = '1';
+            document.getElementById('popup').style.transform = 'translate(-50%, -50%) scale(1)';
+        }, 10);
+    }
+
+    // Popup schließen
+    function closePopup() {
+        document.getElementById('popup-overlay').style.opacity = '0';
+        document.getElementById('popup').style.transform = 'translate(-50%, -50%) scale(0.8)';
+        setTimeout(() => {
+            document.getElementById('popup-overlay').style.display = 'none';
+            document.getElementById('popup').style.display = 'none';
+        }, 300);
+    }
+
+    // Event für Close-Button
+    document.getElementById('close-popup').addEventListener('click', closePopup);
+    
+    // Klick auf Overlay schließt ebenfalls Popup
+    document.getElementById('popup-overlay').addEventListener('click', closePopup);
+    
+    // Popup nach 5 Sekunden automatisch anzeigen
+    setTimeout(openPopup, 5000);
+    
+    (function(){
+    // TRANSLATIONS: add/modify phrases here. Keys are element IDs.
+    const translations = {
+
+    en: {
+      "site-title": "MagentaWeb",
+      "site-tagline": "Innovation — Development — Freedom",
+      "main-heading": "Welcome to MagentaWeb",
+      "intro": "MagentaWeb is designed to be a lean platform on which a variety of proprietary standards and apps can be used. At MagentaWeb, we place great importance on data protection (as long as you do not live in the USA) and operate within the European Union in accordance with the General Data Protection Regulation (GDPR). Should MagentaWeb ever begin to build or expand a server network, we will ensure that not a single byte of data or any server is located in the United States of America (USA). The reason for this is the so-called “Cloud Act” and other US laws that enable or facilitate access to our data in any form by the US authorities.<br>Furthermore, if a US authority requests our data for any reason, it must first fill out a formal data request form in the typical German manner. Processing such a form can take months or even years, depending on the speed of German authorities. However, since MagentaWeb is operated in Germany and the operator of MagentaWeb rejects the US approach to data protection and data security, it should also be noted that – similar to the Internal Revenue Service (IRS, the US counterpart to the German tax office) – even the smallest error will result in the immediate rejection of the request.",
+      "fonts-heading": "Fonts included",
+      "projects-heading": "Active projects",
+      "projects-sub": "Core initiatives currently under development at MagentaWeb.",
+      "side-heading": "Quick settings",
+      "detect-msg": "Browser language detection:",
+      "detected-lang": "",
+      "how-it-works": "The site stores your preference in the browser (localStorage) and updates the visible text instantly. Content is provided in English, German, French and Spanish.",
+      "footer-text": "© 2025 MagentaWeb — All rights reserved.",
+      "mweb": "The complete system for all of MagentaWeb, which includes MagentaHTML, MagentaStyle, MagentaScript, MagentaData, MagentaBackend and the MagentaNet Protocol.",
+      "mnet": "The MagentaNet Protocol is a protocol for all across MagentaWeb and MagentaNet, the MagentaNet Protocol uses magenta:// for unsecure connections and MAGENTA:// and magentasecure:// for secure connections.",
+      "html": "A reimagined HTML layer: semantic, compact, and extendable for component-first workflows.",
+      "style": "A modern alternative to CSS with simplified, composable rules and theme primitives.",
+      "script": "A lightweight scripting language with safe-by-default semantics and first-class async primitives.",
+      "data": "A next-gen datastore abstraction focused on multi-device sync and privacy-centric replication.",
+      "backend": "Unified backend platform to replace common stacks (PHP, Node.js etc.) with a modular runtime.",
+      "findi": "A smart route planner to plan your route and navigate you through the local transport system on the local transport network of the Rhein-Sieg Transport Association (VRS)."
+    },
+    de: {
+      "site-title": "MagentaWeb",
+      "site-tagline": "Innovation — Entwicklung — Freiheit",
+      "main-heading": "Willkommen bei MagentaWeb",
+      "intro": "MagentaWeb ist darauf ausgelegt, eine schlanke Plattform zu sein, auf der eine Vielzahl proprietärer Standards und Apps verwendet werden kann. Bei MagentaWeb legen wir großen Wert auf Datenschutz (solange Sie nicht in den USA leben) und agieren innerhalb der Europäischen Union in Übereinstimmung mit der Datenschutz-Grundverordnung (DSGVO). Sollte MagentaWeb jemals beginnen, ein Servernetzwerk aufzubauen oder zu erweitern, wird sichergestellt, dass sich kein einziges Byte an Daten oder irgendein Server in den Vereinigten Staaten von Amerika (USA) befindet. Grund hierfür ist der sogenannte „Cloud Act“ sowie andere US-Gesetze, die den Behörden der Vereinigten Staaten den Zugriff auf unsere Daten in jeglicher Form ermöglichen oder erleichtern.<br>Darüber hinaus gilt: Sollte eine US-Behörde unsere Daten aus irgendeinem Grund anfordern, so muss auch sie – und insbesondere sie – zunächst ein förmliches Datenanforderungsformular nach typisch deutscher Art ausfüllen. Die Bearbeitung eines solchen Formulars kann, entsprechend der Geschwindigkeit deutscher Behörden, Monate oder gar Jahre dauern. Da MagentaWeb jedoch in Deutschland betrieben wird und der Betreiber von MagentaWeb den US-amerikanischen Umgang mit Datenschutz und Datensicherheit ablehnt, sei außerdem darauf hingewiesen, dass – ähnlich wie beim Internal Revenue Service (IRS, dem US-amerikanischen Pendant zum deutschen Finanzamt) – schon der kleinste Fehler zur sofortigen Ablehnung der Anfrage führt.",
+      "fonts-heading": "Eingebundene Fonts",
+      "projects-heading": "Aktive Projekte",
+      "projects-sub": "Kerninitiativen, die derzeit bei MagentaWeb entwickelt werden.",
+      "side-heading": "Schnelleinstellungen",
+      "detect-msg": "Browser-Spracherkennung:",
+      "detected-lang": "",
+      "how-it-works": "Die Seite speichert deine Einstellung im Browser (localStorage) und aktualisiert die sichtbaren Texte sofort. Inhalte sind auf Englisch, Deutsch, Französisch und Spanisch verfügbar.",
+      "footer-text": "© 2025 MagentaWeb — Alle Rechte vorbehalten.",
+      "mweb": "Das komplette System für MagentaWeb, bestehend aus MagentaHTML, MagentaStyle, MagentaScript, MagentaData, MagentaBackend und dem MagentaNet-Protokoll.",
+      "mnet": "Das MagentaNet-Protokoll ist ein Protokoll für das gesamte MagentaWeb und MagentaNet. Das MagentaNet-Protokoll verwendet magenta:// für ungesicherte Verbindungen und MAGENTA:// sowie magentasecure:// für gesicherte Verbindungen.",
+      "html": "Eine neu konzipierte HTML-Ebene: semantisch, kompakt und erweiterbar für komponentenorientierte Workflows.",
+      "style": "Eine moderne Alternative zu CSS mit vereinfachten, kombinierbaren Regeln und Theme-Primitiven.",
+      "script": "Eine leichtgewichtige Skriptsprache mit standardmäßig sicherer Semantik und erstklassigen asynchronen Primitiven.",
+      "data": "Eine Datenspeicherabstraktion der nächsten Generation mit Schwerpunkt auf der Synchronisierung mehrerer Geräte und datenschutzorientierter Replikation.",
+      "backend": "Einheitliche Backend-Plattform, die gängige Stacks (PHP, Node.js usw.) durch eine modulare Laufzeitumgebung ersetzt.",
+      "findi": "Ein intelligenter Routenplaner, der Ihre Route plant und Sie durch das Nahverkehrssystem des Verkehrsverbunds Rhein-Sieg (VRS) navigiert."
+    },
+    fr: {
+      "site-title": "MagentaWeb",
+      "site-tagline": "Innovation — Développement — Liberté",
+      "main-heading": "Bienvenue sur MagentaWeb",
+      "intro": "MagentaWeb est conçu comme une plateforme légère sur laquelle une multitude de normes et d'applications propriétaires peuvent être utilisées. Chez MagentaWeb, nous accordons une grande importance à la protection des données (si vous ne résidez pas aux États-Unis) et travaillons dans l'Union européenne conformément au règlement général sur la protection des données. Si jamais nous/je commençons à mettre en place ou à étendre un réseau de serveurs, nous n'aurons pas un seul octet de données ni aucun serveur aux États-Unis en raison du Cloud Act et d'autres lois qui imposent ou permettent aux autorités des États-Unis d'Amérique (USA) d'accéder à nos données sous quelque forme que ce soit. De plus, si une autorité américaine a besoin de nos données pour une raison quelconque, elle doit remplir un formulaire de demande de données à l'allemande. Compte tenu de la lenteur des autorités allemandes, le traitement de ce formulaire peut prendre des mois, voire des années, mais comme nous sommes situés en Allemagne et que l'exploitant de MagentaWeb n'apprécie pas la sécurité et la protection des données aux États-Unis, il convient également de noter que, comme pour l'IRS (l'administration fiscale américaine, équivalente au « Finanzamt » en Allemagne), la moindre erreur entraîne un rejet immédiat.",
+      "fonts-heading": "Polices incluses",
+      "projects-heading": "Projets actifs",
+      "projects-sub": "Initiatives principales actuellement en développement chez MagentaWeb.",
+      "side-heading": "Paramètres rapides",
+      "detect-msg": "Détection de la langue du navigateur:",
+      "detected-lang": "",
+      "how-it-works": "Le site enregistre votre préférence dans le navigateur (localStorage) et met à jour le texte visible instantanément. Le contenu est disponible en anglais, allemand, français et espagnol.",
+      "footer-text": "© 2025 MagentaWeb — Tous droits réservés.",
+      "mweb": "Le système complet pour l'ensemble de MagentaWeb, qui comprend MagentaHTML, MagentaStyle, MagentaScript, MagentaData, MagentaBackend et le protocole MagentaNet.",
+      "mnet": "Le protocole MagentaNet est un protocole utilisé sur l'ensemble des réseaux MagentaWeb et MagentaNet. Il utilise magenta:// pour les connexions non sécurisées et MAGENTA:// et magentasecure:// pour les connexions sécurisées.",
+      "html": "Une couche HTML repensée : sémantique, compacte et extensible pour des workflows centrés sur les composants.",
+      "style": "Une alternative moderne au CSS avec des règles simplifiées, composables et primitives de thème.",
+      "script": "Un langage de script léger avec des sémantiques sûres par défaut et des primitives asynchrones de première classe.",
+      "data": "Une abstraction de stockage de données de nouvelle génération, axée sur la synchronisation multi-appareils et la réplication respectueuse de la vie privée.",
+      "backend": "Plateforme backend unifiée pour remplacer les stacks courants (PHP, Node.js, etc.) par un runtime modulaire.",
+      "findi": "Un planificateur d'itinéraire intelligent pour planifier votre trajet et vous guider dans le réseau de transport local de l'Association des Transports Rhin-Sieg (VRS)."
+    },
+    es: {
+      "site-title": "MagentaWeb",
+      "site-tagline": "Innovación — Desarrollo — Libertad",
+      "main-heading": "Bienvenido a MagentaWeb",
+      "intro": "MagentaWeb está diseñado para ser una plataforma ágil en la que se pueden utilizar una gran variedad de estándares y aplicaciones propietarias. En MagentaWeb damos mucha importancia a la protección de datos (siempre que no residas en EE. UU.) y actuamos dentro de la Unión Europea de conformidad con el Reglamento General de Protección de Datos (RGPD). Si MagentaWeb comenzara a construir o ampliar una red de servidores, se garantizaría que ni un solo byte de datos ni ningún servidor se encontrara en los Estados Unidos de América (EE. UU.). El motivo es la denominada «Cloud Act», así como otras leyes estadounidenses que permiten o facilitan a las autoridades de los Estados Unidos el acceso a nuestros datos en cualquier forma.<br>Además, si una autoridad estadounidense solicita nuestros datos por cualquier motivo, también ella, y en particular ella, deberá rellenar primero un formulario formal de solicitud de datos al estilo típico alemán. La tramitación de dicho formulario puede llevar meses o incluso años, según la rapidez de las autoridades alemanas. Sin embargo, dado que MagentaWeb opera en Alemania y que el operador de MagentaWeb rechaza el enfoque estadounidense en materia de protección y seguridad de datos, cabe señalar que, al igual que en el caso del Internal Revenue Service (IRS, el equivalente estadounidense de la Agencia Tributaria alemana), el más mínimo error da lugar al rechazo inmediato de la solicitud.",
+      "fonts-heading": "Fuentes incluidas",
+      "projects-heading": "Proyectos activos",
+      "projects-sub": "Iniciativas principales que actualmente se desarrollan en MagentaWeb.",
+      "side-heading": "Ajustes rápidos",
+      "detect-msg": "Detección del idioma del navegador:",
+      "detected-lang": "",
+      "how-it-works": "El sitio guarda tu preferencia en el navegador (localStorage) y actualiza el texto visible al instante. El contenido está disponible en inglés, alemán, francés y español.",
+      "footer-text": "© 2025 MagentaWeb — Todos los derechos reservados.",
+      "mweb": "El sistema completo para todo MagentaWeb, que incluye MagentaHTML, MagentaStyle, MagentaScript, MagentaData, MagentaBackend y el protocolo MagentaNet.",
+      "mnet": "El protocolo MagentaNet es un protocolo para toda la red MagentaWeb y MagentaNet. Utiliza magenta:// para conexiones no seguras y MAGENTA:// y magentasecure:// para conexiones seguras.",
+      "html": "Una capa HTML reinventada: semántica, compacta y extensible para flujos de trabajo centrados en componentes.",
+      "style": "Una alternativa moderna a CSS con reglas simplificadas, componibles y primitivas de tema.",
+      "script": "Un lenguaje de scripting ligero con semánticas seguras por defecto y primitivas asíncronas de primera clase.",
+      "data": "Una abstracción de almacenamiento de datos de próxima generación centrada en la sincronización entre dispositivos y la replicación respetuosa con la privacidad.",
+      "backend": "Plataforma unificada de backend para reemplazar stacks comunes (PHP, Node.js, etc.) con un runtime modular.",
+      "findi": "Un planificador de rutas inteligente para planificar tu recorrido y guiarte a través del sistema de transporte local de la Asociación de Transporte Rhein-Sieg (VRS)."
+        }
+      };
+
+      // target element IDs that should be translated (present in translations)
+      const translatableIds = Object.keys(translations.en);
+
+      // helpers
+      function applyTranslations(lang) {
+        const dict = translations[lang] || translations.en;
+        translatableIds.forEach(id => {
+          const el = document.getElementById(id);
+          if (!el) return;
+          // for 'detected-lang' we will not override if empty; it's used separately
+          if (id === "detected-lang") {
+            // handled elsewhere
+            return;
+          }
+          el.innerHTML = dict[id] !== undefined ? dict[id] : translations.en[id] || "";
+        });
+        // footer accessible
+        const footer = document.getElementById('footer-text');
+        if (footer && dict['footer-text']) footer.textContent = dict['footer-text'];
+
+        // update active button styles
+        document.querySelectorAll('.lang-btn').forEach(b => {
+          b.classList.toggle('active', b.dataset.lang === lang);
+        });
+
+        // set html lang attribute for accessibility
+        document.documentElement.lang = lang;
+      }
+
+      // detect browser language and map to our supported languages
+      function detectBrowserLang() {
+        const navLangs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || navigator.userLanguage || 'en'];
+        const supported = ['en','de','fr','es'];
+        for (let n of navLangs) {
+          const code = n.toLowerCase().split('-')[0];
+          if (supported.includes(code)) return code;
+        }
+        return 'en';
+      }
+
+      // Initialization
+      const stored = localStorage.getItem('magentaweb_lang');
+      const initialLang = stored || detectBrowserLang() || 'en';
+      // show detected language in side card
+      const detectedEl = document.getElementById('detected-lang');
+      detectedEl.textContent = navigator.language || 'unknown';
+
+      applyTranslations(initialLang);
+
+      // Save chosen language
+      function setLanguage(lang) {
+        localStorage.setItem('magentaweb_lang', lang);
+        applyTranslations(lang);
+      }
+
+      // wire up buttons
+      document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.addEventListener('click', function(){
+          const lang = this.dataset.lang;
+          setLanguage(lang);
+        });
+      });
+
+      // Expose to window for debugging (optional)
+      window.MagentaWeb = {
+        setLanguage,
+        detectBrowserLang
+      };
+
+      // accessibility: keyboard language shortcuts (Alt+1..4)
+      window.addEventListener('keydown', function(e){
+        if (!e.altKey) return;
+        switch(e.key) {
+          case '1': setLanguage('en'); break;
+          case '2': setLanguage('de'); break;
+          case '3': setLanguage('fr'); break;
+          case '4': setLanguage('es'); break;
+          default: return;
+        }
+      });
+    })();
+  </script>
+</body>
+</html>

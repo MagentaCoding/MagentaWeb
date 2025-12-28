@@ -1,0 +1,35 @@
+{
+    "api/crashassistant": {
+        "app_mode": "development",
+        "app_status": "started",
+        "app_uri": "crashassistant",
+        "config_files": [],
+        "domain": "api.magentaweb.org",
+        "env_vars": {},
+        "nodejs_version": "22",
+        "passenger_log_file": "/home/magentaw/api/log/crashassistant.log",
+        "startup_file": "/home/magentaw/api/crashassistant/index.js"
+    },
+    "api/discord": {
+        "app_mode": "production",
+        "app_status": "started",
+        "app_uri": "discord",
+        "config_files": [],
+        "domain": "api.magentaweb.org",
+        "env_vars": {},
+        "nodejs_version": "22",
+        "passenger_log_file": "/home/magentaw/api/log/discord.log",
+        "startup_file": "/home/magentaw/api/discord/index.js"
+    },
+    "magentasecurity/discord": {
+        "app_mode": "development",
+        "app_status": "started",
+        "app_uri": "discord",
+        "config_files": [],
+        "domain": "magentasecurity.magentaweb.org",
+        "env_vars": {},
+        "nodejs_version": "22",
+        "passenger_log_file": "/home/magentaw/magentasecurity/log/discordbot.log",
+        "startup_file": "/home/magentaw/magentasecurity/discord/index.js"
+    }
+}

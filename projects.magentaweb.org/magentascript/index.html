@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MagentaHTML Übersicht</title>
+
+<!-- Google Fonts: Aldrich -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+
+<style>
+  body {
+    font-family: 'Aldrich', sans-serif;
+    margin: 20px;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  h1, h2 {
+    color: #d63c97;
+  }
+  p.intro {
+    background-color: #fff0f5;
+    border-left: 5px solid #d63c97;
+    padding: 15px;
+    border-radius: 6px;
+    line-height: 1.6;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 15px;
+    background-color: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  th {
+    background-color: #d63c97;
+    color: white;
+  }
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  form#language-selector {
+    margin-top: 20px;
+  }
+  select {
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  tr:hover {
+    background-color: #ffe6f0;
+    transition: background-color 0.3s ease;
+  }
+  code {
+    background-color: #f2f2f2;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-family: monospace;
+  }
+</style>
+</head>
+<body>
+
+<!-- ========================================= -->
+<!--   MagentaHTML – JavaScript Übersicht      -->
+<!-- ========================================= -->
+
+<h1 id="js">MagentaScript</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Kategorie</th>
+      <th>Element / Schlüsselwort</th>
+      <th>Beschreibung / Beispiel</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <!-- 1. Grundlagen -->
+    <tr><td rowspan="8">Grundlagen</td><td>let / const / var</td><td>Variablen deklarieren (let & const bevorzugt)</td></tr>
+    <tr><td>typeof</td><td>Typ einer Variable ermitteln</td></tr>
+    <tr><td>delete</td><td>Eigenschaft aus Objekt löschen</td></tr>
+    <tr><td>in</td><td>Prüft, ob Eigenschaft existiert → <code>'name' in obj</code></td></tr>
+    <tr><td>instanceof</td><td>Überprüft Objekt-Typen</td></tr>
+    <tr><td>this</td><td>Verweist auf aktuelles Objekt</td></tr>
+    <tr><td>new</td><td>Erzeugt neue Instanz eines Objekts</td></tr>
+    <tr><td>super</td><td>Aufruf der Elternklasse</td></tr>
+
+    <!-- 2. Operatoren -->
+    <tr><td rowspan="6">Operatoren</td><td>+ − * / % **</td><td>Arithmetische Operatoren</td></tr>
+    <tr><td>==  ===  !=  !==</td><td>Vergleichsoperatoren (=== ist strikt)</td></tr>
+    <tr><td>&lt;  &lt;=  &gt;  &gt;=</td><td>Größer-/Kleiner-Vergleiche</td></tr>
+    <tr><td>&amp;&amp;  ||  !</td><td>Logische Operatoren (UND, ODER, NICHT)</td></tr>
+    <tr><td>??</td><td>Nullish-Coalescing (Standardwert bei null/undefined)</td></tr>
+    <tr><td>?.</td><td>Optional Chaining (sicherer Zugriff)</td></tr>
+
+    <!-- 3. Kontrollstrukturen -->
+    <tr><td rowspan="6">Kontrollstrukturen</td><td>if / else if / else</td><td>Bedingungen</td></tr>
+    <tr><td>switch / case / default</td><td>Mehrfach-Bedingungen</td></tr>
+    <tr><td>for / for...of / for...in</td><td>Schleifenarten</td></tr>
+    <tr><td>while / do...while</td><td>Wiederholungen mit Bedingung</td></tr>
+    <tr><td>break / continue</td><td>Schleifensteuerung</td></tr>
+    <tr><td>return</td><td>Wert aus Funktion zurückgeben</td></tr>
+
+    <!-- 4. Funktionen -->
+    <tr><td rowspan="6">Funktionen</td><td>function name() {}</td><td>Normale Funktionsdefinition</td></tr>
+    <tr><td>const fn = () =&gt; {}</td><td>Arrow Function</td></tr>
+    <tr><td>(function() {})()</td><td>Anonyme, sofort ausgeführte Funktion</td></tr>
+    <tr><td>arguments</td><td>Greift auf übergebene Parameter zu</td></tr>
+    <tr><td>...rest</td><td>Sammelt mehrere Argumente</td></tr>
+    <tr><td>return</td><td>Funktion beendet &amp; Wert zurückgegeben</td></tr>
+
+    <!-- 5. Objekte & Arrays -->
+    <tr><td rowspan="7">Objekte & Arrays</td><td>{}</td><td>Objektliteral</td></tr>
+    <tr><td>[]</td><td>Arrayliteral</td></tr>
+    <tr><td>obj.key / obj["key"]</td><td>Zugriff auf Objekt-Eigenschaften</td></tr>
+    <tr><td>Object.keys() / Object.values()</td><td>Eigenschaftslisten</td></tr>
+    <tr><td>Array.map() / filter() / find() / reduce()</td><td>Array-Methoden</td></tr>
+    <tr><td>const {x,y} = obj</td><td>Destructuring Assignment</td></tr>
+    <tr><td>const neu = {...alt}</td><td>Spread Operator (Kopieren)</td></tr>
+
+    <!-- 6. Klassen -->
+    <tr><td rowspan="6">Klassen</td><td>class</td><td>Definition einer Klasse</td></tr>
+    <tr><td>constructor()</td><td>Konstruktor für Initialisierung</td></tr>
+    <tr><td>extends</td><td>Vererbung von Klassen</td></tr>
+    <tr><td>static</td><td>Statische Methode oder Eigenschaft</td></tr>
+    <tr><td>get / set</td><td>Getter- und Setter-Methoden</td></tr>
+    <tr><td>#privat</td><td>Private Felder (ES2022+)</td></tr>
+
+    <!-- 7. Module -->
+    <tr><td rowspan="4">Module</td><td>export</td><td>Exportiert Funktion/Variable</td></tr>
+    <tr><td>export default</td><td>Standard-Export</td></tr>
+    <tr><td>import {...} from "./file.js"</td><td>Importiert aus Modul</td></tr>
+    <tr><td>import * as alias</td><td>Importiert alles unter Alias</td></tr>
+
+    <!-- 8. Asynchronität -->
+    <tr><td rowspan="6">Asynchronität</td><td>Promise</td><td>Asynchrone Aufgabe (resolve/reject)</td></tr>
+    <tr><td>async / await</td><td>Moderne Syntax für Promises</td></tr>
+    <tr><td>then() / catch() / finally()</td><td>Promise-Ketten</td></tr>
+    <tr><td>setTimeout() / setInterval()</td><td>Zeitgesteuerte Funktionen</td></tr>
+    <tr><td>fetch()</td><td>HTTP-Anfragen senden</td></tr>
+    <tr><td>WebSocket()</td><td>Echtzeitverbindungen</td></tr>
+
+    <!-- 9. Fehlerbehandlung -->
+    <tr><td rowspan="3">Fehlerbehandlung</td><td>try / catch</td><td>Fehler abfangen</td></tr>
+    <tr><td>finally</td><td>Wird immer ausgeführt</td></tr>
+    <tr><td>throw new Error()</td><td>Eigenen Fehler erzeugen</td></tr>
+
+    <!-- 10. DOM & Browser -->
+    <tr><td rowspan="7">DOM & Browser</td><td>document.querySelector()</td><td>Elemente auswählen</td></tr>
+    <tr><td>element.innerHTML / textContent</td><td>Inhalt ändern</td></tr>
+    <tr><td>element.classList.add()</td><td>CSS-Klassen bearbeiten</td></tr>
+    <tr><td>addEventListener()</td><td>Ereignisse verarbeiten</td></tr>
+    <tr><td>localStorage / sessionStorage</td><td>Daten lokal speichern</td></tr>
+    <tr><td>navigator.geolocation</td><td>Standort-API</td></tr>
+    <tr><td>canvas.getContext("2d")</td><td>Grafiken zeichnen</td></tr>
+
+    <!-- 11. Neuere ES-Features -->
+    <tr><td rowspan="8">ES6–ES2025 Features</td><td>Template Literals</td><td>`` `Hallo ${name}` ``</td></tr>
+    <tr><td>Default Parameter</td><td><code>function(x=0)</code></td></tr>
+    <tr><td>Destructuring</td><td><code>const [a,b]=arr</code></td></tr>
+    <tr><td>Arrow Functions</td><td><code>()=&gt;{}</code></td></tr>
+    <tr><td>Optional Chaining</td><td><code>obj?.user?.id</code></td></tr>
+    <tr><td>Nullish Coalescing</td><td><code>x ?? y</code></td></tr>
+    <tr><td>Top-Level await</td><td><code>await fetch(url)</code> außerhalb Funktionen</td></tr>
+    <tr><td>Promise.any() / Object.hasOwn()</td><td>Neue Komfort-Methoden</td></tr>
+
+  </tbody>
+</table>
+
+<script>
+async function loadLanguage(lang) {
+  try {
+    const response = await fetch(`${lang}.json`);
+    if (!response.ok) throw new Error("JSON konnte nicht geladen werden");
+    const data = await response.json();
+
+    if (data.title) document.title = data.title;
+
+    const introEl = document.getElementById("magenta-intro");
+    if (introEl && data.intro) introEl.textContent = data.intro;
+
+    if (data.tags) {
+      for (const [tag, desc] of Object.entries(data.tags)) {
+        const cell = document.querySelector(`[data-tag='${tag}']`);
+        if (cell) cell.textContent = desc;
+      }
+    }
+
+    if (data.attributes) {
+      for (const [attr, desc] of Object.entries(data.attributes)) {
+        const cell = document.querySelector(`[data-attr='${attr}']`);
+        if (cell) cell.textContent = desc;
+      }
+    }
+  } catch (error) {
+    console.error("Fehler beim Laden der Sprache:", error);
+  }
+}
+
+function changeLanguage(lang) {
+  loadLanguage(lang);
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  const initialLang = document.getElementById("language").value;
+  loadLanguage(initialLang);
+});
+</script>
+
+</body>
+</html>

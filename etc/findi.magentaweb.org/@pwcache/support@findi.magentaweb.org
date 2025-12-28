@@ -1,0 +1,6 @@
+passwd:$6$rSsGVey6Cp7XCx.8$ya91oOXrJPtNl0RLWBrz3vKBfz4Yrm9qCW7d28c20alX8Cd1qgFNts9I0/GtsjeRxiZe7sm4UmuoH4u5.PAdA/
+quota:0
+homedir:/home/magentaw/mail/findi.magentaweb.org/support
+strength:100
+lastchanged:-1
+perms:rw

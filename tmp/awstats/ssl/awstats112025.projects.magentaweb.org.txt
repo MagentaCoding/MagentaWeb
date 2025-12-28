@@ -1,0 +1,638 @@
+AWSTATS DATA FILE 8.0 (build 20240604)
+# If you remove this file, all statistics for date 202511 will be lost/reset.
+# Last config file used to build this data file was /home/magentaw/tmp/awstats/ssl/awstats.projects.magentaweb.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2095                
+POS_TIME 2777                
+POS_VISITOR 12724               
+POS_DAY 14117               
+POS_DOMAIN 3354                
+POS_LOGIN 3651                
+POS_ROBOT 3806                
+POS_WORMS 4227                
+POS_EMAILSENDER 4358                
+POS_EMAILRECEIVER 4501                
+POS_SESSION 14488               
+POS_FILESIZE 14747               
+POS_REQUESTTIME 14859               
+POS_SIDER 14635               
+POS_FILETYPES 4636                
+POS_DOWNLOADS 4729                
+POS_OS 4777                
+POS_BROWSER 4955                
+POS_SCREENSIZE 5428                
+POS_UNKNOWNREFERER 5502                
+POS_UNKNOWNREFERERBROWSER 6063                
+POS_ORIGIN 6222                
+POS_SEREFERRALS 6354                
+POS_PAGEREFS 6498                
+POS_SEARCHWORDS 6646                
+POS_KEYWORDS 6798                
+POS_MISC 2441                
+POS_ERRORS 6857                
+POS_CLUSTER 3507                
+POS_SIDER_404 6969                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20251201060143 149 25205 15883204118880
+FirstTime 20251101022548
+LastTime 20251130131213
+LastUpdate 20251201071220 149 0 148 0 0
+TotalVisits 46                  
+TotalUnique 37                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 37                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+AddToFavourites 0 1 0
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 0 4 8 8670
+1 1 1 0 0 4 7007
+2 2 2 0 3 5 17517
+3 8 8 0 36 45 61509
+4 1 1 0 0 2 3506
+5 3 3 0 1 5 7021
+6 5 5 0 4 19 25392
+7 6 6 0 57 71 90794
+8 0 0 0 0 0 0
+9 1 1 0 3 12 11817
+10 6 6 0 53 59 76665
+11 2 2 0 2 5 8448
+12 1 1 0 0 3 3505
+13 1 1 0 109 155 252788
+14 3 3 0 2 4 4951
+15 1 1 0 2 6 8501
+16 1 1 0 1 4 5252
+17 1 1 0 0 2 3494
+18 0 0 0 1 3 3739
+19 2 2 0 6 12 12109
+20 2 2 7640 2 6 5502
+21 2 2 0 92 101 148639
+22 0 0 0 4 8 8805
+23 0 0 0 4 7 11724
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 9
+us 33 33 7640
+ru 6 6 0
+gb 4 4 0
+in 2 2 0
+bg 2 2 0
+de 1 1 0
+be 1 1 0
+cn 1 1 0
+vn 1 1 0
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+GPTBot/ 18 7640 20251130023423 0
+robot 2 15280 20251130023423 0
+bot[\s_+:,\.\;\/\\-] 2 0 20251111221130 0
+facebookexternalhit/ 2 0 20251105092411 0
+survey 2 0 20251114221725 0
+no_user_agent 2 0 20251130131201 0
+Go\-http\-client/ 1 0 20251127032727 0
+Yahoo![\x20]Slurp 1 0 20251127231017 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+cgi 1 7640 0 0
+html 50 0 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+android10 1 1
+macosx15 5 5
+Unknown 19 19
+macosx13 1 1
+androidpie 2 2
+win10 9 9
+win7 3 3
+linux 9 9
+ios_iphone 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 23
+edge126 1 1
+chrome91.0.4472.124 3 3
+firefox12.0 1 1
+chrome72.0.3626.121 1 1
+safari 1 1
+chrome134.0.0.0 3 3
+chrome118.0.0.0 1 1
+chrome81.0.4044.129 2 2
+Unknown 6 6
+safari12.1.1 1 1
+firefox139.0 2 2
+netscape5.0 6 6
+chrome126.0.0.0 2 2
+chrome75.0.3770.143 1 1
+firefox47.0 1 1
+chrome120.0.0.0 1 1
+chrome67.0.3396.87 1 1
+chrome137.0.0.0 2 2
+chrome139.0.0.0 5 5
+mozilla 7 7
+chrome96.0.4664.110 1 1
+safari26.0 1 1
+safari16.5 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+Mozilla/5.0_(compatible;_UGAResearchAgent/1.0;_Please_visit:_NISLabUGA.github.io) 20251127045517
+Mozilla/5.0_(l9scan/2.0.1333e26373e2231313e24373;__https://leakix.net) 20251127032534
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20251104072001
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20251115171429
+Mozilla/5.0 20251130062915
+Python/3.10_aiohttp/3.13.2 20251129025021
+python-httpx/0.28.1 20251129100048
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+python-httpx/0.28.1 20251129100048
+Python/3.10_aiohttp/3.13.2 20251129025021
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 51 51
+From1 0 0
+From2 0 0
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+404 491 762333
+421 2 644
+302 6 1458
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 286
+/docker-compose.yaml 1 -
+/actuator/env 1 -
+/config/stripe.yml 1 -
+/services/.env 1 -
+/web/.env 2 -
+/app.config.js 2 -
+/stripe_keys.js 1 -
+/phpversion.php 2 -
+/config/credentials.json 1 -
+/settings 2 -
+/.env.remote 1 -
+/pl/p/p1/index.php 4 -
+/config/local.json 1 -
+/.env.local 4 -
+/login.action 1 -
+/errors.log 1 -
+/js/.env 1 -
+/stripe-config.js 1 -
+/php_error.log 1 -
+/config/payments.json 1 -
+/aws.json 3 -
+/config/settings.yml 1 -
+/stripe.yml 1 -
+/.docker/config.json 1 -
+/credentials 2 -
+/config/.env 2 -
+/kubernetes/.env 1 -
+/mailgun.json 2 -
+/s3.yml 1 -
+/sendgrid/config 2 -
+/.env.sample 1 -
+/apple-touch-icon-152x152.png 2 -
+/settings.json 4 -
+/config/settings.js 1 -
+/api-docs/swagger.json 1 -
+/laravel/.env 1 -
+/billing.json 1 -
+/new/.env.local 1 -
+/microservices/.env 1 -
+/en/.env 1 -
+/keys.js 3 -
+/secrets.js 1 -
+/api/swagger.json 1 -
+/.env.development 3 -
+/stripe-secret.js 1 -
+/stripe.config.json 1 -
+/config/keys.js 1 -
+/.env.swp 1 -
+/.aws/credentials 3 -
+/.env 15 -
+/api/shared/.env 1 -
+/backend/.env 1 -
+/site/.env 2 -
+/api_keys.json 1 -
+/config/secrets.js 1 -
+/credentials.json 1 -
+/_profiler/phpinfo 1 -
+/prod/.env 1 -
+/config/local.js 1 -
+/main.js 1 -
+/config/stripe.js 1 -
+/brevo/config 2 -
+/admin.php 2 -
+/payment.json 1 -
+/payment-config.js 1 -
+/_debug 1 -
+/config.yaml 4 -
+/sendgrid.php 2 -
+/.env.secret 1 -
+/config 2 -
+/debug/default/view 1 -
+/api/shared/config/.env 1 -
+/info 2 -
+/v2/_catalog 1 -
+/apple-touch-icon.png 4 -
+/graphql/api 1 -
+/.env.old 2 -
+/wp-config.php 2 -
+/api/.env.local 1 -
+/config/payments.js 1 -
+/keys.json 1 -
+/configuration 2 -
+/config/config.json 1 -
+/info.php 4 -
+/administrator/.env 1 -
+/config/settings.json 1 -
+/docker/.env 2 -
+/config/secrets.json 1 -
+/brevo.php 2 -
+/local/.env 1 -
+/config.env 1 -
+/apple-touch-icon-precomposed.png 4 -
+/.vscode/.env 1 -
+/config/production.js 1 -
+/php 2 -
+/aws-config.json 1 -
+/mailgun 2 -
+/s/1333e26373e2231313e24373/_/ 1 -
+/config/secrets.yml 1 -
+/vendor/.env 1 -
+/robots.txt 75 -
+/development/.env 1 -
+/.env.backup 1 -
+/website/.env 1 -
+/config.json 5 -
+/server 1 -
+/secrets.json 4 -
+/.env.production 4 -
+/cron/.env 1 -
+/tokens.json 1 -
+/billing.js 1 -
+/env.json 2 -
+/swagger/v1/swagger.json 1 -
+/phpinfo 3 -
+/client/.env 1 -
+/swagger.json 1 -
+/kubernetes.yml 1 -
+/swagger/swagger-ui.html 1 -
+/saas/.env 1 -
+/.api_keys 1 -
+/admin/.env 2 -
+/test.php 3 -
+/.env.production.local 1 -
+/payments.json 1 -
+/settings.yml 2 -
+/.dockerenv 1 -
+/frontend/.env 1 -
+/aws/credentials 2 -
+/payment.js 1 -
+/checkout.json 1 -
+/debug.log 1 -
+/.env.prod 1 -
+/config.ini 2 -
+/gcp-credentials.json 1 -
+/config/local.yml 1 -
+/server/.env 1 -
+/sitemaps/.env 1 -
+/stripe-keys.json 1 -
+/.env.live 1 -
+/web.config 1 -
+/server/.env.production 1 -
+/conf/.env 1 -
+/.env~ 1 -
+/.aws/config 3 -
+/apikeys.json 1 -
+/stripe.js 1 -
+/api 1 -
+/env 2 -
+/error.log 1 -
+/new/.env.production 1 -
+/payments.config.js 1 -
+/payment/.env 1 -
+/.stripe.json 1 -
+/server-status 1 -
+/settings.js 1 -
+/application.properties 1 -
+/.env.staging 2 -
+/docker-compose.yml 1 -
+/backend/.env.local 1 -
+/config/stripe.json 1 -
+/payment.config.json 1 -
+/swagger-ui.html 1 -
+/uploads/.env 1 -
+/application.yml 1 -
+/composer.json 2 -
+/index.js 1 -
+/brevo 2 -
+/azure.json 1 -
+/.secrets 1 -
+/config/live.js 1 -
+/.s3cfg 1 -
+/lib/.env 1 -
+/checkout/.env 1 -
+/stripe.yaml 1 -
+/application/.env 1 -
+/config/keys.json 1 -
+/config/database.yml 1 -
+/www/.env 1 -
+/stripe-secret.json 1 -
+/dev/.env 1 -
+/stripe.config.js 1 -
+/checkout.config.js 1 -
+/constants.json 1 -
+/v2/.env 1 -
+/graphql 1 -
+/v1/.env 1 -
+/.env.secrets 1 -
+/config/private.js 1 -
+/live/.env 1 -
+/.env.bak 2 -
+/tools/.env 1 -
+/stripe-config.json 1 -
+/billing/.env 1 -
+/brevo.json 2 -
+/api/gql 1 -
+/webjars/swagger-ui/index.html 1 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 1 -
+/config/payment.js 1 -
+/.vscode/sftp.json 1 -
+/src/.env 1 -
+/cronlab/.env 1 -
+/server.js 1 -
+/.env.save 1 -
+/new/.env 1 -
+/main/.env 1 -
+/config/billing.js 1 -
+/exapi/.env 1 -
+/oauth.json 1 -
+/telescope/requests 1 -
+/env.yaml 2 -
+/config/production.json 1 -
+/config.yml 4 -
+/portal/.env 1 -
+/app.config 1 -
+/config/constants.js 1 -
+/app/.env 2 -
+/stripe-keys.js 1 -
+/.DS_Store 1 -
+/debug.php 1 -
+/config/config.yml 2 -
+/billing.config.js 1 -
+/api/config.env 1 -
+/.stripe 1 -
+/auth.json 1 -
+/mailgun/config 2 -
+/api.js 1 -
+/functions/.env 1 -
+/v3/api-docs 1 -
+/.gcloud/credentials 1 -
+/backend/.env.production 1 -
+/.env.test 1 -
+/sendgrid.env 2 -
+/@vite/env 1 -
+/config.js 3 -
+/apps/.env 2 -
+/constants.js 1 -
+/.env_sample 1 -
+/.git/config 12 -
+/stripe_config.js 1 -
+/config/env/.env 1 -
+/env.yml 2 -
+/config/payment.json 1 -
+/phpinfo.php 3 -
+/config/app.yml 1 -
+/_all_dbs 1 -
+/v2/api-docs 1 -
+/secrets.yml 1 -
+/api/.env.production 1 -
+/.env.stage 1 -
+/nginx/.env 1 -
+/aws/config 2 -
+/psnlink/.env 1 -
+/php_info.php 1 -
+/.azure/credentials 1 -
+/checkout.js 1 -
+/apple-touch-icon-152x152-precomposed.png 2 -
+/.gitignore 1 -
+/core/.env 1 -
+/crm/.env 1 -
+/mailgun.php 2 -
+/api/shared/config/config.env 1 -
+/app.js 1 -
+/admin 2 -
+/payment.config.js 1 -
+/config.php 3 -
+/configuration.json 1 -
+/swagger/index.html 1 -
+/api/.env 2 -
+/.config 1 -
+/api/graphql 1 -
+/env/.env 1 -
+/sendgrid.json 2 -
+/public/.env 2 -
+/sendgrid 2 -
+/docker/app/.env 1 -
+/config/credentials.js 1 -
+/stripe.json 1 -
+/about 1 -
+/config/config.js 1 -
+/config/prod.js 1 -
+/aws-keys.js 2 -
+/lambda/.env 1 -
+/config/checkout.js 1 -
+/Dockerfile 1 -
+/payments.js 1 -
+/.env.example 4 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 37
+51.89.23.223 4 4 0 20251130062915
+18.201.47.254 3 3 0 20251129074735
+3.107.56.2 3 3 0 20251129100049
+34.239.173.67 2 2 0 20251113144620
+195.178.110.201 2 2 0 20251129025021
+204.76.203.25 2 2 0 20251119110353
+206.81.24.227 2 2 0 20251127032534
+91.92.241.199 2 2 0 20251109192728
+18.212.77.126 2 2 0 20251108093134
+3.146.111.124 2 2 0 20251127200248
+176.65.148.212 1 1 0 20251101022548
+172.111.15.98 1 1 0 20251127033227
+185.209.196.229 1 1 0 20251128071147
+185.247.137.183 1 1 0 20251104072001
+144.217.163.247 1 1 0 20251127032727
+167.99.191.157 1 1 0 20251127191133
+128.192.12.103 1 1 0 20251127045517
+14.232.208.159 1 1 0 20251127115622
+165.227.221.41 1 1 0 20251101100254
+137.184.45.134 1 1 0 20251112060012
+167.94.138.184 1 1 0 20251111160331
+104.248.25.165 1 1 7640 20251129205830
+56.124.68.13 1 1 0 20251128215827
+87.236.176.111 1 1 0 20251103014855
+123.160.223.74 1 1 0 20251101143824
+61.8.129.166 1 1 0 20251103063138
+213.109.202.189 1 1 0 20251127101103
+199.45.154.128 1 1 0 20251115171429
+198.199.88.48 1 1 0 20251126031502
+45.148.10.250 1 1 0 20251103002406
+64.227.178.122 1 1 0 20251128215809
+54.92.226.160 1 1 0 20251130131213
+195.178.110.54 1 1 0 20251129142058
+162.142.125.209 1 1 0 20251102125617
+199.45.154.133 1 1 0 20251115150204
+154.30.97.106 1 1 0 20251127033417
+157.230.117.168 1 1 0 20251115031538
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 18
+20251101 3 3 0 3
+20251102 1 1 0 1
+20251103 3 3 0 3
+20251104 1 1 0 1
+20251106 1 1 0 1
+20251108 2 2 0 2
+20251109 2 2 0 2
+20251111 1 1 0 1
+20251112 1 1 0 1
+20251113 2 2 0 2
+20251115 3 3 0 3
+20251119 1 1 0 1
+20251120 1 1 0 1
+20251126 1 1 0 1
+20251127 12 12 0 11
+20251128 4 4 0 4
+20251129 10 10 7640 6
+20251130 2 2 0 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 46
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 2
+/ 50 0 45 45
+/cgi-sys/suspendedpage.cgi 1 7640 1 1
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 4
+1K-2K 480
+5K+ 4
+0-44 105
+100-500 8
+END_FILESIZE
+
+# Request Time Range - Request Time Frequency
+BEGIN_REQUESTTIME 0
+END_REQUESTTIME

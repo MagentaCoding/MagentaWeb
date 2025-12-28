@@ -1,0 +1,296 @@
+Return-Path: <reece.francis@zendesk.com>
+Delivered-To: contact@magentaweb.org
+Received: from webserver.bisecthosting.com
+	by webserver.bisecthosting.com with LMTP
+	id CDgmK8kgC2k8qgIAufviug
+	(envelope-from <reece.francis@zendesk.com>)
+	for <contact@magentaweb.org>; Wed, 05 Nov 2025 05:02:49 -0500
+Return-path: <reece.francis@zendesk.com>
+Envelope-to: contact@magentaweb.org
+Delivery-date: Wed, 05 Nov 2025 05:02:49 -0500
+Received: from mail-pj1-f98.google.com ([209.85.216.98]:56666)
+	by webserver.bisecthosting.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.98.2)
+	(envelope-from <reece.francis@zendesk.com>)
+	id 1vGaLr-00000000kLr-09l8
+	for contact@magentaweb.org;
+	Wed, 05 Nov 2025 05:02:49 -0500
+Received: by mail-pj1-f98.google.com with SMTP id 98e67ed59e1d1-3407f385dd0so4276069a91.1
+        for <contact@magentaweb.org>; Wed, 05 Nov 2025 02:02:29 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1762336928; x=1762941728;
+        h=to:subject:message-id:date:list-unsubscribe:list-unsubscribe-post
+         :mime-version:from:dkim-signature:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=RtbPUj2lQnjHPIFajf4c/0EwDvJYfmWZaN6+XcK2EA8=;
+        b=LFoTHNJ2NTfJUob6Rg74T/yFii8Ea8UHr16X3k4Uylr87wf+1buDxH8QhRIIP9izxq
+         mzYo7hoSAh53cpGTORe+IaaDnfd3E3GYW/pHJ9263SzW/KutBBF0heLocBApy/111Dkc
+         lHdAKjKAq+tWWFUwM/oXzLeJqHLuDcbIgypFpUWt+CUQLgOJS574ch9oP7HyI5ELWuFJ
+         /Y2iCilas7pVK2NtBtVRttCqm+iRqO7CopaKrLFvuYVNWtIj+v6A+vkcHc202TtHUbLE
+         3bF6hu8zGkRIgw6Fgsnkei58xNQMeuKNuCW84ECqnWCLrAYFJa3C2PRa8NA4cgkqUdcz
+         CW4Q==
+X-Gm-Message-State: AOJu0YyGnIbHwEzq4uSs5GhC+NF+VDHIlBv8aQ/EnEP7PU5y5GJRsBU7
+	bTeBwJQta3aPOCvoQ433mvHOSf/P3eU9/rxgPvqBFQHGIpQGn3U3xWv/nifLhgSOPc1PHZveFte
+	BqJMj4RFzy7UVorSu7cbDQXLjUuStt36ulYxWGe6ndpkhiR9SXCp8D/6gQcUWXlNlA4nO3DhKfL
+	PFT8YDtenYEtIPcdLtTMRAHr61IBM3g8RmbM2I5lFhtNBGyOA53H7MggvRVEAK/fE95j9YxiuJX
+	XGpSNv+VLm0PZaVZw==
+X-Gm-Gg: ASbGncvul4SpGXBwch5UVTWliaBBFjfnHmRRP8YPdnWy4BzXnIrz3hqLj1io6iIZi/K
+	EF8V1P+DQJBVbqt2O6tWpIXj+bps4h+MMgbHXKsAH7TOllkftxHqtbaErzHGeHFArdFA0SrhMGA
+	eOguyurMqykoRRL1zqQMwk+y48e0NaMJOpbrPk58nb1wcEweR0k/llAxT5bRzIX6wjnQn/DuqaQ
+	7yPwpVvT47wzeRvO46AzvV8Tvpc7+iujfDPT52E69K3/FnF4q5pckUMhllcOdu5bZOrHTy9uTse
+	DPe2gha9lfWjBbZF+5+UDbDsG5lyjrvPjSBoZxs+uynM9tHpscu9LY/7mZslQINR33fe/iwX83I
+	jiblP72NtNG9s7vyJDLvY
+X-Google-Smtp-Source: AGHT+IFNtJwElZP1xrap0/qA9sdBf50RL0fy3tZ6g9ZfG+YbCjpOqgWGoBL8A7ofb2+JAt5lzCzTfazfD/6F
+X-Received: by 2002:a17:90b:3d05:b0:32e:9da9:3e60 with SMTP id 98e67ed59e1d1-341a7008b80mr3326487a91.36.1762336927842;
+        Wed, 05 Nov 2025 02:02:07 -0800 (PST)
+Received: from zendesk.com (relay.goskope.com. [163.116.131.244])
+        by smtp-relay.gmail.com with ESMTPS id 98e67ed59e1d1-341b88d6311sm61882a91.0.2025.11.05.02.02.07
+        for <contact@magentaweb.org>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 05 Nov 2025 02:02:07 -0800 (PST)
+X-Relaying-Domain: zendesk.com
+Received: by mail-pl1-f200.google.com with SMTP id d9443c01a7336-27c62320f16so86046705ad.1
+        for <contact@magentaweb.org>; Wed, 05 Nov 2025 02:02:07 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=zendesk.com; s=zencorpemail; t=1762336927; x=1762941727; darn=magentaweb.org;
+        h=to:subject:message-id:date:list-unsubscribe:list-unsubscribe-post
+         :mime-version:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=RtbPUj2lQnjHPIFajf4c/0EwDvJYfmWZaN6+XcK2EA8=;
+        b=LxZPbW+d/6Xs3lbRyrwrQPX/QSJJW7NrE7YcqdIXVI/MN+BabVWmYk/eIQ4RfxME7X
+         etA4zpIV081AcEVBe1XphHMD8TaW6iCtFCLqBPzYblnIt9/tKqnTs8ET3PGpP+vE75Xc
+         90MIoE7HIfRa1KgNTYynLBSHrpsmBUm1lKjvY=
+X-Received: by 2002:a17:902:db08:b0:274:3db8:e755 with SMTP id d9443c01a7336-2962ae55b77mr38459975ad.30.1762336926835;
+        Wed, 05 Nov 2025 02:02:06 -0800 (PST)
+X-Received: by 2002:a17:902:db08:b0:274:3db8:e755 with SMTP id
+ d9443c01a7336-2962ae55b77mr38459585ad.30.1762336926256; Wed, 05 Nov 2025
+ 02:02:06 -0800 (PST)
+Received: from 1098270747392 named unknown by gmailapi.google.com with
+ HTTPREST; Wed, 5 Nov 2025 02:02:05 -0800
+Received: from 1098270747392 named unknown by gmailapi.google.com with
+ HTTPREST; Wed, 5 Nov 2025 02:02:05 -0800
+From: Reece Francis <reece.francis@zendesk.com>
+Mime-Version: 1.0
+X-Groove-PS-Id: 775457173
+X-Groove-Flow: true
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: <https://engine.groove.co/unsubscribe/eAf3VqaiS-vNAeohUFI46lT0xi0>
+Date: Wed, 5 Nov 2025 02:02:05 -0800
+X-Gm-Features: AWmQ_bkqowel5ZPcc9iUzu_sK42dk7rHVl_Hpqj7mKr72KVPipoFLMHOUoCB0y8
+Message-ID: <CAOgXw2zKfFMHFGi8a6hn8LW_DdQjhR61t=BBEtaLZrJ5EvO=sQ@mail.gmail.com>
+Subject: =?UTF-8?Q?=C3=9Cbungstickets_in_Zendesk_l=C3=B6sen?=
+To: contact@magentaweb.org
+Content-Type: multipart/alternative; boundary="00000000000076ecb90642d60a88"
+x-netskope-inspected: true
+X-Spam-Status: No, score=-1.0
+X-Spam-Score: -9
+X-Spam-Bar: -
+X-Ham-Report: =?ISO-8859-1?Q?Spam_detection_software=2C_running_on_the_system_=22webserver=2Ebise?= =?ISO-8859-1?Q?cthosting=2Ecom=22=2C=0A_has_NOT_identified_this_inco?= =?ISO-8859-1?Q?ming_email_as_spam=2E__The_original=0A_message_has_be?= =?ISO-8859-1?Q?en_attached_to_this_so_you_can_view_it_or_label=0A_si?= =?ISO-8859-1?Q?milar_future_email=2E__If_you_have_any_questions=2C_s?= =?ISO-8859-1?Q?ee=0A_root=5C=40localhost_for_details=2E=0A_Content_p?= =?ISO-8859-1?Q?review=3A__Guten_Tag_Alexander=2C_Folgende_n=C3=A4chs?= =?ISO-8859-1?Q?ten_Schritte_empfehle=0A____ich_Ihnen=3A_-_Sehen_Sie_?= =?ISO-8859-1?Q?sich_diese_6-min=C3=BCtige_Demo_=3Chttps=3A//groove=2Ez?= =?ISO-8859-1?Q?endesk=2Ecom/url/eAf3VqaiS-vNAeohUFI46lT0xi0/aHR0cHM6?= =?ISO-8859-1?Q?Ly93d3cueW91dHViZS5jb20vd2F0Y2g=5Fdj1yTVcyNFNGQzJTVSN?= =?ISO-8859-1?Q?ncm9vdmVzdW06LTEyMjU5NDgyNjk=3D=3E=0A____an=2C_um_zu_?= =?ISO-8859-1?Q?=5B=2E=2E=2E=5D_=0A_Content_analysis_details=3A___=28-?= =?ISO-8859-1?Q?1=2E0_points=2C_5=2E0_required=29=0A__pts_rule_name__?= =?ISO-8859-1?Q?____________description=0A_----_---------------------?= =?ISO-8859-1?Q?-_--------------------------------------------------=0A_?= =?ISO-8859-1?Q?_0=2E0_RCVD=5FIN=5FVALIDITY=5FSAFE=5FBLOCKED_RBL=3A_A?= =?ISO-8859-1?Q?DMINISTRATOR_NOTICE=3A_The_query_to=0A_______________?= =?ISO-8859-1?Q?_______________Validity_was_blocked=2E__See=0A_______?= =?ISO-8859-1?Q?______________________https=3A//knowledge=2Evalidity=2Ec?= =?ISO-8859-1?Q?om/hc/en-us/articles/20961730681243=0A_______________?= =?ISO-8859-1?Q?_______________for_more_information=2E=0A____________?= =?ISO-8859-1?Q?_________________=5B209=2E85=2E216=2E98_listed_in_sa-?= =?ISO-8859-1?Q?accredit=2Ehabeas=2Ecom=5D=0A__0=2E0_RCVD=5FIN=5FVALI?= =?ISO-8859-1?Q?DITY=5FRPBL=5FBLOCKED_RBL=3A_ADMINISTRATOR_NOTICE=3A_?= =?ISO-8859-1?Q?The_query_to=0A______________________________Validity?= =?ISO-8859-1?Q?_was_blocked=2E__See=0A_____________________________h?= =?ISO-8859-1?Q?ttps=3A//knowledge=2Evalidity=2Ecom/hc/en-us/articles?= =?ISO-8859-1?Q?/20961730681243=0A______________________________for_m?= =?ISO-8859-1?Q?ore_information=2E=0A_____________________________=5B2?= =?ISO-8859-1?Q?09=2E85=2E216=2E98_listed_in_bl=2Escore=2Esenderscore?= =?ISO-8859-1?Q?=2Ecom=5D=0A__0=2E0_RCVD=5FIN=5FVALIDITY=5FCERTIFIED=5FB?= =?ISO-8859-1?Q?LOCKED_RBL=3A_ADMINISTRATOR_NOTICE=3A_The=0A_________?= =?ISO-8859-1?Q?____________________query_to_Validity_was_blocked=2E_?= =?ISO-8859-1?Q?_See=0A_____________________________https=3A//knowled?= =?ISO-8859-1?Q?ge=2Evalidity=2Ecom/hc/en-us/articles/20961730681243=0A_?= =?ISO-8859-1?Q?_____________________________for_more_information=2E=0A?= =?ISO-8859-1?Q?__________________________=5B209=2E85=2E216=2E98_list?= =?ISO-8859-1?Q?ed_in_sa-trusted=2Ebondedsender=2Eorg=5D=0A__0=2E0_UR?= =?ISO-8859-1?Q?IBL=5FBLOCKED__________ADMINISTRATOR_NOTICE=3A_The_qu?= =?ISO-8859-1?Q?ery_to_URIBL_was_blocked=2E=0A_______________________?= =?ISO-8859-1?Q?______See=0A_____________________________http=3A//wik?= =?ISO-8859-1?Q?i=2Eapache=2Eorg/spamassassin/DnsBlocklists#dnsbl-blo?= =?ISO-8859-1?Q?ck=0A______________________________for_more_informati?= =?ISO-8859-1?Q?on=2E=0A_____________________________=5BURI=3A_zendes?= =?ISO-8859-1?Q?k=2Ecom=5D=0A_____________________________=5BURI=3A_g?= =?ISO-8859-1?Q?roove=2Ezendesk=2Ecom=5D=0A__0=2E0_RCVD=5FIN=5FZEN=5FB?= =?ISO-8859-1?Q?LOCKED=5FOPENDNS_RBL=3A_ADMINISTRATOR_NOTICE=3A_The_q?= =?ISO-8859-1?Q?uery_to=0A_____________________________zen=2Espamhaus?= =?ISO-8859-1?Q?=2Eorg_was_blocked_due_to_usage_of_an=0A_____________?= =?ISO-8859-1?Q?_________________open_resolver=2E_See=0A_____________?= =?ISO-8859-1?Q?________________https=3A//www=2Espamhaus=2Eorg/return?= =?ISO-8859-1?Q?c/pub/=0A_____________________________=5B209=2E85=2E2?= =?ISO-8859-1?Q?16=2E98_listed_in_zen=2Espamhaus=2Eorg=5D=0A_-0=2E0_S?= =?ISO-8859-1?Q?PF=5FPASS_______________SPF=3A_sender_matches_SPF_rec?= =?ISO-8859-1?Q?ord=0A_-0=2E1_DKIM=5FVALID=5FEF__________Message_has_?= =?ISO-8859-1?Q?a_valid_DKIM_or_DK_signature_from=0A_________________?= =?ISO-8859-1?Q?____________envelope-from_domain=0A_-0=2E1_DKIM=5FVAL?= =?ISO-8859-1?Q?ID=5FAU__________Message_has_a_valid_DKIM_or_DK_signa?= =?ISO-8859-1?Q?ture_from_author's=0A_____________________________dom?= =?ISO-8859-1?Q?ain=0A_-0=2E1_DKIM=5FVALID_____________Message_has_at?= =?ISO-8859-1?Q?_least_one_valid_DKIM_or_DK_signature=0A__0=2E1_DKIM=5FS?= =?ISO-8859-1?Q?IGNED____________Message_has_a_DKIM_or_DK_signature=2C_?= =?ISO-8859-1?Q?not_necessarily_valid=0A__0=2E0_HTML=5FMESSAGE_______?= =?ISO-8859-1?Q?____BODY=3A_HTML_included_in_message=0A__0=2E0_HTML=5FI?= =?ISO-8859-1?Q?MAGE=5FRATIO=5F08____BODY=3A_HTML_has_a_low_ratio_of_?= =?ISO-8859-1?Q?text_to_image_area=0A_-0=2E8_DKIMWL=5FWL=5FHIGH______?= =?ISO-8859-1?Q?___DKIMwl=2Eorg_-_High_trust_sender?=
+X-Spam-Flag: NO
+
+--00000000000076ecb90642d60a88
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+ Guten Tag Alexander,
+
+Folgende n=C3=A4chsten Schritte empfehle ich Ihnen:
+
+   - Sehen Sie sich diese 6-min=C3=BCtige Demo
+   <https://groove.zendesk.com/url/eAf3VqaiS-vNAeohUFI46lT0xi0/aHR0cHM6Ly93=
+d3cueW91dHViZS5jb20vd2F0Y2g_dj1yTVcyNFNGQzJTVSNncm9vdmVzdW06LTEyMjU5NDgyNjk=
+=3D>
+an,
+   um zu verstehen, wie das Ticket-System in Zendesk funktioniert.
+   - Bearbeiten Sie einige =C3=9Cbungstickets in Ihrem Testkonto
+   <https://groove.zendesk.com/url/eAf3VqaiS-vNAeohUFI46lT0xi0/aHR0cHM6Ly9t=
+YWdlbnRhd2VibmljaHRvZmZpemllbGxlaW5nZXRyYWdlbi56ZW5kZXNrLmNvbS9hZ2VudC9ob21=
+lL3RpY2tldHM_dXRtX3NvdXJjZT1vdXRyZWFjaCZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYW=
+lnbj10cmlhbCNncm9vdmVzdW06NzY4MTI3MzEx>
+   .
+   - Teilen Sie mir gerne mit, wie Ihre aktuelle Support-Struktur aussieht
+   =E2=80=93 arbeiten Sie zum Beispiel mit einem gemeinsamen Posteingang od=
+er nutzen
+   Sie ein anderes Tool zur Verwaltung von Kundenanfragen?
+
+Sie k=C3=B6nnen mir jederzeit direkt auf diese E-Mail antworten oder hier e=
+inen
+Gespr=C3=A4chstermin vereinbaren
+<https://groove.zendesk.com/url/eAf3VqaiS-vNAeohUFI46lT0xi0/aHR0cHM6Ly9hcHA=
+uZ3Jvb3ZlYXBwLmNvbS9tZWV0aW5ncy8wMDUxRTAwMDAwRHg0d2wjZ3Jvb3Zlc3VtOi04MTE5Nz=
+I5Nzc=3D>,
+wenn Sie ein kurzes pers=C3=B6nliches Gespr=C3=A4ch bevorzugen.
+
+Mit freundlichen Gr=C3=BC=C3=9Fen
+Reece
+
+
+<https://groove.zendesk.com/url/eAf3VqaiS-vNAeohUFI46lT0xi0/aHR0cHM6Ly93d3c=
+ueW91dHViZS5jb20vd2F0Y2g_dj1yTVcyNFNGQzJTVSNncm9vdmVzdW06LTEyMjU5NDgyNjk=3D=
+>
+
+
+
+Reece Francis
+
+Digital Sales Representative - EMEA
+
+*E-Mail:* reece.francis@zendesk.com
+
+Unsubscribe
+<https://groove.zendesk.com/url/eAf3VqaiS-vNAeohUFI46lT0xi0/aHR0cHM6Ly9nby5=
+6ZW5kZXNrLmNvbS9wcmVmZXJlbmNlX2NlbnRlcl9kZWZhdWx0P2xhbmd1YWdlPWVuLVVTI2dyb2=
+92ZXN1bTotNjkyMTI3Mjk3>
+ Privacy Policy
+<https://groove.zendesk.com/url/eAf3VqaiS-vNAeohUFI46lT0xi0/aHR0cHM6Ly93d3c=
+uemVuZGVzay5jb20vY29tcGFueS9jdXN0b21lcnMtcGFydG5lcnMvcHJpdmFjeS1wb2xpY3kvI2=
+dyb292ZXN1bTotMTI0NTE0Mzk1Nw=3D=3D>
+
+Click here
+<https://groove.zendesk.com/url/eAf3VqaiS-vNAeohUFI46lT0xi0/aHR0cHM6Ly9pbmZ=
+vLnplbmRlc2suY29tL0VtYWlsLVByZWZlcmVuY2UuaHRtbCNncm9vdmVzdW06MTgwNjYwMTA5MQ=
+=3D=3D>
+to unsubscribe
+
+--00000000000076ecb90642d60a88
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div id=3D"docs-internal-guid-fbe13476-7fff-ae54-a138-5234=
+0a438d03" style=3D"font-family:arial,helvetica,sans-serif;font-size:13px">
+<div style=3D"font-family:arial,helvetica,sans-serif;font-size:13px"><span =
+style=3D"font-family:Arial,Helvetica,sans-serif;font-size:13px">Guten Tag <=
+span role=3D"mf">Alexander</span>,</span></div>
+</div>
+<div style=3D"font-family:Arial,Helvetica,sans-serif;font-size:13px">=C2=A0=
+</div>
+<div id=3D"docs-internal-guid-fbe13476-7fff-ae54-a138-52340a438d03" style=
+=3D"font-family:arial,helvetica,sans-serif;font-size:13px">
+<div style=3D"font-family:arial,helvetica,sans-serif;font-size:13px"><span =
+style=3D"font-family:Arial,Helvetica,sans-serif;font-size:13px">Folgende n=
+=C3=A4chsten Schritte empfehle ich Ihnen:</span></div>
+<ul style=3D"font-size:13px;font-family:Arial,Helvetica,sans-serif;padding-=
+left:26px">
+<li>
+<div style=3D"font-family:arial,helvetica,sans-serif;font-size:13px">
+<span style=3D"font-family:Arial,Helvetica,sans-serif;font-size:13px">Sehen=
+ Sie sich diese=C2=A0</span><a href=3D"https://groove.zendesk.com/url/eAf3V=
+qaiS-vNAeohUFI46lT0xi0/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj1yTVcyNFNG=
+QzJTVSNncm9vdmVzdW06LTEyMjU5NDgyNjk=3D" target=3D"_blank" rel=3D"noopener n=
+oreferrer"><span style=3D"font-family:Arial,Helvetica,sans-serif;font-size:=
+13px">6-min=C3=BCtige Demo</span></a><span style=3D"font-family:Arial,Helve=
+tica,sans-serif;font-size:13px">=C2=A0an, um zu verstehen, wie das Ticket-S=
+ystem in Zendesk funktioniert.</span>
+</div>
+</li>
+<li>
+<div style=3D"font-family:arial,helvetica,sans-serif;font-size:13px">
+<span style=3D"font-family:Arial,Helvetica,sans-serif;font-size:13px">Bearb=
+eiten Sie einige=C2=A0</span><span role=3D"mf"><a href=3D"https://groove.ze=
+ndesk.com/url/eAf3VqaiS-vNAeohUFI46lT0xi0/aHR0cHM6Ly9tYWdlbnRhd2VibmljaHRvZ=
+mZpemllbGxlaW5nZXRyYWdlbi56ZW5kZXNrLmNvbS9hZ2VudC9ob21lL3RpY2tldHM_dXRtX3Nv=
+dXJjZT1vdXRyZWFjaCZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj10cmlhbCNncm9vdmV=
+zdW06NzY4MTI3MzEx" target=3D"_blank" rel=3D"noopener"><span style=3D"font-f=
+amily:Arial,Helvetica,sans-serif;font-size:13px">=C3=9Cbungstickets in Ihre=
+m Testkonto</span></a></span><span style=3D"font-family:Arial,Helvetica,san=
+s-serif;font-size:13px">.</span>
+</div>
+</li>
+<li>
+<div style=3D"font-family:arial,helvetica,sans-serif;font-size:13px"><span =
+style=3D"font-family:Arial,Helvetica,sans-serif;font-size:13px">Teilen Sie =
+mir gerne mit, wie Ihre aktuelle Support-Struktur aussieht =E2=80=93 arbeit=
+en Sie zum Beispiel mit einem gemeinsamen Posteingang oder nutzen Sie ein a=
+nderes Tool zur Verwaltung von Kundenanfragen?</span></div>
+</li>
+</ul>
+<div style=3D"font-family:arial,helvetica,sans-serif;font-size:13px">
+<span style=3D"font-family:Arial,Helvetica,sans-serif;font-size:13px">Sie k=
+=C3=B6nnen mir jederzeit direkt auf diese E-Mail antworten oder=C2=A0</span=
+><a class=3D"cursor-pointer" href=3D"https://groove.zendesk.com/url/eAf3Vqa=
+iS-vNAeohUFI46lT0xi0/aHR0cHM6Ly9hcHAuZ3Jvb3ZlYXBwLmNvbS9tZWV0aW5ncy8wMDUxRT=
+AwMDAwRHg0d2wjZ3Jvb3Zlc3VtOi04MTE5NzI5Nzc=3D" target=3D"_blank" rel=3D"noop=
+ener"><span style=3D"font-family:Arial,Helvetica,sans-serif;font-size:13px"=
+>hier einen Gespr=C3=A4chstermin vereinbaren</span></a><span style=3D"font-=
+family:Arial,Helvetica,sans-serif;font-size:13px">, wenn Sie ein kurzes per=
+s=C3=B6nliches Gespr=C3=A4ch bevorzugen.</span>
+</div>
+<div style=3D"font-family:Arial,Helvetica,sans-serif;font-size:13px">=C2=A0=
+</div>
+</div>
+<div style=3D"font-family:arial,helvetica,sans-serif;font-size:13px">
+<div style=3D"font-family:arial,helvetica,sans-serif;font-size:13px"><span =
+style=3D"font-family:Arial,Helvetica,sans-serif;font-size:13px">Mit freundl=
+ichen Gr=C3=BC=C3=9Fen</span></div>
+<div style=3D"font-family:arial,helvetica,sans-serif;font-size:13px"><span =
+style=3D"font-family:Arial,Helvetica,sans-serif;font-size:13px">Reece</span=
+></div>
+</div>
+<div style=3D"font-family:Arial,Helvetica,sans-serif;font-size:13px">=C2=A0=
+</div>
+<div id=3D"docs-internal-guid-fbe13476-7fff-ae54-a138-52340a438d03" style=
+=3D"font-family:arial,helvetica,sans-serif;font-size:13px">
+<div style=3D"font-family:Arial,Helvetica,sans-serif;font-size:13px">=C2=A0=
+</div>
+<div dir=3D"ltr" style=3D"font-family:arial,helvetica,sans-serif;font-size:=
+13px"><a href=3D"https://groove.zendesk.com/url/eAf3VqaiS-vNAeohUFI46lT0xi0=
+/aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g_dj1yTVcyNFNGQzJTVSNncm9vdmVzdW06LT=
+EyMjU5NDgyNjk=3D" target=3D"_blank" rel=3D"noopener noreferrer"><img style=
+=3D"margin-left: 0px; margin-top: 0px;" src=3D"https://lh7-rt.googleusercon=
+tent.com/docsz/AD_4nXfWZ03G0Cu254zsL4X3Fy_D1ZtboC50QDclgchFFoZb3xxpsNL9nkgH=
+aMhZHVyAVxnD_C6-abf3eAKLEC4Mo_vUyGC_kOiA5QLZbbuxhEtdZV2xj1pPd0rXuG3vqBXZK-j=
+WezwHUw?key=3DLoF85YMHrrfdkfTBw6mfj8YC" width=3D"371" height=3D"247"></a></=
+div>
+</div>
+<div style=3D"font-family:Arial,Helvetica,sans-serif;font-size:13px">=C2=A0=
+</div><br><span class=3D"gr-sig"><div dir=3D"ltr"><table style=3D"color:rgb=
+(34,34,34);font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;border=
+:none;border-collapse:collapse"><tbody><tr style=3D"height:71.5pt">
+<td style=3D"border-right:0.75pt solid rgb(69,102,142);vertical-align:top;p=
+adding:5pt;overflow:hidden">
+<img src=3D"https://docs.google.com/uc?export=3Ddownload&amp;id=3D1LTbWmPdo=
+8c4UDWt1raWrz-AQcT84kKki&amp;revid=3D0B6_xjnpJzG0lNDJhekNINyt1Q0lXRFdGNC9XT=
+StZSEVMUU1nPQ" width=3D"96" height=3D"69"><br>
+</td>
+<td style=3D"border-left:0.75pt solid rgb(69,102,142);vertical-align:top;pa=
+dding:0pt 8pt;overflow:hidden">
+<p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt">=
+<span style=3D"font-size:11pt;font-family:Arial;color:rgb(3,54,61);backgrou=
+nd-color:transparent;font-weight:700;vertical-align:baseline">Reece Francis=
+ </span></p>
+<p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt">=
+<span style=3D"font-size:11pt;font-family:Arial;color:rgb(102,102,102);back=
+ground-color:transparent;vertical-align:baseline">Digital Sales Representat=
+ive - EMEA</span></p>
+<p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt">=
+<span style=3D"font-size:11pt;font-family:Arial;background-color:transparen=
+t;vertical-align:baseline"><b style=3D"color:rgb(102,102,102)">E-Mail:</b><=
+font color=3D"#666666"> </font><font color=3D"#000000"><a href=3D"mailto:re=
+ece.francis@zendesk.com" target=3D"_blank">reece.francis@zendesk.com</a></f=
+ont></span></p>
+<p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt">=
+<a href=3D"https://groove.zendesk.com/url/eAf3VqaiS-vNAeohUFI46lT0xi0/aHR0c=
+HM6Ly9nby56ZW5kZXNrLmNvbS9wcmVmZXJlbmNlX2NlbnRlcl9kZWZhdWx0P2xhbmd1YWdlPWVu=
+LVVTI2dyb292ZXN1bTotNjkyMTI3Mjk3" style=3D"color:rgb(17,85,204);font-family=
+:Helvetica;font-size:12px" target=3D"_blank"><span style=3D"font-size:7.5pt=
+;font-family:Arial;background-color:transparent;vertical-align:baseline">Un=
+subscribe</span></a><span style=3D"font-size:9.5pt;font-family:Roboto,sans-=
+serif;vertical-align:baseline"> </span><span style=3D"font-size:11pt;font-f=
+amily:Arial;font-weight:700;vertical-align:baseline">=C2=A0</span><a href=
+=3D"https://groove.zendesk.com/url/eAf3VqaiS-vNAeohUFI46lT0xi0/aHR0cHM6Ly93=
+d3cuemVuZGVzay5jb20vY29tcGFueS9jdXN0b21lcnMtcGFydG5lcnMvcHJpdmFjeS1wb2xpY3k=
+vI2dyb292ZXN1bTotMTI0NTE0Mzk1Nw=3D=3D" style=3D"color:rgb(17,85,204);font-f=
+amily:Helvetica;font-size:12px" target=3D"_blank"><span style=3D"font-size:=
+7.5pt;font-family:Arial;background-color:transparent;vertical-align:baselin=
+e">Privacy Policy</span></a><span style=3D"font-size:9.5pt;font-family:Robo=
+to,sans-serif;vertical-align:baseline"> </span></p>
+</td>
+</tr></tbody></table></div></span><p style=3D"margin-bottom:0px;margin-top:=
+5px"><span style=3D"font-family:Arial;font-size:xx-small">Click <a href=3D"=
+https://groove.zendesk.com/url/eAf3VqaiS-vNAeohUFI46lT0xi0/aHR0cHM6Ly9pbmZv=
+LnplbmRlc2suY29tL0VtYWlsLVByZWZlcmVuY2UuaHRtbCNncm9vdmVzdW06MTgwNjYwMTA5MQ=
+=3D=3D" target=3D"_blank" rel=3D"noopener">here</a> to unsubscribe</span></=
+p><img class=3D"cgtrkpxl" src=3D"https://groove.zendesk.com/p/MDA1MUUwMDAwM=
+ER4NHdsUUFC/eAf3VqaiS-vNAeohUFI46lT0xi0.gif" width=3D"1" height=3D"1"></div=
+>
+
+--00000000000076ecb90642d60a88--

@@ -1,0 +1,62 @@
+App 297276 output: node:internal/modules/package_json_reader:134
+App 297276 output:   const result = modulesBinding.getNearestParentPackageJSON(checkPath);
+App 297276 output:                                 ^
+App 297276 output: Error: Invalid package config /home/magentaw/magentasecurity/discord/package.json.
+App 297276 output:     at Object.getNearestParentPackageJSON (node:internal/modules/package_json_reader:134:33)
+App 297276 output:     at Module._extensions..js (node:internal/modules/cjs/loader:1793:29)
+App 297276 output:     at Module.load (node:internal/modules/cjs/loader:1423:32)
+App 297276 output:     at Module._load (node:internal/modules/cjs/loader:1246:12)
+App 297276 output:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+App 297276 output:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+App 297276 output:     at Module.require (node:internal/modules/cjs/loader:1445:12)
+App 297276 output:     at Module.require (/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 297276 output:     at require (node:internal/modules/helpers:135:16)
+App 297276 output:     at loadApplication (/usr/share/passenger/helper-scripts/node-loader.js:243:2) {
+App 297276 output:   code: 'ERR_INVALID_PACKAGE_CONFIG'
+App 297276 output: }
+App 297276 output: Node.js v22.18.0
+App 676989 output: /home/magentaw/nodevenv/magentasecurity/discord/22/lib/node_modules/@discordjs/ws/dist/index.js:1151
+App 676989 output:           error: new Error("Used disallowed intents")
+App 676989 output:                  ^
+App 676989 output: Error: Used disallowed intents
+App 676989 output:     at WebSocketShard.onClose (/home/magentaw/nodevenv/magentasecurity/discord/22/lib/node_modules/@discordjs/ws/dist/index.js:1151:18)
+App 676989 output:     at connection.onclose (/home/magentaw/nodevenv/magentasecurity/discord/22/lib/node_modules/@discordjs/ws/dist/index.js:688:17)
+App 676989 output:     at callListener (/home/magentaw/nodevenv/magentasecurity/discord/22/lib/node_modules/ws/lib/event-target.js:290:14)
+App 676989 output:     at WebSocket.onClose (/home/magentaw/nodevenv/magentasecurity/discord/22/lib/node_modules/ws/lib/event-target.js:220:9)
+App 676989 output:     at WebSocket.emit (node:events:518:28)
+App 676989 output:     at WebSocket.emitClose (/home/magentaw/nodevenv/magentasecurity/discord/22/lib/node_modules/ws/lib/websocket.js:272:10)
+App 676989 output:     at TLSSocket.socketOnClose (/home/magentaw/nodevenv/magentasecurity/discord/22/lib/node_modules/ws/lib/websocket.js:1341:15)
+App 676989 output:     at TLSSocket.emit (node:events:530:35)
+App 676989 output:     at node:net:346:12
+App 676989 output:     at TCP.done (node:_tls_wrap:650:7)
+App 676989 output: Node.js v22.18.0
+App 677107 output: /home/magentaw/nodevenv/magentasecurity/discord/22/lib/node_modules/@discordjs/ws/dist/index.js:1151
+App 677107 output:           error: new Error("Used disallowed intents")
+App 677107 output:                  ^
+App 677107 output: Error: Used disallowed intents
+App 677107 output:     at WebSocketShard.onClose (/home/magentaw/nodevenv/magentasecurity/discord/22/lib/node_modules/@discordjs/ws/dist/index.js:1151:18)
+App 677107 output:     at connection.onclose (/home/magentaw/nodevenv/magentasecurity/discord/22/lib/node_modules/@discordjs/ws/dist/index.js:688:17)
+App 677107 output:     at callListener (/home/magentaw/nodevenv/magentasecurity/discord/22/lib/node_modules/ws/lib/event-target.js:290:14)
+App 677107 output:     at WebSocket.onClose (/home/magentaw/nodevenv/magentasecurity/discord/22/lib/node_modules/ws/lib/event-target.js:220:9)
+App 677107 output:     at WebSocket.emit (node:events:518:28)
+App 677107 output:     at WebSocket.emitClose (/home/magentaw/nodevenv/magentasecurity/discord/22/lib/node_modules/ws/lib/websocket.js:272:10)
+App 677107 output:     at TLSSocket.socketOnClose (/home/magentaw/nodevenv/magentasecurity/discord/22/lib/node_modules/ws/lib/websocket.js:1341:15)
+App 677107 output:     at TLSSocket.emit (node:events:530:35)
+App 677107 output:     at node:net:346:12
+App 677107 output:     at TCP.done (node:_tls_wrap:650:7)
+App 677107 output: Node.js v22.18.0
+App 824396 output: /home/magentaw/nodevenv/magentasecurity/discord/22/lib/node_modules/@discordjs/ws/dist/index.js:1151
+App 824396 output:           error: new Error("Used disallowed intents")
+App 824396 output:                  ^
+App 824396 output: Error: Used disallowed intents
+App 824396 output:     at WebSocketShard.onClose (/home/magentaw/nodevenv/magentasecurity/discord/22/lib/node_modules/@discordjs/ws/dist/index.js:1151:18)
+App 824396 output:     at connection.onclose (/home/magentaw/nodevenv/magentasecurity/discord/22/lib/node_modules/@discordjs/ws/dist/index.js:688:17)
+App 824396 output:     at callListener (/home/magentaw/nodevenv/magentasecurity/discord/22/lib/node_modules/ws/lib/event-target.js:290:14)
+App 824396 output:     at WebSocket.onClose (/home/magentaw/nodevenv/magentasecurity/discord/22/lib/node_modules/ws/lib/event-target.js:220:9)
+App 824396 output:     at WebSocket.emit (node:events:518:28)
+App 824396 output:     at WebSocket.emitClose (/home/magentaw/nodevenv/magentasecurity/discord/22/lib/node_modules/ws/lib/websocket.js:272:10)
+App 824396 output:     at TLSSocket.socketOnClose (/home/magentaw/nodevenv/magentasecurity/discord/22/lib/node_modules/ws/lib/websocket.js:1341:15)
+App 824396 output:     at TLSSocket.emit (node:events:530:35)
+App 824396 output:     at node:net:346:12
+App 824396 output:     at TCP.done (node:_tls_wrap:650:7)
+App 824396 output: Node.js v22.18.0

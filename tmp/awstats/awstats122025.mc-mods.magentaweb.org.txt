@@ -1,0 +1,981 @@
+AWSTATS DATA FILE 8.0 (build 20240604)
+# If you remove this file, all statistics for date 202512 will be lost/reset.
+# Last config file used to build this data file was /home/magentaw/tmp/awstats/awstats.mc-mods.magentaweb.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2090                
+POS_TIME 2751                
+POS_VISITOR 26099               
+POS_DAY 27399               
+POS_DOMAIN 3324                
+POS_LOGIN 3591                
+POS_ROBOT 3746                
+POS_WORMS 3942                
+POS_EMAILSENDER 4073                
+POS_EMAILRECEIVER 4216                
+POS_SESSION 27813               
+POS_FILESIZE 28054               
+POS_REQUESTTIME 28150               
+POS_SIDER 27980               
+POS_FILETYPES 4351                
+POS_DOWNLOADS 4429                
+POS_OS 4477                
+POS_BROWSER 4615                
+POS_SCREENSIZE 4955                
+POS_UNKNOWNREFERER 5029                
+POS_UNKNOWNREFERERBROWSER 5494                
+POS_ORIGIN 5767                
+POS_SEREFERRALS 5899                
+POS_PAGEREFS 6062                
+POS_SEARCHWORDS 6210                
+POS_KEYWORDS 6362                
+POS_MISC 2415                
+POS_ERRORS 6421                
+POS_CLUSTER 3447                
+POS_SIDER_404 6524                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20251228034117 5 727 15835943161700
+FirstTime 0
+LastTime 20251227131240
+LastUpdate 20251228070346 5 0 5 0 0
+TotalVisits 38                  
+TotalUnique 35                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 35                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 0 20 29 38464
+1 3 3 0 17 18 28991
+2 0 0 0 1 3 5166
+3 2 2 0 0 4 5238
+4 3 3 0 18 20 30705
+5 2 2 0 2 5 6729
+6 3 3 0 17 17 27197
+7 1 1 0 0 3 3492
+8 2 2 0 2 3 0
+9 2 2 0 1 2 1746
+10 4 4 0 270 272 423862
+11 1 1 0 3 5 1746
+12 1 1 0 0 3 3504
+13 4 4 0 0 3 1746
+14 7 7 0 34 36 56236
+15 2 2 0 0 3 3492
+16 3 3 0 0 1 0
+17 3 3 0 20 31 40187
+18 1 1 0 4 5 6660
+19 1 1 0 222 390 636806
+20 1 1 0 0 1 0
+21 1 1 0 0 3 3492
+22 2 2 0 20 28 36626
+23 3 3 0 1 4 3508
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 6
+us 41 41 0
+de 4 4 0
+in 4 4 0
+be 2 2 0
+ru 2 2 0
+af 1 1 0
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+checker 7 0 20251204091154 0
+no_user_agent 2 0 20251227043148 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 1
+html 54 0 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+win10 19 19
+win7 2 2
+linux 12 12
+macosx10 2 2
+macosx15 3 3
+Unknown 16 16
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 15
+chrome139.0.0.0 5 5
+Unknown 7 7
+chrome138.0.0.0 1 1
+firefox47.0 2 2
+chrome88.0.4240.193 15 15
+chrome44.0.2403.125 1 1
+chrome126.0.0.0 3 3
+mozilla 9 9
+chrome137.0.0.0 1 1
+chrome12.0.1282.77 3 3
+chrome117.0.5938.132 1 1
+chrome134.0.0.0 1 1
+chrome104.0.0.0 1 1
+safari8.0 1 1
+firefox139.0 3 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20251218153402
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20251227114419
+python-httpx/0.28.1 20251212225843
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20251208160913
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+python-httpx/0.28.1 20251212225843
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20251208160913
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 51 51
+From1 0 0
+From2 3 3
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 3 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+403 3 4948
+404 861 1360645
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 653
+//plugins/.env 1 https://www.google.com/
+/helpers/utility.js 1 -
+/src/keys.js 1 -
+//application/.env.old 1 https://www.google.com/
+/.dockerignore 1 -
+/payment.js 1 -
+/config/keys.js 1 -
+//config/.env.bak 1 https://www.google.com/
+/info.php 5 -
+/config.bak 1 -
+//core/.env.bak 1 https://www.google.com/
+//themes/.env 1 https://www.google.com/
+/microservices/.env 1 -
+/test.php.save 1 https://www.google.com/
+/stripe.yml 1 -
+/stripe.log 1 -
+/assets/js/app.js 1 -
+/scripts/phpinfo.php.save 1 https://www.google.com/
+/backend/config/development.yml 1 -
+/.next/server/pages/api/ 1 -
+//app/.env.old 1 https://www.google.com/
+/admin/settings 1 -
+/web/info.php.save 1 https://www.google.com/
+/.env.development 5 -
+/billing.py 1 -
+/build/main.js 1 -
+/info.php.orig 1 https://www.google.com/
+/vendor/.env 1 https://www.google.com/
+/checkout.js 1 -
+/.env.staging 2 -
+/vendor/.env.save 1 https://www.google.com/
+/node_modules/stripe/package.json 1 -
+//.env.orig 1 https://www.google.com/
+/checkout/config 1 -
+/public/config.json 1 -
+/src/config.js 1 -
+/scripts/phpinfo.php 1 https://www.google.com/
+/public/.env.old 1 https://www.google.com/
+/admin/settings.js 1 -
+/application.yaml 1 -
+/application-prod.properties 1 -
+/index.php/phpinfo 3 -
+/admin/controllers/payment.js 1 -
+/apis/config/config.js 1 -
+/test.js 1 -
+/api/stripe 1 -
+/stripe-keys.js 1 -
+/web/phpinfo.php 1 https://www.google.com/
+/application/.env.bak 1 https://www.google.com/
+/services/.env 1 -
+/config/live.js 1 -
+/routes/payment.js 1 -
+/api/config/config.js 1 -
+/admin/info.php.save 1 https://www.google.com/
+/public/js/config.js 1 -
+/src/.env 2 -
+/app/.env.old 1 https://www.google.com/
+//storage/.env 1 https://www.google.com/
+/appsettings.json 1 -
+/credentials.js 1 -
+/main.js 1 -
+/crm/.env 1 -
+/billing/config 1 -
+/php_info.php.save 1 https://www.google.com/
+//.env.example 1 https://www.google.com/
+/error.log 1 -
+/swagger.json 1 -
+//core/.env 1 https://www.google.com/
+/api/.env.old 1 https://www.google.com/
+/wp-config.php 1 -
+/system/.env 1 https://www.google.com/
+/.travis.yml 1 -
+/check.php 1 https://www.google.com/
+/application.yml 1 -
+/assets/js/main.js 1 -
+/system/.env.save 1 https://www.google.com/
+/modules/.env.bak 1 https://www.google.com/
+/config/settings.prod 1 -
+/dist/bundle.js 1 -
+//themes/.env.old 1 https://www.google.com/
+/.env.production.local 2 -
+/docs/swagger.json 1 -
+/info1.php 1 https://www.google.com/
+/system/.env.old 1 https://www.google.com/
+/public/settings.json 1 -
+/config/credentials.json 1 -
+/payment/config 1 -
+//.env.prod 1 https://www.google.com/
+/server/config/database.js 1 -
+/api-keys.js 1 -
+/api/billing/config 1 -
+/static/stripe.json 1 -
+/phpversion.php 1 https://www.google.com/
+//application/.env.save 1 https://www.google.com/
+/composer.lock 1 -
+/.env.private 1 -
+/shop/wp-includes/wlwmanifest.xml 5 -
+/js/checkout.js 1 -
+/pi.php 1 https://www.google.com/
+/new/.env.local 1 -
+/site/.env 1 -
+/lib/.env 1 https://www.google.com/
+/payments.json 1 -
+/i.php 1 https://www.google.com/
+/.env.dist 1 https://www.google.com/
+/diagnostic.php 1 https://www.google.com/
+//.env.save 1 https://www.google.com/
+/test.php.swp 1 https://www.google.com/
+/web/.env 1 -
+/js/main.js 1 -
+/sitemap.xml 1 -
+/phptest.php 1 https://www.google.com/
+/test.php~ 1 https://www.google.com/
+/public/.env 2 -
+/php_info.php 1 https://www.google.com/
+/public/.env.save 1 https://www.google.com/
+/test.php.bak 1 https://www.google.com/
+/test.php.backup 1 https://www.google.com/
+/.env.secret 2 -
+/payment.py 1 -
+/logs/stripe.log 1 -
+//themes/.env.save 1 https://www.google.com/
+/vendor/.env.old 1 https://www.google.com/
+/test/info.php.save 1 https://www.google.com/
+//.env.old 1 https://www.google.com/
+/composer.json 1 -
+/app.js 1 -
+/dist/app.js 1 -
+//lib/.env.old 1 https://www.google.com/
+/checkout.py 1 -
+/backend/.env 4 -
+/php_info.php.old 1 https://www.google.com/
+/swagger.yml 1 -
+/config/settings.yml 1 -
+/services/checkout.js 1 -
+/site/phpinfo.php 1 https://www.google.com/
+/api.js 1 -
+/utils/payment.js 1 -
+/cgi-bin/info.php 1 https://www.google.com/
+/config/billing.js 1 -
+/billing.js 1 -
+/api/payment/config 1 -
+/php_info.php.backup 1 https://www.google.com/
+/stripe-secret.json 1 -
+/checkout.config.js 1 -
+/config.json 1 -
+/web/info.php 1 https://www.google.com/
+/api/stripe/keys 1 -
+/stripe.py 1 -
+/settings.json 1 -
+/config/prod.js 1 -
+/config/production.js 1 -
+/dist/main.js 1 -
+/assets/js/bundle.js 1 -
+/out/ 1 -
+/src/constants.js 1 -
+/config/secrets.json 1 -
+/backend/config/production.yml 1 -
+/php_info.php.swp 1 https://www.google.com/
+//app/.env.bak 1 https://www.google.com/
+/nginx/.env 1 -
+/configs/routes.js 1 -
+/storage/.env.old 1 https://www.google.com/
+/phpinfo.php.tmp 1 https://www.google.com/
+/config/payments.js 1 -
+/config/payments.json 1 -
+//vendor/.env.old 1 https://www.google.com/
+/api/keys 1 -
+//assets/.env.save 1 https://www.google.com/
+/api/settings 1 -
+/controllers/settings.js 1 -
+/prod/.env 1 -
+/static/config.json 1 -
+/api/swagger.json 1 -
+/Jenkinsfile 1 -
+/billing.config.js 1 -
+/core/.env 2 -
+/blog/wp-includes/wlwmanifest.xml 5 -
+//.env.dev 1 https://www.google.com/
+//system/.env.bak 1 https://www.google.com/
+/api/config.env 1 -
+//api/.env 1 https://www.google.com/
+/.env.example 5 -
+/js/app.js 1 -
+/dev/info.php.save 1 https://www.google.com/
+/config/private.js 1 -
+/storage/logs/laravel.log 4 -
+/.next/static/ 1 -
+//modules/.env 1 https://www.google.com/
+/admin/payment 1 -
+/dist/ 1 -
+/webpack.config.js 1 -
+/application/.env.old 1 https://www.google.com/
+/routes/checkout.js 1 -
+/vendor/stripe/ 1 -
+/vendor/.env.bak 1 https://www.google.com/
+/.stripe 1 -
+/core/.env.save 1 https://www.google.com/
+/admin/info.php 1 https://www.google.com/
+/.circleci/configs/development.yml 1 -
+/api/stripe/config 1 -
+/public/phpinfo.php.save 1 https://www.google.com/
+/admin/phpinfo.php 4 https://www.google.com/
+/constants.json 1 -
+/appsettings.Development.json 1 -
+/dev/phpinfo.php 1 https://www.google.com/
+/portal/.env 1 -
+/build/ 1 -
+/client/.env 1 -
+/public/info.php 1 https://www.google.com/
+/.env.tmp 1 https://www.google.com/
+/payment.log 1 -
+//.env.backup 1 https://www.google.com/
+/build/static/js/main.js 1 -
+/stripe_config.js 1 -
+//vendor/.env 1 https://www.google.com/
+/billing/.env 1 -
+/helpers/payment.js 1 -
+/storage/.env 1 https://www.google.com/
+/lib/.env.old 1 https://www.google.com/
+/build/static/js/bundle.js 1 -
+/utils/stripe.js 1 -
+/modules/stripe.js 1 -
+/dashboard/info.php 3 -
+//.env.bak 1 https://www.google.com/
+/.aws/credentials 3 -
+/.vscode/.env 1 -
+/api/checkout/config 1 -
+//api/.env.save 1 https://www.google.com/
+//.env.sample 1 https://www.google.com/
+/system/.env.bak 1 https://www.google.com/
+/config.js 1 -
+/app_dev.php/_profiler/phpinfo 3 -
+/main/.env 1 -
+/controllers/billing.js 1 -
+/modules/payment.js 1 -
+//.env.local 1 https://www.google.com/
+/keys.py 1 -
+//src/.env.save 1 https://www.google.com/
+/application-production.properties 1 -
+/src/lib/stripe.js 1 -
+/payment/.env 1 -
+/helpers/stripe.js 1 -
+/services/payment.js 1 -
+//core/.env.save 1 https://www.google.com/
+/assets/js/stripe.js 1 -
+/php.php 1 https://www.google.com/
+/.env.secrets 1 -
+/app/.env 2 -
+/backend/.env.production 1 -
+//public/.env.bak 1 https://www.google.com/
+/app/api/payment/route.js 1 -
+/api/checkout.js 1 -
+/.env.bak 2 -
+/routes/stripe.js 1 -
+/js/.env 1 -
+/api/shared/config/config.env 1 -
+/src/.env.old 1 https://www.google.com/
+/admin/.env.old 1 https://www.google.com/
+/.env.js 3 -
+//.env~ 1 https://www.google.com/
+/www/phpinfo.php.save 1 https://www.google.com/
+/api/.env 5 -
+/.env.dev 1 https://www.google.com/
+/plugins/.env.bak 1 https://www.google.com/
+/next.config.js 1 -
+/includes/phpinfo.php.save 1 https://www.google.com/
+/includes/info.php.save 1 https://www.google.com/
+/phpinfo.php.swp 1 https://www.google.com/
+/server.php 1 https://www.google.com/
+/dev/.env 1 -
+/static/js/chunk.js 1 -
+/tmp/phpinfo.php.save 1 https://www.google.com/
+/_profiler/phpinfo 3 -
+/public/.env.bak 1 https://www.google.com/
+/api/config.js 1 -
+/backend/config/default.yml 1 -
+//vendor/.env.save 1 https://www.google.com/
+/settings.yml 1 -
+//assets/.env.old 1 https://www.google.com/
+/pages/api/stripe.js 1 -
+/config.env 1 -
+/public/stripe.json 1 -
+/storage/.env.save 1 https://www.google.com/
+/backend/config.js 1 -
+/info.php.old 1 https://www.google.com/
+/api/credentials 1 -
+/keys.js 1 -
+/config.backup 1 -
+/site/info.php.save 1 https://www.google.com/
+/.env.stage 1 -
+/build/js/main.js 1 -
+/application.properties 1 -
+/api/config/config.yml 1 -
+/scripts/info.php.save 1 https://www.google.com/
+/application/.env 2 -
+/.stripe.json 1 -
+//src/.env 1 https://www.google.com/
+//assets/.env 1 https://www.google.com/
+/2019/wp-includes/wlwmanifest.xml 5 -
+/api/shared/.env 1 -
+/info.php.tmp 1 https://www.google.com/
+/phpinfo.php.backup 1 https://www.google.com/
+/config/payment.json 1 -
+/config.yaml 1 -
+/test/phpinfo.php 1 https://www.google.com/
+/includes/.env 1 https://www.google.com/
+//application/.env.bak 1 https://www.google.com/
+/stripe/.env 1 -
+/payment.config.js 1 -
+/server.js 1 -
+/dev/info.php 1 https://www.google.com/
+/var/log/app.log 1 -
+/secrets.json 1 -
+/stripe-secret.js 1 -
+/payment-config.js 1 -
+/services/stripe.js 1 -
+/new/.env.production 1 -
+//lib/.env.bak 1 https://www.google.com/
+/application/.env.save 1 https://www.google.com/
+/api/shared/config/.env 1 -
+/scripts/info.php 1 https://www.google.com/
+/stripe.config.json 1 -
+/development/.env 1 -
+/settings.py 4 -
+/static/js/vendors.js 1 -
+/xmlrpc.php 5 -
+/.circleci/config.yml 1 -
+/.env_sample 3 -
+/assets/.env 1 https://www.google.com/
+/api/payment 1 -
+/dist/js/main.js 1 -
+/src/services/stripe.js 1 -
+/assets/.env.save 1 https://www.google.com/
+/src/.env.save 1 https://www.google.com/
+//admin/.env.old 1 https://www.google.com/
+/config/env/.env 1 -
+/checkout.json 1 -
+/constants.py 1 -
+/.env.save 2 -
+//themes/.env.bak 1 https://www.google.com/
+/laravel.log 3 -
+/config/config.js 1 -
+/tmp/info.php 1 https://www.google.com/
+//lib/.env.save 1 https://www.google.com/
+/sito/wp-includes/wlwmanifest.xml 5 -
+/server/.env.production 1 -
+/modules/.env.old 1 https://www.google.com/
+//storage/.env.save 1 https://www.google.com/
+/graphql 1 -
+/www/info.php 1 https://www.google.com/
+/static/js/main.chunk.js 1 -
+//plugins/.env.bak 1 https://www.google.com/
+//includes/.env 1 https://www.google.com/
+/test/phpinfo.php.save 1 https://www.google.com/
+/.gitlab-ci.yml 1 -
+/live/.env 1 -
+//config/.env 1 https://www.google.com/
+/php_info.php.tmp 1 https://www.google.com/
+/info.php.save 1 https://www.google.com/
+/lib/.env.bak 1 https://www.google.com/
+/modules/.env 1 https://www.google.com/
+/src/utils/stripe.js 1 -
+/src/payment.js 1 -
+/stripe.bak 1 -
+//modules/.env.old 1 https://www.google.com/
+/includes/phpinfo.php 1 https://www.google.com/
+/package.json 1 -
+/static/js/main.e85f7a37.js 1 -
+/secrets.py 1 -
+/api/.env.local 1 -
+/phpinfo.php.old 1 https://www.google.com/
+/test.php 5 -
+/azure-pipelines.yml 1 -
+/jenkins.yml 1 -
+/docker-compose.yml 1 -
+//config/.env.old 1 https://www.google.com/
+/debug.log 4 -
+/wp-config.php.bak 1 -
+/controllers/checkout.js 1 -
+/config.yml 1 -
+/public/js/bundle.js 1 -
+/themes/.env.bak 1 https://www.google.com/
+//src/.env.bak 1 https://www.google.com/
+/includes/info.php 1 https://www.google.com/
+/dev/phpinfo.php.save 1 https://www.google.com/
+/stripe-config.js 1 -
+/config/credentials.js 1 -
+//storage/.env.bak 1 https://www.google.com/
+/test.php.orig 1 https://www.google.com/
+//plugins/.env.save 1 https://www.google.com/
+/config/payment.js 1 -
+/admin/config.js 1 -
+/site/wp-includes/wlwmanifest.xml 5 -
+/.env.test 2 -
+/www/.env 1 -
+//.env 1 https://www.google.com/
+/public/info.php.save 1 https://www.google.com/
+//lib/.env 1 https://www.google.com/
+/.env.backup 2 -
+/admin/keys 1 -
+/js/config.js 1 -
+/src/stripe.js 1 -
+/admin/controllers/merchant.js 1 -
+/backend/config/settings.yml 1 -
+/payment.config.json 1 -
+/php_version.php 1 https://www.google.com/
+/payments.config.js 1 -
+/api/config 1 -
+/js/payment.js 1 -
+/local/.env 1 -
+/api-keys.json 1 -
+/public/js/app.js 1 -
+/php_info.php~ 1 https://www.google.com/
+/logs/app.log 1 -
+/admin/.env.bak 1 https://www.google.com/
+/middleware/payment.js 1 -
+//.env.test 1 https://www.google.com/
+//includes/.env.old 1 https://www.google.com/
+/api/secrets 1 -
+/php_info.php.bak 1 https://www.google.com/
+/www/phpinfo.php 1 https://www.google.com/
+/secrets.js 1 -
+/config/settings.local 1 -
+/lib/stripe.js 1 -
+/serverinfo.php 1 https://www.google.com/
+/2020/wp-includes/wlwmanifest.xml 5 -
+//app/.env 1 https://www.google.com/
+/config/secrets.js 1 -
+/docker/app/.env 1 -
+/core/.env.bak 1 https://www.google.com/
+/app.log 1 -
+/admin/phpinfo.php.save 1 https://www.google.com/
+/includes/.env.old 1 https://www.google.com/
+/backend/config/stripe.js 1 -
+/modules/.env.save 1 https://www.google.com/
+/assets/config.json 1 -
+/tmp/phpinfo.php 1 https://www.google.com/
+/test/info.php 1 https://www.google.com/
+/cgi-bin/phpinfo.php 1 https://www.google.com/
+/credentials.json 1 -
+/server/config.js 1 -
+/phpinfo.php 5 -
+//api/.env.bak 1 https://www.google.com/
+/phpinfo.php.save 1 https://www.google.com/
+/lib/payment.js 1 -
+/config/stripe.json 1 -
+/stripe.json 1 -
+/static/js/runtime-main.js 1 -
+/config.py 1 -
+/static/js/2.ca066a4b.chunk.js 1 -
+/stripe-keys.json 1 -
+/logs/error.log 4 -
+/admin/stripe 1 -
+/.env.orig 1 https://www.google.com/
+/config/.env.bak 1 https://www.google.com/
+/src/.env.bak 1 https://www.google.com/
+/controller/api/post.js 1 -
+/static/js/main.141b0494.js 1 -
+/keys.json 1 -
+/payments.js 1 -
+/nuxt.config.js 1 -
+/.env~ 2 -
+/settings/stripe 1 -
+/static/js/2.chunk.js 1 -
+/public/phpinfo.php 1 https://www.google.com/
+//app/.env.save 1 https://www.google.com/
+/static/js/vendor.js 1 -
+/controllers/stripe.js 1 -
+/public/js/main.js 1 -
+/symfony/_profiler/phpinfo 3 -
+/web/wp-includes/wlwmanifest.xml 5 -
+/wp-includes/wlwmanifest.xml 5 -
+/server/config/payment.js 1 -
+/.well-known/stripe 1 -
+//.env.production 1 https://www.google.com/
+/helper.js 1 -
+//config/.env.save 1 https://www.google.com/
+/assets/.env.old 1 https://www.google.com/
+/config/config.yml 1 -
+/js/stripe.js 1 -
+/logs/payment.log 1 -
+//admin/.env.save 1 https://www.google.com/
+/server/config/stripe.js 1 -
+/.env.prod 2 -
+/info.php.backup 1 https://www.google.com/
+/info.php.bak 1 https://www.google.com/
+/server/payment.js 1 -
+//admin/.env 1 https://www.google.com/
+/lib/.env.save 1 https://www.google.com/
+/config/parameters.yml 1 -
+/debug.php 1 https://www.google.com/
+/info.php.swp 1 https://www.google.com/
+//.env.staging 1 https://www.google.com/
+/settings.js 1 -
+/info.php~ 1 https://www.google.com/
+/www/info.php.save 1 https://www.google.com/
+/config/keys.json 1 -
+/phpinfo 4 https://www.google.com/
+/shared/config/config.js 1 -
+/docker/.env 1 -
+/assets/js/config.js 1 -
+/tmp/info.php.save 1 https://www.google.com/
+/config/local.js 1 -
+/admin/.env 2 -
+/php_info.php.orig 1 https://www.google.com/
+/env/.env 1 -
+/wp2/wp-includes/wlwmanifest.xml 5 -
+/config/checkout.js 1 -
+/api/.env.production 1 -
+/phpinfo.php.orig 1 https://www.google.com/
+//modules/.env.bak 1 https://www.google.com/
+/Dockerfile 1 -
+//core/.env.old 1 https://www.google.com/
+//.env.development 1 https://www.google.com/
+/index.js 1 -
+/config/local.yml 1 -
+//system/.env 1 https://www.google.com/
+/backend/payment.js 1 -
+/assets/.env.bak 1 https://www.google.com/
+/stripe.config.js 1 -
+/admin/.env.save 1 https://www.google.com/
+/swagger.js 1 -
+//storage/.env.old 1 https://www.google.com/
+//includes/.env.save 1 https://www.google.com/
+/logs/debug.log 6 -
+/phpinfo.php~ 1 https://www.google.com/
+/server/stripe.js 1 -
+/openapi.json 1 -
+//includes/.env.bak 1 https://www.google.com/
+/public/js/stripe.js 1 -
+/config/config.json 1 -
+/site/phpinfo.php.save 1 https://www.google.com/
+/apps/.env 1 -
+/cgi-bin/info.php.save 1 https://www.google.com/
+/user/controllers/index.js 1 -
+/backend/.env.local 1 -
+/.git/HEAD 2 -
+/wp/wp-includes/wlwmanifest.xml 5 -
+/.env.local 4 -
+/stripe.js 1 -
+/server/.env 1 -
+/.gitignore 1 -
+/appsettings.Production.json 1 -
+/conf/.env 1 -
+/test/wp-includes/wlwmanifest.xml 5 -
+/plugins/.env.save 1 https://www.google.com/
+/wp-login.php 1 -
+/web.config 1 -
+/middleware/stripe.js 1 -
+//application/.env 1 https://www.google.com/
+/config/.env.old 1 https://www.google.com/
+/cms/wp-includes/wlwmanifest.xml 5 -
+/api/.env.bak 1 https://www.google.com/
+//vendor/.env.bak 1 https://www.google.com/
+/themes/.env 1 https://www.google.com/
+/storage/.env.bak 1 https://www.google.com/
+/themes/.env.save 1 https://www.google.com/
+/new/.env 1 -
+//modules/.env.save 1 https://www.google.com/
+/functions/.env 1 -
+/config/stripe.yml 1 -
+/website/.env 1 -
+/api/config/config.json 1 -
+/web/phpinfo.php.save 1 https://www.google.com/
+/.git/config 5 -
+/package-lock.json 1 -
+/robots.txt 32 -
+/payment.json 1 -
+//src/.env.old 1 https://www.google.com/
+/stripe_keys.js 1 -
+/static/js/bundle.js 1 -
+/admin/config 2 -
+/stripe-config.json 1 -
+/wp1/wp-includes/wlwmanifest.xml 5 -
+/stripe/config 1 -
+//plugins/.env.old 1 https://www.google.com/
+//system/.env.old 1 https://www.google.com/
+/app/.env.bak 1 https://www.google.com/
+//public/.env.save 1 https://www.google.com/
+//api/.env.old 1 https://www.google.com/
+/api/stripe.js 1 -
+/config/storage.yml 1 -
+/config/settings.js 1 -
+/config/settings.json 1 -
+/test.php.tmp 1 https://www.google.com/
+/includes/.env.save 1 https://www.google.com/
+/.env.live 1 -
+//.env.swp 1 https://www.google.com/
+/.well-known/payment 1 -
+/app.py 1 -
+/.env.old 2 -
+/openapi.yml 1 -
+/billing.json 1 -
+/admin/controllers/partner.js 1 -
+/controller/admin/post.js 1 -
+/test.php.old 1 https://www.google.com/
+/news/wp-includes/wlwmanifest.xml 5 -
+/config/database.yml 3 -
+/plugins/.env 1 https://www.google.com/
+/info2.php 1 https://www.google.com/
+//.env.tmp 1 https://www.google.com/
+/.env 7 -
+/admin/stripe.js 1 -
+/js/bundle.js 1 -
+/frontend/.env 1 -
+/website/wp-includes/wlwmanifest.xml 5 -
+/config/stripe.js 1 -
+/lambda/.env 1 -
+/config/constants.js 1 -
+/site/info.php 1 https://www.google.com/
+/phpinfo.php.bak 1 https://www.google.com/
+/api/config/stripe.js 1 -
+//public/.env 1 https://www.google.com/
+/stripe.yaml 1 -
+/static/js/app.js 1 -
+/themes/.env.old 1 https://www.google.com/
+/app/api/stripe/route.js 1 -
+/.env.sample 1 https://www.google.com/
+/wp-content/debug.log 3 -
+/partner/config/config.js 1 -
+/app/config/parameters.yml 1 -
+/config/.env.save 1 https://www.google.com/
+/config/.env 2 -
+/core/.env.old 1 https://www.google.com/
+/user/config/config.js 1 -
+/.env.swp 2 -
+/api/payment.js 1 -
+/vite.config.js 1 -
+/config/local.json 1 -
+/checkout/.env 1 -
+/api/billing.js 1 -
+//system/.env.save 1 https://www.google.com/
+//public/.env.old 1 https://www.google.com/
+/config/production.json 1 -
+//.env.dist 1 https://www.google.com/
+/yarn.lock 1 -
+/includes/.env.bak 1 https://www.google.com/
+/controllers/payment.js 1 -
+/wordpress/wp-includes/wlwmanifest.xml 5 -
+/app/.env.save 1 https://www.google.com/
+/cgi-bin/phpinfo.php.save 1 https://www.google.com/
+//assets/.env.bak 1 https://www.google.com/
+/api/.env.save 1 https://www.google.com/
+//admin/.env.bak 1 https://www.google.com/
+/pages/api/payment.js 1 -
+/config/application.yml 1 -
+/plugins/.env.old 1 https://www.google.com/
+/static/js/main.js 1 -
+/constants.js 1 -
+/gatsby-config.js 1 -
+/.env.production 5 -
+/backend/stripe.js 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 35
+34.121.133.167 3 3 0 20251205142446
+34.38.4.196 3 3 0 20251203041520
+34.26.102.229 3 3 0 20251217011732
+34.127.4.9 3 3 0 20251216064358
+13.48.56.122 3 3 0 20251208102108
+34.68.39.129 3 3 0 20251204144019
+3.140.182.19 2 2 0 20251209032849
+45.148.10.204 2 2 0 20251209171211
+194.180.49.172 2 2 0 20251212225843
+100.30.248.17 2 2 0 20251216162531
+194.180.49.167 2 2 0 20251210005945
+167.94.146.50 2 2 0 20251222131159
+195.178.110.155 2 2 0 20251203190202
+45.154.153.3 1 1 0 20251206053524
+199.45.155.74 1 1 0 20251222124928
+66.132.153.132 1 1 0 20251219155912
+199.45.155.95 1 1 0 20251218103722
+164.92.220.175 1 1 0 20251223032210
+104.236.76.64 1 1 0 20251208201453
+205.169.39.51 1 1 0 20251220230223
+121.127.34.151 1 1 0 20251227131240
+87.236.176.166 1 1 0 20251218153402
+147.185.132.37 1 1 0 20251208160913
+165.227.230.28 1 1 0 20251204135633
+45.153.34.212 1 1 0 20251209134110
+64.225.63.50 1 1 0 20251203084940
+87.236.176.51 1 1 0 20251208095247
+159.65.178.5 1 1 0 20251223234407
+147.182.250.58 1 1 0 20251201072122
+68.183.200.147 1 1 0 20251209214215
+167.94.146.63 1 1 0 20251225140647
+18.212.198.88 1 1 0 20251217053430
+3.138.185.30 1 1 0 20251215234028
+161.35.39.183 1 1 0 20251202161000
+167.94.138.195 1 1 0 20251227114419
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 21
+20251201 2 2 0 2
+20251202 2 2 0 2
+20251203 6 6 0 3
+20251204 4 4 0 2
+20251205 3 3 0 1
+20251206 1 1 0 1
+20251208 6 6 0 4
+20251209 5 5 0 4
+20251210 2 2 0 1
+20251212 2 2 0 1
+20251213 1 1 0 1
+20251215 1 1 0 1
+20251216 4 4 0 2
+20251217 4 4 0 2
+20251218 2 2 0 2
+20251219 1 1 0 1
+20251220 1 1 0 1
+20251222 2 2 0 2
+20251223 2 2 0 2
+20251225 1 1 0 1
+20251227 2 2 0 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+2mn-5mn 1
+30s-2mn 1
+0s-30s 36
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 1
+/ 54 0 38 38
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 2
+0-44 107
+1K-2K 836
+END_FILESIZE
+
+# Request Time Range - Request Time Frequency
+BEGIN_REQUESTTIME 0
+END_REQUESTTIME

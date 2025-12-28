@@ -1,0 +1,171 @@
+Return-Path: <>
+Delivered-To: contact@magentaweb.org
+Received: from webserver.bisecthosting.com
+	by webserver.bisecthosting.com with LMTP
+	id 2JTUHbz6EGn6YgAAufviug
+	(envelope-from <>)
+	for <contact@magentaweb.org>; Sun, 09 Nov 2025 15:34:04 -0500
+Return-path: <>
+Envelope-to: contact@magentaweb.org
+Delivery-date: Sun, 09 Nov 2025 15:34:04 -0500
+Received: from mailnull by webserver.bisecthosting.com with local (Exim 4.98.2)
+	id 1vIC6u-000000006b3-1kRp
+	for contact@magentaweb.org;
+	Sun, 09 Nov 2025 15:34:04 -0500
+X-Failed-Recipients: team@zendesk.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@webserver.bisecthosting.com>
+To: contact@magentaweb.org
+References: <1762720443._Zm9v2SsneqxLt8J@webserver.bisecthosting.com>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1762720444-eximdsn-140994224
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1vIC6u-000000006b3-1kRp@webserver.bisecthosting.com>
+Date: Sun, 09 Nov 2025 15:34:04 -0500
+
+--1762720444-eximdsn-140994224
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  team@zendesk.com
+    host us-smtp-inbound-1.mimecast.com [170.10.132.242]
+    SMTP error from remote mail server after RCPT TO:<team@zendesk.com>:
+    550 Administrative prohibition - envelope blocked - https://community.mimecast.com/docs/DOC-1369#550 [7Yr5_P0kNQGgyfK739vFkQ.us76]
+
+--1762720444-eximdsn-140994224
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; webserver.bisecthosting.com
+
+Action: failed
+Final-Recipient: rfc822;team@zendesk.com
+Status: 5.0.0
+Remote-MTA: dns; us-smtp-inbound-1.mimecast.com
+Diagnostic-Code: smtp; 550 Administrative prohibition - envelope blocked - https://community.mimecast.com/docs/DOC-1369#550 [7Yr5_P0kNQGgyfK739vFkQ.us76]
+
+--1762720444-eximdsn-140994224
+Content-type: message/rfc822
+
+Return-path: <contact@magentaweb.org>
+Received: from magentaw by webserver.bisecthosting.com with local (Exim 4.98.2)
+	(envelope-from <contact@magentaweb.org>)
+	id 1vIC6t-000000006al-45Hi
+	for team@zendesk.com;
+	Sun, 09 Nov 2025 15:34:04 -0500
+Date: Sun, 09 Nov 2025 20:34:03 GMT
+From: "contact@magentaweb.org" <contact@magentaweb.org>
+Message-Id: <1762720443._Zm9v2SsneqxLt8J@webserver.bisecthosting.com>
+Precedence: auto_reply
+Subject: Mail arrived
+To: team@zendesk.com
+X-Autorespond: =?UTF-8?B?TnVyIG5vY2ggZWluIEtsaWNrIHVtIElocmUgQW5tZWxkdW5n?= =?UTF-8?B?IHp1IGJlc3TDpHRpZ2Vu?=
+X-Loop: team@zendesk.com
+X-Precedence: auto_reply
+Mime-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html lang=3D"de">=0D
+<head>=0D
+  <meta charset=3D"UTF-8">=0D
+  <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D=
+1.0">=0D
+  <title>Autoresponder</title>=0D
+  <link rel=3D"preconnect" href=3D"https://fonts.googleapis.com">=0D
+  <link rel=3D"preconnect" href=3D"https://fonts.gstatic.com" crossorigin>=
+=0D
+  <link href=3D"https://fonts.googleapis.com/css2?family=3DAldrich&display=
+=3Dswap" rel=3D"stylesheet">=0D
+  <style>=0D
+    body {=0D
+      font-family: 'Aldrich', sans-serif;=0D
+      background-color: #f5f5f5;=0D
+      color: #333;=0D
+      margin: 0;=0D
+      padding: 0;=0D
+    }=0D
+    .container {=0D
+      max-width: 600px;=0D
+      margin: 40px auto;=0D
+      background-color: #ffffff;=0D
+      border-radius: 8px;=0D
+      padding: 30px;=0D
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);=0D
+    }=0D
+    h1 {=0D
+      font-size: 24px;=0D
+      margin-bottom: 10px;=0D
+    }=0D
+    p {=0D
+      font-size: 16px;=0D
+      line-height: 1.5;=0D
+    }=0D
+    .info {=0D
+      background-color: #f0f0f0;=0D
+      padding: 15px;=0D
+      border-radius: 5px;=0D
+      margin-top: 20px;=0D
+    }=0D
+    .dropdown {=0D
+      margin-top: 20px;=0D
+    }=0D
+    select {=0D
+      padding: 8px 12px;=0D
+      font-size: 14px;=0D
+      border-radius: 4px;=0D
+      border: 1px solid #ccc;=0D
+      background-color: #fff;=0D
+      cursor: pointer;=0D
+    }=0D
+    .footer {=0D
+      margin-top: 30px;=0D
+      font-size: 12px;=0D
+      color: #777;=0D
+    }=0D
+  </style>=0D
+</head>=0D
+<body>=0D
+  <div class=3D"container">=0D
+    <h1>Automatische Antwort</h1>=0D
+    <p>Hallo team@zendesk.com,</p>=0D
+    <p>Vielen Dank f=C3=BCr deine Nachricht an uns. Diese E-Mail wurde auto=
+matisch gesendet, bitte antworte nicht direkt darauf.</p>=0D
+=0D
+    <div class=3D"info">=0D
+      <p><strong>Betreff:</strong> Nur noch ein Klick um Ihre Anmeldung zu =
+best=C3=A4tigen</p>=0D
+      <p><strong>Absender:</strong> team@zendesk.com</p>=0D
+      <p><strong>E-Mail:</strong> team@zendesk.com</p>=0D
+    </div>=0D
+=0D
+    <div class=3D"dropdown">=0D
+      <label for=3D"language">Sprache / Language / Idioma / Langue:</label>=
+=0D
+      <select id=3D"language" name=3D"language" onchange=3D"changeLanguage(=
+this.value)">=0D
+        <option value=3D"de">Deutsch</option>=0D
+        <option value=3D"en">English</option>=0D
+        <option value=3D"es">Espa=C3=B1ol</option>=0D
+        <option value=3D"fr">Fran=C3=A7ais</option>=0D
+      </select>=0D
+    </div>=0D
+=0D
+    <p class=3D"footer">Hinweis: Diese E-Mail wurde automatisch generiert.<=
+/p>=0D
+  </div>=0D
+=0D
+  <script>=0D
+    function changeLanguage(lang) {=0D
+      alert("Sprachumschaltung auf: " + lang + " (In einem echten System w=
+=C3=BCrde der Text hier =C3=BCbersetzt werden.)");=0D
+    }=0D
+  </script>=0D
+</body>=0D
+</html>
+
+--1762720444-eximdsn-140994224--

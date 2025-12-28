@@ -1,0 +1,348 @@
+AWSTATS DATA FILE 8.0 (build 20240604)
+# If you remove this file, all statistics for date 202511 will be lost/reset.
+# Last config file used to build this data file was /home/magentaw/tmp/awstats/awstats.mailsystem.magentaweb.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2093                
+POS_TIME 2764                
+POS_VISITOR 7734                
+POS_DAY 8598                
+POS_DOMAIN 3393                
+POS_LOGIN 3685                
+POS_ROBOT 3840                
+POS_WORMS 4110                
+POS_EMAILSENDER 4241                
+POS_EMAILRECEIVER 4384                
+POS_SESSION 8949                
+POS_FILESIZE 9214                
+POS_REQUESTTIME 9326                
+POS_SIDER 9096                
+POS_FILETYPES 4519                
+POS_DOWNLOADS 4618                
+POS_OS 4666                
+POS_BROWSER 4802                
+POS_SCREENSIZE 5098                
+POS_UNKNOWNREFERER 5172                
+POS_UNKNOWNREFERERBROWSER 5505                
+POS_ORIGIN 5646                
+POS_SEREFERRALS 5778                
+POS_PAGEREFS 5922                
+POS_SEARCHWORDS 6124                
+POS_KEYWORDS 6276                
+POS_MISC 2428                
+POS_ERRORS 6335                
+POS_CLUSTER 3541                
+POS_SIDER_404 6436                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20251201181731 1 0 8768531626517
+FirstTime 20251101083233
+LastTime 20251130205438
+LastUpdate 20251202071411 1 0 0 0 0
+TotalVisits 23                  
+TotalUnique 20                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 20                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+AddToFavourites 0 2 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 13240 17 19 59288
+1 0 0 0 2 4 9194
+2 2 2 26480 2 6 18170
+3 1 1 13240 0 0 0
+4 0 0 0 8 10 28636
+5 1 1 13240 0 0 0
+6 2 2 26480 6 8 10402
+7 1 1 13240 20 21 66194
+8 1 1 13240 24 24 33483
+9 1 1 13240 4 5 6745
+10 1 1 13240 4 8 10200
+11 2 2 26480 94 96 241581
+12 1 1 13240 0 0 0
+13 1 1 13240 2 4 5234
+14 1 1 13240 2 3 9197
+15 0 0 0 0 0 0
+16 0 0 0 0 1 1757
+17 1 1 13240 0 0 0
+18 8 8 66748 5 12 19906
+19 1 1 13240 0 0 0
+20 1 1 13240 1 2 13240
+21 2 2 26480 6 6 5119
+22 1 1 13240 52 54 134785
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 6
+us 15 15 198600
+ca 9 9 79988
+be 2 2 26480
+id 2 2 26480
+in 1 1 13240
+cn 1 1 13240
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+Barkrowler 194 519345 20251130111306 0
+SemrushBot/ 2 11820 20251118144500 0
+curl 2 26480 20251129024422 0
+survey 1 13240 20251103201811 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+cgi 7 53508 0 0
+html 23 304520 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+linux 5 5
+macosx15 4 4
+Unknown 12 12
+macosx 2 2
+macosx14 1 1
+win10 6 6
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 13
+chrome126.0.0.0 1 1
+mozilla 5 5
+chrome137.0.0.0 1 1
+chrome131.0.0.0 3 3
+chrome76.0.3809.132 1 1
+chrome104.0.854 1 1
+firefox141.0 1 1
+chrome94.0.550 1 1
+chrome58.0.3029.110 2 2
+firefox139.0 1 1
+chrome120.0.0.0 2 2
+Unknown 7 7
+chrome139.0.0.0 4 4
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20251113192413
+fasthttp 20251129182533
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20251113172406
+python-httpx/0.28.1 20251101083233
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+fasthttp 20251129182533
+python-httpx/0.28.1 20251101083233
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 29 29
+From1 0 0
+From2 0 0
+From3 1 1
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://lifeshareoklahoma.org//blog//wp-login.php 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+404 70 100524
+302 5 1230
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 40
+/.env.old 1 -
+/test.php 1 -
+/blog//wp-json/oembed/1.0/embed 1 https://lifeshareoklahoma.org//blog//wp-login.php
+/backend/.env 1 -
+/config/.env 1 -
+/.env.production 1 -
+/admin/phpinfo.php 1 -
+/blog//wp-login.php 1 mailsystem.magentaweb.org/blog//wp-login.php
+/tmp/phpinfo.php 1 -
+/wordpress/ 2 -
+/info.php 1 -
+/wp/ 2 -
+/.aws/credentials 1 -
+/sitemap.xml 3 -
+/app/.env 1 -
+/test/phpinfo.php 1 -
+/.env.bak 1 -
+/phpinfo 1 -
+/blog// 1 https://lifeshareoklahoma.org//blog//wp-login.php
+/blog/robots.txt 3 https://lifeshareoklahoma.org//blog//wp-login.php
+/.env.local 1 -
+/xmlrpc.php 3 https://lifeshareoklahoma.org//blog//wp-login.php
+/.env.dev 1 -
+/dev/phpinfo.php 1 -
+/tools/phpinfo.php 1 -
+/blog//xmlrpc.php 1 -
+/info 1 -
+/blog/ 2 -
+/p.php 1 -
+/.env 1 -
+/phpinfo.php 2 -
+/robots.txt 20 -
+/index.php 1 -
+/laravel/.env 1 -
+/.env.backup 1 -
+/blog//wp-json/wp/v2/users/ 1 https://lifeshareoklahoma.org//blog//wp-login.php
+/api/.env 1 -
+/.env/.env.bak 1 -
+/.git/config 1 -
+/_profiler/phpinfo 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 20
+47.237.106.116 7 7 53508 20251129182533
+104.236.76.121 3 3 39720 20251117090107
+36.83.127.82 2 2 26480 20251120215703
+18.224.192.118 2 2 26480 20251120112606
+159.223.158.42 1 1 13240 20251117113944
+167.94.138.165 1 1 13240 20251109120500
+184.73.189.76 1 1 13240 20251129032832
+44.193.254.10 1 1 13240 20251113052028
+118.194.251.37 1 1 13240 20251127182340
+134.209.20.119 1 1 13240 20251107001242
+142.93.217.158 1 1 13240 20251130205438
+167.94.138.125 1 1 13240 20251113172406
+87.236.176.112 1 1 13240 20251111224257
+159.89.108.42 1 1 13240 20251103021141
+45.148.10.245 1 1 13240 20251101083233
+3.140.182.19 1 1 13240 20251112101547
+206.168.34.211 1 1 13240 20251113130106
+87.236.176.142 1 1 13240 20251113192413
+165.22.226.219 1 1 13240 20251121065532
+152.32.128.85 1 1 13240 20251129024547
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 14
+20251101 1 1 13240 1
+20251103 1 1 13240 1
+20251107 2 2 26480 2
+20251109 1 1 13240 1
+20251111 1 1 13240 1
+20251112 1 1 13240 1
+20251113 4 4 52960 4
+20251116 1 1 13240 1
+20251117 3 3 39720 3
+20251120 3 3 39720 2
+20251121 1 1 13240 1
+20251127 1 1 13240 1
+20251129 9 9 79988 3
+20251130 1 1 13240 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 23
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 2
+/ 23 304520 22 22
+/cgi-sys/suspendedpage.cgi 7 53508 1 1
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 4
+0-44 14
+1K-2K 218
+5K+ 74
+100-500 7
+END_FILESIZE
+
+# Request Time Range - Request Time Frequency
+BEGIN_REQUESTTIME 0
+END_REQUESTTIME

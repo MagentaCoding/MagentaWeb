@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Einbruchs-Challenge Übersicht</title>
+<style>
+    /* Fonts fallbackfähig */
+    @font-face {
+        font-family: '16Segment';
+        src: url('https://files.magentaweb.org/fonts/normal/16Segment.ttf') format('truetype');
+    }
+    @font-face {
+        font-family: 'Tomorrow';
+        src: url('https://files.magentaweb.org/fonts/normal/Tomorrow.ttf') format('truetype');
+    }
+
+    body {
+        font-family: 'Tomorrow', sans-serif;
+        background-color: #121212;
+        color: #eee;
+        padding: 20px;
+    }
+
+    h1, p {
+        font-family: '16Segment', monospace;
+        color: #ffa500;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        font-family: 'Tomorrow', sans-serif;
+    }
+    th, td {
+        padding: 10px;
+        border: 1px solid #555;
+        text-align: center;
+    }
+    th {
+        background-color: #222;
+    }
+    td {
+        background-color: #1b1b1b;
+    }
+
+    .success { background-color: #006400; color: #fff; font-weight: bold; }
+    .fail { background-color: #800000; color: #fff; font-weight: bold; }
+    .bonus { background-color: #004080; color: #fff; font-weight: bold; }
+    .error { color: #ff4444; font-weight: bold; margin-top: 20px; }
+</style>
+</head>
+<body>
+
+<h1>Einbruchs-Challenge Übersicht</h1>
+<p>Wer es erfolgreich geschafft hat, bekommt einen Fuffi. Wer am wenigsten gestorben ist, bekommt einen Bonus. Es gelten die Video-Bestimmungen.</p>
+
+<!-- Modpack Download -->
+<p id="modpackDownload">Modpack: <a href="#" target="_blank" id="modpackLink">Download hier</a></p>
+
+<table id="challengeTable">
+    <thead>
+        <tr>
+            <th>Spieler</th>
+            <th>Fortschritt</th>
+            <th>Items/Mechaniken</th>
+            <th>Tode</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Daten werden hier per JS eingefügt -->
+    </tbody>
+</table>
+
+<p class="error" id="errorMsg" style="display:none;"></p>
+
+<script>
+// --- Modpack-Infos dynamisch setzen ---
+const modpackName = "CreateBreakTrough"; // <-- hier Modpackname setzen
+const modpackVersion = "v1";    // <-- hier Versionsnummer setzen
+const modpackLink = document.getElementById("modpackLink");
+modpackLink.href = `https://files.magentaweb.org/minecraft/mrpack/${modpackName}-${modpackVersion}.mrpack`;
+modpackLink.textContent = `${modpackName} ${modpackVersion} herunterladen`;
+
+// --- JSON laden und Tabelle füllen ---
+fetch('mc.json?v=' + new Date().getTime()) // Cache umgehen
+    .then(response => {
+        if(!response.ok) throw new Error("JSON konnte nicht geladen werden.");
+        return response.json();
+    })
+    .then(jsonData => {
+        if(!Array.isArray(jsonData) || jsonData.length === 0) {
+            document.getElementById("errorMsg").textContent = "Keine Daten in mc.json vorhanden.";
+            document.getElementById("errorMsg").style.display = "block";
+            return;
+        }
+
+        const tableBody = document.querySelector("#challengeTable tbody");
+
+        // Spieler mit wenigsten Toden bestimmen
+        const minTode = Math.min(...jsonData.map(p => p.tode));
+
+        jsonData.forEach(player => {
+            const row = document.createElement("tr");
+
+            // Spielername
+            const nameCell = document.createElement("td");
+            nameCell.textContent = player.name;
+            row.appendChild(nameCell);
+
+            // Fortschritt
+            const fortschrittCell = document.createElement("td");
+            fortschrittCell.textContent = player.fortschritt;
+            row.appendChild(fortschrittCell);
+
+            // Items/Mechaniken
+            const itemsCell = document.createElement("td");
+            itemsCell.textContent = player.items.join(", ");
+            row.appendChild(itemsCell);
+
+            // Tode
+            const todeCell = document.createElement("td");
+            todeCell.textContent = player.tode;
+            row.appendChild(todeCell);
+
+            // Status
+            const statusCell = document.createElement("td");
+            let statusText = player.erfolgreich ? "Erfolgreich" : "Nicht geschafft";
+            statusCell.className = player.erfolgreich ? "success" : "fail";
+
+            // Bonus einfügen, falls wenigste Tode
+            if(player.tode === minTode) {
+                statusText += " + Bonus";
+                statusCell.className = "bonus";
+            }
+
+            statusCell.textContent = statusText;
+            row.appendChild(statusCell);
+
+            tableBody.appendChild(row);
+        });
+    })
+    .catch(err => {
+        const errorMsg = document.getElementById("errorMsg");
+        errorMsg.textContent = "Fehler beim Laden der JSON: " + err.message;
+        errorMsg.style.display = "block";
+        console.error(err);
+    });
+</script>
+
+</body>
+</html>

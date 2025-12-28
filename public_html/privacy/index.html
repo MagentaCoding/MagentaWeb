@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy - MagentaWeb</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code&family=Tomorrow&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Google Sans Code', 'Tomorrow', sans-serif;
+            background-color: #f4f4f8;
+            color: #222;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            font-family: 'Tomorrow', sans-serif;
+            background-color: #fff;
+            padding: 1.5rem 2rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.8rem;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        section {
+            background-color: #fff;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            font-weight: 600;
+            margin-top: 0;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .links a {
+            display: inline-block;
+            margin-right: 1rem;
+            margin-top: 1rem;
+            text-decoration: none;
+            color: #d40078;
+            font-weight: 500;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem 2rem;
+            background-color: #fff;
+            box-shadow: 0 -2px 5px rgba(0,0,0,0.05);
+        }
+
+        .language-switcher {
+            margin-top: 1rem;
+            text-align: center;
+        }
+
+        .language-switcher button {
+            margin: 0 0.5rem;
+            padding: 0.3rem 0.7rem;
+            border: 1px solid #0073e6;
+            border-radius: 5px;
+            background-color: #fff;
+            cursor: pointer;
+            font-weight: 500;
+        }
+
+        .language-switcher button:hover {
+            background-color: #0073e6;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="text-1">Privacy at MagentaWeb</h1>
+	  <div class="language-switcher">
+	    <button onclick="setLanguage('en')">EN</button>
+	    <button onclick="setLanguage('de')">DE</button>
+	    <button onclick="setLanguage('es')">ES</button>
+	    <button onclick="setLanguage('fr')">FR</button>
+	    <button onclick="setLanguage('jp')">JP</button>
+	  </div>
+    </header>
+
+    <main>
+        <section>
+            <h2 id="text-2">Introduction</h2>
+            <p id="text-3">
+                At MagentaWeb, protecting your privacy is our top priority. This page provides detailed information on how we collect, process, and store your personal data. Understanding your rights and our obligations helps you make informed decisions when using our services.
+            </p>
+            <p id="text-4">
+                We adhere to strict privacy standards and comply with relevant regulations, ensuring your data is handled responsibly. If you have any concerns or questions, please reach out using the forms provided below.
+            </p>
+        </section>
+
+        <section>
+            <h2 id="text-5">Regional Privacy Information</h2>
+            <p id="text-6">For specific privacy details, please select the relevant region:</p>
+            <div class="links">
+                <a id="text-7" href="./eu">European Union (EU)</a>
+                <a id="text-8" href="./usa">United States (USA)</a>
+            </div>
+        </section>
+
+        <section>
+            <h2 id="text-9">Contact Forms</h2>
+            <p id="text-10">If you need to submit a privacy-related request or report an issue, please use the appropriate form:</p>
+            <div class="links">
+                <a id="text-11" href="./form/magentaweb">Issue with MagentaWeb</a>
+                <a id="text-12" href="./form/other">Issue with other services, persons or companies</a>
+                <a id="text-19" href="./form">Main Privacy Issue Forms Site</a>
+            </div>
+        </section>
+
+        <section>
+            <h2 id="text-13">Data Protection Principles</h2>
+            <p id="text-14">
+                We process personal data lawfully, fairly, and transparently. We only collect data necessary for providing and improving our services. Your information is stored securely and is accessible only by authorized personnel. You have the right to request access, correction, or deletion of your personal data at any time.
+            </p>
+            <p id="text-15">
+                Cookies and other tracking technologies may be used to enhance your experience. You can manage your preferences via your browser or account settings.
+            </p>
+        </section>
+
+        <section>
+            <h2 id="text-16">Further Information</h2>
+            <p id="text-17">
+                For more details, including legal notices and our full privacy policy, please consult the additional links above or contact us directly through the provided forms. Your trust is important to us, and we are committed to safeguarding your privacy at all times.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p id="text-18">&copy; 2025 MagentaHTML. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const translations = {
+            "en": {
+                1: "Privacy at MagentaWeb",
+                2: "Introduction",
+                3: "At MagentaWeb, protecting your privacy is our top priority. This page provides detailed information on how we collect, process, and store your personal data. Understanding your rights and our obligations helps you make informed decisions when using our services.",
+                4: "We adhere to strict privacy standards and comply with relevant regulations, ensuring your data is handled responsibly. If you have any concerns or questions, please reach out using the forms provided below.",
+                5: "Regional Privacy Information",
+                6: "For specific privacy details, please select the relevant region:",
+                7: "European Union (EU)",
+                8: "United States (USA)",
+                9: "Contact Forms",
+                10: "If you need to submit a privacy-related request or report an issue, please use the appropriate form:",
+                11: "Issue with MagentaWeb",
+                12: "Issue with other services, persons or companies",
+                13: "Data Protection Principles",
+                14: "We process personal data lawfully, fairly, and transparently. We only collect data necessary for providing and improving our services. Your information is stored securely and is accessible only by authorized personnel. You have the right to request access, correction, or deletion of your personal data at any time.",
+                15: "Cookies and other tracking technologies may be used to enhance your experience. You can manage your preferences via your browser or account settings.",
+                16: "Further Information",
+                17: "For more details, including legal notices and our full privacy policy, please consult the additional links above or contact us directly through the provided forms. Your trust is important to us, and we are committed to safeguarding your privacy at all times.",
+                18: "© 2025 MagentaWeb. All rights reserved.",
+                19: "Main Privacy Issue Forms Site"
+            },
+            "de": {
+                1: "Datenschutz bei MagentaWeb",
+                2: "Einleitung",
+                3: "Bei MagentaWeb hat der Schutz deiner Daten höchste Priorität. Auf dieser Seite findest du detaillierte Informationen darüber, wie wir deine personenbezogenen Daten sammeln, verarbeiten und speichern. Wenn du deine Rechte und unsere Pflichten verstehst, kannst du fundierte Entscheidungen bei der Nutzung unserer Dienste treffen.",
+                4: "Wir halten strenge Datenschutzstandards ein und erfüllen die relevanten Vorschriften, damit deine Daten verantwortungsvoll behandelt werden. Bei Fragen oder Bedenken nutze bitte die unten angegebenen Formulare.",
+                5: "Regionale Datenschutzinformationen",
+                6: "Für spezifische Datenschutzinformationen wähle bitte die entsprechende Region:",
+                7: "Europäische Union (EU)",
+                8: "Vereinigte Staaten (USA)",
+                9: "Kontaktformulare",
+                10: "Wenn du eine datenschutzbezogene Anfrage stellen oder ein Problem melden möchtest, nutze bitte das entsprechende Formular:",
+                11: "Problem mit MagentaWeb",
+                12: "Problem mit anderen Diensten, Personen oder Unternehmen",
+               13: "Grundsätze des Datenschutzes",
+                14: "Wir verarbeiten personenbezogene Daten rechtmäßig, fair und transparent. Wir erfassen nur die Daten, die für die Bereitstellung und Verbesserung unserer Dienste notwendig sind. Deine Informationen werden sicher gespeichert und sind nur für autorisiertes Personal zugänglich. Du hast das Recht, jederzeit Zugriff, Berichtigung oder Löschung deiner personenbezogenen Daten zu verlangen.",
+                15: "Cookies und andere Tracking-Technologien können verwendet werden, um deine Erfahrung zu verbessern. Du kannst deine Einstellungen über deinen Browser oder dein Konto verwalten.",
+                16: "Weitere Informationen",
+                17: "Für weitere Details, einschließlich rechtlicher Hinweise und unserer vollständigen Datenschutzrichtlinie, konsultiere bitte die oben angegebenen Links oder kontaktiere uns direkt über die bereitgestellten Formulare. Dein Vertrauen ist uns wichtig, und wir verpflichten uns, deine Daten jederzeit zu schützen.",
+                18: "© 2025 MagentaWeb. Alle Rechte vorbehalten.",
+                19: "Hauptseite – Formulare zum Thema Datenschutz"
+            },
+            "es": {
+                1: "Privacidad en MagentaWeb",
+                2: "Introducción",
+                3: "En MagentaWeb, la protección de su privacidad es nuestra máxima prioridad. Esta página proporciona información detallada sobre cómo recogemos, procesamos y almacenamos sus datos personales. Comprender sus derechos y nuestras obligaciones le ayudará a tomar decisiones informadas cuando utilice nuestros servicios.",
+                4: "Nos adherimos a estrictas normas de privacidad y cumplimos la normativa pertinente, garantizando que sus datos se traten de forma responsable. Si tiene alguna duda o pregunta, póngase en contacto con nosotros a través de los formularios que encontrará a continuación.",
+                5: "Información regional sobre privacidad",
+                6: "Para obtener información específica sobre privacidad, seleccione la región correspondiente:",
+                7: "Unión Europea (UE)",
+                8: "Estados Unidos (USA)",
+                9: "Formularios de contacto",
+                10: "Si necesita enviar una solicitud relacionada con la privacidad o informar de un problema, utilice el formulario correspondiente:",
+                11: "Problema con MagentaWeb",
+                12: "Asunto con otros servicios, personas o empresas",
+                13: "Principios de protección de datos",
+                14: "Tratamos los datos personales de forma legal, justa y transparente. Sólo recogemos los datos necesarios para prestar y mejorar nuestros servicios. Su información se almacena de forma segura y sólo puede acceder a ella el personal autorizado. Tiene derecho a solicitar el acceso, la corrección o la supresión de sus datos personales en cualquier momento.",
+                15: "Pueden utilizarse cookies y otras tecnologías de seguimiento para mejorar su experiencia. Puede gestionar sus preferencias a través de la configuración de su navegador o de su cuenta.",
+                16: "Más información",
+                17: "For more details, including legal notices and our full privacy policy, please consult the additional links above or contact us directly through the provided forms. Your trust is important to us, and we are committed to safeguarding your privacy at all times.",
+                18: "© 2025 MagentaWeb. Todos los derechos reservados.",
+                19: "Página principal Formularios sobre protección de datos"
+            },
+            "fr": {
+                1: "Vie privée chez MagentaWeb",
+                2: "Introduction",
+                3: "Chez MagentaWeb, la protection de votre vie privée est notre priorité absolue. Cette page fournit des informations détaillées sur la manière dont nous collectons, traitons et stockons vos données personnelles. Comprendre vos droits et nos obligations vous aidera à prendre des décisions éclairées lorsque vous utiliserez nos services.",
+                4: "Nous adhérons à des normes strictes en matière de protection de la vie privée et nous nous conformons aux réglementations pertinentes, ce qui garantit que vos données sont traitées de manière responsable. Si vous avez des questions ou des préoccupations, veuillez nous contacter en utilisant les formulaires ci-dessous.",
+                5: "Informations régionales sur la protection de la vie privée",
+                6: "Pour obtenir des informations spécifiques sur la protection de la vie privée, veuillez sélectionner la région concernée :",
+                7: "Union européenne (UE)",
+                8: "États-Unis (USA)",
+                9: "Formulaires de contact",
+                10: "Si vous souhaitez soumettre une demande relative à la protection de la vie privée ou signaler un problème, veuillez utiliser le formulaire approprié :",
+                11: "Problème avec MagentaWeb",
+                12: "Affaires avec d'autres services, personnes ou entreprises",
+                13: "Principes de protection des données",
+                14: "Nous traitons les données personnelles de manière légale, équitable et transparente. Nous ne recueillons que les données nécessaires pour fournir et améliorer nos services. Vos informations sont stockées en toute sécurité et ne peuvent être consultées que par le personnel autorisé. Vous avez le droit de demander à tout moment l'accès, la correction ou la suppression de vos données personnelles.",
+                15: "Des cookies et d'autres technologies de suivi peuvent être utilisés pour améliorer votre expérience. Vous pouvez gérer vos préférences par le biais de votre navigateur ou des paramètres de votre compte.",
+                16: "Plus d'informations",
+                17: "Pour plus de détails, y compris les avis juridiques et notre politique de confidentialité complète, veuillez consulter les liens supplémentaires ci-dessus ou nous contacter directement par le biais des formulaires fournis. Votre confiance est importante pour nous et nous nous engageons à protéger votre vie privée à tout moment.",
+                18: "© 2025 MagentaWeb. Tous droits réservés.",
+                19: "Page d'accueil Formulaires de protection des données"
+            },
+            "jp": {
+                1: "MagentaWebのプライバシー",
+                2: "はじめに",
+                3: "MagentaWebでは、お客様のプライバシーの保護が最優先事項です。このページでは、私たちがどのようにお客様の個人データを収集、処理、保存しているかについて詳しくご説明いたします。お客様の権利と当社の義務を理解することで、当社のサービスを利用する際に十分な情報を得た上で決定することができます。",
+                4: "弊社は厳格なプライバシー基準を遵守し、関連法規を順守することで、お客様のデータが責任を持って取り扱われることを保証します。ご質問やご不明な点がございましたら、下記のフォームよりお問い合わせください。",
+                5: "地域プライバシー情報",
+                6: "個人情報保護に関する具体的な情報については、該当する地域を選択してください：",
+                7: "欧州連合（EU）",
+                8: "アメリカ",
+                9: "お問い合わせフォーム",
+                10: "個人情報保護に関するご要望、または問題の報告を希望される場合は、該当するフォームをご利用ください：",
+                11: "MagentaWebの問題",
+                12: "他部門、個人、企業との取引",
+                13: "データ保護の原則",
+                14: "当社は、個人データを合法的、公正かつ透明性をもって取り扱います。当社は、当社のサービスを提供し、改善するために必要なデータのみを収集します。お客様の情報は安全に保管され、権限を与えられた担当者のみがアクセスできます。お客様は、いつでもご自身の個人データへのアクセス、訂正、削除を要求する権利を有します。",
+                15: "お客様の利便性を向上させるために、クッキーやその他のトラッキング技術が使用されることがあります。ブラウザまたはアカウント設定により、設定を管理することができます。",
+                16: "詳細情報",
+                17: "法的な通知やプライバシーポリシーの全文を含む詳細については、上記の追加リンクを参照するか、提供されているフォームを使用して直接お問い合わせください。お客様の信頼は私たちにとって重要であり、私たちは常にお客様のプライバシーを保護することをお約束します。",
+                18: "© 2025 MagentaWeb – 無断複写・転載を禁じます。",
+                19: "ホームページ データ保護フォーム"
+            }
+        };
+
+        function setLanguage(lang) {
+            Object.keys(translations[lang]).forEach(id => {
+                const el = document.getElementById(`text-${id}`);
+                if (el) el.innerText = translations[lang][id];
+            });
+        }
+    </script>
+</body>
+</html>

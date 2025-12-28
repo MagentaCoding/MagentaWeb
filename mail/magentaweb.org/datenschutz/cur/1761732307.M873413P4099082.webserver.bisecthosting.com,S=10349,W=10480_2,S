@@ -1,0 +1,131 @@
+Return-Path: <Poststelle@ldi.nrw.de>
+Delivered-To: datenschutz@magentaweb.org
+Received: from webserver.bisecthosting.com
+	by webserver.bisecthosting.com with LMTP
+	id GB1+M9PmAWkKjD4Aufviug
+	(envelope-from <Poststelle@ldi.nrw.de>)
+	for <datenschutz@magentaweb.org>; Wed, 29 Oct 2025 06:05:07 -0400
+Return-path: <Poststelle@ldi.nrw.de>
+Envelope-to: datenschutz@magentaweb.org
+Delivery-date: Wed, 29 Oct 2025 06:05:07 -0400
+Received: from relay-nrw2v.it.nrw.de ([93.184.136.143]:46734)
+	by webserver.bisecthosting.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.98.2)
+	(envelope-from <Poststelle@ldi.nrw.de>)
+	id 1vE33C-0000000HCoi-2tXg
+	for datenschutz@magentaweb.org;
+	Wed, 29 Oct 2025 06:05:07 -0400
+Received: from localhost (localhost [127.0.0.1])
+	by relay-nrw2v.it.nrw.de (Postfix) with ESMTP id F21ABC1145B
+	for <datenschutz@magentaweb.org>; Wed, 29 Oct 2025 11:04:21 +0100 (CET)
+DKIM-Filter: OpenDKIM Filter v2.11.0 relay-nrw2v.it.nrw.de F21ABC1145B
+Authentication-Results: relay-nrw2v.it.nrw.de;
+	dkim=pass (2048-bit key, unprotected) header.d=ldi.nrw.de header.i=@ldi.nrw.de header.a=rsa-sha256 header.s=20230502 header.b=oyJZ69gc
+X-Virus-Scanned: amavis at nrw.de
+Received: from relay-nrw2v.it.nrw.de ([127.0.0.1])
+ by localhost (relay-nrw2v.it.nrw.de [127.0.0.1]) (amavis, port 10024)
+ with ESMTP id 6MhK6wwDL86N for <datenschutz@magentaweb.org>;
+ Wed, 29 Oct 2025 11:04:21 +0100 (CET)
+Received: from relay6v.it.nrw.de (relay6v.it.nrw.de [93.184.136.150])
+	by relay-nrw2v.it.nrw.de (Postfix) with ESMTPS id BDB21C1081B
+	for <datenschutz@magentaweb.org>; Wed, 29 Oct 2025 11:04:21 +0100 (CET)
+DKIM-Filter: OpenDKIM Filter v2.11.0 relay-nrw2v.it.nrw.de BDB21C1081B
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=ldi.nrw.de;
+	s=20230502; t=1761732261;
+	bh=m1Qx/QkUGQLGTKLKl22sDqgeLoCeV7wsmC3MlyiGND4=;
+	h=From:To:Subject:Date:In-Reply-To:From;
+	b=oyJZ69gchEJMOdh4Zy5SGsGvs4SNJjLAkwmyP2sKU04rAmq2+kt721VgJK8ntNhIp
+	 IAtQSr4Zld+2GSS5RpVorc4rGGpMB1CsSOoTo+x3wo5OyMM8X3o6dFjhAAdMLkxHlQ
+	 sWULSiPUAbpyhFG2W/O27uocrU322h8J1RvmspGa2oLm7SFkOuM/4WDxCBc0f+9Ta6
+	 GrB2NyAPHE+kI/gvusWQkBFpJJ0SAGs1VJs9MnsSIV/173X2TLBr4y4QKKtFjTE75F
+	 8PT3LLprAOzMMNCH3HG0HkuyQdWZohpQdbwLCRM8jaGrIPenbLigb545UFVVRN/NbT
+	 rW7kG2MMIayvg==
+Received: from localhost (localhost [127.0.0.1])
+	by relay6v.it.nrw.de (Postfix) with ESMTP id A8AE5E002C6
+	for <datenschutz@magentaweb.org>; Wed, 29 Oct 2025 11:04:21 +0100 (CET)
+Received: from relay6v.it.nrw.de ([127.0.0.1])
+ by localhost (relay6v.it.nrw.de [127.0.0.1]) (amavis, port 10024) with ESMTP
+ id WjbI7eU77Wgd for <datenschutz@magentaweb.org>;
+ Wed, 29 Oct 2025 11:04:21 +0100 (CET)
+From: <Poststelle@ldi.nrw.de>
+To: <datenschutz@magentaweb.org>
+Subject: Gelesen: Datenschutzbeschwerde gegen Tellter SAS
+Thread-Topic: Datenschutzbeschwerde gegen Tellter SAS
+Thread-Index: AQHcSLXCzpILSlG4w0WAd60mJ722QrTY5SGg
+Importance: high
+X-Priority: 1
+Date: Wed, 29 Oct 2025 10:04:20 +0000
+Message-ID: <cd421e0ec4bd462d89a69782ba0c20c0@ldi.nrw.de>
+In-Reply-To: <f4cf046c7b68f1246c081a92d636f813@magentaweb.org>
+Accept-Language: de-DE, en-US
+Content-Language: de-DE
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-originating-ip: [10.16.145.48]
+Content-Type: multipart/report;
+	boundary="_000_cd421e0ec4bd462d89a69782ba0c20c0ldinrwde_";
+	report-type=disposition-notification
+MIME-Version: 1.0
+X-Spam-Status: No, score=0.3
+X-Spam-Score: 3
+X-Spam-Bar: /
+X-Ham-Report: =?ISO-8859-1?Q?Spam_detection_software=2C_running_on_the_system_=22webserver=2Ebise?= =?ISO-8859-1?Q?cthosting=2Ecom=22=2C=0A_has_NOT_identified_this_inco?= =?ISO-8859-1?Q?ming_email_as_spam=2E__The_original=0A_message_has_be?= =?ISO-8859-1?Q?en_attached_to_this_so_you_can_view_it_or_label=0A_si?= =?ISO-8859-1?Q?milar_future_email=2E__If_you_have_any_questions=2C_s?= =?ISO-8859-1?Q?ee=0A_root=5C=40localhost_for_details=2E=0A_Content_p?= =?ISO-8859-1?Q?review=3A__Ihre_Nachricht_An=3A_ZF_LDI_Poststelle_=28L?= =?ISO-8859-1?Q?DI=29_Betreff=3A_Datenschutzbeschwerde=0A____gegen_Te?= =?ISO-8859-1?Q?llter_SAS_Gesendet=3A_Mittwoch=2C_29=2E_Oktober_2025_?= =?ISO-8859-1?Q?10=3A23=3A53_=28UTC+01=3A00=29=0A____Amsterdam=2C_Ber?= =?ISO-8859-1?Q?lin=2C_Bern=2C_Rom=2C_Stockholm=2C_Wien_wurde_am_Mitt?= =?ISO-8859-1?Q?woch=2C_29=2E_Oktober=0A____2025_11=3A03=3A29_=28UTC+?= =?ISO-8859-1?Q?01=3A00=29_Amsterdam=2C_Berlin=2C_Bern=2C_Rom=2C_Stoc?= =?ISO-8859-1?Q?kholm=2C_Wien_gelesen=2E=0A____=0A_Content_analysis_d?= =?ISO-8859-1?Q?etails=3A___=280=2E3_points=2C_5=2E0_required=29=0A__?= =?ISO-8859-1?Q?pts_rule_name______________description=0A_----_------?= =?ISO-8859-1?Q?----------------_------------------------------------?= =?ISO-8859-1?Q?--------------=0A__0=2E0_RCVD=5FIN=5FZEN=5FBLOCKED=5FO?= =?ISO-8859-1?Q?PENDNS_RBL=3A_ADMINISTRATOR_NOTICE=3A_The_query_to=0A_?= =?ISO-8859-1?Q?____________________________zen=2Espamhaus=2Eorg_was_?= =?ISO-8859-1?Q?blocked_due_to_usage_of_an=0A________________________?= =?ISO-8859-1?Q?______open_resolver=2E_See=0A________________________?= =?ISO-8859-1?Q?_____https=3A//www=2Espamhaus=2Eorg/returnc/pub/=0A__?= =?ISO-8859-1?Q?___________________________=5B93=2E184=2E136=2E143_li?= =?ISO-8859-1?Q?sted_in_zen=2Espamhaus=2Eorg=5D=0A__0=2E0_RCVD=5FIN=5FV?= =?ISO-8859-1?Q?ALIDITY=5FSAFE=5FBLOCKED_RBL=3A_ADMINISTRATOR_NOTICE=3A_?= =?ISO-8859-1?Q?The_query_to=0A______________________________Validity?= =?ISO-8859-1?Q?_was_blocked=2E__See=0A_____________________________h?= =?ISO-8859-1?Q?ttps=3A//knowledge=2Evalidity=2Ecom/hc/en-us/articles?= =?ISO-8859-1?Q?/20961730681243=0A______________________________for_m?= =?ISO-8859-1?Q?ore_information=2E=0A_____________________________=5B9?= =?ISO-8859-1?Q?3=2E184=2E136=2E143_listed_in_sa-accredit=2Ehabeas=2Ec?= =?ISO-8859-1?Q?om=5D=0A__0=2E0_RCVD=5FIN=5FVALIDITY=5FCERTIFIED=5FBL?= =?ISO-8859-1?Q?OCKED_RBL=3A_ADMINISTRATOR_NOTICE=3A_The=0A__________?= =?ISO-8859-1?Q?___________________query_to_Validity_was_blocked=2E__?= =?ISO-8859-1?Q?See=0A_____________________________https=3A//knowledg?= =?ISO-8859-1?Q?e=2Evalidity=2Ecom/hc/en-us/articles/20961730681243=0A_?= =?ISO-8859-1?Q?_____________________________for_more_information=2E=0A?= =?ISO-8859-1?Q?_________________________=5B93=2E184=2E136=2E143_list?= =?ISO-8859-1?Q?ed_in_sa-trusted=2Ebondedsender=2Eorg=5D=0A__0=2E0_UR?= =?ISO-8859-1?Q?IBL=5FDBL=5FBLOCKED=5FOPENDNS_ADMINISTRATOR_NOTICE=3A_?= =?ISO-8859-1?Q?The_query_to=0A_____________________________dbl=2Espa?= =?ISO-8859-1?Q?mhaus=2Eorg_was_blocked_due_to_usage_of_an=0A________?= =?ISO-8859-1?Q?______________________open_resolver=2E_See=0A________?= =?ISO-8859-1?Q?_____________________https=3A//www=2Espamhaus=2Eorg/r?= =?ISO-8859-1?Q?eturnc/pub/=0A_____________________________=5BURI=3A_?= =?ISO-8859-1?Q?ldi=2Enrw=2Ede=5D=0A__0=2E5_JMQ=5FSPF=5FNEUTRAL______?= =?ISO-8859-1?Q?__ASKDNS=3A_SPF_set_to_=3Fall=0A_____________________?= =?ISO-8859-1?Q?________=5Bldi=2Enrw=2Ede_TXT=3Av=3Dspf1_include=3A=5F?= =?ISO-8859-1?Q?spf=2Enrw=2Ede=5D=0A_____________________________=5Bi?= =?ISO-8859-1?Q?nclude=3A=5Fspf2=2Enrw=2Ede_=3Fall=5D=0A__0=2E0_RCVD=5FI?= =?ISO-8859-1?Q?N=5FVALIDITY=5FRPBL=5FBLOCKED_RBL=3A_ADMINISTRATOR_NO?= =?ISO-8859-1?Q?TICE=3A_The_query_to=0A______________________________?= =?ISO-8859-1?Q?Validity_was_blocked=2E__See=0A______________________?= =?ISO-8859-1?Q?_______https=3A//knowledge=2Evalidity=2Ecom/hc/en-us/?= =?ISO-8859-1?Q?articles/20961730681243=0A___________________________?= =?ISO-8859-1?Q?___for_more_information=2E=0A________________________?= =?ISO-8859-1?Q?____=5B93=2E184=2E136=2E143_listed_in_bl=2Escore=2Ese?= =?ISO-8859-1?Q?nderscore=2Ecom=5D=0A_-0=2E0_SPF=5FPASS______________?= =?ISO-8859-1?Q?_SPF=3A_sender_matches_SPF_record=0A_-0=2E1_DKIM=5FVA?= =?ISO-8859-1?Q?LID=5FEF__________Message_has_a_valid_DKIM_or_DK_sign?= =?ISO-8859-1?Q?ature_from=0A_____________________________envelope-fr?= =?ISO-8859-1?Q?om_domain=0A_-0=2E1_DKIM=5FVALID=5FAU__________Messag?= =?ISO-8859-1?Q?e_has_a_valid_DKIM_or_DK_signature_from_author's=0A__?= =?ISO-8859-1?Q?___________________________domain=0A__0=2E1_DKIM=5FSI?= =?ISO-8859-1?Q?GNED____________Message_has_a_DKIM_or_DK_signature=2C_?= =?ISO-8859-1?Q?not_necessarily_valid=0A_-0=2E1_DKIM=5FVALID_________?= =?ISO-8859-1?Q?____Message_has_at_least_one_valid_DKIM_or_DK_signatu?= =?ISO-8859-1?Q?re=0A__0=2E0_HTML=5FMESSAGE___________BODY=3A_HTML_in?= =?ISO-8859-1?Q?cluded_in_message?=
+X-Spam-Flag: NO
+
+--_000_cd421e0ec4bd462d89a69782ba0c20c0ldinrwde_
+Content-Type: multipart/alternative;
+	boundary="_002_cd421e0ec4bd462d89a69782ba0c20c0ldinrwde_"
+
+--_002_cd421e0ec4bd462d89a69782ba0c20c0ldinrwde_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Ihre Nachricht
+
+   An: ZF LDI Poststelle (LDI)
+   Betreff: Datenschutzbeschwerde gegen Tellter SAS
+   Gesendet: Mittwoch, 29. Oktober 2025 10:23:53 (UTC+01:00) Amsterdam, Ber=
+lin, Bern, Rom, Stockholm, Wien
+
+ wurde am Mittwoch, 29. Oktober 2025 11:03:29 (UTC+01:00) Amsterdam, Berlin=
+, Bern, Rom, Stockholm, Wien gelesen.
+
+--_002_cd421e0ec4bd462d89a69782ba0c20c0ldinrwde_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Exchange Server">
+<!-- converted from text --><style><!-- .EmailQuote { margin-left: 1pt; pad=
+ding-left: 4pt; border-left: #800000 2px solid; } --></style>
+</head>
+<body>
+<font size=3D"2"><span style=3D"font-size:10pt;">
+<div class=3D"PlainText">Ihre Nachricht <br>
+<br>
+&nbsp;&nbsp; An: ZF LDI Poststelle (LDI)<br>
+&nbsp;&nbsp; Betreff: Datenschutzbeschwerde gegen Tellter SAS<br>
+&nbsp;&nbsp; Gesendet: Mittwoch, 29. Oktober 2025 10:23:53 (UTC&#43;01:00) =
+Amsterdam, Berlin, Bern, Rom, Stockholm, Wien<br>
+<br>
+&nbsp;wurde am Mittwoch, 29. Oktober 2025 11:03:29 (UTC&#43;01:00) Amsterda=
+m, Berlin, Bern, Rom, Stockholm, Wien gelesen.</div>
+</span></font>
+</body>
+</html>
+
+--_002_cd421e0ec4bd462d89a69782ba0c20c0ldinrwde_--
+
+--_000_cd421e0ec4bd462d89a69782ba0c20c0ldinrwde_
+Content-Type: message/disposition-notification
+
+Final-recipient: RFC822; Poststelle@ldi.nrw.de
+Disposition: automatic-action/MDN-sent-automatically; displayed
+X-MSExch-Correlation-Key: d7wDHYIH3UaJ3f6uguzRQw==
+X-Display-Name: ZF LDI Poststelle (LDI)
+
+
+--_000_cd421e0ec4bd462d89a69782ba0c20c0ldinrwde_--

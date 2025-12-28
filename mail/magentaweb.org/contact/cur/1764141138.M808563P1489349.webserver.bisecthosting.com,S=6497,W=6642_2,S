@@ -1,0 +1,145 @@
+Return-Path: <support@magentaweb.zendesk.com>
+Delivered-To: contact@magentaweb.org
+Received: from webserver.bisecthosting.com
+	by webserver.bisecthosting.com with LMTP
+	id 6GufL1KoJmnFuRYAufviug
+	(envelope-from <support@magentaweb.zendesk.com>)
+	for <contact@magentaweb.org>; Wed, 26 Nov 2025 02:12:18 -0500
+Return-path: <support@magentaweb.zendesk.com>
+Envelope-to: contact@magentaweb.org
+Delivery-date: Wed, 26 Nov 2025 02:12:18 -0500
+Received: from mta-out13.pod29.euw1.zdsys.com ([188.172.137.58]:49582)
+	by webserver.bisecthosting.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.98.2)
+	(envelope-from <support@magentaweb.zendesk.com>)
+	id 1vO9hK-00000006FMy-3Hqw
+	for contact@magentaweb.org;
+	Wed, 26 Nov 2025 02:12:18 -0500
+Received: from zendesk.com (unknown [127.0.0.6])
+	by mta-out15.pod29.euw1.zdsys.com (Zendesk) with ESMTP
+	id e02bb878-69d4-4f72-840a-3e2931f81977
+	for <contact@magentaweb.org>;
+	Wed, 26 Nov 2025 07:11:36 +0000 (UTC)
+Date: Wed, 26 Nov 2025 07:11:36 +0000
+From: MagentaWeb <support@magentaweb.zendesk.com>
+To: contact@magentaweb.org
+Message-ID: <6926a8288fc5c_bc15b0292a6_sprut@zendesk.com>
+Subject: =?UTF-8?Q?Kennwort_f=C3=BCr_MagentaWeb_zur=C3=BCcksetzen?=
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_6926a8289ca68_bc15b029394";
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+X-Delivery-Context: new-password-31480030044061
+X-Zendesk-Priority-Mail: Password Reset
+Auto-Submitted: auto-generated
+X-Auto-Response-Suppress: All
+X-Mailer: Zendesk Mailer
+X-Zendesk-From-Account-Id: 8b85949
+DKIM-Signature:  v=1; a=rsa-sha256; c=relaxed/relaxed; d=zendesk.com;
+ q=dns/txt; s=zendesk2; t=1764141096;
+ bh=VfbWKoNKKa9l/iljfS80YH3LY1Rwwe2CgkP9fUsGkPo=;
+ h=date:from:to:message-id:subject:mime-version:content-type:content-transfer-encoding;
+ b=EmacqlSa46p1LUucmRaCn+xRuxOz/UDV/0CVdW9ZnDqOsy9GLDG1hS5UpAJhnBRkLlJ3sOptcXaIRsY0O8BcI1X9V+Xto1oaOiEQNJuN9UorC1wRT61wq5upyvllomX/wxUTag3f4B4YllyLXnwoGwDOHemFVPFcnBuzTtTFOZMh4Ax4RUSDIv9Vl7qKQOJ95JvD/yWmOgje2iTAVPD5ioY4eCxm2n44Ze6vN7lZM0JW5HvW0UdQWIrZC3ElZOmcCaayqzE/BG3GwJFP2x/g00QIOFmwwDi89/a+Qmv1UTX/rxfAL8GIi3LKHSAwx3d4dbsfaebK/3BuAYweEwtbQw==
+X-Spam-Status: No, score=-0.1
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: =?ISO-8859-1?Q?Spam_detection_software=2C_running_on_the_system_=22webserver=2Ebise?=
+	=?ISO-8859-1?Q?cthosting=2Ecom=22=2C=0A_has_NOT_identified_this_inco?=
+	=?ISO-8859-1?Q?ming_email_as_spam=2E__The_original=0A_message_has_be?=
+	=?ISO-8859-1?Q?en_attached_to_this_so_you_can_view_it_or_label=0A_si?=
+	=?ISO-8859-1?Q?milar_future_email=2E__If_you_have_any_questions=2C_s?=
+	=?ISO-8859-1?Q?ee=0A_root=5C=40localhost_for_details=2E=0A_Content_p?=
+	=?ISO-8859-1?Q?review=3A__Guten_Tag_A_Gal=2C_Wir_wurden_gebeten=2C_I?=
+	=?ISO-8859-1?Q?hr_Kennwort_f=C3=BCr_MagentaWeb=0A____zur=C3=BCckzuse?=
+	=?ISO-8859-1?Q?tzen=2E_https=3A//magentaweb=2Ezendesk=2Ecom/password?=
+	=?ISO-8859-1?Q?/reset/JKY83g0Yszmo15pE21JfZX7jJbtqL0q6=3Flocale=3D8=2C=0A?=
+	=?ISO-8859-1?Q?____um_die_Zur=C3=BCcksetzung_abzuschlie=C3=9Fen=2E_=0A_?=
+	=?ISO-8859-1?Q?Content_analysis_details=3A___=28-0=2E1_points=2C_5=2E0?=
+	=?ISO-8859-1?Q?_required=29=0A__pts_rule_name______________descripti?=
+	=?ISO-8859-1?Q?on=0A_--
+X-Spam-Flag: NO
+
+
+----==_mimepart_6926a8289ca68_bc15b029394
+Content-Type: text/plain;
+ charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Guten Tag A Gal,
+
+Wir wurden gebeten, Ihr Kennwort f=C3=BCr MagentaWeb zur=C3=BCckzusetzen.=
+ https://magentaweb.zendesk.com/password/reset/JKY83g0Yszmo15pE21JfZX7jJb=
+tqL0q6?locale=3D8, um die Zur=C3=BCcksetzung abzuschlie=C3=9Fen.
+
+Der Link ist 24 Stunden lang aktiv. Wenn Sie nicht um Zur=C3=BCcksetzen g=
+ebeten haben, k=C3=B6nnen Sie diese E-Mail ignorieren. Wenn ein Administr=
+ator Ihr Kennwort zur=C3=BCckgesetzt hat, m=C3=BCssen Sie dennoch ein neu=
+es Kennwort festlegen.
+
+--------------------------------
+Diese E-Mail ist ein Service von MagentaWeb.=
+
+----==_mimepart_6926a8289ca68_bc15b029394
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang=3D'en-US-x-1'>
+<head>
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+" />
+  <style type=3D"text/css">
+    table td {
+      border-collapse: collapse;
+    }
+    body[dir=3Drtl] .directional_text_wrapper { direction: rtl; unicode-b=
+idi: embed; }
+
+  </style>
+
+          <style type=3D"text/css">
+            @media only screen and (max-width: 768px) {
+              .simplified-email-footer .namecard {
+                display: block;
+                min-width: 100%;
+                padding: 0 0 16px 0; }
+
+              .simplified-email-footer .content {
+                padding: 16px; }
+            }
+          </style>
+        </head>
+<body  style=3D"width: 100%!important; margin: 0; padding: 0;">
+  <div style=3D"padding: 10px; line-height: 1.5; font-family: 'Lucida Gra=
+nde',Verdana,Arial,sans-serif; font-size: 12px; color:#444444;">
+    <div style=3D"color: #b5b5b5;"></div>
+    <div style=3D'text-align:left;'><p>Guten Tag A Gal,</p>
+
+<p>Wir wurden gebeten, Ihr Kennwort f=C3=BCr MagentaWeb zur=C3=BCckzusetz=
+en. <a target=3D"_blank" href=3D"https://magentaweb.zendesk.com/password/=
+reset/JKY83g0Yszmo15pE21JfZX7jJbtqL0q6?locale=3D8">Legen Sie ein neues Ke=
+nnwort fest</a>, um die Zur=C3=BCcksetzung abzuschlie=C3=9Fen.</p>
+
+<p>Der Link ist 24 Stunden lang aktiv. Wenn Sie nicht um Zur=C3=BCcksetze=
+n gebeten haben, k=C3=B6nnen Sie diese E-Mail ignorieren. Wenn ein Admini=
+strator Ihr Kennwort zur=C3=BCckgesetzt hat, m=C3=BCssen Sie dennoch ein =
+neues Kennwort festlegen.</p></div>
+  </div>
+  <div style=3D"padding: 10px; line-height: 1.5; font-family: 'Lucida Gra=
+nde',Verdana,Arial,sans-serif; font-size: 12px; color: #49545c; margin: 1=
+0px 0 14px 0; padding-top: 10px; border-top: 1px solid #eeeeee;">
+    <span style=3D'color: #68737D;'><div style=3D'display: inline-block; =
+float:none;'>Diese E-Mail ist ein Service von MagentaWeb.</div></span> <s=
+pan style=3D'color: #68737D;'><div style=3D'display: inline-block; float:=
+none;'>Bereitgestellt von <a href=3D"https://www.zendesk.de/service/?utm_=
+campaign=3Dtext&amp;utm_content=3DMagentaWeb&amp;utm_medium=3Dpoweredbyze=
+ndesk&amp;utm_source=3Demail-notification" style=3D"color:black;" target=3D=
+"_blank">Zendesk</a></div></span>
+  </div>
+</body>
+</html>
+
+----==_mimepart_6926a8289ca68_bc15b029394--

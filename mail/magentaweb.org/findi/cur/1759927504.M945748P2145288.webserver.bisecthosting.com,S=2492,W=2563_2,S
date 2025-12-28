@@ -1,0 +1,71 @@
+Return-Path: <>
+Delivered-To: findi@magentaweb.org
+Received: from webserver.bisecthosting.com
+	by webserver.bisecthosting.com with LMTP
+	id mKlTONBc5mgIvCAAufviug
+	(envelope-from <>)
+	for <findi@magentaweb.org>; Wed, 08 Oct 2025 08:45:04 -0400
+Return-path: <>
+Envelope-to: findi@magentaweb.org
+Delivery-date: Wed, 08 Oct 2025 08:45:04 -0400
+Received: from mailnull by webserver.bisecthosting.com with local (Exim 4.98.2)
+	id 1v6TXU-000000090iw-3aUz
+	for findi@magentaweb.org;
+	Wed, 08 Oct 2025 08:45:04 -0400
+X-Failed-Recipients: api@vrs.de
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@webserver.bisecthosting.com>
+To: findi@magentaweb.org
+References: <e3bf409d23650deed506808245ab607c@magentaweb.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1759927504-eximdsn-1804319708
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1v6TXU-000000090iw-3aUz@webserver.bisecthosting.com>
+Date: Wed, 08 Oct 2025 08:45:04 -0400
+
+--1759927504-eximdsn-1804319708
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  api@vrs.de
+    Domain magentaweb.org has exceeded the max defers and failures per hour (5/5 (100%)) allowed. Message discarded.
+
+--1759927504-eximdsn-1804319708
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; webserver.bisecthosting.com
+
+Action: failed
+Final-Recipient: rfc822;api@vrs.de
+Status: 5.0.0
+
+--1759927504-eximdsn-1804319708
+Content-type: text/rfc822-headers
+
+Return-path: <findi@magentaweb.org>
+Received: from [::1] (port=44864 helo=webserver.bisecthosting.com)
+	by webserver.bisecthosting.com with esmtpa (Exim 4.98.2)
+	(envelope-from <findi@magentaweb.org>)
+	id 1v6Spp-00000008RhL-21My
+	for api@vrs.de;
+	Wed, 08 Oct 2025 07:59:54 -0400
+MIME-Version: 1.0
+Date: Wed, 08 Oct 2025 07:59:54 -0400
+From: findi@magentaweb.org
+To: api@vrs.de
+Subject: Anfrage zum OpenData-Angebot
+User-Agent: Roundcube Webmail/1.6.11
+Message-ID: <e3bf409d23650deed506808245ab607c@magentaweb.org>
+X-Sender: findi@magentaweb.org
+Disposition-Notification-To: findi@magentaweb.org
+X-Priority: 1 (Highest)
+Content-Type: multipart/mixed;
+ boundary="=_31e1b732557e2c105b0376b3ebde1c03"
+X-Exim-DSN-Information: Due to administrative limits only headers are returned
+
+
+--1759927504-eximdsn-1804319708--

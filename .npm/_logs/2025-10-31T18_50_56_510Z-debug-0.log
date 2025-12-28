@@ -1,0 +1,384 @@
+0 verbose cli /opt/alt/alt-nodejs22/root/usr/bin/node /opt/alt/alt-nodejs22/root/usr/bin/npm
+1 info using npm@10.9.3
+2 info using node@v22.18.0
+3 silly config load:file:/opt/alt/alt-nodejs22/root/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/magentaw/nodevenv/magentasecurity/discord/22/lib/.npmrc
+5 silly config load:file:/home/magentaw/.npmrc
+6 silly config load:file:/home/magentaw/nodevenv/magentasecurity/discord/22/lib/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install" "--prefix" "/home/magentaw/nodevenv/magentasecurity/discord/22/lib"
+9 verbose logfile logs-max:10 dir:/home/magentaw/.npm/_logs/2025-10-31T18_50_56_510Z-
+10 verbose logfile /home/magentaw/.npm/_logs/2025-10-31T18_50_56_510Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest discord.js@^14.11.0
+15 silly packumentCache full:https://registry.npmjs.org/discord.js cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/discord.js 2921ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/discord.js set size:undefined disposed:false
+18 silly fetch manifest node-fetch@^3.3.1
+19 silly packumentCache full:https://registry.npmjs.org/node-fetch cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/node-fetch 249ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/node-fetch set size:undefined disposed:false
+22 silly fetch manifest dotenv@^16.3.0
+23 silly packumentCache full:https://registry.npmjs.org/dotenv cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/dotenv 79ms (cache miss)
+25 silly packumentCache full:https://registry.npmjs.org/dotenv set size:undefined disposed:false
+26 silly placeDep ROOT discord.js@14.24.2 OK for: magentasecurity@1.0.0 want: ^14.11.0
+27 silly placeDep ROOT dotenv@16.6.1 OK for: magentasecurity@1.0.0 want: ^16.3.0
+28 silly placeDep ROOT node-fetch@3.3.2 OK for: magentasecurity@1.0.0 want: ^3.3.1
+29 silly fetch manifest tslib@^2.6.3
+30 silly packumentCache full:https://registry.npmjs.org/tslib cache-miss
+31 silly fetch manifest undici@6.21.3
+32 silly packumentCache full:https://registry.npmjs.org/undici cache-miss
+33 silly fetch manifest @discordjs/ws@^1.2.3
+34 silly packumentCache full:https://registry.npmjs.org/@discordjs%2fws cache-miss
+35 silly fetch manifest magic-bytes.js@^1.10.0
+36 silly packumentCache full:https://registry.npmjs.org/magic-bytes.js cache-miss
+37 silly fetch manifest @discordjs/rest@^2.6.0
+38 silly packumentCache full:https://registry.npmjs.org/@discordjs%2frest cache-miss
+39 silly fetch manifest @discordjs/util@^1.1.1
+40 silly packumentCache full:https://registry.npmjs.org/@discordjs%2futil cache-miss
+41 silly fetch manifest fast-deep-equal@3.1.3
+42 silly packumentCache full:https://registry.npmjs.org/fast-deep-equal cache-miss
+43 silly fetch manifest lodash.snakecase@4.1.1
+44 silly packumentCache full:https://registry.npmjs.org/lodash.snakecase cache-miss
+45 silly fetch manifest discord-api-types@^0.38.31
+46 silly packumentCache full:https://registry.npmjs.org/discord-api-types cache-miss
+47 silly fetch manifest @discordjs/builders@^1.13.0
+48 silly packumentCache full:https://registry.npmjs.org/@discordjs%2fbuilders cache-miss
+49 silly fetch manifest @sapphire/snowflake@3.5.3
+50 silly packumentCache full:https://registry.npmjs.org/@sapphire%2fsnowflake cache-miss
+51 silly fetch manifest @discordjs/collection@1.5.3
+52 silly packumentCache full:https://registry.npmjs.org/@discordjs%2fcollection cache-miss
+53 silly fetch manifest @discordjs/formatters@^0.6.1
+54 silly packumentCache full:https://registry.npmjs.org/@discordjs%2fformatters cache-miss
+55 silly fetch manifest data-uri-to-buffer@^4.0.0
+56 silly packumentCache full:https://registry.npmjs.org/data-uri-to-buffer cache-miss
+57 silly fetch manifest fetch-blob@^3.1.4
+58 silly packumentCache full:https://registry.npmjs.org/fetch-blob cache-miss
+59 http fetch GET 200 https://registry.npmjs.org/tslib 40ms (cache miss)
+60 silly packumentCache full:https://registry.npmjs.org/tslib set size:undefined disposed:false
+61 silly fetch manifest formdata-polyfill@^4.0.10
+62 silly packumentCache full:https://registry.npmjs.org/formdata-polyfill cache-miss
+63 http fetch GET 200 https://registry.npmjs.org/lodash.snakecase 48ms (cache miss)
+64 silly packumentCache full:https://registry.npmjs.org/lodash.snakecase set size:undefined disposed:false
+65 http fetch GET 200 https://registry.npmjs.org/magic-bytes.js 360ms (cache miss)
+66 silly packumentCache full:https://registry.npmjs.org/magic-bytes.js set size:undefined disposed:false
+67 http fetch GET 200 https://registry.npmjs.org/formdata-polyfill 354ms (cache miss)
+68 silly packumentCache full:https://registry.npmjs.org/formdata-polyfill set size:undefined disposed:false
+69 http fetch GET 200 https://registry.npmjs.org/data-uri-to-buffer 399ms (cache miss)
+70 silly packumentCache full:https://registry.npmjs.org/data-uri-to-buffer set size:undefined disposed:false
+71 http fetch GET 200 https://registry.npmjs.org/fast-deep-equal 479ms (cache miss)
+72 silly packumentCache full:https://registry.npmjs.org/fast-deep-equal set size:undefined disposed:false
+73 http fetch GET 200 https://registry.npmjs.org/fetch-blob 578ms (cache miss)
+74 silly packumentCache full:https://registry.npmjs.org/fetch-blob set size:undefined disposed:false
+75 http fetch GET 200 https://registry.npmjs.org/undici 3645ms (cache miss)
+76 silly packumentCache full:https://registry.npmjs.org/undici set size:undefined disposed:false
+77 http fetch GET 200 https://registry.npmjs.org/@sapphire%2fsnowflake 8210ms (cache miss)
+78 silly packumentCache full:https://registry.npmjs.org/@sapphire%2fsnowflake set size:undefined disposed:false
+79 http fetch GET 200 https://registry.npmjs.org/@discordjs%2fformatters 9825ms (cache miss)
+80 silly packumentCache full:https://registry.npmjs.org/@discordjs%2fformatters set size:undefined disposed:false
+81 http fetch GET 200 https://registry.npmjs.org/@discordjs%2futil 10659ms (cache miss)
+82 silly packumentCache full:https://registry.npmjs.org/@discordjs%2futil set size:undefined disposed:false
+83 http fetch GET 200 https://registry.npmjs.org/@discordjs%2fws 12590ms (cache miss)
+84 silly packumentCache full:https://registry.npmjs.org/@discordjs%2fws set size:undefined disposed:false
+85 http fetch GET 200 https://registry.npmjs.org/@discordjs%2fcollection 12635ms (cache miss)
+86 silly packumentCache full:https://registry.npmjs.org/@discordjs%2fcollection set size:undefined disposed:false
+87 http fetch GET 200 https://registry.npmjs.org/@discordjs%2frest 12900ms (cache miss)
+88 silly packumentCache full:https://registry.npmjs.org/@discordjs%2frest set size:undefined disposed:false
+89 http fetch GET 200 https://registry.npmjs.org/@discordjs%2fbuilders 12934ms (cache miss)
+90 silly packumentCache full:https://registry.npmjs.org/@discordjs%2fbuilders set size:undefined disposed:false
+91 http fetch GET 200 https://registry.npmjs.org/discord-api-types 13402ms (cache miss)
+92 silly packumentCache full:https://registry.npmjs.org/discord-api-types set size:undefined disposed:false
+93 silly placeDep ROOT @discordjs/builders@1.13.0 OK for: discord.js@14.24.2 want: ^1.13.0
+94 silly placeDep ROOT @discordjs/collection@1.5.3 OK for: discord.js@14.24.2 want: 1.5.3
+95 silly placeDep ROOT @discordjs/formatters@0.6.1 OK for: discord.js@14.24.2 want: ^0.6.1
+96 silly placeDep ROOT @discordjs/rest@2.6.0 OK for: discord.js@14.24.2 want: ^2.6.0
+97 silly placeDep ROOT @discordjs/util@1.1.1 OK for: discord.js@14.24.2 want: ^1.1.1
+98 silly placeDep ROOT @discordjs/ws@1.2.3 OK for: discord.js@14.24.2 want: ^1.2.3
+99 silly placeDep ROOT @sapphire/snowflake@3.5.3 OK for: discord.js@14.24.2 want: 3.5.3
+100 silly placeDep ROOT discord-api-types@0.38.31 OK for: discord.js@14.24.2 want: ^0.38.31
+101 silly placeDep ROOT fast-deep-equal@3.1.3 OK for: discord.js@14.24.2 want: 3.1.3
+102 silly placeDep ROOT lodash.snakecase@4.1.1 OK for: discord.js@14.24.2 want: 4.1.1
+103 silly placeDep ROOT magic-bytes.js@1.12.1 OK for: discord.js@14.24.2 want: ^1.10.0
+104 silly placeDep ROOT tslib@2.8.1 OK for: discord.js@14.24.2 want: ^2.6.3
+105 silly placeDep ROOT undici@6.21.3 OK for: discord.js@14.24.2 want: 6.21.3
+106 silly fetch manifest ts-mixer@^6.0.4
+107 silly packumentCache full:https://registry.npmjs.org/ts-mixer cache-miss
+108 silly fetch manifest fast-deep-equal@^3.1.3
+109 silly packumentCache full:https://registry.npmjs.org/fast-deep-equal cache-miss
+110 silly fetch manifest @sapphire/shapeshift@^4.0.0
+111 silly packumentCache full:https://registry.npmjs.org/@sapphire%2fshapeshift cache-miss
+112 silly fetch manifest discord-api-types@^0.38.1
+113 silly packumentCache full:https://registry.npmjs.org/discord-api-types cache-miss
+114 silly fetch manifest discord-api-types@^0.38.16
+115 silly packumentCache full:https://registry.npmjs.org/discord-api-types cache-miss
+116 silly fetch manifest @sapphire/snowflake@^3.5.3
+117 silly packumentCache full:https://registry.npmjs.org/@sapphire%2fsnowflake cache-miss
+118 silly fetch manifest @discordjs/collection@^2.1.1
+119 silly packumentCache full:https://registry.npmjs.org/@discordjs%2fcollection cache-miss
+120 silly fetch manifest @sapphire/async-queue@^1.5.3
+121 silly packumentCache full:https://registry.npmjs.org/@sapphire%2fasync-queue cache-miss
+122 silly fetch manifest @vladfrangu/async_event_emitter@^2.4.6
+123 silly packumentCache full:https://registry.npmjs.org/@vladfrangu%2fasync_event_emitter cache-miss
+124 silly fetch manifest ws@^8.17.0
+125 silly packumentCache full:https://registry.npmjs.org/ws cache-miss
+126 silly fetch manifest tslib@^2.6.2
+127 silly packumentCache full:https://registry.npmjs.org/tslib cache-miss
+128 silly fetch manifest @types/ws@^8.5.10
+129 silly packumentCache full:https://registry.npmjs.org/@types%2fws cache-miss
+130 silly fetch manifest discord-api-types@^0.38.1
+131 silly packumentCache full:https://registry.npmjs.org/discord-api-types cache-miss
+132 silly fetch manifest @discordjs/collection@^2.1.0
+133 silly packumentCache full:https://registry.npmjs.org/@discordjs%2fcollection cache-miss
+134 silly fetch manifest @sapphire/async-queue@^1.5.2
+135 silly packumentCache full:https://registry.npmjs.org/@sapphire%2fasync-queue cache-miss
+136 http cache https://registry.npmjs.org/@discordjs%2fcollection 19ms (cache hit)
+137 silly packumentCache full:https://registry.npmjs.org/@discordjs%2fcollection set size:5309515 disposed:false
+138 silly fetch manifest @vladfrangu/async_event_emitter@^2.2.4
+139 silly packumentCache full:https://registry.npmjs.org/@vladfrangu%2fasync_event_emitter cache-miss
+140 http cache https://registry.npmjs.org/fast-deep-equal 47ms (cache hit)
+141 silly packumentCache full:https://registry.npmjs.org/fast-deep-equal set size:48634 disposed:false
+142 http cache https://registry.npmjs.org/discord-api-types 53ms (cache hit)
+143 silly packumentCache full:https://registry.npmjs.org/discord-api-types set size:7551533 disposed:false
+144 http cache https://registry.npmjs.org/discord-api-types 83ms (cache hit)
+145 silly packumentCache full:https://registry.npmjs.org/discord-api-types set size:7551533 disposed:false
+146 http cache https://registry.npmjs.org/discord-api-types 115ms (cache hit)
+147 silly packumentCache full:https://registry.npmjs.org/discord-api-types set size:7551533 disposed:false
+148 http cache https://registry.npmjs.org/tslib 134ms (cache hit)
+149 silly packumentCache full:https://registry.npmjs.org/tslib set size:108760 disposed:false
+150 http cache https://registry.npmjs.org/@sapphire%2fsnowflake 138ms (cache hit)
+151 silly packumentCache full:https://registry.npmjs.org/@sapphire%2fsnowflake set size:2969070 disposed:false
+152 http cache https://registry.npmjs.org/@discordjs%2fcollection 148ms (cache hit)
+153 silly packumentCache full:https://registry.npmjs.org/@discordjs%2fcollection set size:5309515 disposed:false
+154 http fetch GET 200 https://registry.npmjs.org/@types%2fws 371ms (cache miss)
+155 silly packumentCache full:https://registry.npmjs.org/@types%2fws set size:undefined disposed:false
+156 http fetch GET 200 https://registry.npmjs.org/@vladfrangu%2fasync_event_emitter 496ms (cache miss)
+157 silly packumentCache full:https://registry.npmjs.org/@vladfrangu%2fasync_event_emitter set size:undefined disposed:false
+158 http fetch GET 200 https://registry.npmjs.org/ts-mixer 686ms (cache miss)
+159 silly packumentCache full:https://registry.npmjs.org/ts-mixer set size:undefined disposed:false
+160 http fetch GET 200 https://registry.npmjs.org/@vladfrangu%2fasync_event_emitter 666ms (cache miss)
+161 silly packumentCache full:https://registry.npmjs.org/@vladfrangu%2fasync_event_emitter set size:undefined disposed:false
+162 http fetch GET 200 https://registry.npmjs.org/ws 724ms (cache miss)
+163 silly packumentCache full:https://registry.npmjs.org/ws set size:undefined disposed:false
+164 http fetch GET 200 https://registry.npmjs.org/@sapphire%2fshapeshift 2572ms (cache miss)
+165 silly packumentCache full:https://registry.npmjs.org/@sapphire%2fshapeshift set size:undefined disposed:false
+166 http fetch GET 200 https://registry.npmjs.org/@sapphire%2fasync-queue 2857ms (cache miss)
+167 silly packumentCache full:https://registry.npmjs.org/@sapphire%2fasync-queue set size:undefined disposed:false
+168 http fetch GET 200 https://registry.npmjs.org/@sapphire%2fasync-queue 2867ms (cache miss)
+169 silly packumentCache full:https://registry.npmjs.org/@sapphire%2fasync-queue set size:undefined disposed:false
+170 silly placeDep ROOT @sapphire/shapeshift@4.0.0 OK for: @discordjs/builders@1.13.0 want: ^4.0.0
+171 silly placeDep ROOT ts-mixer@6.0.4 OK for: @discordjs/builders@1.13.0 want: ^6.0.4
+172 silly fetch manifest lodash@^4.17.21
+173 silly packumentCache full:https://registry.npmjs.org/lodash cache-miss
+174 http fetch GET 200 https://registry.npmjs.org/lodash 67ms (cache miss)
+175 silly packumentCache full:https://registry.npmjs.org/lodash set size:undefined disposed:false
+176 silly placeDep node_modules/@discordjs/rest @discordjs/collection@2.1.1 OK for: @discordjs/rest@2.6.0 want: ^2.1.1
+177 silly placeDep ROOT @sapphire/async-queue@1.5.5 OK for: @discordjs/rest@2.6.0 want: ^1.5.3
+178 silly placeDep ROOT @vladfrangu/async_event_emitter@2.4.7 OK for: @discordjs/rest@2.6.0 want: ^2.4.6
+179 silly fetch manifest bufferutil@^4.0.1
+180 silly packumentCache full:https://registry.npmjs.org/bufferutil cache-miss
+181 http fetch GET 200 https://registry.npmjs.org/bufferutil 25ms (cache miss)
+182 silly packumentCache full:https://registry.npmjs.org/bufferutil set size:undefined disposed:false
+183 silly fetch manifest utf-8-validate@>=5.0.2
+184 silly packumentCache full:https://registry.npmjs.org/utf-8-validate cache-miss
+185 http fetch GET 200 https://registry.npmjs.org/utf-8-validate 29ms (cache miss)
+186 silly packumentCache full:https://registry.npmjs.org/utf-8-validate set size:undefined disposed:false
+187 silly placeDep node_modules/@discordjs/ws @discordjs/collection@2.1.1 OK for: @discordjs/ws@1.2.3 want: ^2.1.0
+188 silly placeDep ROOT @types/ws@8.18.1 OK for: @discordjs/ws@1.2.3 want: ^8.5.10
+189 silly placeDep ROOT ws@8.18.3 OK for: @discordjs/ws@1.2.3 want: ^8.17.0
+190 silly fetch manifest @types/node@*
+191 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+192 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 3377ms (cache miss)
+193 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:undefined disposed:false
+194 silly placeDep ROOT lodash@4.17.21 OK for: @sapphire/shapeshift@4.0.0 want: ^4.17.21
+195 silly placeDep ROOT @types/node@24.9.2 OK for: @types/ws@8.18.1 want: *
+196 silly fetch manifest undici-types@~7.16.0
+197 silly packumentCache full:https://registry.npmjs.org/undici-types cache-miss
+198 http fetch GET 200 https://registry.npmjs.org/undici-types 49ms (cache miss)
+199 silly packumentCache full:https://registry.npmjs.org/undici-types set size:undefined disposed:false
+200 silly placeDep ROOT undici-types@7.16.0 OK for: @types/node@24.9.2 want: ~7.16.0
+201 silly placeDep ROOT data-uri-to-buffer@4.0.1 OK for: node-fetch@3.3.2 want: ^4.0.0
+202 silly placeDep ROOT fetch-blob@3.2.0 OK for: node-fetch@3.3.2 want: ^3.1.4
+203 silly placeDep ROOT formdata-polyfill@4.0.10 OK for: node-fetch@3.3.2 want: ^4.0.10
+204 silly fetch manifest node-domexception@^1.0.0
+205 silly packumentCache full:https://registry.npmjs.org/node-domexception cache-miss
+206 silly fetch manifest web-streams-polyfill@^3.0.3
+207 silly packumentCache full:https://registry.npmjs.org/web-streams-polyfill cache-miss
+208 http fetch GET 200 https://registry.npmjs.org/web-streams-polyfill 32ms (cache miss)
+209 silly packumentCache full:https://registry.npmjs.org/web-streams-polyfill set size:undefined disposed:false
+210 http fetch GET 200 https://registry.npmjs.org/node-domexception 64ms (cache miss)
+211 silly packumentCache full:https://registry.npmjs.org/node-domexception set size:undefined disposed:false
+212 silly placeDep ROOT node-domexception@1.0.0 OK for: fetch-blob@3.2.0 want: ^1.0.0
+213 silly placeDep ROOT web-streams-polyfill@3.3.3 OK for: fetch-blob@3.2.0 want: ^3.0.3
+214 silly reify moves {}
+215 silly audit bulk request {
+215 silly audit   'discord.js': [ '14.24.2' ],
+215 silly audit   dotenv: [ '16.6.1' ],
+215 silly audit   'node-fetch': [ '3.3.2' ],
+215 silly audit   '@discordjs/builders': [ '1.13.0' ],
+215 silly audit   '@discordjs/collection': [ '1.5.3', '2.1.1' ],
+215 silly audit   '@discordjs/formatters': [ '0.6.1' ],
+215 silly audit   '@discordjs/rest': [ '2.6.0' ],
+215 silly audit   '@discordjs/util': [ '1.1.1' ],
+215 silly audit   '@discordjs/ws': [ '1.2.3' ],
+215 silly audit   '@sapphire/snowflake': [ '3.5.3' ],
+215 silly audit   'discord-api-types': [ '0.38.31' ],
+215 silly audit   'fast-deep-equal': [ '3.1.3' ],
+215 silly audit   'lodash.snakecase': [ '4.1.1' ],
+215 silly audit   'magic-bytes.js': [ '1.12.1' ],
+215 silly audit   tslib: [ '2.8.1' ],
+215 silly audit   undici: [ '6.21.3' ],
+215 silly audit   '@sapphire/shapeshift': [ '4.0.0' ],
+215 silly audit   'ts-mixer': [ '6.0.4' ],
+215 silly audit   '@sapphire/async-queue': [ '1.5.5' ],
+215 silly audit   '@vladfrangu/async_event_emitter': [ '2.4.7' ],
+215 silly audit   '@types/ws': [ '8.18.1' ],
+215 silly audit   ws: [ '8.18.3' ],
+215 silly audit   lodash: [ '4.17.21' ],
+215 silly audit   '@types/node': [ '24.9.2' ],
+215 silly audit   'undici-types': [ '7.16.0' ],
+215 silly audit   'data-uri-to-buffer': [ '4.0.1' ],
+215 silly audit   'fetch-blob': [ '3.2.0' ],
+215 silly audit   'formdata-polyfill': [ '4.0.10' ],
+215 silly audit   'node-domexception': [ '1.0.0' ],
+215 silly audit   'web-streams-polyfill': [ '3.3.3' ]
+215 silly audit }
+216 http cache web-streams-polyfill@https://registry.npmjs.org/web-streams-polyfill/-/web-streams-polyfill-3.3.3.tgz 0ms (cache hit)
+217 http cache node-domexception@https://registry.npmjs.org/node-domexception/-/node-domexception-1.0.0.tgz 0ms (cache hit)
+218 http cache formdata-polyfill@https://registry.npmjs.org/formdata-polyfill/-/formdata-polyfill-4.0.10.tgz 0ms (cache hit)
+219 http cache fetch-blob@https://registry.npmjs.org/fetch-blob/-/fetch-blob-3.2.0.tgz 0ms (cache hit)
+220 http cache data-uri-to-buffer@https://registry.npmjs.org/data-uri-to-buffer/-/data-uri-to-buffer-4.0.1.tgz 0ms (cache hit)
+221 http cache undici-types@https://registry.npmjs.org/undici-types/-/undici-types-7.16.0.tgz 0ms (cache hit)
+222 http cache @types/node@https://registry.npmjs.org/@types/node/-/node-24.9.2.tgz 0ms (cache hit)
+223 http cache lodash@https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz 0ms (cache hit)
+224 http cache ws@https://registry.npmjs.org/ws/-/ws-8.18.3.tgz 0ms (cache hit)
+225 http cache @types/ws@https://registry.npmjs.org/@types/ws/-/ws-8.18.1.tgz 0ms (cache hit)
+226 http cache @vladfrangu/async_event_emitter@https://registry.npmjs.org/@vladfrangu/async_event_emitter/-/async_event_emitter-2.4.7.tgz 0ms (cache hit)
+227 http cache @sapphire/async-queue@https://registry.npmjs.org/@sapphire/async-queue/-/async-queue-1.5.5.tgz 0ms (cache hit)
+228 http cache ts-mixer@https://registry.npmjs.org/ts-mixer/-/ts-mixer-6.0.4.tgz 0ms (cache hit)
+229 http cache @sapphire/shapeshift@https://registry.npmjs.org/@sapphire/shapeshift/-/shapeshift-4.0.0.tgz 0ms (cache hit)
+230 http cache undici@https://registry.npmjs.org/undici/-/undici-6.21.3.tgz 0ms (cache hit)
+231 http cache tslib@https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 0ms (cache hit)
+232 http cache magic-bytes.js@https://registry.npmjs.org/magic-bytes.js/-/magic-bytes.js-1.12.1.tgz 0ms (cache hit)
+233 http cache lodash.snakecase@https://registry.npmjs.org/lodash.snakecase/-/lodash.snakecase-4.1.1.tgz 0ms (cache hit)
+234 http cache fast-deep-equal@https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz 0ms (cache hit)
+235 http cache discord-api-types@https://registry.npmjs.org/discord-api-types/-/discord-api-types-0.38.31.tgz 0ms (cache hit)
+236 http cache @sapphire/snowflake@https://registry.npmjs.org/@sapphire/snowflake/-/snowflake-3.5.3.tgz 0ms (cache hit)
+237 http cache @discordjs/ws@https://registry.npmjs.org/@discordjs/ws/-/ws-1.2.3.tgz 0ms (cache hit)
+238 http cache @discordjs/util@https://registry.npmjs.org/@discordjs/util/-/util-1.1.1.tgz 0ms (cache hit)
+239 http cache @discordjs/rest@https://registry.npmjs.org/@discordjs/rest/-/rest-2.6.0.tgz 0ms (cache hit)
+240 http cache @discordjs/formatters@https://registry.npmjs.org/@discordjs/formatters/-/formatters-0.6.1.tgz 0ms (cache hit)
+241 http cache @discordjs/collection@https://registry.npmjs.org/@discordjs/collection/-/collection-1.5.3.tgz 0ms (cache hit)
+242 http cache @discordjs/builders@https://registry.npmjs.org/@discordjs/builders/-/builders-1.13.0.tgz 0ms (cache hit)
+243 http cache node-fetch@https://registry.npmjs.org/node-fetch/-/node-fetch-3.3.2.tgz 0ms (cache hit)
+244 http cache dotenv@https://registry.npmjs.org/dotenv/-/dotenv-16.6.1.tgz 0ms (cache hit)
+245 http cache discord.js@https://registry.npmjs.org/discord.js/-/discord.js-14.24.2.tgz 0ms (cache hit)
+246 http cache @discordjs/collection@https://registry.npmjs.org/@discordjs/collection/-/collection-2.1.1.tgz 0ms (cache hit)
+247 http cache @discordjs/collection@https://registry.npmjs.org/@discordjs/collection/-/collection-2.1.1.tgz 0ms (cache hit)
+248 silly tarball no local data for web-streams-polyfill@https://registry.npmjs.org/web-streams-polyfill/-/web-streams-polyfill-3.3.3.tgz. Extracting by manifest.
+249 silly tarball no local data for node-domexception@https://registry.npmjs.org/node-domexception/-/node-domexception-1.0.0.tgz. Extracting by manifest.
+250 silly tarball no local data for formdata-polyfill@https://registry.npmjs.org/formdata-polyfill/-/formdata-polyfill-4.0.10.tgz. Extracting by manifest.
+251 silly tarball no local data for fetch-blob@https://registry.npmjs.org/fetch-blob/-/fetch-blob-3.2.0.tgz. Extracting by manifest.
+252 silly tarball no local data for data-uri-to-buffer@https://registry.npmjs.org/data-uri-to-buffer/-/data-uri-to-buffer-4.0.1.tgz. Extracting by manifest.
+253 silly tarball no local data for undici-types@https://registry.npmjs.org/undici-types/-/undici-types-7.16.0.tgz. Extracting by manifest.
+254 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-24.9.2.tgz. Extracting by manifest.
+255 silly tarball no local data for lodash@https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz. Extracting by manifest.
+256 silly tarball no local data for ws@https://registry.npmjs.org/ws/-/ws-8.18.3.tgz. Extracting by manifest.
+257 silly tarball no local data for @types/ws@https://registry.npmjs.org/@types/ws/-/ws-8.18.1.tgz. Extracting by manifest.
+258 silly tarball no local data for @vladfrangu/async_event_emitter@https://registry.npmjs.org/@vladfrangu/async_event_emitter/-/async_event_emitter-2.4.7.tgz. Extracting by manifest.
+259 silly tarball no local data for @sapphire/async-queue@https://registry.npmjs.org/@sapphire/async-queue/-/async-queue-1.5.5.tgz. Extracting by manifest.
+260 silly tarball no local data for ts-mixer@https://registry.npmjs.org/ts-mixer/-/ts-mixer-6.0.4.tgz. Extracting by manifest.
+261 silly tarball no local data for @sapphire/shapeshift@https://registry.npmjs.org/@sapphire/shapeshift/-/shapeshift-4.0.0.tgz. Extracting by manifest.
+262 silly tarball no local data for undici@https://registry.npmjs.org/undici/-/undici-6.21.3.tgz. Extracting by manifest.
+263 silly tarball no local data for tslib@https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz. Extracting by manifest.
+264 silly tarball no local data for magic-bytes.js@https://registry.npmjs.org/magic-bytes.js/-/magic-bytes.js-1.12.1.tgz. Extracting by manifest.
+265 silly tarball no local data for lodash.snakecase@https://registry.npmjs.org/lodash.snakecase/-/lodash.snakecase-4.1.1.tgz. Extracting by manifest.
+266 silly tarball no local data for fast-deep-equal@https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz. Extracting by manifest.
+267 silly tarball no local data for discord-api-types@https://registry.npmjs.org/discord-api-types/-/discord-api-types-0.38.31.tgz. Extracting by manifest.
+268 silly tarball no local data for @sapphire/snowflake@https://registry.npmjs.org/@sapphire/snowflake/-/snowflake-3.5.3.tgz. Extracting by manifest.
+269 silly tarball no local data for @discordjs/ws@https://registry.npmjs.org/@discordjs/ws/-/ws-1.2.3.tgz. Extracting by manifest.
+270 silly tarball no local data for @discordjs/util@https://registry.npmjs.org/@discordjs/util/-/util-1.1.1.tgz. Extracting by manifest.
+271 silly tarball no local data for @discordjs/rest@https://registry.npmjs.org/@discordjs/rest/-/rest-2.6.0.tgz. Extracting by manifest.
+272 silly tarball no local data for @discordjs/formatters@https://registry.npmjs.org/@discordjs/formatters/-/formatters-0.6.1.tgz. Extracting by manifest.
+273 silly tarball no local data for @discordjs/collection@https://registry.npmjs.org/@discordjs/collection/-/collection-1.5.3.tgz. Extracting by manifest.
+274 silly tarball no local data for @discordjs/builders@https://registry.npmjs.org/@discordjs/builders/-/builders-1.13.0.tgz. Extracting by manifest.
+275 silly tarball no local data for node-fetch@https://registry.npmjs.org/node-fetch/-/node-fetch-3.3.2.tgz. Extracting by manifest.
+276 silly tarball no local data for dotenv@https://registry.npmjs.org/dotenv/-/dotenv-16.6.1.tgz. Extracting by manifest.
+277 silly tarball no local data for discord.js@https://registry.npmjs.org/discord.js/-/discord.js-14.24.2.tgz. Extracting by manifest.
+278 silly tarball no local data for @discordjs/collection@https://registry.npmjs.org/@discordjs/collection/-/collection-2.1.1.tgz. Extracting by manifest.
+279 silly tarball no local data for @discordjs/collection@https://registry.npmjs.org/@discordjs/collection/-/collection-2.1.1.tgz. Extracting by manifest.
+280 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 185ms
+281 silly audit report {}
+282 http fetch GET 200 https://registry.npmjs.org/formdata-polyfill/-/formdata-polyfill-4.0.10.tgz 702ms (cache miss)
+283 http fetch GET 200 https://registry.npmjs.org/fetch-blob/-/fetch-blob-3.2.0.tgz 761ms (cache miss)
+284 http fetch GET 200 https://registry.npmjs.org/data-uri-to-buffer/-/data-uri-to-buffer-4.0.1.tgz 818ms (cache miss)
+285 http fetch GET 200 https://registry.npmjs.org/@types/ws/-/ws-8.18.1.tgz 998ms (cache miss)
+286 http fetch GET 200 https://registry.npmjs.org/magic-bytes.js/-/magic-bytes.js-1.12.1.tgz 1110ms (cache miss)
+287 http fetch GET 200 https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz 1226ms (cache miss)
+288 http fetch GET 200 https://registry.npmjs.org/@sapphire/async-queue/-/async-queue-1.5.5.tgz 1260ms (cache miss)
+289 http fetch GET 200 https://registry.npmjs.org/lodash.snakecase/-/lodash.snakecase-4.1.1.tgz 1278ms (cache miss)
+290 http fetch GET 200 https://registry.npmjs.org/@discordjs/util/-/util-1.1.1.tgz 1335ms (cache miss)
+291 http fetch GET 200 https://registry.npmjs.org/dotenv/-/dotenv-16.6.1.tgz 1514ms (cache miss)
+292 http fetch GET 200 https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz 1564ms (cache miss)
+293 http fetch GET 200 https://registry.npmjs.org/ws/-/ws-8.18.3.tgz 1763ms (cache miss)
+294 http fetch GET 200 https://registry.npmjs.org/@discordjs/formatters/-/formatters-0.6.1.tgz 1868ms (cache miss)
+295 http fetch GET 200 https://registry.npmjs.org/@discordjs/collection/-/collection-2.1.1.tgz 1915ms (cache miss)
+296 http fetch GET 200 https://registry.npmjs.org/@discordjs/collection/-/collection-2.1.1.tgz 1925ms (cache miss)
+297 http fetch GET 200 https://registry.npmjs.org/@sapphire/snowflake/-/snowflake-3.5.3.tgz 1960ms (cache miss)
+298 http fetch GET 200 https://registry.npmjs.org/@discordjs/collection/-/collection-1.5.3.tgz 2065ms (cache miss)
+299 http fetch GET 200 https://registry.npmjs.org/node-domexception/-/node-domexception-1.0.0.tgz 2208ms (cache miss)
+300 http fetch GET 200 https://registry.npmjs.org/node-fetch/-/node-fetch-3.3.2.tgz 2226ms (cache miss)
+301 warn deprecated node-domexception@1.0.0: Use your platform's native DOMException instead
+302 http fetch GET 200 https://registry.npmjs.org/ts-mixer/-/ts-mixer-6.0.4.tgz 2337ms (cache miss)
+303 http fetch GET 200 https://registry.npmjs.org/undici-types/-/undici-types-7.16.0.tgz 2571ms (cache miss)
+304 http fetch GET 200 https://registry.npmjs.org/@discordjs/ws/-/ws-1.2.3.tgz 3390ms (cache miss)
+305 http fetch GET 200 https://registry.npmjs.org/@discordjs/rest/-/rest-2.6.0.tgz 3968ms (cache miss)
+306 http fetch GET 200 https://registry.npmjs.org/@discordjs/builders/-/builders-1.13.0.tgz 4049ms (cache miss)
+307 http fetch GET 200 https://registry.npmjs.org/@vladfrangu/async_event_emitter/-/async_event_emitter-2.4.7.tgz 4272ms (cache miss)
+308 http fetch GET 200 https://registry.npmjs.org/@sapphire/shapeshift/-/shapeshift-4.0.0.tgz 4815ms (cache miss)
+309 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-24.9.2.tgz 6927ms (cache miss)
+310 http fetch GET 200 https://registry.npmjs.org/undici/-/undici-6.21.3.tgz 7684ms (cache miss)
+311 http fetch GET 200 https://registry.npmjs.org/discord.js/-/discord.js-14.24.2.tgz 9744ms (cache miss)
+312 http fetch GET 200 https://registry.npmjs.org/web-streams-polyfill/-/web-streams-polyfill-3.3.3.tgz 12133ms (cache miss)
+313 http fetch GET 200 https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz 12436ms (cache miss)
+314 http fetch GET 200 https://registry.npmjs.org/discord-api-types/-/discord-api-types-0.38.31.tgz 12945ms (cache miss)
+315 silly ADD node_modules/web-streams-polyfill
+316 silly ADD node_modules/node-domexception
+317 silly ADD node_modules/formdata-polyfill
+318 silly ADD node_modules/fetch-blob
+319 silly ADD node_modules/data-uri-to-buffer
+320 silly ADD node_modules/undici-types
+321 silly ADD node_modules/@types/node
+322 silly ADD node_modules/lodash
+323 silly ADD node_modules/ws
+324 silly ADD node_modules/@types/ws
+325 silly ADD node_modules/@vladfrangu/async_event_emitter
+326 silly ADD node_modules/@sapphire/async-queue
+327 silly ADD node_modules/ts-mixer
+328 silly ADD node_modules/@sapphire/shapeshift
+329 silly ADD node_modules/undici
+330 silly ADD node_modules/tslib
+331 silly ADD node_modules/magic-bytes.js
+332 silly ADD node_modules/lodash.snakecase
+333 silly ADD node_modules/fast-deep-equal
+334 silly ADD node_modules/discord-api-types
+335 silly ADD node_modules/@sapphire/snowflake
+336 silly ADD node_modules/@discordjs/ws
+337 silly ADD node_modules/@discordjs/ws/node_modules/@discordjs/collection
+338 silly ADD node_modules/@discordjs/util
+339 silly ADD node_modules/@discordjs/rest
+340 silly ADD node_modules/@discordjs/rest/node_modules/@discordjs/collection
+341 silly ADD node_modules/@discordjs/formatters
+342 silly ADD node_modules/@discordjs/collection
+343 silly ADD node_modules/@discordjs/builders
+344 silly ADD node_modules/node-fetch
+345 silly ADD node_modules/dotenv
+346 silly ADD node_modules/discord.js
+347 verbose cwd /home/magentaw/magentasecurity/discord
+348 verbose os Linux 5.14.0-503.40.1.el9_5.x86_64
+349 verbose node v22.18.0
+350 verbose npm  v10.9.3
+351 verbose exit 0
+352 info ok

@@ -1,0 +1,6 @@
+passwd:$6$2A8v3ljs.6GPem.w$tIwcWJpOJYue/dUfpR1GDgop/VelknvIBgArbE8S7XsEcNv1b/D22YURHh/s4eUFw1pMrxjCzBk1Wg/oW6hLS.
+quota:0
+homedir:/home/magentaw/mail/magentaweb.org/dataprotection
+strength:67
+lastchanged:-1
+perms:rw

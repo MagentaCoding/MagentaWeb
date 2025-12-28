@@ -1,0 +1,120 @@
+Message-ID: <6bd47fef-3369-4708-8d99-9b93bce61a6c@magentaweb.org>
+Date: Tue, 21 Oct 2025 14:38:43 +0200
+MIME-Version: 1.0
+User-Agent: Thunderbird Daily
+To: gdpr@doublecounter.gg
+From: =?UTF-8?Q?MagentaWeb_=E2=80=93_Mailsystem?= <contact@magentaweb.org>
+X-Mozilla-Draft-Info: internal/draft; vcard=0; receipt=0; DSN=0; uuencode=0;
+ attachmentreminder=0; deliveryformat=0
+X-Identity-Key: id4
+Fcc: imap://contact%40magentaweb.org@mail.magentaweb.org/INBOX/Sent
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+    <p>
+    </p>
+    <p>
+      <meta charset="UTF-8">
+      <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+      <title>Lettre de cessation et de conformité RGPD</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com"
+        crossorigin="">
+      <link
+href="https://fonts.googleapis.com/css2?family=Tomorrow&amp;display=swap"
+        rel="stylesheet">
+      <style>
+    body {
+        font-family: 'Tomorrow', sans-serif;
+        background-color: #f9f9f9;
+        color: #222;
+        padding: 20px;
+    }
+    .container {
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        max-width: 700px;
+        margin: auto;
+    }
+    h1 {
+        color: #d32f2f;
+        text-align: center;
+    }
+    p {
+        line-height: 1.6;
+    }
+    .footer {
+        margin-top: 30px;
+        font-size: 0.9em;
+        color: #555;
+        text-align: center;
+    }
+    .highlight {
+        font-weight: bold;
+    }
+</style>
+      <div class="container">
+        <h1>Lettre de cessation / Demande RGPD</h1>
+        <p>Madame, Monsieur de Tellter SAS,</p>
+        <p>Par la présente, je vous demande de cesser immédiatement le
+          traitement illégal de mes données personnelles ainsi que
+          celles des autres utilisateurs concernés de Discord. Le
+          traitement via vos services <span class="highlight">Doogle</span>
+          / <span class="highlight">Double Counter</span> viole
+          plusieurs articles du <span class="highlight">RGPD</span> :</p>
+        <ul>
+          <li><strong>Article 5 (Principes relatifs au traitement)</strong>
+            – traitement sans consentement, absence de transparence et
+            de finalité claire.</li>
+          <li><strong>Article 6 (Licéité du traitement)</strong> –
+            aucune base légale valable pour le traitement des données.</li>
+          <li><strong>Articles 12 &amp; 13 (Informations)</strong> –
+            informations insuffisantes sur le traitement des données.</li>
+          <li><strong>Article 15 (Droit d’accès)</strong> –
+            impossibilité d’obtenir des informations sur les données
+            stockées.</li>
+          <li><strong>Article 17 (Droit à l’effacement)</strong> – refus
+            de suppression des données.</li>
+          <li><strong>Article 25 (Privacy by Design &amp; Default)</strong>
+            – vos systèmes traitent des données sans mon consentement.</li>
+          <li><strong>Article 32 (Sécurité du traitement)</strong> –
+            mesures de protection insuffisantes pour les données
+            personnelles.</li>
+          <li><strong>Articles 44 et suivants (Transfert de données)</strong>
+            – traitement transfrontalier sans information transparente.</li>
+        </ul>
+        <p>Je vous demande donc de supprimer immédiatement mes données
+          personnelles ainsi que celles de tous les utilisateurs
+          concernés et de cesser tout traitement de ces données. Cela
+          inclut, entre autres :</p>
+        <ul>
+          <li>ID utilisateur Discord</li>
+          <li>Adresses IP</li>
+          <li>Liens vers des comptes alternatifs</li>
+        </ul>
+        <p>Délai : <span class="highlight">9 novembre 2025</span></p>
+        <p>Merci de confirmer par écrit la suppression de mes données et
+          l’arrêt du traitement avant la date mentionnée ci-dessus.</p>
+        <p>À défaut, je me verrai contraint de contacter la <span
+            class="highlight">Landesbeauftragte für Datenschutz NRW (LDI
+            NRW)</span> afin de faire respecter le RGPD.</p>
+        <p>Cordialement,<br>
+          Alexander Gal</p>
+        <div class="footer"> Remarque : Ceci est une demande formelle de
+          conformité aux dispositions du RGPD. Toutes les preuves de
+          livraison seront conservées. </div>
+      </div>
+      <br>
+    </p>
+  </body>
+</html>

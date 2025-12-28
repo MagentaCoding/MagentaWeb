@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DSGVO-Verstöße: Tellter SAS / DoubleCounter / Doogle</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tomorrow&display=swap" rel="stylesheet">
+<style>
+    body {
+        font-family: 'Tomorrow', sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+        color: #333;
+    }
+    header {
+        background-color: #0b3d91;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    header h1 {
+        margin: 0;
+        font-size: 2em;
+    }
+    header p {
+        font-size: 0.9em;
+        margin-top: 5px;
+        color: #ccc;
+    }
+    main {
+        max-width: 900px;
+        margin: 40px auto;
+        background-color: white;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0 0 25px rgba(0,0,0,0.1);
+    }
+    h2 {
+        color: #0b3d91;
+        margin-top: 30px;
+    }
+    h3 {
+        color: #0b3d91;
+        margin-top: 20px;
+    }
+    ul {
+        padding-left: 20px;
+    }
+    li {
+        margin-bottom: 10px;
+    }
+    .highlight {
+        color: #d32f2f;
+        font-weight: bold;
+    }
+    .fact-box {
+        background-color: #e0e7ff;
+        padding: 15px;
+        margin: 20px 0;
+        border-left: 5px solid #0b3d91;
+    }
+    .timeline {
+        margin: 20px 0;
+        padding-left: 20px;
+        border-left: 3px solid #0b3d91;
+    }
+    .timeline-item {
+        margin-bottom: 20px;
+        padding-left: 10px;
+    }
+    footer {
+        text-align: center;
+        margin-top: 50px;
+        padding: 20px;
+        font-size: 0.9em;
+        color: #666;
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>DSGVO-Verstöße bei Tellter SAS / DoubleCounter / Doogle</h1>
+    <p>Nachrichten-Style Übersicht von Alexander Gal</p>
+</header>
+
+<main>
+    <h2>Überblick</h2>
+    <p><strong>Tellter SAS</strong>, ein Software- und Investment-Unternehmen mit Sitz in Paris, Frankreich, ist der Mutterkonzern von <strong>DoubleCounter</strong>. Dieses betreibt die Plattformen <strong>Doogle</strong> und <strong>Lens</strong>, die auf Discord eingesetzt werden.</p>
+    <p>Die Plattformen verarbeiten personenbezogene Daten, darunter Discord-IDs, Aktivitätsdaten und Verknüpfungen zu möglichen Alternativaccounts („Alts“). Erste Untersuchungen zeigen, dass die Verarbeitung <strong>systematisch gegen die DSGVO verstößt</strong>.</p>
+
+    <div class="fact-box">
+        <h3>Betroffene Nutzer</h3>
+        <p>Alle Discord-Nutzer sind potenziell betroffen – selbst wenn sie nie Doogle genutzt oder sich bei DoubleCounter angemeldet haben. Die Verarbeitung erfolgt teilweise ohne ausdrückliche Einwilligung oder transparente Information.</p>
+    </div>
+
+    <h2>Hintergrund der Plattformen</h2>
+    <p>Doogle ist ein Tool zur Analyse von Discord-Nutzer-IDs, um mögliche alternative Konten zu identifizieren. Lens erfasst administrative Aktionen wie Bans, Kicks und Mutes, um Moderationsprozesse zu dokumentieren. Beide Plattformen werden von Moderatoren genutzt, um Community-Management effizienter zu gestalten.</p>
+    <p>Laut internen Dokumenten (LIA & DPIA, Mai 2025) sind die Datenverarbeitungen automatisiert, verschlüsselt und sollen nur minimal erfolgen. In der Praxis zeigen Tests jedoch, dass <strong>jeder Nutzer Doogle verwenden kann</strong>, um andere Discord-IDs zu suchen – unabhängig davon, ob diese bereits eine Verbindung zu DoubleCounter haben.</p>
+
+    <h2>DSGVO-Verstöße im Detail</h2>
+    <ul>
+        <li><span class="highlight">Artikel 5</span> – Grundsätze der Verarbeitung verletzt: Datenminimierung, Zweckbindung, Speicherbegrenzung und Integrität nicht eingehalten.</li>
+        <li><span class="highlight">Artikel 6</span> – Keine gültige Rechtsgrundlage: Verarbeitung erfolgt ohne Einwilligung.</li>
+        <li><span class="highlight">Artikel 12–14</span> – Informationspflichten nicht erfüllt: Nutzer werden nicht ausreichend über die Verarbeitung informiert.</li>
+        <li><span class="highlight">Artikel 15 & 17</span> – Auskunfts- und Löschrechte stark eingeschränkt; die Alt-Verknüpfung bleibt auch nach Opt-Out bestehen.</li>
+        <li><span class="highlight">Artikel 21</span> – Widerspruch gegen Verarbeitung nur eingeschränkt möglich, da Opt-Out nur über Discord-Server-Befehle funktioniert.</li>
+        <li><span class="highlight">Artikel 25</span> – Datenanalyse erfolgt ohne Zustimmung der Betroffenen.</li>
+        <li><span class="highlight">Artikel 32</span> – Zugriffsschutz und Datensicherheit unzureichend; kein vollständiges Impressum von Tellter SAS.</li>
+        <li><span class="highlight">Artikel 35 & 36</span> – Datenschutz-Folgenabschätzung nicht vollständig; Risiken für die Nutzer nicht ausreichend adressiert.</li>
+    </ul>
+
+    <h2>Zeitstrahl der Ereignisse</h2>
+    <div class="timeline">
+        <div class="timeline-item">
+            <strong>Mai 2025:</strong> Veröffentlichung der Legitimate Interests Assessment (LIA) und Data Protection Impact Assessment (DPIA) für Doogle und Lens.
+        </div>
+        <div class="timeline-item">
+            <strong>Mai 2025:</strong> Beginn der automatisierten Verarbeitung von Discord-IDs und Moderationsmetadaten.
+        </div>
+        <div class="timeline-item">
+            <strong>Juni 2025:</strong> Erste Tests zeigen, dass jeder Discord-Nutzer Doogle verwenden kann, um andere IDs zu suchen, ohne dass diese Einwilligung erteilt haben.
+        </div>
+        <div class="timeline-item">
+            <strong>Oktober 2025:</strong> Veröffentlichung einer Analyse durch unabhängige Nutzer (Alexander Gal), die die DSGVO-Verstöße dokumentiert.
+        </div>
+    </div>
+
+    <h2>Folgen für die Nutzer</h2>
+    <ul>
+        <li>Verknüpfungen zwischen Accounts werden auch ohne Zustimmung erstellt.</li>
+        <li>Opt-Out nur eingeschränkt möglich, vollständiger Schutz nicht gegeben.</li>
+        <li>Betroffene haben keine volle Kontrolle über ihre Daten.</li>
+        <li>Verarbeitung erfolgt über Ländergrenzen hinweg – insbesondere zwischen Frankreich und Deutschland.</li>
+        <li>Systemische Risiken für die gesamte Discord-Community.</li>
+    </ul>
+
+    <h2>Medienrelevanz und Öffentlichkeit</h2>
+    <p>Die Verstöße betreffen nicht nur einzelne Nutzer, sondern die gesamte Discord-Community. Medienberichte und investigative Berichte könnten die Rechtslage zusätzlich beleuchten, da Opt-Out und Transparenz praktisch nicht existieren. Eine Meldung an Datenschutzbehörden wie CNIL (Frankreich) und LDI (Deutschland) ist bereits vorbereitet.</p>
+
+    <h2>Fazit</h2>
+    <p>Doogle, betrieben von DoubleCounter, das Teil von Tellter SAS ist, zeigt systematische Mängel im Datenschutz. Nutzerrechte werden nicht ausreichend geschützt, Transparenz fehlt, und selbst bestehende Opt-Out-Möglichkeiten bieten keinen vollständigen Schutz. Die Verstöße sind massiv, betreffen die gesamte Discord-Community und sind sowohl juristisch als auch medial relevant.</p>
+
+    <h2>Empfohlene Schritte</h2>
+    <ul>
+        <li>Meldung an CNIL (Frankreich) und LDI (Deutschland) einreichen.</li>
+        <li>Dokumentation aller Verstöße, Screenshots und Testberichte sammeln.</li>
+        <li>Öffentlichkeitsarbeit in Medien und Community-Kanälen zur Sensibilisierung.</li>
+        <li>Überwachung der Reaktionen von DoubleCounter / Doogle und Durchsetzung der Betroffenenrechte.</li>
+    </ul>
+    
+    <h2>Links & Dokumente</h2>
+    <ul>
+        <li><a href="https://files.magentaweb.org/pdf/doogle/LIA%20Doogle%20and%20Lens%20Features.pdf">Legitimate Interests Assessment (LIA) Doogle and Lens Features | Bewertung berechtigter Interessen (LIA) Doogle- und Lens-Funktionen (Englisch)</a></li>
+        <li><a href="https://files.magentaweb.org/pdf/doogle/DPIA%20Doogle%20and%20Lens%20Features.pdf">Data Protection Impact Assessment (DPIA) Doogle and Lens Features | Datenschutz-Folgenabschätzung (DSFA) Doogle- und Lens-Funktionen (Englisch)</a></li>
+        <li><a href="https://docs.doublecounter.gg/double-counter-en/legal">Privacy Policy Operator Doogle | Datenschutzerklärung Betreiber Doogle</a></li>
+    </ul>
+</main>
+
+<footer>
+    &copy; 2025 Alexander Gal – Ausführliche Übersicht der DSGVO-Verstöße bei Tellter SAS / DoubleCounter / Doogle
+</footer>
+</body>
+</html>

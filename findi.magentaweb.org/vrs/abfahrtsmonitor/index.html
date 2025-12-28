@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Service Unavailable / Service nicht verfügbar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap">
+  <style>
+    body {
+      font-family: 'Nova Square', sans-serif;
+      background-color: #000;
+      color: #ff5555;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 100vh;
+      margin: 0;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.5em;
+    }
+    p {
+      font-size: 1.3em;
+      color: #ff9999;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="title">Service Unavailable</h1>
+  <p id="message1">The service <strong>Departure Boards</strong> is currently not available.</p>
+  <p id="message2">Please try again later.</p>
+
+  <script>
+    const lang = navigator.language || navigator.userLanguage;
+    if (lang.startsWith('de')) {
+      document.getElementById('title').textContent = 'Service nicht verfügbar';
+      document.getElementById('message1').innerHTML = 'Der Dienst <strong>Abfahrtmonitore</strong> steht derzeit nicht zur Verfügung.';
+      document.getElementById('message2').textContent = 'Bitte versuchen Sie es später erneut.';
+    }
+    if (lang.startsWith('fr')) {
+      document.getElementById('title').textContent = 'Service indisponible';
+      document.getElementById('message1').innerHTML = "Le service <strong>Moniteurs de départ</strong> n'est actuellement pas disponible."
+      document.getElementById('message2').textContent = 'Veuillez réessayer plus tard.'
+    }
+    if (lang.startsWith('es')) {
+      document.getElementById('title').textContent = 'Servicio no disponible'
+      document.getElementById('message1').innerHTML = 'El servicio <strong>Monitores de salidas</strong> no está disponible en este momento.'
+      document.getElementById('message2').textContent = 'Por favor, inténtelo de nuevo más tarde.'
+    }
+  </script>
+</body>
+</html>

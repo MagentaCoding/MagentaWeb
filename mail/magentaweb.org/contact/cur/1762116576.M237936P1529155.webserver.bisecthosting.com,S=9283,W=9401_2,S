@@ -1,0 +1,118 @@
+Return-Path: <support@magentaweb.zendesk.com>
+Delivered-To: contact@magentaweb.org
+Received: from webserver.bisecthosting.com
+	by webserver.bisecthosting.com with LMTP
+	id RREiDuDDB2lDVRcAufviug
+	(envelope-from <support@magentaweb.zendesk.com>)
+	for <contact@magentaweb.org>; Sun, 02 Nov 2025 15:49:36 -0500
+Return-path: <support@magentaweb.zendesk.com>
+Envelope-to: contact@magentaweb.org
+Delivery-date: Sun, 02 Nov 2025 15:49:36 -0500
+Received: from mta-out5.pod29.euw1.zdsys.com ([188.172.137.50]:58182)
+	by webserver.bisecthosting.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.98.2)
+	(envelope-from <support@magentaweb.zendesk.com>)
+	id 1vFf12-00000006LEi-0o9O
+	for contact@magentaweb.org;
+	Sun, 02 Nov 2025 15:49:36 -0500
+Received: from zendesk.com (unknown [127.0.0.6])
+	by mta-out15.pod29.euw1.zdsys.com (Zendesk) with ESMTP
+	id feb8e76d-64e6-4abf-b53b-a376c9ed8d2b
+	for <contact@magentaweb.org>;
+	Sun, 02 Nov 2025 20:48:51 +0000 (UTC)
+Date: Sun, 02 Nov 2025 20:48:51 +0000
+From: "MagentaWeb (nicht offiziell eingetragen)" <support@magentaweb.zendesk.com>
+To: contact@magentaweb.org
+Message-ID: <6907c3b32518c_8515b030689_sprut@zendesk.com>
+Subject: Zendesk-Passcode zur Verifizierung
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_6907c3b331f72_8515b0307e6";
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+X-Delivery-Context: two_step_verification-31480030044061
+X-Zendesk-Priority-Mail: Two-Step Verification Email
+Auto-Submitted: auto-generated
+X-Auto-Response-Suppress: All
+X-Mailer: Zendesk Mailer
+X-Zendesk-From-Account-Id: 8b85949
+DKIM-Signature:  v=1; a=rsa-sha256; c=relaxed/relaxed; d=zendesk.com;
+ q=dns/txt; s=zendesk2; t=1762116531;
+ bh=EWJ0uP5aeho7kmoOcwna9GkYw43ERKxQ17Iliwxp+YM=;
+ h=date:from:to:message-id:subject:mime-version:content-type:content-transfer-encoding;
+ b=JMgLrb/Z7CkSVoecGJ+wxvD6GBsIXC7YLAcxk8VKD5ymr0rmFNMISYA1ddEVHAnrjT6S2f0uoQnEWJLOv1QlT4WKKQZYbacrDkDTVq15d8B64/nEQPUJiJeqpgXp6xZe+QG38ANdIObBSpk3tpB3oov29ojnAicLe8CnFOGZyPA+tJ/RGa3K9sk5v9eaXuSXhWo8NlAsexBb9T3Z6J8PJksnEtDkPSg3R7ZzGnjxjJQPGxMvJTuJLrEAj1qFiQlrZb02NecDnUWU0A2GEuX6D+wvSXmR5fPfmeDAiv94luRpD+PmJ4NNJx/8kntNYDOWYv03thmB/GscB6v0J4jG3A==
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: =?ISO-8859-1?Q?Spam_detection_software=2C_running_on_the_system_=22webserver=2Ebise?= =?ISO-8859-1?Q?cthosting=2Ecom=22=2C=0A_has_NOT_identified_this_inco?= =?ISO-8859-1?Q?ming_email_as_spam=2E__The_original=0A_message_has_be?= =?ISO-8859-1?Q?en_attached_to_this_so_you_can_view_it_or_label=0A_si?= =?ISO-8859-1?Q?milar_future_email=2E__If_you_have_any_questions=2C_s?= =?ISO-8859-1?Q?ee=0A_root=5C=40localhost_for_details=2E=0A_Content_p?= =?ISO-8859-1?Q?review=3A__Verwenden_Sie_den_Passcode_417695=2C_um_si?= =?ISO-8859-1?Q?ch_bei_Ihrem_magentaweb-Konto=0A____anzumelden=2E_Die?= =?ISO-8859-1?Q?ser_Passcode_l=C3=A4uft_in_5_Minuten_ab_und_kann_nur_?= =?ISO-8859-1?Q?einmal_verwendet=0A____werden=2E_Wenn_Sie_diesen_Pass?= =?ISO-8859-1?Q?code_nicht_angefragt_haben=2C_sollten_Sie_sofort=0A__?= =?ISO-8859-1?Q?__Ihr_Kennwort_=C3=A4ndern=2C_da_m=C3=B6glicherweise_?= =?ISO-8859-1?Q?eine_andere_Per_=5B=2E=2E=2E=5D_=0A_Content_analysis_?= =?ISO-8859-1?Q?details=3A___=280=2E0_points=2C_5=2E0_required=29=0A_?= =?ISO-8859-1?Q?_pts_rule_name______________description=0A_----_-----?= =?ISO-8859-1?Q?-----------------_-----------------------------------?= =?ISO-8859-1?Q?---------------=0A__0=2E0_RCVD=5FIN=5FVALIDITY=5FRPBL?= =?ISO-8859-1?Q?=5FBLOCKED_RBL=3A_ADMINISTRATOR_NOTICE=3A_The_query_t?= =?ISO-8859-1?Q?o=0A______________________________Validity_was_blocke?= =?ISO-8859-1?Q?d=2E__See=0A_____________________________https=3A//kn?= =?ISO-8859-1?Q?owledge=2Evalidity=2Ecom/hc/en-us/articles/2096173068?= =?ISO-8859-1?Q?1243=0A______________________________for_more_informa?= =?ISO-8859-1?Q?tion=2E=0A____________________________=5B188=2E172=2E1?= =?ISO-8859-1?Q?37=2E50_listed_in_bl=2Escore=2Esenderscore=2Ecom=5D=0A?= =?ISO-8859-1?Q?__0=2E0_URIBL=5FDBL=5FBLOCKED=5FOPENDNS_ADMINISTRATOR?= =?ISO-8859-1?Q?_NOTICE=3A_The_query_to=0A___________________________?= =?ISO-8859-1?Q?__dbl=2Espamhaus=2Eorg_was_blocked_due_to_usage_of_an?= =?ISO-8859-1?Q?=0A______________________________open_resolver=2E_See?= =?ISO-8859-1?Q?=0A_____________________________https=3A//www=2Espamh?= =?ISO-8859-1?Q?aus=2Eorg/returnc/pub/=0A____________________________?= =?ISO-8859-1?Q?_=5BURI=3A_zendesk=2Ecom=5D=0A_______________________?= =?ISO-8859-1?Q?______=5BURI=3A_www=2Ezendesk=2Ede=5D=0A__0=2E0_RCVD=5FI?= =?ISO-8859-1?Q?N=5FVALIDITY=5FCERTIFIED=5FBLOCKED_RBL=3A_ADMINISTRAT?= =?ISO-8859-1?Q?OR_NOTICE=3A_The=0A_____________________________query?= =?ISO-8859-1?Q?_to_Validity_was_blocked=2E__See=0A__________________?= =?ISO-8859-1?Q?___________https=3A//knowledge=2Evalidity=2Ecom/hc/en?= =?ISO-8859-1?Q?-us/articles/20961730681243=0A_______________________?= =?ISO-8859-1?Q?_______for_more_information=2E=0A____________________?= =?ISO-8859-1?Q?_____=5B188=2E172=2E137=2E50_listed_in_sa-trusted=2Eb?= =?ISO-8859-1?Q?ondedsender=2Eorg=5D=0A__0=2E0_RCVD=5FIN=5FVALIDITY=5FS?= =?ISO-8859-1?Q?AFE=5FBLOCKED_RBL=3A_ADMINISTRATOR_NOTICE=3A_The_quer?= =?ISO-8859-1?Q?y_to=0A______________________________Validity_was_blo?= =?ISO-8859-1?Q?cked=2E__See=0A_____________________________https=3A/?= =?ISO-8859-1?Q?/knowledge=2Evalidity=2Ecom/hc/en-us/articles/2096173?= =?ISO-8859-1?Q?0681243=0A______________________________for_more_info?= =?ISO-8859-1?Q?rmation=2E=0A_____________________________=5B188=2E17?= =?ISO-8859-1?Q?2=2E137=2E50_listed_in_sa-accredit=2Ehabeas=2Ecom=5D=0A?= =?ISO-8859-1?Q?__0=2E0_RCVD=5FIN=5FZEN=5FBLOCKED=5FOPENDNS_RBL=3A_AD?= =?ISO-8859-1?Q?MINISTRATOR_NOTICE=3A_The_query_to=0A________________?= =?ISO-8859-1?Q?_____________zen=2Espamhaus=2Eorg_was_blocked_due_to_?= =?ISO-8859-1?Q?usage_of_an=0A______________________________open_reso?= =?ISO-8859-1?Q?lver=2E_See=0A_____________________________https=3A//?= =?ISO-8859-1?Q?www=2Espamhaus=2Eorg/returnc/pub/=0A_________________?= =?ISO-8859-1?Q?____________=5B188=2E172=2E137=2E50_listed_in_zen=2Es?= =?ISO-8859-1?Q?pamhaus=2Eorg=5D=0A_-0=2E0_SPF=5FPASS_______________S?= =?ISO-8859-1?Q?PF=3A_sender_matches_SPF_record=0A__0=2E1_DKIM=5FSIGN?= =?ISO-8859-1?Q?ED____________Message_has_a_DKIM_or_DK_signature=2C_n?= =?ISO-8859-1?Q?ot_necessarily_valid=0A_-0=2E1_DKIM=5FVALID__________?= =?ISO-8859-1?Q?___Message_has_at_least_one_valid_DKIM_or_DK_signatur?= =?ISO-8859-1?Q?e=0A__0=2E0_HTML=5FMESSAGE___________BODY=3A_HTML_inc?= =?ISO-8859-1?Q?luded_in_message=0A_-0=2E0_DKIMWL=5FWL=5FHIGH________?= =?ISO-8859-1?Q?_DKIMwl=2Eorg_-_High_trust_sender?=
+X-Spam-Flag: NO
+
+
+----==_mimepart_6907c3b331f72_8515b0307e6
+Content-Type: text/plain;
+ charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Verwenden Sie den Passcode 417695, um sich bei Ihrem magentaweb-Konto anz=
+umelden.
+
+Dieser Passcode l=C3=A4uft in 5 Minuten ab und kann nur einmal verwendet =
+werden. Wenn Sie diesen Passcode nicht angefragt haben, sollten Sie sofor=
+t Ihr Kennwort =C3=A4ndern, da m=C3=B6glicherweise eine andere Person Zug=
+riff auf Ihr Konto erhalten hat.=
+
+----==_mimepart_6907c3b331f72_8515b0307e6
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://ww=
+w.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang=3D'de-x-8'>
+<head>
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+" />
+  <style type=3D"text/css">
+    table td {
+      border-collapse: collapse;
+    }
+    body[dir=3Drtl] .directional_text_wrapper { direction: rtl; unicode-b=
+idi: embed; }
+
+  </style>
+
+          <style type=3D"text/css">
+            @media only screen and (max-width: 768px) {
+              .simplified-email-footer .namecard {
+                display: block;
+                min-width: 100%;
+                padding: 0 0 16px 0; }
+
+              .simplified-email-footer .content {
+                padding: 16px; }
+            }
+          </style>
+        </head>
+<body  style=3D"width: 100%!important; margin: 0; padding: 0;">
+  <div style=3D"padding: 10px; line-height: 1.5; font-family: 'Lucida Gra=
+nde',Verdana,Arial,sans-serif; font-size: 12px; color:#444444;">
+    <div style=3D"color: #b5b5b5;"></div>
+    Verwenden Sie den Passcode 417695, um sich bei Ihrem magentaweb-Konto=
+ anzumelden.<br><br>Dieser Passcode l=C3=A4uft in 5 Minuten ab und kann n=
+ur einmal verwendet werden. Wenn Sie diesen Passcode nicht angefragt habe=
+n, sollten Sie sofort Ihr Kennwort =C3=A4ndern, da m=C3=B6glicherweise ei=
+ne andere Person Zugriff auf Ihr Konto erhalten hat.
+  </div>
+  <div style=3D"padding: 10px; line-height: 1.5; font-family: 'Lucida Gra=
+nde',Verdana,Arial,sans-serif; font-size: 12px; color: #49545c; margin: 1=
+0px 0 14px 0; padding-top: 10px; border-top: 1px solid #eeeeee;">
+    Copyright =C2=A9 Zendesk Bereitgestellt von <a href=3D"https://www.ze=
+ndesk.de/service/?utm_campaign=3Dtext&amp;utm_content=3DMagentaWeb+%28nic=
+ht+offiziell+eingetragen%29&amp;utm_medium=3Dpoweredbyzendesk&amp;utm_sou=
+rce=3Demail-notification" style=3D"color:black;" target=3D"_blank">Zendes=
+k</a>
+  </div>
+</body>
+</html>
+
+----==_mimepart_6907c3b331f72_8515b0307e6--

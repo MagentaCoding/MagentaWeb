@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anleitungs-Rotation</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tomorrow:wght@400&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Tomorrow', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+        }
+
+        h1 {
+            padding: 20px 0;
+            font-weight: 400;
+            color: #333;
+        }
+
+        /* Styling des iFrames, um ihn bildschirmfüllend und zentriert darzustellen */
+        #contentFrame {
+            width: 100%;
+            /* Höhe berechnen, um Header und Footer zu berücksichtigen, hier einfach 100% der verbleibenden Ansicht */
+            flex-grow: 1; 
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <iframe id="contentFrame"></iframe>
+
+    <script>
+        // Array der URLs, die nacheinander geladen werden sollen.
+        const urls = [
+            "https://www.magentaweb.org/screenshare/airplay",
+            "https://www.magentaweb.org/screenshare/miracast",
+            "https://www.magentaweb.org/screenshare/smartview"
+        ];
+        
+        // Die Zeit in Millisekunden für die Anzeige jeder Seite (10 Sekunden).
+        const intervalTime = 10000; 
+        
+        let currentIndex = 0;
+        const iframe = document.getElementById('contentFrame');
+
+        /**
+         * Wechselt zur nächsten URL im Array und aktualisiert das iframe.
+         */
+        function switchUrl() {
+            // Setzt die src-Eigenschaft des iFrames auf die aktuelle URL
+            iframe.src = urls[currentIndex];
+            
+            // Log zur Kontrolle (optional)
+            console.log(`Lade URL: ${urls[currentIndex]}`);
+            
+            // Index für den nächsten Durchlauf erhöhen
+            currentIndex++;
+            
+            // Wenn das Ende des Arrays erreicht ist, wieder bei 0 beginnen
+            if (currentIndex >= urls.length) {
+                currentIndex = 0;
+            }
+        }
+
+        // 1. Die Funktion sofort einmal aufrufen, um die erste Seite anzuzeigen.
+        switchUrl();
+
+        // 2. Die Funktion alle 10 Sekunden wiederholt aufrufen.
+        setInterval(switchUrl, intervalTime);
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,709 @@
+---- Minecraft Crash Report ----
+// Shall we play a game?
+
+Time: 2025-10-31 17:43:49
+Description: Initializing game
+
+java.lang.BootstrapMethodError: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_7764 failed
+	at knot//net.minecraft.class_8684.create(class_8684.java:25)
+	at knot//net.minecraft.class_7766.method_47661(class_7766.java:116)
+	at knot//net.minecraft.class_7766.method_52849(class_7766.java:112)
+	at knot//net.minecraft.class_4724.method_45863(class_4724.java:40)
+	at java.base/java.util.stream.Collectors.lambda$uniqKeysMapAccumulator$1(Unknown Source)
+	at java.base/java.util.stream.ReduceOps$3ReducingSink.accept(Unknown Source)
+	at java.base/java.util.HashMap$EntrySpliterator.forEachRemaining(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline.collect(Unknown Source)
+	at knot//net.minecraft.class_4724.method_45862(class_4724.java:38)
+	at knot//net.minecraft.class_1092.method_25931(class_1092.java:89)
+	at knot//net.minecraft.class_4014.method_18368(class_4014.java:32)
+	at knot//net.minecraft.class_4014.<init>(class_4014.java:44)
+	at knot//net.minecraft.class_4014.method_18369(class_4014.java:32)
+	at knot//net.minecraft.class_4014.method_40087(class_4014.java:101)
+	at knot//net.minecraft.class_3304.method_18232(class_3304.java:47)
+	at knot//net.minecraft.class_310.<init>(class_310.java:691)
+	at knot//net.minecraft.client.main.Main.main(Main.java:239)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:506)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:63)
+	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28)
+Caused by: java.lang.RuntimeException: Mixin transformation of net.minecraft.class_7764 failed
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:440)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:336)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:231)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 28 more
+Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:381)
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:237)
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202)
+	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:435)
+	... 32 more
+Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinPreProcessorException: Attach error for mixins.iris.json:texture.pbr.MixinSpriteContents from mod iris during activity: [Transform -> Method iris$onTailMarkActive(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V -> GETSTATIC -> net/caffeinemc/mods/sodium/api/texture/SpriteUtil::INSTANCE:Lnet/caffeinemc/mods/sodium/api/texture/SpriteUtil;]
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attach(MixinPreProcessorStandard.java:313)
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.createContextFor(MixinPreProcessorStandard.java:277)
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.createContextFor(MixinInfo.java:1292)
+	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:203)
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437)
+	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418)
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:352)
+	... 35 more
+Caused by: java.lang.RuntimeException: java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.api.texture.SpriteUtil
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.transformMemberReference(MixinPreProcessorStandard.java:791)
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.transformField(MixinPreProcessorStandard.java:782)
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.transform(MixinPreProcessorStandard.java:745)
+	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attach(MixinPreProcessorStandard.java:307)
+	... 41 more
+Caused by: java.lang.ClassNotFoundException: net.caffeinemc.mods.sodium.api.texture.SpriteUtil
+	... 45 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at knot//net.minecraft.class_8684.create(class_8684.java:25)
+	at knot//net.minecraft.class_7766.method_47661(class_7766.java:116)
+	at knot//net.minecraft.class_7766.method_52849(class_7766.java:112)
+	at knot//net.minecraft.class_4724.method_45863(class_4724.java:40)
+	at java.base/java.util.stream.Collectors.lambda$uniqKeysMapAccumulator$1(Unknown Source)
+	at java.base/java.util.stream.ReduceOps$3ReducingSink.accept(Unknown Source)
+	at java.base/java.util.HashMap$EntrySpliterator.forEachRemaining(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.base/java.util.stream.ReferencePipeline.collect(Unknown Source)
+	at knot//net.minecraft.class_4724.method_45862(class_4724.java:38)
+	at knot//net.minecraft.class_1092.method_25931(class_1092.java:89)
+	at knot//net.minecraft.class_4014.method_18368(class_4014.java:32)
+	at knot//net.minecraft.class_4014.<init>(class_4014.java:44)
+	at knot//net.minecraft.class_4014.method_18369(class_4014.java:32)
+	at knot//net.minecraft.class_4014.method_40087(class_4014.java:101)
+	at knot//net.minecraft.class_3304.method_18232(class_3304.java:47)
+	at knot//net.minecraft.class_310.<init>(class_310.java:691)
+
+-- Initialization --
+Details:
+	Modules: 
+		ADVAPI32.dll:Advanced Windows 32 Base API:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		COMCTL32.dll:User Experience Controls Library:6.10 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPT32.dll:Crypto API32:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPTBASE.dll:Base cryptographic API DLL:10.0.26100.6972 (WinBuild.160101.0800):Microsoft Corporation
+		CRYPTSP.dll:Cryptographic Service Provider API:10.0.26100.6972 (WinBuild.160101.0800):Microsoft Corporation
+		CoreMessaging.dll:Microsoft CoreMessaging Dll:10.0.26100.6770 (WinBuild.160101.0800):Microsoft Corporation
+		DBGHELP.DLL:Windows Image Helper:10.0.26100.4741 (WinBuild.160101.0800):Microsoft Corporation
+		DEVOBJ.dll:Device Information Set DLL:10.0.26100.1150 (WinBuild.160101.0800):Microsoft Corporation
+		DNSAPI.dll:DNS Client API DLL:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		DSOUND.dll:DirectSound:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		DWMAPI.DLL:Microsoft Desktop Window Manager API:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		GDI32.dll:GDI Client DLL:10.0.26100.6780 (WinBuild.160101.0800):Microsoft Corporation
+		GLU32.dll:OpenGL Utility Library DLL:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		IMM32.DLL:Multi-User Windows IMM32 API Client DLL:10.0.26100.6770 (WinBuild.160101.0800):Microsoft Corporation
+		IPHLPAPI.DLL:IP Helper API:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		KERNEL32.DLL:Windows NT BASE API Client DLL:10.0.26100.6780 (WinBuild.160101.0800):Microsoft Corporation
+		KERNELBASE.dll:Windows NT BASE API Client DLL:10.0.26100.6780 (WinBuild.160101.0800):Microsoft Corporation
+		MMDevApi.dll:MMDevice API:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		MSCTF.dll:MSCTF Server DLL:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		MpOav.dll:IOfficeAntiVirus Module:4.18.25100.9003 (6af1f48ea0cdda816d3865471487ec2557ad14d6):Microsoft Corporation
+		NSI.dll:NSI User-mode interface DLL:10.0.26100.6972 (WinBuild.160101.0800):Microsoft Corporation
+		NTASN1.dll:Microsoft ASN.1 API:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		OLEACC.dll:Active Accessibility Core Component:7.2.26100.6972 (WinBuild.160101.0800):Microsoft Corporation
+		OLEAUT32.dll:OLEAUT32.DLL:10.0.26100.6780 (WinBuild.160101.0800):Microsoft Corporation
+		OPENGL32.dll:OpenGL Client DLL:10.0.26100.6982 (WinBuild.160101.0800):Microsoft Corporation
+		OWExplorer.dll:Overlay:2.2.280.0:Overwolf LTD
+		Ole32.dll:Microsoft OLE for Windows:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		OpenAL.dll:Main implementation library:1.23.1:
+		POWRPROF.dll:Power Profile Helper DLL:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		PSAPI.DLL:Process Status Helper:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		Pdh.dll:Windows Performance Data Helper DLL:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		RPCRT4.dll:Remote Procedure Call Runtime:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		ResampleDmo.DLL:Windows Media Resampler:10.0.26100.6690 (WinBuild.160101.0800):Microsoft Corporation
+		SETUPAPI.dll:Windows Setup API:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		SHCORE.dll:SHCORE:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		SHELL32.dll:Windows Shell Common Dll:10.0.26100.6972 (WinBuild.160101.0800):Microsoft Corporation
+		SspiCli.dll:Security Support Provider Interface:10.0.26100.6780 (WinBuild.160101.0800):Microsoft Corporation
+		UIAutomationCore.dll:Microsoft UI Automation Core:7.2.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		UMPDC.dll:User Mode Power Dependency Coordinator:10.0.26100.6690 (WinBuild.160101.0800):Microsoft Corporation
+		USER32.dll:Multi-User Windows USER API Client DLL:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		USERENV.dll:Userenv:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		VCRUNTIME140.dll:Microsoft® C Runtime Library:14.40.33810.0:Microsoft Corporation
+		VERSION.dll:Version Checking and File Installation Libraries:10.0.26100.1150 (WinBuild.160101.0800):Microsoft Corporation
+		WINHTTP.dll:Windows HTTP Services:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		WINMM.dll:MCI API DLL:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		WINSTA.dll:Winstation Library:10.0.26100.6972 (WinBuild.160101.0800):Microsoft Corporation
+		WINTRUST.dll:Microsoft Trust Verification APIs:10.0.26100.6972 (WinBuild.160101.0800):Microsoft Corporation
+		WS2_32.dll:Windows Socket 2.0 32-Bit DLL:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		WSOCK32.dll:Windows Socket 32-Bit DLL:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		WTSAPI32.dll:Windows Remote Desktop Session Host Server SDK APIs:10.0.26100.6982 (WinBuild.160101.0800):Microsoft Corporation
+		WinSCard.dll:Microsoft Smart Card API:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		amsi.dll:Anti-Malware Scan Interface:10.0.26100.4741 (WinBuild.160101.0800):Microsoft Corporation
+		apphelp.dll:Application Compatibility Client Library:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		awt.dll:Zulu Platform x64 Architecture:21.0.7:Azul Systems Inc.
+		bcrypt.dll:Windows Cryptographic Primitives Library:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		bcryptPrimitives.dll:Windows Cryptographic Primitives Library:10.0.26100.6972 (WinBuild.160101.0800):Microsoft Corporation
+		cfgmgr32.dll:Configuration Manager DLL:10.0.26100.6780 (WinBuild.160101.0800):Microsoft Corporation
+		clbcatq.dll:COM+ Configuration Catalog:2001.12.10941.16384 (WinBuild.160101.0800):Microsoft Corporation
+		combase.dll:Microsoft COM for Windows:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		cryptnet.dll:Crypto Network Related API:10.0.26100.6780 (WinBuild.160101.0800):Microsoft Corporation
+		dbgcore.DLL:Windows Core Debugging Helpers:10.0.26100.6780 (WinBuild.160101.0800):Microsoft Corporation
+		dinput8.dll:Microsoft DirectInput:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		drvstore.dll:Driver Store API:10.0.26100.6982 (WinBuild.160101.0800):Microsoft Corporation
+		dxcore.dll:DXCore:10.0.26100.6972 (WinBuild.160101.0800):Microsoft Corporation
+		extnet.dll:Zulu Platform x64 Architecture:21.0.7:Azul Systems Inc.
+		fastprox.dll:WMI Custom Marshaller:10.0.26100.6780 (WinBuild.160101.0800):Microsoft Corporation
+		fwpuclnt.dll:FWP/IPsec User-Mode API:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		gdi32full.dll:GDI Client DLL:10.0.26100.6972 (WinBuild.160101.0800):Microsoft Corporation
+		glfw.dll:GLFW 3.4.0 DLL:3.4.0:GLFW
+		icm32.dll:Microsoft Color Management Module (CMM):10.0.26100.2416 (WinBuild.160101.0800):Microsoft Corporation
+		imagehlp.dll:Windows NT Image Helper:10.0.26100.3950 (WinBuild.160101.0800):Microsoft Corporation
+		inputhost.dll:InputHost:10.0.26100.6972 (WinBuild.160101.0800):Microsoft Corporation
+		instrument.dll:Zulu Platform x64 Architecture:21.0.7:Azul Systems Inc.
+		java.dll:Zulu Platform x64 Architecture:21.0.7:Azul Systems Inc.
+		javaw.exe:Zulu Platform x64 Architecture:21.0.7:Azul Systems Inc.
+		jemalloc.dll
+		jimage.dll:Zulu Platform x64 Architecture:21.0.7:Azul Systems Inc.
+		jli.dll:Zulu Platform x64 Architecture:21.0.7:Azul Systems Inc.
+		jna11164161770765089767.dll:JNA native library:7.0.0:Java(TM) Native Access (JNA)
+		jsvml.dll:Zulu Platform x64 Architecture:21.0.7:Azul Systems Inc.
+		jvm.dll:Zulu 64-Bit Server VM:21.0.7:Azul Systems Inc.
+		kernel.appcore.dll:AppModel API Host:10.0.26100.6972 (WinBuild.160101.0800):Microsoft Corporation
+		liba52_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libaccess_srt_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libadaptive_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libadf_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libadjust_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libadpcm_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libadummy_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libaes3_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libaiff_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libalphamask_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libamem_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libanaglyph_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libantiflicker_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libaom_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libaraw_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libaribcam_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libaribsub_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libasf_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libau_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libaudio_format_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libaudiobargraph_a_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libavcodec_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libavi_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libball_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libblend_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libblendbench_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libbluescreen_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libcaca_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libcache_block_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libcache_read_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libcaf_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libcanvas_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libcc_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libcdg_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libchorus_flanger_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libcolorthres_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libcompressor_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libconsole_logger_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libcroppadd_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libcrystalhd_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libcvdsub_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libd3d11va_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libdav1d_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libdca_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libdcp_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libddummy_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libdeinterlace_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libdemux_cdg_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libdemux_chromecast_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libdemux_stl_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libdemuxdump_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libdiracsys_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libdirect3d11_filters_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libdirect3d11_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libdirect3d9_filters_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libdirect3d9_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libdirectdraw_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libdirectory_demux_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libdirectsound_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libdmo_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libdolby_surround_decoder_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libdrawable_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libdvbsub_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libdxva2_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libedgedetection_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libedummy_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libequalizer_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		liberase_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libes_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libextract_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libfaad_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libfile_logger_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libfilesystem_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libflac_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libflacsys_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libflaschen_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libfloat_mixer_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libfluidsynth_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libfps_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libfreeze_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libftp_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libg711_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libgain_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libgaussianblur_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libgl_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libglinterop_dxva2_plugin.dll:LibVLC plugin:3.0.20:VideoLAN
+		libglwin32_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libgme_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libgnutls_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libgradfun_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libgradient_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libgrain_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libh26x_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libhds_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libheadphone_channel_mixer_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libhqdn3d_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libhttp_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libhttps_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libimage_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libimem_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libinflate_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libinteger_mixer_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libinvert_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libjpeg_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libkaraoke_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libkate_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		liblame4j.dll
+		liblibass_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		liblibmpeg2_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		liblogo_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		liblpcm_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		liblua_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libmad_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libmagnify_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libmarq_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libmft_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libmirror_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libmjpeg_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libmkv_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libmmdevice_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libmod_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libmono_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libmotionblur_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libmotiondetect_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libmp4_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libmpc_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libmpg123_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libmpgv_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libmux_asf_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libmux_avi_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libmux_dummy_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libmux_mp4_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libmux_mpjpeg_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libmux_ogg_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libmux_ps_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libmux_ts_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libmux_wav_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libnfs_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libnormvol_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libnoseek_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libnsc_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libnsv_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libnuv_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libogg_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		liboggspots_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		liboldmovie_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libopus4j.dll
+		libopus_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libpacketizer_a52_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libpacketizer_av1_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libpacketizer_copy_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libpacketizer_dirac_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libpacketizer_dts_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libpacketizer_flac_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libpacketizer_h264_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libpacketizer_hevc_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libpacketizer_mlp_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libpacketizer_mpeg4audio_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libpacketizer_mpeg4video_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libpacketizer_mpegaudio_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libpacketizer_mpegvideo_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libpacketizer_vc1_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libparam_eq_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libplaylist_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libpng_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libposterize_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libpostproc_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libprefetch_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libps_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libpsychedelic_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libpuzzle_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libpva_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libqsv_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		librawaud_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		librawdv_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		librawvid_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		librawvideo_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libreal_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		librecord_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libremap_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libripple_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		librnnoise4j.dll
+		librotate_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		librtpvideo_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libsamplerate_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libscale_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libscaletempo_pitch_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libscaletempo_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libscene_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libschroedinger_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libscte18_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libscte27_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libsdl_image_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libsepia_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libsftp_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libsharpen_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libsid_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libsimple_channel_mixer_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libskiptags_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libsmf_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libspatialaudio_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libspatializer_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libspdif_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libspeex4j.dll
+		libspeex_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libspeex_resampler_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libspudec_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libstereo_widen_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libstl_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libsubsdec_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libsubstx3g_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libsubsusf_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libsubtitle_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libsvcdsub_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libswscale_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libt140_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libtcp_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libtextst_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libtheora_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libtospdif_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libtransform_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libtrivial_channel_mixer_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libts_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libtta_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libttml_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libtwolame_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libty_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libudp_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libugly_resampler_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libuleaddvaudio_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libvc1_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libvdummy_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libvhs_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libvlc.dll:VLC media player:3.0.18:VideoLAN
+		libvlccore.dll:VLC media player:3.0.18:VideoLAN
+		libvmem_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libvobsub_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libvoc_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libvorbis_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libvpx_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libwasapi_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libwav_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libwave_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libwaveout_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libwebvtt_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libwgl_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libwingdi_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libwinhibit_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libx26410b_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libx264_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libx265_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libxa_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libxml_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libyuv_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		libzstd-jni-1.5.7-52742984697476664337.dll
+		libzvbi_plugin.dll:LibVLC plugin:3.0.18:VideoLAN
+		lwjgl.dll
+		lwjgl_opengl.dll
+		lwjgl_stb.dll
+		management.dll:Zulu Platform x64 Architecture:21.0.7:Azul Systems Inc.
+		management_ext.dll:Zulu Platform x64 Architecture:21.0.7:Azul Systems Inc.
+		msasn1.dll:ASN.1 Runtime APIs:10.0.26100.6972 (WinBuild.160101.0800):Microsoft Corporation
+		mscms.dll:Microsoft Colour Matching System DLL:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		msdmo.dll:DMO Runtime:10.0.26100.1150 (WinBuild.160101.0800):Microsoft Corporation
+		msvcp140.dll:Microsoft® C Runtime Library:14.40.33810.0:Microsoft Corporation
+		msvcp_win.dll:Microsoft® C Runtime Library:10.0.26100.6972 (WinBuild.160101.0800):Microsoft Corporation
+		msvcrt.dll:Windows NT CRT DLL:7.0.26100.6972 (WinBuild.160101.0800):Microsoft Corporation
+		mswsock.dll:Microsoft Windows Sockets 2.0 Service Provider:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		napinsp.dll:E-mail Naming Shim Provider:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		ncrypt.dll:Windows NCrypt Router:10.0.26100.2304 (WinBuild.160101.0800):Microsoft Corporation
+		net.dll:Zulu Platform x64 Architecture:21.0.7:Azul Systems Inc.
+		nio.dll:Zulu Platform x64 Architecture:21.0.7:Azul Systems Inc.
+		nlansp_c.dll:NLA Namespace Service Provider DLL:10.0.26100.6770 (WinBuild.160101.0800):Microsoft Corporation
+		ntdll.dll:NT Layer DLL:10.0.26100.6780 (WinBuild.160101.0800):Microsoft Corporation
+		ntmarta.dll:Windows NT MARTA provider:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		nvgpucomp64.dll:NVIDIA GPU Compiler Driver, Version 581.29 :32.0.15.8129:NVIDIA Corporation
+		nvoglv64.dll:NVIDIA Compatible OpenGL ICD:32.0.15.8129:NVIDIA Corporation
+		nvspcap64.dll:NVIDIA Game Proxy 8FileVersion  1:11.0.5.266  8Produc:NVIDIA Corporation  L$FileDescriptio
+		perfos.dll:Windows System Performance Objects DLL:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		pfclient.dll:SysMain Client:10.0.26100.3950 (WinBuild.160101.0800):Microsoft Corporation
+		profapi.dll:User Profile Basic API:10.0.26100.6780 (WinBuild.160101.0800):Microsoft Corporation
+		rasadhlp.dll:Remote Access AutoDial Helper:10.0.26100.6682 (WinBuild.160101.0800):Microsoft Corporation
+		rsaenh.dll:Microsoft Enhanced Cryptographic Provider:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		sapi.dll:Speech API:5.3.30909.00 (WinBuild.160101.0800):Microsoft Corporation
+		sechost.dll:Host for SCM/SDDL/LSA Lookup APIs:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		shlwapi.dll:Shell Light-weight Utility Library:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		sunmscapi.dll:Zulu Platform x64 Architecture:21.0.7:Azul Systems Inc.
+		textinputframework.dll:"TextInputFramework.DYNLINK":10.0.26100.6972 (WinBuild.160101.0800):Microsoft Corporation
+		ucrtbase.dll:Microsoft® C Runtime Library:10.0.26100.6972 (WinBuild.160101.0800):Microsoft Corporation
+		uxtheme.dll:Microsoft UxTheme Library:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		vcruntime140_1.dll:Microsoft® C Runtime Library:14.40.33810.0:Microsoft Corporation
+		verify.dll:Zulu Platform x64 Architecture:21.0.7:Azul Systems Inc.
+		wbemcomn.dll:WMI:10.0.26100.6690 (WinBuild.160101.0800):Microsoft Corporation
+		wbemprox.dll:WMI:10.0.26100.5733 (WinBuild.160101.0800):Microsoft Corporation
+		wbemsvc.dll:WMI:10.0.26100.4741 (WinBuild.160101.0800):Microsoft Corporation
+		win32u.dll:Win32u:10.0.26100.6972 (WinBuild.160101.0800):Microsoft Corporation
+		windows.staterepositorycore.dll:Windows StateRepository API Core:10.0.26100.6972 (WinBuild.160101.0800):Microsoft Corporation
+		windows.storage.dll:Microsoft WinRT Storage API:10.0.26100.6972 (WinBuild.160101.0800):Microsoft Corporation
+		winmmbase.dll:Base Multimedia Extension API DLL:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		winrnr.dll:LDAP RnR Provider DLL:10.0.26100.1150 (WinBuild.160101.0800):Microsoft Corporation
+		wintypes.dll:Windows Base Types DLL:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		wldp.dll:Windows Lockdown Policy:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		wshbth.dll:Windows Sockets Helper DLL:10.0.26100.5733 (WinBuild.160101.0800):Microsoft Corporation
+		wshunix.dll:AF_UNIX Winsock2 Helper DLL:10.0.26100.1 (WinBuild.160101.0800):Microsoft Corporation
+		xinput1_4.dll:Microsoft Common Controller API:10.0.26100.6713 (WinBuild.160101.0800):Microsoft Corporation
+		zip.dll:Zulu Platform x64 Architecture:21.0.7:Azul Systems Inc.
+Stacktrace:
+	at knot//net.minecraft.client.main.Main.main(Main.java:239)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:506)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at com.modrinth.theseus.MinecraftLaunch.relaunch(MinecraftLaunch.java:63)
+	at com.modrinth.theseus.MinecraftLaunch.main(MinecraftLaunch.java:28)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.7, Azul Systems, Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Azul Systems, Inc.
+	Memory: 47243656 bytes (45 MiB) / 406847488 bytes (388 MiB) up to 8589934592 bytes (8192 MiB)
+	CPUs: 16
+	Processor Vendor: GenuineIntel
+	Processor Name: 11th Gen Intel(R) Core(TM) i9-11900KF @ 3.50GHz
+	Identifier: Intel64 Family 6 Model 167 Stepping 1
+	Microarchitecture: Rocket Lake
+	Frequency (GHz): 3.50
+	Number of physical packages: 1
+	Number of physical CPUs: 8
+	Number of logical CPUs: 16
+	Graphics card #0 name: NVIDIA GeForce RTX 4060
+	Graphics card #0 vendor: NVIDIA
+	Graphics card #0 VRAM (MiB): 8188.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 32.0.15.8129
+	Memory slot #0 capacity (MiB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 3.20
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MiB): 16384.00
+	Memory slot #1 clockSpeed (GHz): 3.20
+	Memory slot #1 type: DDR4
+	Virtual memory max (MiB): 60268.04
+	Virtual memory used (MiB): 37383.36
+	Swap memory total (MiB): 27648.00
+	Swap memory used (MiB): 179.30
+	Space in storage for jna.tmpdir (MiB): available: 69168.14, total: 1907712.00
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): available: 69168.14, total: 1907712.00
+	Space in storage for io.netty.native.workdir (MiB): available: 69168.14, total: 1907712.00
+	Space in storage for java.io.tmpdir (MiB): available: 114093.95, total: 956795.00
+	Space in storage for workdir (MiB): available: 69168.14, total: 1907712.00
+	JVM Flags: 2 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx8192M
+	Fabric Mods: 
+		advancednetherite: Advanced Netherite 2.3.1-1.21.1
+		animal_feeding_trough: Animal Feeding Trough 1.1.2+1.21.1
+		architectury: Architectury 13.0.8
+		automodpack_bootstrap: AutoModpack bootstrap 1.0.0
+			automodpack: AutoModpack 4.0.0-beta44
+		bclib: BCLib 21.0.13
+		betterend: Better End 21.0.11
+		betternether: Better Nether 21.0.11
+		cardinal-components: Cardinal Components API 6.1.2
+			cardinal-components-base: Cardinal Components API (base) 6.1.2
+			cardinal-components-block: Cardinal Components API (blocks) 6.1.2
+			cardinal-components-chunk: Cardinal Components API (chunks) 6.1.2
+			cardinal-components-entity: Cardinal Components API (entities) 6.1.2
+			cardinal-components-item: Cardinal Components API (items) 6.1.2
+			cardinal-components-level: Cardinal Components API (world saves) 6.1.2
+			cardinal-components-scoreboard: Cardinal Components API (scoreboard) 6.1.2
+			cardinal-components-world: Cardinal Components API (worlds) 6.1.2
+		caveoverhaul: CaveOverhaul fabric-1.21.1-1.3.3.1
+		cloth-config: Cloth Config v15 15.0.140
+			cloth-basic-math: cloth-basic-math 0.6.1
+		collective: Collective 8.13
+		coroutil: CoroUtil 1.21.1-1.3.8
+		creativecore: CreativeCore 2.13.14
+			net_neoforged_bus: bus 7.2.0
+		entityculling: EntityCulling 1.9.3
+			transition: TRansition 1.0.8
+			trender: TRender 1.0.8
+		fabric-api: Fabric API 0.116.7+1.21.1
+			fabric-api-base: Fabric API Base 0.4.42+6573ed8c19
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.71+b559734419
+			fabric-biome-api-v1: Fabric Biome API (v1) 13.0.31+d527f9fd19
+			fabric-block-api-v1: Fabric Block API (v1) 1.1.0+0bc3503219
+			fabric-block-view-api-v2: Fabric BlockView API (v2) 1.0.11+ebb2264e19
+			fabric-blockrenderlayer-v1: Fabric BlockRenderLayer Registration (v1) 1.1.52+0af3f5a719
+			fabric-client-tags-api-v1: Fabric Client Tags 1.1.15+6573ed8c19
+			fabric-command-api-v1: Fabric Command API (v1) 1.2.49+f71b366f19
+			fabric-command-api-v2: Fabric Command API (v2) 2.2.28+6ced4dd919
+			fabric-commands-v0: Fabric Commands (v0) 0.2.66+df3654b319
+			fabric-content-registries-v0: Fabric Content Registries (v0) 8.0.19+b559734419
+			fabric-convention-tags-v1: Fabric Convention Tags 2.1.5+7f945d5b19
+			fabric-convention-tags-v2: Fabric Convention Tags (v2) 2.11.1+a406e79519
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.2.29+0af3f5a719
+			fabric-data-attachment-api-v1: Fabric Data Attachment API (v1) 1.4.5+6116a37819
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 20.2.34+37516cd619
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 4.0.1+65213ef819
+			fabric-entity-events-v1: Fabric Entity Events (v1) 1.8.0+2b27e0a419
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 0.7.13+ba9dae0619
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 1.0.53+6ced4dd919
+			fabric-item-api-v1: Fabric Item API (v1) 11.2.0+3b3cb2e819
+			fabric-item-group-api-v1: Fabric Item Group API (v1) 4.1.7+def88e3a19
+			fabric-key-binding-api-v1: Fabric Key Binding API (v1) 1.0.47+0af3f5a719
+			fabric-keybindings-v0: Fabric Key Bindings (v0) 0.2.45+df3654b319
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.6.0+0865547519
+			fabric-loot-api-v2: Fabric Loot API (v2) 3.0.15+3f89f5a519
+			fabric-loot-api-v3: Fabric Loot API (v3) 1.0.3+3f89f5a519
+			fabric-message-api-v1: Fabric Message API (v1) 6.0.14+8aaf3aca19
+			fabric-model-loading-api-v1: Fabric Model Loading API (v1) 2.1.0+b4d813fc19
+			fabric-networking-api-v1: Fabric Networking API (v1) 4.3.0+c7469b2119
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 15.2.1+40875a9319
+			fabric-particles-v1: Fabric Particles (v1) 4.0.2+6573ed8c19
+			fabric-recipe-api-v1: Fabric Recipe API (v1) 5.0.15+2475392c19
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 5.3.1+e3eddc2119
+			fabric-renderer-api-v1: Fabric Renderer API (v1) 3.4.1+b4d813fc19
+			fabric-renderer-indigo: Fabric Renderer - Indigo 1.7.1+c705a49c19
+			fabric-renderer-registries-v1: Fabric Renderer Registries (v1) 3.2.69+df3654b319
+			fabric-rendering-data-attachment-v1: Fabric Rendering Data Attachment (v1) 0.3.49+73761d2e19
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.1.6+1daea21519
+			fabric-rendering-v0: Fabric Rendering (v0) 1.1.72+df3654b319
+			fabric-rendering-v1: Fabric Rendering (v1) 5.1.0+ab4c25a019
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 4.3.0+8dc279b119
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 1.3.1+5b5275af19
+			fabric-screen-api-v1: Fabric Screen API (v1) 2.0.25+8b68f1c719
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.90+b559734419
+			fabric-sound-api-v1: Fabric Sound API (v1) 1.0.23+6573ed8c19
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 5.4.3+c24bd99419
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 6.2.0+45b9699719
+		fabric-language-kotlin: Fabric Language Kotlin 1.13.7+kotlin.2.2.21
+			org_jetbrains_kotlin_kotlin-reflect: kotlin-reflect 2.2.21
+			org_jetbrains_kotlin_kotlin-stdlib: kotlin-stdlib 2.2.21
+			org_jetbrains_kotlin_kotlin-stdlib-jdk7: kotlin-stdlib-jdk7 2.2.21
+			org_jetbrains_kotlin_kotlin-stdlib-jdk8: kotlin-stdlib-jdk8 2.2.21
+			org_jetbrains_kotlinx_atomicfu-jvm: atomicfu-jvm 0.29.0
+			org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm: kotlinx-coroutines-core-jvm 1.10.2
+			org_jetbrains_kotlinx_kotlinx-coroutines-jdk8: kotlinx-coroutines-jdk8 1.10.2
+			org_jetbrains_kotlinx_kotlinx-datetime-jvm: kotlinx-datetime-jvm 0.7.1
+			org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm: kotlinx-io-bytestring-jvm 0.8.0
+			org_jetbrains_kotlinx_kotlinx-io-core-jvm: kotlinx-io-core-jvm 0.8.0
+			org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm: kotlinx-serialization-cbor-jvm 1.9.0
+			org_jetbrains_kotlinx_kotlinx-serialization-core-jvm: kotlinx-serialization-core-jvm 1.9.0
+			org_jetbrains_kotlinx_kotlinx-serialization-json-jvm: kotlinx-serialization-json-jvm 1.9.0
+		fabricloader: Fabric Loader 0.17.3
+			mixinextras: MixinExtras 0.5.0
+		ferritecore: FerriteCore 7.0.2-hotfix
+		flowing_fluids: Flowing Fluids 0.6.1
+		forgeconfigapiport: Forge Config API Port 21.1.4
+			com_electronwill_night-config_core: core 3.8.0
+			com_electronwill_night-config_toml: toml 3.8.0
+		immediatelyfast: ImmediatelyFast 1.6.7+1.21.1
+			net_lenni0451_reflect: Reflect 1.3.4
+		iris: Iris 1.8.8+mc1.21.1
+			io_github_douira_glsl-transformer: glsl-transformer 2.0.1
+			org_anarres_jcpp: jcpp 1.4.14
+			org_antlr_antlr4-runtime: antlr4-runtime 4.13.1
+		java: OpenJDK 64-Bit Server VM 21
+		lithium: Lithium 0.15.0+mc1.21.1
+		lootr: Lootr 1.21-1.10.35.91
+		minecraft: Minecraft 1.21.1
+		modernfix: ModernFix 5.24.3+mc1.21.1
+		modmenu: Mod Menu 11.0.3
+		mr_dungeons_andtaverns: Dungeons and Taverns 1-v4.4.4
+		netherchested: Nether Chested 21.1.0
+			limitlesscontainers: Limitless Containers 21.1.0
+		onlyhammersandexcavators: OnlyHammersAndExcavators 1.21.1-0.9
+		openpartiesandclaims: Open Parties and Claims 0.25.8
+		placeholder-api: Placeholder API 2.4.2+1.21
+		puzzleslib: Puzzles Lib 21.1.39
+		silk-all: Silk (All modules) 1.10.7
+			silk-commands: Silk Commands 1.10.7
+			silk-core: Silk Core 1.10.7
+			silk-game: Silk Game 1.10.7
+			silk-igui: Silk Inventory GUI 1.10.7
+			silk-nbt: Silk NBT 1.10.7
+			silk-network: Silk Network 1.10.7
+			silk-persistence: Silk Persistence 1.10.7
+		sodium: Sodium 0.6.0+mc1.21.1
+		sodium-extra: Sodium Extra 0.6.0+mc1.21.1
+		terralith: Terralith 2.5.8
+		travelersbackpack: Traveler's Backpack 10.1.27
+		treeharvester: Tree Harvester 9.1
+		veinminer: Veinminer 2.4.2
+			de_miraculixx_core_dev: core 2.4.2
+			fabric-permissions-api-v0: fabric-permissions-api 0.3.1
+		veinminer-enchantment: Veinminer Enchantment 2.5.0
+		voicechat: Simple Voice Chat 1.21.1-2.6.6
+			voicechat_api: Simple Voice Chat API 2.6.0
+		waterframes: WaterFrames 2.1.22
+		watermedia: WaterMedia 2.1.36
+		watervision: WaterVision 0.1.0-alpha
+		watut: What Are They Up To 1.21.0-1.2.7
+		wover: WorldWeaver 21.0.13
+			wover-biome: WorldWeaver - Biome API 21.0.13
+			wover-block: WorldWeaver - Block and Item API 21.0.13
+			wover-common: WorldWeaver - Common API 21.0.13
+			wover-core: WorldWeaver - Core API 21.0.13
+			wover-datagen: WorldWeaver - Datagen API 21.0.13
+			wover-events: WorldWeaver - Events API 21.0.13
+			wover-feature: WorldWeaver - Feature API 21.0.13
+			wover-generator: WorldWeaver - World Generator API 21.0.13
+			wover-item: WorldWeaver - Item API 21.0.13
+			wover-math: WorldWeaver - Math API 21.0.13
+			wover-preset: WorldWeaver - World Preset API 21.0.13
+			wover-recipe: WorldWeaver - Recipe API 21.0.13
+			wover-structure: WorldWeaver - Structure API 21.0.13
+			wover-surface: WorldWeaver - Surface API 21.0.13
+			wover-tag: WorldWeaver - Tag API 21.0.13
+			wover-ui: WorldWeaver - UI API 21.0.13
+			wunderlib: WunderLib 21.0.8
+		xaerominimap: Xaero's Minimap 25.2.10
+		xaeroworldmap: Xaero's World Map 1.39.12
+	Loaded Shaderpack: (off)
+	Launched Version: 1.21.1
+	Launcher name: theseus
+	Backend library: LWJGL version 3.3.3-snapshot
+	Backend API: NVIDIA GeForce RTX 4060/PCIe/SSE2 GL version 3.2.0 NVIDIA 581.29, NVIDIA Corporation
+	Window size: <not initialized>
+	GFLW Platform: win32
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: 
+	Is Modded: Definitely; Client brand changed to 'fabric'
+	Universe: 404
+	Type: Client (map_client.txt)
+	Locale: en_GB
+	System encoding: Cp1252
+	File encoding: UTF-8
+	CPU: 16x 11th Gen Intel(R) Core(TM) i9-11900KF @ 3.50GHz

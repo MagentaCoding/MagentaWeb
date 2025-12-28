@@ -1,0 +1,12 @@
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/magentaw/magentasecurity/discord"
+PassengerBaseURI "/discord"
+PassengerNodejs "/home/magentaw/nodevenv/magentasecurity/discord/22/bin/node"
+PassengerAppType node
+PassengerStartupFile /home/magentaw/magentasecurity/discord/index.js
+PassengerAppLogFile "/home/magentaw/magentasecurity/log/discordbot.log"
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION BEGIN
+<IfModule Litespeed>
+</IfModule>
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION END

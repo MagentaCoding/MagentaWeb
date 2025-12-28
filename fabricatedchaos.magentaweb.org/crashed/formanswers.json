@@ -1,0 +1,12 @@
+[
+    {
+        "mcname": "MagentaGaming",
+        "crashInstalled": "yes",
+        "crashText": "nikes",
+        "files": {
+            "modlist": "https:\/\/files.magentaweb.org\/forms\/fabricatedchaos\/MagentaGaming\/modlist.txt",
+            "crashFile": "https:\/\/files.magentaweb.org\/forms\/fabricatedchaos\/MagentaGaming\/latest.log"
+        },
+        "timestamp": "2025-10-03T15:07:51+00:00"
+    }
+]

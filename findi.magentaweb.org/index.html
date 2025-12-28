@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FINDI – Fahrinformationsdienst</title>
+
+  <!-- Cairo Play Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo+Play&display=swap" />
+
+  <!-- Externe CSS -->
+  <link rel="stylesheet" href="https://findi.w3spaces.com/css/index.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="main-nav">
+    <div class="logo">FINDI</div>
+    <a href="./" class="active">Start</a> | <a href="./planroute/" class="active">Planen sie ihre Route!</a> | <a href="./funktionen/">Funktionen</a> | <a href="./support/">Support</a> | <a href=".kontakt/">Kontakt</a>
+  </nav>
+
+  <!-- Header -->
+  <header class="hero">
+    <h1>Willkommen bei FINDI</h1>
+    <p>Dein smarter Fahrinformationsdienst mit Echtzeitdaten, Intelligenz & Zukunft.</p>
+    <a href="./funktionen/" class="btn">Mehr erfahren</a>
+  </header>
+
+  <!-- Tabs -->
+  <main>
+    <div class="tabs" role="tabpanel">
+      <div class="tab-buttons" role="tablist">
+        <button role="tab" aria-selected="true" aria-controls="tab1" id="tab1-btn" class="active">Über FINDI</button>
+        <button role="tab" aria-selected="false" aria-controls="tab2" id="tab2-btn">Vorteile</button>
+        <button role="tab" aria-selected="false" aria-controls="tab3" id="tab3-btn">Highlights</button>
+        <button role="tab" aria-selected="false" aria-controls="tab4" id="tab4-btn">Mobile App</button>
+      </div>
+
+      <div class="tab-content">
+        <section id="tab1" role="tabpanel" aria-labelledby="tab1-btn" class="active">
+          <h2>Was ist FINDI?</h2>
+          <p>
+            FINDI ist dein persönlicher Begleiter im ÖPNV – mit Live-Fahrplänen, aktuellen Störmeldungen und cleveren Routenempfehlungen. Entwickelt für Fahrgäste von heute.
+          </p>
+          <a href="./funktionen/" class="btn-small">Mehr über Funktionen</a>
+        </section>
+
+        <section id="tab2" role="tabpanel" aria-labelledby="tab2-btn">
+          <h2>Warum FINDI?</h2>
+          <ul>
+            <li>Schneller Zugriff auf Echtzeitdaten</li>
+            <li>Integration mit Verkehrsunternehmen</li>
+            <li>Modernes, benutzerfreundliches Design</li>
+          </ul>
+        </section>
+
+        <section id="tab3" role="tabpanel" aria-labelledby="tab3-btn">
+          <h2>Top Features</h2>
+          <ul>
+            <li>Smart-Routing mit KI</li>
+            <li>Push-Alerts bei Störungen</li>
+            <li>API für Entwickler</li>
+          </ul>
+          <a href="./api/" class="btn-small">Zur API</a>
+        </section>
+        
+        <section id="tab4" role="tabpanel" aria-labelledby="tab4-btn">
+          <h2>Mobile App</h2>
+          <p>Eine App für Windows, Android und iOS ist aktuell noch in Entwicklung, deshalb müssen sie sich noch gedulden, alternativ können sie für den VRS auch die <a href="https://www.vrs.de/verbindungen/die-vrs-app">VRS App</a> nutzen</p>
+        </section>
+        
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 FINDI | Fahrplandaten bereitgestellt von der VRS | Angaben ohne Gewähr</p>
+    <p>
+      <a href="./impressum/">Impressum</a> |
+      <a href="./datenschutz/">Datenschutz</a>
+    </p>
+  </footer>
+
+  <!-- JS -->
+  <script src="https://findi.w3spaces.com/js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,256 @@
+Return-Path: <support@support.zendesk.com>
+Delivered-To: contact@magentaweb.org
+Received: from webserver.bisecthosting.com
+	by webserver.bisecthosting.com with LMTP
+	id p+FzOi+/B2lbJRMAufviug
+	(envelope-from <support@support.zendesk.com>)
+	for <contact@magentaweb.org>; Sun, 02 Nov 2025 15:29:35 -0500
+Return-path: <support@support.zendesk.com>
+Envelope-to: contact@magentaweb.org
+Delivery-date: Sun, 02 Nov 2025 15:29:35 -0500
+Received: from mta-out14.pod29.euw1.zdsys.com ([188.172.137.59]:50098)
+	by webserver.bisecthosting.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.98.2)
+	(envelope-from <support@support.zendesk.com>)
+	id 1vFehf-00000005G6k-3MKH
+	for contact@magentaweb.org;
+	Sun, 02 Nov 2025 15:29:35 -0500
+Received: from zendesk.com (unknown [127.0.0.6])
+	by mta-out15.pod29.euw1.zdsys.com (Zendesk) with ESMTP
+	id 5e60410d-23cf-4c39-92d1-7140fba3716b
+	for <contact@magentaweb.org>;
+	Sun, 02 Nov 2025 20:28:50 +0000 (UTC)
+Date: Sun, 02 Nov 2025 20:28:50 +0000
+From: Zendesk <support@support.zendesk.com>
+To: contact@magentaweb.org
+Message-ID: <6907bf02a1745_9e15b0721432_sprut@zendesk.com>
+Subject: =?UTF-8?Q?Aktion_erforderlich:_E=E2=80=91Mail-Adresse?=
+ =?UTF-8?Q?_best=C3=A4tigen?=
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_6907bf02b03ca_9e15b072151c";
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+X-Delivery-Context: welcome-owner-31480030044061
+X-Zendesk-Priority-Mail: Shell account owner welcome email
+Auto-Submitted: auto-generated
+X-Auto-Response-Suppress: All
+X-Mailer: Zendesk Mailer
+X-Zendesk-From-Account-Id: 8b85949
+DKIM-Signature:  v=1; a=rsa-sha256; c=relaxed/relaxed; d=zendesk.com;
+ q=dns/txt; s=zendesk2; t=1762115330;
+ bh=amCQcTxMSmC9AoQBZjHKiGbzEgaORsJqxP6ne4orEig=;
+ h=date:from:to:message-id:subject:mime-version:content-type:content-transfer-encoding;
+ b=Ajxoulj7/MN5hPJnscbnrTqh1vTKmS5gQgZF3q6bsGiyf5nlJiIq/usXe1Ml8C6z6673uQiM/b+KV8ZKCAyAzsBHeXut6SwPkE2RJd39Gb0U21oxz1cs1HwAgD/9qeANW0/zKJ1lsiAVAxOIcBaOGtU6Ss17Z+VfCk+95sLB2BKUhvuBD09jcyer/pH14xqD4kvrXiUWXWndvv6PNIrSCV1Yf1kFeYPY86/lLGcatQPqfS/I49D9oJEoGFjdNC7gVW9a0MT+4uA3eSyU6xblTStdJusgtrxLe+Vt8zOF7W5xGZXLa3k1V6zZGn/Pf33cPEAxfZUVcgalUrlIgBjyGg==
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: =?ISO-8859-1?Q?Spam_detection_software=2C_running_on_the_system_=22webserver=2Ebise?= =?ISO-8859-1?Q?cthosting=2Ecom=22=2C=0A_has_NOT_identified_this_inco?= =?ISO-8859-1?Q?ming_email_as_spam=2E__The_original=0A_message_has_be?= =?ISO-8859-1?Q?en_attached_to_this_so_you_can_view_it_or_label=0A_si?= =?ISO-8859-1?Q?milar_future_email=2E__If_you_have_any_questions=2C_s?= =?ISO-8859-1?Q?ee=0A_root=5C=40localhost_for_details=2E=0A_Content_p?= =?ISO-8859-1?Q?review=3A__Sie_sind_nur_noch_einen_Klick_von_Ihrer_ko?= =?ISO-8859-1?Q?stenlosen_Zendesk-Testversion=0A____entfernt=2E_E-Mai?= =?ISO-8859-1?Q?l-Adresse_best=C3=A4tigen_Hier_melden_Sie_sich_und_Ih?= =?ISO-8859-1?Q?r_Team_bei=0A____Ihrem_Zendesk-Konto_an=3A_magentaweb?= =?ISO-8859-1?Q?nichtoffizielleingetragen=2Ezendesk=2Ecom_=0A_Content?= =?ISO-8859-1?Q?_analysis_details=3A___=280=2E0_points=2C_5=2E0_requi?= =?ISO-8859-1?Q?red=29=0A__pts_rule_name______________description=0A_?= =?ISO-8859-1?Q?----_----------------------_-------------------------?= =?ISO-8859-1?Q?-------------------------=0A__0=2E0_RCVD=5FIN=5FVALID?= =?ISO-8859-1?Q?ITY=5FRPBL=5FBLOCKED_RBL=3A_ADMINISTRATOR_NOTICE=3A_T?= =?ISO-8859-1?Q?he_query_to=0A______________________________Validity_?= =?ISO-8859-1?Q?was_blocked=2E__See=0A_____________________________ht?= =?ISO-8859-1?Q?tps=3A//knowledge=2Evalidity=2Ecom/hc/en-us/articles/?= =?ISO-8859-1?Q?20961730681243=0A______________________________for_mo?= =?ISO-8859-1?Q?re_information=2E=0A____________________________=5B18?= =?ISO-8859-1?Q?8=2E172=2E137=2E59_listed_in_bl=2Escore=2Esenderscore?= =?ISO-8859-1?Q?=2Ecom=5D=0A__0=2E0_RCVD=5FIN=5FVALIDITY=5FSAFE=5FBLO?= =?ISO-8859-1?Q?CKED_RBL=3A_ADMINISTRATOR_NOTICE=3A_The_query_to=0A__?= =?ISO-8859-1?Q?____________________________Validity_was_blocked=2E__?= =?ISO-8859-1?Q?See=0A_____________________________https=3A//knowledg?= =?ISO-8859-1?Q?e=2Evalidity=2Ecom/hc/en-us/articles/20961730681243=0A_?= =?ISO-8859-1?Q?_____________________________for_more_information=2E=0A?= =?ISO-8859-1?Q?_____________________________=5B188=2E172=2E137=2E59_?= =?ISO-8859-1?Q?listed_in_sa-accredit=2Ehabeas=2Ecom=5D=0A__0=2E0_URI?= =?ISO-8859-1?Q?BL=5FDBL=5FBLOCKED=5FOPENDNS_ADMINISTRATOR_NOTICE=3A_?= =?ISO-8859-1?Q?The_query_to=0A_____________________________dbl=2Espa?= =?ISO-8859-1?Q?mhaus=2Eorg_was_blocked_due_to_usage_of_an=0A________?= =?ISO-8859-1?Q?______________________open_resolver=2E_See=0A________?= =?ISO-8859-1?Q?_____________________https=3A//www=2Espamhaus=2Eorg/r?= =?ISO-8859-1?Q?eturnc/pub/=0A_____________________________=5BURI=3A_?= =?ISO-8859-1?Q?zendesk=2Ecom=5D=0A_____________________________=5BUR?= =?ISO-8859-1?Q?I=3A_static=2Ezdassets=2Ecom=5D=0A___________________?= =?ISO-8859-1?Q?______=5BURI=3A_magentawebnichtoffizielleingetragen=2Ez?= =?ISO-8859-1?Q?endesk=2Ecom=5D=0A__0=2E0_RCVD=5FIN=5FVALIDITY=5FCERT?= =?ISO-8859-1?Q?IFIED=5FBLOCKED_RBL=3A_ADMINISTRATOR_NOTICE=3A_The=0A_?= =?ISO-8859-1?Q?____________________________query_to_Validity_was_blo?= =?ISO-8859-1?Q?cked=2E__See=0A_____________________________https=3A/?= =?ISO-8859-1?Q?/knowledge=2Evalidity=2Ecom/hc/en-us/articles/2096173?= =?ISO-8859-1?Q?0681243=0A______________________________for_more_info?= =?ISO-8859-1?Q?rmation=2E=0A_________________________=5B188=2E172=2E1?= =?ISO-8859-1?Q?37=2E59_listed_in_sa-trusted=2Ebondedsender=2Eorg=5D=0A?= =?ISO-8859-1?Q?__0=2E0_RCVD=5FIN=5FZEN=5FBLOCKED=5FOPENDNS_RBL=3A_AD?= =?ISO-8859-1?Q?MINISTRATOR_NOTICE=3A_The_query_to=0A________________?= =?ISO-8859-1?Q?_____________zen=2Espamhaus=2Eorg_was_blocked_due_to_?= =?ISO-8859-1?Q?usage_of_an=0A______________________________open_reso?= =?ISO-8859-1?Q?lver=2E_See=0A_____________________________https=3A//?= =?ISO-8859-1?Q?www=2Espamhaus=2Eorg/returnc/pub/=0A_________________?= =?ISO-8859-1?Q?____________=5B188=2E172=2E137=2E59_listed_in_zen=2Es?= =?ISO-8859-1?Q?pamhaus=2Eorg=5D=0A_-0=2E0_SPF=5FPASS_______________S?= =?ISO-8859-1?Q?PF=3A_sender_matches_SPF_record=0A__0=2E1_DKIM=5FSIGN?= =?ISO-8859-1?Q?ED____________Message_has_a_DKIM_or_DK_signature=2C_n?= =?ISO-8859-1?Q?ot_necessarily_valid=0A_-0=2E1_DKIM=5FVALID__________?= =?ISO-8859-1?Q?___Message_has_at_least_one_valid_DKIM_or_DK_signatur?= =?ISO-8859-1?Q?e=0A__0=2E0_HTML=5FMESSAGE___________BODY=3A_HTML_inc?= =?ISO-8859-1?Q?luded_in_message=0A_-0=2E0_DKIMWL=5FWL=5FHIGH________?= =?ISO-8859-1?Q?_DKIMwl=2Eorg_-_High_trust_sender?=
+X-Spam-Flag: NO
+
+
+----==_mimepart_6907bf02b03ca_9e15b072151c
+Content-Type: text/plain;
+ charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Sie sind nur noch einen Klick von Ihrer kostenlosen Zendesk-Testversion e=
+ntfernt.
+      =
+
+      =
+
+        =
+
+          =
+
+            =
+
+              =C2=A0=C2=A0=C2=A0=C2=A0E-Mail-Adresse best=C3=A4tigen=C2=A0=
+=C2=A0=C2=A0=C2=A0
+            =
+
+          =
+
+        =
+
+      =
+
+    =
+
+      =
+
+      Hier melden Sie sich und Ihr Team bei Ihrem Zendesk-Konto an: magen=
+tawebnichtoffizielleingetragen.zendesk.com
+      =
+
+    =
+
+----==_mimepart_6907bf02b03ca_9e15b072151c
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html dir=3D"auto" lang=3D'de-x-8' >
+<head>
+  <style>
+    @font-face {
+      font-family: "Sharp Sans";
+      src: url(https://d1eipm3vz40hy0.cloudfront.net/fonts/SHSNeng.eot);
+      src: url(https://d1eipm3vz40hy0.cloudfront.net/fonts/SHSNeng.eot?#i=
+efix) format('embedded-opentype'), url(https://d1eipm3vz40hy0.cloudfront.=
+net/fonts/SHSNeng.woff2) format('woff2'), url(https://d1eipm3vz40hy0.clou=
+dfront.net/fonts/SHSNeng.woff) format('woff'), url(https://d1eipm3vz40hy0=
+.cloudfront.net/fonts/SHSNeng.ttf) format('truetype'), url(https://d1eipm=
+3vz40hy0.cloudfront.net/fonts/SHSNeng.svg#SHSNeng) format('svg');
+      font-weight: 600;
+      font-style: normal;
+      unicode-range: 'U+0020-007E,U+00A0,U+00A9,U+2012-2015,U+2018-201D,U=
++2026,U+2122,U+E466';
+    }
+    @font-face {
+      font-family: 'Vanilla Sans';
+      src: url('https://web-assets.zendesk.com/fonts/VanillaSans/VanillaS=
+ans-Regular.woff2') format('woff2'),
+          url('https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSa=
+ns-Regular.woff') format('woff');
+      font-weight: 400;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'Vanilla Sans';
+      src: url('https://web-assets.zendesk.com/fonts/VanillaSans/VanillaS=
+ans-Medium.woff2') format('woff2'),
+          url('https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSa=
+ns-Medium.woff') format('woff');
+      font-weight: 500;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'Vanilla Sans';
+      src: url('https://web-assets.zendesk.com/fonts/VanillaSans/VanillaS=
+ans-SemiBold.woff2') format('woff2'),
+          url('https://web-assets.zendesk.com/fonts/VanillaSans/VanillaSa=
+ns-SemiBold.woff') format('woff');
+      font-weight: 600;
+      font-style: normal;
+    }
+    body[dir=3Drtl] .directional_text_wrapper { direction: rtl; unicode-b=
+idi: embed; }
+
+  </style>
+</head>
+<body style=3D"margin:0; padding:0; background:#ffffff;" >
+  <div style=3D"margin:0 auto; text-align:center; font-size:12px; color:#=
+a2a2a2; padding:6px 0;" ></div>
+  <table role=3D"presentation" cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" width=3D"100%" style=3D"width:100%;" >
+    <tbody>
+      <tr>
+        <td align=3D"center">
+          <table role=3D"presentation" cellpadding=3D"0" cellspacing=3D"0=
+" border=3D"0" width=3D"680" class=3D"container" style=3D"width:680px; ma=
+rgin:0 auto;">
+            <tbody>
+              <tr>
+                <td class=3D"p-x" style=3D"padding:36px 32px 24px 32px;">=
+
+                  =
+
+      <div style=3D"text-align:left;">
+        <img src=3D"https://static.zdassets.com/classic/images/zendesk_em=
+ail_top_logo.png" alt=3D"Zendesk" width=3D"73" height=3D"52" style=3D"dis=
+play:inline-block; margin:0 0 24px 0;" />
+      </div>
+    =
+
+                </td>
+              </tr>
+              <tr>
+                <td class=3D"p-x" style=3D"padding:0 32px;" align=3D"left=
+">
+                  <div class=3D"h1" style=3D"font-family:'Vanilla Sans','=
+Sharp Sans','system-ui','-apple-system','BlinkMacSystemFont','Segoe UI','=
+Roboto','Oxygen-Sans','Ubuntu','Cantarell','Helvetica Neue','Arial','sans=
+-serif'; font-weight:500; color:#16140C; font-size:48px; line-height:52px=
+; letter-spacing:0px; text-align:left;">
+                    Best=C3=A4tigen Sie Ihre E-Mail-Adresse, um Ihre kost=
+enlose Testversion zu aktivieren
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class=3D"p-x" style=3D"padding:20px 32px 0 32px;" ali=
+gn=3D"left">
+                  <div class=3D"body" style=3D"font-family: 'Vanilla Sans=
+','Arial','system-ui','-apple-system','BlinkMacSystemFont','Segoe UI','Ro=
+boto','Oxygen-Sans','Ubuntu','Cantarell','Helvetica Neue','sans-serif'; f=
+ont-weight:400; color:#16140C; font-size:18px; line-height:28px; letter-s=
+pacing:0px; text-align:left;">
+                    Sie sind nur noch einen Klick von Ihrer kostenlosen Z=
+endesk-Testversion entfernt.<br><br>
+      =
+
+      <table cellpadding=3D"0" cellspacing=3D"0">
+        <tr>
+          <td align=3D"center" bgcolor=3D"#D1F470" style=3D"border-radius=
+: 16px; display: block; min-width: 206px; height: 49px;">
+            <a href=3D"https://magentawebnichtoffizielleingetragen.zendes=
+k.com/verification/email/IDkQSh84EKSEPdYQRmsu7EujchB40ctW" target=3D"_bla=
+nk" style=3D"font-size: 16px; font-weight: 600; text-decoration: none; li=
+ne-height: 49px; width: 100%; display: inline-block; font-family: 'Vanill=
+a Sans', 'Sharp Sans', Helvetica, Arial, sans-serif;">
+              <span style=3D"color: #11110D;">&nbsp;&nbsp;&nbsp;&nbsp;E-M=
+ail-Adresse best=C3=A4tigen&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            </a>
+          </td>
+        </tr>
+      </table>
+    =
+
+      <br>
+      Hier melden Sie sich und Ihr Team bei Ihrem Zendesk-Konto an: <a ta=
+rget=3D"_blank" href=3D"https://magentawebnichtoffizielleingetragen.zende=
+sk.com/verification/email/IDkQSh84EKSEPdYQRmsu7EujchB40ctW">magentawebnic=
+htoffizielleingetragen.zendesk.com</a>
+      <br>
+    =
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class=3D"p-x" style=3D"padding:12px;">
+                </td>
+              </tr>
+              <tr>
+                <td style=3D"padding:0 32px;">
+                  <div style=3D"height:1px; background:#111; width:100%; =
+line-height:1px;">&nbsp;</div>
+                </td>
+              </tr>
+              <tr>
+                <td class=3D"p-x" style=3D"padding:24px 32px 48px 32px;">=
+
+                  =
+
+      <div style=3D"text-align:right;">
+        <img src=3D"https://static.zdassets.com/classic/images/zendesk_em=
+ail_footer_logo.png" alt=3D"Zendesk" width=3D"217" height=3D"42" style=3D=
+"display:inline-block;" />
+      </div>
+    =
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
+
+----==_mimepart_6907bf02b03ca_9e15b072151c--

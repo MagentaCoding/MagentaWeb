@@ -1,0 +1,169 @@
+MIME-Version: 1.0
+Date: Mon, 03 Nov 2025 04:08:08 -0500
+From: dataprotection@magentaweb.org
+To: gdpr@doublecounter.gg
+Subject: =?UTF-8?Q?Courriel_de_mise_en_demeure_=E2=80=93_Tellter_SAS_/_Do?=
+ =?UTF-8?Q?ubleCounter_/_Doogle?=
+User-Agent: Roundcube Webmail/1.6.11
+Message-ID: <3867640c9ae34b4c930232c6ac910835@magentaweb.org>
+X-Sender: dataprotection@magentaweb.org
+Disposition-Notification-To: dataprotection@magentaweb.org
+X-Priority: 1 (Highest)
+Content-Type: text/plain; charset=UTF-8;
+ format=flowed
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Courriel de mise en demeure – Tellter SAS / DoubleCounter / 
+Doogle</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link 
+href="https://fonts.googleapis.com/css2?family=Tomorrow&display=swap" 
+rel="stylesheet">
+<style>
+     body {
+         font-family: 'Tomorrow', Arial, sans-serif;
+         line-height: 1.6;
+         color: #000;
+         background-color: #fff;
+         margin: 0;
+         padding: 20px;
+     }
+     .header { font-weight: bold; font-size: 1.4em; margin-bottom: 20px; 
+}
+     .intro { margin-bottom: 20px; }
+     .section { margin-bottom: 20px; }
+     table { width: 100%; border-collapse: collapse; margin-bottom: 20px; 
+}
+     th, td { border: 1px solid #000; padding: 8px; text-align: left; }
+     th { background-color: #f0f0f0; }
+     .footer { margin-top: 30px; }
+</style>
+</head>
+<body>
+<div class="header">Courriel de mise en demeure – Tellter SAS / 
+DoubleCounter / Doogle</div>
+
+<div class="intro">
+Monsieur/Madame,
+</div>
+
+<div class="section">
+Par la présente, je, Alexander Gal, vous adresse cette mise en demeure 
+formelle en raison de violations répétées et graves du Règlement Général 
+sur la Protection des Données (RGPD / GDPR) par votre société Tellter 
+SAS, opérant le service DoubleCounter et son outil Doogle.
+Plus de détails sont disponibles sur : <a 
+href="https://datenschutz.magentaweb.org/doogle">https://datenschutz.magentaweb.org/doogle</a>.
+</div>
+
+<div class="section">
+Ces violations incluent, mais ne sont pas limitées à, les points 
+suivants :
+<table>
+     <tr>
+         <th>Article RGPD</th>
+         <th>Description</th>
+         <th>Détails / Justification</th>
+     </tr>
+     <tr>
+         <td>Art. 5 Abs. 1a</td>
+         <td>Traitement illégal des données personnelles</td>
+         <td>Les identifiants Discord sont traités sans consentement 
+valide ni base légale appropriée.</td>
+     </tr>
+     <tr>
+         <td>Art. 5 Abs. 1b</td>
+         <td>Utilisation des données à d'autres fins</td>
+         <td>Les données de vérification sont utilisées pour la recherche 
+d’« alt-accounts », même après opt-out.</td>
+     </tr>
+     <tr>
+         <td>Art. 5 Abs. 1c</td>
+         <td>Minimisation des données non respectée</td>
+         <td>Chaque utilisateur peut interroger plusieurs ID 
+d’utilisateurs → surtraitement massif. La fonction « Alts » amplifie le 
+problème.</td>
+     </tr>
+     <tr>
+         <td>Art. 5 Abs. 1d</td>
+         <td>Inexactitudes</td>
+         <td>La DPIA affirme qu’aucune donnée personnelle n’est affichée, 
+mais les Discord-IDs sont des données personnelles.</td>
+     </tr>
+     <tr>
+         <td>Art. 6 Abs. 1f</td>
+         <td>Intérêt légitime insuffisant</td>
+         <td>L’intérêt légitime invoqué pour la modération est appliqué à 
+tous les utilisateurs sans réelle analyse des droits.</td>
+     </tr>
+     <tr>
+         <td>Art. 12–14</td>
+         <td>Manque de transparence / information</td>
+         <td>La Privacy Policy ne couvre pas concrètement LIA/DPIA, pas 
+d’information sur les traitements ni sur les restrictions 
+d’opt-out.</td>
+     </tr>
+     <tr>
+         <td>Art. 15</td>
+         <td>Droit d’accès</td>
+         <td>Impossible avant vérification / opt-out. Aucun accès réel 
+aux données n’est fourni.</td>
+     </tr>
+     <tr>
+         <td>Art. 17</td>
+         <td>Droit à l’effacement</td>
+         <td>Même après opt-out, les utilisateurs peuvent être retrouvés 
+via leurs « Alts ». Données pratiquement non effacées.</td>
+     </tr>
+     <tr>
+         <td>Art. 21</td>
+         <td>Droit d’opposition</td>
+         <td>Opt-out uniquement via serveur Discord après vérification. 
+Fonction « Alts » empêche opposition complète.</td>
+     </tr>
+     <tr>
+         <td>Art. 25</td>
+         <td>Privacy by Design insuffisant</td>
+         <td>Aucune pseudonymisation ni contrôle d’accès garanti. Risque 
+élevé d’abus.</td>
+     </tr>
+     <tr>
+         <td>Art. 32</td>
+         <td>Sécurité insuffisante</td>
+         <td>Contrôles d’accès, chiffrement et journalisation seulement 
+mentionnés de manière vague. Tout utilisateur peut interroger des 
+IDs.</td>
+     </tr>
+     <tr>
+         <td>Art. 35</td>
+         <td>DPIA insuffisante</td>
+         <td>Évaluation des risques contradictoire, uniquement déclarée, 
+pas objective.</td>
+     </tr>
+     <tr>
+         <td>Art. 36</td>
+         <td>Consultation de l’autorité non effectuée</td>
+         <td>Malgré les risques de mauvaise utilisation, aucune 
+notification à la CNIL.</td>
+     </tr>
+</table>
+</div>
+
+<div class="section">
+Je vous mets en demeure de cesser immédiatement le traitement illégal 
+des données personnelles et de respecter intégralement les obligations 
+du RGPD, y compris, mais sans s’y limiter, la suppression complète des 
+données personnelles collectées sans consentement.
+</div>
+
+<div class="footer">
+Cordialement,<br>
+Alexander Gal
+</div>
+</body>
+</html>

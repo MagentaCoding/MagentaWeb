@@ -1,0 +1,1359 @@
+AWSTATS DATA FILE 8.0 (build 20240604)
+# If you remove this file, all statistics for date 202510 will be lost/reset.
+# Last config file used to build this data file was /home/magentaw/tmp/awstats/awstats.magentaweb.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2082                
+POS_TIME 2762                
+POS_VISITOR 27419               
+POS_DAY 43874               
+POS_DOMAIN 3641                
+POS_LOGIN 4240                
+POS_ROBOT 4395                
+POS_WORMS 5059                
+POS_EMAILSENDER 5190                
+POS_EMAILRECEIVER 5333                
+POS_SESSION 44704               
+POS_FILESIZE 45008               
+POS_REQUESTTIME 45124               
+POS_SIDER 44883               
+POS_FILETYPES 5468                
+POS_DOWNLOADS 5572                
+POS_OS 5620                
+POS_BROWSER 6156                
+POS_SCREENSIZE 8499                
+POS_UNKNOWNREFERER 8573                
+POS_UNKNOWNREFERERBROWSER 9548                
+POS_ORIGIN 10087               
+POS_SEREFERRALS 10223               
+POS_PAGEREFS 10463               
+POS_SEARCHWORDS 10689               
+POS_KEYWORDS 10841               
+POS_MISC 2425                
+POS_ERRORS 10900               
+POS_CLUSTER 4096                
+POS_SIDER_404 11027               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20251101005550 79 11573 15917564060007
+FirstTime 20251001015552
+LastTime 20251031234126
+LastUpdate 20251101081110 79 0 78 0 0
+TotalVisits 577                 
+TotalUnique 418                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 418                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 66 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 20 20 479938 99 105 3761340
+1 25 25 534157 142 149 2571246
+2 28 28 655029 240 300 8673451
+3 23 23 474292 180 192 2630870
+4 27 27 623760 153 160 1491231
+5 18 18 410766 108 116 3679647
+6 18 18 376502 117 129 3783026
+7 18 18 444972 88 100 2565538
+8 22 22 472742 133 142 2556043
+9 20 20 453575 93 107 2593283
+10 36 36 828162 204 211 1611309
+11 68 68 1644780 148 160 1513700
+12 61 61 1581132 168 178 1483178
+13 33 33 814051 123 134 2598542
+14 53 53 1241571 395 442 3250456
+15 22 22 494920 126 131 2570183
+16 8 8 155963 111 115 1373040
+17 14 14 316257 104 111 2554625
+18 21 21 471230 150 159 1506757
+19 13 13 284610 88 97 3672365
+20 24 24 376022 80 90 7141779
+21 25 25 566800 66 74 4776113
+22 55 55 1188673 183 198 6141994
+23 58 58 1384492 167 183 7291354
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 27
+us 290 290 6928020
+cn 163 163 3716661
+jp 98 98 2286301
+in 41 41 717836
+ru 22 22 424896
+ca 16 16 394751
+gb 14 14 313564
+de 14 14 302666
+rs 7 7 188709
+ro 6 6 148384
+kr 6 6 127831
+se 5 5 122783
+gr 4 4 89571
+nl 4 4 78482
+eu 4 4 110996
+zz 2 2 37298
+bg 2 2 18649
+ao 2 2 37298
+ir 2 2 46122
+be 1 1 29487
+ua 1 1 29487
+au 1 1 18649
+tr 1 1 22535
+my 1 1 18649
+hk 1 1 22535
+lt 1 1 23587
+pl 1 1 18649
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 14
+no_user_agent 11 273911 20251031144418 0
+Googlebot/ 11 235658 20251016060806 0
+checker 6 163018 20251027153019 0
+curl 5 118807 20251028024319 0
+Go\-http\-client/ 5 133531 20251031144433 0
+bot[\s_+:,\.\;\/\\-] 4 89571 20251021041044 0
+(firefox/)([0-9]\.|[0-1][0]\.) 4 83742 20251019115449 0
+bingbot/ 2 53074 20251025172113 0
+DuckDuckBot 2 15244 20251029190607 0
+BW/ 2 48136 20251024184318 0
+bitlybot 1 29487 20251031075936 0
+AhrefsBot/ 1 18649 20251003071524 0
+W3C_Validator/ 1 18649 20251005111540 0
+crawl 1 23587 20251020090218 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+cgi 17 129574 0 0
+html 693 16144822 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 34
+android10 9 9
+androidfroyo 1 1
+win8 1 1
+androidlollipop 1 1
+symbian 1 1
+macosx 4 4
+os/2 1 1
+ios_iphone 264 264
+Unknown 49 49
+win8.1 3 3
+bsdfreebsd 1 1
+linux 39 39
+psp 1 1
+win11 1 1
+win2000 2 2
+linuxubuntu 11 11
+winxp 4 4
+androidoreo 1 1
+winnt 3 3
+androidmarshmallow 3 3
+macosx15 18 18
+macosx13 22 22
+win10 200 200
+winlong 1 1
+androidnougat 1 1
+androideclair 1 1
+androidkitkat 1 1
+macos12 2 2
+androidpie 7 7
+macosx8 2 2
+macosx11 7 7
+win7 46 46
+macosx14 1 1
+android11 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 116
+chrome78.0.3904.108 28 28
+chrome47.0.2526.106 6 6
+chrome120.0.0.0 2 2
+netscape5.0 4 4
+chrome78.0.3904.70 1 1
+firefox33.0 2 2
+chrome80.0.3987.132 3 3
+chrome139.0.0.0 14 14
+chrome135.0.0.0 3 3
+chrome112.0.5615.138 1 1
+firefox16.0 1 1
+chrome91.0.4472.124 5 5
+firefox127.0 1 1
+chrome79.0.3945.79 5 5
+firefox54.0 1 1
+chrome93.0.689 1 1
+chrome114.0.0.0 3 3
+chrome81.0.4044.138 1 1
+opera9.01 1 1
+firefox113.0 1 1
+chrome58.0.1229 1 1
+nokia 1 1
+firefox114.0 1 1
+chrome83.0.4103.106 1 1
+chrome133.0.0.0 1 1
+firefox115 2 2
+chrome117.0.5938.132 5 5
+chrome116.0.5845.96 1 1
+itunes 1 1
+chrome25.0.1349.2 1 1
+chrome105.0.0.0 1 1
+safari13.0.3 260 260
+webcopier 1 1
+chrome80.0.3987.149 3 3
+chrome61.0.3163.100 1 1
+chrome124.0.6367.243 1 1
+iphone 1 1
+msie6.0 4 4
+chrome118.0.0.0 1 1
+firefox126.0 4 4
+chrome101.0.4951.54 1 1
+chrome90.0.4430.85 3 3
+opera122.0.0.0 1 1
+chrome83.0.4103.61 5 5
+chrome94.0.4606.61 10 10
+firefox102.0 3 3
+chrome36.0.1985.125 1 1
+safari 2 2
+chrome129.0.0.0 2 2
+opera6.01 1 1
+firefox24.0 2 2
+chrome128.0.0.0 1 1
+chrome106.0.0.0 2 2
+safari13.1.2 22 22
+msie9.0 31 31
+firefox61.4 1 1
+chrome115.0.0.0 4 4
+chrome114.0.5735.134 1 1
+chrome100.0.4896.127 1 1
+opera11.01 1 1
+chrome103.0.5060.66 1 1
+safari15.4 1 1
+chrome107.0.0.0 2 2
+chrome131.0.0.0 4 4
+chrome52.0.1248.98 3 3
+firefox55.0 1 1
+chrome95.0.4638.69 30 30
+chrome57.0.2987.132 3 3
+firefox134.0 7 7
+chrome93.0.1251 1 1
+firefox38.0 1 1
+chrome80.0.3987.162 2 2
+chrome101.0.4951.41 4 4
+chrome96.0.2959 1 1
+chrome98.0.4758.141 2 2
+chrome76.0.3809.132 1 1
+chrome96.0.1307 1 1
+chrome108.0.0.0 1 1
+chrome126.0.0.0 2 2
+chrome92.0.4515.107 9 9
+firefox115.0 1 1
+opera89.0.4447.51 1 1
+chrome79.0 3 3
+netscape4.0 1 1
+chrome46.0.2490.22 1 1
+firefox19.0 2 2
+chrome141.0.0.0 2 2
+chrome91.0.4472.114 3 3
+chrome125.0.6422.60 4 4
+firefox47.0 3 3
+chrome124.0.0.0 1 1
+chrome89.0.4389.114 3 3
+chrome100.0.4896.75 1 1
+safari17.4 1 1
+chrome88.0.4240.193 59 59
+firefox136.0 1 1
+chrome42.0.2311.90 1 1
+chrome137.0.0.0 2 2
+chrome140.0.7339.186 1 1
+android 6 6
+chrome104.0.0.0 2 2
+Unknown 32 32
+msie11.0 1 1
+safari16.5 1 1
+chrome132.0.0.0 1 1
+firefox133.0 2 2
+firefox139.0 7 7
+chrome35.0.1916.153 1 1
+firefox125.0.1 1 1
+chrome98.0.4758.102 1 1
+chrome4.0.277.0 1 1
+chrome121.0.0.0 1 1
+chrome109.0.5414.46 1 1
+firefox27.0 1 1
+chrome15.0.874.120 1 1
+mozilla 11 11
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 17
+python-requests/2.23.0 20251009042336
+python-httpx/0.28.1 20251029205833
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20251030234307
+python-requests/2.32.5 20251029034633
+Mozilla/5.0_(compatible;_ips-agent) 20251002080231
+Python/3.11_aiohttp/3.11.11 20251008070543
+Mozilla/5.0 20251017220647
+python-requests/2.28.2 20251021104822
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20251028043813
+Mozilla/5.0_Firefox/33.0 20251002121616
+GoogleOther 20251031075938
+Roku/DVP-4.1_(024.01E01250A) 20251008111512
+WebCopier_v4.6 20251010111004
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20251030094018
+python-requests/2.32.3 20251007153559
+Mozilla/5.0_zgrab/0.x 20251006110743
+Mozilla/5.0_(compatible;_Dataprovider.com) 20251031112939
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 9
+python-httpx/0.28.1 20251029205833
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20251028043813
+python-requests/2.23.0 20251009042336
+Roku/DVP-4.1_(024.01E01250A) 20251008111512
+python-requests/2.32.5 20251029034633
+GoogleOther 20251031075938
+python-requests/2.28.2 20251021104822
+Python/3.11_aiohttp/3.11.11 20251008070543
+python-requests/2.32.3 20251007153559
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 657 657
+From1 1 1
+From2 41 41
+From3 3 3
+From4 8 8
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 5
+www_google_com 36 36
+www_google_com_hk 1 1
+www_google_ru 1 1
+www_bing_com 1 1
+www_google_fr 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://www.eavuinsr.online 2 2
+https://magellanspace.com.au//wp-login.php 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+403 2 1613
+404 3639 5952999
+302 18 4166
+400 2 3118
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 443
+/wp1/wp-includes/wlwmanifest.xml 61 -
+/phpversion.php 1 -
+/.vscode/sftp.json 3 -
+/th1s_1s_a_4o4.html 31 http://www.google.com/url
+/configs/s3_config.json 2 -
+//wp-content/plugins/cloudflare/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/phpinfo.php 6 -
+//core/.env 1 https://www.google.com/
+/setup.php 1 -
+/controllers/settings.js 2 -
+//public/.env 1 https://www.google.com/
+/node_modules/.env 2 -
+/config.js 2 -
+/cron/config.json 1 https://www.google.com/
+/old/wp-admin/setup-config.php 1 -
+/lab/.env 1 https://www.google.com/
+//backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/.envrc 1 -
+/api/objects/codes.php.save 2 -
+/karma.conf.json 2 -
+/getcpuutil.php-bakworking 2 -
+/sendgrid.env 2 -
+/cronlab/.env 1 https://www.google.com/
+/.env.prod 2 -
+/apis/controllers/users.js 2 -
+/graphql/api 2 -
+/api/gql 2 -
+/lara/phpinfo.php 2 -
+/cron/.env 3 -
+/app_dev.php/_profiler/phpinfo 4 -
+//phpunit/Util/PHP/eval-stdin.php 1 https://www.google.com/
+//phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/exapi/.env 1 https://www.google.com/
+/.env.local 3 -
+//vendor/phpunit/Util/PHP/eval-stdin.php 1 https://www.google.com/
+http://magentaweb.org:80/cms/wp-includes/wlwmanifest.xml 2 -
+/s3.js 2 -
+/wp-content/plugins/dzs-videogallery/class_parts/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+http://magentaweb.org:80/wp/wp-includes/wlwmanifest.xml 2 -
+/app/config.json 1 https://www.google.com/
+//dev/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/server-info.php 3 -
+//cron/.env 1 https://www.google.com/
+/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/dev.php 1 -
+/server-info 2 -
+http://magentaweb.org:80/wordpress/wp-includes/wlwmanifest.xml 2 -
+/aws.yml 2 -
+/.env.production 2 -
+//protected/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/info 1 -
+/api/config.js 2 -
+/new/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/site/wp-includes/wlwmanifest.xml 61 -
+/config/constants.js 2 -
+http://magentaweb.org:80/wp-includes/ID3/license.txt 2 -
+/cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/en/config.json 1 https://www.google.com/
+/wp-config.php.bak 2 -
+/test.php 4 -
+/aws/credentials 2 -
+/dev/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/swagger/swagger-ui.html 2 -
+/core/app/.env 1 https://www.google.com/
+/storage/logs/laravel.log 2 -
+/docker/app/.env 2 -
+/wordpress/wp-admin/setup-config.php 859 -
+http://magentaweb.org:80/web/wp-includes/wlwmanifest.xml 2 -
+/.git/config 16 -
+/database/config.json 1 https://www.google.com/
+/user/controllers/index.js 2 -
+/apis/config/config.js 2 -
+/admin/controllers/merchant.js 2 -
+/v2/config.json 1 https://www.google.com/
+/telescope/requests 3 -
+/.env.production.local 2 -
+/ozgcxtnw 2 -
+/vendor/.env 1 https://www.google.com/
+/v1/config.json 1 https://www.google.com/
+/app.js 2 -
+/shop/wp-admin/install.php 1 -
+//cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/.git/refs/heads/main 1 -
+/wp-includes/ID3/license.txt 26 -
+//en/.env 1 https://www.google.com/
+/api/graphql 2 -
+//laravel/.env 1 https://www.google.com/
+//site/.env 1 https://www.google.com/
+/lib/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/configs/routes.js 2 -
+/my_env/chakaash.py 2 -
+/wp2/wp-includes/wlwmanifest.xml 33 -
+/health.php 1 -
+/web/config.json 1 https://www.google.com/
+/wp-login.php 7 -
+/.git/FETCH_HEAD 2 -
+/server/config/database.js 2 -
+/admin/config 2 -
+/exapi/config.json 1 https://www.google.com/
+/dev/.env 4 -
+/mailer/.env 2 -
+/lib/phpunit/phpunit/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/site/.env 3 -
+http://magentaweb.org:80/feed/ 2 -
+//www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/.env.save.1 2 -
+/news/wp-includes/wlwmanifest.xml 33 -
+/.circleci/configs/development.yml 2 -
+/api-docs/swagger.json 2 -
+/helpers/utility.js 2 -
+/site/config.json 1 https://www.google.com/
+/api/config.json 1 https://www.google.com/
+/vendor/phpunit/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/webjars/swagger-ui/index.html 2 -
+/@vite/env 3 -
+//wp-content/plugins/dzs-videogallery/class_parts/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+//database/.env 1 https://www.google.com/
+/api/config.env 2 -
+//sites/all/libraries/mailchimp/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/blog//xmlrpc.php 1 -
+/.env 11 https://www.google.com/
+/config/local.yml 2 -
+/config/parameters.yml 2 -
+/wp-includes/js/jquery/jquery.js 9 -
+//tools/.env 1 https://www.google.com/
+/login.action 3 -
+/protected/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/vendor/config.json 1 https://www.google.com/
+//new/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/.config.yaml 2 -
+/psnlink/.env 1 https://www.google.com/
+/main.yml 2 -
+/admin/server_info.php 2 -
+/app/.env 6 -
+/twilio.env 2 -
+/2018/wp-includes/wlwmanifest.xml 12 -
+//blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+//v2/.env 1 https://www.google.com/
+/settings.py 2 -
+/config.env 2 -
+//core/app/.env 1 https://www.google.com/
+/config/storage.yml 2 -
+/development/.env 2 -
+/api/swagger.json 2 -
+/config.json 6 -
+/.git/refs/heads/master 2 -
+/laravel/.env 5 -
+/about 3 -
+/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/website/.env 2 -
+/portal/.env 2 -
+//lab/.env 1 https://www.google.com/
+/s/1333e26373e2231313e24373/_/ 3 -
+/helper.js 2 -
+/application/.env 2 -
+/.git/logs/HEAD 2 -
+/lara/info.php 2 -
+/my_env/newsletter.py 2 -
+/swagger/index.html 2 -
+/.env.stage 2 -
+/wordpress/wp-includes/wlwmanifest.xml 61 -
+/controller/admin/post.js 2 -
+//lib/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/new/.env 2 -
+/.env.old 4 -
+/sitemaps/config.json 1 https://www.google.com/
+//lib/.env 1 https://www.google.com/
+/wordpress/ 1 -
+/static/js/main.141b0494.js 2 -
+/.env.bak 4 -
+/wp-content/plugins/cloudflare/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/www/.env 2 -
+/media/wp-includes/wlwmanifest.xml 12 -
+/lab/config.json 1 https://www.google.com/
+/xampp/.env 2 -
+/feed/ 28 -
+/admin/config.json 1 https://www.google.com/
+/index.js 2 -
+/env/.env 2 -
+/application.properties 2 -
+/config/settings.local 2 -
+/config/aws.yml 2 -
+/sites/all/libraries/mailchimp/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/llms.txt 1 -
+/docker/.env 2 -
+//saas/.env 1 https://www.google.com/
+//apps/.env 1 https://www.google.com/
+/.well-known/security.txt 2 -
+/uploads/config.json 1 https://www.google.com/
+/wp/wp-admin/setup-config.php 1 -
+/wp-content/plugins/jekyll-exporter/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/.git/refs/remotes/origin/HEAD 1 -
+/wp-includes/wlwmanifest.xml 33 -
+/web/.env 5 -
+/mail/.env 2 -
+//phpunit/phpunit/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/.env_sample 2 -
+/api/.env 7 -
+/sms.py 2 -
+/api 2 -
+//v1/.env 1 https://www.google.com/
+//lib/phpunit/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/shop/wp-admin/setup-config.php 1 -
+//sitemaps/.env 1 https://www.google.com/
+/saas/.env 1 https://www.google.com/
+//vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/.vscode/.env 2 -
+/swagger-ui.html 2 -
+/saas/config.json 1 https://www.google.com/
+/admin/.env 5 -
+/wp-admin/install.php 1 -
+/v2/_catalog 3 -
+/api/config/config.yml 2 -
+/node/.env_example 2 -
+/.git/packed-refs 2 -
+/user/config/config.js 2 -
+/_phpinfo.php 2 -
+/backend/.env 5 -
+/.env.staging 2 https://www.google.com/
+/_profiler/phpinfo/info.php 2 -
+//app/.env 1 https://www.google.com/
+/en/.env 1 https://www.google.com/
+/.env.example 5 -
+//cronlab/.env 1 https://www.google.com/
+/.git/ORIG_HEAD 2 -
+/info.php 7 -
+/server-status 3 -
+/new/wp-admin/setup-config.php 1 -
+/core/Datavase/config.json 1 https://www.google.com/
+/admin/phpinfo.php 1 -
+http://magentaweb.org:80/shop/wp-includes/wlwmanifest.xml 2 -
+/pinfo.php 1 -
+/.git/index 2 -
+/demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/new/.env.production 2 -
+/2020/wp-includes/wlwmanifest.xml 48 -
+http://magentaweb.org:80/wp1/wp-includes/wlwmanifest.xml 2 -
+/v2/.env 1 https://www.google.com/
+/config/settings.json 2 -
+/api/shared/.env 2 -
+/login/ 3 -
+/phpinfo 4 -
+/server 3 -
+/controller/api/post.js 2 -
+/cloud/Scraper.js 2 -
+/ads.txt 1 -
+/laravel/core/.env 2 -
+/backend/config/default.yml 2 -
+/swagger/v1/swagger.json 2 -
+/shared/config/config.js 2 -
+/my_env/palash.py 2 -
+http://magentaweb.org:80/test/wp-includes/wlwmanifest.xml 2 -
+/static/js/main.e85f7a37.js 2 -
+/assets/.env 1 https://www.google.com/
+/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 3 -
+/admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/v1/.env 1 https://www.google.com/
+/tools/config.json 1 https://www.google.com/
+/lib/.env 1 https://www.google.com/
+/local/.env 2 -
+//old/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/administrator/config.json 1 https://www.google.com/
+/config/application.yml 2 -
+//vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/.git/info/exclude 2 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+//admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/debug/default/view 7 -
+/_all_dbs 3 -
+/admin/controllers/partner.js 2 -
+//core/Datavase/.env 1 https://www.google.com/
+/panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/cmd_sco 1 -
+/blog/wp-admin/setup-config.php 1 -
+/staging/.env 2 -
+/swagger.json 3 -
+/sito/wp-includes/wlwmanifest.xml 33 -
+//api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/mytest/astech_robot.js 2 -
+/2019/wp-includes/wlwmanifest.xml 60 -
+/backend/config/development.yml 2 -
+/cronlab/config.json 1 https://www.google.com/
+/graphql 2 -
+/wp-config 2 -
+/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/phpunit/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/static/js/2.ca066a4b.chunk.js 2 -
+/blog/robots.txt 1 https://magellanspace.com.au//wp-login.php
+//lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+//laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/public/config.json 1 https://www.google.com/
+/phpunit/phpunit/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/test/wp-includes/wlwmanifest.xml 61 -
+/api/shared/config.env 2 -
+/app/config/parameters.yml 2 -
+http://magentaweb.org:80/xmlrpc.php 2 -
+/lib/phpunit/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/vendor/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/_profiler/phpinfo 3 -
+/website/wp-includes/wlwmanifest.xml 33 -
+/xampp/phpinfo.php 2 -
+/conf/.env 2 -
+/blog//wp-json/oembed/1.0/embed 1 https://magellanspace.com.au//wp-login.php
+/wp-content/plugins/mm-plugin/inc/vendors/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/blog//wp-json/wp/v2/users/ 1 https://magellanspace.com.au//wp-login.php
+/.AWS_/credentials 2 -
+/cms/wp-includes/wlwmanifest.xml 61 -
+/www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/core/Datavase/.env 1 https://www.google.com/
+/core/app/config.json 1 https://www.google.com/
+/.well-known/autoconfig/mail/config-v1.1.xml 10 -
+/scripts/nodemailer.js 2 -
+/storage/.env 1 -
+/old/wp-admin/install.php 1 -
+/backend/config/settings.yml 2 -
+/config/.env 2 -
+/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/env.backup 2 -
+/database/.env 1 https://www.google.com/
+http://magentaweb.org:80/2020/wp-includes/wlwmanifest.xml 2 -
+//panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/.aws/credentials 2 -
+//uploads/.env 1 https://www.google.com/
+/core/.env 5 -
+/humans.txt 1 -
+/gatsby-config.js 2 -
+/old/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/core/config.json 1 https://www.google.com/
+//exapi/.env 1 https://www.google.com/
+/tools/.env 1 https://www.google.com/
+/test 3 -
+/prod/.env 2 -
+/crm/.env 2 -
+/.production 3 https://www.google.com/
+/awstats/.env 2 -
+//wp-content/plugins/mm-plugin/inc/vendors/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+http://magentaweb.org:80/blog/wp-includes/wlwmanifest.xml 2 -
+/blog/wp-admin/install.php 1 -
+/config/config.json 3 -
+/wordpress/wp-admin/install.php 1 -
+/lib/config.json 1 https://www.google.com/
+/.DS_Store 3 -
+/blog//wp-login.php 1 magentaweb.org/blog//wp-login.php
+/phpinfo.php.bak 1 -
+/status.php 1 -
+/temp/info.php 1 -
+/test/wp-admin/install.php 1 -
+/blog/wp-includes/wlwmanifest.xml 61 -
+/images/.env 2 -
+/js/main.js 2 -
+/server/s3.js 2 -
+/app.py 2 -
+/lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/php.php 1 -
+/uploads/.env 1 https://www.google.com/
+/secrets.env 2 -
+/sitemaps/.env 1 https://www.google.com/
+/blog// 1 https://magellanspace.com.au//wp-login.php
+/configs/routes-4aug.js 2 -
+/api/shared/config/config.env 2 -
+/public/js/main.js 2 -
+/shop/wp-includes/wlwmanifest.xml 60 -
+//lib/phpunit/phpunit/Util/PHP/eval-stdin.php 1 https://www.google.com/
+//assets/.env 1 https://www.google.com/
+/public/.env 3 -
+//vendor/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/.git/objects/info/packs 2 -
+/.env.save 3 https://www.google.com/
+/.env.dev 1 -
+/v3/api-docs 2 -
+/wp-json/sure-triggers/v1/automation/action 1 -
+/.aws/config 2 -
+/app/ 3 -
+/2021/wp-includes/wlwmanifest.xml 28 -
+//demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/phpinfo/ 2 -
+/test/wp-admin/setup-config.php 1 -
+/administrator/.env 1 https://www.google.com/
+/main/.env 2 -
+http://magentaweb.org:80/2021/wp-includes/wlwmanifest.xml 2 -
+/new/.env.local 2 -
+/shared/.env 1 -
+/robots.txt 122 -
+/.git/HEAD 1 -
+//admin/.env 1 https://www.google.com/
+//psnlink/.env 1 https://www.google.com/
+/.env.save1 1 https://www.google.com/
+/API/.env 2 -
+/media/system/js/core.js 10 -
+//vendor/.env 1 https://www.google.com/
+/assets/config.json 1 https://www.google.com/
+//web/.env 1 https://www.google.com/
+/v2/api-docs 2 -
+/actuator/env 3 -
+/laravel/config.json 1 https://www.google.com/
+/new/wp-admin/install.php 1 -
+/sitemap.xml 7 -
+/.travis.yml 2 -
+/partner/config/config.js 2 -
+//api/.env 1 https://www.google.com/
+/aws-secret.yaml 2 -
+/wp/wp-admin/install.php 1 -
+//administrator/.env 1 https://www.google.com/
+http://magentaweb.org:80/site/wp-includes/wlwmanifest.xml 2 -
+/config/settings.prod 2 -
+/security.txt 1 -
+/api/shared/config/.env 2 -
+//phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/main.js 2 -
+/wp-admin/setup-config.php 845 -
+/apps/.env 3 -
+/psnlink/config.json 1 https://www.google.com/
+/wp-includes/css/buttons.css 1 -
+/info/ 2 -
+/apps/config.json 1 https://www.google.com/
+/blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/helper/EmailHelper.js 2 -
+/server_info.php 2 -
+/.local 3 https://www.google.com/
+/.env.backup 2 -
+/sysinfo.php 1 -
+/i.php 1 -
+/dashboard/phpinfo.php 2 -
+/secured/phpinfo.php 2 -
+/kyc/.env 2 -
+/web/wp-includes/wlwmanifest.xml 61 -
+http://magentaweb.org:80/2019/wp-includes/wlwmanifest.xml 2 -
+/swagger.js 2 -
+/js/.env 2 -
+/_profiler/phpinfo/phpinfo.php 2 -
+/appsettings.json 4 -
+/xmlrpc.php 61 https://magellanspace.com.au//wp-login.php
+/service/email_service.py 2 -
+/.remote 3 https://www.google.com/
+/wp/wp-includes/wlwmanifest.xml 61 -
+/laravel/info.php 2 -
+//config/.env 1 https://www.google.com/
+//wp-content/plugins/jekyll-exporter/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 1 https://www.google.com/
+/nginx/.env 2 -
+/server.js 2 -
+/new/.env.staging 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 418
+23.236.152.37 22 22 648714 20251026125633
+124.150.139.60 19 19 354653 20251006143027
+13.231.125.236 12 12 247587 20251010162006
+183.134.59.131 12 12 231882 20251011230323
+45.148.10.205 10 10 76220 20251029205833
+54.248.129.117 9 9 247683 20251030052106
+184.154.139.43 9 9 218093 20251028125217
+182.42.111.213 5 5 124797 20251028003535
+182.42.105.85 5 5 110893 20251022023842
+123.187.240.242 5 5 123745 20251026133033
+182.44.8.254 4 4 94258 20251024140541
+184.154.76.44 4 4 94419 20251025133721
+223.244.35.77 4 4 84633 20251021085522
+125.75.66.97 4 4 94357 20251022145041
+36.41.75.167 4 4 88358 20251015041859
+184.154.139.45 4 4 93296 20251018115729
+198.20.67.197 4 4 96433 20251031125422
+49.7.227.204 4 4 79856 20251012210344
+4.43.184.114 4 4 94258 20251025131126
+125.94.144.102 4 4 105096 20251026011908
+175.6.217.4 4 4 100248 20251027184551
+182.42.111.156 4 4 95471 20251023022029
+106.227.49.113 4 4 93296 20251021204211
+185.55.240.47 3 3 70761 20251016231659
+44.199.203.226 3 3 67605 20251009142753
+162.243.62.9 1 1 23587 20251018224940
+43.135.133.194 1 1 23587 20251019232802
+182.43.70.143 1 1 22535 20251010021630
+143.198.8.155 1 1 29487 20251026083102
+43.130.141.193 1 1 18810 20251007223033
+143.244.139.226 1 1 29487 20251027085058
+145.239.161.191 2 2 18810 20251005205904
+103.6.196.61 1 1 18649 20251005123431
+103.75.187.239 1 1 29487 20251024002106
+106.75.66.241 1 1 22535 20251012000118
+82.23.125.93 1 1 29487 20251030102058
+147.182.200.94 1 1 29487 20251031144418
+82.147.84.12 2 2 46122 20251015185751
+176.53.220.127 1 1 22535 20251008024317
+43.135.133.241 2 2 52022 20251027234921
+54.157.172.207 1 1 29487 20251025134242
+183.207.45.112 1 1 22535 20251009000321
+43.166.128.187 1 1 18649 20251001080418
+13.222.160.111 1 1 29487 20251023105143
+69.160.160.50 1 1 23587 20251020090220
+43.130.12.43 2 2 58974 20251028233309
+221.232.249.221 1 1 18649 20251003202256
+170.106.161.78 1 1 23587 20251012224258
+34.173.171.147 3 3 67605 20251009235119
+113.141.91.58 1 1 29487 20251028124857
+159.203.117.77 1 1 29487 20251026201017
+43.159.152.187 1 1 18649 20251003140511
+104.249.17.103 1 1 29487 20251030102058
+171.22.183.108 2 2 58974 20251025061804
+193.32.126.166 3 3 70761 20251022023821
+223.15.245.170 1 1 7622 20251029235908
+45.90.60.116 1 1 22535 20251009064345
+150.109.119.38 1 1 22535 20251009110600
+113.219.218.197 1 1 29487 20251029001624
+205.169.39.65 2 2 58974 20251031073442
+43.157.95.131 2 2 41184 20251008222620
+182.42.105.144 2 2 42397 20251015215326
+93.158.90.43 1 1 29487 20251026170619
+146.190.237.11 1 1 18649 20251004211205
+13.217.20.243 1 1 22535 20251012110252
+205.210.31.150 1 1 23587 20251018024056
+18.134.165.58 1 1 29487 20251024025518
+170.106.165.76 1 1 29487 20251030140819
+54.174.189.217 1 1 22535 20251011114032
+44.222.164.49 1 1 23587 20251022131731
+162.14.197.180 2 2 37298 20251002124806
+182.44.2.148 2 2 48297 20251022202712
+49.51.203.164 1 1 29487 20251025140639
+43.135.130.202 1 1 29487 20251022235207
+173.236.218.94 1 1 22535 20251011011527
+170.106.110.146 1 1 23587 20251015225654
+124.226.222.66 1 1 18649 20251004105431
+43.153.86.78 1 1 29487 20251026235015
+101.32.49.171 2 2 46122 20251019110636
+207.154.214.149 1 1 23587 20251014221340
+175.44.42.100 2 2 47174 20251020075849
+43.130.67.6 1 1 23587 20251012224335
+170.106.140.110 1 1 29487 20251023235153
+43.153.10.13 1 1 29487 20251026140603
+43.153.204.189 1 1 22535 20251008222902
+199.45.155.82 2 2 47174 20251020115221
+184.154.139.42 3 3 70671 20251029175251
+164.92.94.143 3 3 67605 20251012013231
+87.236.176.72 1 1 29487 20251030234307
+159.89.165.192 1 1 18810 20251006221904
+43.133.220.37 1 1 22535 20251010223707
+3.87.111.159 1 1 18649 20251002070509
+180.102.134.69 1 1 22535 20251009023847
+182.42.110.255 3 3 76661 20251026071457
+184.154.36.163 3 3 70671 20251023122906
+139.155.139.22 2 2 45070 20251012171503
+54.210.175.58 1 1 18649 20251002052909
+49.51.252.146 1 1 23587 20251013140532
+118.194.250.232 1 1 18649 20251003174713
+167.94.146.51 1 1 18649 20251001092914
+43.156.156.96 1 1 23587 20251014140636
+185.242.177.19 3 3 56430 20251007153559
+62.141.44.236 2 2 30157 20251029182724
+129.211.215.233 3 3 63880 20251011174334
+8.36.86.50 2 2 37298 20251002121616
+93.158.90.65 1 1 22535 20251009221901
+117.33.163.216 2 2 53074 20251024074135
+188.130.211.151 1 1 18810 20251006184331
+176.53.218.26 1 1 22535 20251010023040
+194.24.161.208 3 3 56430 20251006062350
+43.166.255.102 1 1 7622 20251029234057
+54.210.60.140 1 1 29487 20251028113830
+43.153.104.196 1 1 23587 20251018230101
+203.33.203.148 3 3 61046 20251020032342
+147.185.132.12 1 1 29487 20251028043813
+34.1.24.57 3 3 70761 20251022132815
+182.44.67.97 2 2 52022 20251030120157
+43.166.1.243 1 1 18649 20251001213023
+64.23.153.43 1 1 23587 20251020033507
+93.158.71.185 1 1 23587 20251017013349
+176.53.216.158 1 1 18649 20251005024537
+93.118.41.103 3 3 70761 20251019153604
+124.221.245.78 3 3 63719 20251011054944
+149.88.98.69 1 1 18810 20251007094602
+134.199.235.12 3 3 88461 20251027220252
+43.159.149.56 1 1 22535 20251011223140
+91.231.89.17 1 1 29487 20251026192541
+170.106.163.48 1 1 18649 20251003110433
+43.166.253.94 2 2 53074 20251024110613
+46.202.38.112 1 1 29487 20251030102058
+43.157.22.57 1 1 23587 20251016110423
+43.135.145.73 1 1 18649 20251004225024
+13.221.53.152 1 1 18810 20251006095857
+167.94.138.189 2 2 58974 20251030094018
+91.227.68.187 1 1 0 20251022163136
+52.68.24.176 3 3 70761 20251014114652
+43.157.168.43 1 1 29487 20251028140443
+44.201.192.34 1 1 18810 20251007114550
+43.165.135.242 1 1 18649 20251005110503
+43.133.69.37 1 1 18649 20251001213007
+149.56.150.208 1 1 29487 20251031112939
+205.169.39.20 1 1 22535 20251008182011
+205.169.39.177 2 2 37298 20251003031016
+205.169.39.2 1 1 22535 20251008184252
+134.209.176.4 1 1 23587 20251020233902
+49.51.183.84 1 1 29487 20251025235755
+3.93.5.187 1 1 23587 20251017180720
+111.172.249.49 1 1 29487 20251027130329
+65.111.14.240 1 1 18649 20251004084018
+132.232.203.74 1 1 18649 20251004183619
+34.6.202.23 3 3 55947 20251003102816
+205.169.39.188 2 2 45070 20251009112745
+205.169.39.37 1 1 18649 20251003040718
+43.166.239.145 1 1 18649 20251003224113
+45.149.173.211 3 3 88461 20251025025648
+185.177.72.202 3 3 67605 20251009024631
+43.130.72.177 1 1 29487 20251029140714
+59.14.17.48 3 3 55947 20251003072651
+3.86.209.74 1 1 23587 20251015125716
+61.79.198.56 1 1 18810 20251008005718
+45.90.61.161 1 1 18810 20251006053952
+43.153.36.110 2 2 42236 20251021110554
+43.157.52.37 1 1 23587 20251016140722
+176.53.223.111 1 1 18649 20251003055528
+129.226.93.214 1 1 22535 20251009140453
+178.128.236.53 1 1 18810 20251006120056
+5.183.130.65 1 1 22535 20251008070543
+46.250.172.35 1 1 18649 20251004135028
+111.7.100.26 3 3 81509 20251025022634
+54.89.23.20 1 1 23587 20251022052707
+206.189.225.181 1 1 29487 20251025141245
+161.35.150.249 1 1 22535 20251008210759
+34.140.92.201 1 1 23587 20251012183838
+43.153.119.119 1 1 23587 20251017140641
+93.158.90.66 1 1 23587 20251016070509
+203.2.64.59 2 2 41184 20251011212938
+43.130.102.223 1 1 23587 20251015140540
+44.220.166.212 1 1 18649 20251004085739
+45.41.204.130 1 1 22535 20251011061847
+54.151.176.0 3 3 70761 20251019001807
+43.166.240.231 1 1 23587 20251017110726
+147.185.132.240 1 1 23587 20251013180514
+43.166.247.155 1 1 29487 20251030232851
+176.53.216.77 1 1 18649 20251002022848
+43.157.20.63 2 2 47174 20251018140655
+91.231.89.19 1 1 23587 20251021003243
+35.173.243.234 1 1 23587 20251022112321
+104.218.55.248 1 1 0 20251031030805
+161.123.43.90 1 1 29487 20251031150011
+43.153.76.247 2 2 41184 20251011110501
+43.156.204.134 1 1 29487 20251031231910
+43.155.188.157 2 2 58974 20251026110516
+154.220.164.241 1 1 18649 20251004024519
+161.35.161.149 1 1 23587 20251013045616
+124.150.139.62 3 3 55947 20251001144624
+36.99.136.132 1 1 18649 20251004014519
+98.81.246.94 1 1 23587 20251018111321
+213.136.93.169 1 1 23587 20251022093134
+205.210.31.221 1 1 29487 20251027104717
+43.133.139.6 1 1 23587 20251018110641
+205.210.31.64 1 1 23587 20251021225038
+91.134.69.56 2 2 18649 20251003065529
+43.156.232.190 2 2 37298 20251002213445
+65.111.31.11 1 1 18649 20251003143849
+111.7.100.21 1 1 18649 20251003215618
+54.88.100.155 1 1 23587 20251016104636
+159.89.148.49 3 3 67605 20251009132336
+43.130.150.80 1 1 29487 20251029110824
+43.130.228.73 2 2 46122 20251017225338
+66.249.70.166 1 1 29487 20251031075937
+43.164.197.177 1 1 18649 20251001110420
+135.148.195.16 1 1 23587 20251020162207
+114.96.103.33 1 1 22535 20251012092422
+91.231.89.120 1 1 23587 20251013024308
+43.153.192.98 1 1 29487 20251027110704
+43.130.154.56 1 1 23587 20251014110523
+128.199.205.16 2 2 46122 20251013070617
+13.221.157.144 1 1 23587 20251014130212
+159.89.52.191 1 1 23587 20251019002045
+65.130.14.108 1 1 18649 20251001015552
+184.154.76.13 1 1 29487 20251024132403
+43.166.136.24 1 1 23587 20251015110726
+152.42.211.30 1 1 29487 20251029180607
+103.149.169.120 1 1 23587 20251014230510
+43.159.132.207 2 2 37298 20251003224234
+49.51.166.228 2 2 37459 20251006221626
+138.199.22.237 3 3 88461 20251030135350
+60.188.57.0 1 1 22535 20251008145849
+192.42.116.175 1 1 18649 20251002205102
+43.154.127.188 1 1 18649 20251002080330
+43.157.188.74 2 2 47174 20251014230400
+185.177.72.45 1 1 22535 20251010034820
+205.169.39.83 2 2 58974 20251027152937
+149.34.243.66 1 1 29487 20251030172343
+185.242.177.57 2 2 37620 20251007153558
+104.164.158.68 1 1 29487 20251031075939
+43.166.246.180 1 1 29487 20251022235405
+13.221.179.68 1 1 29487 20251024110954
+205.169.39.24 1 1 29487 20251029012334
+54.175.73.7 1 1 23587 20251020192337
+54.80.239.52 1 1 18649 20251001115431
+205.185.120.118 1 1 29487 20251030123449
+64.227.175.161 1 1 22535 20251010210437
+204.76.203.31 2 2 47174 20251015104754
+199.168.150.73 2 2 37298 20251004055343
+43.157.175.122 1 1 18810 20251007222803
+146.190.168.118 3 3 70761 20251021011629
+68.183.32.194 2 2 58974 20251026115049
+43.134.186.61 1 1 23587 20251021140600
+43.159.143.190 1 1 23587 20251013224724
+159.203.44.2 1 1 23587 20251018202708
+66.249.64.129 1 1 29487 20251031075938
+91.231.89.123 1 1 29487 20251027112337
+165.227.172.146 1 1 23587 20251012225610
+34.123.170.104 3 3 77623 20251029012219
+137.184.177.9 1 1 18649 20251001045222
+43.131.36.84 1 1 18649 20251004110404
+43.159.141.150 1 1 18810 20251005223931
+154.47.23.53 3 3 55947 20251003034037
+31.56.222.42 2 2 46122 20251021104822
+162.62.213.187 1 1 29487 20251030232643
+205.169.39.44 1 1 29487 20251029012250
+47.237.6.185 1 1 22535 20251010130836
+45.148.10.249 1 1 29487 20251028033108
+36.111.67.189 2 2 42236 20251018032514
+43.167.241.46 1 1 23587 20251020110438
+91.90.124.134 1 1 18649 20251003174015
+152.32.134.89 1 1 18649 20251003035443
+182.40.104.255 3 3 82561 20251030174910
+143.244.187.40 1 1 29487 20251028225656
+165.22.5.123 1 1 23587 20251019234328
+35.233.95.0 1 1 29487 20251029034633
+82.156.68.74 3 3 59833 20251011015438
+43.156.202.34 1 1 23587 20251021233300
+154.220.164.13 1 1 18649 20251001024345
+124.156.225.181 1 1 18649 20251003224052
+49.51.233.95 1 1 18810 20251005223931
+54.198.3.204 1 1 29487 20251026100816
+205.169.39.1 1 1 29487 20251025214031
+135.148.195.6 1 1 23587 20251014154644
+106.75.47.91 1 1 29487 20251025131440
+150.109.46.88 2 2 46122 20251022110717
+193.148.16.100 3 3 55947 20251004141637
+120.71.59.24 1 1 22535 20251009063659
+113.31.186.146 2 2 45070 20251011230356
+24.199.96.108 3 3 70761 20251014055239
+91.231.89.16 1 1 29487 20251026190335
+49.51.253.83 1 1 18810 20251007140711
+91.231.89.101 1 1 29487 20251027101407
+101.91.148.219 3 3 71723 20251025072941
+182.44.12.37 1 1 29487 20251025192925
+170.106.15.3 1 1 23587 20251013110658
+178.128.61.208 3 3 70761 20251017043814
+45.135.32.24 1 1 18810 20251007045734
+176.53.220.221 1 1 18810 20251007022706
+149.56.160.202 2 2 58974 20251031112933
+43.130.39.254 1 1 29487 20251031140530
+117.62.235.53 3 3 82561 20251031115918
+159.203.103.100 1 1 22535 20251008045656
+34.72.176.129 1 1 22535 20251008182001
+43.165.190.5 2 2 53074 20251025001346
+54.235.236.190 1 1 22535 20251010111004
+43.135.182.43 1 1 18649 20251002212958
+43.155.140.157 2 2 47174 20251022140524
+61.79.198.49 1 1 23587 20251017220647
+3.82.247.226 1 1 18649 20251002102106
+54.238.15.146 3 3 70761 20251013233652
+43.157.62.101 1 1 23587 20251016224204
+217.235.135.126 1 1 23587 20251020080341
+49.51.50.147 2 2 41345 20251010223926
+180.110.203.108 1 1 18649 20251001095857
+170.106.72.93 1 1 22535 20251009224634
+54.163.104.53 1 1 18649 20251002070510
+43.164.196.57 1 1 18810 20251007110517
+45.139.127.134 1 1 18649 20251003143528
+34.87.59.123 1 1 23587 20251021103955
+36.99.136.135 1 1 18649 20251004014255
+205.169.39.144 2 2 37298 20251001171721
+138.68.140.29 1 1 18649 20251005011207
+170.106.82.209 1 1 29487 20251024140830
+159.65.143.36 3 3 70761 20251018062803
+3.89.190.16 1 1 22535 20251009135320
+43.130.139.177 1 1 22535 20251010110735
+135.148.195.1 1 1 29487 20251025182340
+66.132.153.114 2 2 15244 20251029190631
+79.217.216.128 1 1 22535 20251010144024
+119.45.20.16 1 1 23587 20251013204248
+122.51.104.231 1 1 18810 20251005212552
+165.22.99.133 3 3 88461 20251027125547
+43.157.149.188 1 1 18649 20251001191531
+81.180.92.205 1 1 29487 20251025045308
+54.145.155.255 1 1 29487 20251030104410
+182.42.104.32 3 3 71723 20251031054104
+108.136.162.67 3 3 70761 20251015122502
+43.157.172.39 1 1 23587 20251020140455
+18.207.64.211 1 1 29487 20251025185332
+43.130.15.147 1 1 18649 20251002110316
+114.117.233.112 2 2 41184 20251010220206
+111.7.100.27 1 1 22535 20251008123714
+100.26.56.129 1 1 23587 20251021133508
+129.28.14.231 2 2 41184 20251011135541
+54.162.38.40 1 1 18649 20251003122515
+14.215.163.132 3 3 56108 20251007001200
+84.32.41.136 1 1 23587 20251021111946
+164.92.216.77 1 1 29487 20251030201603
+35.86.115.62 1 1 23587 20251020204050
+138.199.22.149 1 1 22535 20251011234033
+43.153.35.128 1 1 29487 20251031232113
+44.193.254.10 1 1 23587 20251020085447
+218.255.64.242 1 1 22535 20251008185752
+43.157.148.38 2 2 52022 20251026234927
+49.51.141.76 1 1 22535 20251008140821
+162.14.210.15 1 1 18810 20251007193757
+43.135.145.117 1 1 29487 20251028233341
+43.167.157.80 1 1 29487 20251025110450
+43.153.74.75 1 1 29487 20251031110629
+119.28.177.175 1 1 23587 20251016224159
+205.169.39.3 1 1 18649 20251003231546
+43.156.168.214 1 1 29487 20251030110517
+72.13.46.6 1 1 18649 20251002080231
+43.130.91.95 1 1 22535 20251011140433
+43.143.248.236 1 1 18810 20251007231937
+64.225.79.212 1 1 23587 20251016200757
+20.101.152.211 1 1 7622 20251029225829
+54.157.128.190 1 1 23587 20251013134609
+5.254.26.60 1 1 29487 20251024141724
+121.4.97.180 1 1 18649 20251002202302
+170.106.187.106 1 1 23587 20251017225324
+49.232.151.112 1 1 22535 20251008110842
+35.182.47.90 2 2 37298 20251002143051
+111.7.100.20 1 1 18649 20251003215618
+43.173.1.69 1 1 18810 20251006140341
+110.166.71.39 3 3 71723 20251031234126
+52.90.232.85 1 1 22535 20251008111512
+184.154.139.44 3 3 71723 20251030125049
+103.214.20.198 1 1 22535 20251011173712
+35.205.159.124 2 2 45070 20251009042335
+170.106.152.218 1 1 18649 20251002140552
+139.59.112.241 1 1 18649 20251005132352
+222.79.104.23 2 2 58974 20251029060445
+3.138.185.30 1 1 18810 20251006110743
+178.211.57.76 1 1 22535 20251009042336
+43.130.101.151 1 1 29487 20251025001203
+170.106.11.6 2 2 42236 20251019232725
+43.165.70.220 1 1 23587 20251019141114
+36.99.136.131 1 1 0 20251004014524
+157.180.88.64 1 1 23587 20251014091637
+43.133.14.237 1 1 7622 20251029233801
+137.184.81.139 1 1 18649 20251002200656
+104.249.47.76 1 1 29487 20251030102058
+47.129.236.133 3 3 67605 20251012152049
+135.148.195.11 1 1 23587 20251017190324
+117.132.188.206 1 1 22535 20251009001459
+154.47.23.121 2 2 58974 20251030213313
+43.135.135.57 2 2 53074 20251025235704
+217.160.202.182 1 1 23587 20251020032508
+128.1.44.38 1 1 18649 20251003053725
+124.156.157.91 1 1 29487 20251023140432
+43.173.1.57 1 1 29487 20251027234933
+199.244.88.224 1 1 22535 20251012104106
+34.67.237.82 1 1 18649 20251003084804
+164.90.208.56 1 1 22535 20251008182103
+91.231.89.96 1 1 23587 20251018081313
+35.94.21.88 1 1 29487 20251028093424
+208.84.101.55 3 3 55947 20251002040534
+49.51.73.183 1 1 23587 20251018230330
+64.23.137.196 1 1 29487 20251024212150
+165.227.18.146 2 2 45070 20251010225001
+124.222.142.44 1 1 22535 20251010102138
+89.22.101.69 1 1 29487 20251027082724
+170.106.35.137 1 1 22535 20251009224905
+43.166.237.57 1 1 18810 20251006110459
+135.148.195.7 1 1 23587 20251016235848
+146.70.194.238 3 3 70761 20251015121019
+43.158.91.71 1 1 18649 20251003080225
+159.89.118.76 1 1 29487 20251022231244
+101.32.52.164 3 3 77623 20251028110711
+43.166.247.82 1 1 18649 20251005140520
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20251001 31 31 578119 26
+20251002 33 33 615417 29
+20251003 47 47 857854 38
+20251004 31 31 559470 26
+20251005 23 23 411244 20
+20251006 19 19 357390 17
+20251007 23 23 432630 18
+20251008 25 25 552200 24
+20251009 38 38 856330 26
+20251010 20 20 450700 17
+20251011 19 19 428165 19
+20251012 25 25 568635 21
+20251013 20 20 471740 16
+20251014 19 19 448153 15
+20251015 19 19 448153 14
+20251016 16 16 377392 14
+20251017 14 14 330218 12
+20251018 18 18 424566 16
+20251019 17 17 400979 13
+20251020 22 22 518914 21
+20251021 17 17 400979 15
+20251022 21 21 495349 17
+20251023 9 9 265383 9
+20251024 11 11 324357 11
+20251025 29 29 855123 24
+20251026 38 38 1120506 16
+20251027 21 21 619227 16
+20251028 13 13 383331 13
+20251029 27 27 424444 17
+20251030 26 26 766662 20
+20251031 19 19 530766 17
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+5mn-15mn 2
+0s-30s 567
+30s-2mn 4
+2mn-5mn 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 2
+/ 693 16144822 570 570
+/cgi-sys/suspendedpage.cgi 17 129574 7 7
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 4
+0-44 113
+1K-2K 3535
+5K+ 825
+100-500 20
+END_FILESIZE
+
+# Request Time Range - Request Time Frequency
+BEGIN_REQUESTTIME 0
+END_REQUESTTIME

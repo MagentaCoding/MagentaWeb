@@ -1,0 +1,54 @@
+
+RewriteEngine on
+
+ErrorDocument 400 /error/400.shtml
+ErrorDocument 401 /error/401.shtml
+ErrorDocument 402 /error/402.shtml
+ErrorDocument 403 /error/403.shtml
+ErrorDocument 404 /error/404.shtml
+ErrorDocument 405 /error/405.shtml
+ErrorDocument 406 /error/406.shtml
+ErrorDocument 407 /error/407.shtml
+ErrorDocument 408 /error/408.shtml
+ErrorDocument 409 /error/409.shtml
+ErrorDocument 410 /error/410.shtml
+ErrorDocument 411 /error/411.shtml
+ErrorDocument 412 /error/412.shtml
+ErrorDocument 413 /error/413.shtml
+ErrorDocument 414 /error/414.shtml
+ErrorDocument 415 /error/415.shtml
+ErrorDocument 416 /error/416.shtml
+ErrorDocument 417 /error/417.shtml
+ErrorDocument 422 /error/422.shtml
+ErrorDocument 423 /error/423.shtml
+ErrorDocument 424 /error/424.shtml
+ErrorDocument 500 /error/500.shtml
+ErrorDocument 501 /error/501.shtml
+ErrorDocument 502 /error/502.shtml
+ErrorDocument 503 /error/503.shtml
+ErrorDocument 504 /error/504.shtml
+ErrorDocument 505 /error/505.shtml
+ErrorDocument 506 /error/506.shtml
+ErrorDocument 507 /error/507.shtml
+ErrorDocument 510 /error/510.shtml
+AddType minecraft/mrpack mrpack
+AddType application/octet-stream dat bin raw
+AddType application/magentahtml magentahtml mhtml
+RewriteCond %{HTTP_HOST} ^events\.magentaweb\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.events\.magentaweb\.org$
+RewriteRule ^de\/förderanfrage$ "https\:\/\/docs\.google\.com\/forms\/d\/e\/1FAIpQLSffVuiV0K3eZf1e50UH3PEQlJCmcLI_Z6Pb0zXTKOe6teXuaw\/viewform\?usp\=dialog" [R=301,L]
+RewriteCond %{HTTP_HOST} ^events\.magentaweb\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.events\.magentaweb\.org$
+RewriteRule ^fr\/demandedefinancement$ "https\:\/\/docs\.google\.com\/forms\/d\/e\/1FAIpQLSeJrL1UWJ52CMMTRwMMmPvGi8ip68mnoKAVpu2JGFr78w_Wng\/viewform\?usp\=publish\-editor" [R=301,L]
+RewriteCond %{HTTP_HOST} ^events\.magentaweb\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.events\.magentaweb\.org$
+RewriteRule ^en\/fundingrequest$ "https\:\/\/docs\.google\.com\/forms\/d\/e\/1FAIpQLScR2J5ast8Lm5bb3n3C7QnFEjFCM2TPpXhmsAt21iSZsyDh\-A\/viewform\?usp\=dialog" [R=301,L]
+
+deny from 192.0.0.0/8
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php81” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php81 .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

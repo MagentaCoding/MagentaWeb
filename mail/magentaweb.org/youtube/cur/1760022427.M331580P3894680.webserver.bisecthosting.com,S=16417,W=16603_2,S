@@ -1,0 +1,186 @@
+Return-Path: <3cs_naAcKB_0stwjuq3lttlqj.htr3tzyzgjrfljsyf1jg.twl@idverification.bounces.google.com>
+Delivered-To: youtube@magentaweb.org
+Received: from webserver.bisecthosting.com
+	by webserver.bisecthosting.com with LMTP
+	id CAMtE5vP52iYbTsAufviug
+	(envelope-from <3cs_naAcKB_0stwjuq3lttlqj.htr3tzyzgjrfljsyf1jg.twl@idverification.bounces.google.com>)
+	for <youtube@magentaweb.org>; Thu, 09 Oct 2025 11:07:07 -0400
+Return-path: <3cs_naAcKB_0stwjuq3lttlqj.htr3tzyzgjrfljsyf1jg.twl@idverification.bounces.google.com>
+Envelope-to: youtube@magentaweb.org
+Delivery-date: Thu, 09 Oct 2025 11:07:07 -0400
+Received: from mail-qt1-f201.google.com ([209.85.160.201]:56516)
+	by webserver.bisecthosting.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.98.2)
+	(envelope-from <3cs_naAcKB_0stwjuq3lttlqj.htr3tzyzgjrfljsyf1jg.twl@idverification.bounces.google.com>)
+	id 1v6sEY-0000000GRny-2JgQ
+	for youtube@magentaweb.org;
+	Thu, 09 Oct 2025 11:07:07 -0400
+Received: by mail-qt1-f201.google.com with SMTP id d75a77b69052e-4de35879e7dso37213501cf.0
+        for <youtube@magentaweb.org>; Thu, 09 Oct 2025 08:06:46 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20230601; t=1760022386; x=1760627186; darn=magentaweb.org;
+        h=to:from:subject:date:message-id:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=fmXrSRYM6Ter+stUK+NiNCDksFgRsNJtznIrGIBMKQ4=;
+        b=Md2QS9Arr6XUq3zeDPqtw+i2ZOG7K2UqGeb4snymEOJWGU0Dhu+d89L76JUK+C14aM
+         rlpjoVqSDoZ7QumdBZFOtzG/4Omgeu5BB/OIQYY6bAqJdqH6W4rH859geEoyjGbOgvXl
+         O/vzuGQRw7a+sjxgDH5Bm8vwLVSSPX+N4m/vtbUEOD1K9KAVGtcZX/grlBVIABQt/72S
+         FsD8+8DCMQvriwmO+9ZCvQGMervUXP68qJOTBXiXzQA0dfqJw46mTotlUSSp8AMB5+JC
+         KwFmBUmsLRu2oERwnDBEBzKLySwqMB1Z2SG0WbMBnwUoeVUyKTFXRDxgEcM+l6c0ykoX
+         TeVQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1760022386; x=1760627186;
+        h=to:from:subject:date:message-id:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=fmXrSRYM6Ter+stUK+NiNCDksFgRsNJtznIrGIBMKQ4=;
+        b=H1bLiBnNhK7PqsnMezObj2gZpmCiZNuXAO31/90Y8hpDF6m9aMNUtPTBKTqtVcqNl6
+         nfxp2/kPRjj6X08UcjM88pnbfrGOPKv9vOWzAS4sLqeEJMslQ1YJiscEO9+kr2EU2GIv
+         0l1QHnQNhg9KMaCVRttbcMeihgWw0EPiVinnvUiJ+TBKZ2TBiSTxs0zqDp7YGsdO5mpl
+         HZYlNh8hcLkqbcxPWOt2IbxUsDOma0+C8zNwMflRrJNjvaR0AgxheLDiqkVS6Tz/DqPH
+         B5p8X/k8997NdTEuIB3xaeX01nHMBywvB3QIo42PxzBouXHrCwk0cLM1l4kGzvs37U4d
+         O7Zg==
+X-Gm-Message-State: AOJu0YxvIY18jGZBths6LNjesaei6r4tZe4Ebze4X9h3L2ZSqLQMcH+6
+	rxCpXDA+YfhW3kk/16OkSy0TKZS+lp65TK1OPsh57t4phT6TzFPiuupbEaVCKkkgBSwiVhI=
+X-Google-Smtp-Source: AGHT+IGtGfXa+c60gDfHt+OmjUqN61m1w+8aYVl89vght3sBt+L1gs8zPxz5LID7ftXtgMOYTL0U4MtHyycd1A==
+MIME-Version: 1.0
+X-Received: by 2002:a05:622a:51:b0:4b0:da90:d7d with SMTP id
+ d75a77b69052e-4e6eacbbf29mr107799151cf.3.1760022386485; Thu, 09 Oct 2025
+ 08:06:26 -0700 (PDT)
+Message-ID: <autogen-java-050aff83-5c63-4563-8d5c-9c73cd71c224@google.com>
+Date: Thu, 09 Oct 2025 15:06:26 +0000
+Subject: =?UTF-8?Q?E=2DMail=2DAdresse_best=C3=A4tigen?=
+From: Google <noreply@google.com>
+To: youtube@magentaweb.org
+Content-Type: multipart/alternative; boundary="00000000000024aa750640bb2568"
+X-Spam-Status: No, score=-7.6
+X-Spam-Score: -75
+X-Spam-Bar: -------
+X-Ham-Report: =?ISO-8859-1?Q?Spam_detection_software=2C_running_on_the_system_=22webserver=2Ebise?= =?ISO-8859-1?Q?cthosting=2Ecom=22=2C=0A_has_NOT_identified_this_inco?= =?ISO-8859-1?Q?ming_email_as_spam=2E__The_original=0A_message_has_be?= =?ISO-8859-1?Q?en_attached_to_this_so_you_can_view_it_or_label=0A_si?= =?ISO-8859-1?Q?milar_future_email=2E__If_you_have_any_questions=2C_s?= =?ISO-8859-1?Q?ee=0A_root=5C=40localhost_for_details=2E=0A_Content_p?= =?ISO-8859-1?Q?review=3A__Alexander_Gal_E-Mail-Adresse_best=C3=A4tig?= =?ISO-8859-1?Q?en_youtube=40magentaweb=2Eorg=0A____=0A_Content_analy?= =?ISO-8859-1?Q?sis_details=3A___=28-7=2E6_points=2C_5=2E0_required=29=0A?= =?ISO-8859-1?Q?__pts_rule_name______________description=0A_----_----?= =?ISO-8859-1?Q?------------------_----------------------------------?= =?ISO-8859-1?Q?----------------=0A__0=2E0_RCVD=5FIN=5FVALIDITY=5FRPB?= =?ISO-8859-1?Q?L=5FBLOCKED_RBL=3A_ADMINISTRATOR_NOTICE=3A_The_query_?= =?ISO-8859-1?Q?to=0A______________________________Validity_was_block?= =?ISO-8859-1?Q?ed=2E__See=0A_____________________________https=3A//k?= =?ISO-8859-1?Q?nowledge=2Evalidity=2Ecom/hc/en-us/articles/209617306?= =?ISO-8859-1?Q?81243=0A______________________________for_more_inform?= =?ISO-8859-1?Q?ation=2E=0A____________________________=5B209=2E85=2E1?= =?ISO-8859-1?Q?60=2E201_listed_in_bl=2Escore=2Esenderscore=2Ecom=5D=0A?= =?ISO-8859-1?Q?__0=2E0_RCVD=5FIN=5FVALIDITY=5FCERTIFIED=5FBLOCKED_RB?= =?ISO-8859-1?Q?L=3A_ADMINISTRATOR_NOTICE=3A_The=0A__________________?= =?ISO-8859-1?Q?___________query_to_Validity_was_blocked=2E__See=0A__?= =?ISO-8859-1?Q?___________________________https=3A//knowledge=2Evali?= =?ISO-8859-1?Q?dity=2Ecom/hc/en-us/articles/20961730681243=0A_______?= =?ISO-8859-1?Q?_______________________for_more_information=2E=0A____?= =?ISO-8859-1?Q?_____________________=5B209=2E85=2E160=2E201_listed_i?= =?ISO-8859-1?Q?n_sa-trusted=2Ebondedsender=2Eorg=5D=0A__0=2E0_RCVD=5FI?= =?ISO-8859-1?Q?N=5FZEN=5FBLOCKED=5FOPENDNS_RBL=3A_ADMINISTRATOR_NOTI?= =?ISO-8859-1?Q?CE=3A_The_query_to=0A_____________________________zen?= =?ISO-8859-1?Q?=2Espamhaus=2Eorg_was_blocked_due_to_usage_of_an=0A__?= =?ISO-8859-1?Q?____________________________open_resolver=2E_See=0A__?= =?ISO-8859-1?Q?___________________________https=3A//www=2Espamhaus=2Eo?= =?ISO-8859-1?Q?rg/returnc/pub/=0A_____________________________=5B209?= =?ISO-8859-1?Q?=2E85=2E160=2E201_listed_in_zen=2Espamhaus=2Eorg=5D=0A?= =?ISO-8859-1?Q?_-0=2E0_SPF=5FPASS_______________SPF=3A_sender_matche?= =?ISO-8859-1?Q?s_SPF_record=0A__0=2E0_RCVD=5FIN=5FVALIDITY=5FSAFE=5FB?= =?ISO-8859-1?Q?LOCKED_RBL=3A_ADMINISTRATOR_NOTICE=3A_The_query_to=0A_?= =?ISO-8859-1?Q?_____________________________Validity_was_blocked=2E_?= =?ISO-8859-1?Q?_See=0A_____________________________https=3A//knowled?= =?ISO-8859-1?Q?ge=2Evalidity=2Ecom/hc/en-us/articles/20961730681243=0A_?= =?ISO-8859-1?Q?_____________________________for_more_information=2E=0A?= =?ISO-8859-1?Q?_____________________________=5B209=2E85=2E160=2E201_?= =?ISO-8859-1?Q?listed_in_sa-accredit=2Ehabeas=2Ecom=5D=0A_-7=2E5_USE?= =?ISO-8859-1?Q?R=5FIN=5FDEF=5FDKIM=5FWL____From=3A_address_is_in_the?= =?ISO-8859-1?Q?_default_DKIM_welcome-list=0A__0=2E1_DKIM=5FSIGNED___?= =?ISO-8859-1?Q?_________Message_has_a_DKIM_or_DK_signature=2C_not_ne?= =?ISO-8859-1?Q?cessarily_valid=0A_-0=2E1_DKIM=5FVALID=5FAU__________?= =?ISO-8859-1?Q?Message_has_a_valid_DKIM_or_DK_signature_from_author'?= =?ISO-8859-1?Q?s=0A_____________________________domain=0A_-0=2E1_DKI?= =?ISO-8859-1?Q?M=5FVALID_____________Message_has_at_least_one_valid_?= =?ISO-8859-1?Q?DKIM_or_DK_signature=0A__0=2E0_HTML=5FMESSAGE________?= =?ISO-8859-1?Q?___BODY=3A_HTML_included_in_message=0A_-0=2E0_DKIMWL=5FW?= =?ISO-8859-1?Q?L=5FMED__________DKIMwl=2Eorg_-_Medium_trust_sender?=
+X-Spam-Flag: NO
+
+--00000000000024aa750640bb2568
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+QWxleGFuZGVyIEdhbA0KDQoNCg0KDQpFLU1haWwtQWRyZXNzZSBiZXN0w6R0aWdlbg0KDQp5b3V0
+dWJlQG1hZ2VudGF3ZWIub3JnDQoNCg0KRGllc2UgRS1NYWlsLUFkcmVzc2Ugd3VyZGUgdm9yIEt1
+cnplbSBlaW5nZWdlYmVuLCB1bSBJaHJlIEUtTWFpbC1BZHJlc3NlIHp1ICANCmJlc3TDpHRpZ2Vu
+Lg0KVmVyd2VuZGVuIFNpZSB6dXIgQmVzdMOkdGlndW5nIGRlciBBZHJlc3NlIGRpZXNlbiBDb2Rl
+Lg0KDQowOTcwMDMNCg0KV2VubiBkYXMgbmljaHQgU2llIHdhcmVuLCBoYXQgbcO2Z2xpY2hlcndl
+aXNlIGVpbiBhbmRlcmVyIE51dHplciBzZWluZSAgDQpFLU1haWwtQWRyZXNzZSBmYWxzY2ggZWlu
+Z2VnZWJlbi4gSW0gTW9tZW50IHNpbmQga2VpbmUgd2VpdGVyZW4gQWt0aW9uZW4gIA0KZXJmb3Jk
+ZXJsaWNoLCBzaWUgc29sbHRlbiBkaWVzZW4gQ29kZSBhYmVyIGRlbm5vY2ggbmljaHQgbWl0IGFu
+ZGVyZW4gdGVpbGVuLg0KDQpEYXMgR29vZ2xlIEtvbnRlbi1UZWFtDQoNCg0KV2lyIGhhYmVuIElo
+bmVuIGRpZXNlIEUtTWFpbCBnZXNlbmRldCwgdW0gU2llIMO8YmVyIHdpY2h0aWdlIMOEbmRlcnVu
+Z2VuIHp1ICANCklocmVtIEdvb2dsZS1Lb250byB1bmQgZGVuIERpZW5zdGVuIHZvbiBHb29nbGUg
+enUgaW5mb3JtaWVyZW4uDQoNCsKpIDIwMjUgR29vZ2xlIEluYy4sMTYwMCBBbXBoaXRoZWF0cmUg
+UGFya3dheSwgTW91bnRhaW4gVmlldywgQ0EgOTQwNDMsIFVTQQ0KDQoNCg0K
+--00000000000024aa750640bb2568
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html><head><meta name=3D"format-detection" content=3D"date=
+=3Dno"/><meta name=3D"format-detection" content=3D"email=3Dno"/><style>.awl=
+ a {color: #FFFFFF; text-decoration: none;}.abml a {color: #000000; font-fa=
+mily: Roboto-Medium,Helvetica,Arial,sans-serif; font-weight: bold; text-dec=
+oration: none;}.afal a {color: #b0b0b0; text-decoration: none;}@media scree=
+n and (min-width: 600px) {.v2sp {padding: 30px 0;} .v2rsp {padding: 0px 10p=
+x;}}</style></head><body style=3D"margin:0; padding:0;" bgcolor=3D"#ffffff"=
+><table width=3D"100%" height=3D"100%" style=3D"min-width:348px;" border=3D=
+"0" cellspacing=3D"0" cellpadding=3D"0"><tr height=3D"32px"></tr><tr align=
+=3D"center"><td><table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" sty=
+le=3D"padding-bottom: 20px; max-width: 600px; min-width: 220px;"><tr><td><t=
+able cellpadding=3D"0" cellspacing=3D"0"><tr><td></td><td><table width=3D"1=
+00%" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"direction: l=
+tr; padding-bottom: 7px;"><tr><td align=3D"left"><img width=3D"92" height=
+=3D"32" src=3D"https://ssl.gstatic.com/images/branding/googlelogo/1x/google=
+logo_color_92x30dp.png" style=3D"width:92px;height:30px;"></td><td align=3D=
+"right" style=3D"font-family: Roboto-Light,Helvetica,Arial,sans-serif;">Ale=
+xander Gal</td><td align=3D"right" width=3D"35"><img width=3D"92" height=3D=
+"32" src=3D"https://ssl.gstatic.com/images/branding/product/2x/avatar_circl=
+e_blue_32dp.png" style=3D"width:32px;height:32px;"></td></tr></table></td><=
+td></td></tr><tr><td style=3D"background:url('https://www.gstatic.com/accou=
+ntalerts/email/hodor/4-corner-nw.png') top left no-repeat;" width=3D"6" hei=
+ght=3D"5"><!--[if gte mso 9]><v:rect xmlns:v=3D"urn:schemas-microsoft-com:v=
+ml" fill=3D"true" stroke=3D"false" style=3D"width:6px; height: 5px;"><v:fil=
+l type=3D"tile" src=3D"https://www.gstatic.com/accountalerts/email/hodor/4-=
+corner-nw.png" color=3D"#ffffff" /><v:textbox style=3D"mso-fit-shape-to-tex=
+t:true" inset=3D"0,0,0,0"><![endif]--><div></div><!--[if gte mso 9]></v:tex=
+tbox></v:rect><![endif]--></td><td style=3D"background:url('https://www.gst=
+atic.com/accountalerts/email/hodor/4-pixel-n.png') top center repeat-x;" he=
+ight=3D"5"><!--[if gte mso 9]><v:rect xmlns:v=3D"urn:schemas-microsoft-com:=
+vml" fill=3D"true" stroke=3D"false" style=3D"height: 5px;"><v:fill type=3D"=
+tile" src=3D"https://www.gstatic.com/accountalerts/email/hodor/4-pixel-n.pn=
+g" color=3D"#ffffff" /><v:textbox style=3D"mso-fit-shape-to-text:true" inse=
+t=3D"0,0,0,0"><![endif]--><div></div><!--[if gte mso 9]></v:textbox></v:rec=
+t><![endif]--></td><td style=3D"background:url('https://www.gstatic.com/acc=
+ountalerts/email/hodor/4-corner-ne.png') top right no-repeat;" width=3D"6" =
+height=3D"5"><!--[if gte mso 9]><v:rect xmlns:v=3D"urn:schemas-microsoft-co=
+m:vml" fill=3D"true" stroke=3D"false" style=3D"width: 6px; height: 39px;"><=
+v:fill type=3D"tile" src=3D"https://www.gstatic.com/accountalerts/email/hod=
+or/4-corner-ne.png" color=3D"#ffffff" /><v:textbox style=3D"mso-fit-shape-t=
+o-text:true" inset=3D"0,0,0,0"><![endif]--><div></div><!--[if gte mso 9]></=
+v:textbox></v:rect><![endif]--></td></tr><tr><td style=3D"background:url('h=
+ttps://www.gstatic.com/accountalerts/email/hodor/4-pixel-w.png') center lef=
+t repeat-y;" width=3D"6"><!--[if gte mso 9]><v:rect xmlns:v=3D"urn:schemas-=
+microsoft-com:vml" fill=3D"true" stroke=3D"false" style=3D"width: 6px;"><v:=
+fill type=3D"tile" src=3D"https://www.gstatic.com/accountalerts/email/hodor=
+/4-pixel-w.png" color=3D"#ffffff" /><v:textbox style=3D"mso-fit-shape-to-te=
+xt:true" inset=3D"0,0,0,0"><![endif]--><div></div><!--[if gte mso 9]></v:te=
+xtbox></v:rect><![endif]--></td><td><div style=3D"font-family: Roboto-Regul=
+ar,Helvetica,Arial,sans-serif;padding-left: 20px; padding-right: 20px;borde=
+r-bottom: thin solid #f0f0f0; color: rgba(0,0,0,0.87); font-size: 24px; pad=
+ding-top: 40px; text-align: center; word-break: break-word;"><div class=3D"=
+v2sp"><h3>E-Mail-Adresse best=C3=A4tigen</h3><p style=3D"font-family: Robot=
+o-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.87); font-size: 16=
+px; line-height: 1.8;">youtube@magentaweb.org</p></div></div><div style=3D"=
+font-family: Roboto-Regular,Helvetica,Arial,sans-serif; font-size: 13px; co=
+lor: rgba(0,0,0,0.87); line-height: 1.6;padding-left: 20px; padding-right: =
+20px;padding-bottom: 32px; padding-top: 24px;"><p class=3D"v2sp">Diese E-Ma=
+il-Adresse wurde vor Kurzem eingegeben, um Ihre E-Mail-Adresse zu best=C3=
+=A4tigen.<p>Verwenden Sie zur Best=C3=A4tigung der Adresse diesen Code.</p>=
+<div style=3D"font-size:24px;padding-top:20px;padding-bottom:20px;font-weig=
+ht:bold;text-align:center;">097003</div><p class=3D"v2sp">Wenn das nicht Si=
+e waren, hat m=C3=B6glicherweise ein anderer Nutzer seine E-Mail-Adresse fa=
+lsch eingegeben. Im Moment sind keine weiteren Aktionen erforderlich, sie s=
+ollten diesen Code aber dennoch nicht mit anderen teilen.</p><p class=3D"v2=
+sp">Das Google Konten-Team</p></div></td><td style=3D"background:url('https=
+://www.gstatic.com/accountalerts/email/hodor/4-pixel-e.png') center left re=
+peat-y;" width=3D"6"><!--[if gte mso 9]><v:rect xmlns:v=3D"urn:schemas-micr=
+osoft-com:vml" fill=3D"true" stroke=3D"false" style=3D"width: 6px;"><v:fill=
+ type=3D"tile" src=3D"https://www.gstatic.com/accountalerts/email/hodor/4-p=
+ixel-e.png" color=3D"#ffffff" /><v:textbox style=3D"mso-fit-shape-to-text:t=
+rue" inset=3D"0,0,0,0"><![endif]--><div></div><!--[if gte mso 9]></v:textbo=
+x></v:rect><![endif]--></td></tr><tr><td style=3D"background:url('https://w=
+ww.gstatic.com/accountalerts/email/hodor/4-corner-sw.png') top left no-repe=
+at;" width=3D"6" height=3D"5"><!--[if gte mso 9]><v:rect xmlns:v=3D"urn:sch=
+emas-microsoft-com:vml" fill=3D"true" stroke=3D"false" style=3D"width: 6px;=
+"><v:fill type=3D"tile" src=3D"https://www.gstatic.com/accountalerts/email/=
+hodor/4-corner-sw.png" color=3D"#ffffff" /><v:textbox style=3D"mso-fit-shap=
+e-to-text:true" inset=3D"0,0,0,0"><![endif]--><div></div><!--[if gte mso 9]=
+></v:textbox></v:rect><![endif]--></td><td style=3D"background:url('https:/=
+/www.gstatic.com/accountalerts/email/hodor/4-pixel-s.png') top center repea=
+t-x" height=3D"5"><!--[if gte mso 9]><v:rect xmlns:v=3D"urn:schemas-microso=
+ft-com:vml" fill=3D"true" stroke=3D"false" style=3D"width: 6px;"><v:fill ty=
+pe=3D"tile" src=3D"https://www.gstatic.com/accountalerts/email/hodor/4-pixe=
+l-s.png" color=3D"#ffffff" /><v:textbox style=3D"mso-fit-shape-to-text:true=
+" inset=3D"0,0,0,0"><![endif]--><div></div><!--[if gte mso 9]></v:textbox><=
+/v:rect><![endif]--></td><td style=3D"background:url('https://www.gstatic.c=
+om/accountalerts/email/hodor/4-corner-se.png') top left no-repeat;" width=
+=3D"6" height=3D"5"><!--[if gte mso 9]><v:rect xmlns:v=3D"urn:schemas-micro=
+soft-com:vml" fill=3D"true" stroke=3D"false" style=3D"width: 6px;"><v:fill =
+type=3D"tile" src=3D"https://www.gstatic.com/accountalerts/email/hodor/4-co=
+rner-se.png" color=3D"#ffffff" /><v:textbox style=3D"mso-fit-shape-to-text:=
+true" inset=3D"0,0,0,0"><![endif]--><div></div><!--[if gte mso 9]></v:textb=
+ox></v:rect><![endif]--></td></tr><tr><td></td><td><div style=3D"text-align=
+: left;"><div style=3D"font-family: Roboto-Regular,Helvetica,Arial,sans-ser=
+if;color: rgba(0,0,0,0.54); font-size: 12px; line-height: 20px; padding-top=
+: 10px;"><div>Wir haben Ihnen diese E-Mail gesendet, um Sie =C3=BCber wicht=
+ige =C3=84nderungen zu Ihrem Google-Konto und den Diensten von Google zu in=
+formieren.</div><div style=3D"direction: ltr;">&copy; 2025 Google Inc.,<a c=
+lass=3D"afal" style=3D"font-family: Roboto-Regular,Helvetica,Arial,sans-ser=
+if;color: rgba(0,0,0,0.54); font-size: 12px; line-height: 20px; padding-top=
+: 10px;">1600 Amphitheatre Parkway, Mountain View, CA 94043, USA</a></div><=
+/div></div></td><td></td></tr></table></td></tr></table></td></tr><tr heigh=
+t=3D"32px"></tr></table></body></html>
+--00000000000024aa750640bb2568--

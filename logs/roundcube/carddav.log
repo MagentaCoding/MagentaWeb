@@ -1,0 +1,10 @@
+[10-Oct-2025 14:34:32 -0400]: <0744ff9a> [5 ERR] Cannot update name of addressbook 1: Expected Multistatus HTTP request was not successful (401 Unauthorized): <html>Authorization Required</html>
+ 
+[10-Oct-2025 14:37:59 -0400]: <9ab0be69> [5 ERR] Cannot update name of addressbook 1: Expected Multistatus HTTP request was not successful (401 Unauthorized): <html>Authorization Required</html>
+ 
+[10-Oct-2025 14:38:10 -0400]: <387cd2d1> [5 ERR] Cannot update name of addressbook 1: Expected Multistatus HTTP request was not successful (401 Unauthorized): <html>Authorization Required</html>
+ 
+[21-Oct-2025 06:41:28 -0400]: <a2bc9be2> [5 ERR] Cannot update name of addressbook 1: Expected Multistatus HTTP request was not successful (401 Unauthorized): <html>Authorization Required</html>
+ 
+[21-Oct-2025 06:44:49 -0400]: <724d1046> [5 ERR] Cannot update name of addressbook 1: Expected Multistatus HTTP request was not successful (401 Unauthorized): <html>Authorization Required</html>
+ 

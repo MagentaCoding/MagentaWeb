@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MagentaHTML Übersicht</title>
+
+<!-- Google Fonts: Aldrich -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+
+<style>
+  body {
+    font-family: 'Aldrich', sans-serif;
+    margin: 20px;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  h1, h2 {
+    color: #d63c97;
+  }
+  p.intro {
+    background-color: #fff0f5;
+    border-left: 5px solid #d63c97;
+    padding: 15px;
+    border-radius: 6px;
+    line-height: 1.6;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 15px;
+    background-color: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  th {
+    background-color: #d63c97;
+    color: white;
+  }
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  form#language-selector {
+    margin-top: 20px;
+  }
+  select {
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  tr:hover {
+    background-color: #ffe6f0;
+    transition: background-color 0.3s ease;
+  }
+  code {
+    background-color: #f2f2f2;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-family: monospace;
+  }
+</style>
+</head>
+<body>
+
+<h1>MagentaHTML Tags & Attribute Übersicht</h1>
+
+<p class="intro" id="magenta-intro">
+MagentaHTML ist eine eigene Erweiterung bzw. Variation von HTML, entwickelt für MagentaWeb-Projekte. 
+Es behält die Grundprinzipien von HTML bei, erweitert aber die Möglichkeiten für strukturiertes Layout, interaktive Inhalte und native MagentaWeb-Komponenten.
+</p>
+
+<form id="language-selector">
+ <label for="language">Sprache wählen:</label>
+ <select id="language" name="language" onchange="changeLanguage(this.value)">
+   <option value="de">Deutsch</option>
+   <option value="en">English</option>
+   <option value="fr">Français</option>
+   <option value="es">Español</option>
+   <option value="pt">Português</option>
+   <option value="vr_ch">简体中文</option>
+   <option value="tr_ch">繁體中文</option>
+ </select>
+</form>
+
+<h2>MagentaHTML Tags</h2>
+<table>
+ <thead>
+   <tr>
+     <th>Tag</th>
+     <th>Funktion</th>
+     <th>Status</th>
+   </tr>
+ </thead>
+ <tbody>
+   <tr><td>&lt;html&gt;</td><td>Oberstes Element der Seite</td><td>In Überprüfung</td></tr>
+   <tr><td>&lt;head&gt;</td><td>Metadaten, Skripte, Styles</td><td>In Überprüfung</td></tr>
+   <tr><td>&lt;body&gt;</td><td>Inhalt der Seite</td><td>In Überprüfung</td></tr>
+   <tr><td>&lt;title&gt;</td><td>Seitentitel</td><td>In Überprüfung</td></tr>
+   <tr><td>&lt;header&gt;</td><td>Kopfbereich</td><td>In Überprüfung</td></tr>
+   <tr><td>&lt;footer&gt;</td><td>Fußbereich</td><td>In Überprüfung</td></tr>
+   <tr><td>&lt;main&gt;</td><td>Hauptinhalt</td><td>In Überprüfung</td></tr>
+   <tr><td>&lt;section&gt;</td><td>Inhaltsabschnitt</td><td>In Überprüfung</td></tr>
+   <tr><td>&lt;article&gt;</td><td>Eigenständiger Inhalt</td><td>In Überprüfung</td></tr>
+   <tr><td>&lt;nav&gt;</td><td>Navigation</td><td>In Überprüfung</td></tr>
+   <tr><td>&lt;a&gt;</td><td>Hyperlink</td><td>In Überprüfung</td></tr>
+   <tr><td>&lt;img&gt;</td><td>Bild</td><td>In Überprüfung</td></tr>
+   <tr><td>&lt;form&gt;</td><td>Formular</td><td>In Überprüfung</td></tr>
+   <tr><td>&lt;input&gt;</td><td>Eingabefeld</td><td>In Überprüfung</td></tr>
+ </tbody>
+</table>
+
+<h2>MagentaHTML Attributes</h2>
+<table>
+ <thead>
+   <tr>
+     <th>Attribut</th>
+     <th>Funktion</th>
+     <th>Status</th>
+   </tr>
+ </thead>
+ <tbody>
+   <tr><td data-attr="accesskey">accesskey</td><td>Tastenkürzel für das Element</td><td>In Überprüfung</td></tr>
+   <tr><td data-attr="autocapitalize">autocapitalize</td><td>Automatische Großschreibung steuern</td><td>In Überprüfung</td></tr>
+   <tr><td data-attr="autofocus">autofocus</td><td>Fokus beim Laden setzen</td><td>In Überprüfung</td></tr>
+   <tr><td data-attr="class">class</td><td>CSS-Klassen zuweisen</td><td>In Überprüfung</td></tr>
+   <tr><td data-attr="contenteditable">contenteditable</td><td>Bearbeitbaren Inhalt erlauben</td><td>In Überprüfung</td></tr>
+   <tr><td data-attr="contextmenu">contextmenu</td><td>Eigenes Kontextmenü</td><td>In Überprüfung</td></tr>
+   <tr><td data-attr="data-*">data-*</td><td>Benutzerdefinierte Datenattribute</td><td>In Überprüfung</td></tr>
+   <tr><td data-attr="dir">dir</td><td>Text-Richtung (ltr, rtl)</td><td>In Überprüfung</td></tr>
+   <tr><td data-attr="draggable">draggable</td><td>Drag-&-Drop aktivieren</td><td>In Überprüfung</td></tr>
+   <tr><td data-attr="enterkeyhint">enterkeyhint</td><td>Anzeige des Enter-Keys</td><td>In Überprüfung</td></tr>
+   <tr><td data-attr="exportparts">exportparts</td><td>Teile des Shadow DOM exportieren</td><td>In Überprüfung</td></tr>
+   <tr><td data-attr="hidden">hidden</td><td>Element ausblenden</td><td>In Überprüfung</td></tr>
+   <tr><td data-attr="inert">inert</td><td>Element deaktivieren (nicht interaktiv)</td><td>In Überprüfung</td></tr>
+   <tr><td data-attr="inputmode">inputmode</td><td>Virtuelle Tastatursteuerung</td><td>In Überprüfung</td></tr>
+   <tr><td data-attr="is">is</td><td>Custom Element Typ definieren</td><td>In Überprüfung</td></tr>
+   <tr><td data-attr="itemid">itemid</td><td>Microdata-ID</td><td>In Überprüfung</td></tr>
+   <tr><td data-attr="itemprop">itemprop</td><td>Microdata-Eigenschaft</td><td>In Überprüfung</td></tr>
+   <tr><td data-attr="itemref">itemref</td><td>Microdata-Referenz</td><td>In Überprüfung</td></tr>
+   <tr><td data-attr="itemscope">itemscope</td><td>Microdata-Container</td><td>In Überprüfung</td></tr>
+   <tr><td data-attr="itemtype">itemtype</td><td>Microdata-Typ</td><td>In Überprüfung</td></tr>
+   <tr><td data-attr="lang">lang</td><td>Sprache des Elements</td><td>In Überprüfung</td></tr>
+   <tr><td data-attr="nonce">nonce</td><td>Sicherheits-Token für CSP</td><td>In Überprüfung</td></tr>
+   <tr><td data-attr="part">part</td><td>Shadow DOM Stylingteil</td><td>In Überprüfung</td></tr>
+   <tr><td data-attr="role">role</td><td>Semantische/ARIA-Rolle</td><td>In Überprüfung</td></tr>
+   <tr><td data-attr="slot">slot</td><td>Web Component Slot</td><td>In Überprüfung</td></tr>
+   <tr><td data-attr="spellcheck">spellcheck</td><td>Rechtschreibprüfung aktivieren</td><td>In Überprüfung</td></tr>
+   <tr><td data-attr="style">style</td><td>Inline CSS</td><td>In Überprüfung</td></tr>
+   <tr><td data-attr="tabindex">tabindex</td><td>Tab-Reihenfolge steuern</td><td>In Überprüfung</td></tr>
+   <tr><td data-attr="title">title</td><td>Tooltip oder Zusatzinfo</td><td>In Überprüfung</td></tr>
+   <tr><td data-attr="translate">translate</td><td>Übersetzbarkeit definieren</td><td>In Überprüfung</td></tr>
+ </tbody>
+</table>
+
+<script>
+async function loadLanguage(lang) {
+  try {
+    const response = await fetch(`${lang}.json`);
+    if (!response.ok) throw new Error("JSON konnte nicht geladen werden");
+    const data = await response.json();
+
+    if (data.title) document.title = data.title;
+
+    const introEl = document.getElementById("magenta-intro");
+    if (introEl && data.intro) introEl.textContent = data.intro;
+
+    if (data.tags) {
+      for (const [tag, desc] of Object.entries(data.tags)) {
+        const cell = document.querySelector(`[data-tag='${tag}']`);
+        if (cell) cell.textContent = desc;
+      }
+    }
+
+    if (data.attributes) {
+      for (const [attr, desc] of Object.entries(data.attributes)) {
+        const cell = document.querySelector(`[data-attr='${attr}']`);
+        if (cell) cell.textContent = desc;
+      }
+    }
+  } catch (error) {
+    console.error("Fehler beim Laden der Sprache:", error);
+  }
+}
+
+function changeLanguage(lang) {
+  loadLanguage(lang);
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  const initialLang = document.getElementById("language").value;
+  loadLanguage(initialLang);
+});
+</script>
+
+</body>
+</html>

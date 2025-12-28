@@ -1,0 +1,94 @@
+Return-Path: <Poststelle@ldi.nrw.de>
+Delivered-To: datenschutz@magentaweb.org
+Received: from webserver.bisecthosting.com
+	by webserver.bisecthosting.com with LMTP
+	id CAFAAjznAWkKjD4Aufviug
+	(envelope-from <Poststelle@ldi.nrw.de>)
+	for <datenschutz@magentaweb.org>; Wed, 29 Oct 2025 06:06:52 -0400
+Return-path: <Poststelle@ldi.nrw.de>
+Envelope-to: datenschutz@magentaweb.org
+Delivery-date: Wed, 29 Oct 2025 06:06:52 -0400
+Received: from sb1-doi-mailer4.it.nrw.de ([93.184.140.48]:34188)
+	by webserver.bisecthosting.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.98.2)
+	(envelope-from <Poststelle@ldi.nrw.de>)
+	id 1vE34s-0000000HDSe-48M6
+	for datenschutz@magentaweb.org;
+	Wed, 29 Oct 2025 06:06:51 -0400
+Received: from localhost (localhost [127.0.0.1])
+	by sb1-doi-mailer4.it.nrw.de (Postfix) with ESMTP id 4FCBAC06BAD
+	for <datenschutz@magentaweb.org>; Wed, 29 Oct 2025 11:06:06 +0100 (CET)
+DKIM-Filter: OpenDKIM Filter v2.11.0 sb1-doi-mailer4.it.nrw.de 4FCBAC06BAD
+Authentication-Results: sb1-doi-mailer4.it.nrw.de;
+	dkim=pass (2048-bit key, unprotected) header.d=ldi.nrw.de header.i=@ldi.nrw.de header.a=rsa-sha256 header.s=20230502 header.b=Lta2yjCD
+X-Virus-Scanned: amavis at nrw.de
+Received: from sb1-doi-mailer4.it.nrw.de ([127.0.0.1])
+ by localhost (sb1-doi-mailer4.it.nrw.de [127.0.0.1]) (amavis, port 10024)
+ with ESMTP id wnMU2mqS1zsv for <datenschutz@magentaweb.org>;
+ Wed, 29 Oct 2025 11:06:06 +0100 (CET)
+Received: from relay8m.it.nrw.de (sb0-itd-16465.it.nrw.de [93.184.128.151])
+	by sb1-doi-mailer4.it.nrw.de (Postfix) with ESMTPS id 237EFC21AC5
+	for <datenschutz@magentaweb.org>; Wed, 29 Oct 2025 11:06:06 +0100 (CET)
+DKIM-Filter: OpenDKIM Filter v2.11.0 sb1-doi-mailer4.it.nrw.de 237EFC21AC5
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=ldi.nrw.de;
+	s=20230502; t=1761732366;
+	bh=cQ6LMh8i4FaP0C1oQvxIUU0tokbcAB1ITO9JTAtk9EQ=;
+	h=From:To:Subject:Date:References:In-Reply-To:From;
+	b=Lta2yjCDFwZd7D8NppJFqbhZ7XaS70gcuZUoixH7rtXd0+naH9QNzw3n7/0gi5Xgu
+	 hqjf5+DUk0RjYOUMZWA6OAOcQfvejJl0IjIASHFvtSEUQL1HawvMGTh4ehFCM8IJVm
+	 TT8Rglrqi1FXnH6l9ATIghFw/bDlGOTm+dX5miSWYYsnsAoj+dPFIiV2FEKffAzhwg
+	 r1xACuZG45HxbMWn9jHSRuMyzk+oAP1VVRzip95/Z8MVRedNzSoC+K/bZxzCwuzxWr
+	 4bgjH+sU0wOUBGH1nR3yjDGXxeKXvPZ84ASiNWYprp9BjYHKEe9Gl7XRZ6jK2oiy+D
+	 Y8uyJSs5gvFIQ==
+From: <Poststelle@ldi.nrw.de>
+To: <datenschutz@magentaweb.org>
+Subject: AW: Datenschutzbeschwerde gegen Tellter SAS
+Thread-Topic: Datenschutzbeschwerde gegen Tellter SAS
+Thread-Index: AQHcSLXCzpILSlG4w0WAd60mJ722QrTY5b0A
+Date: Wed, 29 Oct 2025 10:06:04 +0000
+Message-ID: <fd201c7f56454460a9f1d49bea107057@ldi.nrw.de>
+References: <f4cf046c7b68f1246c081a92d636f813@magentaweb.org>
+In-Reply-To: <f4cf046c7b68f1246c081a92d636f813@magentaweb.org>
+Accept-Language: de-DE, en-US
+Content-Language: de-DE
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-originating-ip: [10.16.145.48]
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+X-Spam-Status: No, score=0.3
+X-Spam-Score: 3
+X-Spam-Bar: /
+X-Ham-Report: =?ISO-8859-1?Q?Spam_detection_software=2C_running_on_the_system_=22webserver=2Ebise?= =?ISO-8859-1?Q?cthosting=2Ecom=22=2C=0A_has_NOT_identified_this_inco?= =?ISO-8859-1?Q?ming_email_as_spam=2E__The_original=0A_message_has_be?= =?ISO-8859-1?Q?en_attached_to_this_so_you_can_view_it_or_label=0A_si?= =?ISO-8859-1?Q?milar_future_email=2E__If_you_have_any_questions=2C_s?= =?ISO-8859-1?Q?ee=0A_root=5C=40localhost_for_details=2E=0A_Content_p?= =?ISO-8859-1?Q?review=3A__E-Nummer=3A_12659/2025_=28interne_Ordnungs?= =?ISO-8859-1?Q?nummer=29_Guten_Tag=2C_=0A_Content_analysis_details=3A_?= =?ISO-8859-1?Q?__=280=2E3_points=2C_5=2E0_required=29=0A__pts_rule_n?= =?ISO-8859-1?Q?ame______________description=0A_----_----------------?= =?ISO-8859-1?Q?------_----------------------------------------------?= =?ISO-8859-1?Q?----=0A__0=2E0_RCVD=5FIN=5FVALIDITY=5FSAFE=5FBLOCKED_?= =?ISO-8859-1?Q?RBL=3A_ADMINISTRATOR_NOTICE=3A_The_query_to=0A_______?= =?ISO-8859-1?Q?_______________________Validity_was_blocked=2E__See=0A_?= =?ISO-8859-1?Q?____________________________https=3A//knowledge=2Eval?= =?ISO-8859-1?Q?idity=2Ecom/hc/en-us/articles/20961730681243=0A______?= =?ISO-8859-1?Q?________________________for_more_information=2E=0A___?= =?ISO-8859-1?Q?__________________________=5B93=2E184=2E140=2E48_list?= =?ISO-8859-1?Q?ed_in_sa-accredit=2Ehabeas=2Ecom=5D=0A__0=2E0_RCVD=5FI?= =?ISO-8859-1?Q?N=5FVALIDITY=5FRPBL=5FBLOCKED_RBL=3A_ADMINISTRATOR_NO?= =?ISO-8859-1?Q?TICE=3A_The_query_to=0A______________________________?= =?ISO-8859-1?Q?Validity_was_blocked=2E__See=0A______________________?= =?ISO-8859-1?Q?_______https=3A//knowledge=2Evalidity=2Ecom/hc/en-us/?= =?ISO-8859-1?Q?articles/20961730681243=0A___________________________?= =?ISO-8859-1?Q?___for_more_information=2E=0A________________________?= =?ISO-8859-1?Q?_____=5B93=2E184=2E140=2E48_listed_in_bl=2Escore=2Ese?= =?ISO-8859-1?Q?nderscore=2Ecom=5D=0A__0=2E5_JMQ=5FSPF=5FNEUTRAL_____?= =?ISO-8859-1?Q?___ASKDNS=3A_SPF_set_to_=3Fall=0A____________________?= =?ISO-8859-1?Q?_________=5Bldi=2Enrw=2Ede_TXT=3Av=3Dspf1_include=3A=5F?= =?ISO-8859-1?Q?spf=2Enrw=2Ede=5D=0A_____________________________=5Bi?= =?ISO-8859-1?Q?nclude=3A=5Fspf2=2Enrw=2Ede_=3Fall=5D=0A__0=2E0_URIBL?= =?ISO-8859-1?Q?=5FDBL=5FBLOCKED=5FOPENDNS_ADMINISTRATOR_NOTICE=3A_Th?= =?ISO-8859-1?Q?e_query_to=0A_____________________________dbl=2Espamh?= =?ISO-8859-1?Q?aus=2Eorg_was_blocked_due_to_usage_of_an=0A__________?= =?ISO-8859-1?Q?____________________open_resolver=2E_See=0A__________?= =?ISO-8859-1?Q?___________________https=3A//www=2Espamhaus=2Eorg/ret?= =?ISO-8859-1?Q?urnc/pub/=0A_____________________________=5BURI=3A_ww?= =?ISO-8859-1?Q?w=2Eldi=2Enrw=2Ede=5D=0A_____________________________?= =?ISO-8859-1?Q?=5BURI=3A_ldi=2Enrw=2Ede=5D=0A__0=2E0_RCVD=5FIN=5FVAL?= =?ISO-8859-1?Q?IDITY=5FCERTIFIED=5FBLOCKED_RBL=3A_ADMINISTRATOR_NOTI?= =?ISO-8859-1?Q?CE=3A_The=0A_____________________________query_to_Val?= =?ISO-8859-1?Q?idity_was_blocked=2E__See=0A_________________________?= =?ISO-8859-1?Q?____https=3A//knowledge=2Evalidity=2Ecom/hc/en-us/art?= =?ISO-8859-1?Q?icles/20961730681243=0A______________________________?= =?ISO-8859-1?Q?for_more_information=2E=0A__________________________=5B9?= =?ISO-8859-1?Q?3=2E184=2E140=2E48_listed_in_sa-trusted=2Ebondedsende?= =?ISO-8859-1?Q?r=2Eorg=5D=0A__0=2E0_RCVD=5FIN=5FZEN=5FBLOCKED=5FOPEN?= =?ISO-8859-1?Q?DNS_RBL=3A_ADMINISTRATOR_NOTICE=3A_The_query_to=0A___?= =?ISO-8859-1?Q?__________________________zen=2Espamhaus=2Eorg_was_bl?= =?ISO-8859-1?Q?ocked_due_to_usage_of_an=0A__________________________?= =?ISO-8859-1?Q?____open_resolver=2E_See=0A__________________________?= =?ISO-8859-1?Q?___https=3A//www=2Espamhaus=2Eorg/returnc/pub/=0A____?= =?ISO-8859-1?Q?_________________________=5B93=2E184=2E140=2E48_liste?= =?ISO-8859-1?Q?d_in_zen=2Espamhaus=2Eorg=5D=0A_-0=2E0_SPF=5FPASS____?= =?ISO-8859-1?Q?___________SPF=3A_sender_matches_SPF_record=0A_-0=2E1?= =?ISO-8859-1?Q?_DKIM=5FVALID=5FEF__________Message_has_a_valid_DKIM_?= =?ISO-8859-1?Q?or_DK_signature_from=0A_____________________________e?= =?ISO-8859-1?Q?nvelope-from_domain=0A_-0=2E1_DKIM=5FVALID=5FAU______?= =?ISO-8859-1?Q?____Message_has_a_valid_DKIM_or_DK_signature_from_aut?= =?ISO-8859-1?Q?hor's=0A_____________________________domain=0A__0=2E1?= =?ISO-8859-1?Q?_DKIM=5FSIGNED____________Message_has_a_DKIM_or_DK_si?= =?ISO-8859-1?Q?gnature=2C_not_necessarily_valid=0A_-0=2E1_DKIM=5FVAL?= =?ISO-8859-1?Q?ID_____________Message_has_at_least_one_valid_DKIM_or?= =?ISO-8859-1?Q?_DK_signature?=
+X-Spam-Flag: NO
+
+DQoNCg0KDQpFLU51bW1lcjogMTI2NTkvMjAyNQ0KKGludGVybmUgT3JkbnVuZ3NudW1tZXIpDQoN
+Cg0KR3V0ZW4gVGFnLA0KDQp3aXIgaGFiZW4gSWhyZSBOYWNocmljaHQgZXJoYWx0ZW4gdW5kIHdl
+cmRlbiB1bnMgc28gc2NobmVsbCB3aWUgbcO2Z2xpY2ggZGFydW0ga8O8bW1lcm4uICBSZWluIHZv
+cnNvcmdsaWNoIHdlaXNlbiB3aXIgZGFyYXVmIGhpbiwgZGFzcyB3aXIgYXVmZ3J1bmQgZGVyIGhv
+aGVuIFphaGwgYW4gRWluZ2FiZW4gdW5kIEJlcmF0dW5nc2Vyc3VjaGVuIGRhZsO8ciB1bnRlciBV
+bXN0w6RuZGVuIGV0d2FzIG1laHIgWmVpdCBiZW7DtnRpZ2VuLg0KDQpCaXR0ZSBoYWJlbiBTaWUg
+VmVyc3TDpG5kbmlzIGRhZsO8ciwgZGFzcyB3aXIgbmljaHQgYXVmIE5hY2hyaWNodGVuIHJlYWdp
+ZXJlbiBrw7ZubmVuLCBhdXMgZGVuZW4gZWluIGRhdGVuc2NodXR6cmVjaHRsaWNoZXMgQW5saWVn
+ZW4gb2RlciBlaW4gQW5saWVnZW4gZGVyIEluZm9ybWF0aW9uc2ZyZWloZWl0IG5pY2h0IGVyc2lj
+aHRsaWNoIGlzdC4NCg0KVW0gdW5zZXJlIFBmbGljaHRlbiBhdXMgQXJ0LiAxMyB1bmQgMTQgRGF0
+ZW5zY2h1dHotR3J1bmR2ZXJvcmRudW5nIHp1IGVyZsO8bGxlbiwgd2Vpc2VuIHdpciBTaWUgYXVm
+IEZvbGdlbmRlcyBoaW46IEluZm9ybWF0aW9uZW4genVyIFZlcmFyYmVpdHVuZyBwZXJzb25lbmJl
+em9nZW5lciBEYXRlbiBkdXJjaCBkaWUgTERJIGZpbmRlbiBTaWUgdW50ZXIgaHR0cHM6Ly93d3cu
+bGRpLm5ydy5kZS9kYXRlbnNjaHV0emVya2xhZXJ1bmcuDQoNCg0KTWl0IGZyZXVuZGxpY2hlbiBH
+csO8w59lbg0KDQpEaWUgTGFuZGVzYmVhdWZ0cmFndGUgZsO8ciBEYXRlbnNjaHV0eiB1bmQgSW5m
+b3JtYXRpb25zZnJlaWhlaXQgDQpOb3JkcmhlaW4tV2VzdGZhbGVuDQpLYXZhbGxlcmllc3RyLiAy
+LTQsIDQwMjEzIETDvHNzZWxkb3JmDQpUZWwuOiAwMjExLTM4NDI0LTANCkZheDogMDIxMS0zODQy
+NC05OTkNCkUtTWFpbDogcG9zdHN0ZWxsZUBsZGkubnJ3LmRlIA0KSW50ZXJuZXQ6IHd3dy5sZGku
+bnJ3LmRlDQpBbGxnZW1laW5lIEUtTWFpbGFkcmVzc2U6IHBvc3RzdGVsbGVAbGRpLm5ydy5kZQ0K
+w5ZmZmVudGxpY2hlciBTY2hsw7xzc2VsIGbDvHIgYWxsZ2VtZWluZSBFLU1haWxhZHJlc3NlOg0K
+aHR0cHM6Ly93d3cubGRpLm5ydy5kZS9wZ3Atc2NobHVlc3NlbA0KDQoNCg0KLS0tLS1VcnNwcsO8
+bmdsaWNoZSBOYWNocmljaHQtLS0tLQ0KVm9uOiBkYXRlbnNjaHV0ekBtYWdlbnRhd2ViLm9yZyA8
+ZGF0ZW5zY2h1dHpAbWFnZW50YXdlYi5vcmc+IA0KR2VzZW5kZXQ6IE1pdHR3b2NoLCAyOS4gT2t0
+b2JlciAyMDI1IDEwOjI0DQpBbjogWkYgTERJIFBvc3RzdGVsbGUgKExESSkgPFBvc3RzdGVsbGVA
+bGRpLm5ydy5kZT4NCkJldHJlZmY6IERhdGVuc2NodXR6YmVzY2h3ZXJkZSBnZWdlbiBUZWxsdGVy
+IFNBUw0KUHJpb3JpdMOkdDogSG9jaA0KDQpIaWVybWl0IHJlaWNoZSBpY2ggb2ZmaXppZWxsIG5h
+Y2ggQXJ0aWtlbCA3NyBEU0dWTywgRGF0ZW5zY2h1dHpiZXNjaHdlcmRlIGdlZ2VuIGRhcyBmcmFu
+esO2c2lzY2hlIFRlbGx0ZXIgU0FTIGVpbi4gTWVociBJbmZvcm1hdGlvbmVuIHNpbmQgaW0gRG9r
+dW1lbnQgaW0gQW5oYW5nDQo=

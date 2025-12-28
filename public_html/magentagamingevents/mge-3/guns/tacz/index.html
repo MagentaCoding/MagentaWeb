@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waffen‑Glücksrad</title>
+    <style>
+        body {
+            background: #111;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        #wheel {
+            width: 500px;
+            height: 500px;
+            border-radius: 50%;
+            border: 10px solid #444;
+            margin: 40px auto;
+            position: relative;
+            overflow: hidden;
+            transition: transform 5s cubic-bezier(.17,.67,.83,.67);
+        }
+        .slice {
+            position: absolute;
+            width: 50%;
+            height: 50%;
+            top: 50%;
+            left: 50%;
+            transform-origin: 0% 0%;
+            background: #222;
+            border: 1px solid #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+            font-size: 12px;
+        }
+        #pointer {
+            width: 0;
+            height: 0;
+            border-left: 30px solid transparent;
+            border-right: 30px solid transparent;
+            border-bottom: 40px solid red;
+            margin: 0 auto;
+        }
+        button {
+            padding: 10px 30px;
+            background: #cc00ff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        #result {
+            margin-top: 30px;
+            font-size: 26px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Waffen‑Glücksrad für alle Waffen der Mod [TaCZ] Timeless and Classic Guns Zero</h1>
+    <div id="pointer"></div>
+    <div id="wheel"></div>
+    <button onclick="spin()">Drehen</button>
+    <div id="result"></div>
+
+<script>
+const weapons = [                                                                                                                                                   // Waffen von TaCZ
+    "Deagle 50","CZ 75","Glock 17","P320","Goldene Deagle 357","B93R","Timeless .50 Z-Type","M1911",                                                                // Normale Pistolen
+    "M700","M107","Springfield 1873","M95 .50 Kaliber Antimaterial","AWM",                                                                                          // Scharfschützengewere
+    "SKS","Typ 81-1","QBZ-95 Langbogen","AKM","HK-416D","M4A1 Carbine","M16A1","M16A4","HK G3","SPR-15 HB Sagittarius","MK14 EBR","SCAR-L","SCAR-H","G36K","AUG",   // Sturemgewehre
+    "DB-2 Durin","DB-4 Ursus","M870","AA12",                                                                                                                        // Schrotflinten
+    "UMP45","UZI","MP5A5","Vector","P90 PDW",                                                                                                                       // Maschienenpistolen
+    "M320","RPG-7",                                                                                                                                                 // Schwere Waffen
+    "M249","M134","RPK"                                                                                                                                             // Maschienengewehre
+];
+
+const wheel = document.getElementById("wheel");
+const sliceCount = weapons.length;
+const sliceAngle = 360 / sliceCount;
+
+// Rad zeichnen
+weapons.forEach((w, i) => {
+    const slice = document.createElement("div");
+    slice.className = "slice";
+    slice.style.transform = `rotate(${i * sliceAngle}deg) skewY(${90 - sliceAngle}deg)`;
+    slice.innerHTML = w;
+    wheel.appendChild(slice);
+});
+
+let spinning = false;
+
+function spin() {
+    if (spinning) return;
+    spinning = true;
+
+    const randomIndex = Math.floor(Math.random() * weapons.length);
+    const rotation = 3600 + (360 - randomIndex * sliceAngle);
+
+    wheel.style.transform = `rotate(${rotation}deg)`;
+
+    setTimeout(() => {
+        document.getElementById("result").innerText = "Gewonnen: " + weapons[randomIndex];
+        spinning = false;
+    }, 5000);
+}
+</script>
+</body>
+</html>

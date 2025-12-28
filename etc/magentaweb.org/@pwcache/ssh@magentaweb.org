@@ -1,0 +1,6 @@
+passwd:$6$FghZdfBIz8qma0hf$ByGVEmr.owJMovUgLsWi7PSKiPe.a994YXDGKgR/hmZ4OsletcnsJ1yqVrOvdkkValv1Q.qQ0AAvkNVxh2k2..
+quota:0
+homedir:/home/magentaw/mail/magentaweb.org/ssh
+strength:67
+lastchanged:-1
+perms:rw

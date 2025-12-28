@@ -1,0 +1,93 @@
+From: "contact@magentaweb.org" <contact@magentaweb.org>
+Content-type: text/html; charset=utf-8
+Subject: Mail arrived
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Autoresponder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Aldrich', sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 40px auto;
+      background-color: #ffffff;
+      border-radius: 8px;
+      padding: 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .info {
+      background-color: #f0f0f0;
+      padding: 15px;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+    .dropdown {
+      margin-top: 20px;
+    }
+    select {
+      padding: 8px 12px;
+      font-size: 14px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      background-color: #fff;
+      cursor: pointer;
+    }
+    .footer {
+      margin-top: 30px;
+      font-size: 12px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Automatische Antwort</h1>
+    <p>Hallo %from%,</p>
+    <p>Vielen Dank für deine Nachricht an uns. Diese E-Mail wurde automatisch gesendet, bitte antworte nicht direkt darauf.</p>
+
+    <div class="info">
+      <p><strong>Betreff:</strong> %subject%</p>
+      <p><strong>Absender:</strong> %from%</p>
+      <p><strong>E-Mail:</strong> %email%</p>
+    </div>
+
+    <div class="dropdown">
+      <label for="language">Sprache / Language / Idioma / Langue:</label>
+      <select id="language" name="language" onchange="changeLanguage(this.value)">
+        <option value="de">Deutsch</option>
+        <option value="en">English</option>
+        <option value="es">Español</option>
+        <option value="fr">Français</option>
+      </select>
+    </div>
+
+    <p class="footer">Hinweis: Diese E-Mail wurde automatisch generiert.</p>
+  </div>
+
+  <script>
+    function changeLanguage(lang) {
+      alert("Sprachumschaltung auf: " + lang + " (In einem echten System würde der Text hier übersetzt werden.)");
+    }
+  </script>
+</body>
+</html>

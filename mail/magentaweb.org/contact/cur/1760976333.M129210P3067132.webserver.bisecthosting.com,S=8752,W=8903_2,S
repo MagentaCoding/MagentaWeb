@@ -1,0 +1,151 @@
+Return-Path: <emiberg2108@gmail.com>
+Delivered-To: contact@magentaweb.org
+Received: from webserver.bisecthosting.com
+	by webserver.bisecthosting.com with LMTP
+	id KHgwB81d9mj8zC4Aufviug
+	(envelope-from <emiberg2108@gmail.com>)
+	for <contact@magentaweb.org>; Mon, 20 Oct 2025 12:05:33 -0400
+Return-path: <emiberg2108@gmail.com>
+Envelope-to: contact@magentaweb.org
+Delivery-date: Mon, 20 Oct 2025 12:05:33 -0400
+Received: from mail-yw1-f172.google.com ([209.85.128.172]:54513)
+	by webserver.bisecthosting.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.98.2)
+	(envelope-from <emiberg2108@gmail.com>)
+	id 1vAsNq-0000000D3WR-2r7w
+	for contact@magentaweb.org;
+	Mon, 20 Oct 2025 12:05:33 -0400
+Received: by mail-yw1-f172.google.com with SMTP id 00721157ae682-71d71bcac45so48220627b3.0
+        for <contact@magentaweb.org>; Mon, 20 Oct 2025 09:04:57 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1760976277; x=1761581077; darn=magentaweb.org;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=LhnRNu0VSx4Smy661pzlldT9AdtP7m5rdZfSK8p4OVc=;
+        b=PH29tyY8MIbOLn3BVPU/p9svcMVVi9mA2Y50nOS/pyOk+vhbxlxUaihXdLcYYz4Rso
+         uPJW9vOapoLq3JSPBi3dH6FX8LIEXCUeZiDfTzR0G2H7v9bV3Hc5CqdBhBmne+MTUiBy
+         SrUIvdP8N62/bAPz5VbwFnFDB/K2X5EnKe4gRa9dRy1P4fyD7TEKqz8Tpn0lTFCRgEkw
+         3kDEI0Fag+0nMBvmJi+m1pftmYSdQHf7YKAERP6N9drsb97jN6j+VpkON+IE1HTQ+/Wu
+         +um00aJGTd9aqNZ4apHh2QADlksSgOYLBOXZbisGZERo05li95cL8tCwqZAafW44vJzs
+         +xRw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1760976277; x=1761581077;
+        h=to:subject:message-id:date:from:in-reply-to:references:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=LhnRNu0VSx4Smy661pzlldT9AdtP7m5rdZfSK8p4OVc=;
+        b=QwYeZ1ngXz7XisBL+4XUch2SOYGMEq+FMbq7nb3ns51hnuVDe2M8Dt8nqSRCPyFtqN
+         /RBYO5vrfFOvrhpOU4+sAdcH1ICqTO6OXZ0knYYQ+aAiLUqaL/x8kfXtcstczDPmmI7O
+         WozBVJgOodlrLAdht7ydOZ/zCV+Kac8PONFCZ/UuOedUGStZEdzmBypwkvEyOcmfGzFw
+         P35ZyeGCt9qGZyR8SsyYVijImqGNjZUF6SGWq/1VkrfKI4DGVIp85T4Mu4VLNmaXTLBG
+         13z2E+raIiA7lUVLWU/3yullna3ClLjs3MJWh5g6yrIZe/xiPOyTTgbsTudrmgr4O4kW
+         Mh3A==
+X-Gm-Message-State: AOJu0YyLb9zxA/s3CDD/vkodqac2oqHLZfWHj/5zLYS0FFv37d7x4TZB
+	FypePKkxaDeS6BMI+5O3fn95ZYDknKd7FcEEfSXi2YX4FONIhqudHvPKUREGrUMatu/o5uIhICu
+	7pZYYWp4N6cdOB8efvH4Pi+TD3uj8toMVzkwl
+X-Gm-Gg: ASbGncueaxOONL6o7zn0/PfQH87GiQ7nMJexBp6jSl37FhSP1u1GnriNXs1uH1sk075
+	LFch4MEu77LqNwGkDK+D7AOdxhLk72BAfFk6s5wRNHL2EgHwty/Dpduv+00sx2M9Q5uZ9W4U7Kx
+	SmMRQx3sTXSYpzd/50w4zYP4t23Pead7av1YMmy3pUzI8Ve2SbUhJtxF/0RrmtBTpAlK0t/A7Y9
+	VSJu05yMXzPK6jwtpg3CFvHKpgbMqiH239bkcYt41jVWDEHiccVS7A9RrfAUsiTbXpNn1lpTXZn
+	QVV46dFSSSf4fuD+zCdRLWdTaq4=
+X-Google-Smtp-Source: AGHT+IGna4aKJCEazxUQ+qMofLixu4xpKzlnaE4YPDM3l1p31X+D36rKEM4Vl7l26+5CLw1hgWPQ8+6UqtSEOYCbAsA=
+X-Received: by 2002:a05:690e:11ce:b0:63e:2809:354c with SMTP id
+ 956f58d0204a3-63e2809357dmr7268292d50.61.1760976277155; Mon, 20 Oct 2025
+ 09:04:37 -0700 (PDT)
+MIME-Version: 1.0
+References: <CAL-kbCZ5y_TxaBw0-cYMOvczAKt50VGeLuXoxJz9Qeb1TXt7zQ@mail.gmail.com>
+ <77496837-15fa-49db-9a3c-7a8994fb94c2@magentaweb.org> <CAL-kbCZ8whX7OmYeE8Rsni-x_+MUNJG4O6n1eVjMvtth8KvtLA@mail.gmail.com>
+ <7d34a636-e136-4e44-b036-46c2e878ec0f@magentaweb.org>
+In-Reply-To: <7d34a636-e136-4e44-b036-46c2e878ec0f@magentaweb.org>
+From: Emil Bergfelder <emiberg2108@gmail.com>
+Date: Mon, 20 Oct 2025 18:04:28 +0200
+X-Gm-Features: AS18NWCu4X9hDsq0NgSJGoLzpdo-0KH33sNYkgRKbDgYkjbpEP-ZBKRXOFoOFg0
+Message-ID: <CAL-kbCYVxY5V6ug2Hk5T-Kis8SRHb+i6AJ05_qvosXSYHE5v4w@mail.gmail.com>
+Subject: Re: arschloch
+To: =?UTF-8?Q?MagentaWeb_=E2=80=93_Mailsystem?= <contact@magentaweb.org>
+Content-Type: multipart/alternative; boundary="0000000000007534020641993dc5"
+X-Spam-Status: No, score=1.2
+X-Spam-Score: 12
+X-Spam-Bar: +
+X-Ham-Report: =?ISO-8859-1?Q?Spam_detection_software=2C_running_on_the_system_=22webserver=2Ebise?= =?ISO-8859-1?Q?cthosting=2Ecom=22=2C=0A_has_NOT_identified_this_inco?= =?ISO-8859-1?Q?ming_email_as_spam=2E__The_original=0A_message_has_be?= =?ISO-8859-1?Q?en_attached_to_this_so_you_can_view_it_or_label=0A_si?= =?ISO-8859-1?Q?milar_future_email=2E__If_you_have_any_questions=2C_s?= =?ISO-8859-1?Q?ee=0A_root=5C=40localhost_for_details=2E=0A_Content_p?= =?ISO-8859-1?Q?review=3A__OK_Am_Mo=2E=2C_20=2E_Okt=2E_2025_um_14=3A1?= =?ISO-8859-1?Q?4_Uhr_schrieb_MagentaWeb_=E2=80=93=0A____Mailsystem_=3C_?= =?ISO-8859-1?Q?=3A_=3E_OK_=3E_Am_20=2E10=2E2025_um_14=3A12_schrieb_E?= =?ISO-8859-1?Q?mil_Bergfelder=3A_=3E_=3E=0A____war_nur_spa=C3=9F_=3E_?= =?ISO-8859-1?Q?=3E_Am_Mo=2E=2C_20=2E_Okt=2E_2025_um_14=3A12_Uhr_schr?= =?ISO-8859-1?Q?ieb_MagentaWeb_=E2=80=93=0A____Mailsystem_=3C_=3E_=3A_?= =?ISO-8859-1?Q?=3E_=3E=3E_das_ist_nicht_nett_=3E=3E_=3E=3E_=3E=3E_Am?= =?ISO-8859-1?Q?_20=2E10=2E2025_=5B=2E=2E=2E=5D_=0A_Content_analysis_?= =?ISO-8859-1?Q?details=3A___=281=2E2_points=2C_5=2E0_required=29=0A_?= =?ISO-8859-1?Q?_pts_rule_name______________description=0A_----_-----?= =?ISO-8859-1?Q?-----------------_-----------------------------------?= =?ISO-8859-1?Q?---------------=0A__0=2E0_T=5FSPF=5FTEMPERROR________?= =?ISO-8859-1?Q?SPF=3A_test_of_record_failed_=28temperror=29=0A__0=2E0?= =?ISO-8859-1?Q?_T=5FSPF=5FHELO=5FTEMPERROR___SPF=3A_test_of_HELO_rec?= =?ISO-8859-1?Q?ord_failed_=28temperror=29=0A__0=2E1_DKIM=5FSIGNED___?= =?ISO-8859-1?Q?_________Message_has_a_DKIM_or_DK_signature=2C_not_ne?= =?ISO-8859-1?Q?cessarily_valid=0A__0=2E1_DKIM=5FINVALID___________DK?= =?ISO-8859-1?Q?IM_or_DK_signature_exists=2C_but_is_not_valid=0A__0=2E0?= =?ISO-8859-1?Q?_FREEMAIL=5FFROM__________Sender_email_is_commonly_ab?= =?ISO-8859-1?Q?used_enduser_mail_provider=0A________________________?= =?ISO-8859-1?Q?_____=5Bemiberg2108=28at=29gmail=2Ecom=5D=0A__0=2E2_F?= =?ISO-8859-1?Q?REEMAIL=5FENVFROM=5FEND=5FDIGIT_Envelope-from_freemai?= =?ISO-8859-1?Q?l_username_ends_in=0A_____________________________dig?= =?ISO-8859-1?Q?it=0A_____________________________=5Bemiberg2108=28at?= =?ISO-8859-1?Q?=29gmail=2Ecom=5D=0A__0=2E0_HTML=5FMESSAGE___________?= =?ISO-8859-1?Q?BODY=3A_HTML_included_in_message=0A__0=2E8_GB=5FFREEM?= =?ISO-8859-1?Q?AIL=5FNUM________Freemail_spammy_address=0A__0=2E0_KA?= =?ISO-8859-1?Q?M=5FDMARC=5FSTATUS_______Test_Rule_for_DKIM_or_SPF_Fa?= =?ISO-8859-1?Q?ilure_with_Strict=0A_____________________________Alig?= =?ISO-8859-1?Q?nment?=
+X-Spam-Flag: NO
+
+--0000000000007534020641993dc5
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+OK
+
+Am Mo., 20. Okt. 2025 um 14:14 Uhr schrieb MagentaWeb =E2=80=93 Mailsystem =
+<
+contact@magentaweb.org>:
+
+> OK
+> Am 20.10.2025 um 14:12 schrieb Emil Bergfelder:
+>
+> war nur spa=C3=9F
+>
+> Am Mo., 20. Okt. 2025 um 14:12 Uhr schrieb MagentaWeb =E2=80=93 Mailsyste=
+m <
+> contact@magentaweb.org>:
+>
+>> das ist nicht nett
+>>
+>>
+>> Am 20.10.2025 um 14:11 schrieb Emil Bergfelder:
+>>
+>> arschloch
+>>
+>>
+
+--0000000000007534020641993dc5
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">OK<br></div><br><div class=3D"gmail_quote gmail_quote_cont=
+ainer"><div dir=3D"ltr" class=3D"gmail_attr">Am Mo., 20. Okt. 2025 um 14:14=
+=C2=A0Uhr schrieb MagentaWeb =E2=80=93 Mailsystem &lt;<a href=3D"mailto:con=
+tact@magentaweb.org">contact@magentaweb.org</a>&gt;:<br></div><blockquote c=
+lass=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8ex;border-left:1px soli=
+d rgb(204,204,204);padding-left:1ex"><u></u>
+
+ =20
+   =20
+ =20
+  <div>
+    <p>OK</p>
+    <div>Am 20.10.2025 um 14:12 schrieb Emil
+      Bergfelder:<br>
+    </div>
+    <blockquote type=3D"cite">
+     =20
+      <div dir=3D"ltr">war nur spa=C3=9F<br>
+      </div>
+      <br>
+      <div class=3D"gmail_quote">
+        <div dir=3D"ltr" class=3D"gmail_attr">Am Mo., 20. Okt. 2025 um
+          14:12=C2=A0Uhr schrieb MagentaWeb =E2=80=93 Mailsystem &lt;<a hre=
+f=3D"mailto:contact@magentaweb.org" target=3D"_blank">contact@magentaweb.or=
+g</a>&gt;:<br>
+        </div>
+        <blockquote class=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8ex=
+;border-left:1px solid rgb(204,204,204);padding-left:1ex">
+          <div>
+            <p>das ist nicht nett</p>
+            <p><br>
+            </p>
+            <div>Am 20.10.2025 um 14:11 schrieb Emil Bergfelder:<br>
+            </div>
+            <blockquote type=3D"cite">
+              <div dir=3D"ltr">
+                <div><font size=3D"2" face=3D"Arial">arschloch</font></div>
+              </div>
+            </blockquote>
+          </div>
+        </blockquote>
+      </div>
+    </blockquote>
+  </div>
+
+</blockquote></div>
+
+--0000000000007534020641993dc5--

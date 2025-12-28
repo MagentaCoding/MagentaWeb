@@ -1,0 +1,133 @@
+Return-Path: <>
+Delivered-To: findi@magentaweb.org
+Received: from webserver.bisecthosting.com
+	by webserver.bisecthosting.com with LMTP
+	id kIstL9Bc5mgIvCAAufviug
+	(envelope-from <>)
+	for <findi@magentaweb.org>; Wed, 08 Oct 2025 08:45:04 -0400
+Return-path: <>
+Envelope-to: findi@magentaweb.org
+Delivery-date: Wed, 08 Oct 2025 08:45:04 -0400
+Received: from mailnull by webserver.bisecthosting.com with local (Exim 4.98.2)
+	id 1v6TXU-000000090iS-2wLb
+	for findi@magentaweb.org;
+	Wed, 08 Oct 2025 08:45:04 -0400
+X-Failed-Recipients: api@vrs.de
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@webserver.bisecthosting.com>
+To: findi@magentaweb.org
+References: <2407CCC0-5716-C241-B3D2-A680791DDA47@hxcore.ol>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1759927504-eximdsn-2047292043
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1v6TXU-000000090iS-2wLb@webserver.bisecthosting.com>
+Date: Wed, 08 Oct 2025 08:45:04 -0400
+
+--1759927504-eximdsn-2047292043
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  api@vrs.de
+    Domain magentaweb.org has exceeded the max defers and failures per hour (5/5 (100%)) allowed. Message discarded.
+
+--1759927504-eximdsn-2047292043
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; webserver.bisecthosting.com
+
+Action: failed
+Final-Recipient: rfc822;api@vrs.de
+Status: 5.0.0
+
+--1759927504-eximdsn-2047292043
+Content-type: message/rfc822
+
+Return-path: <findi@magentaweb.org>
+Received: from [61.8.130.194] (port=36216 helo=localhost)
+	by webserver.bisecthosting.com with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384
+	(Exim 4.98.2)
+	(envelope-from <findi@magentaweb.org>)
+	id 1v6Si3-00000008KoL-0z3n
+	for api@vrs.de;
+	Wed, 08 Oct 2025 07:51:52 -0400
+MIME-Version: 1.0
+Date: Wed, 8 Oct 2025 13:43:48 +0200
+From: <findi@magentaweb.org>
+Subject: =?utf-8?Q?Nutzung_des_OpenData-Angebotes_f=C3=BCr_FINDI?=
+Thread-Topic: =?utf-8?Q?Nutzung_des_OpenData-Angebotes_f=C3=BCr_FINDI?=
+Message-ID: <2407CCC0-5716-C241-B3D2-A680791DDA47@hxcore.ol>
+To: <api@vrs.de>
+Content-Transfer-Encoding: base64
+Content-Type: text/html; charset="utf-8"
+
+PGh0bWw+PGJvZHk+PGRpdiBkaXI9Imx0ciIgc3R5bGU9ImZvbnQtZmFtaWx5OiBBcHRvcywgLWFw
+cGxlLXN5c3RlbSwgSGVsdmV0aWNhTmV1ZSwgc2Fucy1zZXJpZjsgZm9udC1zaXplOiAxMnB0OyBj
+b2xvcjogcmdiKDAsIDAsIDApOyI+U2VociBnZWVocnRlIERhbWVuIHVuZCBIZXJyZW4sPC9kaXY+
+PGRpdiBzdHlsZT0iZm9udC1mYW1pbHk6IEFwdG9zLCAtYXBwbGUtc3lzdGVtLCBIZWx2ZXRpY2FO
+ZXVlLCBzYW5zLXNlcmlmOyBmb250LXNpemU6IDEycHQ7IGNvbG9yOiByZ2IoMCwgMCwgMCk7Ij5t
+ZWluIE5hbWUgaXN0IEFsZXhhbmRlciBHYWwsIHVuZCBpY2ggYmV0cmV1ZSBkYXMgUHJvamVrdCBG
+SU5ESSwgZGFzIHNpY2ggbWl0IGRlciBOdXR6dW5nIHVuZCBWaXN1YWxpc2llcnVuZyDDtmZmZW50
+bGljaGVyIFZlcmtlaHJzZGF0ZW4gYmVzY2jDpGZ0aWd0LiBJbiBkaWVzZW0gWnVzYW1tZW5oYW5n
+IGludGVyZXNzaWVyZSBpY2ggbWljaCBmw7xyIElociBPcGVuRGF0YS1BbmdlYm90IHVuZCBpbnNi
+ZXNvbmRlcmUgZsO8ciBtw7ZnbGljaGUgU2Nobml0dHN0ZWxsZW4gKEFQSSkgZGVzIFZSUy48L2Rp
+dj48ZGl2IHN0eWxlPSJmb250LWZhbWlseTogQXB0b3MsIC1hcHBsZS1zeXN0ZW0sIEhlbHZldGlj
+YU5ldWUsIHNhbnMtc2VyaWY7IGZvbnQtc2l6ZTogMTJwdDsgY29sb3I6IHJnYigwLCAwLCAwKTsi
+PkvDtm5udGVuIFNpZSBtaXIgYml0dGUgbWl0dGVpbGVuLDwvZGl2Pjx1bCBkYXRhLWVkaXRpbmct
+aW5mbz0ieyZxdW90O2FwcGx5TGlzdFN0eWxlRnJvbUxldmVsJnF1b3Q7OnRydWV9IiBzdHlsZT0i
+bGlzdC1zdHlsZS10eXBlOiBkaXNjOyI+PGxpIHN0eWxlPSJmb250LWZhbWlseTogQXB0b3MsIC1h
+cHBsZS1zeXN0ZW0sIEhlbHZldGljYU5ldWUsIHNhbnMtc2VyaWY7IGZvbnQtc2l6ZTogMTJwdDsg
+Y29sb3I6IHJnYigwLCAwLCAwKTsiPjxkaXYgcm9sZT0icHJlc2VudGF0aW9uIj53ZWxjaGUgRGF0
+ZW5zw6R0emUgYWt0dWVsbCB2ZXJmw7xnYmFyIHNpbmQsPC9kaXY+PC9saT48bGkgc3R5bGU9ImZv
+bnQtZmFtaWx5OiBBcHRvcywgLWFwcGxlLXN5c3RlbSwgSGVsdmV0aWNhTmV1ZSwgc2Fucy1zZXJp
+ZjsgZm9udC1zaXplOiAxMnB0OyBjb2xvcjogcmdiKDAsIDAsIDApOyI+PGRpdiByb2xlPSJwcmVz
+ZW50YXRpb24iPm9iIGVzIGVpbmUgw7ZmZmVudGxpY2hlIEFQSSBvZGVyIFp1Z2FuZ3NiZXNjaHLD
+pG5rdW5nZW4gZ2lidCw8L2Rpdj48L2xpPjxsaSBzdHlsZT0iZm9udC1mYW1pbHk6IEFwdG9zLCAt
+YXBwbGUtc3lzdGVtLCBIZWx2ZXRpY2FOZXVlLCBzYW5zLXNlcmlmOyBmb250LXNpemU6IDEycHQ7
+IGNvbG9yOiByZ2IoMCwgMCwgMCk7Ij48ZGl2IHJvbGU9InByZXNlbnRhdGlvbiI+dW5kIHdlbGNo
+ZSBOdXR6dW5nc2JlZGluZ3VuZ2VuIGbDvHIgZGllIERhdGVuIGdlbHRlbj88L2Rpdj48L2xpPjwv
+dWw+PGRpdiBzdHlsZT0iZm9udC1mYW1pbHk6IEFwdG9zLCAtYXBwbGUtc3lzdGVtLCBIZWx2ZXRp
+Y2FOZXVlLCBzYW5zLXNlcmlmOyBmb250LXNpemU6IDEycHQ7IGNvbG9yOiByZ2IoMCwgMCwgMCk7
+Ij5WaWVsZW4gRGFuayBmw7xyIElocmUgWmVpdCB1bmQgVW50ZXJzdMO8dHp1bmcuPC9kaXY+PGRp
+diBkaXI9Imx0ciIgc3R5bGU9ImZvbnQtZmFtaWx5OiBBcHRvcywgLWFwcGxlLXN5c3RlbSwgSGVs
+dmV0aWNhTmV1ZSwgc2Fucy1zZXJpZjsgZm9udC1zaXplOiAxMnB0OyBjb2xvcjogcmdiKDAsIDAs
+IDApOyI+PGJyPjwvZGl2PjxkaXYgc3R5bGU9ImZvbnQtZmFtaWx5OiBBcHRvcywgLWFwcGxlLXN5
+c3RlbSwgSGVsdmV0aWNhTmV1ZSwgc2Fucy1zZXJpZjsgZm9udC1zaXplOiAxMnB0OyBjb2xvcjog
+cmdiKDAsIDAsIDApOyI+TWl0IGZyZXVuZGxpY2hlbiBHcsO8w59lbjwvZGl2PjxkaXYgc3R5bGU9
+ImZvbnQtZmFtaWx5OiBBcHRvcywgLWFwcGxlLXN5c3RlbSwgSGVsdmV0aWNhTmV1ZSwgc2Fucy1z
+ZXJpZjsgZm9udC1zaXplOiAxMnB0OyBjb2xvcjogcmdiKDAsIDAsIDApOyI+QWxleGFuZGVyIEdh
+bDwvZGl2PjxkaXYgaWQ9Im1zLW91dGxvb2stbW9iaWxlLWJvZHktc2VwYXJhdG9yLWxpbmUiIHN0
+eWxlPSJmb250LWZhbWlseTogQXB0b3MsIC1hcHBsZS1zeXN0ZW0sIEhlbHZldGljYU5ldWUsIHNh
+bnMtc2VyaWY7Zm9udC1zaXplOiAxMnB0IiBkaXI9Imx0ciI+PGRpdiBkaXI9Imx0ciI+PGJyPjwv
+ZGl2PjwvZGl2PjxkaXYgc3R5bGU9ImZvbnQtZmFtaWx5OiBBcHRvcywgQXB0b3NfTVNGb250U2Vy
+dmljZSwgLWFwcGxlLXN5c3RlbSwgUm9ib3RvLCBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlm
+OyBmb250LXNpemU6IDEycHQ7IiBpZD0ibXMtb3V0bG9vay1tb2JpbGUtc2lnbmF0dXJlIj48ZGl2
+IGRpcj0ibHRyIiBzdHlsZT0iZm9udC1mYW1pbHk6IEFwdG9zLCBBcHRvc19NU0ZvbnRTZXJ2aWNl
+LCAtYXBwbGUtc3lzdGVtLCBSb2JvdG8sIEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7IGZv
+bnQtc2l6ZTogMTJwdDsiPjxhIHJlbD0ibm9yZWZlcnJlciBub29wZW5lciIgaHJlZj0iaHR0cHM6
+Ly9maW5kaS5tYWdlbnRhd2ViLm9yZyIgY2xhc3M9IiIgdGFiaW5kZXg9IjAiPkZJTkRJIOKAkyBG
+YWhyaW5mb3JtYXRpb25zZGllbnN0PC9hPjwvZGl2PjxkaXYgZGlyPSJsdHIiIHN0eWxlPSJmb250
+LWZhbWlseTogQXB0b3MsIEFwdG9zX01TRm9udFNlcnZpY2UsIC1hcHBsZS1zeXN0ZW0sIFJvYm90
+bywgQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjsgZm9udC1zaXplOiAxMnB0OyI+V2lyZCBl
+bnR3aWNrZWx0IGR1cmNoIEFsZXhhbmRlciBHYWw8L2Rpdj48ZGl2IGRpcj0ibHRyIiBzdHlsZT0i
+Zm9udC1mYW1pbHk6IEFwdG9zLCBBcHRvc19NU0ZvbnRTZXJ2aWNlLCAtYXBwbGUtc3lzdGVtLCBS
+b2JvdG8sIEFyaWFsLCBIZWx2ZXRpY2EsIHNhbnMtc2VyaWY7IGZvbnQtc2l6ZTogMTJwdDsiPuKA
+lOKAlOKAlOKAlOKAlOKAlOKAlOKAlOKAlOKAlOKAlOKAlOKAlOKAlOKAlOKAlOKAlOKAlOKAlOKA
+lOKAlOKAlOKAlOKAlOKAlOKAlOKAlOKAlOKAlOKAlOKAlOKAlOKAlOKAlOKAlOKAlDwvZGl2Pjxk
+aXYgZGlyPSJsdHIiIHN0eWxlPSJmb250LWZhbWlseTogQXB0b3MsIEFwdG9zX01TRm9udFNlcnZp
+Y2UsIC1hcHBsZS1zeXN0ZW0sIFJvYm90bywgQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZjsg
+Zm9udC1zaXplOiAxMnB0OyI+U3BhbXZlcmRhY2h0PyBIaWVyIG1lbGRlbjogPGEgaHJlZj0iaHR0
+cHM6Ly93d3cubWFnZW50YXdlYi5vcmcvc3BhbXZlcmRhY2h0Ij5odHRwczovL3d3dy5tYWdlbnRh
+d2ViLm9yZy9zcGFtdmVyZGFjaHQ8L2E+PC9kaXY+PGRpdiBkaXI9Imx0ciIgc3R5bGU9ImZvbnQt
+ZmFtaWx5OiBBcHRvcywgQXB0b3NfTVNGb250U2VydmljZSwgLWFwcGxlLXN5c3RlbSwgUm9ib3Rv
+LCBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmOyBmb250LXNpemU6IDEycHQ7Ij5TdXNwZWN0
+IFNwYW0/IFJlcG9ydCBoZXJlOiA8c3BhbiBzdHlsZT0iY29sb3I6IHJnYigwLCAwLCAwKTsiPjxh
+IGhyZWY9Imh0dHBzOi8vd3d3Lm1hZ2VudGF3ZWIub3JnL3NwYW1zdXNwZWN0LyI+aHR0cHM6Ly93
+d3cubWFnZW50YXdlYi5vcmcvc3BhbXN1c3BlY3Q8L2E+PC9zcGFuPjwvZGl2PjwvZGl2PjwvYm9k
+eT48L2h0bWw+
+
+
+--1759927504-eximdsn-2047292043--

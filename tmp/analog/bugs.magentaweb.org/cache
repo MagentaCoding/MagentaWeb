@@ -1,0 +1,916 @@
+CACHE type 5 produced by analog 6.0/Unix. Do not modify or delete!
+T	0	0	261	238	0	1396	625931
+D	29332214	29449111
+20369	170	11	0	911
+20369	171	8	8	0
+20369	173	1	1	2745
+20369	184	4	4	10852
+20369	187	1	1	2713
+20369	199	4	4	10852
+20369	249	4	4	10852
+20369	253	2	2	5426
+20369	280	2	2	5426
+20370	8	1	1	2713
+20370	22	3	3	8139
+20370	65	2	2	5426
+20370	92	1	1	2713
+20370	94	1	1	2713
+20370	100	1	1	2713
+20370	102	1	1	2713
+20370	110	1	1	2713
+20370	112	2	2	5426
+20370	163	1	1	2713
+20370	216	2	2	5426
+20370	251	2	2	5426
+20371	2	1	1	2713
+20371	16	1	1	2713
+20371	66	3	3	8139
+20371	104	3	3	8139
+20371	107	1	1	2713
+20371	133	2	2	5426
+20371	135	1	1	2713
+20371	138	1	1	2713
+20371	198	1	1	2713
+20371	206	1	1	2713
+20371	249	1	1	2713
+20372	33	1	1	2713
+20372	126	1	1	2713
+20372	177	1	1	2713
+20373	24	3	3	8139
+20373	242	1	1	2713
+20373	246	1	1	2713
+20374	101	1	1	2713
+20374	192	2	2	5426
+20375	130	1	1	2713
+20376	114	1	1	2713
+20376	134	1	1	2713
+20376	139	1	1	2713
+20376	156	1	1	2713
+20376	158	1	1	2713
+20376	280	1	1	2713
+20377	32	1	1	2713
+20377	65	1	1	2713
+20377	147	2	2	5426
+20377	155	1	1	2713
+20377	156	1	1	2713
+20377	174	2	2	5426
+20377	285	3	3	8139
+20378	35	2	2	5426
+20378	49	1	1	2713
+20378	98	1	1	2713
+20378	124	1	1	2713
+20378	131	2	2	5426
+20378	185	1	1	2713
+20378	243	2	2	5426
+20378	244	2	2	5426
+20379	95	1	1	2713
+20379	99	1	1	2713
+20379	100	3	3	8139
+20379	145	1	1	2713
+20379	153	1	1	2713
+20379	227	1	1	2713
+20381	73	2	2	5426
+20381	75	1	1	2713
+20381	229	1	1	2713
+20382	29	1	1	2713
+20384	71	3	3	8139
+20384	123	1	1	2713
+20384	271	1	1	2713
+20386	94	1	1	2713
+20386	183	1	1	2713
+20387	142	2	2	5426
+20387	143	1	1	2713
+20389	120	1	1	2713
+20390	135	1	1	2713
+20391	50	1	1	2713
+20393	136	1	1	2713
+20393	223	1	1	2713
+20396	203	1	1	2713
+20398	265	1	1	2713
+20403	44	1	1	2713
+20403	45	1	1	2713
+20403	242	1	1	2713
+20407	77	1	1	2713
+20410	206	1	1	2713
+20411	16	1	1	2713
+20411	44	1	1	2713
+20413	43	1	1	2713
+20417	143	1	1	2713
+20421	107	1	1	2713
+20423	200	1	1	2713
+20426	259	1	1	2713
+20427	103	2	2	5426
+20427	226	1	1	2713
+20428	104	1	1	2713
+20430	96	2	2	5426
+20430	147	2	0	128
+20430	148	10	0	870
+20430	149	6	6	16278
+20430	153	1	1	2713
+20430	154	1	1	2713
+20430	155	2	2	5426
+20431	91	1	1	2713
+20431	113	1	1	2713
+20431	116	1	1	2713
+20431	119	3	3	8139
+20431	120	3	3	8139
+20431	135	1	1	2713
+20431	143	1	1	2713
+20431	170	1	1	2713
+20431	198	1	1	2713
+20431	246	1	1	2713
+20432	41	1	1	2713
+20432	80	3	3	8139
+20432	82	3	3	8139
+20432	86	1	1	2713
+20433	272	1	1	2713
+20434	14	1	1	2713
+20434	87	1	1	2713
+20434	114	1	1	2713
+20434	118	1	1	2713
+20434	140	1	1	2713
+20434	148	1	1	2713
+20434	188	1	1	2713
+20435	22	1	1	2713
+20435	33	2	2	5426
+20435	111	1	1	2713
+20435	251	1	1	2713
+20435	286	1	1	2713
+20436	23	1	1	2713
+20436	108	1	1	2713
+20436	112	1	1	2713
+20437	88	1	1	2713
+20438	130	3	3	8139
+20439	31	1	1	2713
+20439	72	1	1	2713
+20440	50	1	1	2713
+20440	164	1	1	2713
+20441	139	1	1	2713
+20442	10	2	2	5426
+20442	58	1	1	2713
+20442	103	1	1	2713
+20442	197	1	1	2713
+20443	58	3	3	8139
+20443	201	1	1	2713
+20443	219	1	1	2713
+20444	37	1	1	2713
+20444	42	1	1	2713
+20444	75	1	1	2713
+20444	120	1	1	2713
+20444	175	3	3	8139
+20444	235	3	3	8139
+20446	127	1	1	2713
+20446	190	1	1	2713
+20447	150	3	3	8139
+20448	36	3	3	8139
+20448	172	1	1	2713
+20449	74	1	1	2713
+20450	222	1	1	2713
+1	0	0	0	1	0	0	29426567	0	0	29426567	0	/.env.private
+1	0	0	0	9	0	0	29426566	0	0	29332764	0	/.env.local
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/API/.env
+1	0	0	0	16	0	0	29445302	0	0	29332911	0	/wp/wp-includes/wlwmanifest.xml
+1	0	0	0	3	0	0	29419684	0	0	29345543	0	/storage/logs/laravel.log
+1	0	0	0	1	0	0	29426569	0	0	29426569	0	/stripe-secret.js
+1	0	0	0	3	0	0	29426568	0	0	29334909	0	/new/.env.production
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/.env.test
+1	0	0	0	1	0	0	29426568	0	0	29426568	0	/api/.env.local
+1	0	0	0	1	0	0	29345543	0	0	29345543	0	/config/application.yml
+1	0	0	0	2	0	0	29426569	0	0	29345543	0	/config.js
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/core/Datavase/.env
+1	0	0	0	1	0	0	29426570	0	0	29426570	0	/payment.config.js
+1	0	0	0	1	0	0	29426569	0	0	29426569	0	/stripe.yaml
+1	0	0	0	3	0	0	29353315	0	0	29353315	0	/login/
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/wp-content/plugins/mm-plugin/inc/vendors/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+1	0	0	0	1	0	0	29428106	0	0	29428106	0	/.git/refs/remotes/origin/HEAD
+1	0	0	0	1	0	0	29345543	0	0	29345543	0	/js/main.js
+1	0	0	0	4	0	0	29426567	0	0	29332764	0	/.env.save
+1	0	0	0	2	0	0	29345544	0	0	29345543	0	/appsettings.json
+1	0	0	0	1	0	0	29426570	0	0	29426570	0	/payment.js
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/partner/config/config.js
+1	0	0	0	3	0	0	29426567	0	0	29334909	0	/portal/.env
+1	0	0	0	1	0	0	29345543	0	0	29345543	0	/config/constants.js
+1	0	0	0	9	0	0	29426567	0	0	29332764	0	/.env.old
+1	0	0	0	1	0	0	29426567	0	0	29426567	0	/.env.secret
+1	0	0	0	2	0	0	29426569	0	0	29345543	0	/main.js
+1	0	0	0	2	0	0	29345541	0	0	29334911	0	/mailer/.env
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+1	0	0	0	2	0	0	29419945	0	0	29419945	0	/swagger/v1/swagger.json
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/api/config/config.yml
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/vendor/phpunit/src/Util/PHP/eval-stdin.php
+1	0	0	0	3	0	0	29426568	0	0	29334912	0	/crm/.env
+1	0	0	0	1	0	0	29425262	0	0	29425262	0	/wp-config.php
+1	0	0	0	1	0	0	29426569	0	0	29426569	0	/stripe_config.js
+1	0	0	0	1	0	0	29345543	0	0	29345543	0	/application.properties
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/phpunit/src/Util/PHP/eval-stdin.php
+1	0	0	0	23	0	0	29436530	0	0	29332215	0	/.env
+1	0	0	0	6	0	0	29426568	0	0	29332764	0	/core/.env
+1	0	0	0	1	0	0	29428106	0	0	29428106	0	/.git/info/exclude
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/psnlink/.env
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/my_env/chakaash.py
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/config/local.yml
+1	0	0	0	1	0	0	29339066	0	0	29339066	0	http://bugs.magentaweb.org:80/site/wp-includes/wlwmanifest.xml
+1	0	0	0	7	0	0	29426569	0	0	29332215	0	/config.json
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/main.yml
+1	0	0	0	1	0	0	29426569	0	0	29426569	0	/stripe-keys.js
+1	0	0	0	4	0	0	29419945	0	0	29332215	0	/about
+1	0	0	0	12	0	0	29419945	0	0	29332215	0	/info.php
+1	0	0	0	6	0	0	29343753	0	0	29332764	0	/.env.bkp
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/sites/all/libraries/mailchimp/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+1	0	0	0	1	0	0	29339066	0	0	29339066	0	http://bugs.magentaweb.org:80/2020/wp-includes/wlwmanifest.xml
+1	0	0	0	1	0	0	29339066	0	0	29339066	0	http://bugs.magentaweb.org:80/2019/wp-includes/wlwmanifest.xml
+1	5	0	0	0	29332214	0	0	29332214	0	0	435	/.well-known/acme-challenge/ZmEkb2Heg5ww3dAJw2cJZY5SmV8WZUegI9_Tb1tFlCs
+1	0	0	0	6	0	0	29343753	0	0	29332764	0	/.env.test.local
+1	0	0	0	1	0	0	29375858	0	0	29375858	0	/wp-login.php?89.40.41.229
+1	0	0	0	1	0	0	29339066	0	0	29339066	0	http://bugs.magentaweb.org:80/wp1/wp-includes/wlwmanifest.xml
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/wp-content/plugins/cloudflare/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+1	0	0	0	5	0	0	29426568	0	0	29334912	0	/api/shared/config/config.env
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/en/.env
+1	0	0	0	2	0	0	29345542	0	0	29334912	0	/service/email_service.py
+1	0	0	0	4	0	0	29426567	0	0	29332764	0	/.env.staging
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/.env.template
+1	0	0	0	1	0	0	29345543	0	0	29345543	0	/server-info
+1	0	0	0	1	0	0	29339066	0	0	29339066	0	http://bugs.magentaweb.org:80/cms/wp-includes/wlwmanifest.xml
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/laravel/.env.local
+1	0	0	0	4	0	0	29419945	0	0	29332215	0	/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application
+1	0	0	0	2	0	0	29345540	0	0	29334910	0	/wp-config
+1	0	0	0	1	0	0	29428756	0	0	29428756	0	/wp-includes/js/jquery/jquery.js
+1	0	0	0	1	0	0	29426570	0	0	29426570	0	/config/stripe.js
+1	0	0	0	2	0	0	29345540	0	0	29334910	0	/_profiler/phpinfo/phpinfo.php
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/lib/phpunit/src/Util/PHP/eval-stdin.php
+1	0	0	0	1	0	0	29425262	0	0	29425262	0	/config.php
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/tests/.env
+1	0	0	0	4	0	0	29419945	0	0	29332215	0	/server
+1	0	0	0	1	0	0	29428400	0	0	29428400	0	/blog/wp-login.php
+1	0	0	0	3	0	0	29426568	0	0	29334912	0	/website/.env
+1	0	0	0	3	0	0	29421490	0	0	29332844	0	/wordpress/
+1	0	0	0	1	0	0	29345543	0	0	29345543	0	/app.py
+1	0	0	0	2	0	0	29345540	0	0	29334910	0	/_profiler/phpinfo/info.php
+1	0	0	0	1	0	0	29345543	0	0	29345543	0	/server-info.php
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/web/.env.example
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/vendor/phpunit/phpunit/Util/PHP/eval-stdin.php
+1	0	0	0	1	0	0	29349005	0	0	29349005	0	/contact/
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/configs/s3_config.json
+1	0	0	0	3	0	0	29426568	0	0	29334911	0	/www/.env
+1	0	0	0	2	0	0	29345542	0	0	29334912	0	/scripts/nodemailer.js
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/aws/credentials
+1	0	0	0	1	0	0	29426568	0	0	29426568	0	/billing/.env
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/server/s3.js
+1	0	0	0	7	0	0	29426567	0	0	29332764	0	/.env.swp
+1	0	0	0	3	0	0	29426568	0	0	29334912	0	/api/shared/.env
+1	0	0	0	1	0	0	29426570	0	0	29426570	0	/.stripe
+1	0	0	0	1	0	0	29426569	0	0	29426569	0	/stripe-config.js
+1	0	0	0	1	0	0	29426568	0	0	29426568	0	/checkout/.env
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+1	0	0	0	8	0	0	29419684	0	0	29334909	0	/phpinfo
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/old/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+1	0	0	0	1	0	0	29428400	0	0	29428400	0	/blog/wp-json/oembed/1.0/embed?url=bugs.magentaweb.org/blog/
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/saas/.env
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+1	0	0	0	16	0	0	29445302	0	0	29332911	0	/wp1/wp-includes/wlwmanifest.xml
+1	0	0	0	4	0	0	29419945	0	0	29332215	0	/@vite/env
+1	0	0	0	4	0	0	29425263	0	0	29345543	0	/settings.py
+1	0	0	0	1	0	0	29428106	0	0	29428106	0	/.git/logs/HEAD
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/config/settings.json
+1	0	0	0	16	0	0	29445302	0	0	29332911	0	/site/wp-includes/wlwmanifest.xml
+1	0	0	0	1	0	0	29426568	0	0	29426568	0	/server/.env.production
+1	0	0	0	2	0	0	29345542	0	0	29334913	0	/dashboard/phpinfo.php
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/phpunit/phpunit/Util/PHP/eval-stdin.php
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/.env.orig
+1	0	0	0	1	0	0	29426569	0	0	29426569	0	/api.js
+1	1	0	0	0	29419936	0	0	29419936	0	0	64	/.well-known/acme-challenge/DJKN51CS7TD3MJHGLXHXTKD4T83PW090
+1	0	0	0	16	0	0	29445302	0	0	29332911	0	/2019/wp-includes/wlwmanifest.xml
+1	0	0	0	3	0	0	29438213	0	0	29334762	0	/2020/wp-includes/wlwmanifest.xml
+1	0	0	0	2	0	0	29345541	0	0	29334911	0	/env.backup
+1	0	0	0	1	0	0	29426568	0	0	29426568	0	/microservices/.env
+1	0	0	0	16	0	0	29445302	0	0	29332911	0	/cms/wp-includes/wlwmanifest.xml
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/getcpuutil.php-bakworking
+1	0	0	0	1	0	0	29426569	0	0	29426569	0	/lambda/.env
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/config/settings.local
+1	0	0	0	2	0	0	29345542	0	0	29334912	0	/node/.env_example
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/administrator/.env
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/public/.env.example
+1	0	0	0	1	0	0	29426569	0	0	29426569	0	/stripe_keys.js
+1	0	0	0	6	0	0	29343753	0	0	29332764	0	/.env_old
+1	0	0	0	6	0	0	29426567	0	0	29332764	0	/.env.bak
+1	0	0	0	3	0	0	29426568	0	0	29334909	0	/new/.env
+1	0	0	0	7	0	0	29446743	0	0	29343617	0	/robots.txt
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/.env.sample
+1	0	0	0	1	0	0	29352022	0	0	29352022	0	/.git/config?185.242.177.19
+1	0	0	0	1	0	0	29426567	0	0	29426567	0	/.env.secrets
+1	0	0	0	1	0	0	29426568	0	0	29426568	0	/frontend/.env
+1	0	0	0	1	0	0	29426570	0	0	29426570	0	/config/payment.js
+1	0	0	0	2	0	0	29426569	0	0	29345543	0	/app.js
+1	0	0	0	3	0	0	29426568	0	0	29334912	0	/nginx/.env
+1	1	0	0	0	29332214	0	0	29332214	0	0	64	/.well-known/acme-challenge/1LZELB45PX7ROM60EPOW1G9-O49L_J6J
+1	0	0	0	2	0	0	29419684	0	0	29415396	0	/laravel.log
+1	0	0	0	2	0	0	29345540	0	0	29334910	0	/aws-secret.yaml
+1	0	0	0	2	0	0	29345541	0	0	29334911	0	/laravel/core/.env
+1	0	0	0	6	0	0	29426568	0	0	29332764	0	/public/.env
+1	0	0	0	1	0	0	29345542	0	0	29345542	0	/static/js/2.ca066a4b.chunk.js
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+1	0	0	0	2	0	0	29356311	0	0	29335847	0	/test
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+1	0	0	0	2	0	0	29419945	0	0	29419945	0	/v2/api-docs
+1	0	0	0	2	0	0	29433189	0	0	29351439	0	/.git/config?89.40.41.229
+1	0	0	0	1	0	0	29426568	0	0	29426568	0	/stripe/.env
+1	0	0	0	2	0	0	29419945	0	0	29419945	0	/api/gql
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/exapi/.env
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/sitemaps/.env
+1	0	0	0	1	0	0	29339066	0	0	29339066	0	http://bugs.magentaweb.org:80/wordpress/wp-includes/wlwmanifest.xml
+1	0	0	0	1	0	0	29345543	0	0	29345543	0	/secured/phpinfo.php
+1	0	0	0	1	0	0	29428106	0	0	29428106	0	/.git/ORIG_HEAD
+1	0	0	0	4	0	0	29419684	0	0	29415396	0	/logs/debug.log
+1	0	0	0	1	0	0	29345543	0	0	29345543	0	/swagger.js
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/log/.env
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/.env.zip
+1	0	0	0	1	0	0	29345543	0	0	29345543	0	/apis/controllers/users.js
+1	0	0	0	1	0	0	29345543	0	0	29345543	0	/backend/config/development.yml
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/controller/admin/post.js
+1	0	0	0	2	0	0	29419684	0	0	29415396	0	/symfony/_profiler/phpinfo
+1	0	0	0	2	0	0	29345541	0	0	29334911	0	/lara/phpinfo.php
+1	0	0	0	3	0	0	29419945	0	0	29345543	0	/swagger.json
+1	0	0	0	16	0	0	29445302	0	0	29332911	0	/sito/wp-includes/wlwmanifest.xml
+1	0	0	0	2	0	0	29419945	0	0	29419945	0	/api-docs/swagger.json
+1	0	0	0	2	0	0	29419945	0	0	29419945	0	/webjars/swagger-ui/
+1	0	0	0	2	0	0	29419684	0	0	29415396	0	/debug.log
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/api/v2/.env
+1	0	0	0	2	0	0	29368137	0	0	29349364	0	/robots.txt?185.242.177.19
+1	0	0	0	16	0	0	29445302	0	0	29332911	0	/wp-includes/wlwmanifest.xml
+1	0	0	0	1	0	0	29426570	0	0	29426570	0	/billing.json
+1	0	0	0	1	0	0	29426569	0	0	29426569	0	/stripe-keys.json
+1	0	0	0	1	0	0	29428400	0	0	29428400	0	/blog/xmlrpc.php
+1	0	0	0	4	0	0	29419945	0	0	29332215	0	/s/1333e26373e2231313e24373/_/
+1	0	0	0	1	0	0	29426570	0	0	29426570	0	/checkout.json
+1	0	0	0	8	0	0	29436530	0	0	29335847	0	/test.php
+1	0	0	0	1	0	0	29339066	0	0	29339066	0	http://bugs.magentaweb.org:80/shop/wp-includes/wlwmanifest.xml
+1	0	0	0	1	0	0	29339066	0	0	29339066	0	http://bugs.magentaweb.org:80/wp-includes/ID3/license.txt
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/.env.remote
+1	0	0	0	3	0	0	29405785	0	0	29366493	0	/robots.txt?89.40.41.229
+1	0	0	0	9	0	0	29436530	0	0	29334909	0	/_profiler/phpinfo
+1	0	0	0	2	0	0	29345541	0	0	29334912	0	/xampp/.env
+1	0	0	0	2	0	0	29426570	0	0	29345544	0	/config/config.json
+1	0	0	0	16	0	0	29445302	0	0	29332911	0	/wordpress/wp-includes/wlwmanifest.xml
+1	0	0	0	3	0	0	29426567	0	0	29334912	0	/.env.stage
+1	0	0	0	2	0	0	29345541	0	0	29334911	0	/lara/info.php
+1	0	0	0	4	0	0	29419945	0	0	29332215	0	/server-status
+1	0	0	0	2	0	0	29419684	0	0	29415396	0	/wp-content/debug.log
+1	0	0	0	3	0	0	29426567	0	0	29334912	0	/.env.production.local
+1	0	0	0	1	0	0	29349005	0	0	29349005	0	/register/
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/sms.py
+1	0	0	0	3	0	0	29343660	0	0	29340654	0	/sitemap.xml
+1	24	24	0	0	29435739	0	0	29334762	0	0	65112	/?89.40.41.229
+1	0	0	0	1	0	0	29339066	0	0	29339066	0	http://bugs.magentaweb.org:80/2021/wp-includes/wlwmanifest.xml
+1	5	5	0	1	29445984	0	29448875	29438927	0	29448875	13565	/?44.218.6.122
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/v2/.env
+1	0	0	0	16	0	0	29445302	0	0	29332911	0	/news/wp-includes/wlwmanifest.xml
+1	0	0	0	2	0	0	29419684	0	0	29415396	0	/.env.js
+1	0	0	0	4	0	0	29419945	0	0	29332215	0	/.DS_Store
+1	0	0	0	4	0	0	29419945	0	0	29332215	0	/telescope/requests
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+1	0	0	0	1	0	0	29426568	0	0	29426568	0	/payment/.env
+1	0	0	0	1	0	0	29426569	0	0	29426569	0	/stripe-secret.json
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/controllers/settings.js
+1	0	0	0	1	0	0	29345543	0	0	29345543	0	/public/js/main.js
+1	0	0	0	2	0	0	29419945	0	0	29419945	0	/api/swagger.json
+1	0	0	0	2	0	0	29349005	0	0	29344495	0	/php_info.php
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/es/.env
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/lib/phpunit/phpunit/Util/PHP/eval-stdin.php
+1	0	0	0	2	0	0	29345542	0	0	29334913	0	/wp-config.php.bak
+1	0	0	0	1	0	0	29345543	0	0	29345543	0	/shared/config/config.js
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/helper.js
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/app/config/parameters.yml
+1	6	6	0	0	29436998	0	0	29422512	0	0	16278	/?91.196.152.148
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+1	0	0	0	4	0	0	29426567	0	0	29332764	0	/.env~
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/vendor/.env
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/database/.env
+1	0	0	0	1	0	0	29426569	0	0	29426569	0	/stripe.json
+1	0	0	0	1	0	0	29426569	0	0	29426569	0	/functions/.env
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/core/app/.env
+1	0	0	0	4	0	0	29419945	0	0	29332215	0	/debug/default/view?panel=config
+1	0	0	0	6	0	0	29426567	0	0	29332764	0	/app/.env
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/.env.angular
+1	0	0	0	2	0	0	29345541	0	0	29334912	0	/node_modules/.env
+1	0	0	0	9	0	0	29436530	0	0	29334909	0	/phpinfo.php
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/.database.env
+1	0	0	0	1	0	0	29428106	0	0	29428106	0	/.git/refs/heads/main
+1	0	0	0	1	0	0	29345543	0	0	29345543	0	/cloud/Scraper.js
+1	0	0	0	2	0	0	29345540	0	0	29334909	0	/_phpinfo.php
+1	0	0	0	3	0	0	29426567	0	0	29334909	0	/env/.env
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/aws.yml
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/configs/routes-4aug.js
+1	0	0	0	6	0	0	29426568	0	0	29332764	0	/site/.env
+1	0	0	0	1	0	0	29345543	0	0	29345543	0	/backend/config/default.yml
+1	0	0	0	2	0	0	29345541	0	0	29334911	0	/xampp/phpinfo.php
+1	0	0	0	5	0	0	29345541	0	0	29332764	0	/laravel/.env
+1	0	0	0	16	0	0	29445302	0	0	29332911	0	/shop/wp-includes/wlwmanifest.xml
+1	0	0	0	2	0	0	29345541	0	0	29334911	0	/mail/.env
+1	0	0	0	2	0	0	29425261	0	0	29345544	0	/.aws/config
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/uploads/.env
+1	0	0	0	2	0	0	29419945	0	0	29419945	0	/swagger/swagger-ui.html
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/configs/routes.js
+1	0	0	0	2	0	0	29419945	0	0	29419945	0	/api
+1	0	0	0	2	0	0	29419684	0	0	29415396	0	/config/database.yml
+1	0	0	0	16	0	0	29445302	0	0	29332911	0	/wp2/wp-includes/wlwmanifest.xml
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/.env.www
+1	0	0	0	2	0	0	29419684	0	0	29415396	0	/dashboard/info.php
+1	0	0	0	1	0	0	29426569	0	0	29426569	0	/stripe.config.js
+1	0	0	0	2	0	0	29436530	0	0	29349005	0	/index.php
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/user/config/config.js
+1	0	0	0	6	0	0	29343753	0	0	29332764	0	/.env.debug
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/upload/.env
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/.env.db
+1	0	0	0	1	0	0	29426569	0	0	29426569	0	/stripe.js
+1	0	0	0	3	0	0	29426568	0	0	29334912	0	/local/.env
+1	0	0	0	1	0	0	29428106	0	0	29428106	0	/.git/refs/heads/master
+1	0	0	0	1	0	0	29345543	0	0	29345543	0	/gatsby-config.js
+1	0	0	0	1	0	0	29426568	0	0	29426568	0	/client/.env
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/lab/.env
+1	0	0	0	11	0	0	29426566	0	0	29332764	0	/.env.production
+1	0	0	0	1	0	0	29339066	0	0	29339066	0	http://bugs.magentaweb.org:80/web/wp-includes/wlwmanifest.xml
+1	0	0	0	2	0	0	29419945	0	0	29419945	0	/api/graphql
+1	0	0	0	1	0	0	29339066	0	0	29339066	0	http://bugs.magentaweb.org:80/blog/wp-includes/wlwmanifest.xml
+1	0	0	0	1	0	0	29426568	0	0	29426568	0	/src/.env
+1	0	0	0	1	0	0	29426570	0	0	29426570	0	/config/config.js
+1	0	0	0	1	0	0	29345543	0	0	29345543	0	/admin/controllers/partner.js
+1	0	0	0	1	0	0	29426570	0	0	29426570	0	/payments.js
+1	0	0	0	6	0	0	29426568	0	0	29332764	0	/web/.env
+1	0	0	0	4	0	0	29419945	0	0	29332215	0	/actuator/env
+1	0	0	0	13	0	0	29445302	0	0	29332911	0	/media/wp-includes/wlwmanifest.xml
+1	0	0	0	5	0	0	29419684	0	0	29332764	0	/.env.development
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/.travis.yml
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/tools/.env
+1	0	0	0	3	0	0	29426568	0	0	29334911	0	/docker/.env
+1	0	0	0	3	0	0	29426568	0	0	29334911	0	/js/.env
+1	0	0	0	1	0	0	29426569	0	0	29426569	0	/config.yaml
+1	0	0	0	1	0	0	29426570	0	0	29426570	0	/payment.json
+1	0	0	0	2	0	0	29419684	0	0	29415396	0	/logs/error.log
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+1	0	0	0	3	0	0	29426568	0	0	29334911	0	/conf/.env
+1	0	0	0	16	0	0	29445302	0	0	29332911	0	/website/wp-includes/wlwmanifest.xml
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/.env.elastic
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/apps/.gitignore
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/.env.example.1
+1	0	0	0	1	0	0	29345542	0	0	29345542	0	/admin/server_info.php
+1	0	0	0	4	0	0	29419945	0	0	29332215	0	/.vscode/sftp.json
+1	0	0	0	1	0	0	29428106	0	0	29428106	0	/.git/FETCH_HEAD
+1	0	0	0	1	0	0	29339066	0	0	29339066	0	http://bugs.magentaweb.org:80/wp/wp-includes/wlwmanifest.xml
+1	0	0	0	1	0	0	29345542	0	0	29345542	0	/static/js/main.141b0494.js
+1	0	0	0	2	0	0	29419684	0	0	29415396	0	/index.php/phpinfo
+1	0	0	0	1	0	0	29428106	0	0	29428106	0	/.git/index
+1	0	0	0	3	0	0	29426568	0	0	29334911	0	/.vscode/.env
+1	0	0	0	2	0	0	29419945	0	0	29419945	0	/graphql
+1	0	0	0	6	0	0	29343753	0	0	29332764	0	/.env.sqlite
+1	0	0	0	1	0	0	29426569	0	0	29426569	0	/config.yml
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/lib/phpunit/Util/PHP/eval-stdin.php
+1	0	0	0	2	0	0	29349005	0	0	29345544	0	/.AWS_/credentials
+1	0	0	0	1	0	0	29426570	0	0	29426570	0	/payment-config.js
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/.env.copy
+1	0	0	0	1	0	0	29345543	0	0	29345543	0	/config/storage.yml
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/config/parameters.yml
+1	0	0	0	2	0	0	29419945	0	0	29419945	0	/v3/api-docs
+1	0	0	0	2	0	0	29349005	0	0	29345543	0	/karma.conf.json
+1	0	0	0	2	0	0	29345541	0	0	29334911	0	/laravel/info.php
+1	0	0	0	2	0	0	29345541	0	0	29334912	0	/kyc/.env
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/phpunit/Util/PHP/eval-stdin.php
+1	0	0	0	1	0	0	29426569	0	0	29426569	0	/stripe.yml
+1	0	0	0	2	0	0	29356311	0	0	29335847	0	/i.php
+1	0	0	0	2	0	0	29419945	0	0	29419945	0	/swagger/
+1	0	0	0	1	0	0	29428106	0	0	29428106	0	/.git/packed-refs
+1	0	0	0	1	0	0	29339066	0	0	29339066	0	http://bugs.magentaweb.org:80/feed/
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/protected/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+1	0	0	0	1	0	0	29426570	0	0	29426570	0	/payments.json
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+1	0	0	0	16	0	0	29445302	0	0	29332911	0	/web/wp-includes/wlwmanifest.xml
+1	0	0	0	7	0	0	29436530	0	0	29334912	0	/.aws/credentials
+1	0	0	0	2	0	0	29345540	0	0	29334909	0	/new/.env.staging
+1	0	0	0	1	0	0	29339066	0	0	29339066	0	http://bugs.magentaweb.org:80/test/wp-includes/wlwmanifest.xml
+1	0	0	0	1	0	0	29426570	0	0	29426570	0	/payment.config.json
+1	11	11	0	0	29391434	0	0	29333301	0	0	29843	/?185.242.177.19
+1	0	0	0	9	0	0	29426567	0	0	29332764	0	/.env_sample
+1	1	1	0	0	29336313	0	0	29336313	0	0	2713	/?66.132.153.129
+1	0	0	0	14	0	0	29419945	0	0	29332215	0	/.git/config
+1	4	0	0	0	29332214	0	0	29332214	0	0	348	/.well-known/acme-challenge/-OfloSqCefxSqrH1JaviEVn0kQ3POjq8jXZEYZdDw1A
+1	5	0	0	0	29419943	0	0	29419943	0	0	435	/.well-known/acme-challenge/HKYCPnq8djYSewohkQwpxbtGswiEXzQi270owJ5JiBs
+1	0	0	0	7	0	0	29426567	0	0	29332764	0	/.env.live
+1	0	0	0	6	0	0	29426566	0	0	29332764	0	/.env.prod
+1	1	0	0	0	29419936	0	0	29419936	0	0	64	/.well-known/acme-challenge/6T_XJHDEG9ZCVEML8JNLXEPD3NOR9_4I
+1	0	0	0	3	0	0	29426568	0	0	29334909	0	/new/.env.local
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/.svn/text-base/.env
+1	0	0	0	6	0	0	29426568	0	0	29332764	0	/admin/.env
+1	0	0	0	16	0	0	29445302	0	0	29332911	0	/blog/wp-includes/wlwmanifest.xml
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/v1/.env
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/vendor/phpunit/Util/PHP/eval-stdin.php
+1	0	0	0	1	0	0	29426570	0	0	29426570	0	/billing.js
+1	0	0	0	9	0	0	29426567	0	0	29332764	0	/.env.backup
+1	0	0	0	2	0	0	29419945	0	0	29419945	0	/swagger-ui.html
+1	0	0	0	1	0	0	29426570	0	0	29426570	0	/checkout.config.js
+1	4	4	0	0	29419945	0	0	29332215	0	0	5426	/?rest_route=/wp/v2/users/
+1	0	0	0	2	0	0	29426569	0	0	29345543	0	/server.js
+1	0	0	0	1	0	0	29426570	0	0	29426570	0	/billing.config.js
+1	0	0	0	4	0	0	29419945	0	0	29332215	0	/_all_dbs
+1	0	0	0	1	0	0	29426568	0	0	29426568	0	/server/.env
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/backend/config/settings.yml
+1	0	0	0	3	0	0	29426568	0	0	29334912	0	/config.env
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/wp-content/plugins/dzs-videogallery/class_parts/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+1	0	0	0	3	0	0	29426568	0	0	29334912	0	/api/shared/config/.env
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/.environment
+1	0	0	0	1	0	0	29345543	0	0	29345543	0	/api/config.js
+1	0	0	0	1	0	0	29426570	0	0	29426570	0	/checkout.js
+1	0	0	0	11	0	0	29426567	0	0	29332764	0	/.env.example
+1	0	0	0	4	0	0	29419945	0	0	29332215	0	/v2/_catalog
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/user/controllers/index.js
+1	0	0	0	50	0	0	29446934	0	0	29332225	0	/favicon.ico
+1	0	0	0	3	0	0	29426568	0	0	29334912	0	/api/config.env
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/mytest/astech_robot.js
+1	0	0	0	1	0	0	29426570	0	0	29426570	0	/config/stripe.json
+1	0	0	0	1	0	0	29426568	0	0	29426568	0	/config/env/.env
+1	0	0	0	17	0	0	29445302	0	0	29332911	0	/xmlrpc.php?rsd
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/.env.postgres
+1	0	0	0	2	0	0	29356311	0	0	29335847	0	/info
+1	0	0	0	1	0	0	29345543	0	0	29345543	0	/api/objects/codes.php.save
+1	0	0	0	2	0	0	29419684	0	0	29415396	0	/admin/phpinfo.php
+1	5	0	0	0	29419943	0	0	29419943	0	0	435	/.well-known/acme-challenge/Q-ImW1_4HK1mBBnSeJ82bypJngPoKB1SGnVhUaX-1i0
+1	1	0	0	0	29332214	0	0	29332214	0	0	64	/.well-known/acme-challenge/R2FS5K07QMDB7TNIYFNBMTSJKVEISDXS
+1	0	0	0	12	0	0	29426567	0	0	29332764	0	/api/.env
+1	0	0	0	5	0	0	29345540	0	0	29332764	0	/cron/.env
+1	0	0	0	10	0	0	29426568	0	0	29332764	0	/backend/.env
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/lib/.env
+1	0	0	0	1	0	0	29439194	0	0	29439194	0	/.well-known/security.txt
+1	0	0	0	3	0	0	29353315	0	0	29353315	0	/app/
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/.env.project
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/s3.js
+1	0	0	0	3	0	0	29419684	0	0	29345543	0	/app_dev.php/_profiler/phpinfo
+1	0	0	0	2	0	0	29419945	0	0	29419945	0	/graphql/api
+1	0	0	0	1	0	0	29345542	0	0	29345542	0	/server_info.php
+1	0	0	0	3	0	0	29426568	0	0	29334911	0	/docker/app/.env
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/helper/EmailHelper.js
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/test/.env
+1	0	0	0	2	0	0	29356311	0	0	29335847	0	/php.php
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/my_env/palash.py
+1	0	0	0	1	0	0	29426569	0	0	29426569	0	/stripe.config.json
+1	0	0	0	1	0	0	29345543	0	0	29345543	0	/admin/controllers/merchant.js
+1	0	0	0	2	0	0	29345542	0	0	29334912	0	/server/config/database.js
+1	0	0	0	1	0	0	29345542	0	0	29345542	0	/static/js/main.e85f7a37.js
+1	0	0	0	1	0	0	29426570	0	0	29426570	0	/payments.config.js
+1	0	0	0	1	0	0	29428400	0	0	29428400	0	/blog/wp-json/wp/v2/users/
+1	0	0	0	4	0	0	29419945	0	0	29332215	0	/login.action
+1	0	0	0	2	0	0	29345540	0	0	29334910	0	/awstats/.env
+1	0	0	0	8	0	0	29356311	0	0	29332764	0	/.env.dev
+1	0	0	0	2	0	0	29345541	0	0	29334912	0	/api/shared/config.env
+1	0	0	0	6	0	0	29426568	0	0	29332764	0	/main/.env
+1	0	0	0	1	0	0	29426568	0	0	29426568	0	/services/.env
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/config/settings.prod
+1	0	0	0	16	0	0	29445302	0	0	29332911	0	/test/wp-includes/wlwmanifest.xml
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/assets/.env
+1	0	0	0	1	0	0	29345543	0	0	29345543	0	/config/aws.yml
+1	0	0	0	1	0	0	29426570	0	0	29426570	0	/.stripe.json
+1	0	0	0	1	0	0	29426568	0	0	29426568	0	/api/.env.production
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/api/.env.example
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/.remote.env
+1	0	0	0	3	0	0	29426568	0	0	29334912	0	/development/.env
+1	186	186	0	6	29449111	0	29446095	29332215	0	29332282	488372	/
+1	0	0	0	1	0	0	29428106	0	0	29428106	0	/.git/objects/info/packs
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/admin/config
+1	0	0	0	1	0	0	29428400	0	0	29428400	0	/blog/?author=1
+1	0	0	0	1	0	0	29426570	0	0	29426570	0	/config/config.yml
+1	0	0	0	1	0	0	29334328	0	0	29334328	0	/.git/HEAD
+1	0	0	0	1	0	0	29426569	0	0	29426569	0	/stripe-config.json
+1	0	0	0	6	0	0	29426568	0	0	29332764	0	/apps/.env
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/dev/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+1	0	0	0	8	0	0	29426568	0	0	29332764	0	/config/.env
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/wp-content/plugins/jekyll-exporter/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/my_env/newsletter.py
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/debug/default/view
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/new/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php
+1	0	0	0	2	0	0	29426569	0	0	29345544	0	/index.js
+1	0	0	0	6	0	0	29343753	0	0	29332764	0	/.env.testing
+1	0	0	0	6	0	0	29426568	0	0	29332764	0	/application/.env
+1	0	0	0	1	0	0	29426568	0	0	29426568	0	/backend/.env.local
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/.circleci/configs/development.yml
+1	0	0	0	1	0	0	29339066	0	0	29339066	0	http://bugs.magentaweb.org:80/xmlrpc.php?rsd
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/controller/api/post.js
+1	0	0	0	1	0	0	29426570	0	0	29426570	0	/config/stripe.yml
+1	0	0	0	13	0	0	29445302	0	0	29332911	0	/2018/wp-includes/wlwmanifest.xml
+1	0	0	0	5	0	0	29380545	0	0	29332741	0	/wp-login.php
+1	0	0	0	3	0	0	29426567	0	0	29334912	0	/prod/.env
+1	0	0	0	1	0	0	29345544	0	0	29345544	0	/helpers/utility.js
+1	0	0	0	1	0	0	29426567	0	0	29426567	0	/live/.env
+1	0	0	0	6	0	0	29343753	0	0	29332764	0	/.env.docker
+1	0	0	0	2	0	0	29356311	0	0	29335847	0	/phpversion.php
+1	0	0	0	1	0	0	29428400	0	0	29428400	0	/blog/robots.txt
+1	0	0	0	1	0	0	29345543	0	0	29345543	0	/apis/config/config.js
+1	1	1	0	0	29345543	0	0	29345543	0	0	2713	/?phpinfo=1
+1	0	0	0	3	0	0	29343753	0	0	29332764	0	/cronlab/.env
+1	0	0	0	3	0	0	29426567	0	0	29334909	0	/dev/.env
+1	0	0	0	1	0	0	29426568	0	0	29426568	0	/backend/.env.production
+3	0	0	0	12	0	0	29435739	0	0	29332625	0	http://bugs.magentaweb.org/
+3	6	6	0	387	29343753	0	29343753	29332764	0	29332764	16278	https://www.google.com/
+3	0	0	0	12	0	0	29446934	0	0	29332225	0	http://www.bugs.magentaweb.org/
+4	12	12	0	36	29436530	0	29436530	29343040	0	29344495	32556	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+4	1	1	0	0	29332295	0	0	29332295	0	0	2713	python-requests/2.32.3
+4	1	1	0	0	29422285	0	0	29422285	0	0	2713	Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.131 Safari/537.36
+4	3	3	0	0	29426514	0	0	29392062	0	0	8139	cypex.ai/scanning Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126.0.0.0 Safari/537.36
+4	3	3	0	0	29332626	0	0	29332359	0	0	8139	Mozilla/5.0 (Linux; Android 8.0.0; SM-G965U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+4	0	0	0	2	0	0	29425262	0	0	29425261	0	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15
+4	2	2	0	2	29427658	0	29427658	29421872	0	29421872	5426	Mozilla/5.0 (X11; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0
+4	0	0	0	1	0	0	29425262	0	0	29425262	0	Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/121.0
+4	15	15	0	20	29445984	0	29445984	29333301	0	29333301	40695	Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+4	1	1	0	15	29339066	0	29339066	29339066	0	29339066	2713	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36
+4	1	1	0	0	29339521	0	0	29339521	0	0	2713	Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2049.0 Safari/537.36
+4	2	2	0	56	29332215	0	29428106	29332215	0	29332215	0	Go-http-client/1.1
+4	0	0	0	5	0	0	29446743	0	0	29388089	0	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.3; robots.txt; +https://openai.com/searchbot
+4	2	2	0	0	29363291	0	0	29332215	0	0	2713	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.132 Safari/537.36
+4	2	2	0	129	29334058	0	29334058	29334058	0	29334058	5426	Mozilla/5.0 (compatible; MSIE 7.0b; Windows NT.6.2; .NET CLR 1.0.11418; WOW64)
+4	4	4	0	68	29419945	0	29419945	29419945	0	29332215	10852	Mozilla/5.0 (l9scan/2.0.1333e26373e2231313e24373; +https://leakix.net)
+4	0	0	0	1	0	0	29428756	0	0	29428756	0	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36
+4	32	32	0	0	29439737	0	0	29333261	0	0	86816	Mozilla/5.0 (compatible; CMS-Checker/1.0; +https://example.com)
+4	3	3	0	18	29440236	0	29440236	29440236	0	29440236	8139	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+4	1	1	0	0	29332215	0	0	29332215	0	0	0	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/125.0.6422.60 Safari/537.36
+4	1	1	0	0	29343617	0	0	29343617	0	0	2713	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.48 (KHTML, like Gecko) Chrome/104.0.2216 Safari/537.36
+4	0	0	0	3	0	0	29425263	0	0	29425260	0	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+4	0	0	0	1	0	0	29425259	0	0	29425259	0	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+4	1	1	0	1	29421099	0	29421490	29421099	0	29421490	2713	curl/7.83.1
+4	1	1	0	2	29380548	0	29425261	29380548	0	29425260	2713	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+4	2	2	0	129	29332764	0	29332764	29332764	0	29332764	5426	Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.1; Trident/4.0; WOW64)
+4	3	3	0	1	29436771	0	29439194	29425904	0	29439194	8139	Hello from Palo Alto Networks, find out more about our scans in https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity
+4	1	1	0	0	29332605	0	0	29332605	0	0	2713	Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Mobile/15E148 Safari/604.1
+4	1	1	0	0	29339521	0	0	29339521	0	0	2713	Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.16 Safari/537.36
+4	7	7	0	7	29426957	0	29426957	29335487	0	29335487	18991	Mozilla/5.0 (X11; Linux x86_64; rv:139.0) Gecko/20100101 Firefox/139.0
+4	4	4	0	4	29428381	0	29428381	29422512	0	29422512	10852	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+4	3	3	0	5	29332282	0	29332282	29332282	0	29332282	8139	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
+4	2	2	0	0	29360762	0	0	29349789	0	0	5426	Mozilla/5.0 zgrab/0.x
+4	3	3	0	0	29432522	0	0	29338331	0	0	8139	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+4	0	0	0	6	0	0	29380545	0	0	29332741	0	Mozilla/5.0
+4	1	1	0	0	29333128	0	0	29333128	0	0	2713	Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+4	36	36	0	216	29445302	0	29445302	29332911	0	29332911	97668	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+4	9	9	0	51	29438213	0	29438213	29334762	0	29334762	24417	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4240.193 Safari/537.36
+4	0	0	0	1	0	0	29421099	0	0	29421099	0	Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0 Safari/537.36
+4	6	6	0	0	29449111	0	0	29334253	0	0	16278	Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)
+4	19	0	0	0	29419943	0	0	29332214	0	0	1653	Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)
+4	1	1	0	1	29346895	0	29346895	29346895	0	29346895	2713	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.129 Safari/537.36
+4	1	1	0	0	29343660	0	0	29343660	0	0	2713	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/577.50 (KHTML, like Gecko) Chrome/68.0.1248 Safari/537.36
+4	1	1	0	0	29421490	0	0	29421490	0	0	2713	Mozilla/5.0 (X11; Linux x86_64) Firefox/117.0
+4	1	1	0	0	29333129	0	0	29333129	0	0	2713	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36
+4	0	0	0	1	0	0	29425260	0	0	29425260	0	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+4	1	1	0	0	29442876	0	0	29442876	0	0	2713	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36
+4	1	1	0	0	29353575	0	0	29353575	0	0	2713	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+4	1	1	0	0	29332359	0	0	29332359	0	0	2713	Mozilla/5.0 (iPhone; CPU iPhone OS 14_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Mobile/15E148 Safari/604.1
+4	1	1	0	0	29332281	0	0	29332281	0	0	2713	Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0
+4	1	1	0	1	29332225	0	29332225	29332225	0	29332225	2745	Mozilla/5.0 (iPhone; CPU iPhone OS 16_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Mobile/15E148 Safari/604.1
+4	0	0	0	2	0	0	29448875	0	0	29446095	0	Mozilla/5.0 (compatible; LumeWebScan/2.0; +https://lumeweaver.com/)
+4	1	1	0	0	29332359	0	0	29332359	0	0	2713	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.19582
+4	0	0	0	1	0	0	29334328	0	0	29334328	0	Python-urllib/3.10
+4	1	1	0	0	29434424	0	0	29434424	0	0	2713	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+4	1	1	0	0	29433851	0	0	29433851	0	0	2713	Mozilla/5.0 (iPad; CPU OS 18_5_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/138.0.7204.156 Mobile/15E148 Safari/604.1
+4	2	2	0	129	29343753	0	29343753	29343753	0	29343753	5426	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_0_5) AppleWebKit/535.14 (KHTML, like Gecko) Chrome/25.0.1108.47 Safari/535.10
+4	5	5	0	349	29426566	0	29426570	29334908	0	29334909	13565	Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0
+4	2	2	0	0	29343659	0	0	29343616	0	0	5426	curl/7.29.0
+4	0	0	0	2	0	0	29432522	0	0	29421632	0	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+4	0	0	0	1	0	0	29351439	0	0	29351439	0	Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.78 Safari/537.36 OPR/47.0.2631.55
+4	4	4	0	6	29437467	0	29353315	29353315	0	29353315	10852	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+4	0	0	0	2	0	0	29352824	0	0	29349364	0	Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.0; +https://openai.com/gptbot)
+4	1	1	0	7	29428400	0	29428400	29428400	0	29428400	2713	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+4	1	1	0	0	29443192	0	0	29443192	0	0	2713	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+4	0	0	0	2	0	0	29368137	0	0	29366493	0	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compatible; OAI-SearchBot/1.0; robots.txt; +https://openai.com/searchbot
+4	6	6	0	94	29419684	0	29419684	29335847	0	29335847	16278	python-httpx/0.28.1
+4	1	1	0	0	29345245	0	0	29345245	0	0	2713	Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A5362a Safari/604.1
+4	6	6	0	3	29419975	0	29419983	29333883	0	29419978	16278	Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0
+4	4	4	0	1	29332625	0	29332625	29332359	0	29332625	10852	Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+4	1	1	0	1	29332844	0	29332844	29332844	0	29332844	2713	Mozilla/5.0 (Linux; Android 5.1.1; SM-J111F)
+4	1	1	0	0	29436998	0	0	29436998	0	0	2713	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36
+4	0	0	0	1	0	0	29352022	0	0	29352022	0	Mozilla/5.0 (iPhone; CPU iPhone OS 13_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/76.0.3809.81 Mobile/15E148 Safari/605.1
+4	0	0	0	1	0	0	29332614	0	0	29332614	0	Mozilla/5.0 (X11; U; NetBSD amd64; en-US; rv:1.9.2.15) Gecko/20110308 Namoroka/3.6.15
+4	2	2	0	0	29332215	0	0	29332215	0	0	0	Mozilla/5.0 (Linux; Android 6.0; HTC One M9 Build/MRA876937) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.1248.98 Mobile Safari/537.3
+4	9	9	0	9	29446934	0	29446934	29333350	0	29333350	24417	Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+4	1	1	0	0	29438927	0	0	29438927	0	0	2713	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+4	0	0	0	1	0	0	29433189	0	0	29433189	0	Opera/9.80 (Android; Opera Mini/9.0.1829/66.318; U; en) Presto/2.12.423 Version/12.16
+4	4	0	0	0	29419936	0	0	29332214	0	0	256	Cpanel-HTTP-Client/1.0
+4	0	0	0	1	0	0	29342092	0	0	29342092	0	Nokia6230i/2.0 (03.80) Profile/MIDP-2.0 Configuration/CLDC-1.1
+5	2	2	0	6	29436530	0	29436530	29436530	0	29436530	5426	34.172.224.57
+5	1	0	0	0	29332214	0	0	29332214	0	0	87	18.117.234.232
+5	1	1	0	0	29342135	0	0	29342135	0	0	2713	34.6.123.86
+5	2	2	0	129	29334058	0	29334058	29334058	0	29334058	5426	34.216.196.22
+5	3	3	0	18	29344309	0	29344309	29344309	0	29344309	8139	143.198.57.239
+5	1	1	0	0	29449111	0	0	29449111	0	0	2713	87.236.176.118
+5	12	12	0	72	29422492	0	29422492	29421236	0	29421236	32556	208.84.102.151
+5	0	0	0	1	0	0	29428756	0	0	29428756	0	91.92.243.241
+5	0	0	0	1	0	0	29439194	0	0	29439194	0	198.235.24.118
+5	1	1	0	0	29425033	0	0	29425033	0	0	2713	87.236.176.111
+5	1	0	0	0	29332214	0	0	29332214	0	0	87	18.141.220.35
+5	3	3	0	18	29346261	0	29346261	29346261	0	29346261	8139	64.23.247.61
+5	0	0	0	1	0	0	29433189	0	0	29433189	0	185.177.72.75
+5	1	1	0	1	29381530	0	29381530	29381530	0	29381530	2713	199.45.155.78
+5	1	1	0	0	29346486	0	0	29346486	0	0	2713	34.60.50.128
+5	1	1	0	0	29333884	0	0	29333884	0	0	2713	91.231.89.127
+5	1	0	0	0	29332214	0	0	29332214	0	0	87	51.20.131.184
+5	2	2	0	75	29334908	0	29334913	29334908	0	29334909	5426	86.38.98.44
+5	1	1	0	0	29391920	0	0	29391920	0	0	2713	87.236.176.100
+5	4	0	0	0	29419936	0	0	29332214	0	0	256	74.112.76.31
+5	1	1	0	0	29419975	0	0	29419975	0	0	2713	91.231.89.123
+5	1	1	0	0	29391434	0	0	29391434	0	0	2713	199.45.155.68
+5	3	3	0	33	29419945	0	29419945	29419945	0	29419945	8139	146.190.103.103
+5	1	1	0	1	29338351	0	29338351	29338351	0	29338351	2713	152.42.142.158
+5	6	6	0	30	29356757	0	29349005	29344495	0	29344495	16278	179.43.169.98
+5	2	2	0	129	29332764	0	29332764	29332764	0	29332764	5426	18.201.115.149
+5	1	1	0	2	29342010	0	29342010	29342010	0	29342010	2713	167.94.145.101
+5	1	1	0	0	29344942	0	0	29344942	0	0	2713	34.7.93.121
+5	1	1	0	0	29419975	0	0	29419975	0	0	2713	91.231.89.38
+5	1	1	0	0	29349016	0	0	29349016	0	0	2713	18.208.206.243
+5	0	0	0	2	0	0	29448875	0	0	29446095	0	192.3.138.26
+5	1	1	0	1	29432522	0	29432522	29432522	0	29432522	2713	203.188.183.108
+5	1	1	0	0	29333883	0	0	29333883	0	0	2713	91.231.89.36
+5	2	2	0	28	29415396	0	29415396	29415396	0	29415396	5426	194.180.49.175
+5	1	1	0	1	29386467	0	29386467	29386467	0	29386467	2713	137.184.203.201
+5	0	0	0	1	0	0	29380545	0	0	29380545	0	167.71.78.29
+5	0	0	0	1	0	0	29344352	0	0	29344352	0	64.23.129.93
+5	3	3	0	18	29332911	0	29332911	29332911	0	29332911	8139	134.209.101.17
+5	1	1	0	0	29344975	0	0	29344975	0	0	2713	34.76.237.104
+5	2	2	0	28	29419684	0	29419684	29419684	0	29419684	5426	194.180.49.169
+5	1	1	0	0	29338331	0	0	29338331	0	0	2713	98.159.40.15
+5	1	1	0	0	29442876	0	0	29442876	0	0	2713	34.239.214.15
+5	3	3	0	17	29438213	0	29438213	29438213	0	29438213	8139	34.187.177.207
+5	1	1	0	0	29332215	0	0	29332215	0	0	0	205.169.39.57
+5	1	1	0	0	29332225	0	0	29332225	0	0	2745	89.37.58.120
+5	1	1	0	0	29419967	0	0	29419967	0	0	2713	91.231.89.18
+5	1	1	0	0	29439017	0	0	29439017	0	0	2713	205.210.31.183
+5	3	3	0	17	29337243	0	29337243	29337243	0	29337243	8139	34.168.229.42
+5	2	2	0	0	29333129	0	0	29333128	0	0	5426	205.169.39.105
+5	3	3	0	0	29416011	0	0	29349789	0	0	8139	3.138.185.30
+5	0	0	0	1	0	0	29375858	0	0	29375858	0	128.199.164.51
+5	1	1	0	0	29436771	0	0	29436771	0	0	2713	198.235.24.76
+5	1	1	0	0	29425904	0	0	29425904	0	0	2713	147.185.132.66
+5	1	1	0	19	29335847	0	29335847	29335847	0	29335847	2713	185.177.72.24
+5	1	1	0	19	29356311	0	29356311	29356311	0	29356311	2713	185.177.72.22
+5	1	1	0	0	29363291	0	0	29363291	0	0	2713	205.169.39.43
+5	1	0	0	0	29419943	0	0	29419943	0	0	87	44.251.63.59
+5	1	0	0	0	29419943	0	0	29419943	0	0	87	18.217.112.130
+5	2	2	0	129	29343753	0	29343753	29343753	0	29343753	5426	16.52.44.50
+5	1	1	0	1	29333350	0	29333350	29333350	0	29333350	2713	164.90.192.89
+5	1	1	0	0	29427955	0	0	29427955	0	0	2713	205.210.31.164
+5	1	1	0	0	29333363	0	0	29333363	0	0	2713	34.46.177.34
+5	0	0	0	1	0	0	29352824	0	0	29352824	0	172.182.214.99
+5	3	3	0	18	29440236	0	29440236	29440236	0	29440236	8139	167.71.221.62
+5	1	1	0	0	29421205	0	0	29421205	0	0	2713	136.116.128.105
+5	2	2	0	0	29434424	0	0	29433851	0	0	5426	100.30.248.17
+5	3	3	0	18	29332215	0	29332215	29332215	0	29332215	0	164.90.208.56
+5	3	3	0	6	29353315	0	29353315	29353315	0	29353315	8139	34.1.20.34
+5	1	1	0	0	29339521	0	0	29339521	0	0	2713	34.41.111.109
+5	1	1	0	3	29343617	0	29343617	29343617	0	29343617	2713	165.154.172.88
+5	1	1	0	0	29439961	0	0	29439961	0	0	2713	198.235.24.48
+5	1	1	0	0	29380548	0	0	29380548	0	0	2713	3.140.182.19
+5	1	1	0	0	29438927	0	0	29438927	0	0	2713	44.205.10.129
+5	1	1	0	1	29334779	0	29334779	29334779	0	29334779	2713	64.225.52.18
+5	1	1	0	0	29421358	0	0	29421358	0	0	2713	34.127.23.174
+5	1	0	0	0	29419943	0	0	29419943	0	0	87	13.212.219.211
+5	2	2	0	0	29332359	0	0	29332359	0	0	5426	35.88.109.68
+5	1	1	0	1	29421099	0	29421099	29421099	0	29421099	2713	34.158.45.232
+5	3	3	0	18	29444431	0	29444431	29444431	0	29444431	8139	34.90.206.220
+5	1	1	0	0	29332281	0	0	29332281	0	0	2713	185.242.177.52
+5	1	1	0	1	29416840	0	29416840	29416840	0	29416840	2713	206.168.34.221
+5	2	2	0	119	29426566	0	29426570	29426566	0	29426566	5426	35.93.36.94
+5	1	1	0	1	29421490	0	29421490	29421490	0	29421490	2713	34.143.177.21
+5	1	1	0	0	29343659	0	0	29343659	0	0	2713	165.154.182.174
+5	1	1	0	0	29332215	0	0	29332215	0	0	0	104.197.69.115
+5	0	0	0	1	0	0	29332741	0	0	29332741	0	138.68.245.149
+5	1	1	0	1	29414738	0	29414738	29414738	0	29414738	2713	159.223.213.167
+5	1	1	0	1	29401196	0	29401196	29401196	0	29401196	2713	206.168.34.209
+5	1	0	0	0	29332214	0	0	29332214	0	0	87	13.61.141.170
+5	1	1	0	2	29344977	0	29344977	29344977	0	29344977	2713	206.168.34.208
+5	1	1	0	0	29427834	0	0	29427834	0	0	2713	198.235.24.23
+5	1	1	0	1	29336313	0	29336313	29336313	0	29336313	2713	134.122.37.86
+5	1	1	0	0	29345245	0	0	29345245	0	0	2713	44.242.136.200
+5	1	1	0	0	29342224	0	0	29342224	0	0	2713	104.196.54.184
+5	1	1	0	0	29342234	0	0	29342234	0	0	2713	34.31.77.187
+5	1	1	0	1	29367036	0	29367036	29367036	0	29367036	2713	206.168.34.201
+5	1	0	0	0	29332214	0	0	29332214	0	0	87	23.178.112.106
+5	3	3	0	18	29440538	0	29440538	29440538	0	29440538	8139	138.199.35.8
+5	2	0	0	0	29419943	0	0	29419943	0	0	174	23.178.112.104
+5	3	3	0	17	29334762	0	29334762	29334762	0	29334762	8139	34.169.242.205
+5	1	0	0	0	29419943	0	0	29419943	0	0	87	16.171.161.221
+5	1	0	0	0	29332214	0	0	29332214	0	0	87	23.178.112.103
+5	0	0	0	1	0	0	29349364	0	0	29349364	0	172.182.215.215
+5	1	1	0	1	29446934	0	29446934	29446934	0	29446934	2713	164.90.139.137
+5	1	1	0	0	29343616	0	0	29343616	0	0	2713	152.32.212.149
+5	1	1	0	0	29439573	0	0	29439573	0	0	2713	35.223.6.91
+5	1	1	0	2	29333314	0	29333314	29333314	0	29333314	2713	66.132.153.129
+5	1	1	0	0	29332295	0	0	29332295	0	0	2713	185.242.177.19
+5	1	1	0	1	29425397	0	29425397	29425397	0	29425397	2713	46.101.205.136
+5	3	3	0	18	29332215	0	29332215	29332215	0	29332215	0	206.81.12.187
+5	0	0	0	1	0	0	29346098	0	0	29346098	0	64.23.228.9
+5	1	1	0	0	29425532	0	0	29425532	0	0	2713	136.118.171.231
+5	2	2	0	1	29332626	0	29332625	29332625	0	29332625	5426	44.250.64.163
+5	1	1	0	1	29371258	0	29371258	29371258	0	29371258	2713	66.132.153.125
+5	1	1	0	1	29421632	0	29421632	29421632	0	29421632	2713	95.181.238.183
+5	0	0	0	1	0	0	29405785	0	0	29405785	0	74.7.241.168
+5	0	0	0	1	0	0	29332614	0	0	29332614	0	13.217.45.207
+5	1	1	0	0	29426514	0	0	29426514	0	0	2713	18.224.192.118
+5	0	0	0	1	0	0	29332282	0	0	29332282	0	192.175.111.245
+5	0	0	0	1	0	0	29332282	0	0	29332282	0	192.175.111.244
+5	1	1	0	0	29339521	0	0	29339521	0	0	2713	136.114.140.107
+5	2	2	0	0	29343205	0	0	29343040	0	0	5426	44.249.3.119
+5	0	0	0	1	0	0	29368137	0	0	29368137	0	74.7.228.43
+5	0	0	0	1	0	0	29436572	0	0	29436572	0	74.7.230.4
+5	1	1	0	2	29342843	0	29342843	29342843	0	29342843	2713	66.132.153.116
+5	0	0	0	1	0	0	29332282	0	0	29332282	0	192.175.111.240
+5	3	3	0	18	29334572	0	29334572	29334572	0	29334572	8139	134.209.52.78
+5	2	2	0	0	29332359	0	0	29332359	0	0	5426	34.209.145.4
+5	1	1	0	0	29335273	0	0	29335273	0	0	2713	34.135.175.152
+5	0	0	0	1	0	0	29334464	0	0	29334464	0	143.198.61.110
+5	1	0	0	0	29419943	0	0	29419943	0	0	87	44.244.253.69
+5	0	0	0	1	0	0	29332282	0	0	29332282	0	192.175.111.229
+5	0	0	0	1	0	0	29332282	0	0	29332282	0	192.175.111.228
+5	1	1	0	1	29362277	0	29362277	29362277	0	29362277	2713	167.94.146.55
+5	1	1	0	1	29366602	0	29366602	29366602	0	29366602	2713	159.89.112.138
+5	1	1	0	1	29445984	0	29445984	29445984	0	29445984	2713	167.94.146.52
+5	1	1	0	7	29428400	0	29428400	29428400	0	29428400	2713	64.227.142.249
+5	1	1	0	1	29346258	0	29346258	29346258	0	29346258	2713	46.101.208.138
+5	1	0	0	0	29419943	0	0	29419943	0	0	87	13.60.231.109
+5	3	3	0	18	29445302	0	29445302	29445302	0	29445302	8139	34.168.194.75
+5	1	1	0	3	29343660	0	29343660	29343660	0	29343660	2713	165.154.162.212
+5	1	1	0	1	29374448	0	29374448	29374448	0	29374448	2713	165.227.37.154
+5	1	1	0	0	29333363	0	0	29333363	0	0	2713	104.197.95.214
+5	0	0	0	1	0	0	29351439	0	0	29351439	0	213.209.157.93
+5	0	0	0	1	0	0	29366493	0	0	29366493	0	74.7.230.54
+5	1	1	0	0	29425702	0	0	29425702	0	0	2713	34.55.37.197
+5	3	3	0	33	29419945	0	29419945	29419945	0	29419945	8139	206.189.233.36
+5	1	1	0	1	29422512	0	29422512	29422512	0	29422512	2713	142.93.150.18
+5	0	0	0	1	0	0	29388089	0	0	29388089	0	74.7.230.46
+5	1	0	0	0	29419943	0	0	29419943	0	0	87	13.214.205.24
+5	1	1	0	2	29333301	0	29333301	29333301	0	29333301	2713	167.94.138.169
+5	1	1	0	0	29334322	0	0	29334322	0	0	2713	185.247.137.177
+5	1	1	0	0	29437467	0	0	29437467	0	0	2713	98.88.142.13
+5	1	1	0	0	29342110	0	0	29342110	0	0	2713	34.60.123.234
+5	1	1	0	0	29425551	0	0	29425551	0	0	2713	34.7.124.87
+5	1	1	0	0	29432315	0	0	29432315	0	0	2713	147.185.132.162
+5	0	0	0	1	0	0	29402326	0	0	29402326	0	74.7.244.31
+5	1	0	0	0	29332214	0	0	29332214	0	0	87	54.213.145.16
+5	0	0	0	1	0	0	29352022	0	0	29352022	0	213.209.157.253
+5	1	1	0	0	29439737	0	0	29439737	0	0	2713	34.23.12.71
+5	1	1	0	1	29335487	0	29335487	29335487	0	29335487	2713	178.128.228.249
+5	1	1	0	0	29335230	0	0	29335230	0	0	2713	34.71.45.174
+5	0	0	0	16	0	0	29428106	0	0	29333304	0	45.148.10.246
+5	1	0	0	0	29419943	0	0	29419943	0	0	87	18.191.232.159
+5	2	2	0	0	29334933	0	0	29334917	0	0	5426	34.56.237.83
+5	1	1	0	1	29427658	0	29427658	29427658	0	29427658	2713	138.197.153.63
+5	1	1	0	0	29380544	0	0	29380544	0	0	2713	185.247.137.159
+5	3	3	0	18	29431372	0	29431372	29431372	0	29431372	8139	149.102.225.177
+5	1	1	0	1	29428381	0	29428381	29428381	0	29428381	2713	164.92.247.41
+5	0	0	0	10	0	0	29425263	0	0	29425259	0	45.148.10.231
+5	1	1	0	0	29344814	0	0	29344814	0	0	2713	35.193.48.218
+5	1	1	0	2	29340653	0	29340654	29340653	0	29340653	2713	199.45.155.108
+5	1	1	0	1	29410122	0	29410122	29410122	0	29410122	2713	199.45.155.107
+5	1	1	0	1	29421872	0	29421872	29421872	0	29421872	2713	64.227.71.91
+5	4	4	0	0	29332605	0	0	29332605	0	0	10852	35.89.70.86
+5	1	0	0	0	29332214	0	0	29332214	0	0	87	54.187.6.94
+5	1	1	0	0	29332282	0	0	29332282	0	0	2713	64.15.129.115
+5	3	3	0	0	29357995	0	0	29357994	0	0	8139	195.178.110.68
+5	1	1	0	0	29429720	0	0	29429720	0	0	2713	216.106.187.123
+5	1	1	0	0	29332282	0	0	29332282	0	0	2713	64.15.129.108
+5	0	0	0	1	0	0	29334328	0	0	29334328	0	45.130.203.191
+5	1	1	0	1	29426957	0	29426957	29426957	0	29426957	2713	206.189.2.117
+5	0	0	0	1	0	0	29342092	0	0	29342092	0	45.139.104.204
+5	1	1	0	0	29443192	0	0	29443192	0	0	2713	50.17.164.180
+5	1	1	0	0	29346529	0	0	29346529	0	0	2713	34.79.26.18
+5	1	1	0	0	29332282	0	0	29332282	0	0	2713	64.15.129.103
+5	1	1	0	1	29406778	0	29406778	29406778	0	29406778	2713	159.223.195.153
+5	1	1	0	0	29346238	0	0	29346238	0	0	2713	34.125.43.213
+5	1	1	0	1	29354319	0	29354319	29354319	0	29354319	2713	165.227.109.155
+5	1	1	0	0	29422285	0	0	29422285	0	0	2713	121.127.34.106
+5	1	1	0	0	29392062	0	0	29392062	0	0	2713	3.146.111.124
+5	1	1	0	0	29425663	0	0	29425663	0	0	2713	34.21.114.142
+5	1	1	0	0	29334253	0	0	29334253	0	0	2713	185.247.137.114
+5	0	0	0	1	0	0	29446743	0	0	29446743	0	74.7.175.184
+5	1	1	0	0	29344567	0	0	29344567	0	0	2713	34.60.25.132
+5	1	1	0	1	29424884	0	29424884	29424884	0	29424884	2713	157.230.125.35
+5	1	1	0	1	29435739	0	29435739	29435739	0	29435739	2713	134.122.40.36
+5	1	1	0	0	29333618	0	0	29333618	0	0	2713	34.9.140.182
+5	1	1	0	0	29353575	0	0	29353575	0	0	2713	91.134.35.95
+5	1	1	0	0	29333261	0	0	29333261	0	0	2713	34.59.26.244
+5	1	1	0	0	29439548	0	0	29439548	0	0	2713	35.245.91.214
+5	1	1	0	0	29333273	0	0	29333273	0	0	2713	34.16.18.183
+5	1	1	0	15	29339066	0	29339066	29339066	0	29339066	2713	104.207.51.160
+5	1	1	0	1	29346895	0	29346895	29346895	0	29346895	2713	157.20.32.213
+5	1	1	0	0	29421316	0	0	29421316	0	0	2713	34.11.237.166
+5	1	1	0	1	29394936	0	29394936	29394936	0	29394936	2713	164.92.71.65
+5	1	1	0	0	29419970	0	0	29419970	0	0	2713	91.231.89.96
+5	1	0	0	0	29332214	0	0	29332214	0	0	87	18.222.223.154
+5	0	0	0	1	0	0	29419983	0	0	29419983	0	91.196.152.155
+5	4	4	0	155	29345544	0	29345544	29345539	0	29345539	10852	18.219.122.173
+5	1	1	0	1	29332844	0	29332844	29332844	0	29332844	2713	34.124.187.223
+5	1	1	0	0	29336569	0	0	29336569	0	0	2713	34.6.88.60
+5	0	0	0	1	0	0	29419978	0	0	29419978	0	91.196.152.152
+5	1	1	0	0	29421221	0	0	29421221	0	0	2713	34.91.17.160
+5	0	0	0	1	0	0	29419983	0	0	29419983	0	91.196.152.148
+5	0	0	0	1	0	0	29332225	0	0	29332225	0	89.40.41.229
+5	1	1	0	0	29436998	0	0	29436998	0	0	2713	44.218.6.122
+z	0	8	8	29332215	0
+z	2	23	0	29419943	1909
+z	4	230	230	29449111	624022
+c	200	261	29449111
+c	403	7	29448875
+c	404	1389	29446934

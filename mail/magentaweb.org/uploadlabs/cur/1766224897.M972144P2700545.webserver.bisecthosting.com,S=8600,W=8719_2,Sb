@@ -1,0 +1,119 @@
+Return-Path: <010f019b3b348691-33556c02-66d2-4232-918d-20cb965ca451-000000@mail.accounts.enigmastudio.dev>
+Delivered-To: uploadlabs@magentaweb.org
+Received: from webserver.bisecthosting.com
+	by webserver.bisecthosting.com with LMTP
+	id fPdaOQF0RmkBNSkAufviug
+	(envelope-from <010f019b3b348691-33556c02-66d2-4232-918d-20cb965ca451-000000@mail.accounts.enigmastudio.dev>)
+	for <uploadlabs@magentaweb.org>; Sat, 20 Dec 2025 05:01:37 -0500
+Return-path: <010f019b3b348691-33556c02-66d2-4232-918d-20cb965ca451-000000@mail.accounts.enigmastudio.dev>
+Envelope-to: uploadlabs@magentaweb.org
+Delivery-date: Sat, 20 Dec 2025 05:01:37 -0500
+Received: from e226-53.smtp-out.us-east-2.amazonses.com ([23.251.226.53]:34235)
+	by webserver.bisecthosting.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.99)
+	(envelope-from <010f019b3b348691-33556c02-66d2-4232-918d-20cb965ca451-000000@mail.accounts.enigmastudio.dev>)
+	id 1vWtmO-0000000BKH4-176L
+	for uploadlabs@magentaweb.org;
+	Sat, 20 Dec 2025 05:01:37 -0500
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ndjes4mrtuzus6qxu3frw3ubo3gpjndv; d=amazonses.com; t=1766224856;
+	h=From:To:Subject:Date:MIME-Version:Content-Type:Message-ID:Feedback-ID;
+	bh=vHaXOuWUIazO+o7HoOgNnI/KzdANxz6Tu0SNguNoEVg=;
+	b=jO8wsflL67iwrpdOxwyxC+1/8dIOp2BeHRzSMj15AazDwBnPQeiJS+rV0UBxmQnv
+	KvvqsgUCof4uJ9QeDummpYl6wUQMh0uJOYG4mDsq0M3LyJWJWow/EZixuXADY/CYbkZ
+	nCjVCgqKnTM4JR6ksqI5UtwzBiGuH2vejbKxn39I=
+From: labs@accounts.enigmastudio.dev
+To: uploadlabs@magentaweb.org
+Subject: Verify your Upload Labs Account
+Date: Sat, 20 Dec 2025 10:00:56 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="----=_Part_3lt3tQF-FfRsTnppuNaYu_1766224856672"
+Message-ID: <010f019b3b348691-33556c02-66d2-4232-918d-20cb965ca451-000000@us-east-2.amazonses.com>
+Feedback-ID: :1.us-east-2.BUwZu3IgQIeTUJu5tiSXgI4TsnZnusfsqPFJf/Etsrx0N+FLVMzpxfsaYGTT5IAdW7g5c+8T4XwHm14/VfRvBtJ1P7d+vzI3W2HtKEEb0F8MxNKzZV55KMvyIFhR/H4ZYtGD9FLNeoDO8AJtHW+K5ZlOeUHP6PzUq2LgefoJgrQEbwXdJty9gp5qw3D5OZ2R:1.us-east-2.lqnm7JwrI2QpFtCViuSBWR3Wdmjd0ORtbbxi9Rxktgg=:AmazonSES
+X-SES-Outgoing: 2025.12.20-23.251.226.53
+X-Spam-Status: No, score=-2.5
+X-Spam-Score: -24
+X-Spam-Bar: --
+X-Ham-Report: Spam detection software, running on the system "webserver.bisecthosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  Welcome! Please click the following link to verify your account:
+    https://uploadlabs.enigmastudio.dev/verify?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cGxvYWRsYWJzQG1hZ2VudGF3ZWIub3JnIiwiZ
+    [...] 
+ Content analysis details:   (-2.5 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [23.251.226.53 listed in bl.score.senderscore.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                          [23.251.226.53 listed in sa-trusted.bondedsender.org]
+  0.0 RCVD_IN_ZEN_BLOCKED_OPENDNS RBL: ADMINISTRATOR NOTICE: The query to
+                             zen.spamhaus.org was blocked due to usage of an
+                              open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [23.251.226.53 listed in zen.spamhaus.org]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [23.251.226.53 listed in sa-accredit.habeas.com]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.0 URIBL_DBL_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             dbl.spamhaus.org was blocked due to usage of an
+                              open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URI: uploadlabs.enigmastudio.dev]
+ -0.0 SPF_HELO_PASS          SPF: HELO matches SPF record
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -2.5 RCVD_IN_HOSTKARMA_W    RBL: Sender listed in HOSTKARMA-WHITE
+                        [23.251.226.53 listed in hostkarma.junkemailfilter.com]
+  0.0 RCVD_IN_MSPIKE_H3      RBL: Good reputation (+3)
+                             [23.251.226.53 listed in wl.mailspike.net]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.0 MIME_QP_LONG_LINE      RAW: Quoted-printable line longer than 76 chars
+  0.0 RCVD_IN_MSPIKE_WL      Mailspike good senders
+ -0.0 RCVD_IN_DNSWL_NONE     RBL: Sender listed at https://www.dnswl.org/, no
+                             trust
+                             [23.251.226.53 listed in list.dnswl.org]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URI: enigmastudio.dev]
+X-Spam-Flag: NO
+
+This is a multi-part message in MIME format.
+
+------=_Part_3lt3tQF-FfRsTnppuNaYu_1766224856672
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Welcome! Please click the following link to verify your account: https://uploadlabs.enigmastudio.dev/verify?token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cGxvYWRsYWJzQG1hZ2VudGF3ZWIub3JnIiwiZXhwIjoxNzY2MjI4NDU2LCJ0eXBlIjoidmVyaWZpY2F0aW9uIiwidWlkIjoiMGI5NTJkMDEtOTBhZi00YjFhLTkxN2EtNTg4ZDU5ZDI0MTliIn0.7TiWIDUnfdbn_AilLBV2TUNOMMsxTLC-UDeETduKX4w
+
+------=_Part_3lt3tQF-FfRsTnppuNaYu_1766224856672
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+                <div style=3D"background-color: #12141a; color: #e0e6ed; font-family: sans-serif; padding: 40px; text-align: center;">
+                    <div style=3D"max-width: 600px; margin: 0 auto; background-color: #1a1d24; padding: 40px; border-radius: 8px; border: 1px solid #2a2e38;">
+                        <h1 style=3D"color: #00f0ff; margin-bottom: 20px;">Welcome to Upload Labs.</h1>
+                        <p style=3D"color: #e0e6ed; font-size: 16px; line-height: 1.5;">Thanks for signing up. Please verify your account to enable cloud saves.</p>
+                        <div style=3D"margin: 30px 0;">
+                            <a href=3D"https://uploadlabs.enigmastudio.dev/verify?token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cGxvYWRsYWJzQG1hZ2VudGF3ZWIub3JnIiwiZXhwIjoxNzY2MjI4NDU2LCJ0eXBlIjoidmVyaWZpY2F0aW9uIiwidWlkIjoiMGI5NTJkMDEtOTBhZi00YjFhLTkxN2EtNTg4ZDU5ZDI0MTliIn0.7TiWIDUnfdbn_AilLBV2TUNOMMsxTLC-UDeETduKX4w" style=3D"display: inline-block; background-color: #00f0ff; color: #12141a; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold;">Verify Account</a>
+                        </div>
+                        <p style=3D"color: #8b9bb4; font-size: 14px; word-break: break-all;">Or click this link: <a href=3D"https://uploadlabs.enigmastudio.dev/verify?token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cGxvYWRsYWJzQG1hZ2VudGF3ZWIub3JnIiwiZXhwIjoxNzY2MjI4NDU2LCJ0eXBlIjoidmVyaWZpY2F0aW9uIiwidWlkIjoiMGI5NTJkMDEtOTBhZi00YjFhLTkxN2EtNTg4ZDU5ZDI0MTliIn0.7TiWIDUnfdbn_AilLBV2TUNOMMsxTLC-UDeETduKX4w" style=3D"color: #00f0ff;">https://uploadlabs.enigmastudio.dev/verify?token=3DeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cGxvYWRsYWJzQG1hZ2VudGF3ZWIub3JnIiwiZXhwIjoxNzY2MjI4NDU2LCJ0eXBlIjoidmVyaWZpY2F0aW9uIiwidWlkIjoiMGI5NTJkMDEtOTBhZi00YjFhLTkxN2EtNTg4ZDU5ZDI0MTliIn0.7TiWIDUnfdbn_AilLBV2TUNOMMsxTLC-UDeETduKX4w</a></p>
+                    </div>
+                </div>
+                
+
+------=_Part_3lt3tQF-FfRsTnppuNaYu_1766224856672--

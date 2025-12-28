@@ -1,0 +1,1355 @@
+Return-Path: <cpanel@findi.magentaweb.org>
+Delivered-To: contact@findi.magentaweb.org
+Received: from webserver.bisecthosting.com
+	by webserver.bisecthosting.com with LMTP
+	id aPcmBsQl3Wg7/S8Aufviug
+	(envelope-from <cpanel@findi.magentaweb.org>)
+	for <contact@findi.magentaweb.org>; Wed, 01 Oct 2025 08:59:48 -0400
+Return-path: <cpanel@findi.magentaweb.org>
+Envelope-to: contact@findi.magentaweb.org
+Delivery-date: Wed, 01 Oct 2025 08:59:48 -0400
+Received: from [127.0.0.1] (port=47890 helo=localhost.localdomain)
+	by webserver.bisecthosting.com with esmtpa (Exim 4.98.2)
+	(envelope-from <cpanel@findi.magentaweb.org>)
+	id 1v3wQv-0000000DJzF-1HXT
+	for contact@findi.magentaweb.org;
+	Wed, 01 Oct 2025 08:59:48 -0400
+Date: Wed, 01 Oct 2025 12:59:48 GMT
+From: "cPanel on findi.magentaweb.org" <cpanel@findi.magentaweb.org>
+Message-Id: <1759323588.aRkknA9w5fF7Brv1@webserver.bisecthosting.com>
+Reply-To: "cPanel on findi.magentaweb.org" <cpanel@findi.magentaweb.org>
+Subject: =?UTF-8?B?W2ZpbmRpLm1hZ2VudGF3ZWIub3JnXSBDbGllbnQgY29uZmlndXJh?= =?UTF-8?B?dGlvbiBzZXR0aW5ncyBmb3Ig4oCcY29udGFjdEBmaW5kaS5tYWdlbnRhd2Vi?= =?UTF-8?B?Lm9yZ+KAnS4=?=
+To: <contact@findi.magentaweb.org>
+X-iContact_locale: de
+Mime-Version: 1.0
+Content-Type: multipart/mixed; boundary="mixed-Cpanel::Email::Object-3175083-1759323588-0.928624545597923"
+
+--mixed-Cpanel::Email::Object-3175083-1759323588-0.928624545597923
+Content-Type: multipart/alternative; boundary="alternative-Cpanel::Email::Object-3175083-1759323588-0.219423868902815"
+
+--alternative-Cpanel::Email::Object-3175083-1759323588-0.219423868902815
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Client Configuration settings for =E2=80=9Ccontact@findi.magentaweb.org=E2=
+=80=9D.
+
+
+Manuelle Einstellungen f=C3=BCr den E-Mail-Client
+--------------------------------------------
+
+Secure SSL/TLS Settings (Empfohlen)
+
+Benutzername:
+
+contact@findi.magentaweb.org
+
+Passwort:
+
+Passwort des E-Mail-Kontos verwenden.
+
+Posteingangsserver:
+
+findi.magentaweb.org
+
+  * IMAP Port: 993
+
+  * POP3 Port: 995
+
+Postausgangsserver:
+
+findi.magentaweb.org
+
+  * SMTP Port: 465
+
+IMAP, POP3 und SMTP require authentication.
+
+Non-SSL Settings (NOT Recommended)
+
+Benutzername:
+
+contact@findi.magentaweb.org
+
+Passwort:
+
+Passwort des E-Mail-Kontos verwenden.
+
+Posteingangsserver:
+
+mail.findi.magentaweb.org
+
+  * IMAP Port: 143
+
+  * POP3 Port: 110
+
+Postausgangsserver:
+
+mail.findi.magentaweb.org
+
+  * SMTP Port: 587
+
+IMAP, POP3 und SMTP require authentication.
+
+
+Calendar & Contacts Manual Settings
+-----------------------------------
+
+Secure SSL/TLS Settings (Recommended).
+
+Benutzername:
+
+contact@findi.magentaweb.org
+
+Passwort:
+
+Passwort des E-Mail-Kontos verwenden.
+
+Server:
+
+https://findi.magentaweb.org:2080
+
+  * Port: 2080
+
+Vollst=C3=A4ndige Kalender-URL(s):
+
+  * cPanel CalDAV Calendar:
+
+  * https://findi.magentaweb.org:2080/calendars/contact@findi.magentaweb.or=
+g/calendar
+
+URL(s) der vollst=C3=A4ndigen Kontaktliste:
+
+  * cPanel CardDAV Address Book:
+
+  * https://findi.magentaweb.org:2080/addressbooks/contact@findi.magentaweb=
+.org/addressbook
+
+Non-SSL Settings (NOT Recommended).
+
+Benutzername:
+
+contact@findi.magentaweb.org
+
+Passwort:
+
+Passwort des E-Mail-Kontos verwenden.
+
+Server:
+
+http://mail.findi.magentaweb.org:2079
+
+  * Port: 2079
+
+Vollst=C3=A4ndige Kalender-URL(s):
+
+  * cPanel CalDAV Calendar:
+
+  * http://mail.findi.magentaweb.org:2079/calendars/contact@findi.magentawe=
+b.org/calendar
+
+URL(s) der vollst=C3=A4ndigen Kontaktliste:
+
+  * cPanel CardDAV Address Book:
+
+  * http://mail.findi.magentaweb.org:2079/addressbooks/contact@findi.magent=
+aweb.org/addressbook
+
+A .mobileconfig file for use with iOS for iPhone/iPad/iPod and MacOS=C2=AE =
+Mail.app=C2=AE for Mountain Lion (10.8+) is attached to this message.
+
+This notice is the result of a request made by a computer with the IP addre=
+ss of =E2=80=9C61.8.128.153=E2=80=9D through the =E2=80=9Ccpanel=E2=80=9D s=
+ervice on the server.
+
+The remote computer=E2=80=99s location appears to be: Germany (DE).
+
+The remote computer=E2=80=99s IP address is assigned to the provider: =E2=
+=80=9E1und1 Mobilfunk=E2=80=9C
+
+The remote computer=E2=80=99s operating system appears to be: =E2=80=9CMac =
+OS X=E2=80=9D.
+
+The system generated this notice on Mittwoch, 1. Oktober 2025 at 12:59:47 U=
+TC.
+
+Antworten Sie bitte nicht auf diese automatisch gesendete Nachricht.
+
+cP
+
+Copyright=C2=A9 2025 cPanel, L.L.C.=
+
+--alternative-Cpanel::Email::Object-3175083-1759323588-0.219423868902815
+Content-Type: multipart/related; boundary="related-Cpanel::Email::Object-3175083-1759323588-0.480894519420364"
+
+--related-Cpanel::Email::Object-3175083-1759323588-0.480894519420364
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<body style=3D"background:#F4F4F4">
+    <div style=3D"margin:0;padding:0;background:#F4F4F4">
+        <table cellpadding=3D"10" cellspacing=3D"0" border=3D"0" width=3D"1=
+00%" style=3D"width:0 auto;">
+            <tbody>
+                <tr>
+                    <td align=3D"center">
+                        <table cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" width=3D"680" style=3D"border:0;width:0 auto;max-width:680px;">
+                            <tbody>
+                                <tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20
+                                    <td width=3D"680" height=3D"25" style=
+=3D"font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;=
+color:#333333">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                                            Client Configuration settings f=
+or =E2=80=9Ccontact@findi.magentaweb.org=E2=80=9D.
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                                    </td>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20
+                                </tr>
+                                <tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20
+                                    <td style=3D"padding: 15px 0 20px 0; ba=
+ckground-color: #FFFFFF; border: 2px solid #E8E8E8; border-bottom: 2px soli=
+d #FF6C2C;">
+                                        <table width=3D"680" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" style=3D"background:#FFFFFF;font-family:=
+'Helvetica Neue',Helvetica,Arial,sans-serif;">
+                                            <tbody>
+                                                <tr>
+                                                    <td width=3D"15">
+                                                    </td>
+                                                    <td width=3D"650">
+                                                        <table cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td>
+                                                                        <di=
+v id=3D"manual_settings_area" class=3D"section">
+        <h2 id=3D"hdrManualSettings">Manuelle Einstellungen f=C3=BCr den E-=
+Mail-Client</h2>
+=20=20=20=20=20=20=20=20
+        <div class=3D"row">
+         <div class=3D"col-md-6">
+          <div id=3D"ssl_settings_area"
+=20=20=20=20=20=20=20=20=20=20=20=20
+            style=3D"background-color: #fff;  border: 1px solid transparent=
+; border-radius: 4px; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05); margin-bot=
+tom: 20px; border-color: #428bca;"
+=20=20=20=20=20=20=20=20=20=20=20=20
+            class=3D"preferred-selection panel panel-primary">
+               <div
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                style=3D"border-top-left-radius: 3px; border-top-right-radi=
+us: 3px; padding: 10px 15px; background-color: #428bca; border-color: #428b=
+ca; color: #fff;"
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                class=3D"panel-heading">
+                Secure <abbr title=3D"Secure Sockets Layer">SSL</abbr>/<abb=
+r title=3D"Transport Layer Security">TLS</abbr> Settings
+                (Empfohlen)
+              </div>
+              <table class=3D"table manual_settings_table" style=3D"border-=
+collapse: collapse; border-spacing: 0; margin-bottom: 0; width: 100%; backg=
+round-color: transparent; max-width: 100%;">
+                  <tr>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;" id=3D"lblSSLSettingsAreaUsername">Benutzername:</td>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;" id=3D"valSSLSettingsAreaUsername" class=3D"data wrap-text">contact@findi=
+.magentaweb.org</td>
+                  </tr>
+                  <tr>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;" id=3D"lblSettingsAreaPassword">Passwort:</td>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;" id=3D"valSettingsAreaPassword" class=3D"escape-note"> Passwort des E-Mai=
+l-Kontos verwenden.</td>
+                  </tr>
+                  <tr>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;" id=3D"lblSettingsAreaIncomingServer">Posteingangsserver:</td>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;" id=3D"valSettingsAreaIncomingServer" class=3D"data">findi.magentaweb.org
+                          <ul
+                          style=3D"margin-bottom: 10px; margin-top: 0; list=
+-style: outside none none; margin-left: -5px; padding-left: 0;"
+                          class=3D"port_list list-inline">
+                              <li style=3D"display: inline-block; padding-l=
+eft: 5px; padding-right: 5px;"><abbr title=3D"Internet Message Access Proto=
+col" class=3D"initialism">IMAP</abbr> Port: 993</li>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20
+                              <li style=3D"display: inline-block; padding-l=
+eft: 5px; padding-right: 5px;"><abbr title=3D"Post Office Protocol 3" class=
+=3D"initialism">POP3</abbr> Port: 995</li>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20
+                          </ul>
+                      </td>
+                  </tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                  <tr>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;" id=3D"lblSettingsAreaOutgoingServer">Postausgangsserver:</td>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;" id=3D"valSettingsAreaOutGoingServer" class=3D"data">findi.magentaweb.org
+                          <ul
+                          style=3D"margin-bottom: 10px; margin-top: 0; list=
+-style: outside none none; margin-left: -5px; padding-left: 0;"
+                          class=3D"port_list list-inline">
+                              <li style=3D"display: inline-block; padding-l=
+eft: 5px; padding-right: 5px;"><abbr title=3D"Simple Mail Transfer Protocol=
+">SMTP</abbr> Port: 465</li>
+                          </ul>
+                      </td>
+                  </tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                  <tr>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;" colspan=3D"2" class=3D"notes">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20
+                                                                           =
+     <div id=3D"lblSettingsAreaSmallNote1" class=3D"small_note">IMAP, POP3 =
+und SMTP require authentication.</div>
+                      </td>
+                  </tr>
+              </table>
+          </div>
+         </div>
+=20=20
+      </div>
+=20=20=20=20=20=20=20=20
+
+        <div class=3D"row" id=3D"nonSSL" style=3D"display: none">
+         <div class=3D"col-md-6">
+           <div id=3D"non_ssl_settings_area"
+=20=20=20=20=20=20=20=20=20=20=20=20
+            style=3D"background-color: #fff;  border: 1px solid transparent=
+; border-radius: 4px; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05); margin-bot=
+tom: 20px; border-color: #f6c342;"
+=20=20=20=20=20=20=20=20=20=20=20=20
+           class=3D"panel panel-default panel-warning">
+               <div
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                style=3D"border-top-left-radius: 3px; border-top-right-radi=
+us: 3px; padding: 10px 15px; background-color: #fcf8e1; border-color: #f6c3=
+42; color: #333;"
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                class=3D"panel-heading">
+                <span id=3D"descNonSSLSettings" class=3D"caption not-recomm=
+ended">Non-SSL Settings (NOT Recommended)</span>
+              </div>
+              <table id=3D"tblManualSettingsTable" class=3D"table manual_se=
+ttings_table" style=3D"border-collapse: collapse; border-spacing: 0; margin=
+-bottom: 0; width: 100%; background-color: transparent; max-width: 100%;">
+                  <tr>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;" id=3D"lblNonSSLSettingsUsername">Benutzername:</td>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;" id=3D"valNonSSLSettingsUsername" class=3D"data wrap-text">contact@findi.=
+magentaweb.org</td>
+                  </tr>
+                  <tr>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;" id=3D"lblNonSSLSettingsPassword">Passwort:</td>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;" id=3D"valNonSSLSettingsPassword" class=3D"escape-note">Passwort des E-Ma=
+il-Kontos verwenden.</td>
+                  </tr>
+                  <tr>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;" id=3D"lblNonSSLSettingsIncomingServer">Posteingangsserver:</td>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;" id=3D"valNonSSLSettingsIncomingServer" class=3D"data">mail.findi.magenta=
+web.org                          <ul
+                          style=3D"margin-bottom: 10px; margin-top: 0; list=
+-style: outside none none; margin-left: -5px; padding-left: 0;"
+                          class=3D"port_list list-inline">
+                              <li style=3D"display: inline-block; padding-l=
+eft: 5px; padding-right: 5px;"><abbr title=3D"Internet Message Access Proto=
+col" class=3D"initialism">IMAP</abbr> Port: 143</li>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20
+                              <li style=3D"display: inline-block; padding-l=
+eft: 5px; padding-right: 5px;"><abbr title=3D"Post Office Protocol 3" class=
+=3D"initialism">POP3</abbr> Port: 110</li>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20
+                          </ul>
+                      </td>
+                  </tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                  <tr>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;" id=3D"NonSSLSettingsOutgoingServer">Postausgangsserver:</td>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;" id=3D"NonSSLSettingsOutgoingServerData" class=3D"data">mail.findi.magent=
+aweb.org                          <ul
+                          style=3D"margin-bottom: 10px; margin-top: 0; list=
+-style: outside none none; margin-left: -5px; padding-left: 0;"
+                          class=3D"port_list list-inline">
+                              <li style=3D"display: inline-block; padding-l=
+eft: 5px; padding-right: 5px;"><abbr title=3D"Simple Mail Transfer Protocol=
+">SMTP</abbr> Port: 587</li>
+                          </ul>
+                      </td>
+                  </tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                  <tr>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;" colspan=3D"2" class=3D"notes">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20
+                                                                           =
+     <div id=3D"descNonSSLSettingsAuthenticationIsRequiredForIMAPPOP3SMTP1"=
+ class=3D"small_note">IMAP, POP3 und SMTP require authentication.</div>
+                      </td>
+                  </tr>
+              </table>
+          </div>
+        </div>
+      </div>
+
+    </div><div class=3D"section">
+        <h2>Calendar &amp; Contacts Manual Settings</h2>
+        <div class=3D"row">
+=20=20=20=20=20=20=20=20=20
+         <div class=3D"col-md-6">
+          <div style=3D"background-color: #fff;  border: 1px solid transpar=
+ent; border-radius: 4px; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05); margin-=
+bottom: 20px; border-color: #428bca;" class=3D"preferred-selection panel pa=
+nel-primary">
+               <div style=3D"border-top-left-radius: 3px; border-top-right-=
+radius: 3px; padding: 10px 15px; background-color: #428bca; border-color: #=
+428bca; color: #fff;" class=3D"panel-heading">
+                Secure <abbr title=3D"Secure Sockets Layer">SSL</abbr>/<abb=
+r title=3D"Transport Layer Security">TLS</abbr> Settings (Recommended).
+              </div>
+              <table class=3D"table manual_settings_table" style=3D"border-=
+collapse: collapse; border-spacing: 0; margin-bottom: 0; width: 100%; backg=
+round-color: transparent; max-width: 100%;">
+                  <tr>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;">Benutzername:</td>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;" class=3D"data wrap-text">contact@findi.magentaweb.org</td>
+                  </tr>
+                  <tr>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;">Passwort:</td>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;" class=3D"escape-note"> Passwort des E-Mail-Kontos verwenden.</td>
+                  </tr>
+                  <tr>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;">Server:</td>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;" class=3D"data">https://findi.magentaweb.org:2080
+                          <ul
+                          style=3D"margin-bottom: 10px; margin-top: 0; list=
+-style: outside none none; margin-left: -5px; padding-left: 0;"
+                          class=3D"port_list list-inline">
+                              <li style=3D"display: inline-block; padding-l=
+eft: 5px; padding-right: 5px;">Port: 2080</li>
+                          </ul>
+                      </td>
+                  </tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                  <tr>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;">Vollst=C3=A4ndige Kalender-URL(s):</td>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;" class=3D"data">
+                          <ul
+                          style=3D"margin-bottom: 10px; margin-top: 0; list=
+-style: outside none none; margin-left: -5px; padding-left: 0;"
+                          class=3D"port_list list-inline">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20
+                              <li style=3D"display: inline-block; padding-l=
+eft: 5px; padding-right: 5px;"><b>cPanel CalDAV Calendar</b>:</li>
+                              <li style=3D"display: inline-block; padding-l=
+eft: 5px; padding-right: 5px;">https://findi.magentaweb.org:2080/calendars/=
+contact@findi.magentaweb.org/calendar</li>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20
+                          </ul>
+                      </td>
+                  </tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                  <tr>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;">URL(s) der vollst=C3=A4ndigen Kontaktliste:</td>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;" class=3D"data">
+                          <ul
+                          style=3D"margin-bottom: 10px; margin-top: 0; list=
+-style: outside none none; margin-left: -5px; padding-left: 0;"
+                          class=3D"port_list list-inline">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20
+                              <li style=3D"display: inline-block; padding-l=
+eft: 5px; padding-right: 5px;"><b>cPanel CardDAV Address Book</b>:</li>
+                              <li style=3D"display: inline-block; padding-l=
+eft: 5px; padding-right: 5px;">https://findi.magentaweb.org:2080/addressboo=
+ks/contact@findi.magentaweb.org/addressbook</li>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20
+                          </ul>
+                      </td>
+                  </tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+              </table>
+          </div>
+         </div>
+=20=20=20=20=20=20=20=20=20
+         <div class=3D"col-md-6">
+          <div style=3D"background-color: #fff;  border: 1px solid transpar=
+ent; border-radius: 4px; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05); margin-=
+bottom: 20px; border-color: #f6c342;" class=3D"preferred-selection panel pa=
+nel-primary">
+               <div style=3D"border-top-left-radius: 3px; border-top-right-=
+radius: 3px; padding: 10px 15px; background-color: #fcf8e1; border-color: #=
+f6c342; color: #333;" class=3D"panel-heading">
+                Non-SSL Settings (NOT Recommended).
+              </div>
+              <table class=3D"table manual_settings_table" style=3D"border-=
+collapse: collapse; border-spacing: 0; margin-bottom: 0; width: 100%; backg=
+round-color: transparent; max-width: 100%;">
+                  <tr>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;">Benutzername:</td>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;" class=3D"data wrap-text">contact@findi.magentaweb.org</td>
+                  </tr>
+                  <tr>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;">Passwort:</td>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;" class=3D"escape-note"> Passwort des E-Mail-Kontos verwenden.</td>
+                  </tr>
+                  <tr>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;">Server:</td>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;" class=3D"data">http://mail.findi.magentaweb.org:2079
+                          <ul
+                          style=3D"margin-bottom: 10px; margin-top: 0; list=
+-style: outside none none; margin-left: -5px; padding-left: 0;"
+                          class=3D"port_list list-inline">
+                              <li style=3D"display: inline-block; padding-l=
+eft: 5px; padding-right: 5px;">Port: 2079</li>
+                          </ul>
+                      </td>
+                  </tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                  <tr>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;">Vollst=C3=A4ndige Kalender-URL(s):</td>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;" class=3D"data">
+                          <ul
+                          style=3D"margin-bottom: 10px; margin-top: 0; list=
+-style: outside none none; margin-left: -5px; padding-left: 0;"
+                          class=3D"port_list list-inline">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20
+                              <li style=3D"display: inline-block; padding-l=
+eft: 5px; padding-right: 5px;"><b>cPanel CalDAV Calendar</b>:</li>
+                              <li style=3D"display: inline-block; padding-l=
+eft: 5px; padding-right: 5px;">http://mail.findi.magentaweb.org:2079/calend=
+ars/contact@findi.magentaweb.org/calendar</li>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20
+                          </ul>
+                      </td>
+                  </tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                  <tr>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;">URL(s) der vollst=C3=A4ndigen Kontaktliste:</td>
+                      <td style=3D"border-top: 1px solid #ddd; padding: 8px=
+;" class=3D"data">
+                          <ul
+                          style=3D"margin-bottom: 10px; margin-top: 0; list=
+-style: outside none none; margin-left: -5px; padding-left: 0;"
+                          class=3D"port_list list-inline">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20
+                              <li style=3D"display: inline-block; padding-l=
+eft: 5px; padding-right: 5px;"><b>cPanel CardDAV Address Book</b>:</li>
+                              <li style=3D"display: inline-block; padding-l=
+eft: 5px; padding-right: 5px;">http://mail.findi.magentaweb.org:2079/addres=
+sbooks/contact@findi.magentaweb.org/addressbook</li>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20
+                          </ul>
+                      </td>
+                  </tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+              </table>
+          </div>
+         </div>
+=20=20=20=20=20=20=20=20=20
+        </div>
+      </div>
+    </div><p>
+ A .mobileconfig file for use with iOS for iPhone/iPad/iPod and MacOS=C2=AE=
+ Mail.app=C2=AE for Mountain Lion (10.8+) is attached to this message.
+</p>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <di=
+v style=3D"font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;border-t=
+op: 2px solid #E8E8E8; padding-top:5px; margin-top: 5px; font-size:12px; co=
+lor: #666666;">
+        <p style=3D"padding:0 0 0 0; margin: 5px 0 0 0;">
+=20=20=20=20=20=20=20=20
+          This notice is the result of a request made by a computer with th=
+e <abbr title=3D"Internet Protocol">IP</abbr> address of =E2=80=9C61.8.128.=
+153=E2=80=9D through the =E2=80=9Ccpanel=E2=80=9D service on the server.
+=20=20=20=20=20=20=20=20
+    </p>
+
+                    <p style=3D"padding:0 0 0 0; margin: 5px 0 0 0;">
+                            The remote computer=E2=80=99s location appears =
+to be: Germany (DE).
+                    </p>
+=20=20=20=20=20=20=20=20
+=20=20=20=20=20=20=20=20=20=20=20=20
+                <p style=3D"padding:0 0 0 0; margin: 5px 0 0 0;">
+                  The remote computer=E2=80=99s <abbr title=3D"Internet Pro=
+tocol">IP</abbr> address is assigned to the provider: =E2=80=9E1und1 Mobilf=
+unk=E2=80=9C
+                </p>
+=20=20=20=20=20=20=20=20=20=20=20=20
+=20=20=20=20=20=20=20=20=20=20=20=20
+
+=20=20=20=20=20=20=20=20=20
+                                        <p style=3D"padding:0 0 0 0; margin=
+: 5px 0 0 0;">
+=20=20=20=20=20=20=20=20=20=20
+            The remote computer=E2=80=99s operating system appears to be: =
+=E2=80=9CMac OS X=E2=80=9D.
+=20=20=20=20=20=20=20=20=20=20
+        </p>
+=20=20=20=20=20=20=20=20=20=20
+    <p style=3D"padding:0 0 0 0; margin: 5px 0 0 0;">
+        The system generated this notice on Mittwoch, 1. Oktober 2025 at 12=
+:59:47 UTC.
+    </p>
+</div>=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                                                                           =
+<!-- -->
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+<p>
+    Antworten Sie bitte nicht auf diese automatisch gesendete Nachricht.
+</p>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+
+                                                    </td>
+                                                    <td width=3D"15">
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20
+                                </tr>
+                                <tr>
+                                    <td align=3D"center" style=3D"padding-t=
+op: 10px;">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20
+                                        <img src=3D"cid:auto_cid_413446770"=
+ height=3D"25" width=3D"25" style=3D"border:0;line-height:100%;border:0" al=
+t=3D"cP">
+                                        <p style=3D"font-family:'Helvetica =
+Neue',Helvetica,Arial,sans-serif;font-size:12px;color:#666666; padding: 0; =
+margin: 0;">Copyright=C2=A9=C2=A02025 cPanel, L.L.C.<p>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>=
+
+--related-Cpanel::Email::Object-3175083-1759323588-0.480894519420364
+Content-Type: image/png; x-unix-mode=0600; name="cpanel-logo-tiny.png"
+Content-Disposition: attachment; filename="cpanel-logo-tiny.png"
+Content-ID: <auto_cid_413446770>
+Content-Transfer-Encoding: base64
+
+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
+P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/Pgo8eDp4
+bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA1
+LjYtYzAxNCA3OS4xNTY3OTcsIDIwMTQvMDgvMjAtMDk6NTM6MDIgICAgICAgICI+CiAgIDxyZGY6
+UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5z
+IyI+CiAgICAgIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiCiAgICAgICAgICAgIHhtbG5z
+OnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIKICAgICAgICAgICAgeG1sbnM6eG1w
+TU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iCiAgICAgICAgICAgIHhtbG5zOnN0
+RXZ0PSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VFdmVudCMiCiAg
+ICAgICAgICAgIHhtbG5zOnBob3Rvc2hvcD0iaHR0cDovL25zLmFkb2JlLmNvbS9waG90b3Nob3Av
+MS4wLyIKICAgICAgICAgICAgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8x
+LjEvIgogICAgICAgICAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4w
+LyIKICAgICAgICAgICAgeG1sbnM6ZXhpZj0iaHR0cDovL25zLmFkb2JlLmNvbS9leGlmLzEuMC8i
+PgogICAgICAgICA8eG1wOkNyZWF0b3JUb29sPkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE0IChNYWNp
+bnRvc2gpPC94bXA6Q3JlYXRvclRvb2w+CiAgICAgICAgIDx4bXA6Q3JlYXRlRGF0ZT4yMDE1LTAz
+LTIyVDA3OjUwOjI4LTA1OjAwPC94bXA6Q3JlYXRlRGF0ZT4KICAgICAgICAgPHhtcDpNZXRhZGF0
+YURhdGU+MjAxNS0wMy0yMlQwNzo1MDoyOC0wNTowMDwveG1wOk1ldGFkYXRhRGF0ZT4KICAgICAg
+ICAgPHhtcDpNb2RpZnlEYXRlPjIwMTUtMDMtMjJUMDc6NTA6MjgtMDU6MDA8L3htcDpNb2RpZnlE
+YXRlPgogICAgICAgICA8eG1wTU06SW5zdGFuY2VJRD54bXAuaWlkOmQxMDU0MzZlLWY5ZTAtNDkx
+MS1iZTFiLTcwMzcxNDM4NTA4MjwveG1wTU06SW5zdGFuY2VJRD4KICAgICAgICAgPHhtcE1NOkRv
+Y3VtZW50SUQ+YWRvYmU6ZG9jaWQ6cGhvdG9zaG9wOjVmYTlmM2I1LTExMjAtMTE3OC1iOTIzLWZi
+MjdlNDc0YmQzYTwveG1wTU06RG9jdW1lbnRJRD4KICAgICAgICAgPHhtcE1NOk9yaWdpbmFsRG9j
+dW1lbnRJRD54bXAuZGlkOjA4ZTkxZjNlLWU3MjQtNDYzNC04YmJlLTFiNzRlNzMwMTA3NTwveG1w
+TU06T3JpZ2luYWxEb2N1bWVudElEPgogICAgICAgICA8eG1wTU06SGlzdG9yeT4KICAgICAgICAg
+ICAgPHJkZjpTZXE+CiAgICAgICAgICAgICAgIDxyZGY6bGkgcmRmOnBhcnNlVHlwZT0iUmVzb3Vy
+Y2UiPgogICAgICAgICAgICAgICAgICA8c3RFdnQ6YWN0aW9uPmNyZWF0ZWQ8L3N0RXZ0OmFjdGlv
+bj4KICAgICAgICAgICAgICAgICAgPHN0RXZ0Omluc3RhbmNlSUQ+eG1wLmlpZDowOGU5MWYzZS1l
+NzI0LTQ2MzQtOGJiZS0xYjc0ZTczMDEwNzU8L3N0RXZ0Omluc3RhbmNlSUQ+CiAgICAgICAgICAg
+ICAgICAgIDxzdEV2dDp3aGVuPjIwMTUtMDMtMjJUMDc6NTA6MjgtMDU6MDA8L3N0RXZ0OndoZW4+
+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDpzb2Z0d2FyZUFnZW50PkFkb2JlIFBob3Rvc2hvcCBD
+QyAyMDE0IChNYWNpbnRvc2gpPC9zdEV2dDpzb2Z0d2FyZUFnZW50PgogICAgICAgICAgICAgICA8
+L3JkZjpsaT4KICAgICAgICAgICAgICAgPHJkZjpsaSByZGY6cGFyc2VUeXBlPSJSZXNvdXJjZSI+
+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDphY3Rpb24+c2F2ZWQ8L3N0RXZ0OmFjdGlvbj4KICAg
+ICAgICAgICAgICAgICAgPHN0RXZ0Omluc3RhbmNlSUQ+eG1wLmlpZDpkMTA1NDM2ZS1mOWUwLTQ5
+MTEtYmUxYi03MDM3MTQzODUwODI8L3N0RXZ0Omluc3RhbmNlSUQ+CiAgICAgICAgICAgICAgICAg
+IDxzdEV2dDp3aGVuPjIwMTUtMDMtMjJUMDc6NTA6MjgtMDU6MDA8L3N0RXZ0OndoZW4+CiAgICAg
+ICAgICAgICAgICAgIDxzdEV2dDpzb2Z0d2FyZUFnZW50PkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE0
+IChNYWNpbnRvc2gpPC9zdEV2dDpzb2Z0d2FyZUFnZW50PgogICAgICAgICAgICAgICAgICA8c3RF
+dnQ6Y2hhbmdlZD4vPC9zdEV2dDpjaGFuZ2VkPgogICAgICAgICAgICAgICA8L3JkZjpsaT4KICAg
+ICAgICAgICAgPC9yZGY6U2VxPgogICAgICAgICA8L3htcE1NOkhpc3Rvcnk+CiAgICAgICAgIDxw
+aG90b3Nob3A6RG9jdW1lbnRBbmNlc3RvcnM+CiAgICAgICAgICAgIDxyZGY6QmFnPgogICAgICAg
+ICAgICAgICA8cmRmOmxpPnhtcC5kaWQ6NEMxRkU2RTZCQzREMTFFNEI3MDg5OEZGODlDRkQ2RUU8
+L3JkZjpsaT4KICAgICAgICAgICAgPC9yZGY6QmFnPgogICAgICAgICA8L3Bob3Rvc2hvcDpEb2N1
+bWVudEFuY2VzdG9ycz4KICAgICAgICAgPHBob3Rvc2hvcDpDb2xvck1vZGU+MzwvcGhvdG9zaG9w
+OkNvbG9yTW9kZT4KICAgICAgICAgPHBob3Rvc2hvcDpJQ0NQcm9maWxlPnNSR0IgSUVDNjE5NjYt
+Mi4xPC9waG90b3Nob3A6SUNDUHJvZmlsZT4KICAgICAgICAgPGRjOmZvcm1hdD5pbWFnZS9wbmc8
+L2RjOmZvcm1hdD4KICAgICAgICAgPHRpZmY6T3JpZW50YXRpb24+MTwvdGlmZjpPcmllbnRhdGlv
+bj4KICAgICAgICAgPHRpZmY6WFJlc29sdXRpb24+NzIwMDAwLzEwMDAwPC90aWZmOlhSZXNvbHV0
+aW9uPgogICAgICAgICA8dGlmZjpZUmVzb2x1dGlvbj43MjAwMDAvMTAwMDA8L3RpZmY6WVJlc29s
+dXRpb24+CiAgICAgICAgIDx0aWZmOlJlc29sdXRpb25Vbml0PjI8L3RpZmY6UmVzb2x1dGlvblVu
+aXQ+CiAgICAgICAgIDxleGlmOkNvbG9yU3BhY2U+MTwvZXhpZjpDb2xvclNwYWNlPgogICAgICAg
+ICA8ZXhpZjpQaXhlbFhEaW1lbnNpb24+MjU8L2V4aWY6UGl4ZWxYRGltZW5zaW9uPgogICAgICAg
+ICA8ZXhpZjpQaXhlbFlEaW1lbnNpb24+MjU8L2V4aWY6UGl4ZWxZRGltZW5zaW9uPgogICAgICA8
+L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAK
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+IAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAog
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAK
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+IAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAog
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAg
+ICAgICAgICAKPD94cGFja2V0IGVuZD0idyI/Ph0AdIcAAAAgY0hSTQAAeiUAAICDAAD5/wAAgOkA
+AHUwAADqYAAAOpgAABdvkl/FRgAAAclJREFUeNrs1s+LjVEYB/DPHe7EYjY2wsaPjaZBZDQLEZGF
+hSwkNdlIWbC2UEr5D8ZGSX4sJJINaQjlNkn5lcVMSuSWaagZXImYrsU8N6fT6/JOkcV869T7nOc5
+53vO83yf930rzWbT30aHf4AZklKYDQ6tKLvmODZiFpqo4CvquIlzmAQDz4KkHNbjcBv/HvTHGJ1u
+unb9QcxmXEHX70g6UI30VNEZ6enN4ibxrWB9H/YWkczBPlzCYzyN8QS30YNlSfwo1mElNuFatt/O
+n4WfwgJciIIW4QHmY14ydxeP4nkEDzGMRTG3NL1JJ862IYAaVmVz+ckbmCiW8FQxt2a+LyFLIc2T
+OJ/4v8ftUuzH8sSupyQ7suCLOIJP0QMTkaa0oV7gPQbQHUpaG/Et3ElJ+hLHmzhRIyPuxdzEvoqD
+MYrwDqfTmnRlaWoULNqS2UNtavg55Ps6JRlJApbgaPRGC1VsS+yP+IDVBZtfDjnfyAt/PUlZBcew
+O2oyhBNYnGz2KvpneyaEMbz8lbrO4AAWJr7uRJY9IfMWBqPotTKv+nqcfKwgZrBA3rem+z2pYQNO
+4TnG8Rb3sCbs8cj1/TIklZkfif+O5McA9Y1iuiAu5qQAAAAASUVORK5CYII=
+
+--related-Cpanel::Email::Object-3175083-1759323588-0.480894519420364--
+
+--alternative-Cpanel::Email::Object-3175083-1759323588-0.219423868902815--
+
+--mixed-Cpanel::Email::Object-3175083-1759323588-0.928624545597923
+Content-Type: application/octet-stream; x-unix-mode=0600; name="caldav-contact@findi.magentaweb.org.mobileconfig"
+Content-Disposition: attachment; filename="caldav-contact@findi.magentaweb.org.mobileconfig"
+Content-Transfer-Encoding: base64
+
+MIIU/QYJKoZIhvcNAQcCoIIU7jCCFOoCAQExDzANBglghkgBZQMEAgEFADCCCD8GCSqGSIb3DQEH
+AaCCCDAEgggsPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhRE9DVFlQ
+RSBwbGlzdCBQVUJMSUMgIi0vL0FwcGxlLy9EVEQgUExJU1QgMS4wLy9FTiIgImh0dHA6Ly93d3cu
+YXBwbGUuY29tL0RURHMvUHJvcGVydHlMaXN0LTEuMC5kdGQiPg0KPHBsaXN0IHZlcnNpb249IjEu
+MCI+DQo8ZGljdD4NCiAgPGtleT5QYXlsb2FkQ29udGVudDwva2V5Pg0KICA8YXJyYXk+DQogICAg
+PGRpY3Q+DQogICAgICAgIDxrZXk+Q2FsREFWQWNjb3VudERlc2NyaXB0aW9uPC9rZXk+DQogICAg
+ICAgIDxzdHJpbmc+Y29udGFjdEBmaW5kaS5tYWdlbnRhd2ViLm9yZzwvc3RyaW5nPg0KICAgICAg
+ICA8a2V5PkNhbERBVkhvc3ROYW1lPC9rZXk+DQogICAgICAgIDxzdHJpbmc+ZmluZGkubWFnZW50
+YXdlYi5vcmc8L3N0cmluZz4NCiAgICAgICAgPGtleT5DYWxEQVZQb3J0PC9rZXk+DQogICAgICAg
+IDxpbnRlZ2VyPjIwODA8L2ludGVnZXI+DQogICAgICAgIDxrZXk+Q2FsREFWUHJpbmNpcGFsVVJM
+PC9rZXk+DQogICAgICAgIDxzdHJpbmc+L3ByaW5jaXBhbHMvY29udGFjdEBmaW5kaS5tYWdlbnRh
+d2ViLm9yZzwvc3RyaW5nPg0KICAgICAgICA8a2V5PkNhbERBVlVzZVNTTDwva2V5Pg0KICAgICAg
+ICA8dHJ1ZS8+DQogICAgICAgIDxrZXk+Q2FsREFWVXNlcm5hbWU8L2tleT4NCiAgICAgICAgPHN0
+cmluZz5jb250YWN0QGZpbmRpLm1hZ2VudGF3ZWIub3JnPC9zdHJpbmc+DQogICAgICAgIDxrZXk+
+UGF5bG9hZERlc2NyaXB0aW9uPC9rZXk+DQogICAgICAgIDxzdHJpbmc+Y29udGFjdEBmaW5kaS5t
+YWdlbnRhd2ViLm9yZyBTZWN1cmUgQ2FsZW5kYXIgU2V0dXA8L3N0cmluZz4NCiAgICAgICAgPGtl
+eT5QYXlsb2FkRGlzcGxheU5hbWU8L2tleT4NCiAgICAgICAgPHN0cmluZz5jb250YWN0QGZpbmRp
+Lm1hZ2VudGF3ZWIub3JnIFNlY3VyZSBDYWxlbmRhciBTZXR1cDwvc3RyaW5nPg0KICAgICAgICA8
+a2V5PlBheWxvYWRJZGVudGlmaWVyPC9rZXk+DQogICAgICAgIDxzdHJpbmc+Y3BhbmVsLm1haWwu
+b3JnLmNvbnRhY3QuZmluZGkubWFnZW50YXdlYi5vcmc8L3N0cmluZz4NCiAgICAgICAgPGtleT5Q
+YXlsb2FkT3JnYW5pemF0aW9uPC9rZXk+DQogICAgICAgIDxzdHJpbmc+ZmluZGkubWFnZW50YXdl
+Yi5vcmc8L3N0cmluZz4NCiAgICAgICAgPGtleT5QYXlsb2FkVHlwZTwva2V5Pg0KICAgICAgICA8
+c3RyaW5nPmNvbS5hcHBsZS5jYWxkYXYuYWNjb3VudDwvc3RyaW5nPg0KICAgICAgICA8a2V5PlBh
+eWxvYWRVVUlEPC9rZXk+DQogICAgICAgIDxzdHJpbmc+MTc1NWYxN2UtOTg4Ni04Y2VlLWE2MGEt
+YjE2Yjc5Mzg0NzJlPC9zdHJpbmc+DQogICAgICAgIDxrZXk+UGF5bG9hZFZlcnNpb248L2tleT4N
+CiAgICAgICAgPGludGVnZXI+MTwvaW50ZWdlcj4NCiAgICA8L2RpY3Q+DQogIDwvYXJyYXk+DQog
+IDxrZXk+UGF5bG9hZERlc2NyaXB0aW9uPC9rZXk+DQogIDxzdHJpbmc+Y29udGFjdEBmaW5kaS5t
+YWdlbnRhd2ViLm9yZyBTZWN1cmUgQ2FsZW5kYXIgU2V0dXA8L3N0cmluZz4NCiAgPGtleT5QYXls
+b2FkRGlzcGxheU5hbWU8L2tleT4NCiAgPHN0cmluZz5jb250YWN0QGZpbmRpLm1hZ2VudGF3ZWIu
+b3JnIFNlY3VyZSBDYWxlbmRhciBTZXR1cDwvc3RyaW5nPg0KICA8a2V5PlBheWxvYWRJZGVudGlm
+aWVyPC9rZXk+DQogIDxzdHJpbmc+Y3BhbmVsLm1haWwub3JnLmNvbnRhY3QuZmluZGkubWFnZW50
+YXdlYi5vcmctY2FsZGF2PC9zdHJpbmc+DQogIDxrZXk+UGF5bG9hZE9yZ2FuaXphdGlvbjwva2V5
+Pg0KICA8c3RyaW5nPmNwYW5lbC5tYWlsLm9yZy5jb250YWN0LmZpbmRpLm1hZ2VudGF3ZWIub3Jn
+PC9zdHJpbmc+DQogIDxrZXk+UGF5bG9hZFJlbW92YWxEaXNhbGxvd2VkPC9rZXk+DQogIDxmYWxz
+ZS8+DQogIDxrZXk+UGF5bG9hZFR5cGU8L2tleT4NCiAgPHN0cmluZz5Db25maWd1cmF0aW9uPC9z
+dHJpbmc+DQogIDxrZXk+UGF5bG9hZFVVSUQ8L2tleT4NCiAgPHN0cmluZz5kNTY5NWNhNy1jNDcz
+LTQ1YjctNDU2OC00N2Q3ZGU0MGRhY2Q8L3N0cmluZz4NCiAgPGtleT5QYXlsb2FkVmVyc2lvbjwv
+a2V5Pg0KICA8aW50ZWdlcj4xPC9pbnRlZ2VyPg0KPC9kaWN0Pg0KPC9wbGlzdD4NCqCCCjAwggUF
+MIIC7aADAgECAhBaAPIS2NS0gPOSQVfqKYMFMA0GCSqGSIb3DQEBCwUAME8xCzAJBgNVBAYTAlVT
+MSkwJwYDVQQKEyBJbnRlcm5ldCBTZWN1cml0eSBSZXNlYXJjaCBHcm91cDEVMBMGA1UEAxMMSVNS
+RyBSb290IFgxMB4XDTI0MDMxMzAwMDAwMFoXDTI3MDMxMjIzNTk1OVowMzELMAkGA1UEBhMCVVMx
+FjAUBgNVBAoTDUxldCdzIEVuY3J5cHQxDDAKBgNVBAMTA1IxMzCCASIwDQYJKoZIhvcNAQEBBQAD
+ggEPADCCAQoCggEBAKVncI3QVoFkFRdhzbkG1K0ZkIwmUDeYFmOSVNvZzIQFk+zT7AgboGBRQ0h9
+K8dIlp60LdqdyCc7V6Gfq/DWDtQOMMpvm7HR1qSdMj5YTjVvRVhocRf8PthdgqAvslFssBpduFnO
+NWXIi6GvEDf/45xdwkkXNP+MK4uN8LxxLJMMHQXEusfNqslefNHJAfecA/b8Cl302nvm23ZCcOv0
+TSLaAHdv1slfF/3adS6lVwz26ly24HOlaM+hdOJ1gn4Qn8H1ousB6TixCkTM08KJ9Uk1ggo0sxzp
+iMJHToIOCjbwR0+K8SkEddrN4Zpc/16dmJW6mkPQSqIXBQEEMNMys48CAwEAAaOB+DCB9TAOBgNV
+HQ8BAf8EBAMCAYYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMBIGA1UdEwEB/wQIMAYB
+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
+GPGU8WIQC05NYKuDNfDDNs8Ldw==
+
+--mixed-Cpanel::Email::Object-3175083-1759323588-0.928624545597923
+Content-Type: application/octet-stream; x-unix-mode=0600; name="carddav-contact@findi.magentaweb.org.mobileconfig"
+Content-Disposition: attachment; filename="carddav-contact@findi.magentaweb.org.mobileconfig"
+Content-Transfer-Encoding: base64
+
+MIIUSQYJKoZIhvcNAQcCoIIUOjCCFDYCAQExDzANBglghkgBZQMEAgEFADCCB4sGCSqGSIb3DQEH
+AaCCB3wEggd4PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhRE9DVFlQ
+RSBwbGlzdCBQVUJMSUMgIi0vL0FwcGxlLy9EVEQgUExJU1QgMS4wLy9FTiIgImh0dHA6Ly93d3cu
+YXBwbGUuY29tL0RURHMvUHJvcGVydHlMaXN0LTEuMC5kdGQiPg0KPHBsaXN0IHZlcnNpb249IjEu
+MCI+DQo8ZGljdD4NCiAgPGtleT5QYXlsb2FkQ29udGVudDwva2V5Pg0KICA8YXJyYXk+DQogICAg
+PGRpY3Q+DQogICAgICAgIDxrZXk+Q2FyZERBVkFjY291bnREZXNjcmlwdGlvbjwva2V5Pg0KICAg
+ICAgICA8c3RyaW5nPmNvbnRhY3RAZmluZGkubWFnZW50YXdlYi5vcmcgU2VjdXJlIENvbnRhY3Rz
+IFNldHVwPC9zdHJpbmc+DQogICAgICAgIDxrZXk+Q2FyZERBVkhvc3ROYW1lPC9rZXk+DQogICAg
+ICAgIDxzdHJpbmc+ZmluZGkubWFnZW50YXdlYi5vcmc6MjA4MDwvc3RyaW5nPg0KICAgICAgICA8
+a2V5PkNhcmREQVZVc2VTU0w8L2tleT4NCiAgICAgICAgPHRydWUvPg0KICAgICAgICA8a2V5PkNh
+cmREQVZVc2VybmFtZTwva2V5Pg0KICAgICAgICA8c3RyaW5nPmNvbnRhY3RAZmluZGkubWFnZW50
+YXdlYi5vcmc8L3N0cmluZz4NCiAgICAgICAgPGtleT5QYXlsb2FkRGVzY3JpcHRpb248L2tleT4N
+CiAgICAgICAgPHN0cmluZz5jb250YWN0QGZpbmRpLm1hZ2VudGF3ZWIub3JnIFNlY3VyZSBDb250
+YWN0cyBTZXR1cDwvc3RyaW5nPg0KICAgICAgICA8a2V5PlBheWxvYWREaXNwbGF5TmFtZTwva2V5
+Pg0KICAgICAgICA8c3RyaW5nPkNhcmREQVY8L3N0cmluZz4NCiAgICAgICAgPGtleT5QYXlsb2Fk
+SWRlbnRpZmllcjwva2V5Pg0KICAgICAgICA8c3RyaW5nPmNwYW5lbC5tYWlsLm9yZy5jb250YWN0
+LmZpbmRpLm1hZ2VudGF3ZWIub3JnPC9zdHJpbmc+DQogICAgICAgIDxrZXk+UGF5bG9hZE9yZ2Fu
+aXphdGlvbjwva2V5Pg0KICAgICAgICA8c3RyaW5nPmZpbmRpLm1hZ2VudGF3ZWIub3JnPC9zdHJp
+bmc+DQogICAgICAgIDxrZXk+UGF5bG9hZFR5cGU8L2tleT4NCiAgICAgICAgPHN0cmluZz5jb20u
+YXBwbGUuY2FyZGRhdi5hY2NvdW50PC9zdHJpbmc+DQogICAgICAgIDxrZXk+UGF5bG9hZFVVSUQ8
+L2tleT4NCiAgICAgICAgPHN0cmluZz41Mzc2MzM3OC03YmMxLTQzOWEtNTcyYS1mMGIwNTEyYzM1
+OGI8L3N0cmluZz4NCiAgICAgICAgPGtleT5QYXlsb2FkVmVyc2lvbjwva2V5Pg0KICAgICAgICA8
+aW50ZWdlcj4xPC9pbnRlZ2VyPg0KICAgIDwvZGljdD4NCiAgPC9hcnJheT4NCiAgPGtleT5QYXls
+b2FkRGVzY3JpcHRpb248L2tleT4NCiAgPHN0cmluZz5jb250YWN0QGZpbmRpLm1hZ2VudGF3ZWIu
+b3JnIFNlY3VyZSBDb250YWN0cyBTZXR1cDwvc3RyaW5nPg0KICA8a2V5PlBheWxvYWREaXNwbGF5
+TmFtZTwva2V5Pg0KICA8c3RyaW5nPmNvbnRhY3RAZmluZGkubWFnZW50YXdlYi5vcmcgU2VjdXJl
+IENvbnRhY3RzIFNldHVwPC9zdHJpbmc+DQogIDxrZXk+UGF5bG9hZElkZW50aWZpZXI8L2tleT4N
+CiAgPHN0cmluZz5jcGFuZWwubWFpbC5vcmcuY29udGFjdC5maW5kaS5tYWdlbnRhd2ViLm9yZy1j
+YXJkZGF2PC9zdHJpbmc+DQogIDxrZXk+UGF5bG9hZE9yZ2FuaXphdGlvbjwva2V5Pg0KICA8c3Ry
+aW5nPmNwYW5lbC5tYWlsLm9yZy5jb250YWN0LmZpbmRpLm1hZ2VudGF3ZWIub3JnPC9zdHJpbmc+
+DQogIDxrZXk+UGF5bG9hZFJlbW92YWxEaXNhbGxvd2VkPC9rZXk+DQogIDxmYWxzZS8+DQogIDxr
+ZXk+UGF5bG9hZFR5cGU8L2tleT4NCiAgPHN0cmluZz5Db25maWd1cmF0aW9uPC9zdHJpbmc+DQog
+IDxrZXk+UGF5bG9hZFVVSUQ8L2tleT4NCiAgPHN0cmluZz5iZGI1MmYwYi1iMmRjLWVjM2EtZGQ0
+YS1hMmNiNGU2ZDUxOWM8L3N0cmluZz4NCiAgPGtleT5QYXlsb2FkVmVyc2lvbjwva2V5Pg0KICA8
+aW50ZWdlcj4xPC9pbnRlZ2VyPg0KPC9kaWN0Pg0KPC9wbGlzdD4NCqCCCjAwggUFMIIC7aADAgEC
+AhBaAPIS2NS0gPOSQVfqKYMFMA0GCSqGSIb3DQEBCwUAME8xCzAJBgNVBAYTAlVTMSkwJwYDVQQK
+EyBJbnRlcm5ldCBTZWN1cml0eSBSZXNlYXJjaCBHcm91cDEVMBMGA1UEAxMMSVNSRyBSb290IFgx
+MB4XDTI0MDMxMzAwMDAwMFoXDTI3MDMxMjIzNTk1OVowMzELMAkGA1UEBhMCVVMxFjAUBgNVBAoT
+DUxldCdzIEVuY3J5cHQxDDAKBgNVBAMTA1IxMzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBAKVncI3QVoFkFRdhzbkG1K0ZkIwmUDeYFmOSVNvZzIQFk+zT7AgboGBRQ0h9K8dIlp60Ldqd
+yCc7V6Gfq/DWDtQOMMpvm7HR1qSdMj5YTjVvRVhocRf8PthdgqAvslFssBpduFnONWXIi6GvEDf/
+45xdwkkXNP+MK4uN8LxxLJMMHQXEusfNqslefNHJAfecA/b8Cl302nvm23ZCcOv0TSLaAHdv1slf
+F/3adS6lVwz26ly24HOlaM+hdOJ1gn4Qn8H1ousB6TixCkTM08KJ9Uk1ggo0sxzpiMJHToIOCjbw
+R0+K8SkEddrN4Zpc/16dmJW6mkPQSqIXBQEEMNMys48CAwEAAaOB+DCB9TAOBgNVHQ8BAf8EBAMC
+AYYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYD
+VR0OBBYEFOernw8sM6BT015PeMiyhA471pIzMB8GA1UdIwQYMBaAFHm0WeZ7tuXkAXOACIjIGlj2
+6ZtuMDIGCCsGAQUFBwEBBCYwJDAiBggrBgEFBQcwAoYWaHR0cDovL3gxLmkubGVuY3Iub3JnLzAT
+BgNVHSAEDDAKMAgGBmeBDAECATAnBgNVHR8EIDAeMBygGqAYhhZodHRwOi8veDEuYy5sZW5jci5v
+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
+BLSNynhwrpQHQw==
+
+--mixed-Cpanel::Email::Object-3175083-1759323588-0.928624545597923
+Content-Type: application/octet-stream; x-unix-mode=0600; name="email-contact@findi.magentaweb.org.mobileconfig"
+Content-Disposition: attachment; filename="email-contact@findi.magentaweb.org.mobileconfig"
+Content-Transfer-Encoding: base64
+
+MIIYogYJKoZIhvcNAQcCoIIYkzCCGI8CAQExDzANBglghkgBZQMEAgEFADCCC+QGCSqGSIb3DQEH
+AaCCC9UEggvRPD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhRE9DVFlQ
+RSBwbGlzdCBQVUJMSUMgIi0vL0FwcGxlLy9EVEQgUExJU1QgMS4wLy9FTiIgImh0dHA6Ly93d3cu
+YXBwbGUuY29tL0RURHMvUHJvcGVydHlMaXN0LTEuMC5kdGQiPg0KPHBsaXN0IHZlcnNpb249IjEu
+MCI+DQo8ZGljdD4NCiAgPGtleT5QYXlsb2FkQ29udGVudDwva2V5Pg0KICA8YXJyYXk+DQogICAg
+PGRpY3Q+DQogICAgICA8a2V5PkVtYWlsQWNjb3VudERlc2NyaXB0aW9uPC9rZXk+DQogICAgICA8
+c3RyaW5nPmNvbnRhY3RAZmluZGkubWFnZW50YXdlYi5vcmc8L3N0cmluZz4NCiAgICAgIDxrZXk+
+RW1haWxBY2NvdW50TmFtZTwva2V5Pg0KICAgICAgPHN0cmluZz5jb250YWN0QGZpbmRpLm1hZ2Vu
+dGF3ZWIub3JnPC9zdHJpbmc+DQogICAgICA8a2V5PkVtYWlsQWNjb3VudFR5cGU8L2tleT4NCiAg
+ICAgIDxzdHJpbmc+RW1haWxUeXBlSU1BUDwvc3RyaW5nPg0KICAgICAgPGtleT5FbWFpbEFkZHJl
+c3M8L2tleT4NCiAgICAgIDxzdHJpbmc+Y29udGFjdEBmaW5kaS5tYWdlbnRhd2ViLm9yZzwvc3Ry
+aW5nPg0KICAgICAgPGtleT5JbmNvbWluZ01haWxTZXJ2ZXJBdXRoZW50aWNhdGlvbjwva2V5Pg0K
+ICAgICAgPHN0cmluZz5FbWFpbEF1dGhQYXNzd29yZDwvc3RyaW5nPg0KICAgICAgPGtleT5JbmNv
+bWluZ01haWxTZXJ2ZXJIb3N0TmFtZTwva2V5Pg0KICAgICAgPHN0cmluZz5maW5kaS5tYWdlbnRh
+d2ViLm9yZzwvc3RyaW5nPg0KICAgICAgPGtleT5JbmNvbWluZ01haWxTZXJ2ZXJQb3J0TnVtYmVy
+PC9rZXk+DQogICAgICA8aW50ZWdlcj45OTM8L2ludGVnZXI+DQogICAgICA8a2V5PkluY29taW5n
+TWFpbFNlcnZlclVzZVNTTDwva2V5Pg0KICAgICAgPHRydWUvPg0KICAgICAgPGtleT5JbmNvbWlu
+Z01haWxTZXJ2ZXJVc2VybmFtZTwva2V5Pg0KICAgICAgPHN0cmluZz5jb250YWN0QGZpbmRpLm1h
+Z2VudGF3ZWIub3JnPC9zdHJpbmc+DQogICAgICA8a2V5Pk91dGdvaW5nTWFpbFNlcnZlckF1dGhl
+bnRpY2F0aW9uPC9rZXk+DQogICAgICA8c3RyaW5nPkVtYWlsQXV0aFBhc3N3b3JkPC9zdHJpbmc+
+DQogICAgICA8a2V5Pk91dGdvaW5nTWFpbFNlcnZlckhvc3ROYW1lPC9rZXk+DQogICAgICA8c3Ry
+aW5nPmZpbmRpLm1hZ2VudGF3ZWIub3JnPC9zdHJpbmc+DQogICAgICA8a2V5Pk91dGdvaW5nTWFp
+bFNlcnZlclBvcnROdW1iZXI8L2tleT4NCiAgICAgIDxpbnRlZ2VyPjQ2NTwvaW50ZWdlcj4NCiAg
+ICAgIDxrZXk+T3V0Z29pbmdNYWlsU2VydmVyVXNlU1NMPC9rZXk+DQogICAgICA8dHJ1ZS8+DQog
+ICAgICA8a2V5Pk91dGdvaW5nTWFpbFNlcnZlclVzZXJuYW1lPC9rZXk+DQogICAgICA8c3RyaW5n
+PmNvbnRhY3RAZmluZGkubWFnZW50YXdlYi5vcmc8L3N0cmluZz4NCiAgICAgIDxrZXk+T3V0Z29p
+bmdQYXNzd29yZFNhbWVBc0luY29taW5nUGFzc3dvcmQ8L2tleT4NCiAgICAgIDx0cnVlLz4NCiAg
+ICAgIDxrZXk+UGF5bG9hZERlc2NyaXB0aW9uPC9rZXk+DQogICAgICA8c3RyaW5nPmNvbnRhY3RA
+ZmluZGkubWFnZW50YXdlYi5vcmcgU2VjdXJlIEVtYWlsIFNldHVwPC9zdHJpbmc+DQogICAgICA8
+a2V5PlBheWxvYWREaXNwbGF5TmFtZTwva2V5Pg0KICAgICAgPHN0cmluZz5jb250YWN0QGZpbmRp
+Lm1hZ2VudGF3ZWIub3JnIFNlY3VyZSBFbWFpbCBTZXR1cDwvc3RyaW5nPg0KICAgICAgPGtleT5Q
+YXlsb2FkSWRlbnRpZmllcjwva2V5Pg0KICAgICAgPHN0cmluZz5jcGFuZWwubWFpbC5vcmcuY29u
+dGFjdC5maW5kaS5tYWdlbnRhd2ViLm9yZzwvc3RyaW5nPg0KICAgICAgPGtleT5QYXlsb2FkT3Jn
+YW5pemF0aW9uPC9rZXk+DQogICAgICA8c3RyaW5nPmZpbmRpLm1hZ2VudGF3ZWIub3JnPC9zdHJp
+bmc+DQogICAgICA8a2V5PlBheWxvYWRUeXBlPC9rZXk+DQogICAgICA8c3RyaW5nPmNvbS5hcHBs
+ZS5tYWlsLm1hbmFnZWQ8L3N0cmluZz4NCiAgICAgIDxrZXk+UGF5bG9hZFVVSUQ8L2tleT4NCiAg
+ICAgIDxzdHJpbmc+MTdjYWNiODktNmYzOS01ZGY3LTU5OTktN2EzMTRhZWEwMDg5PC9zdHJpbmc+
+DQogICAgICA8a2V5PlBheWxvYWRWZXJzaW9uPC9rZXk+DQogICAgICA8aW50ZWdlcj4xPC9pbnRl
+Z2VyPg0KICAgICAgPGtleT5QcmV2ZW50QXBwU2hlZXQ8L2tleT4NCiAgICAgIDxmYWxzZS8+DQog
+ICAgICA8a2V5PlByZXZlbnRNb3ZlPC9rZXk+DQogICAgICA8ZmFsc2UvPg0KICAgICAgPGtleT5T
+TUlNRUVuYWJsZWQ8L2tleT4NCiAgICAgIDxmYWxzZS8+DQogICAgICA8a2V5PkluY29taW5nTWFp
+bFNlcnZlcklNQVBQYXRoUHJlZml4PC9rZXk+DQogICAgICA8c3RyaW5nPklOQk9YPC9zdHJpbmc+
+DQogICAgPC9kaWN0Pg0KICA8L2FycmF5Pg0KICA8a2V5PlBheWxvYWREZXNjcmlwdGlvbjwva2V5
+Pg0KICA8c3RyaW5nPmNvbnRhY3RAZmluZGkubWFnZW50YXdlYi5vcmcgU2VjdXJlIEVtYWlsIFNl
+dHVwPC9zdHJpbmc+DQogIDxrZXk+UGF5bG9hZERpc3BsYXlOYW1lPC9rZXk+DQogIDxzdHJpbmc+
+Y29udGFjdEBmaW5kaS5tYWdlbnRhd2ViLm9yZyBTZWN1cmUgRW1haWwgU2V0dXA8L3N0cmluZz4N
+CiAgPGtleT5QYXlsb2FkSWRlbnRpZmllcjwva2V5Pg0KICA8c3RyaW5nPmNwYW5lbC5tYWlsLm9y
+Zy5jb250YWN0LmZpbmRpLm1hZ2VudGF3ZWIub3JnLWVtYWlsPC9zdHJpbmc+DQogIDxrZXk+UGF5
+bG9hZE9yZ2FuaXphdGlvbjwva2V5Pg0KICA8c3RyaW5nPmNwYW5lbC5tYWlsLm9yZy5jb250YWN0
+LmZpbmRpLm1hZ2VudGF3ZWIub3JnPC9zdHJpbmc+DQogIDxrZXk+UGF5bG9hZFJlbW92YWxEaXNh
+bGxvd2VkPC9rZXk+DQogIDxmYWxzZS8+DQogIDxrZXk+UGF5bG9hZFR5cGU8L2tleT4NCiAgPHN0
+cmluZz5Db25maWd1cmF0aW9uPC9zdHJpbmc+DQogIDxrZXk+UGF5bG9hZFVVSUQ8L2tleT4NCiAg
+PHN0cmluZz4wZTdjYTlhYy00NjU3LWRiOWUtOTUzMC1jNGQ4NDZkMzBjYmU8L3N0cmluZz4NCiAg
+PGtleT5QYXlsb2FkVmVyc2lvbjwva2V5Pg0KICA8aW50ZWdlcj4xPC9pbnRlZ2VyPg0KPC9kaWN0
+Pg0KPC9wbGlzdD4NCqCCCjAwggUFMIIC7aADAgECAhBaAPIS2NS0gPOSQVfqKYMFMA0GCSqGSIb3
+DQEBCwUAME8xCzAJBgNVBAYTAlVTMSkwJwYDVQQKEyBJbnRlcm5ldCBTZWN1cml0eSBSZXNlYXJj
+aCBHcm91cDEVMBMGA1UEAxMMSVNSRyBSb290IFgxMB4XDTI0MDMxMzAwMDAwMFoXDTI3MDMxMjIz
+NTk1OVowMzELMAkGA1UEBhMCVVMxFjAUBgNVBAoTDUxldCdzIEVuY3J5cHQxDDAKBgNVBAMTA1Ix
+MzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKVncI3QVoFkFRdhzbkG1K0ZkIwmUDeY
+FmOSVNvZzIQFk+zT7AgboGBRQ0h9K8dIlp60LdqdyCc7V6Gfq/DWDtQOMMpvm7HR1qSdMj5YTjVv
+RVhocRf8PthdgqAvslFssBpduFnONWXIi6GvEDf/45xdwkkXNP+MK4uN8LxxLJMMHQXEusfNqsle
+fNHJAfecA/b8Cl302nvm23ZCcOv0TSLaAHdv1slfF/3adS6lVwz26ly24HOlaM+hdOJ1gn4Qn8H1
+ousB6TixCkTM08KJ9Uk1ggo0sxzpiMJHToIOCjbwR0+K8SkEddrN4Zpc/16dmJW6mkPQSqIXBQEE
+MNMys48CAwEAAaOB+DCB9TAOBgNVHQ8BAf8EBAMCAYYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsG
+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
+--mixed-Cpanel::Email::Object-3175083-1759323588-0.928624545597923--

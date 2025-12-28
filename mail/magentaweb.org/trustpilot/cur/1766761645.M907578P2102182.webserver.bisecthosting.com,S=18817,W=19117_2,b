@@ -1,0 +1,300 @@
+Return-Path: <bounces+8215937-57d2-trustpilot=magentaweb.org@post.trustpilot.com>
+Delivered-To: trustpilot@magentaweb.org
+Received: from webserver.bisecthosting.com
+	by webserver.bisecthosting.com with LMTP
+	id D0B9Na2kTmmmEyAAufviug
+	(envelope-from <bounces+8215937-57d2-trustpilot=magentaweb.org@post.trustpilot.com>)
+	for <trustpilot@magentaweb.org>; Fri, 26 Dec 2025 10:07:25 -0500
+Return-path: <bounces+8215937-57d2-trustpilot=magentaweb.org@post.trustpilot.com>
+Envelope-to: trustpilot@magentaweb.org
+Delivery-date: Fri, 26 Dec 2025 10:07:25 -0500
+Received: from o6.email.trustpilot.com ([167.89.66.219]:8364)
+	by webserver.bisecthosting.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.99)
+	(envelope-from <bounces+8215937-57d2-trustpilot=magentaweb.org@post.trustpilot.com>)
+	id 1vZ9PY-00000008oQB-109b
+	for trustpilot@magentaweb.org;
+	Fri, 26 Dec 2025 10:07:25 -0500
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=trustpilot.com;
+	h=content-type:date:from:mime-version:subject:to:cc:content-type:date:
+	from:subject:to;
+	s=s1; bh=oZyIEMELJdhRrVBomGCAv+w3H++CzE8/ZTP9qw/aayw=;
+	b=EJj86LGOh/0dQXZZAryu9M/Pw/b1pTkZOQiRGobj3yjx8GknbIGBBEaq4ONlIBL5TSXQ
+	XZxwaIJd5LD7m0airbbKhibEGdErvlITa+kI9miYyQ5LSnIL+JDDQVV4KNTkV3M2O/2cLo
+	0kgVqvkt5W6VZGd6pM+PVHwuvLa+2I/9PdnSw3mhy5C4cwCNFreur7M1Pq2x797AP5mR7J
+	64lqXbDrfJVG0K2kGQluXtVAfaJYXcYKH5r2p1OBqrzuMYenKdyXW+W10xIsVy/4Sih9BT
+	ZTHGHyq3Zjxn2LBCr7AzEtdwlwl3JG80MC5EXUgU+QSsWONzLTepIuRv6O1KJkqw==
+Received: by recvd-6bcd7874db-q4vz5 with SMTP id recvd-6bcd7874db-q4vz5-1-694EA481-65
+	2025-12-26 15:06:41.456096422 +0000 UTC m=+752394.183229520
+Received: from ODIxNTkzNw (unknown)
+	by geopod-ismtpd-5 (SG) with HTTP
+	id a9ip3xm8Tu6lrEexgW7J8A
+	Fri, 26 Dec 2025 15:06:41.408 +0000 (UTC)
+Content-Type: multipart/alternative; boundary=fb918fab8b4367ddc67abb07c69206a03b3fa6191511b301542812228aad
+Date: Fri, 26 Dec 2025 15:06:41 +0000 (UTC)
+From: Trustpilot <noreply.activation@trustpilot.com>
+Mime-Version: 1.0
+Message-ID: <a9ip3xm8Tu6lrEexgW7J8A@geopod-ismtpd-5>
+Subject: Aktivieren Sie Ihren Trustpilot-Account
+X-SG-EID: 
+ =?us-ascii?Q?u001=2Epb50DA3tTTpymOSzSp3yJrN7Jm91I=2FKtvmLSNZ+mFEABPCoYeAZew1zup?=
+ =?us-ascii?Q?GaNwcoOIhC0iJm0IiQfZcLuwdUCvdd5sdqz+EnQ?=
+ =?us-ascii?Q?lv+oqX0jfxgD6jM1sGd08vOm+p1yeMpc00NPfF9?=
+ =?us-ascii?Q?gB329xNa8Y1SVfuSVXPqBsPvk06K1we73Ja+pSk?=
+ =?us-ascii?Q?KJCAlDxhbjgmkmfwtB=2FrWe0JDAuIbbuK3RxGCsi?=
+ =?us-ascii?Q?KUXbosDJ4luRffmA5Vtm6TvuUuBJtCmw9QP9tXu?=
+ =?us-ascii?Q?KAGy4a9d7lFSAe1TZY5hYhPm3w=3D=3D?=
+X-SG-ID: 
+ =?us-ascii?Q?u001=2ESdBcvi+Evd=2FbQef8eZF3BvNrVbtJ6gciSBaJr7zaT0NfmCoya=2FRJI1vXa?=
+ =?us-ascii?Q?lhimuWqinnLN+AlwfooM9mD3X3PunZkI15VpVwx?=
+ =?us-ascii?Q?Vn=2Fo0nyCkYfwM5UW9l5EycX3UgDHIXC9ZjxR2t2?=
+ =?us-ascii?Q?9588TG=2FXo5oFXn+xl8lEukSTV02TTjgK=2FTqk=3D?=
+To: Alexander Gal <trustpilot@magentaweb.org>
+X-Entity-ID: u001.SMho0SLWPQEm5cHLs5SqMg==
+X-Spam-Status: No, score=0.4
+X-Spam-Score: 4
+X-Spam-Bar: /
+X-Ham-Report: Spam detection software, running on the system "webserver.bisecthosting.com",
+ has NOT identified this incoming email as spam.  The original
+ message has been attached to this so you can view it or label
+ similar future email.  If you have any questions, see
+ root\@localhost for details.
+ Content preview:  https://www.trustpilot.com/ AKTIVIEREN SIE IHREN ACCOUNT WIR
+    FREUEN UNS, DASS SIE DABEI SIND, ALEXANDER. 
+ Content analysis details:   (0.4 points, 5.0 required)
+  pts rule name              description
+ ---- ---------------------- --------------------------------------------------
+  0.0 RCVD_IN_VALIDITY_RPBL_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [167.89.66.219 listed in bl.score.senderscore.com]
+  0.0 URIBL_BLOCKED          ADMINISTRATOR NOTICE: The query to URIBL was blocked.
+                             See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URI: trustpilot.com]
+                             [URI: trustpilot.net]
+  0.0 RCVD_IN_VALIDITY_SAFE_BLOCKED RBL: ADMINISTRATOR NOTICE: The query to
+                              Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                             [167.89.66.219 listed in sa-accredit.habeas.com]
+  0.0 URIBL_DBL_BLOCKED_OPENDNS ADMINISTRATOR NOTICE: The query to
+                             dbl.spamhaus.org was blocked due to usage of an
+                              open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [URI: trustpilot.com]
+                             [URI: link.trustpilot.com]
+                             [URI: www.trustpilot.com]
+                             [URI: help.trustpilot.com]
+                             [URI: cdn.trustpilot.net]
+                             [URI: authenticate.trustpilot.com]
+  0.0 RCVD_IN_VALIDITY_CERTIFIED_BLOCKED RBL: ADMINISTRATOR NOTICE: The
+                             query to Validity was blocked.  See
+                             https://knowledge.validity.com/hc/en-us/articles/20961730681243
+                              for more information.
+                          [167.89.66.219 listed in sa-trusted.bondedsender.org]
+  0.0 RCVD_IN_ZEN_BLOCKED_OPENDNS RBL: ADMINISTRATOR NOTICE: The query to
+                             zen.spamhaus.org was blocked due to usage of an
+                              open resolver. See
+                             https://www.spamhaus.org/returnc/pub/
+                             [167.89.66.219 listed in zen.spamhaus.org]
+ -0.0 SPF_PASS               SPF: sender matches SPF record
+  0.1 DKIM_SIGNED            Message has a DKIM or DK signature, not necessarily valid
+ -0.1 DKIM_VALID_AU          Message has a valid DKIM or DK signature from author's
+                             domain
+ -0.1 DKIM_VALID             Message has at least one valid DKIM or DK signature
+  0.0 RCVD_IN_DNSWL_BLOCKED  RBL: ADMINISTRATOR NOTICE: The query to DNSWL
+                             was blocked.  See
+                             http://wiki.apache.org/spamassassin/DnsBlocklists#DnsBlocklists-dnsbl-block
+                              for more information.
+                             [167.89.66.219 listed in list.dnswl.org]
+  0.0 RCVD_IN_MSPIKE_H2      RBL: Average reputation (+2)
+                             [167.89.66.219 listed in wl.mailspike.net]
+  0.0 HTML_MESSAGE           BODY: HTML included in message
+  0.5 KAM_REALLYHUGEIMGSRC   RAW: Spam with image tags with ridiculously huge
+                              http urls
+  0.0 T_REMOTE_IMAGE         Message contains an external image
+ -0.0 DKIMWL_WL_HIGH         DKIMwl.org - High trust sender
+X-Spam-Flag: NO
+
+--fb918fab8b4367ddc67abb07c69206a03b3fa6191511b301542812228aad
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset=iso-8859-1
+Mime-Version: 1.0
+
+https://www.trustpilot.com/
+
+
+AKTIVIEREN SIE IHREN ACCOUNT
+
+
+WIR FREUEN UNS, DASS SIE DABEI SIND, ALEXANDER.
+
+Um Ihren Account zu aktivieren, best=E4tigen Sie bitte, dass dies Ihre
+E-Mail-Adresse ist. Sie haben sich nicht vor Kurzem bei Trustpilot angemeld=
+et?
+Bitte informieren Sie unser Support-Team
+[https://help.trustpilot.com/s/contact-us?language=3Dde].
+
+Account aktivieren
+[https://authenticate.trustpilot.com/activate-account/ZLb4TcMTSTave190p1aby=
+A?activationSecret=3DZLb4TcMTSTave190p1abyA&activationSource=3DSelfSignup&l=
+ocale=3Dde-DE]
+
+Trustpilot A/S
+
+Pilestraede 58, 5. Stock, 1112 Kopenhagen K
+
+CVR-Nummer: 30276582
+--fb918fab8b4367ddc67abb07c69206a03b3fa6191511b301542812228aad
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=iso-8859-1
+Mime-Version: 1.0
+
+<!DOCTYPE html><html lang=3D"{&quot;locale&quot;:&quot;de-DE&quot;}"><head>=
+<meta http-equiv=3D"content-type" content=3D"text/html; charset=3Dutf-8"><t=
+itle>Aktivieren Sie Ihren Account</title><style>/* layout.css */
+@import url(https://fonts.googleapis.com/css?family=3DLato:300);
+@import url(https://fonts.googleapis.com/css?family=3DLato:400);
+@import url(https://fonts.googleapis.com/css?family=3DLato:700);
+
+table {
+  max-width:420px !important;
+}
+</style></head><body><table align=3D"center" border=3D"0" cellpadding=3D"0"=
+ cellspacing=3D"0" width=3D"100%" style=3D"border-collapse:collapse;mso-tab=
+le-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-tex=
+t-size-adjust: 100%;max-width: 420px !important;padding: 0;margin: 0 auto;"=
+><tr><td><!--[if gte mso 9]><table align=3D'center' border=3D'0' cellspacin=
+g=3D'0' cellpadding=3D'0' width=3D'420' style=3D'width:420px;'><tr><td alig=
+n=3D'center' valign=3D'top' width=3D'420' style=3D'width:420px;'><![endif]-=
+-><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" =
+width=3D"100%" style=3D"border-collapse:collapse;mso-table-lspace: 0pt;mso-=
+table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%=
+;max-width: 420px !important;padding: 0;margin: 0 auto;"><tr><td><table ali=
+gn=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100=
+%" style=3D"border-collapse:collapse;mso-table-lspace: 0pt;mso-table-rspace=
+: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;max-width: =
+420px !important;padding: 0;margin: 0 auto;"><tbody><tr><td valign=3D"top" =
+style=3D"padding-right: 0;padding-left: 0;padding-top: 50px;padding-bottom:=
+ 50px;text-align: left;mso-line-height-rule: exactly;-ms-text-size-adjust: =
+100%;-webkit-text-size-adjust: 100%;"><a href=3D"https://link.trustpilot.co=
+m/ls/click?upn=3Du001.z5clr-2B50kx-2BNx1VQGxCIo27ffeS8TFJTMwXhjbFRaA0g24oa1=
+VXnb-2BNMiqWxlBHJeZt1_E8OPvnqi1TeW9h8Obrg7rjK-2F1rOXxxaAlQt6XQahRxABfuFtZ6t=
+P-2Fc8fPHIpa4NCbnUcWH79e1ke-2Fa2nrfVfuCUExwA-2Fb5Ek2mC7FVAqY9SgduknMPkkmfGU=
+Ozi1zDtPnHCuBYxsg1ikzegN0g5aYJkaHqyka84XWIU0x5tSzU7PkpQcnuKvlxTpw1MB0rT6h-2=
+ByZBW7hF7s1DFP9oumhl-2FI218sM4CLlRHMURVJ6ArqUlhkBa9ZKCXtMHM0zRj7cVNLk3fzZfs=
+X2omg6RpDjf-2B5-2BLtNhrR0GYV3iBP72TLkXGApmZWehZ1NOtrBwb0nMnMGPTf4f0TTjOrox4=
+ipnAwzzeYDGkLrqyrpsw213BrA-3D" style=3D"display:block;"><img src=3D"https:/=
+/cdn.trustpilot.net/emails/business/tp-logo-rgb.png" alt=3D"Trustpilot" wid=
+th=3D"131" style=3D"display:block;"></a></td></tr><tr><td valign=3D"top" st=
+yle=3D"padding-right: 0px;padding-left: 0px;padding-top: 0;padding-bottom: =
+30px;text-align: left;mso-line-height-rule: exactly;-ms-text-size-adjust: 1=
+00%;-webkit-text-size-adjust: 100%;"><h1 style=3D"font-size:24px;margin:0;p=
+adding:0;color:#000;font-weight:300;line-height:1.5;color:#000;font-family:=
+'Lato', sans-serif;">Aktivieren Sie Ihren Account</h1></td></tr></tbody></t=
+able></td></tr><tr><td><table align=3D"center" border=3D"0" cellpadding=3D"=
+0" cellspacing=3D"0" width=3D"100%" style=3D"border-collapse:collapse;mso-t=
+able-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-t=
+ext-size-adjust: 100%;max-width: 420px !important;padding: 0;margin: 0 auto=
+;"><tbody><tr><td valign=3D"top" style=3D"padding-right: 0;padding-left: 0;=
+padding-top: 0;padding-bottom: 30px;text-align: left;mso-line-height-rule: =
+exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;"><h2 sty=
+le=3D"display:block;margin:0;padding:0;font-size:18px;font-weight:300;color=
+:#606060;font-family:'Lato', sans-serif;">Wir freuen uns, dass Sie dabei si=
+nd, Alexander.</h2></td></tr></tbody></table></td></tr><tr><td><table align=
+=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%"=
+ style=3D"border-collapse:collapse;mso-table-lspace: 0pt;mso-table-rspace: =
+0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;max-width: 42=
+0px !important;padding: 0;margin: 0 auto;"><tbody><tr><td valign=3D"top" st=
+yle=3D"padding-right: 0px;padding-left: 0px;padding-top: 0px;padding-bottom=
+: 50px;text-align: left;mso-line-height-rule: exactly;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;"><p style=3D"font-size:18px;margin:0;=
+padding:0;color:#000;font-weight:300;color:#606060;font-family:'Lato', sans=
+-serif;line-height:1.5;">Um Ihren Account zu aktivieren, best=E4tigen Sie b=
+itte, dass dies Ihre E-Mail-Adresse ist. Sie haben sich nicht vor Kurzem be=
+i Trustpilot angemeldet? Bitte informieren Sie unser <a href=3D"https://lin=
+k.trustpilot.com/ls/click?upn=3Du001.z5clr-2B50kx-2BNx1VQGxCIo3BahOhkvVPhQF=
+YMUMggPy-2BVBLlMHeO5Qc8P9j-2BTDIu7YbZvtSpP69jXlzHwbBumpQ-3D-3DerxP_E8OPvnqi=
+1TeW9h8Obrg7rjK-2F1rOXxxaAlQt6XQahRxABfuFtZ6tP-2Fc8fPHIpa4NCbnUcWH79e1ke-2F=
+a2nrfVfuCUExwA-2Fb5Ek2mC7FVAqY9SgduknMPkkmfGUOzi1zDtPnHCuBYxsg1ikzegN0g5aYO=
+pCHYXuyuVHcPnxy2765m8ZO02PJ13my0rpCfbEEeo5elxPB1Ps6uB9cCtFPdG2BAGPmBWqs-2B4=
+cikjGTGJPGUPcQSsqHJ73fG0L3fIFH8DTjMp-2FM5XFI4AKtfsquz6RiC3kEQwTsXmNFj0Z4WDv=
+Rf18otCYCRT4CQ4bPzh5B1epCuDQuOV-2FCp9YCJIeSqnddf6G-2ByxqsPRJT2tO8SOZokw-3D"=
+>Support-Team</a>.</p></td></tr></tbody></table></td></tr><tr><td style=3D"=
+padding-top:0px; padding-right:0; padding-bottom:50px; padding-left:0;" val=
+ign=3D"top" align=3D"center"><table border=3D"0" cellpadding=3D"0" cellspac=
+ing=3D"0" style=3D"border-collapse: separate !important;background-color: #=
+1244EE;"><tbody><tr><td align=3D"center" valign=3D"middle" style=3D"font-fa=
+mily: Arial; font-size: 18px;"><a href=3D"https://link.trustpilot.com/ls/cl=
+ick?upn=3Du001.z5clr-2B50kx-2BNx1VQGxCIo-2B-2F1VKaE4RpePbUR-2F4XlbdnaYsrNjJ=
+31U9lopabt6vfFdN7sUJHrekLchOwnkCFXlplV-2FlHb8uI3n0AjOa1PuudtCTVdSPYxBLzY5NV=
+aOEjJiWu0-2FuaOlQikJ-2F5NXyKzFcn2fCRtmWsmWRKjYxIaYGcboeIK7kxFVuTQ66JZyTIltI=
+Oaq-2BvI2INjBATRk4N0t0IyZkla-2B7G58okpvk-2F1Z2Y-3DOpNP_E8OPvnqi1TeW9h8Obrg7=
+rjK-2F1rOXxxaAlQt6XQahRxABfuFtZ6tP-2Fc8fPHIpa4NCbnUcWH79e1ke-2Fa2nrfVfuCUEx=
+wA-2Fb5Ek2mC7FVAqY9SgduknMPkkmfGUOzi1zDtPnHCuBYxsg1ikzegN0g5aYCf-2BCBrRP649=
+VBaO52wt47SOGOSZWwAFqIseUA0sO7X8633LLsto9ak5Cap5lnK6PxFvyrQOIVrqDCGedHHVKRt=
+JOaZMDH-2B-2FEjJO0-2B3x9oU8OsSJjux9SI2SwPYzB6muMyF5djfSDhOf8uslkY2JJkq-2B9f=
+8xz3mNQw9BHMNtcY4W8siIfdcbzE-2BNzqzbZGGOpHEJUPMSx6WsTr8cwONlQJw-3D" id=3D"c=
+ta-link" style=3D"font-size:18px;font-family:'Lato', sans-serif;line-height=
+: 100%;text-align: center;text-decoration: none;color: #FFFFFF;mso-line-hei=
+ght-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%=
+;font-weight:300;padding-top:15px; padding-right:25px; padding-bottom:15px;=
+ padding-left:25px;display:inline-block;" target=3D"_self">Account aktivier=
+en</a></td></tr></tbody></table></td></tr></table><!--[if gte mso 9]></td><=
+/tr></table><![endif]--></td></tr><tr><td><!--[if gte mso 9]><table align=
+=3D'center' border=3D'0' cellspacing=3D'0' cellpadding=3D'0' width=3D'420' =
+style=3D'width:420px;'><tr><td align=3D'center' valign=3D'top' width=3D'420=
+' style=3D'width:420px;'><![endif]--><table align=3D"center" border=3D"0" c=
+ellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"border-collapse:=
+ collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust:=
+ 100%;-webkit-text-size-adjust: 100%;max-width: 500px !important;"><tbody><=
+tr><td valign=3D"top" style=3D"mso-line-height-rule: exactly;-ms-text-size-=
+adjust: 100%;-webkit-text-size-adjust: 100%;border-top: 0;border-bottom: 0;=
+padding-top:0;padding-bottom: 0;"><table border=3D"0" cellpadding=3D"0" cel=
+lspacing=3D"0" width=3D"100%" style=3D"min-width:100%;"><tbody><tr><td styl=
+e=3D"min-width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" width=3D"100%" style=3D"min-width: 100%;border-top: 1px solid #b1b1b1;">=
+<tbody><tr><td><span></span></td></tr></tbody></table></td></tr></tbody></t=
+able><table align=3D"center" width=3D"100%" border=3D"0" cellpadding=3D"0" =
+cellspacing=3D"0" style=3D"min-width: 100%;border-collapse: collapse;mso-ta=
+ble-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-te=
+xt-size-adjust: 100%;margin-top: 20px; margin-left: 0; margin-bottom: 0; ma=
+rgin-right: 0;"><tbody><tr><td valign=3D"top" style=3D"padding-right: 0px;p=
+adding-left: 0px;padding-top: 0;padding-bottom: 5px;mso-line-height-rule: e=
+xactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;text-align=
+:center;"><p style=3D"font-weight:700;line-height:1;padding:0;margin:0;font=
+-size:12px;color:#606060;font-family:'Lato', sans-serif;">Trustpilot A/S</p=
+></td></tr></tbody></table><table align=3D"center" width=3D"100%" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" style=3D"min-width: 100%;border-col=
+lapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-a=
+djust: 100%;-webkit-text-size-adjust: 100%;padding:0"><tbody><tr><td valign=
+=3D"top" style=3D"padding-right: 0px;padding-left: 0px;padding-top: 0;paddi=
+ng-bottom: 0;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webk=
+it-text-size-adjust: 100%;text-align:center;"><a style=3D"text-decoration:n=
+one;margin:0;padding:0;font-size:12px;font-weight:300;color:#606060;font-fa=
+mily:'Lato', sans-serif;">Pilestraede 58, 5. Stock, 1112 Kopenhagen K</a></=
+td></tr></tbody></table><table align=3D"center" width=3D"100%" border=3D"0"=
+ cellpadding=3D"0" cellspacing=3D"0" style=3D"min-width: 100%;border-collap=
+se: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adju=
+st: 100%;-webkit-text-size-adjust: 100%;padding:0"><tbody><tr><td valign=3D=
+"top" style=3D"padding-right: 0px;padding-left: 0px;padding-top: 0;padding-=
+bottom: 0px;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webki=
+t-text-size-adjust: 100%;text-align:center;"><p style=3D"margin:0;padding:0=
+;font-size:12px;font-weight:300;color:#606060;font-family:'Lato', sans-seri=
+f;">CVR-Nummer: 30276582</p></td></tr></tbody></table></td></tr></tbody></t=
+able><!--[if gte mso 9]></td></tr></table><![endif]--></td></tr></table><im=
+g src=3D"https://link.trustpilot.com/wf/open?upn=3Du001.h0fyq57qchztcKhzDw4=
+Y4wQaw1TLS11iUnYMVAnnsZEgS1BmvYKHFv9wIY8x-2F5N6CbLosRdil4CRN6MCCnowY4Zf7eAO=
+Z48bbC8AGqWUpfKFmTN5EyVOKVK5WyhNiwCPK8POxgxc4dAL4Fc17UPAPDHum2JfrEvCq6Y8Ie-=
+2Bl-2BXMxdhwsyczWOGxwyIGZBbh-2BtgdzsE4cczM8rJ8N5LKPCJ2YqJNbKv7B6pccau3quRS8=
+puRf08H9g07SDrmum4aqvbNFi47atPJB8lu-2B9PdYriVmrSzG0DGZxb4NThybEwkI8g3ZKFCqC=
+qgHxL5Qf3D-2Bw2Xm60BGvbd71JabjdQgg8g8FJUdKR8t-2BDtEUvTm3fs-3D" alt=3D"" wid=
+th=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !important;width:1px=
+ !important;border-width:0 !important;margin-top:0 !important;margin-bottom=
+:0 !important;margin-right:0 !important;margin-left:0 !important;padding-to=
+p:0 !important;padding-bottom:0 !important;padding-right:0 !important;paddi=
+ng-left:0 !important;"/></body></html>
+--fb918fab8b4367ddc67abb07c69206a03b3fa6191511b301542812228aad--

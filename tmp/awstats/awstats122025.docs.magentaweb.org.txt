@@ -1,0 +1,324 @@
+AWSTATS DATA FILE 8.0 (build 20240604)
+# If you remove this file, all statistics for date 202512 will be lost/reset.
+# Last config file used to build this data file was /home/magentaw/tmp/awstats/awstats.docs.magentaweb.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2087                
+POS_TIME 2768                
+POS_VISITOR 3431                
+POS_DAY 5498                
+POS_DOMAIN 5646                
+POS_LOGIN 5905                
+POS_ROBOT 6060                
+POS_WORMS 6272                
+POS_EMAILSENDER 6403                
+POS_EMAILRECEIVER 6546                
+POS_SESSION 6622                
+POS_FILESIZE 8971                
+POS_REQUESTTIME 9076                
+POS_SIDER 6759                
+POS_FILETYPES 7198                
+POS_DOWNLOADS 7299                
+POS_OS 7347                
+POS_BROWSER 7490                
+POS_SCREENSIZE 7755                
+POS_UNKNOWNREFERER 7829                
+POS_UNKNOWNREFERERBROWSER 8143                
+POS_ORIGIN 8263                
+POS_SEREFERRALS 8395                
+POS_PAGEREFS 8539                
+POS_SEARCHWORDS 8687                
+POS_KEYWORDS 8839                
+POS_MISC 2432                
+POS_ERRORS 8898                
+POS_CLUSTER 5761                
+POS_SIDER_404 9162                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20251228061852 101 16962 8383500703228
+FirstTime 20251228054506
+LastTime 20251228061852
+LastUpdate 20251228070350 101 0 101 0 0
+TotalVisits 23                  
+TotalUnique 23                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 23                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 0 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 22 22 7578 72 73 2664
+6 6 6 3948 0 0 0
+7 0 0 0 0 0 0
+8 0 0 0 0 0 0
+9 0 0 0 0 0 0
+10 0 0 0 0 0 0
+11 0 0 0 0 0 0
+12 0 0 0 0 0 0
+13 0 0 0 0 0 0
+14 0 0 0 0 0 0
+15 0 0 0 0 0 0
+16 0 0 0 0 0 0
+17 0 0 0 0 0 0
+18 0 0 0 0 0 0
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 0 0 0 0 0 0
+22 0 0 0 0 0 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 23
+205.169.39.234 2 2 1316 20251228054631 20251228054628 /
+206.189.225.181 2 2 1316 20251228054654 20251228054621 /
+164.90.228.79 2 2 1316 20251228054655 20251228054622 /
+91.231.89.124 2 2 1316 20251228061852 20251228060951 /
+74.112.76.31 2 2 128 20251228054506 20251228054506 /.well-known/acme-challenge/MKCD8TD3_WPT8MSG-57XMKJT1FRS-CSI
+23.178.112.213 1 1 87 20251228054507 20251228054507 /.well-known/acme-challenge/kSSXAvU1-_TXuAItKYQdDiK3Gsf9iIb8CNF3cAGdg0Q
+205.169.39.25 1 1 658 20251228054624 20251228054624 /
+54.169.149.110 1 1 87 20251228054508 20251228054508 /.well-known/acme-challenge/kSSXAvU1-_TXuAItKYQdDiK3Gsf9iIb8CNF3cAGdg0Q
+34.67.60.42 1 1 658 20251228061236 20251228061236 /
+18.217.110.139 1 1 87 20251228054507 20251228054507 /.well-known/acme-challenge/kSSXAvU1-_TXuAItKYQdDiK3Gsf9iIb8CNF3cAGdg0Q
+13.215.48.146 1 1 87 20251228054508 20251228054508 /.well-known/acme-challenge/t7_D2dYJ7ak_NFk9c6Us_6cKQjWz5B-EMdI4lRIVjvw
+35.89.138.231 1 1 87 20251228054507 20251228054507 /.well-known/acme-challenge/t7_D2dYJ7ak_NFk9c6Us_6cKQjWz5B-EMdI4lRIVjvw
+34.66.55.175 1 1 658 20251228061322 20251228061322 /
+146.70.12.7 1 1 658 20251228054621 20251228054621 /
+91.231.89.33 1 1 658 20251228061638 20251228061638 /
+91.231.89.35 1 1 658 20251228061020 20251228061020 /
+104.197.69.115 1 1 658 20251228054627 20251228054627 /
+13.50.112.242 1 1 87 20251228054507 20251228054507 /.well-known/acme-challenge/t7_D2dYJ7ak_NFk9c6Us_6cKQjWz5B-EMdI4lRIVjvw
+23.178.112.219 1 1 87 20251228054507 20251228054507 /.well-known/acme-challenge/t7_D2dYJ7ak_NFk9c6Us_6cKQjWz5B-EMdI4lRIVjvw
+205.169.39.32 1 1 658 20251228054634 20251228054634 /
+44.255.30.142 1 1 87 20251228054507 20251228054507 /.well-known/acme-challenge/kSSXAvU1-_TXuAItKYQdDiK3Gsf9iIb8CNF3cAGdg0Q
+13.62.126.195 1 1 87 20251228054507 20251228054507 /.well-known/acme-challenge/kSSXAvU1-_TXuAItKYQdDiK3Gsf9iIb8CNF3cAGdg0Q
+3.133.88.250 1 1 87 20251228054507 20251228054507 /.well-known/acme-challenge/t7_D2dYJ7ak_NFk9c6Us_6cKQjWz5B-EMdI4lRIVjvw
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 1
+20251228 28 28 11526 23
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 4
+us 21 21 8062
+rs 4 4 2632
+zz 2 2 174
+gb 1 1 658
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+no_user_agent 2 1316 20251228054621 0
+Go\-http\-client/ 2 1316 20251228054622 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 0
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 5
+/ 16 10528 12 0
+/.well-known/acme-challenge/kSSXAvU1-_TXuAItKYQdDiK3Gsf9iIb8CNF3cAGdg0Q 5 435 5 0
+/.well-known/acme-challenge/t7_D2dYJ7ak_NFk9c6Us_6cKQjWz5B-EMdI4lRIVjvw 5 435 5 0
+/.well-known/acme-challenge/MKCD8TD3_WPT8MSG-57XMKJT1FRS-CSI 1 64 0 0
+/.well-known/acme-challenge/1NDD083R99_O589O4WMJ-0PBPU_2VR82 1 64 1 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+Unknown 12 998 0 0
+html 16 10528 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 7
+linuxubuntu 4 4
+Unknown 16 16
+win10 3 3
+win8 1 1
+win7 1 1
+winnt 1 1
+linux 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 11
+firefox134.0 4 4
+chrome79.0.3945.79 1 1
+chrome117.0.5938.132 2 2
+mozilla 10 10
+chrome125.0.0.0 1 1
+chrome29.0.1547.2 1 1
+netscape5.0 4 4
+chrome37.0.2049.0 1 1
+chrome137.0.0.0 1 1
+Unknown 2 2
+chrome83.0.4103.61 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0_(l9scan/2.0.1333e26373e2231313e24373;__https://leakix.net) 20251228054655
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20251228054508
+Cpanel-HTTP-Client/1.0 20251228054506
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Cpanel-HTTP-Client/1.0 20251228054506
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 28 28
+From1 0 0
+From2 0 0
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 68 32
+END_ERRORS
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 3
+44-100 12
+500-1K 20
+0-44 69
+END_FILESIZE
+
+# Request Time Range - Request Time Frequency
+BEGIN_REQUESTTIME 0
+END_REQUESTTIME
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 34
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 2 -
+/.env 2 -
+/swagger/index.html 2 -
+/api 2 -
+/api/gql 2 -
+/@vite/env 2 -
+/api/swagger.json 2 -
+/v3/api-docs 2 -
+/_all_dbs 2 -
+/webjars/swagger-ui/index.html 2 -
+/swagger/swagger-ui.html 2 -
+/debug/default/view 2 -
+/s/1333e26373e2231313e24373/_/ 2 -
+/api-docs/swagger.json 2 -
+/.DS_Store 2 -
+/actuator/env 2 -
+/server 2 -
+/telescope/requests 2 -
+/.git/config 2 -
+/swagger/v1/swagger.json 2 -
+/v2/api-docs 2 -
+/v2/_catalog 2 -
+/login.action 2 -
+/cgi-bin/ 2 -
+/.vscode/sftp.json 2 -
+/graphql/api 2 -
+/about 2 -
+/graphql 2 -
+/config.json 2 -
+/api/graphql 2 -
+/server-status 2 -
+/swagger.json 2 -
+/swagger-ui.html 2 -
+/info.php 2 -
+END_SIDER_404

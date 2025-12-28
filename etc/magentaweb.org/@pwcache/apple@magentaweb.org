@@ -1,0 +1,6 @@
+passwd:$6$6NCwS1XfIJmpjy8v$bL8jmh5XpLforKQDD5kFNh7nLugn96j0PWPTq/lF.IQcGE9QewZM8mZ8z4YqH6apBKfy3qLeB3o8diVybQlOa0
+quota:0
+homedir:/home/magentaw/mail/magentaweb.org/apple
+strength:67
+lastchanged:-1
+perms:rw

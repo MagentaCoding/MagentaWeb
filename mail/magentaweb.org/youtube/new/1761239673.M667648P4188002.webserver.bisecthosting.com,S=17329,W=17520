@@ -1,0 +1,191 @@
+Return-Path: <3UGL6aAgTB0023-6t40Dprr39287.v33v0t.r31D3989qt1pvt28pBtq.36v@gaia.bounces.google.com>
+Delivered-To: youtube@magentaweb.org
+Received: from webserver.bisecthosting.com
+	by webserver.bisecthosting.com with LMTP
+	id 2PdJJ3li+mhi5z8Aufviug
+	(envelope-from <3UGL6aAgTB0023-6t40Dprr39287.v33v0t.r31D3989qt1pvt28pBtq.36v@gaia.bounces.google.com>)
+	for <youtube@magentaweb.org>; Thu, 23 Oct 2025 13:14:33 -0400
+Return-path: <3UGL6aAgTB0023-6t40Dprr39287.v33v0t.r31D3989qt1pvt28pBtq.36v@gaia.bounces.google.com>
+Envelope-to: youtube@magentaweb.org
+Delivery-date: Thu, 23 Oct 2025 13:14:33 -0400
+Received: from mail-il1-f201.google.com ([209.85.166.201]:52524)
+	by webserver.bisecthosting.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.98.2)
+	(envelope-from <3UGL6aAgTB0023-6t40Dprr39287.v33v0t.r31D3989qt1pvt28pBtq.36v@gaia.bounces.google.com>)
+	id 1vBytX-0000000HZSk-1LBm
+	for youtube@magentaweb.org;
+	Thu, 23 Oct 2025 13:14:33 -0400
+Received: by mail-il1-f201.google.com with SMTP id e9e14a558f8ab-431d3a4db56so43504795ab.1
+        for <youtube@magentaweb.org>; Thu, 23 Oct 2025 10:14:13 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=accounts.google.com; s=20230601; t=1761239632; x=1761844432; darn=magentaweb.org;
+        h=to:from:subject:message-id:feedback-id:date:mime-version:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=w2F1DBn/3GlAEyF2CoeEX5mqi04ODpfPcdnj4mujhfI=;
+        b=ZwTcm641j04L3G0hywN+5XKp45BprG6qLEVpR88K4MvcTNt4XExGrTlZqVWUnlfN1R
+         GBSSCw/To0eqfXlgEyFN9tiFzAzkEluLMAC3BHeWydJINbuqsx35X86RhKum8TOhuD/R
+         +5fPxH8U2Wrcc/WnvtWBdEbBYt+UKHwZo9LAB7LminB1hv3almARac3LEJk5bkTe+eJd
+         iaAvmUFnsCuQT7pEDx+E7JBvwFJUljPhsFjyHNDJSYfW+DEPrZeHxADnaxhv+co+49sV
+         7E0CL7jwb+kWCdEZ7a55QwSz0niMdd3+iPwtzjRMpjnFbcqGyuJgOl7okEbJp6sb6O1d
+         7MDw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1761239632; x=1761844432;
+        h=to:from:subject:message-id:feedback-id:date:mime-version
+         :x-gm-message-state:from:to:cc:subject:date:message-id:reply-to;
+        bh=w2F1DBn/3GlAEyF2CoeEX5mqi04ODpfPcdnj4mujhfI=;
+        b=Cj+VPN3qPp2SoPtuI3i0t3EwwumxBl/WN1JTRKWLW37X22w2jFh33texcrNXsOrDFb
+         k+1EG11V2qOgGeHhgnfQoRtdQidHjd75Oc/EpNe3/qWcWv/g8g4arMTsT7OV/paJDYsd
+         PBnqy+W6MptqX4LNrTqChXIuU9gcwPJDpg+VJo+ipZ4TQuAMJx9DqcK2axvl9cPOVCGO
+         Q9hBheBuauVXJgO60at+OwxR7iY+wzycRs5LCjG72oHcXcdC2RHrZPE4JyN6iaq6hQxH
+         rwrBi/ypOHMW+NDbh8cQQpDTkqE4VowftVLk8eAyhywSmQTGfL5nB1Slg/YQSnbWktjT
+         FpoQ==
+X-Gm-Message-State: AOJu0YyRpFBPzsyROQxZSPFe8N8ZcLhgpxCTuARSj3mRWAJZErd9o0Lu
+	Gx4GmerJ+xWNsi31U7V2BNU4g3MDpE+zDDYDng7nviYE9sZVJZ53ssS1+DxjjEgFvZa9RzT9ktt
+	SUZfObIZ2u0AB6ux6fgoyurBkk272/wiW8F+/e84=
+X-Google-Smtp-Source: AGHT+IFNzjBP2ztzozUYC1uJ6Z/vvq9smXVxZRc7VNWaZ65lfSX0H9+/3rI/Js2glo5Vx5SmJu5ag08UQzThNvYFqgwpFg==
+MIME-Version: 1.0
+X-Received: by 2002:a05:6e02:2183:b0:42d:8b1c:5740 with SMTP id
+ e9e14a558f8ab-430c5208341mr154247365ab.5.1761239632473; Thu, 23 Oct 2025
+ 10:13:52 -0700 (PDT)
+Date: Thu, 23 Oct 2025 12:05:39 GMT
+X-Account-Notification-Type: 339
+Feedback-ID: 339:account-notifier
+X-Notifications: 66c415919f060000
+X-Notifications-Bounce-Info: AeTnV4E22WYF2giSELiz4jsniaEKPcrGUzwiymICb5Ynt9f4ArCDVQNddrIk-WZcVFvtb9ZrHm-5eJWIRUK_7DTd3JuccFHZXqjKerHdI_L_Z-QpdmzgRbYsz2dlXDGkJ2dqJMK4jJ5VYoKvQYN1fKriJqTloZbX2C_5jLFnsxzxwOLPA4pFmkqR3HcEp1Z-s6gxISX0BGIs2vdieKtmNjAwNjA0MDQxNTM1NTk2OTMzMg
+Message-ID: <8NCBO1KUvvDyojkknTL0oQ@notifications.google.com>
+Subject: Wir haben deine Einstellungen aktualisiert
+From: Google <no-reply@accounts.google.com>
+To: youtube@magentaweb.org
+Content-Type: multipart/alternative; boundary="000000000000a870660641d68e71"
+X-Spam-Status: No, score=-6.5
+X-Spam-Score: -64
+X-Spam-Bar: ------
+X-Ham-Report: =?ISO-8859-1?Q?Spam_detection_software=2C_running_on_the_system_=22webserver=2Ebise?= =?ISO-8859-1?Q?cthosting=2Ecom=22=2C=0A_has_NOT_identified_this_inco?= =?ISO-8859-1?Q?ming_email_as_spam=2E__The_original=0A_message_has_be?= =?ISO-8859-1?Q?en_attached_to_this_so_you_can_view_it_or_label=0A_si?= =?ISO-8859-1?Q?milar_future_email=2E__If_you_have_any_questions=2C_s?= =?ISO-8859-1?Q?ee=0A_root=5C=40localhost_for_details=2E=0A_Content_p?= =?ISO-8859-1?Q?review=3A__=5Bimage=3A_Google=5D_Hallo_Alexander=2C_w?= =?ISO-8859-1?Q?ir_haben_deine_Einstellungen=0A____aktualisiert_youtu?= =?ISO-8859-1?Q?be=40magentaweb=2Eorg_Google_konnte_nicht_best=C3=A4t?= =?ISO-8859-1?Q?igen=2C_dass=0A____du_vollj=C3=A4hrig_bist=2C_daher_w?= =?ISO-8859-1?Q?urden_einige_Kontoeinstellungen_ge=C3=A4ndert_Jetzt=0A_?= =?ISO-8859-1?Q?___ansehen_=3Chttps=3A//accounts=2Egoogle=2Ecom/Accou?= =?ISO-8859-1?Q?ntChooser=3FEmail=3Dyoutu_=5B=2E=2E=2E=5D_=0A_Content?= =?ISO-8859-1?Q?_analysis_details=3A___=28-6=2E5_points=2C_5=2E0_requ?= =?ISO-8859-1?Q?ired=29=0A__pts_rule_name______________description=0A_?= =?ISO-8859-1?Q?----_----------------------_-------------------------?= =?ISO-8859-1?Q?-------------------------=0A__0=2E0_RCVD=5FIN=5FVALID?= =?ISO-8859-1?Q?ITY=5FCERTIFIED=5FBLOCKED_RBL=3A_ADMINISTRATOR_NOTICE?= =?ISO-8859-1?Q?=3A_The=0A_____________________________query_to_Valid?= =?ISO-8859-1?Q?ity_was_blocked=2E__See=0A___________________________?= =?ISO-8859-1?Q?__https=3A//knowledge=2Evalidity=2Ecom/hc/en-us/artic?= =?ISO-8859-1?Q?les/20961730681243=0A______________________________fo?= =?ISO-8859-1?Q?r_more_information=2E=0A_________________________=5B2?= =?ISO-8859-1?Q?09=2E85=2E166=2E201_listed_in_sa-trusted=2Ebondedsend?= =?ISO-8859-1?Q?er=2Eorg=5D=0A__0=2E0_RCVD=5FIN=5FVALIDITY=5FRPBL=5FB?= =?ISO-8859-1?Q?LOCKED_RBL=3A_ADMINISTRATOR_NOTICE=3A_The_query_to=0A_?= =?ISO-8859-1?Q?_____________________________Validity_was_blocked=2E_?= =?ISO-8859-1?Q?_See=0A_____________________________https=3A//knowled?= =?ISO-8859-1?Q?ge=2Evalidity=2Ecom/hc/en-us/articles/20961730681243=0A_?= =?ISO-8859-1?Q?_____________________________for_more_information=2E=0A?= =?ISO-8859-1?Q?____________________________=5B209=2E85=2E166=2E201_l?= =?ISO-8859-1?Q?isted_in_bl=2Escore=2Esenderscore=2Ecom=5D=0A__0=2E0_?= =?ISO-8859-1?Q?RCVD=5FIN=5FVALIDITY=5FSAFE=5FBLOCKED_RBL=3A_ADMINIST?= =?ISO-8859-1?Q?RATOR_NOTICE=3A_The_query_to=0A______________________?= =?ISO-8859-1?Q?________Validity_was_blocked=2E__See=0A______________?= =?ISO-8859-1?Q?_______________https=3A//knowledge=2Evalidity=2Ecom/h?= =?ISO-8859-1?Q?c/en-us/articles/20961730681243=0A___________________?= =?ISO-8859-1?Q?___________for_more_information=2E=0A________________?= =?ISO-8859-1?Q?_____________=5B209=2E85=2E166=2E201_listed_in_sa-acc?= =?ISO-8859-1?Q?redit=2Ehabeas=2Ecom=5D=0A_-7=2E5_USER=5FIN=5FDEF=5FD?= =?ISO-8859-1?Q?KIM=5FWL____From=3A_address_is_in_the_default_DKIM_we?= =?ISO-8859-1?Q?lcome-list=0A__0=2E0_RCVD=5FIN=5FZEN=5FBLOCKED=5FOPEN?= =?ISO-8859-1?Q?DNS_RBL=3A_ADMINISTRATOR_NOTICE=3A_The_query_to=0A___?= =?ISO-8859-1?Q?__________________________zen=2Espamhaus=2Eorg_was_bl?= =?ISO-8859-1?Q?ocked_due_to_usage_of_an=0A__________________________?= =?ISO-8859-1?Q?____open_resolver=2E_See=0A__________________________?= =?ISO-8859-1?Q?___https=3A//www=2Espamhaus=2Eorg/returnc/pub/=0A____?= =?ISO-8859-1?Q?_________________________=5B209=2E85=2E166=2E201_list?= =?ISO-8859-1?Q?ed_in_zen=2Espamhaus=2Eorg=5D=0A_-0=2E0_SPF=5FPASS___?= =?ISO-8859-1?Q?____________SPF=3A_sender_matches_SPF_record=0A_-0=2E1?= =?ISO-8859-1?Q?_DKIM=5FVALID_____________Message_has_at_least_one_va?= =?ISO-8859-1?Q?lid_DKIM_or_DK_signature=0A_-0=2E1_DKIM=5FVALID=5FAU_?= =?ISO-8859-1?Q?_________Message_has_a_valid_DKIM_or_DK_signature_fro?= =?ISO-8859-1?Q?m_author's=0A_____________________________domain=0A__?= =?ISO-8859-1?Q?0=2E1_DKIM=5FSIGNED____________Message_has_a_DKIM_or_?= =?ISO-8859-1?Q?DK_signature=2C_not_necessarily_valid=0A__1=2E1_DATE=5FI?= =?ISO-8859-1?Q?N=5FPAST=5F03=5F06_____Date=3A_is_3_to_6_hours_before?= =?ISO-8859-1?Q?_Received=3A_date=0A__0=2E0_HTML=5FMESSAGE___________?= =?ISO-8859-1?Q?BODY=3A_HTML_included_in_message=0A_-0=2E0_DKIMWL=5FW?= =?ISO-8859-1?Q?L=5FHIGH_________DKIMwl=2Eorg_-_High_trust_sender?=
+X-Spam-Flag: NO
+
+--000000000000a870660641d68e71
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+W2ltYWdlOiBHb29nbGVdDQpIYWxsbyBBbGV4YW5kZXIsIHdpciBoYWJlbiBkZWluZSBFaW5zdGVs
+bHVuZ2VuIGFrdHVhbGlzaWVydA0KDQoNCnlvdXR1YmVAbWFnZW50YXdlYi5vcmcNCkdvb2dsZSBr
+b25udGUgbmljaHQgYmVzdMOkdGlnZW4sIGRhc3MgZHUgdm9sbGrDpGhyaWcgYmlzdCwgZGFoZXIg
+d3VyZGVuDQplaW5pZ2UgS29udG9laW5zdGVsbHVuZ2VuIGdlw6RuZGVydA0KSmV0enQgYW5zZWhl
+bg0KPGh0dHBzOi8vYWNjb3VudHMuZ29vZ2xlLmNvbS9BY2NvdW50Q2hvb3Nlcj9FbWFpbD15b3V0
+dWJlQG1hZ2VudGF3ZWIub3JnJmNvbnRpbnVlPWh0dHBzOi8vbXlhY2NvdW50Lmdvb2dsZS5jb20v
+Y2hlY2stc2V0dGluZ3M/Y2ZjJTNEMSUyNnJmbiUzRDE3NjEyMjExMzkwMDA+DQoNCg0KU2FmZVNl
+YXJjaCBpc3QgYWt0aXZpZXJ0DQpNw7ZnbGljaGVyd2Vpc2UgYmxlbmRlbiB3aXIgYW5zdMO2w59p
+Z2UgSW5oYWx0ZSB3aWUgUG9ybm9ncmFmaWUgaW4gZGVpbmVuDQpTdWNoZXJnZWJuaXNzZW4gYXVz
+DQoNClBlcnNvbmFsaXNpZXJ0ZSBXZXJidW5nIGlzdCBkZWFrdGl2aWVydA0KV2lyIHplaWdlbiBk
+aXIga2VpbmUgcGVyc29uYWxpc2llcnRlIFdlcmJ1bmcNCg0KWmVpdGFjaHNlIGlzdCBkZWFrdGl2
+aWVydA0KRGllIFplaXRhY2hzZSBzcGVpY2hlcnQgZGVpbmUgYmVzdWNodGVuIE9ydGUgdW5kIFJv
+dXRlbiBuaWNodCBtZWhyDQphdXRvbWF0aXNjaA0KDQpCaXN0IGR1IHZvbGxqw6RocmlnPw0KQmVz
+dMOkdGlnZSBkZWluIEFsdGVyDQo8aHR0cHM6Ly9hY2NvdW50cy5nb29nbGUuY29tL0FjY291bnRD
+aG9vc2VyP0VtYWlsPXlvdXR1YmVAbWFnZW50YXdlYi5vcmcmY29udGludWU9aHR0cHM6Ly9teWFj
+Y291bnQuZ29vZ2xlLmNvbS9hZ2UtdmVyaWZpY2F0aW9uP2FjbCUzRDIlMjZwJTNENyUyNnJmbiUz
+RDE3NjEyMjExMzkwMDA+DQp1bmQgd8OkaGxlIGRpZSBFaW5zdGVsbHVuZ2VuIGF1cywgZGllIHp1
+IGRpciBwYXNzZW4NCldpciBoYWJlbiBJaG5lbiBkaWVzZSBFLU1haWwgZ2VzZW5kZXQsIHVtIFNp
+ZSDDvGJlciB3aWNodGlnZSDDhG5kZXJ1bmdlbiB6dQ0KSWhyZW0gR29vZ2xlLUtvbnRvIHVuZCBk
+ZW4gRGllbnN0ZW4gdm9uIEdvb2dsZSB6dSBpbmZvcm1pZXJlbi4NCsKpIDIwMjUgR29vZ2xlIEly
+ZWxhbmQgTHRkLiwgR29yZG9uIEhvdXNlLCBCYXJyb3cgU3RyZWV0LCBEdWJsaW4gNCwgSXJlbGFu
+ZA0K
+--000000000000a870660641d68e71
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html lang=3D"en"><head><meta name=3D"format-detection" cont=
+ent=3D"email=3Dno"/><meta name=3D"format-detection" content=3D"date=3Dno"/>=
+<style nonce=3D"uwyCC6Qb78G00wurj52Fjg">.awl a {color: #FFFFFF; text-decora=
+tion: none;} .abml a {color: #000000; font-family: Roboto-Medium,Helvetica,=
+Arial,sans-serif; font-weight: bold; text-decoration: none;} .adgl a {color=
+: rgba(0, 0, 0, 0.87); text-decoration: none;} .afal a {color: #b0b0b0; tex=
+t-decoration: none;} @media screen and (min-width: 600px) {.v2sp {padding: =
+6px 30px 0px;} .v2rsp {padding: 0px 10px;}} @media screen and (min-width: 6=
+00px) {.mdv2rw {padding: 40px 40px;}} </style><link href=3D"//fonts.googlea=
+pis.com/css?family=3DGoogle+Sans" rel=3D"stylesheet" type=3D"text/css" nonc=
+e=3D"uwyCC6Qb78G00wurj52Fjg"/></head><body style=3D"margin: 0; padding: 0;"=
+ bgcolor=3D"#FFFFFF"><table width=3D"100%" height=3D"100%" style=3D"min-wid=
+th: 348px;" border=3D"0" cellspacing=3D"0" cellpadding=3D"0" lang=3D"en"><t=
+r height=3D"32" style=3D"height: 32px;"><td></td></tr><tr align=3D"center">=
+<td><div itemscope itemtype=3D"//schema.org/EmailMessage"><div itemprop=3D"=
+action" itemscope itemtype=3D"//schema.org/ViewAction"><link itemprop=3D"ur=
+l" href=3D"https://accounts.google.com/AccountChooser?Email=3Dyoutube@magen=
+taweb.org&amp;continue=3Dhttps://myaccount.google.com/check-settings?cfc%3D=
+1%26rfn%3D1761221139000"/><meta itemprop=3D"name" content=3D"Aktivit=C3=A4t=
+ =C3=BCberpr=C3=BCfen"/></div></div><table border=3D"0" cellspacing=3D"0" c=
+ellpadding=3D"0" style=3D"padding-bottom: 20px; max-width: 516px; min-width=
+: 220px;"><tr><td width=3D"8" style=3D"width: 8px;"></td><td><div style=3D"=
+border-style: solid; border-width: thin; border-color:#dadce0; border-radiu=
+s: 8px; padding: 40px 20px;" align=3D"center" class=3D"mdv2rw"><img src=3D"=
+https://www.gstatic.com/images/branding/googlelogo/2x/googlelogo_color_74x2=
+4dp.png" width=3D"74" height=3D"24" aria-hidden=3D"true" style=3D"margin-bo=
+ttom: 16px;" alt=3D"Google"><div style=3D"font-family: &#39;Google Sans&#39=
+;,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;border-bottom: thin solid #=
+dadce0; color: rgba(0,0,0,0.87); line-height: 32px; padding-bottom: 24px;te=
+xt-align: center; word-break: break-word;"><div style=3D"font-size: 24px;">=
+<img height=3D"36px" style=3D" display: block;  margin-left: auto;  margin-=
+right: auto; padding-bottom: 20px;" src=3D"https://www.gstatic.com/identity=
+/accountsettings/minormoment/gshield_light_36px_61e80178182af0f939667ad1596=
+716b8.png" alt=3D"">Hallo Alexander, wir haben deine Einstellungen aktualis=
+iert </div><table align=3D"center" style=3D"margin-top:8px;"><tr style=3D"l=
+ine-height: normal;"><td align=3D"right" style=3D"padding-right:8px;"><img =
+width=3D"20" height=3D"20" style=3D"width: 20px; height: 20px; vertical-ali=
+gn: sub; border-radius: 50%;;" src=3D"https://lh3.googleusercontent.com/a/A=
+Cg8ocKEnMSh0spZ-Xz4pi0iwUXrhyOGQfk1PeF24YDFxiv5ezOVFw=3Ds96-c" alt=3D""></t=
+d><td><a style=3D"font-family: &#39;Google Sans&#39;,Roboto,RobotoDraft,Hel=
+vetica,Arial,sans-serif;color: rgba(0,0,0,0.87); font-size: 14px; line-heig=
+ht: 20px;">youtube@magentaweb.org</a></td></tr></table> </div><div style=3D=
+"font-family: Roboto-Regular,Helvetica,Arial,sans-serif; font-size: 14px; c=
+olor: rgba(0,0,0,0.87); line-height: 20px;padding-top: 20px; text-align: ce=
+nter;">Google konnte nicht best=C3=A4tigen, dass du vollj=C3=A4hrig bist, d=
+aher wurden einige Kontoeinstellungen ge=C3=A4ndert<div style=3D"padding-to=
+p: 32px; text-align: center;"><a href=3D"https://accounts.google.com/Accoun=
+tChooser?Email=3Dyoutube@magentaweb.org&amp;continue=3Dhttps://myaccount.go=
+ogle.com/check-settings?cfc%3D1%26rfn%3D1761221139000" target=3D"_blank" li=
+nk-id=3D"main-button-link" style=3D"font-family: &#39;Google Sans Flex&#39;=
+,&#39;Google Sans Text&#39;,&#39;Google Sans&#39;,&#39;Noto Sans&#39;,Arial=
+,Helvetica,sans-serif; line-height: 16px; color: #ffffff; font-weight: 500;=
+ text-decoration: none; font-size: 14px;display:inline-block;padding: 12px =
+24px;background-color: #0b57d0; border-radius: 9999px; min-width: 64px;">Je=
+tzt ansehen</a></div><table style=3D"margin: 24px auto 0; border-spacing: 1=
+6px 0;text-align: left;"><tr><td style=3D"width: 33%;"><img style=3D"width:=
+ 100%; height: auto;" src=3D"https://www.gstatic.com/identity/accountsettin=
+gs/minormoment/mimo_email_safe_search_e5259e4cbbdf687d8f296218b9c19311.png"=
+ alt=3D"" role=3D"presentation"/></td><td><span style=3D"font-weight: bold;=
+">SafeSearch ist aktiviert</span><br>M=C3=B6glicherweise blenden wir anst=
+=C3=B6=C3=9Fige Inhalte wie Pornografie in deinen Suchergebnissen aus</td><=
+/tr></table><table style=3D"margin: 24px auto 0; border-spacing: 16px 0;tex=
+t-align: left;"><tr><td><span style=3D"font-weight: bold;">Personalisierte =
+Werbung ist deaktiviert</span><br>Wir zeigen dir keine personalisierte Werb=
+ung</td><td style=3D"width: 33%;"><img style=3D"width: 100%; height: auto;"=
+ src=3D"https://www.gstatic.com/identity/accountsettings/minormoment/mimo_e=
+mail_ad_p13n_1791987c4183d365e54569151ec0c161.png" alt=3D"" role=3D"present=
+ation"/></td></tr></table><table style=3D"margin: 24px auto 0; border-spaci=
+ng: 16px 0;text-align: left;"><tr><td style=3D"width: 33%;"><img style=3D"w=
+idth: 100%; height: auto;" src=3D"https://www.gstatic.com/identity/accounts=
+ettings/minormoment/mimo_email_location_history_d1af3cafcfe043f23e5436c633a=
+ffc04.png" alt=3D"" role=3D"presentation"/></td><td><span style=3D"font-wei=
+ght: bold;">Zeitachse ist deaktiviert</span><br>Die Zeitachse speichert dei=
+ne besuchten Orte und Routen nicht mehr automatisch</td></tr></table><table=
+ style=3D"margin: 24px auto 0; border-spacing: 16px 0;text-align: left;"><t=
+r><td><span style=3D"font-weight: bold;">Bist du vollj=C3=A4hrig?</span><br=
+><a href=3D"https://accounts.google.com/AccountChooser?Email=3Dyoutube@mage=
+ntaweb.org&amp;continue=3Dhttps://myaccount.google.com/age-verification?acl=
+%3D2%26p%3D7%26rfn%3D1761221139000" style=3D"text-decoration: none; color: =
+#4285F4;">Best=C3=A4tige dein Alter</a> und w=C3=A4hle die Einstellungen au=
+s, die zu dir passen</td><td style=3D"width: 33%;"><img style=3D"width: 100=
+%; height: auto;" src=3D"https://www.gstatic.com/identity/accountsettings/m=
+inormoment/mimo_email_age_verification_5410403b30ec6eb21f954f50141c834b.png=
+" alt=3D"" role=3D"presentation"/></td></tr></table></div></div><div style=
+=3D"text-align: center;"><div style=3D"font-family: Roboto-Regular,Helvetic=
+a,Arial,sans-serif;color: rgba(0,0,0,0.54); font-size: 11px; line-height: 1=
+8px; padding-top: 12px; text-align: center;"><div>Wir haben Ihnen diese E-M=
+ail gesendet, um Sie =C3=BCber wichtige =C3=84nderungen zu Ihrem Google-Kon=
+to und den Diensten von Google zu informieren.</div><div style=3D"direction=
+: ltr;">&copy; 2025 Google Ireland Ltd., <a class=3D"afal" style=3D"font-fa=
+mily: Roboto-Regular,Helvetica,Arial,sans-serif;color: rgba(0,0,0,0.54); fo=
+nt-size: 11px; line-height: 18px; padding-top: 12px; text-align: center;">G=
+ordon House, Barrow Street, Dublin 4, Ireland</a></div></div></div></td><td=
+ width=3D"8" style=3D"width: 8px;"></td></tr></table></td></tr><tr height=
+=3D"32" style=3D"height: 32px;"><td></td></tr></table></body></html>
+--000000000000a870660641d68e71--

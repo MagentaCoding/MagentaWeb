@@ -1,0 +1,46 @@
+<!DOCTYPE magentahtml>
+<mhtml lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <title>MagentaHTML – Browserunterstützung prüfen</title>
+
+    <!-- Meta, Versionsinfo, Author -->
+    <meta name="generator" content="MagentaHTML v0.1" />
+    <meta name="magenta-version" content="1.0" />
+  </head>
+
+  <body>
+    <!-- FALLBACK: Nur normale Browser sehen diesen Block -->
+    <fallback>
+      <header>
+        <h1>Dein Browser unterstützt MagentaHTML noch nicht.</h1>
+      </header>
+      <main>
+        <p>Wenn du diese Seite mit sichtbarem Quelltext und &lt;tags&gt; daneben siehst, unterstützt dein Browser MagentaHTML nicht.</p>
+        <ul>
+          <li>Speichere die Datei als UTF-8.</li>
+          <li>Teste mit dem MagentaBrowser oder konfiguriere deinen Server so, dass er den MIME-Type <code>application/magentahtml</code> sendet.</li>
+        </ul>
+      </main>
+    </fallback>
+
+    <!-- MAGENTA: Dieser Block ist für MagentaBrowser gedacht -->
+    <magenta-app>
+      <header>
+        <h1>MagentaWeb – Willkommen</h1>
+      </header>
+
+      <main>
+        <section id="intro" from="magenta:data/intro.toml">
+          <h2>{title}</h2>
+          <p>{summary}</p>
+          <button to="about.mhtml" action="navigate">Mehr erfahren</button>
+        </section>
+      </main>
+
+      <footer>
+        <text>© MagentaWeb Project — 2025</text>
+      </footer>
+    </magenta-app>
+  </body>
+</mhtml>

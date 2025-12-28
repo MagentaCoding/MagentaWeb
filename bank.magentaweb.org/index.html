@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MagentaBank</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tomorrow&display=swap" rel="stylesheet">
+<style>
+    * { margin:0; padding:0; box-sizing:border-box; font-family:'Tomorrow',sans-serif; }
+
+    body { background-color: #f5f0fa; color: #333; }
+
+    /* Navigation */
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 30px;
+        background-color: #ff2d95;
+        color: white;
+        flex-wrap: wrap;
+    }
+
+    nav .left, nav .center, nav .right {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+        padding: 6px 12px;
+        border-radius: 6px;
+        transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+        background-color: rgba(255,255,255,0.2);
+    }
+
+    /* Invertierter Registrieren Button */
+    .register {
+        background-color: transparent;
+        border: 2px solid white;
+        color: white;
+    }
+    .register:hover {
+        background-color: white;
+        color: #ff2d95;
+    }
+
+    /* Login Button */
+    .login {
+        background-color: white;
+        color: #ff2d95;
+    }
+    .login:hover {
+        background-color: #e0e0e0;
+    }
+
+    main {
+        max-width: 800px;
+        margin: 60px auto;
+        background-color: white;
+        padding: 40px;
+        border-radius: 15px;
+        box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+        text-align: center;
+    }
+
+    h2 { color: #ff2d95; margin-bottom: 20px; }
+    p { margin-bottom: 20px; line-height:1.5; }
+
+    footer { text-align:center; padding:15px; font-size:0.9rem; color:#777; }
+</style>
+</head>
+<body>
+
+<nav>
+    <div class="left">
+    </div>
+
+    <div class="center">
+        <a href="#">Infos</a>
+        <a href="#">Services</a>
+        <a href="#">Impressum</a>
+        <a href="#">Datenschutzerklärung</a>
+        <a href="#">Disclaimer</a>
+    </div>
+
+    <div class="right">
+        <a href="auth/register/" class="register">Registrieren</a>
+        <a href="auth/login/" class="login">Login</a>
+    </div>
+</nav>
+
+<main>
+    <h2>Willkommen bei der MagentaBank</h2>
+    <p>Hier kannst du dein Konto erstellen, Spielekredite ausleihen oder dein bestehendes Konto verwalten. Die MagentaBank ist dein sicherer Ort, um virtuelles Geld für Steam-Spiele zu verwalten.</p>
+    <a href="auth/register/" class="register">Jetzt Registrieren</a>
+    <a href="auth/login/" class="login">Login</a>
+</main>
+
+<footer>
+    &copy; 2025 MagentaBank. Alle Rechte vorbehalten.
+</footer>
+
+</body>
+</html>

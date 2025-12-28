@@ -1,0 +1,6 @@
+passwd:$6$Gb5ckJcCPmkDthiR$udNh4yOMbJe36x0BB0S2R8hBFM1VZ5E67b/4VONgp7xS/N4myS/Zwmi6iIjWWoGUBUP/c4pQKPYaM7a.oxc8M0
+quota:0
+homedir:/home/magentaw/mail/magentaweb.org/uploadlabs
+strength:100
+lastchanged:-1
+perms:rw

@@ -1,0 +1,318 @@
+AWSTATS DATA FILE 8.0 (build 20240604)
+# If you remove this file, all statistics for date 202510 will be lost/reset.
+# Last config file used to build this data file was /home/magentaw/tmp/awstats/awstats.api.magentaweb.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2086                
+POS_TIME 2764                
+POS_VISITOR 3429                
+POS_DAY 4205                
+POS_DOMAIN 4352                
+POS_LOGIN 4599                
+POS_ROBOT 4754                
+POS_WORMS 4965                
+POS_EMAILSENDER 5096                
+POS_EMAILRECEIVER 5239                
+POS_SESSION 5315                
+POS_FILESIZE 7493                
+POS_REQUESTTIME 7607                
+POS_SIDER 5462                
+POS_FILETYPES 5819                
+POS_DOWNLOADS 5918                
+POS_OS 5966                
+POS_BROWSER 6114                
+POS_SCREENSIZE 6362                
+POS_UNKNOWNREFERER 6436                
+POS_UNKNOWNREFERERBROWSER 6664                
+POS_ORIGIN 6784                
+POS_SEREFERRALS 6916                
+POS_PAGEREFS 7060                
+POS_SEARCHWORDS 7208                
+POS_KEYWORDS 7360                
+POS_MISC 2428                
+POS_ERRORS 7419                
+POS_CLUSTER 4455                
+POS_SIDER_404 7693                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20251101011734 64 10183 6724076432854
+FirstTime 20251031144359
+LastTime 20251031161900
+LastUpdate 20251101081114 64 0 63 0 0
+TotalVisits 19                  
+TotalUnique 19                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 19                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+QuickTimeSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 0 0 0 0 0 0
+9 0 0 0 0 0 0
+10 0 0 0 0 0 0
+11 0 0 0 0 0 0
+12 0 0 0 0 0 0
+13 0 0 0 0 0 0
+14 14 14 4924 36 39 1885
+15 0 0 0 0 0 0
+16 8 8 4984 0 1 0
+17 0 0 0 0 0 0
+18 0 0 0 1 1 139
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 0 0 0 0 0 0
+22 0 0 0 0 0 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 19
+44.246.37.186 2 2 1246 20251031161434
+74.112.76.31 2 2 128 20251031144359
+18.236.166.169 2 2 1246 20251031161457
+192.175.111.243 1 1 623 20251031161900
+205.169.39.57 1 1 623 20251031144720
+138.197.191.87 1 1 623 20251031144417
+34.122.147.229 1 1 623 20251031144415
+54.255.183.148 1 1 87 20251031144401
+64.15.129.100 1 1 623 20251031161859
+16.16.91.18 1 1 87 20251031144401
+34.235.171.164 1 1 623 20251031144515
+23.178.112.103 1 1 87 20251031144400
+192.175.111.230 1 1 623 20251031161900
+52.37.10.36 1 1 87 20251031144401
+18.208.178.248 1 1 623 20251031144617
+52.71.63.8 1 1 623 20251031144515
+64.15.129.101 1 1 623 20251031161859
+205.169.39.27 1 1 623 20251031144432
+18.191.199.72 1 1 87 20251031144400
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 1
+20251031 22 22 9908 19
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 3
+us 17 17 7329
+ca 4 4 2492
+zz 1 1 87
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+Go\-http\-client/ 2 1246 20251031144434 0
+no_user_agent 1 623 20251031144417 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 19
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 4
+/ 15 9345 13 13
+/.well-known/acme-challenge/CWGmZGgBMJ8LlI6RSXGlEu1UfxhubdQWzMCFvGbV4YI 5 435 5 5
+/.well-known/acme-challenge/H853V62P0PEULCOFKN03MCUGEVG2ECT- 1 64 0 1
+/.well-known/acme-challenge/DEEVIJCY4FFGF7565QDHG08Z9NNVX73O 1 64 1 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+html 15 9345 0 0
+Unknown 7 563 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+macosx15 1 1
+androidmarshmallow 1 1
+linux 1 1
+Unknown 7 7
+ios_iphone 4 4
+win10 8 8
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 11
+iphone 2 2
+chrome141.0.0.0 4 4
+safari15.4 2 2
+chrome117.0.5938.132 2 2
+chrome113.0.0.0 1 1
+chrome52.0.1248.98 1 1
+chrome103.0.5060.66 1 1
+chrome125.0.6422.60 1 1
+Unknown 2 2
+mozilla 5 5
+edge18 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20251031144401
+Cpanel-HTTP-Client/1.0 20251031144359
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Cpanel-HTTP-Client/1.0 20251031144359
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 22 22
+From1 0 0
+From2 0 0
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 34 155
+END_ERRORS
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 4
+44-100 7
+500-1K 18
+0-44 37
+100-500 1
+END_FILESIZE
+
+# Request Time Range - Request Time Frequency
+BEGIN_REQUESTTIME 0
+END_REQUESTTIME
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 34
+/_all_dbs 1 -
+/api-docs/swagger.json 1 -
+/server 1 -
+/graphql/api 1 -
+/swagger/v1/swagger.json 1 -
+/debug/default/view 1 -
+/telescope/requests 1 -
+/server-status 1 -
+/v2/_catalog 1 -
+/@vite/env 1 -
+/api/graphql 1 -
+/s/1333e26373e2231313e24373/_/ 1 -
+/.git/config 1 -
+/swagger.json 1 -
+/swagger/index.html 1 -
+/api 1 -
+/.env 1 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 1 -
+/swagger/swagger-ui.html 1 -
+/.DS_Store 1 -
+/graphql 1 -
+/about 1 -
+/info.php 1 -
+/config.json 1 -
+/actuator/env 1 -
+/ 1 -
+/login.action 1 -
+/.vscode/sftp.json 1 -
+/swagger-ui.html 1 -
+/api/swagger.json 1 -
+/v2/api-docs 1 -
+/webjars/swagger-ui/index.html 1 -
+/api/gql 1 -
+/v3/api-docs 1 -
+END_SIDER_404

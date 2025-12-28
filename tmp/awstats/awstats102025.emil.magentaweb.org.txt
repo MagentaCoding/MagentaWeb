@@ -1,0 +1,410 @@
+AWSTATS DATA FILE 8.0 (build 20240604)
+# If you remove this file, all statistics for date 202510 will be lost/reset.
+# Last config file used to build this data file was /home/magentaw/tmp/awstats/awstats.emil.magentaweb.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2087                
+POS_TIME 2759                
+POS_VISITOR 8504                
+POS_DAY 10712               
+POS_DOMAIN 3353                
+POS_LOGIN 3725                
+POS_ROBOT 3880                
+POS_WORMS 4082                
+POS_EMAILSENDER 4213                
+POS_EMAILRECEIVER 4356                
+POS_SESSION 10962               
+POS_FILESIZE 11523               
+POS_REQUESTTIME 11654               
+POS_SIDER 11120               
+POS_FILETYPES 4491                
+POS_DOWNLOADS 4594                
+POS_OS 4642                
+POS_BROWSER 4833                
+POS_SCREENSIZE 5321                
+POS_UNKNOWNREFERER 5395                
+POS_UNKNOWNREFERERBROWSER 6038                
+POS_ORIGIN 6349                
+POS_SEREFERRALS 6483                
+POS_PAGEREFS 6627                
+POS_SEARCHWORDS 6775                
+POS_KEYWORDS 6927                
+POS_MISC 2423                
+POS_ERRORS 6986                
+POS_CLUSTER 3581                
+POS_SIDER_404 7098                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20251101223642 1 0 16743936535236
+FirstTime 20251018073859
+LastTime 20251031060903
+LastUpdate 20251102071612 1 0 0 0 0
+TotalVisits 58                  
+TotalUnique 57                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 57                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+AddToFavourites 0 0 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+RealPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 1561 0 1 0
+1 10 10 11134 35 35 16812
+2 10 10 12971 43 44 30701
+3 2 2 3210 4 4 6704
+4 2 2 1246 0 0 0
+5 0 0 0 0 0 0
+6 1 1 1627 0 0 0
+7 14 14 2244 3 5 2970
+8 91 91 135411 2 7 3288
+9 10 10 6230 6 12 737
+10 1 1 1590 1 1 1660
+11 1 1 1592 0 1 0
+12 1 1 623 2 2 1246
+13 0 0 0 0 0 0
+14 0 0 0 0 0 0
+15 4 4 5423 18 19 28880
+16 1 1 1589 1 2 1493
+17 4 4 2492 0 2 0
+18 1 1 1507 0 0 0
+19 0 0 0 0 0 0
+20 1 1 623 1 1 1497
+21 0 0 0 0 0 0
+22 0 0 0 2 2 1246
+23 1 1 1509 19 19 20695
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 13
+de 78 78 127312
+us 49 49 43599
+ca 10 10 8200
+rs 4 4 2492
+ru 4 4 3378
+au 3 3 1869
+zz 2 2 174
+nl 1 1 1561
+se 1 1 623
+in 1 1 1505
+be 1 1 623
+gb 1 1 623
+ro 1 1 623
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+checker 4 2492 20251019123315 0
+no_user_agent 4 4236 20251024204502 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+Unknown 12 998 0 0
+html 144 191584 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+Unknown 24 24
+linuxubuntu 4 4
+bsdopenbsd 1 1
+linux 12 12
+androidoreo 1 1
+win7 2 2
+ios_iphone 1 1
+macosx15 10 10
+win10 101 101
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 22
+chrome36.0.1985.125 1 1
+chrome141.0.0.0 8 8
+edge18 2 2
+chrome79.0.3945.79 1 1
+firefox139.0 3 3
+netscape5.0 1 1
+mozilla 18 18
+chrome78.0.3904.108 9 9
+firefox134.0 4 4
+Unknown 5 5
+chrome81.0.4044.129 1 1
+chrome117.0.5938.132 1 1
+chrome120.0.0.0 2 2
+chrome125.0.6422.60 1 1
+chrome63.0.3239.111 1 1
+firefox113.0 78 78
+chrome83.0.4103.61 1 1
+safari15.4 1 1
+chrome36.0.1985.67 1 1
+chrome139.0.0.0 3 3
+chrome137.0.0.0 4 4
+chrome135.0.0.0 10 10
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20251019201112
+Cpanel-HTTP-Client/1.0 20251018073859
+Mozilla/5.0_zgrab/0.x 20251029180555
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20251031060903
+python-httpx/0.28.1 20251021233756
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20251018095451
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20251018073900
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Cpanel-HTTP-Client/1.0 20251018073859
+python-httpx/0.28.1 20251021233756
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20251031060903
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 154 154
+From1 0 0
+From2 0 0
+From3 0 0
+From4 2 2
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+403 2 3288
+301 3 737
+404 124 107176
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 42
+/.env 4 -
+/app/ 10 -
+/test 2 -
+/wp1/wp-includes/wlwmanifest.xml 3 -
+/media/wp-includes/wlwmanifest.xml 3 -
+/wp2/wp-includes/wlwmanifest.xml 3 -
+/.env.example 2 -
+/.env.dev 2 -
+/news/wp-includes/wlwmanifest.xml 3 -
+/2019/wp-includes/wlwmanifest.xml 3 -
+/wp-includes/wlwmanifest.xml 3 -
+/.env.backup 2 -
+/login/ 10 -
+/web/wp-includes/wlwmanifest.xml 3 -
+/info.php 3 -
+/test.php 2 -
+/.git/config 2 -
+/phpinfo 3 -
+/phpinfo.php 3 -
+/wp/wp-includes/wlwmanifest.xml 3 -
+/backend/.env 2 -
+/.env.production 2 -
+/wordpress/wp-includes/wlwmanifest.xml 3 -
+/php.php 2 -
+/cms/wp-includes/wlwmanifest.xml 3 -
+/_profiler/phpinfo 2 -
+/phpversion.php 2 -
+/shop/wp-includes/wlwmanifest.xml 3 -
+/website/wp-includes/wlwmanifest.xml 3 -
+/api/.env 3 -
+/config/.env 3 -
+/wp-login.php 1 -
+/info 2 -
+/cgi-bin/ 3 http://www.emil.magentaweb.org:80/cgi-bin
+/xmlrpc.php 3 -
+/2018/wp-includes/wlwmanifest.xml 3 -
+/test/wp-includes/wlwmanifest.xml 3 -
+/blog/wp-includes/wlwmanifest.xml 3 -
+/site/wp-includes/wlwmanifest.xml 3 -
+/i.php 2 -
+/.well-known/autoconfig/mail/config-v1.1.xml 1 -
+/sito/wp-includes/wlwmanifest.xml 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 57
+217.235.135.126 78 78 127312 20251020081518
+35.185.75.20 3 3 4800 20251024151053
+185.177.72.13 3 3 2755 20251021233756
+104.236.105.144 3 3 1869 20251019011001
+139.59.40.61 3 3 1869 20251019023111
+34.1.23.144 3 3 4811 20251022015728
+16.144.158.201 3 3 1869 20251018094655
+34.1.21.36 3 3 4808 20251024024337
+199.45.154.144 2 2 1246 20251018095451
+66.132.153.114 2 2 1246 20251018092533
+205.169.39.150 2 2 3201 20251021024215
+13.60.181.238 2 2 174 20251018073900
+34.1.22.20 2 2 3208 20251024010617
+74.112.76.31 2 2 128 20251018073859
+34.1.18.114 2 2 3210 20251024031859
+199.45.155.109 2 2 1246 20251018090956
+34.66.255.205 1 1 623 20251018174210
+23.178.112.213 1 1 87 20251018073900
+64.15.129.124 1 1 623 20251018082810
+91.231.89.21 1 1 623 20251018080615
+146.70.39.7 1 1 623 20251018175217
+154.47.30.7 1 1 623 20251018074031
+18.220.91.70 1 1 87 20251018073900
+198.235.24.120 1 1 1627 20251031060903
+192.175.111.241 1 1 623 20251018082811
+64.15.129.106 1 1 623 20251018082812
+45.148.10.245 1 1 1505 20251021021901
+13.214.130.117 1 1 87 20251018073900
+54.184.29.47 1 1 87 20251018073900
+192.175.111.246 1 1 623 20251018082811
+157.245.100.55 1 1 1588 20251022020953
+34.87.118.51 1 1 1590 20251021103729
+91.231.89.97 1 1 623 20251018080042
+165.232.37.202 1 1 1592 20251021113824
+91.231.89.123 1 1 623 20251018080725
+35.167.240.247 1 1 623 20251018094708
+138.197.167.73 1 1 623 20251019085013
+192.175.111.242 1 1 623 20251018082812
+68.183.87.70 1 1 623 20251019151541
+104.197.69.115 1 1 623 20251019041236
+3.146.111.124 1 1 1507 20251029180555
+192.175.111.252 1 1 623 20251018082811
+46.101.115.225 1 1 1561 20251027005257
+44.251.6.129 1 1 87 20251018073900
+188.126.94.231 1 1 623 20251018073923
+192.175.111.230 1 1 623 20251018082810
+34.59.103.225 1 1 623 20251018173745
+3.143.112.170 1 1 87 20251018073900
+64.15.129.126 1 1 623 20251018082811
+185.247.137.7 1 1 623 20251019201112
+91.231.89.124 1 1 623 20251018081101
+77.81.142.158 1 1 623 20251018175251
+87.236.176.191 1 1 623 20251019125236
+134.199.220.101 1 1 1589 20251021163734
+205.169.39.51 1 1 623 20251019042603
+13.212.61.52 1 1 87 20251018073900
+23.178.112.219 1 1 87 20251018073900
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 9
+20251018 40 40 18442 33
+20251019 12 12 7476 8
+20251020 80 80 128558 2
+20251021 7 7 10986 6
+20251022 4 4 6399 2
+20251024 10 10 16026 4
+20251027 1 1 1561 1
+20251029 1 1 1507 1
+20251031 1 1 1627 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+5mn-15mn 1
+0s-30s 57
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 6
+/ 143 185674 48 48
+/.well-known/acme-challenge/DiSbG43AQmURitb1_3-mt-f54wXS_RfCzXbYuXYykIk 5 435 4 5
+/.well-known/acme-challenge/lSVio_0pJt3eErKyiS3bF1fqiB-6LKCOD-V_KIFQZFs 5 435 5 4
+/.well-known/acme-challenge/EFXQIA_P6VWXICAA3V9VVFIWOC-7D4ZG 1 64 0 1
+/error/ 1 5910 0 0
+/.well-known/acme-challenge/RQ7H3_UL9BCVIA4A5AXJQX38J7UQU_0Y 1 64 1 0
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 6
+500-1K 50
+1K-2K 173
+5K+ 1
+0-44 74
+44-100 12
+100-500 3
+END_FILESIZE
+
+# Request Time Range - Request Time Frequency
+BEGIN_REQUESTTIME 0
+END_REQUESTTIME

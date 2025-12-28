@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fahrinfo Navigation Baukasten</title>
+
+  <!-- Google Fonts Preconnect & Einbindung -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --primary-color: #005ea5;
+      --primary-hover: #004080;
+      --background: #f0f4fa;
+      --card-bg: #fff;
+      --text-color: #1c1c1c;
+      --radius: 12px;
+      --shadow: 0 6px 16px rgba(0, 94, 165, 0.2);
+      --button-padding: 1rem 2rem;
+      --transition-speed: 0.3s;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Electrolize', sans-serif;
+      background-color: var(--background);
+      color: var(--text-color);
+      scroll-behavior: smooth;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: var(--primary-color);
+      box-shadow: var(--shadow);
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      padding: 1rem 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: var(--radius);
+      font-size: 1rem;
+      transition: background-color var(--transition-speed);
+    }
+
+    nav a:hover,
+    nav a:focus {
+      background-color: var(--primary-hover);
+      outline: none;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 5rem auto 3rem;
+      padding: 0 1rem;
+    }
+
+    section {
+      background-color: var(--card-bg);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 2rem;
+      margin-bottom: 3rem;
+      transition: box-shadow var(--transition-speed);
+    }
+
+    section:hover,
+    section:focus-within {
+      box-shadow: 0 10px 24px rgba(0, 94, 165, 0.35);
+    }
+
+    section h2 {
+      margin-top: 0;
+      color: var(--primary-color);
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      font-weight: 700;
+      user-select: none;
+    }
+
+    section p {
+      font-size: 1.1rem;
+      line-height: 1.5;
+      margin-bottom: 2rem;
+    }
+
+    .a-button {
+      display: inline-block;
+      background-color: var(--primary-color);
+      color: white;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 1.2rem;
+      padding: var(--button-padding);
+      border-radius: var(--radius);
+      box-shadow: 0 4px 12px rgba(0, 94, 165, 0.4);
+      transition: background-color var(--transition-speed), box-shadow var(--transition-speed);
+      user-select: none;
+    }
+
+    .a-button:hover,
+    .a-button:focus {
+      background-color: var(--primary-hover);
+      box-shadow: 0 6px 18px rgba(0, 64, 128, 0.6);
+      outline: none;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        padding: 0.75rem 0;
+      }
+
+      section {
+        padding: 1.5rem;
+      }
+
+      section h2 {
+        font-size: 1.5rem;
+      }
+
+      .a-button {
+        font-size: 1rem;
+        padding: 0.75rem 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav aria-label="Hauptnavigation">
+    <a href="#his">Haltestellen & Linieninfo</a>
+    <a href="#linienplan">Linienplan</a>
+    <a href="#fahrplanauskunft">Fahrplanauskunft</a>
+    <a href="#abfahrtsmonitor">Abfahrtsmonitor</a>
+    <a href="#ems">Ereignis-Meldesystem</a>
+  </nav>
+
+  <main>
+    <section id="his" tabindex="0" aria-labelledby="his-title">
+      <h2 id="his-title">Haltestellen- & Linieninformationssystem</h2>
+      <p>Finde aktuelle Informationen zu Haltestellen und Linien im Verkehrsverbund Rhein-Sieg.</p>
+      <a class="a-button" href="his/" role="button" aria-label="Zum Haltestellen- und Linieninformationssystem">Zum HIS</a>
+    </section>
+
+    <section id="linienplan" tabindex="0" aria-labelledby="linienplan-title">
+      <h2 id="linienplan-title">Linienplan</h2>
+      <p>Übersichtliche Darstellung aller Linienpläne, damit du immer weißt, welche Verbindungen es gibt.</p>
+      <a class="a-button" href="linienplan/" role="button" aria-label="Zum Linienplan">Zum Linienplan</a>
+    </section>
+
+    <section id="fahrplanauskunft" tabindex="0" aria-labelledby="fahrplanauskunft-title">
+      <h2 id="fahrplanauskunft-title">Fahrplanauskunft</h2>
+      <p>Plane deine Route schnell und einfach mit der aktuellen Fahrplanauskunft des VRS.</p>
+      <a class="a-button" href="fahrplanauskunft/" role="button" aria-label="Zur Fahrplanauskunft">Zur Fahrplanauskunft</a>
+    </section>
+
+    <section id="abfahrtsmonitor" tabindex="0" aria-labelledby="abfahrtsmonitor-title">
+      <h2 id="abfahrtsmonitor-title">Abfahrtsmonitor</h2>
+      <p>Behalte die Abfahrtszeiten an deinen Lieblingshaltestellen im Blick – immer aktuell und zuverlässig.</p>
+      <a class="a-button" href="abfahrtsmonitor/" role="button" aria-label="Zum Abfahrtsmonitor">Zum Abfahrtsmonitor</a>
+    </section>
+
+    <section id="ems" tabindex="0" aria-labelledby="ems-title">
+      <h2 id="ems-title">Ereignis-Meldesystem (EMS)</h2>
+      <p>Informiere dich über aktuelle Störungen, Baustellen und besondere Ereignisse im Verkehrsverbund.</p>
+      <a class="a-button" href="ems/" role="button" aria-label="Zum Ereignis-Meldesystem">Zum EMS</a>
+    </section>
+  </main>
+
+</body>
+</html>

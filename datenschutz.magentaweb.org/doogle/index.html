@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spracherkennung & Weiterleitung</title>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      // Browser-Sprache ermitteln (z. B. "de", "en-US", "fr-CA", ...)
+      const lang = navigator.language || navigator.userLanguage;
+      const shortLang = lang.toLowerCase().substring(0, 2);
+
+      // Unterstützte Sprachen
+      const supported = ["de", "en", "es", "fr"];
+      const baseUrl = window.location.origin;     // z. B. https://datenschutz.magentaweb.org
+      const path = window.location.pathname;      // z. B. /doogle
+
+      // Prüfen, ob bereits ein Sprachordner enthalten ist (z. B. /de/)
+      const alreadyHasLang = supported.some(l => path.startsWith(`/${l}/`));
+
+      if (!alreadyHasLang) {
+        // Sprache prüfen, sonst Fallback auf Englisch
+        const targetLang = supported.includes(shortLang) ? shortLang : "en";
+        const newUrl = `${baseUrl}/${targetLang}${path}${window.location.search}${window.location.hash}`;
+
+        // Weiterleitung
+        window.location.replace(newUrl);
+      }
+    });
+  </script>
+</head>
+<body>
+  <noscript>
+    <p>Bitte JavaScript aktivieren, um automatisch auf die richtige Sprachversion weitergeleitet zu werden.</p>
+  </noscript>
+</body>
+</html>

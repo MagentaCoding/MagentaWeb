@@ -1,0 +1,6 @@
+passwd:$6$MgvBFtGiwpfRcAZm$OCrK5xlD2HfaPsPklxa7XdlKNYBzw0PC2PdjsFoosVHUjJe07E12CQbI4lzRyuT/6DdBgoct49pvQTdrsnC3O/
+quota:0
+homedir:/home/magentaw/mail/magentaweb.org/github
+strength:100
+lastchanged:-1
+perms:rw

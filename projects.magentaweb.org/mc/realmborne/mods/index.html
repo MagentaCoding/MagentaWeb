@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Modliste</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f4f4f4;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    select {
+      font-size: 14px;
+    }
+    input[type="text"] {
+      padding: 8px;
+      width: 300px;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+    section.category {
+      margin-bottom: 30px;
+    }
+    section.category h2 {
+      background-color: #ddd;
+      padding: 8px;
+      border-radius: 4px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      background-color: white;
+      margin: 4px 0;
+      padding: 6px 10px;
+      border-radius: 4px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    li a {
+      margin-left: 10px;
+      font-size: 0.9em;
+      text-decoration: none;
+    }
+    li a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="title">Meine Minecraft Modliste</h1>
+    <div>
+      <label for="langSelect">Sprache:</label>
+      <select id="langSelect">
+        <option value="de">Deutsch</option>
+        <option value="en">English</option>
+        <option value="fr">Français</option>
+        <option value="es">Español</option>
+      </select>
+    </div>
+  </header>
+
+  <input type="text" id="searchInput" placeholder="Mod suchen…" />
+
+  <div id="modContainer">
+    <!-- Hier werden die Kategorien & Mod-Listen eingefügt -->
+  </div>
+
+  <script>
+  // Übersetzungen
+  const translations = {
+    de: { title: "Meine Minecraft Modliste", searchPlaceholder: "Mod suchen…", curseforge: "CurseForge", modrinth: "Modrinth" },
+    en: { title: "My Minecraft Mod List", searchPlaceholder: "Search mod…", curseforge: "CurseForge", modrinth: "Modrinth" },
+    fr: { title: "Ma liste de mods Minecraft", searchPlaceholder: "Rechercher un mod…", curseforge: "CurseForge", modrinth: "Modrinth" },
+    es: { title: "Mi lista de mods de Minecraft", searchPlaceholder: "Buscar mod…", curseforge: "CurseForge", modrinth: "Modrinth" }
+  };
+
+  let currentLang = "de";
+
+  // Funktion: Slug aus Modnamen
+  function generateSlug(modName) {
+    return modName.toLowerCase()
+      .replace(/['".]/g, '')
+      .replace(/[^a-z0-9\s-]/g, '')
+      .replace(/\s+/g, '-')
+      .trim();
+  }
+
+  // Rekursive Funktion: JSON-Daten rendern
+  function renderMods(modData, container, searchTerm = "") {
+    for (const [key, value] of Object.entries(modData)) {
+      const section = document.createElement("section");
+      section.className = "category";
+
+      const h2 = document.createElement("h2");
+      h2.textContent = key;
+      section.appendChild(h2);
+
+      const ul = document.createElement("ul");
+
+      if (Array.isArray(value)) {
+        for (const modName of value) {
+          if (searchTerm && !modName.toLowerCase().includes(searchTerm)) continue;
+
+          const li = document.createElement("li");
+          const span = document.createElement("span");
+          span.textContent = modName;
+          li.appendChild(span);
+
+          const slug = generateSlug(modName);
+          const aCurse = document.createElement("a");
+          aCurse.href = `https://www.curseforge.com/minecraft/mc-mods/${slug}`;
+          aCurse.target = "_blank";
+          aCurse.textContent = translations[currentLang].curseforge;
+
+          const aModrinth = document.createElement("a");
+          aModrinth.href = `https://modrinth.com/mod/${slug}`;
+          aModrinth.target = "_blank";
+          aModrinth.textContent = translations[currentLang].modrinth;
+
+          li.appendChild(aCurse);
+          li.appendChild(aModrinth);
+          ul.appendChild(li);
+        }
+      } else if (typeof value === "object") {
+        renderMods(value, ul, searchTerm);
+      }
+
+      section.appendChild(ul);
+      container.appendChild(section);
+    }
+  }
+
+  function fetchAndRender() {
+    fetch("mods.json")
+      .then(res => res.json())
+      .then(modData => {
+        const container = document.getElementById("modContainer");
+        container.innerHTML = "";
+        const searchTerm = document.getElementById("searchInput").value.toLowerCase();
+        renderMods(modData, container, searchTerm);
+      })
+      .catch(err => {
+        console.error(err);
+        document.getElementById("modContainer").innerText = "Fehler beim Laden der Modliste.";
+      });
+  }
+
+  document.getElementById("langSelect").addEventListener("change", e => {
+    currentLang = e.target.value;
+    document.getElementById("title").textContent = translations[currentLang].title;
+    document.getElementById("searchInput").placeholder = translations[currentLang].searchPlaceholder;
+    fetchAndRender();
+  });
+
+  document.getElementById("searchInput").addEventListener("keyup", fetchAndRender);
+
+  window.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("title").textContent = translations[currentLang].title;
+    document.getElementById("searchInput").placeholder = translations[currentLang].searchPlaceholder;
+    fetchAndRender();
+  });
+  </script>
+</body>
+</html>

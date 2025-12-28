@@ -1,0 +1,256 @@
+Return-Path: <reece.francis@zendesk.com>
+Delivered-To: contact@magentaweb.org
+Received: from webserver.bisecthosting.com
+	by webserver.bisecthosting.com with LMTP
+	id mNqpEH8bCWmhMCcAufviug
+	(envelope-from <reece.francis@zendesk.com>)
+	for <contact@magentaweb.org>; Mon, 03 Nov 2025 16:15:43 -0500
+Return-path: <reece.francis@zendesk.com>
+Envelope-to: contact@magentaweb.org
+Delivery-date: Mon, 03 Nov 2025 16:15:43 -0500
+Received: from mail-pf1-f227.google.com ([209.85.210.227]:61722)
+	by webserver.bisecthosting.com with esmtps  (TLS1.3) tls TLS_AES_128_GCM_SHA256
+	(Exim 4.98.2)
+	(envelope-from <reece.francis@zendesk.com>)
+	id 1vG1ts-0000000AmDE-0Mzj
+	for contact@magentaweb.org;
+	Mon, 03 Nov 2025 16:15:43 -0500
+Received: by mail-pf1-f227.google.com with SMTP id d2e1a72fcca58-7a9c64dfa8aso1707483b3a.3
+        for <contact@magentaweb.org>; Mon, 03 Nov 2025 13:15:19 -0800 (PST)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1762204498; x=1762809298;
+        h=to:subject:message-id:date:list-unsubscribe:list-unsubscribe-post
+         :mime-version:from:dkim-signature:x-gm-message-state:from:to:cc
+         :subject:date:message-id:reply-to;
+        bh=3Nn7i/nommYqLP2wmBNWsBBf60L6+U0b/w2RlyOJN9M=;
+        b=i6ZdKNHJd9+dbs5AHfHyFZ3c6VEhsBNlho72wCbVBFjqVZafH0qJeMd7b0viO9fLSt
+         CoCt1rp8O9qbAh9xDe3U+rW3gymb6AqGU/Ac6Se9+Qqr0H78Qy5qX2/3UW5bpEQOk4Dk
+         VD8WarIYwwffvvU3YCN2lyLKeh6djqIAoRr/6xp/2QGHvvf+yYi4sYyEpiNJm7tnBNNa
+         Sqf42Vhv6VNG8xWfRG27U1fk+1rUFzLrbXuHLK7DoQUxtRXJ9KOPPAZxNjvo8f3mwt6W
+         lfGNXzHICCNl0paoaOKrspGdnCybximjNz4ab8j5xxifLxOTNsBhrmLiQZ/PWxMmGaFA
+         91Ww==
+X-Gm-Message-State: AOJu0YwvJpJBupxAPU3kikDQ6Q/2SamuWCPf/PLyvf2kj6jvxjmBroKM
+	62TL2zJ+4SmAqhLwl46IqWCvVk4Ht75nN2FX1c9YZQEJb4KApj35RRn1eQkDZEDzdxx8/N9oJ+b
+	hgJwSJOaDr5CeONV0S5Bod5Whavh6zIsKXi2GaXseMhMavm7D/19mO+i9StKEyfgDNI5zVi9ZAw
+	VYc8F0KCiaHQpDj07kpejzRdRlAp06Am+uxB2CqU4MAikATfTJgak7Vix+1MAqrpcH00yMblTpc
+	SiYVR27BA1BDAteSw==
+X-Gm-Gg: ASbGncvu9xrXGe3KhbZ04Q7ot5YTV7LQUWx3M+Wqz32F/E7YektLc9B0ilu61mQGfA4
+	o8IGGHidp7nzXmoF/2cGcXHq2WB7dndgJoYu2f2+YbsJVY+wfUuPBBcdCUivVbG+rTDocHp5NWi
+	np5eIHrqGVwXTRyu453eRLjdK7e0Au5af1+hqPhGFafFBxzHcSB097VAf0xA7LoEQ4rtMc4OIm5
+	gm7CFL8seOGuAqMg0y5dPlLqVtwYo4aHgHwRWypmFJRRbafrxEUmXSgvr7/KAJKOCDO+XjRkRH8
+	Elk3sDeDhMP4YNEJonhgFr2maMmgyyLO5Wzzj/DOO/+sXCVOJa+QwoAFkuiHZ9hH3p0r3YezHZf
+	1q7usl9xt35vTxJTo+WoP
+X-Google-Smtp-Source: AGHT+IEdxV9yBhBeXIaAFHvr4c8VlJdNKU8j0+P4NCQIf7PBankFqXudX56JGmEd/VgBFkr/gfSorc8Xoa5j
+X-Received: by 2002:a05:6a20:7d8b:b0:343:5d53:c0a5 with SMTP id adf61e73a8af0-348ca44606cmr19157604637.16.1762204498035;
+        Mon, 03 Nov 2025 13:14:58 -0800 (PST)
+Received: from zendesk.com (relay.goskope.com. [163.116.131.203])
+        by smtp-relay.gmail.com with ESMTPS id 41be03b00d2f7-ba1eefd629csm8526a12.6.2025.11.03.13.14.57
+        for <contact@magentaweb.org>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 03 Nov 2025 13:14:58 -0800 (PST)
+X-Relaying-Domain: zendesk.com
+Received: by mail-pl1-f200.google.com with SMTP id d9443c01a7336-2958a134514so21098405ad.2
+        for <contact@magentaweb.org>; Mon, 03 Nov 2025 13:14:57 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=zendesk.com; s=zencorpemail; t=1762204497; x=1762809297; darn=magentaweb.org;
+        h=to:subject:message-id:date:list-unsubscribe:list-unsubscribe-post
+         :mime-version:from:from:to:cc:subject:date:message-id:reply-to;
+        bh=3Nn7i/nommYqLP2wmBNWsBBf60L6+U0b/w2RlyOJN9M=;
+        b=j7/8obxoQLwP3AOFO4miBkmxs0KANanSwVvti57Ic7pN1HxzQGrOhfk9EB3gjPvlrQ
+         JHy7rl5IrBtMlnYn8rWqMexUe65PqgA0XfvQWbDj9wfO56bun/HcnhHsNxwAQknypQof
+         Xin6rAiu2/8I78YyoH+EYmDXns4LM5VRyzYiU=
+X-Received: by 2002:a17:902:ea10:b0:295:6427:87d4 with SMTP id d9443c01a7336-2956427c161mr93997785ad.50.1762204496996;
+        Mon, 03 Nov 2025 13:14:56 -0800 (PST)
+X-Received: by 2002:a17:902:ea10:b0:295:6427:87d4 with SMTP id
+ d9443c01a7336-2956427c161mr93997505ad.50.1762204496529; Mon, 03 Nov 2025
+ 13:14:56 -0800 (PST)
+Received: from 1098270747392 named unknown by gmailapi.google.com with
+ HTTPREST; Mon, 3 Nov 2025 13:14:55 -0800
+Received: from 1098270747392 named unknown by gmailapi.google.com with
+ HTTPREST; Mon, 3 Nov 2025 13:14:55 -0800
+From: Reece Francis <reece.francis@zendesk.com>
+Mime-Version: 1.0
+X-Groove-PS-Id: 775454191
+X-Groove-Flow: true
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: <https://engine.groove.co/unsubscribe/_bG04VvEaTy5-ELFfj4hynvT2sk>
+Date: Mon, 3 Nov 2025 13:14:55 -0800
+X-Gm-Features: AWmQ_bmKCcAV-ZXU9KKMj7uxkiDKyac51QqTuPXPT92m2KUghMRCFkPEHL7muLI
+Message-ID: <CAOgXw2wvK-WWY06rtzB-1zpeaJeOJMDRPCGRGW_uOk67vv10qQ@mail.gmail.com>
+Subject: =?UTF-8?Q?Erleben_Sie_Zendesk_AI_w=C3=A4hrend_Ihrer_Testphase?=
+To: contact@magentaweb.org
+Content-Type: multipart/alternative; boundary="000000000000099f630642b735eb"
+x-netskope-inspected: true
+X-Spam-Status: No, score=-0.2
+X-Spam-Score: -1
+X-Spam-Bar: /
+X-Ham-Report: =?ISO-8859-1?Q?Spam_detection_software=2C_running_on_the_system_=22webserver=2Ebise?= =?ISO-8859-1?Q?cthosting=2Ecom=22=2C=0A_has_NOT_identified_this_inco?= =?ISO-8859-1?Q?ming_email_as_spam=2E__The_original=0A_message_has_be?= =?ISO-8859-1?Q?en_attached_to_this_so_you_can_view_it_or_label=0A_si?= =?ISO-8859-1?Q?milar_future_email=2E__If_you_have_any_questions=2C_s?= =?ISO-8859-1?Q?ee=0A_root=5C=40localhost_for_details=2E=0A_Content_p?= =?ISO-8859-1?Q?review=3A__Hallo_Alexander=2C_Ich_helfe_Ihnen_gerne_d?= =?ISO-8859-1?Q?abei=2C_Zendesk_zu=0A___testen_und_zu_pr=C3=BCfen=2C_?= =?ISO-8859-1?Q?ob_es_die_richtige_Kundensupport-L=C3=B6sung_f=C3=BCr?= =?ISO-8859-1?Q?_Ihr_Team=0A____ist=2E_Vermutlich_interessiert_Sie_be?= =?ISO-8859-1?Q?sonders=2C_wie_KI_den_Support_schneller=0A___und_einf?= =?ISO-8859-1?Q?a_=5B=2E=2E=2E=5D_=0A_Content_analysis_details=3A___=28-?= =?ISO-8859-1?Q?0=2E2_points=2C_5=2E0_required=29=0A__pts_rule_name__?= =?ISO-8859-1?Q?____________description=0A_----_---------------------?= =?ISO-8859-1?Q?-_--------------------------------------------------=0A_?= =?ISO-8859-1?Q?_0=2E0_RCVD=5FIN=5FVALIDITY=5FCERTIFIED=5FBLOCKED_RBL?= =?ISO-8859-1?Q?=3A_ADMINISTRATOR_NOTICE=3A_The=0A___________________?= =?ISO-8859-1?Q?__________query_to_Validity_was_blocked=2E__See=0A___?= =?ISO-8859-1?Q?__________________________https=3A//knowledge=2Evalid?= =?ISO-8859-1?Q?ity=2Ecom/hc/en-us/articles/20961730681243=0A________?= =?ISO-8859-1?Q?______________________for_more_information=2E=0A_____?= =?ISO-8859-1?Q?____________________=5B209=2E85=2E210=2E227_listed_in?= =?ISO-8859-1?Q?_sa-trusted=2Ebondedsender=2Eorg=5D=0A__0=2E0_RCVD=5FI?= =?ISO-8859-1?Q?N=5FVALIDITY=5FRPBL=5FBLOCKED_RBL=3A_ADMINISTRATOR_NO?= =?ISO-8859-1?Q?TICE=3A_The_query_to=0A______________________________?= =?ISO-8859-1?Q?Validity_was_blocked=2E__See=0A______________________?= =?ISO-8859-1?Q?_______https=3A//knowledge=2Evalidity=2Ecom/hc/en-us/?= =?ISO-8859-1?Q?articles/20961730681243=0A___________________________?= =?ISO-8859-1?Q?___for_more_information=2E=0A________________________?= =?ISO-8859-1?Q?____=5B209=2E85=2E210=2E227_listed_in_bl=2Escore=2Ese?= =?ISO-8859-1?Q?nderscore=2Ecom=5D=0A__0=2E0_RCVD=5FIN=5FVALIDITY=5FS?= =?ISO-8859-1?Q?AFE=5FBLOCKED_RBL=3A_ADMINISTRATOR_NOTICE=3A_The_quer?= =?ISO-8859-1?Q?y_to=0A______________________________Validity_was_blo?= =?ISO-8859-1?Q?cked=2E__See=0A_____________________________https=3A/?= =?ISO-8859-1?Q?/knowledge=2Evalidity=2Ecom/hc/en-us/articles/2096173?= =?ISO-8859-1?Q?0681243=0A______________________________for_more_info?= =?ISO-8859-1?Q?rmation=2E=0A_____________________________=5B209=2E85?= =?ISO-8859-1?Q?=2E210=2E227_listed_in_sa-accredit=2Ehabeas=2Ecom=5D=0A?= =?ISO-8859-1?Q?__0=2E0_URIBL=5FDBL=5FBLOCKED=5FOPENDNS_ADMINISTRATOR?= =?ISO-8859-1?Q?_NOTICE=3A_The_query_to=0A___________________________?= =?ISO-8859-1?Q?__dbl=2Espamhaus=2Eorg_was_blocked_due_to_usage_of_an?= =?ISO-8859-1?Q?=0A______________________________open_resolver=2E_See?= =?ISO-8859-1?Q?=0A_____________________________https=3A//www=2Espamh?= =?ISO-8859-1?Q?aus=2Eorg/returnc/pub/=0A____________________________?= =?ISO-8859-1?Q?_=5BURI=3A_groove=2Ezendesk=2Ecom=5D=0A______________?= =?ISO-8859-1?Q?_______________=5BURI=3A_zendesk=2Ecom=5D=0A__0=2E0_R?= =?ISO-8859-1?Q?CVD=5FIN=5FZEN=5FBLOCKED=5FOPENDNS_RBL=3A_ADMINISTRAT?= =?ISO-8859-1?Q?OR_NOTICE=3A_The_query_to=0A_________________________?= =?ISO-8859-1?Q?____zen=2Espamhaus=2Eorg_was_blocked_due_to_usage_of_?= =?ISO-8859-1?Q?an=0A______________________________open_resolver=2E_S?= =?ISO-8859-1?Q?ee=0A_____________________________https=3A//www=2Espa?= =?ISO-8859-1?Q?mhaus=2Eorg/returnc/pub/=0A__________________________?= =?ISO-8859-1?Q?___=5B209=2E85=2E210=2E227_listed_in_zen=2Espamhaus=2Eo?= =?ISO-8859-1?Q?rg=5D=0A_-0=2E0_SPF=5FPASS_______________SPF=3A_sende?= =?ISO-8859-1?Q?r_matches_SPF_record=0A_-0=2E1_DKIM=5FVALID=5FEF_____?= =?ISO-8859-1?Q?_____Message_has_a_valid_DKIM_or_DK_signature_from=0A_?= =?ISO-8859-1?Q?____________________________envelope-from_domain=0A_-?= =?ISO-8859-1?Q?0=2E1_DKIM=5FVALID=5FAU__________Message_has_a_valid_?= =?ISO-8859-1?Q?DKIM_or_DK_signature_from_author's=0A________________?= =?ISO-8859-1?Q?_____________domain=0A_-0=2E1_DKIM=5FVALID___________?= =?ISO-8859-1?Q?__Message_has_at_least_one_valid_DKIM_or_DK_signature?= =?ISO-8859-1?Q?=0A__0=2E1_DKIM=5FSIGNED____________Message_has_a_DKI?= =?ISO-8859-1?Q?M_or_DK_signature=2C_not_necessarily_valid=0A__0=2E0_?= =?ISO-8859-1?Q?HTML=5FMESSAGE___________BODY=3A_HTML_included_in_mes?= =?ISO-8859-1?Q?sage=0A_-0=2E0_DKIMWL=5FWL=5FHIGH_________DKIMwl=2Eor?= =?ISO-8859-1?Q?g_-_High_trust_sender?=
+X-Spam-Flag: NO
+
+--000000000000099f630642b735eb
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+ Hallo Alexander,
+
+Ich helfe Ihnen gerne dabei, Zendesk zu testen und zu pr=C3=BCfen, ob es di=
+e
+richtige Kundensupport-L=C3=B6sung f=C3=BCr Ihr Team ist. Vermutlich intere=
+ssiert Sie
+besonders, wie KI den Support schneller und einfacher machen kann.
+
+Zendesk AI unterst=C3=BCtzt Sie auf zwei Arten:
+
+*AI Agents*: Beantworten sofort h=C3=A4ufige Kundenfragen mit Ihren
+Help-Center-Artikeln und reduzieren dadurch 20=E2=80=9330 % der Tickets
+automatisch. Kunden erhalten sofort Antworten, und Ihr Team spart wertvolle
+Zeit.
+
+*Copilot*: Unterst=C3=BCtzt Ihr Team in Echtzeit mit Antwortvorschl=C3=A4ge=
+n,
+Ticket-Zusammenfassungen und empfohlenen Makros=E2=80=94so k=C3=B6nnen Ihre=
+ Agenten
+schneller und konsistenter reagieren.
+
+Teams, die KI einsetzen, erzielen in der Regel schnellere erste Antworten,
+k=C3=BCrzere L=C3=B6sungszeiten und zufriedenere Kunden.
+
+Wenn Sie m=C3=B6chten, zeige ich Ihnen gerne, wie andere Unternehmen KI nut=
+zen,
+um Support zu skalieren, ohne zus=C3=A4tzliches Personal einzustellen. Antw=
+orten
+Sie einfach auf diese E-Mail oder buchen Sie hier einen kurzen Termin
+<https://groove.zendesk.com/url/_bG04VvEaTy5-ELFfj4hynvT2sk/aHR0cHM6Ly9hcHA=
+uZ3Jvb3ZlYXBwLmNvbS9tZWV0aW5ncy8wMDUxRTAwMDAwRHg0d2wjZ3Jvb3Zlc3VtOi04MTE5Nz=
+I5Nzc=3D>
+.
+
+Viele Gr=C3=BC=C3=9Fe,
+Reece
+
+
+Reece Francis
+
+Digital Sales Representative - EMEA
+
+*E-Mail:* reece.francis@zendesk.com
+
+Unsubscribe
+<https://groove.zendesk.com/url/_bG04VvEaTy5-ELFfj4hynvT2sk/aHR0cHM6Ly9nby5=
+6ZW5kZXNrLmNvbS9wcmVmZXJlbmNlX2NlbnRlcl9kZWZhdWx0P2xhbmd1YWdlPWVuLVVTI2dyb2=
+92ZXN1bTotNjkyMTI3Mjk3>
+ Privacy Policy
+<https://groove.zendesk.com/url/_bG04VvEaTy5-ELFfj4hynvT2sk/aHR0cHM6Ly93d3c=
+uemVuZGVzay5jb20vY29tcGFueS9jdXN0b21lcnMtcGFydG5lcnMvcHJpdmFjeS1wb2xpY3kvI2=
+dyb292ZXN1bTotMTI0NTE0Mzk1Nw=3D=3D>
+
+Click here
+<https://groove.zendesk.com/url/_bG04VvEaTy5-ELFfj4hynvT2sk/aHR0cHM6Ly9pbmZ=
+vLnplbmRlc2suY29tL0VtYWlsLVByZWZlcmVuY2UuaHRtbCNncm9vdmVzdW06MTgwNjYwMTA5MQ=
+=3D=3D>
+to unsubscribe
+
+--000000000000099f630642b735eb
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div style=3D"font-family:arial,helvetica,sans-serif;font-=
+size:13px">
+<div style=3D"font-family:arial,helvetica,sans-serif;font-size:13px">Hallo =
+<span role=3D"mf">Alexander</span>,</div>
+<div style=3D"font-family:arial,helvetica,sans-serif;font-size:13px">=C2=A0=
+</div>
+<div style=3D"font-family:arial,helvetica,sans-serif;font-size:13px">Ich he=
+lfe Ihnen gerne dabei, Zendesk zu testen und zu pr=C3=BCfen, ob es die rich=
+tige Kundensupport-L=C3=B6sung f=C3=BCr Ihr Team ist. Vermutlich interessie=
+rt Sie besonders, wie KI den Support schneller und einfacher machen kann.</=
+div>
+<div style=3D"font-family:arial,helvetica,sans-serif;font-size:13px">=C2=A0=
+</div>
+<div style=3D"font-family:arial,helvetica,sans-serif;font-size:13px">Zendes=
+k AI unterst=C3=BCtzt Sie auf zwei Arten:</div>
+<div style=3D"font-family:arial,helvetica,sans-serif;font-size:13px">=C2=A0=
+</div>
+<div style=3D"font-family:arial,helvetica,sans-serif;font-size:13px">
+<strong>AI Agents</strong>: Beantworten sofort h=C3=A4ufige Kundenfragen mi=
+t Ihren Help-Center-Artikeln und reduzieren dadurch 20=E2=80=9330 % der Tic=
+kets automatisch. Kunden erhalten sofort Antworten, und Ihr Team spart wert=
+volle Zeit.</div>
+<div style=3D"font-family:arial,helvetica,sans-serif;font-size:13px">=C2=A0=
+</div>
+<div style=3D"font-family:arial,helvetica,sans-serif;font-size:13px">
+<strong>Copilot</strong>: Unterst=C3=BCtzt Ihr Team in Echtzeit mit Antwort=
+vorschl=C3=A4gen, Ticket-Zusammenfassungen und empfohlenen Makros=E2=80=94s=
+o k=C3=B6nnen Ihre Agenten schneller und konsistenter reagieren.</div>
+<div style=3D"font-family:arial,helvetica,sans-serif;font-size:13px">=C2=A0=
+</div>
+<div style=3D"font-family:arial,helvetica,sans-serif;font-size:13px">Teams,=
+ die KI einsetzen, erzielen in der Regel schnellere erste Antworten, k=C3=
+=BCrzere L=C3=B6sungszeiten und zufriedenere Kunden.</div>
+<div style=3D"font-family:arial,helvetica,sans-serif;font-size:13px">=C2=A0=
+</div>
+<div style=3D"font-family:arial,helvetica,sans-serif;font-size:13px">Wenn S=
+ie m=C3=B6chten, zeige ich Ihnen gerne, wie andere Unternehmen KI nutzen, u=
+m Support zu skalieren, ohne zus=C3=A4tzliches Personal einzustellen. Antwo=
+rten Sie einfach auf diese E-Mail oder <a href=3D"https://groove.zendesk.co=
+m/url/_bG04VvEaTy5-ELFfj4hynvT2sk/aHR0cHM6Ly9hcHAuZ3Jvb3ZlYXBwLmNvbS9tZWV0a=
+W5ncy8wMDUxRTAwMDAwRHg0d2wjZ3Jvb3Zlc3VtOi04MTE5NzI5Nzc=3D">buchen Sie hier =
+einen kurzen Termin</a>.</div>
+<div style=3D"font-family:arial,helvetica,sans-serif;font-size:13px">=C2=A0=
+</div>
+<div style=3D"font-family:arial,helvetica,sans-serif;font-size:13px">Viele =
+Gr=C3=BC=C3=9Fe,</div>
+<div style=3D"font-family:arial,helvetica,sans-serif;font-size:13px">Reece<=
+/div>
+</div><br><span class=3D"gr-sig"><div dir=3D"ltr"><table style=3D"color:rgb=
+(34,34,34);font-family:Roboto,RobotoDraft,Helvetica,Arial,sans-serif;border=
+:none;border-collapse:collapse"><tbody><tr style=3D"height:71.5pt">
+<td style=3D"border-right:0.75pt solid rgb(69,102,142);vertical-align:top;p=
+adding:5pt;overflow:hidden">
+<img src=3D"https://docs.google.com/uc?export=3Ddownload&amp;id=3D1LTbWmPdo=
+8c4UDWt1raWrz-AQcT84kKki&amp;revid=3D0B6_xjnpJzG0lNDJhekNINyt1Q0lXRFdGNC9XT=
+StZSEVMUU1nPQ" width=3D"96" height=3D"69"><br>
+</td>
+<td style=3D"border-left:0.75pt solid rgb(69,102,142);vertical-align:top;pa=
+dding:0pt 8pt;overflow:hidden">
+<p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt">=
+<span style=3D"font-size:11pt;font-family:Arial;color:rgb(3,54,61);backgrou=
+nd-color:transparent;font-weight:700;vertical-align:baseline">Reece Francis=
+ </span></p>
+<p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt">=
+<span style=3D"font-size:11pt;font-family:Arial;color:rgb(102,102,102);back=
+ground-color:transparent;vertical-align:baseline">Digital Sales Representat=
+ive - EMEA</span></p>
+<p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt">=
+<span style=3D"font-size:11pt;font-family:Arial;background-color:transparen=
+t;vertical-align:baseline"><b style=3D"color:rgb(102,102,102)">E-Mail:</b><=
+font color=3D"#666666"> </font><font color=3D"#000000"><a href=3D"mailto:re=
+ece.francis@zendesk.com" target=3D"_blank">reece.francis@zendesk.com</a></f=
+ont></span></p>
+<p dir=3D"ltr" style=3D"line-height:1.38;margin-top:0pt;margin-bottom:0pt">=
+<a href=3D"https://groove.zendesk.com/url/_bG04VvEaTy5-ELFfj4hynvT2sk/aHR0c=
+HM6Ly9nby56ZW5kZXNrLmNvbS9wcmVmZXJlbmNlX2NlbnRlcl9kZWZhdWx0P2xhbmd1YWdlPWVu=
+LVVTI2dyb292ZXN1bTotNjkyMTI3Mjk3" style=3D"color:rgb(17,85,204);font-family=
+:Helvetica;font-size:12px" target=3D"_blank"><span style=3D"font-size:7.5pt=
+;font-family:Arial;background-color:transparent;vertical-align:baseline">Un=
+subscribe</span></a><span style=3D"font-size:9.5pt;font-family:Roboto,sans-=
+serif;vertical-align:baseline"> </span><span style=3D"font-size:11pt;font-f=
+amily:Arial;font-weight:700;vertical-align:baseline">=C2=A0</span><a href=
+=3D"https://groove.zendesk.com/url/_bG04VvEaTy5-ELFfj4hynvT2sk/aHR0cHM6Ly93=
+d3cuemVuZGVzay5jb20vY29tcGFueS9jdXN0b21lcnMtcGFydG5lcnMvcHJpdmFjeS1wb2xpY3k=
+vI2dyb292ZXN1bTotMTI0NTE0Mzk1Nw=3D=3D" style=3D"color:rgb(17,85,204);font-f=
+amily:Helvetica;font-size:12px" target=3D"_blank"><span style=3D"font-size:=
+7.5pt;font-family:Arial;background-color:transparent;vertical-align:baselin=
+e">Privacy Policy</span></a><span style=3D"font-size:9.5pt;font-family:Robo=
+to,sans-serif;vertical-align:baseline"> </span></p>
+</td>
+</tr></tbody></table></div></span><p style=3D"margin-bottom:0px;margin-top:=
+5px"><span style=3D"font-family:Arial;font-size:xx-small">Click <a href=3D"=
+https://groove.zendesk.com/url/_bG04VvEaTy5-ELFfj4hynvT2sk/aHR0cHM6Ly9pbmZv=
+LnplbmRlc2suY29tL0VtYWlsLVByZWZlcmVuY2UuaHRtbCNncm9vdmVzdW06MTgwNjYwMTA5MQ=
+=3D=3D" target=3D"_blank" rel=3D"noopener">here</a> to unsubscribe</span></=
+p><img class=3D"cgtrkpxl" src=3D"https://groove.zendesk.com/p/MDA1MUUwMDAwM=
+ER4NHdsUUFC/_bG04VvEaTy5-ELFfj4hynvT2sk.gif" width=3D"1" height=3D"1"></div=
+>
+
+--000000000000099f630642b735eb--

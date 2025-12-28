@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>HTML-Tags Übersicht — MagentaHTML</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code&family=Tomorrow&display=swap" rel="stylesheet">
+  <style>
+    body {
+    	font-family:  Tomorrow, system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+    	background:#f6f7fb;
+    	color:#0f172a;
+    	margin:20px;
+    }
+    .container {
+    	max-width:1200px;
+    	margin:0 auto;
+    	background:#fff;
+    	border-radius:10px;
+    	padding:20px;
+    	box-shadow:0 8px 30px rgba(12,15,30,0.06);
+    }
+    h1 {
+    	font-size:22px;
+    	margin-bottom:6px;
+    }
+    p.lead {
+    	color:#475569;
+    	margin-top:0;
+    	margin-bottom:14px;
+    	line-height:1.45;
+    }
+    .controls {
+    	display:flex;
+    	gap:10px;
+    	margin-bottom:12px;
+    	align-items:center;
+    }
+    input[type="search"] {
+    	padding:10px 12px;
+    	border-radius:8px;
+    	border:1px solid #e6eef8;
+    	width:100%;
+    }
+    table {
+    	width:100%;
+    	border-collapse:collapse;
+    	margin-top:8px;
+    	font-size:14px;
+    }
+    th, td {
+    	text-align:left;
+    	padding:10px 12px;
+    	border-bottom:1px solid #eef2ff;
+    	vertical-align:top;
+    }
+    th {
+	background:#fbfdff;
+    	position:sticky;
+    	top:0;
+    	z-index:1;
+    	text-align:left;
+    }
+    .tag {
+    	font-family:'Google Sans Code', SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Courier New", monospace;
+    	background:#f1f5f9;
+    	padding:3px 6px;
+    	border-radius:6px;
+    	display:inline-block;
+    }
+    .status {
+    	font-weight:700;
+    	color:#0f172a;
+    }
+    .status.review {
+    	color:#c084fc;
+    }
+    .desc {
+    	color:#334155;
+    }
+    footer {
+    	margin-top:18px;
+    	font-size:13px;
+    	color:#64748b;
+    }
+    @media (max-width:880px) {
+      .container {
+      	padding:12px;
+      }
+      th, td {
+      	padding:8px;
+      	font-size:13px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>HTML-Tags — Liste für MagentaHTML</h1>
+    <p class="lead">
+      Willkommen bei der HTML-Tag-Liste! Hier können sie sehen welche HTML-Tags in MagentaHTML aufgenommen werden, und welche nicht. Im Moment sind noch alle unter Überprüfung
+    </p>
+
+    <div class="controls">
+      <input id="searchInput" type="search" placeholder="Nach Name oder Beschreibung suchen (z. B. 'deprecated' oder 'Inline-Tag')..." oninput="filterTable()" />
+    </div>
+
+    <table id="tagsTable" aria-describedby="Tabelle aller HTML-Tags">
+      <thead>
+        <tr>
+          <th style="width:14%">Name</th>
+          <th style="width:62%">Description</th>
+          <th style="width:24%">Will be transferred to MagentaHTML</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td colspan="3">A-Tags</td></tr>
+        <tr><td class="tag">&lt;a&gt;</td><td class="desc">Anker/Link zu einer URL oder einem Seitenanker; kann `href`, `target`, `rel` usw. verwenden.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;abbr&gt;</td><td class="desc">Abkürzung; zeigt oft eine Langform als `title` beim Hover an.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;acronym&gt;</td><td class="desc">Historisch für Akronyme; in HTML5 nicht standardisiert/obsolet — `abbr` ist moderner.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;address&gt;</td><td class="desc">Kontaktinformationen des Autors/der Organisation; semantisches Block-Element.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;applet&gt;</td><td class="desc">Java-Applet-Container; veraltet und entfernt — heute nicht verwenden.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;area&gt;</td><td class="desc">Definiert einen Bereich in einer &lt;map&gt;-Image-Map; beschreibt klickbare Regionen.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;article&gt;</td><td class="desc">Eigenständiger Inhaltsblock (Artikel, Beitrag); semantisch für wiederverwendbare Inhalte.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;aside&gt;</td><td class="desc">Seitenleiste / ergänzende Inhalte, die nicht Teil des Hauptinhalts sind.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;audio&gt;</td><td class="desc">Einbettung von Audio-Dateien mit Controls, Quellen und API für JS-Steuerung.</td><td class="status review">In Überprüfung</td></tr>
+
+        <tr><td colspan="3">B-Tags</td></tr>
+        <tr><td class="tag">&lt;b&gt;</td><td class="desc">Semantisch neutraler fetter Text; für optische Hervorhebung ohne stärkere semantische Bedeutung.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;base&gt;</td><td class="desc">Setzt die Basis-URL für relative Links in einem Dokument (innerhalb des &lt;head&gt;).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;basefont&gt;</td><td class="desc">Veraltet: definiert Standardschriftgröße/-farbe; nicht mehr in HTML5 verwenden.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;bdi&gt;</td><td class="desc">Isoliert Text für bidirektionalen Textfluss (Unicode Bidi Isolation).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;bdo&gt;</td><td class="desc">Deklariert eine explizite Text-Richtung (z. B. <code>dir="rtl"</code> für rechts-nach-links).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;big&gt;</td><td class="desc">Früher zur Größenzunahme von Text; veraltet/obsolet—CSS statt dessen verwenden.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;blockquote&gt;</td><td class="desc">Blockzitat für längere zitierte Passagen; kann `cite`-Attribut verwenden.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;body&gt;</td><td class="desc">Hauptkörper des Dokuments; enthält alle sichtbaren Inhalte und Skripte (sichtbar/js).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;br&gt;</td><td class="desc">Zeilenumbruch (Break); selbstschließendes Inline-Element.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;button&gt;</td><td class="desc">Interaktives Knopf-Element (Formular, JS-Events); typ: submit/reset/button.</td><td class="status review">In Überprüfung</td></tr>
+
+        <tr><td colspan="3">C-Tags</td></tr>
+        <tr><td class="tag">&lt;canvas&gt;</td><td class="desc">Bitmap-Zeichenfläche für dynamische Grafiken via JavaScript (2D/ WebGL).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;caption&gt;</td><td class="desc">Beschriftung einer Tabelle (&lt;table&gt;); semantisch für Tabellenüberschriften.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;center&gt;</td><td class="desc">Mittigsetzung, veraltet — heute CSS (`text-align:center`) verwenden.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;cite&gt;</td><td class="desc">Titel einer Work/Quelle (z. B. Buch, Artikel); semantisch für Zitatquellen.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;code&gt;</td><td class="desc">Inline-Code oder Quelltext; typischerweise monospace dargestellt.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;col&gt;</td><td class="desc">Definiert Spalten-Eigenschaften innerhalb einer &lt;colgroup&gt; für Tabellenlayout.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;colgroup&gt;</td><td class="desc">Gruppiert &lt;col&gt;-Elemente; dient zur Gruppierung und Formatierung von Spalten.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">comment (&lt;!-- --&gt;)</td><td class="desc">HTML-Kommentar; nicht im DOM sichtbar, dient Dokumentation/Temporärem Entfernen.</td><td class="status review">Wird übernommen</td></tr>
+
+        <tr><td colspan="3">D-Tags</td></tr>
+        <tr><td class="tag">&lt;data&gt;</td><td class="desc">Verknüpft maschinenlesbare Daten (`value`) mit sichtbarem Content.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;datalist&gt;</td><td class="desc">Vordefinierte Optionen für ein &lt;input&gt;-Feld (Autocomplete-Liste ohne &lt;select&gt;).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;dd&gt;</td><td class="desc">Definition Data: Beschreibung eines Terms innerhalb einer &lt;dl&gt; (definition description).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;del&gt;</td><td class="desc">Markiert entfernten/gelöschten Text (meist mit `datetime`-Attribut zur Angabe).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;details&gt;</td><td class="desc">Aufklappbarer Bereich mit &lt;summary&gt; als sichtbarer Titelzeile.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;dfn&gt;</td><td class="desc">Markiert die Definition eines Begriffs innerhalb eines Dokuments.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;dialog&gt;</td><td class="desc">Dialog-Element für modale/nicht-modale Dialoge (mit JS kontrolierbar).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;dir&gt;</td><td class="desc">Veraltet: ähnelt &lt;ul&gt;; wurde in modernen HTML-Versionen entfernt.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;div&gt;</td><td class="desc">Allzweck-Blockelement; semantisch neutral, häufiges Container-Element.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;dl&gt;</td><td class="desc">Definitionsliste (dl) bestehend aus &lt;dt&gt; (Term) und &lt;dd&gt; (Beschreibung).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;doctype&gt;</td><td class="desc">Dokumenttyp-Deklaration (z. B. &lt;!DOCTYPE html&gt;); muss ganz oben stehen.</td><td class="status review">Wird übernommen</td></tr>
+        <tr><td class="tag">&lt;dt&gt;</td><td class="desc">Definition Term: Begriff in einer &lt;dl&gt;-Liste.</td><td class="status review">In Überprüfung</td></tr>
+
+        <tr><td colspan="3">E-Tags</td></tr>
+        <tr><td class="tag">&lt;em&gt;</td><td class="desc">Emphasis — semantische Hervorhebung, normalerweise kursiv.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;embed&gt;</td><td class="desc">Bettet externe Inhalte ein (z. B. Plugins); in modernen Apps selten gebraucht (use &lt;object&gt; / &lt;iframe&gt;).</td><td class="status review">In Überprüfung</td></tr>
+
+        <tr><td colspan="3">F-Tags</td></tr>
+        <tr><td class="tag">&lt;figcaption&gt;</td><td class="desc">Beschriftung zu einem &lt;figure&gt;-Element (z. B. Bildunterschrift).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;figure&gt;</td><td class="desc">Semantischer Container für Grafiken/Illustrationen mit optionaler &lt;figcaption&gt;.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;font&gt;</td><td class="desc">Veraltet: textbezogene Schriftformatierung; durch CSS ersetzt.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;footer&gt;</td><td class="desc">Fußzeile eines Abschnitts oder Dokuments (z. B. Copyright, Links).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;form&gt;</td><td class="desc">Formularcontainer für Eingaben; unterstützt `action`, `method` und Form-Controls.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;frame&gt;</td><td class="desc">Teil von Frameset-Layout (veraltet); durch &lt;iframe&gt; bzw. moderne Layouts ersetzt.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;frameset&gt;</td><td class="desc">Veraltet: Container für Frames; nicht in HTML5 verwendet.</td><td class="status review">In Überprüfung</td></tr>
+
+        <tr><td colspan="3">H-Tags</td></tr>
+        <tr><td class="tag">&lt;h1&gt;</td><td class="desc">Hauptüberschrift; semantisch wichtigste Überschriftsebene.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;h2&gt;</td><td class="desc">Überschrift Ebene 2; untergeordnet zu &lt;h1&gt;.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;h3&gt;</td><td class="desc">Überschrift Ebene 3; weitere Strukturierung.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;h4&gt;</td><td class="desc">Überschrift Ebene 4.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;h5&gt;</td><td class="desc">Überschrift Ebene 5.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;h6&gt;</td><td class="desc">Überschrift Ebene 6 (niedrigste Ebene).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;head&gt;</td><td class="desc">Metadaten-Bereich des Dokuments (Titel, Meta-Tags, Link-Stylesheets, Scripts im Head).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;header&gt;</td><td class="desc">Kopfbereich eines Dokuments oder Abschnitts (z. B. Logo, Navigation, Titel).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;hgroup&gt;</td><td class="desc">Gruppierung von Überschriften und Subtitles; kaum verwendet, teilweise obsolet.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;hr&gt;</td><td class="desc">Horizontale Linie / thematische Trennung (separator); rein semantisch/visuell nutzbar.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;html&gt;</td><td class="desc">Root-Element des HTML-Dokuments; enthält &lt;head&gt; und &lt;body&gt;.</td><td class="status review">In Überprüfung</td></tr>
+
+        <tr><td colspan="3">I-Tags</td></tr>
+        <tr><td class="tag">&lt;i&gt;</td><td class="desc">Italik-Stil für Text ohne starke semantische Betonung; oft für Fachbegriffe genutzt.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;iframe&gt;</td><td class="desc">Inline-Frame zum Einbetten anderer HTML-Dokumente; hat Security-Implikationen (sandbox).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;img&gt;</td><td class="desc">Bild-Einbindung; wichtig: `alt`-Attribut für Barrierefreiheit verwenden.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;input&gt;</td><td class="desc">Formular-Element für viele Eingabetypen (`text`, `checkbox`, `radio`, `file`, u.v.m.).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;ins&gt;</td><td class="desc">Markiert eingefügten Text (Gegenstück zu &lt;del&gt;); kann `datetime` enthalten.</td><td class="status review">In Überprüfung</td></tr>
+
+        <tr><td colspan="3">K-Tags</td></tr>
+        <tr><td class="tag">&lt;kbd&gt;</td><td class="desc">Tastatureingabe/Darstellung eines Tastendrucks (z. B. <kbd>Strg</kbd>).</td><td class="status review">In Überprüfung</td></tr>
+        
+        <tr><td colspan="3">L-Tags</td></tr>
+        <tr><td class="tag">&lt;label&gt;</td><td class="desc">Beschriftung für ein Formular-Element; verbessert Zugänglichkeit (for/id binding).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;legend&gt;</td><td class="desc">Titel für eine &lt;fieldset&gt;-Gruppe im Formular.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;li&gt;</td><td class="desc">Listenelement innerhalb von &lt;ul&gt;, &lt;ol&gt; oder &lt;menu&gt;.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;link&gt;</td><td class="desc">Verknüpft externe Ressourcen (z. B. Stylesheets, Preconnect, Icons) im &lt;head&gt;.</td><td class="status review">In Überprüfung</td></tr>
+
+        <tr><td colspan="3">M-Tags</td></tr>
+        <tr><td class="tag">&lt;main&gt;</td><td class="desc">Hauptinhalt der Seite; nur ein &lt;main&gt; pro Dokument erlaubt, semantisch wichtig.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;map&gt;</td><td class="desc">Container für &lt;area&gt;-Definitionen; definiert eine Image-Map.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;mark&gt;</td><td class="desc">Hervorhebung/Markup von relevanten Textpassagen (z. B. Suchtreffer).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;menu&gt;</td><td class="desc">Historisch/kürzlich neu interpretiert: kann Kontext-/Toolbar-Menüs definieren; unterschiedlich unterstützt.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;meta&gt;</td><td class="desc">Metadaten (Charset, Viewport, Description, Robots etc.) im &lt;head&gt;.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;meter&gt;</td><td class="desc">Skalenniveau/Indikator für gemessene Werte innerhalb eines Bereichs (z. B. Festplattenfüllung).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;mhtml&gt;</td><td class="desc">Nicht standardisiertes/legacy Format-Verweis; in Web-Kontexten kaum gebräuchlich.</td><td class="status review">In Überprüfung</td></tr>
+
+        <tr><td colspan="3">N-Tags</td></tr>
+        <tr><td class="tag">&lt;nav&gt;</td><td class="desc">Navigationsbereich mit Links; semantisch für Hauptnavigationen.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;noframes&gt;</td><td class="desc">Ressource für ältere Browser ohne Frames; veraltet in modernen Seiten.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;noscript&gt;</td><td class="desc">Inhalt für Browser ohne JavaScript oder wenn JS deaktiviert ist.</td><td class="status review">In Überprüfung</td></tr>
+
+        <tr><td colspan="3">O-Tags</td></tr>
+        <tr><td class="tag">&lt;ol&gt;</td><td class="desc">Nummerierte Liste (ordered list).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;optgroup&gt;</td><td class="desc">Gruppiert &lt;option&gt;-Elemente innerhalb eines &lt;select&gt; für bessere Lesbarkeit.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;option&gt;</td><td class="desc">Auswahlmöglichkeit innerhalb eines &lt;select&gt;-Elements.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;output&gt;</td><td class="desc">Anzeige für berechnete Werte eines Formulars (z. B. Ergebnis eines JS-Rechners).</td><td class="status review">In Überprüfung</td></tr>
+
+        <tr><td colspan="3">P-Tags</td></tr>
+        <tr><td class="tag">&lt;p&gt;</td><td class="desc">Absatz-Element; grundlegender Baustein für Textinhalte.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;param&gt;</td><td class="desc">Parameter für eingebettete Objekte (&lt;object&gt;); selten in modernen Seiten nötig.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;picture&gt;</td><td class="desc">Ermöglicht responsive Bilder mit mehreren &lt;source&gt;-Varianten und &lt;img&gt; als Fallback.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;pre&gt;</td><td class="desc">Vorformatierter Text (Whitespace und Zeilenumbrüche bleiben erhalten), oft für Code.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;progress&gt;</td><td class="desc">Visueller Fortschrittsbalken für laufende Prozesse oder Aufgaben.</td><td class="status review">In Überprüfung</td></tr>
+
+        <tr><td colspan="3">Q-Tags</td></tr>
+        <tr><td class="tag">&lt;q&gt;</td><td class="desc">Inline-Zitat; Browser können Anführungszeichen automatisch rendern.</td><td class="status review">In Überprüfung</td></tr>
+
+        <tr><td colspan="3">R-Tags</td></tr>
+        <tr><td class="tag">&lt;rp&gt;</td><td class="desc">Rendert Klammertext für ruby fallback (für Browser ohne Ruby-Unterstützung).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;rt&gt;</td><td class="desc">Ruby-Text: Phonetik/Lesung von Zeichen (z. B. Furigana im Japanischen).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;ruby&gt;</td><td class="desc">Container für `rt`/`rp` zur Anzeige von Aussprache/Annotationshilfen.</td><td class="status review">In Überprüfung</td></tr>
+
+        <tr><td colspan="3">S-Tags</td></tr>
+        <tr><td class="tag">&lt;s&gt;</td><td class="desc">Gestrichener Text (nicht notwendigerweise semantisch gelöscht; use &lt;del&gt; für echte Entfernung).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;samp&gt;</td><td class="desc">Beispielausgabe eines Programms (Sample output), oft monospace.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;script&gt;</td><td class="desc">Einbettung von JavaScript; kann inline oder per `src` referenziert werden.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;search&gt;</td><td class="desc">Nicht standardisiertes Tag — üblicherweise als `input type="search"` genutzt; kein natives HTML-Element.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;section&gt;</td><td class="desc">Semantischer Abschnitt; thematisch zusammenhängender Inhalt (Ähnlich wie &lt;article&gt; aber weniger eigenständig).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;select&gt;</td><td class="desc">Dropdown-Auswahl; enthält &lt;option&gt;-Elemente.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;small&gt;</td><td class="desc">Kleiner dargestellter Text (z. B. für Nebenhinweise oder Feeds).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;source&gt;</td><td class="desc">Quell-Variant für &lt;picture&gt;, &lt;audio&gt; oder &lt;video&gt; mit `type` und `srcset`.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;span&gt;</td><td class="desc">Inline-Container für Styling/JS ohne eigene Semantik.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;strike&gt;</td><td class="desc">Veraltet (wie &lt;s&gt;); ursprünglich zum Durchstreichen, CSS ist vorzuziehen.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;strong&gt;</td><td class="desc">Bedeutungsvolle Betonung — semantisch stärker als &lt;b&gt; (normalerweise fett dargestellt).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;style&gt;</td><td class="desc">Enthält CSS-Regeln (normalerweise im &lt;head&gt;, kann aber inline verwendet werden).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;sub&gt;</td><td class="desc">Tiefgestellter Text (z. B. chemische Formeln).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;summary&gt;</td><td class="desc">Titel/Überschrift für &lt;details&gt;; sichtbar und klickbar zum Auf- und Zuklappen.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;sup&gt;</td><td class="desc">Hochgestellter Text (z. B. Fußnoten, Exponenten).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;svg&gt;</td><td class="desc">Scalable Vector Graphics: Vektorbasierte Grafiken im XML-basierten Format.</td><td class="status review">In Überprüfung</td></tr>
+
+        <tr><td colspan="3">T-Tags</td></tr>
+        <tr><td class="tag">&lt;table&gt;</td><td class="desc">Tabellencontainer mit &lt;thead&gt;, &lt;tbody&gt;, &lt;tfoot&gt;, &lt;tr&gt;, &lt;td&gt; etc.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;tbody&gt;</td><td class="desc">Gruppiert Körperzeilen innerhalb einer Tabelle (&lt;table&gt;).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;td&gt;</td><td class="desc">Tabellenzelle (Datenzelle) innerhalb einer &lt;tr&gt;.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;template&gt;</td><td class="desc">Unrendered HTML-Vorlage; JS kann Inhalt klonen und zur Laufzeit einfügen.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;textarea&gt;</td><td class="desc">Mehrzeiliges Texteingabefeld in Formularen.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;tfoot&gt;</td><td class="desc">Tabellenfuß; Zusammenfassung/Statistiken am Ende einer Tabelle.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;th&gt;</td><td class="desc">Tabellenkopf-Zelle; semantisch für Spalten-/Zeilenüberschriften.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;thead&gt;</td><td class="desc">Gruppiert Kopfzeilen einer Tabelle (&lt;tr&gt; mit &lt;th&gt;).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;time&gt;</td><td class="desc">Maschinenlesbare Zeitangabe (`datetime`-Attribut) für Termine/Datumsangaben.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;title&gt;</td><td class="desc">Seitentitel, der im Browser-Tab und bei Bookmarks angezeigt wird; gehört in &lt;head&gt;.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;tr&gt;</td><td class="desc">Tabellenzeile; enthält &lt;td&gt; und/oder &lt;th&gt; Zellen.</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;tt&gt;</td><td class="desc">Veraltet: teletype / monospace Text; durch CSS `font-family: monospace` ersetzt.</td><td class="status review">In Überprüfung</td></tr>
+
+        <tr><td colspan="3">U-Tags</td></tr>
+        <tr><td class="tag">&lt;u&gt;</td><td class="desc">Unterstrichener Text; semantisch neutral geworden (früher für Betonung verwendet).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;ul&gt;</td><td class="desc">Ungeordnete Liste (bulleted list) mit &lt;li&gt;-Elementen.</td><td class="status review">In Überprüfung</td></tr>
+
+        <tr><td colspan="3">V-Tags</td></tr>
+        <tr><td class="tag">&lt;var&gt;</td><td class="desc">Stellt eine Variable dar (z. B. in mathematischen Ausdrücken oder Code).</td><td class="status review">In Überprüfung</td></tr>
+        <tr><td class="tag">&lt;video&gt;</td><td class="desc">Einbettung von Videos mit Controls, mehreren Quellen und Medienevents.</td><td class="status review">In Überprüfung</td></tr>
+        
+        <tr><td colspan="3">W-Tags</td></tr>
+        <tr><td class="tag">&lt;wbr&gt;</td><td class="desc">Möglicher Zeilenumbruchspunkt; erlaubt dem Browser, an dieser Stelle zu brechen.</td><td class="status review">In Überprüfung</td></tr>
+      </tbody>
+    </table>
+
+    <footer>
+      Hinweis: Viele ältere Tags (z. B. &lt;font&gt;, &lt;center&gt;, &lt;applet&gt;, &lt;frameset&gt;) sind veraltet und sollten durch moderne HTML5/CSS/JS-Alternativen ersetzt werden.
+      <br>
+      Nicht alle Tags werden in MagentaHTML übernommen
+    </footer>
+  </div>
+
+  <script>
+    // Einfache clientseitige Filter-Funktionalität
+    const input = document.getElementById('searchInput');
+    const table = document.getElementById('tagsTable');
+    function filterTable() {
+      const q = input.value.trim().toLowerCase();
+      const rows = table.tBodies[0].rows;
+      for (let i=0;i<rows.length;i++) {
+        const cellsText = Array.from(rows[i].cells).map(c => c.textContent.toLowerCase()).join(' ');
+        rows[i].style.display = cellsText.includes(q) ? '' : 'none';
+      }
+    }
+    // initial: keine Filterung
+    filterTable();
+  </script>
+</body>
+</html>
+
+

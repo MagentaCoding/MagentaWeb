@@ -1,0 +1,110 @@
+Return-Path: <datenschutz@magentaweb.org>
+Delivered-To: contact@magentaweb.org
+Received: from webserver.bisecthosting.com
+	by webserver.bisecthosting.com with LMTP
+	id 4KvoA0Ro92iz+RoAufviug
+	(envelope-from <datenschutz@magentaweb.org>)
+	for <contact@magentaweb.org>; Tue, 21 Oct 2025 07:02:28 -0400
+Return-path: <datenschutz@magentaweb.org>
+Envelope-to: contact@magentaweb.org
+Delivery-date: Tue, 21 Oct 2025 07:02:28 -0400
+Received: from magentaw by webserver.bisecthosting.com with local (Exim 4.98.2)
+	(envelope-from <datenschutz@magentaweb.org>)
+	id 1vBA8J-00000007Pyd-47EG
+	for contact@magentaweb.org;
+	Tue, 21 Oct 2025 07:02:28 -0400
+Date: Tue, 21 Oct 2025 11:02:27 GMT
+From: "autorespond@magentaweb.org" <datenschutz@magentaweb.org>
+Message-Id: <1761044547.gy2urxA9euH4jlCX@webserver.bisecthosting.com>
+Precedence: auto_reply
+Subject: Mail recieved
+To: =?UTF-8?B?TWFnZW50YVdlYiDigJMgTWFpbHN5c3RlbQ==?= <contact@magentaweb.org>
+X-Autorespond: TEST
+X-Loop: contact@magentaweb.org
+X-Precedence: auto_reply
+Mime-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>=0D
+<html lang=3D"en">=0D
+<head>=0D
+<meta charset=3D"UTF-8">=0D
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">=0D
+<title>Autoresponder</title>=0D
+=0D
+<!-- Fonts -->=0D
+<link rel=3D"preconnect" href=3D"https://fonts.googleapis.com">=0D
+<link rel=3D"preconnect" href=3D"https://fonts.gstatic.com" crossorigin>=0D
+<link href=3D"https://fonts.googleapis.com/css2?family=3DNabla&family=3DTom=
+orrow&display=3Dswap" rel=3D"stylesheet">=0D
+=0D
+<style>=0D
+    /* Default font for all devices: Nabla */=0D
+    body {=0D
+        font-family: 'Nabla', sans-serif;=0D
+        background-color: #f5f5f5;=0D
+        margin: 0;=0D
+        padding: 0;=0D
+    }=0D
+=0D
+    .container {=0D
+        max-width: 600px;=0D
+        margin: 20px auto;=0D
+        background-color: #ffffff;=0D
+        padding: 20px;=0D
+        border-radius: 8px;=0D
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);=0D
+    }=0D
+=0D
+    h1, h2, h3 {=0D
+        margin: 0 0 10px 0;=0D
+    }=0D
+=0D
+    p {=0D
+        line-height: 1.6;=0D
+    }=0D
+=0D
+    .header {=0D
+        font-size: 24px;=0D
+        font-weight: bold;=0D
+        margin-bottom: 20px;=0D
+    }=0D
+=0D
+    .info {=0D
+        font-size: 14px;=0D
+        color: #555555;=0D
+        margin-bottom: 20px;=0D
+    }=0D
+=0D
+    /* Apple devices only: Tomorrow font */=0D
+    @media screen and (-webkit-min-device-pixel-ratio:0) and (min-color-ind=
+ex:0) { =0D
+        body {=0D
+            font-family: 'Tomorrow', sans-serif !important;=0D
+        }=0D
+    }=0D
+</style>=0D
+</head>=0D
+<body>=0D
+<div class=3D"container">=0D
+    <div class=3D"header">Thank you for your message!</div>=0D
+    <div class=3D"info">=0D
+        Subject: TEST<br>=0D
+        From: MagentaWeb =E2=80=93 Mailsystem <contact@magentaweb.org><br>=
+=0D
+        Email: contact@magentaweb.org=0D
+    </div>=0D
+    <p>=0D
+        Hello, we have received your email and will get back to you as soon=
+ as possible.  =0D
+        Please be patient while our team handles all inquiries promptly.=0D
+    </p>=0D
+    <p>=0D
+        Best regards,<br>=0D
+        Your MagentaWeb Privacy Team=0D
+    </p>=0D
+</div>=0D
+</body>=0D
+</html>

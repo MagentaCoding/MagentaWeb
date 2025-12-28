@@ -1,0 +1,6 @@
+passwd:$6$tpLvj3/tXbvhC86L$V4Xr7JTD402jjE0RY4QWuTidP/QnrPtCMpbpFTbxpqLF38o4KIkZhMC5tvLjnr/f09XrcMXxa/W/omQsFWmtM0
+quota:0
+homedir:/home/magentaw/mail/magentaweb.org/insertemailaddress
+strength:100
+lastchanged:-1
+perms:rw

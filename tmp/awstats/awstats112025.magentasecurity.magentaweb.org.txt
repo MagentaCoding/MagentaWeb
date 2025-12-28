@@ -1,0 +1,381 @@
+AWSTATS DATA FILE 8.0 (build 20240604)
+# If you remove this file, all statistics for date 202511 will be lost/reset.
+# Last config file used to build this data file was /home/magentaw/tmp/awstats/awstats.magentasecurity.magentaweb.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2098                
+POS_TIME 2769                
+POS_VISITOR 8242                
+POS_DAY 9026                
+POS_DOMAIN 3252                
+POS_LOGIN 3510                
+POS_ROBOT 3665                
+POS_WORMS 3861                
+POS_EMAILSENDER 3992                
+POS_EMAILRECEIVER 4135                
+POS_SESSION 9304                
+POS_FILESIZE 9525                
+POS_REQUESTTIME 9611                
+POS_SIDER 9451                
+POS_FILETYPES 4270                
+POS_DOWNLOADS 4348                
+POS_OS 4396                
+POS_BROWSER 4531                
+POS_SCREENSIZE 4783                
+POS_UNKNOWNREFERER 4857                
+POS_UNKNOWNREFERERBROWSER 5322                
+POS_ORIGIN 5595                
+POS_SEREFERRALS 5727                
+POS_PAGEREFS 5871                
+POS_SEARCHWORDS 6019                
+POS_KEYWORDS 6171                
+POS_MISC 2433                
+POS_ERRORS 6230                
+POS_CLUSTER 3366                
+POS_SIDER_404 6316                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20251205095110 1 0 8374982998372
+FirstTime 20251101010112
+LastTime 20251127001607
+LastUpdate 20251206070640 1 0 0 0 0
+TotalVisits 21                  
+TotalUnique 20                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 20                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 0 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 0 0 1 0
+1 2 2 0 1 3 0
+2 1 1 0 0 1 0
+3 4 4 0 0 4 0
+4 0 0 0 0 0 0
+5 2 2 0 0 2 0
+6 1 1 0 0 0 0
+7 1 1 0 1 1 0
+8 0 0 0 0 0 0
+9 0 0 0 0 0 0
+10 1 1 0 0 1 0
+11 2 2 0 0 1 0
+12 1 1 0 24 24 48
+13 0 0 0 0 0 0
+14 0 0 0 0 0 0
+15 1 1 0 0 0 0
+16 1 1 0 0 0 0
+17 0 0 0 0 0 0
+18 0 0 0 0 0 0
+19 1 1 0 72 74 32
+20 2 2 0 0 0 0
+21 0 0 0 0 0 0
+22 0 0 0 0 0 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+us 16 16 0
+ru 2 2 0
+ca 2 2 0
+in 1 1 0
+au 1 1 0
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+no_user_agent 3 0 20251115191723 0
+checker 1 0 20251102075806 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 1
+html 22 0 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+androidlollipop 1 1
+win10 5 5
+win7 2 2
+linux 7 7
+win8 1 1
+Unknown 6 6
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 11
+firefox139.0 2 2
+chrome83.0.4103.61 1 1
+netscape5.0 1 1
+Unknown 4 4
+chrome137.0.0.0 1 1
+firefox47.0 1 1
+mozilla 2 2
+chrome134.0.0.0 4 4
+chrome79.0.3945.79 1 1
+chrome139.0.0.0 4 4
+chrome32.0.1667.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+python-httpx/0.28.1 20251102122717
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20251113112751
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20251112162001
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20251101070032
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20251112162001
+python-httpx/0.28.1 20251102122717
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 22 22
+From1 0 0
+From2 0 0
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 1
+404 97 80
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 86
+/api/.env 2 -
+/backend/.env 2 -
+/application/.env 1 -
+/_profiler/phpinfo/info.php 1 -
+/xampp/.env 1 -
+/p.php 1 -
+/config.env 1 -
+/api/shared/config/.env 1 -
+/aws-secret.yaml 1 -
+/wp-config 1 -
+/dev/phpinfo.php 1 -
+/conf/.env 1 -
+/.env.prod 1 -
+/laravel/core/.env 1 -
+/api/shared/config.env 1 -
+/test/phpinfo.php 1 -
+/main/.env 1 -
+/.env.backup 1 -
+/core/.env 1 -
+/.env.old 2 -
+/website/.env 1 -
+/public/.env 1 -
+/.vscode/.env 1 -
+/prod/.env 1 -
+/.env.stage 1 -
+/.env.local 2 -
+/development/.env 1 -
+/info 1 -
+/cron/.env 1 -
+/.env.production.local 1 -
+/scripts/nodemailer.js 1 -
+/phpinfo.php 2 -
+/xampp/phpinfo.php 1 -
+/dev/.env 1 -
+/portal/.env 1 -
+/info.php 1 -
+/new/.env.staging 1 -
+/docker/.env 1 -
+/_profiler/phpinfo/phpinfo.php 1 -
+/.env.bak 2 -
+/new/.env 1 -
+/crm/.env 1 -
+/wordpress/ 1 -
+/.env.production 1 -
+/site/.env 1 -
+/.well-known/security.txt 1 -
+/.git/config 1 -
+/www/.env 1 -
+/tmp/phpinfo.php 1 -
+/new/.env.local 1 -
+/_phpinfo.php 1 -
+/phpinfo 2 -
+/admin/.env 1 -
+/.env.example 1 -
+/env/.env 1 -
+/docker/app/.env 1 -
+/.env 2 -
+/api/shared/config/config.env 1 -
+/node/.env_example 1 -
+/.env.dev 1 -
+/.env_sample 1 -
+/service/email_service.py 1 -
+/_profiler/phpinfo 2 -
+/kyc/.env 1 -
+/env.backup 1 -
+/lara/info.php 1 -
+/api/config.env 1 -
+/apps/.env 1 -
+/local/.env 1 -
+/server/config/database.js 1 -
+/awstats/.env 1 -
+/nginx/.env 1 -
+/admin/phpinfo.php 1 -
+/mail/.env 1 -
+/tools/phpinfo.php 1 -
+/mailer/.env 1 -
+/laravel/info.php 1 -
+/config/.env 1 -
+/web/.env 1 -
+/node_modules/.env 1 -
+/api/shared/.env 1 -
+/app/.env 2 -
+/new/.env.production 1 -
+/js/.env 1 -
+/lara/phpinfo.php 1 -
+/laravel/.env 2 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 20
+157.245.65.19 2 2 0 20251110033738
+205.169.39.159 2 2 0 20251101201733
+147.185.132.150 1 1 0 20251107003409
+198.235.24.8 1 1 0 20251112162001
+64.225.76.151 1 1 0 20251108113736
+157.245.70.112 1 1 0 20251108033750
+165.22.194.103 1 1 0 20251113103346
+104.248.43.33 1 1 0 20251126051701
+167.94.138.116 1 1 0 20251113112751
+139.59.141.59 1 1 0 20251103020204
+185.247.137.209 1 1 0 20251101070032
+35.222.190.157 1 1 0 20251110152221
+164.92.182.105 1 1 0 20251112050018
+185.153.176.24 1 1 0 20251105010254
+54.235.20.99 1 1 0 20251101192430
+45.148.10.249 1 1 0 20251102122717
+165.232.123.164 1 1 0 20251127001607
+34.124.158.94 1 1 0 20251101010112
+159.65.18.199 1 1 0 20251101033445
+205.210.31.84 1 1 0 20251111060224
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 13
+20251101 6 6 0 5
+20251102 1 1 0 1
+20251103 1 1 0 1
+20251105 1 1 0 1
+20251107 1 1 0 1
+20251108 2 2 0 2
+20251109 1 1 0 1
+20251110 2 2 0 2
+20251111 1 1 0 1
+20251112 2 2 0 2
+20251113 2 2 0 2
+20251126 1 1 0 1
+20251127 1 1 0 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 21
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 1
+/ 22 0 21 21
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 1
+0-44 134
+END_FILESIZE
+
+# Request Time Range - Request Time Frequency
+BEGIN_REQUESTTIME 0
+END_REQUESTTIME

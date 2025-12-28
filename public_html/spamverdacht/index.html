@@ -1,0 +1,427 @@
+<html lang="de" data-lt-installed="true"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>MagentaWeb — Spam melden / Report Spam</title>
+  
+<style>
+    :root{--bg:#0b0b0f;--card:#0f1115;--accent:#ff5b5b;--muted:#9aa0a6;--glass:rgba(255,255,255,0.03)}
+    /* Reset &amp; sensible box-sizing */
+    *,*::before,*::after{box-sizing:border-box}
+    html,body{height:100%;margin:0;padding:0;font-family:Inter,ui-sans-serif,system-ui,Roboto,"Helvetica Neue",Arial}
+
+    /* Page background and outer spacing. Use flex-start so tall content can scroll naturally. */
+    body{background:linear-gradient(180deg,#040405 0%, #0b0b0f 100%);color:#e8e8e8;display:flex;align-items:flex-start;justify-content:center;padding:24px 16px;overflow:auto}
+
+    /* Main card: allow internal scrolling if viewport is small. */
+    .app{width:100%;max-width:1100px;background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);border-radius:14px;padding:28px;box-shadow:0 8px 30px rgba(2,6,23,0.7);display:flex;flex-direction:column;gap:12px;max-height:calc(100vh - 48px);overflow:auto}
+
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;gap:14px;align-items:center}
+    .logo{width:56px;height:56px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#ff8b8b);display:flex;align-items:center;justify-content:center;font-weight:700;color:#081018;flex:0 0 auto}
+    h1{margin:0;font-size:20px}
+    p.lead{margin:4px 0 0;color:var(--muted);font-size:13px}
+
+    .langbar{display:flex;gap:8px;flex-wrap:wrap}
+    .langbtn{background:var(--glass);border:1px solid rgba(255,255,255,0.04);padding:8px 12px;border-radius:8px;cursor:pointer;font-size:13px}
+    .langbtn.active{outline:2px solid rgba(255,91,91,0.18);box-shadow:0 4px 18px rgba(255,91,91,0.06)}
+
+    /* Responsive grid: use minmax for the aside to avoid forced overflow */
+    main{display:grid;grid-template-columns:1fr minmax(260px,420px);gap:20px;margin-top:20px}
+    .card{background:var(--card);padding:18px;border-radius:12px;border:1px solid rgba(255,255,255,0.02);overflow:visible}
+    .card h2{margin:0 0 10px;font-size:16px}
+    .row{display:flex;gap:8px;align-items:center}
+
+    label{display:block;font-size:13px;color:var(--muted);margin-bottom:6px}
+    input[type=text],textarea,select{width:100%;padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit;font-size:14px}
+    textarea{min-height:120px;resize:vertical}
+    .muted{color:var(--muted);font-size:13px}
+    .actions{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
+    button{background:var(--accent);border:none;padding:10px 12px;border-radius:8px;color:#081018;font-weight:600;cursor:pointer}
+    button.ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted);font-weight:600}
+    .mailto{display:block;margin-top:8px;color:var(--accent);text-decoration:none}
+
+    .info-list{display:grid;gap:8px}
+    .info-item{padding:10px;border-radius:8px;background:rgba(255,255,255,0.01);font-size:13px}
+
+    .template{white-space:pre-wrap;font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;font-size:13px;padding:12px;border-radius:8px;background:rgba(255,255,255,0.02);border:1px dashed rgba(255,255,255,0.03);max-height:320px;overflow:auto}
+
+    footer{margin-top:14px;color:var(--muted);font-size:12px}
+
+    /* Bestehende Media Query */
+    @media (max-width:980px){
+      .app {
+        padding: 16px;
+        max-height: none;
+      }
+      main {
+        grid-template-columns:1fr;
+        gap: 16px;
+      }
+      .logo {
+        width: 40px;
+        height: 40px;
+      }
+      h1 {
+        font-size: 18px;
+      }
+      input[type=text], textarea, select {
+        font-size: 13px;
+        padding: 8px;
+      }
+      .actions button {
+        flex: 1 1 100%;
+        padding: 10px;
+      }
+      .template {
+        max-height: 200px;
+        font-size: 12px;
+      }
+    }
+    
+    /* Sehr kleine Smartphones (Portrait, unter 500px) */
+    @media (max-width:500px){
+      body {
+        padding: 8px;
+      }
+      h1 {
+        font-size: 16px;
+      }
+      p.lead {
+        font-size: 12px;
+      }
+      .langbar {
+        gap: 4px;
+      }
+      .langbtn {
+        padding: 6px 8px;
+        font-size: 11px;
+      }
+    }
+
+    /* Extra adjustments for very short viewports to ensure footer remains reachable */
+    @media (max-height:700px){
+      body{padding:12px}
+      .app{max-height:calc(100vh - 24px);padding:14px}
+      .template{max-height:220px}
+    }
+</style>
+</head><body>
+  <div class="app" role="application" aria-labelledby="app-title">
+    <header>
+      <div class="brand">
+        <div class="logo">MW</div>
+        <div>
+          <h1 id="app-title">MagentaWeb — Report spam</h1>
+          <p class="lead" id="app-sub">Template and guide for reporting suspicious emails from *@*.magentaweb.org</p>
+        </div>
+      </div>
+
+      <div class="langbar" role="tablist" aria-label="Sprachauswahl">
+        <button class="langbtn" data-lang="de" aria-selected="false">Deutsch</button>
+        <button class="langbtn active" data-lang="en" aria-selected="true">English</button>
+        <button class="langbtn" data-lang="fr" aria-selected="false">Français</button>
+        <button class="langbtn" data-lang="es" aria-selected="false">Español</button>
+        <button class="langbtn" data-lang="zh" aria-selected="false">中国</button>
+        <button class="langbtn" data-lang="jp" aria-selected="false">中文</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="card" aria-labelledby="how-title">
+        <h2 id="how-title" data-i18n="how_title">How to report a suspicious email?</h2>
+
+        <!-- Translatable instructions -->
+        <div class="info-list">
+          <div class="info-item" data-i18n="step1"><strong>Step 1 — Do not delete the email:</strong> Keep the suspicious email in your mailbox or forward it as an attachment (.eml) so full headers are maintained.</div>
+          <div class="info-item" data-i18n="step2"><strong>Step 2 — Forward:</strong> Forward the email to <a href="mailto:spamverdacht@magentaweb.org?subject=Spamverdacht%20MagentaWeb">spamverdacht@magentaweb.org</a> (German) or <a href="mailto:spamsuspect@magentaweb.org?subject=Spam%20Suspect%20MagentaWeb">spamsuspect@magentaweb.org</a> (international).</div>
+          <div class="info-item" data-i18n="step3"><strong>Step 3 — Subject &amp; Info:</strong> Add "Spam Suspect" or "Spam Suspicion" in the subject and letter explain why the email seems suspicious (links, attachments, demands).</div>
+          <div class="info-item" data-i18n="step4"><strong>Step 4 — Provide metadata:</strong> If possible attach the email header or forward the message as an attachment. Note the received time (date &amp; time) and the sender address.</div>
+        </div>
+
+        <hr style="margin:12px 0;border:none;border-top:1px solid rgba(255,255,255,0.03)">
+
+        <h3 data-i18n="templates_title">Templates / Email text — choose language and click "Copy" or "Open mail"</h3>
+
+        <label for="from" data-i18n="label_receiver">Sender email address received</label>
+        <input id="from" type="text" placeholder="z. B. fake@magentaweb.org">
+
+        <label for="received" data-i18n="label_received">Received on (date &amp; time)</label>
+        <input id="received" type="text" placeholder="z. B. 2025-10-02 09:34 CEST">
+
+        <label for="note" data-i18n="label_note">Short note / observation</label>
+        <textarea id="note" placeholder="z. B. Enthält Link zu externen Zahlungsseite, Anhänge mit .exe"></textarea>
+
+        <div class="actions">
+          <button id="copyTemplate">Copy template</button>
+          <button id="openMail" class="ghost" data-href="mailto:spamsuspect@magentaweb.org?subject=Spam%20Suspect%20MagentaWeb&amp;body=Dear%20MagentaWeb%20team%2C%0A%0AI%20would%20like%20to%20report%20a%20suspicious%20email%20that%20appears%20to%20come%20from%20%5BAbsenderadresse%5D.%0A%0AReceived%20on%3A%20%5BEmpfangsdatum%5D%0A%0ABrief%20reason%20%2F%20observation%3A%0A%5BBeobachtung%5D%0A%0AAttachment%3A%20Please%20check%20the%20email%20headers%20(as%20an%20attachment%20%2F%20.eml)%20or%20the%20forwarded%20message.%0A%0AKind%20regards%2C%0A%5BYour%20name%5D">Open email</button>
+          <button id="downloadEml" class="ghost">Save as .eml</button>
+        </div>
+
+        <div style="margin-top:12px">
+          <div class="muted">Predefined email template (automatically adjusted to your input):</div>
+          <div id="template" class="template" aria-live="polite">Dear MagentaWeb team,
+
+I would like to report a suspicious email that appears to come from [sender address].
+
+Received on: [date of receipt]
+
+Brief reason / observation:
+[Observation]
+
+Attachment: Please check the email headers (as an attachment / .eml) or the forwarded message.
+
+Kind regards,
+[Your name]</div>
+        </div>
+      </section>
+
+      <aside class="card" aria-labelledby="side-title">
+        <h2 id="side-title" data-i18n="need_help">Need more help?</h2>
+        <p class="muted" data-i18n="help_text">If unsure, forward the mail and do not reply. Never give personal data or payment details in a reply.</p>
+
+        <div style="margin-top:10px">
+          <label data-i18n="label_mailto">Direct report addresses</label>
+          <div class="info-item">
+            <strong>German:</strong> <a href="mailto:spamverdacht@magentaweb.org?subject=Spamverdacht%20MagentaWeb" class="mailto">spamverdacht@magentaweb.org</a>
+          </div>
+          <div class="info-item" style="margin-top:8px">
+            <strong>International / English:</strong>
+<br>
+<p>Please note that the response might will be come from the email address above
+</p> <a href="mailto:spamsuspect@magentaweb.org?subject=Spam%20Suspect%20MagentaWeb" class="mailto">spamsuspect@magentaweb.org</a>
+          </div>
+        </div>
+
+        <hr style="margin:12px 0;border:none;border-top:1px solid rgba(255,255,255,0.03)">
+
+        <h3 data-i18n="what_we_track">What should be included in the report?</h3>
+        <ul class="muted">
+          <li data-i18n="li_header">Email headers (as attachment or copied)</li>
+          <li data-i18n="li_sender">Sender address</li>
+          <li data-i18n="li_date">Date &amp; time of reception</li>
+          <li data-i18n="li_reason">Short reason why the email is suspicious</li>
+        </ul>
+
+        <div style="margin-top:12px">
+          <h3 data-i18n="privacy">Privacy</h3>
+          <p class="muted" data-i18n="privacy_text">Analysis is for abuse detection only. Sensitive content will not be shared.</p>
+        </div>
+
+      </aside>
+    </main>
+
+    <footer>
+      <div class="muted" data-i18n="footer_note">Note: This is a template. MagentaWeb cannot guarantee removal of spam. Contact support if needed.</div>
+    </footer>
+  </div>
+
+  <script>
+    // --- Translation resources ------------------------------------------------
+    const I18N = {
+      de: {
+        how_title: 'Wie melde ich eine verdächtige E-Mail?',
+        step1: '<strong>Schritt 1 — Mail nicht löschen:</strong> Behalte die verdächtige E-Mail im Postfach oder leite sie als Anhang weiter (als .eml), damit die vollständigen Header erhalten bleiben.',
+        step2: '<strong>Schritt 2 — Weiterleiten:</strong> Leite die Mail an <a href="mailto:spamverdacht@magentaweb.org?subject=Spamverdacht%20MagentaWeb">spamverdacht@magentaweb.org</a> (deutsch) oder an <a href="mailto:spamsuspect@magentaweb.org?subject=Spam%20Suspect%20MagentaWeb">spamsuspect@magentaweb.org</a> (international) weiter.',
+        step3: '<strong>Schritt 3 — Betreff & Infos:</strong> Füge im Betreff "Spamverdacht" bzw. "Spam Suspect" hinzu und beschreibe kurz, warum du die Mail für verdächtig hältst (Links, Anhänge, Forderungen).',
+        step4: '<strong>Schritt 4 — Metadaten bereitstellen:</strong> Wenn möglich, füge die E-Mail-Header hinzu oder leite die E-Mail als Anhang weiter. Notiere die empfangene Zeit (Datum & Uhrzeit) und die Absenderadresse.',
+        templates_title: 'Vorlagen / E-Mail-Text — wähle Sprache und klicke "Kopieren" oder "Mail öffnen"',
+        label_receiver: 'Empfangene Absenderadresse',
+        label_received: 'Empfangen am (Datum & Uhrzeit)',
+        label_note: 'Kurze Notiz / Beobachtung',
+        need_help: 'Brauche ich noch Hilfe?',
+        help_text: 'Wenn du unsicher bist, leite die Mail weiter oder antworte nicht. Verwende niemals persönliche Daten oder Zahlungsdetails als Antwort.',
+        label_mailto: 'Direkte Meldeadressen',
+        what_we_track: 'Was sollte in der Meldung enthalten sein?',
+        li_header: 'E-Mail-Header (als Anhang oder kopiert)',
+        li_sender: 'Absenderadresse',
+        li_date: 'Datum & Uhrzeit des Eingangs',
+        li_reason: 'Kurze Begründung, warum die Mail verdächtig ist',
+        privacy: 'Datenschutz',
+        privacy_text: 'Die Analyse dient ausschließlich der Erkennung von Missbrauchsfällen. Sensible Inhalte werden nicht verbreitet.',
+        footer_note: 'Hinweis: Dies ist eine Vorlage. MagentaWeb kann keine Garantie auf vollständige Entfernung von Spam übernehmen. Wende dich bei Fragen an den Support.'
+      },
+      en: {
+        how_title: 'How to report a suspicious email?',
+        step1: '<strong>Step 1 — Do not delete the email:</strong> Keep the suspicious email in your mailbox or forward it as an attachment (.eml) so full headers are preserved.',
+        step2: '<strong>Step 2 — Forward:</strong> Forward the email to <a href="mailto:spamverdacht@magentaweb.org?subject=Spamverdacht%20MagentaWeb">spamverdacht@magentaweb.org</a> (German) or <a href="mailto:spamsuspect@magentaweb.org?subject=Spam%20Suspect%20MagentaWeb">spamsuspect@magentaweb.org</a> (international).',
+        step3: '<strong>Step 3 — Subject & Info:</strong> Add "Spam Suspect" or "Spamverdacht" in the subject and briefly explain why the email seems suspicious (links, attachments, demands).',
+        step4: '<strong>Step 4 — Provide metadata:</strong> If possible attach the email header or forward the message as an attachment. Note the received time (date & time) and the sender address.',
+        templates_title: 'Templates / Email text — choose language and click "Copy" or "Open mail"',
+        label_receiver: 'Sender email address received',
+        label_received: 'Received on (date & time)',
+        label_note: 'Short note / observation',
+        need_help: 'Need more help?',
+        help_text: 'If unsure, forward the mail and do not reply. Never give personal data or payment details in a reply.',
+        label_mailto: 'Direct report addresses',
+        what_we_track: 'What should be included in the report?',
+        li_header: 'Email headers (as attachment or copied)',
+        li_sender: 'Sender address',
+        li_date: 'Date & time of reception',
+        li_reason: 'Short reason why the email is suspicious',
+        privacy: 'Privacy',
+        privacy_text: 'Analysis is for abuse detection only. Sensitive content will not be shared.',
+        footer_note: 'Note: This is a template. MagentaWeb cannot guarantee removal of spam. Contact support if needed.'
+      },
+      fr: {
+        how_title: 'Comment signaler un e-mail suspect ?',
+        step1: '<strong>Étape 1 — Ne pas supprimer l\'e-mail :</strong> Conservez le courriel suspect dans votre boîte ou transférez-le en pièce jointe (.eml) afin de préserver les en-têtes complets.',
+        step2: '<strong>Étape 2 — Transférer :</strong> Transférez le courriel à <a href="mailto:spamverdacht@magentaweb.org?subject=Spamverdacht%20MagentaWeb">spamverdacht@magentaweb.org</a> (allemand) ou à <a href="mailto:spamsuspect@magentaweb.org?subject=Spam%20Suspect%20MagentaWeb">spamsuspect@magentaweb.org</a> (international).',
+        step3: '<strong>Étape 3 — Sujet & Informations :</strong> Ajoutez "Spamverdacht" ou "Spam Suspect" dans l\'objet et expliquez brièvement pourquoi le courriel semble suspect (liens, pièces jointes, demandes).',
+        step4: '<strong>Étape 4 — Fournir les métadonnées :</strong> Si possible, joignez les en-têtes ou transférez le message en pièce jointe. Indiquez la date et l\'heure de réception et l\'adresse de l\'expéditeur.',
+        templates_title: 'Modèles / Texte de l\'e-mail — choisissez la langue et cliquez sur "Copier" ou "Ouvrir le mail"',
+        label_receiver: 'Adresse e-mail de l\'expéditeur reçue',
+        label_received: 'Reçu le (date & heure)',
+        label_note: 'Courte note / observation',
+        need_help: 'Besoin d\'aide ?',
+        help_text: 'Si vous n\'êtes pas sûr, transférez le courriel et ne répondez pas. Ne donnez jamais de données personnelles ou de détails de paiement en réponse.',
+        label_mailto: 'Adresses de signalement direct',
+        what_we_track: 'Que devrait contenir le signalement ?',
+        li_header: 'En-têtes d\'e-mail (en pièce jointe ou copiés)',
+        li_sender: 'Adresse de l\'expéditeur',
+        li_date: 'Date & heure de réception',
+        li_reason: 'Courte raison expliquant pourquoi le courriel est suspect',
+        privacy: 'Confidentialité',
+        privacy_text: 'L\'analyse sert uniquement à détecter les abus. Le contenu sensible ne sera pas diffusé.',
+        footer_note: 'Remarque : Il s\'agit d\'un modèle. MagentaWeb ne peut garantir la suppression du spam. Contactez le support si nécessaire.'
+      },
+      es: {
+        how_title: '¿Cómo reportar un correo sospechoso?',
+        step1: '<strong>Paso 1 — No borrar el correo:</strong> Mantén el correo sospechoso en tu bandeja o reenvíalo como archivo adjunto (.eml) para preservar las cabeceras completas.',
+        step2: '<strong>Paso 2 — Reenviar:</strong> Reenvía el correo a <a href="mailto:spamverdacht@magentaweb.org?subject=Spamverdacht%20MagentaWeb">spamverdacht@magentaweb.org</a> (alemán) o a <a href="mailto:spamsuspect@magentaweb.org?subject=Spam%20Suspect%20MagentaWeb">spamsuspect@magentaweb.org</a> (internacional).',
+        step3: '<strong>Paso 3 — Asunto & Información:</strong> Añade "Spamverdacht" o "Spam Suspect" en el asunto y explica brevemente por qué el correo parece sospechoso (enlaces, adjuntos, demandas).',
+        step4: '<strong>Paso 4 — Proporcionar metadatos:</strong> Si es posible adjunta las cabeceras del correo o reenvía el mensaje como adjunto. Indica la hora y fecha de recepción y la dirección del remitente.',
+        templates_title: 'Plantillas / Texto del correo — selecciona idioma y haz clic "Copiar" o "Abrir correo"',
+        label_receiver: 'Dirección de correo del remitente recibida',
+        label_received: 'Recibido el (fecha & hora)',
+        label_note: 'Nota breve / observación',
+        need_help: '¿Necesitas ayuda?',
+        help_text: 'Si no estás seguro, reenvía el correo y no respondas. Nunca des datos personales o detalles de pago en una respuesta.',
+        label_mailto: 'Direcciones de reporte directo',
+        what_we_track: '¿Qué debe incluir el reporte?',
+        li_header: 'Cabeceras del correo (como adjunto o copiadas)',
+        li_sender: 'Dirección del remitente',
+        li_date: 'Fecha y hora de recepción',
+        li_reason: 'Breve razón por la que el correo es sospechoso',
+        privacy: 'Privacidad',
+        privacy_text: 'El análisis es solo para detección de abuso. El contenido sensible no será compartido.',
+        footer_note: 'Nota: Esto es una plantilla. MagentaWeb no puede garantizar la eliminación del spam. Contacta soporte si es necesario.'
+      },
+      zh: {
+        how_title: '如何举报可疑电子邮件？',
+        step1: '<strong>步骤1 — 不要删除邮件：</strong>保留可疑邮件在收件箱中，或将其作为附件（.eml）转发，以保留完整的头信息。',
+        step2: '<strong>步骤2 — 转发：</strong>将邮件转发至 <a href="mailto:spamverdacht@magentaweb.org?subject=Spamverdacht%20MagentaWeb">spamverdacht@magentaweb.org</a>（德语）或 <a href="mailto:spamsuspect@magentaweb.org?subject=Spam%20Suspect%20MagentaWeb">spamsuspect@magentaweb.org</a>（国际）。',
+        step3: '<strong>步骤3 — 主题与信息：</strong>在主题中加入“Spamverdacht”或“Spam Suspect”，并简要说明该邮件为何可疑（链接、附件、索要信息）。',
+        step4: '<strong>步骤4 — 提供元数据：</strong>如可能，请附上邮件头或将邮件作为附件转发。记录接收时间（日期和时间）以及发件人地址。',
+        templates_title: '模板 / 邮件文本 — 选择语言并点击“复制”或“打开邮件”',
+        label_receiver: '收到的发件人地址',
+        label_received: '接收于（日期 & 时间）',
+        label_note: '简短备注 / 观察',
+        need_help: '需要帮助吗？',
+        help_text: '如果不确定，请转发邮件并不要回复。切勿通过回复提供个人信息或付款细节。',
+        label_mailto: '直接举报地址',
+        what_we_track: '举报应包含哪些内容？',
+        li_header: '邮件头（作为附件或复制）',
+        li_sender: '发件人地址',
+        li_date: '接收日期与时间',
+        li_reason: '简要说明邮件可疑的原因',
+        privacy: '隐私',
+        privacy_text: '分析仅用于检测滥用。敏感内容不会被传播。',
+        footer_note: '注意：此为模板。MagentaWeb不能保证完全删除垃圾邮件。如有疑问，请联系支持。'
+      },
+      jp: {
+        how_title: '不審なメールを報告するには？',
+        step1: '<strong>ステップ1 — メールを削除しないでください：</strong>不審なメールを受信トレイに残すか、添付ファイル（.eml）として転送してヘッダー情報を保持してください。',
+        step2: '<strong>ステップ2 — 転送：</strong>メールを <a href="mailto:spamverdacht@magentaweb.org?subject=Spamverdacht%20MagentaWeb">spamverdacht@magentaweb.org</a>（ドイツ語）または <a href="mailto:spamsuspect@magentaweb.org?subject=Spam%20Suspect%20MagentaWeb">spamsuspect@magentaweb.org</a>（国際）へ転送してください。',
+        step3: '<strong>ステップ3 — 件名と情報：</strong>件名に「Spamverdacht」または「Spam Suspect」と記入し、なぜ不審か（リンク、添付ファイル、要求）が分かるよう簡潔に説明してください。',
+        step4: '<strong>ステップ4 — メタデータの提供：</strong>可能であればメールヘッダーを添付するか、メッセージを添付として転送してください。受信日時と送信者アドレスを記録してください。',
+        templates_title: 'テンプレート / メール文面 — 言語を選択して「コピー」または「メールを開く」をクリック',
+        label_receiver: '受信した送信者のメールアドレス',
+        label_received: '受信日時（年月日 & 時刻）',
+        label_note: '簡単なメモ / 観察',
+        need_help: '助けが必要ですか？',
+        help_text: '不明な点があれば転送して返信しないでください。返信で個人情報や支払い情報を提供しないでください。',
+        label_mailto: '直接報告先',
+        what_we_track: '報告に含めるべき内容',
+        li_header: 'メールヘッダー（添付またはコピー）',
+        li_sender: '送信者アドレス',
+        li_date: '受信日時',
+        li_reason: 'なぜ不審かの簡単な理由',
+        privacy: 'プライバシー',
+        privacy_text: '分析は悪用検出のためのみ行います。機密情報は共有されません。',
+        footer_note: '注意：これはテンプレートです。MagentaWebはスパムの削除を保証できません。必要に応じてサポートに連絡してください。'
+      }
+    };
+
+    // --- Language switcher --------------------------------------------------
+    const langBtns = document.querySelectorAll('.langbtn');
+    let currentLang = 'de';
+    function setLang(lang){
+      currentLang = lang;
+      // update active button
+      langBtns.forEach(b=>{b.classList.toggle('active', b.dataset.lang===lang); b.setAttribute('aria-selected', b.dataset.lang===lang)});
+      // replace translatable nodes
+      document.querySelectorAll('[data-i18n]').forEach(node=>{
+        const key = node.getAttribute('data-i18n');
+        const val = (I18N[lang] && I18N[lang][key]) || I18N['en'][key] || '';
+        node.innerHTML = val;
+      });
+      // update template content
+      buildTemplate();
+    }
+    langBtns.forEach(b=>b.addEventListener('click', ()=>setLang(b.dataset.lang)));
+
+    // --- Template building -------------------------------------------------
+    function buildTemplate(){
+      const from = document.getElementById('from').value || '[Absenderadresse]';
+      const received = document.getElementById('received').value || '[Empfangsdatum]';
+      const note = document.getElementById('note').value || '[Beobachtung]';
+
+      const templates = {
+        de: `Sehr geehrtes MagentaWeb-Team,\n\nich möchte hiermit eine verdächtige E-Mail melden, die angeblich von der Adresse ${from} stammt.\n\nEmpfangen am: ${received}\n\nKurze Begründung / Beobachtung:\n${note}\n\nAnhang: Bitte prüfen Sie die E-Mail-Header (als Anhang / .eml) oder die weitergeleitete Nachricht.\n\nMit freundlichen Grüßen,\n[Dein Name]`,
+        en: `Dear MagentaWeb team,\n\nI would like to report a suspicious email that appears to come from ${from}.\n\nReceived on: ${received}\n\nBrief reason / observation:\n${note}\n\nAttachment: Please check the email headers (as an attachment / .eml) or the forwarded message.\n\nKind regards,\n[Your name]`,
+        fr: `Bonjour,\n\nJe souhaite signaler un courriel suspect provenant apparemment de ${from}.\n\nReçu le: ${received}\n\nCourte explication / observation:\n${note}\n\nPièce jointe: Veuillez vérifier les en-têtes (en pièce jointe / .eml) ou le message transféré.\n\nCordialement,\n[Votre nom]`,
+        es: `Estimado equipo de MagentaWeb,\n\nQuisiera reportar un correo sospechoso que parece provenir de ${from}.\n\nRecibido el: ${received}\n\nBreve motivo / observación:\n${note}\n\nAdjunto: Por favor, comprueben las cabeceras del correo (como archivo adjunto / .eml) o el mensaje reenviado.\n\nUn saludo,\n[Tu nombre]`,
+        zh: `尊敬的 MagentaWeb 团队，\n\n我想举报一封可疑邮件，似乎来自 ${from}。\n\n接收时间：${received}\n\n简要说明 / 观察：\n${note}\n\n附件：请检查邮件头（作为附件 /.eml）或转发的消息。\n\n此致，\n[您的姓名]`,
+        jp: `MagentaWeb 担当者様、\n\n${from} から送信されたと思われる不審なメールを報告します。\n\n受信日時：${received}\n\n簡単な観察 / 理由：\n${note}\n\n添付ファイル：メールヘッダーを添付（.eml）するか、転送されたメッセージを確認してください。\n\nよろしくお願いいたします。\n[あなたの名前]`
+      };
+
+      const t = templates[currentLang] || templates['en'];
+      document.getElementById('template').textContent = t;
+      // update mailto href for openMail
+      const mailToAddr = (currentLang==='de')? 'spamverdacht@magentaweb.org' : 'spamsuspect@magentaweb.org';
+      const subject = (currentLang==='de')? 'Spamverdacht MagentaWeb' : 'Spam Suspect MagentaWeb';
+      const body = encodeURIComponent(t);
+      document.getElementById('openMail').dataset.href = `mailto:${mailToAddr}?subject=${encodeURIComponent(subject)}&body=${body}`;
+    }
+
+    // initial build
+    setLang('de');
+
+    // --- Buttons -----------------------------------------------------------
+    document.getElementById('copyTemplate').addEventListener('click', async ()=>{
+      const txt = document.getElementById('template').textContent;
+      try{ await navigator.clipboard.writeText(txt); alert('Vorlage kopiert.'); }catch(e){ prompt('Kopiere die Vorlage manuell:', txt); }
+    });
+
+    document.getElementById('openMail').addEventListener('click', ()=>{
+      const href = document.getElementById('openMail').dataset.href;
+      window.location.href = href;
+    });
+
+    // create a simple .eml download (basic wrapper, not full headers)
+    document.getElementById('downloadEml').addEventListener('click', ()=>{
+      const subject = (currentLang==='de')? 'Spamverdacht MagentaWeb' : 'Spam Suspect MagentaWeb';
+      const to = (currentLang==='de')? 'spamverdacht@magentaweb.org' : 'spamsuspect@magentaweb.org';
+      const body = document.getElementById('template').textContent;
+      const eml = `To: ${to}\nSubject: ${subject}\nContent-Type: text/plain; charset=utf-8\n\n${body}`;
+      const blob = new Blob([eml], {type:'message/rfc822'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a'); a.href = url; a.download = 'spam_report.eml'; document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+    });
+
+    // update template when inputs change
+    ['from','received','note'].forEach(id=>document.getElementById(id).addEventListener('input', buildTemplate));
+
+  </script>
+
+<deepl-input-controller translate="no"></deepl-input-controller></body></html>

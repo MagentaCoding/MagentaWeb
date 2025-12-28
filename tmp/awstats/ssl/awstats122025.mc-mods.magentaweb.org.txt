@@ -1,0 +1,1073 @@
+AWSTATS DATA FILE 8.0 (build 20240604)
+# If you remove this file, all statistics for date 202512 will be lost/reset.
+# Last config file used to build this data file was /home/magentaw/tmp/awstats/ssl/awstats.mc-mods.magentaweb.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2094                
+POS_TIME 2771                
+POS_VISITOR 21682               
+POS_DAY 23924               
+POS_DOMAIN 3359                
+POS_LOGIN 3653                
+POS_ROBOT 3808                
+POS_WORMS 4234                
+POS_EMAILSENDER 4365                
+POS_EMAILRECEIVER 4508                
+POS_SESSION 24374               
+POS_FILESIZE 24605               
+POS_REQUESTTIME 24711               
+POS_SIDER 24531               
+POS_FILETYPES 4643                
+POS_DOWNLOADS 4721                
+POS_OS 4769                
+POS_BROWSER 4960                
+POS_SCREENSIZE 5519                
+POS_UNKNOWNREFERER 5593                
+POS_UNKNOWNREFERERBROWSER 6023                
+POS_ORIGIN 6261                
+POS_SEREFERRALS 6393                
+POS_PAGEREFS 6556                
+POS_SEARCHWORDS 6704                
+POS_KEYWORDS 6856                
+POS_MISC 2435                
+POS_ERRORS 6915                
+POS_CLUSTER 3509                
+POS_SIDER_404 7029                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20251228053718 16 3417 7153728305456
+FirstTime 20251201014438
+LastTime 20251228053718
+LastUpdate 20251228070347 16 0 16 0 0
+TotalVisits 72                  
+TotalUnique 61                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 61                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 1 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 0 8 11 11802
+1 8 8 0 2 6 5260
+2 5 5 0 9 21 31145
+3 2 2 0 1 9 12228
+4 1 1 0 95 117 138892
+5 4 4 0 6 14 12679
+6 7 7 0 367 413 588319
+7 5 5 0 6 12 10351
+8 4 4 0 7 12 15200
+9 7 7 0 2 4 5206
+10 2 2 0 3 8 13679
+11 4 4 0 2 6 6894
+12 2 2 0 1 8 10528
+13 4 4 0 229 398 644753
+14 8 8 0 12 19 20552
+15 6 6 0 6 9 3492
+16 4 4 0 7 11 8521
+17 3 3 0 3 10 12100
+18 3 3 0 5 8 5259
+19 2 2 0 2 7 10534
+20 2 2 0 4 8 8613
+21 5 5 0 7 11 6830
+22 0 0 0 6 8 10064
+23 5 5 0 1 4 5163
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 9
+us 67 67 0
+ru 7 7 0
+in 5 5 0
+ca 5 5 0
+gb 4 4 0
+jp 3 3 0
+cn 2 2 0
+be 1 1 0
+th 1 1 0
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+GPTBot/ 22 0 20251227200828 0
+survey 4 0 20251211011533 0
+bot[\s_+:,\.\;\/\\-] 4 0 20251224054156 0
+Go\-http\-client/ 2 0 20251201084731 0
+scrapy 2 0 20251208153647 0
+Yahoo![\x20]Slurp[\x20]China 1 0 20251202185920 0
+no_user_agent 1 0 20251206130304 0
+[\s_+:,\.\;\/\\-]bot 1 0 20251211131329 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 1
+html 95 0 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+android 1 1
+macosx13 1 1
+linuxubuntu 1 1
+Unknown 11 11
+macosx15 7 7
+macosx14 1 1
+win10 50 50
+linux 20 20
+macosx 1 1
+win7 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 26
+firefox139.0 3 3
+Unknown 2 2
+chrome91.0.4472.124 5 5
+chrome116.0.0.0 8 8
+firefox124.0 7 7
+chrome134.0.0.0 3 3
+firefox47.0 2 2
+chrome119.0.0.0 1 1
+chrome58.0.3029.110 2 2
+mozilla 9 9
+chrome117.0.0.0 5 5
+safari11.0 1 1
+chrome60.0.3112.113 14 14
+chrome126.0.0.0 3 3
+chrome74.0.3729.157 1 1
+chrome137.0.0.0 1 1
+chrome139.0.0.0 5 5
+chrome104.0.0.0 2 2
+chrome123.0.0.0 2 2
+netscape5.0 2 2
+chrome81.0.4044.122 1 1
+chrome77.0.3864.0 1 1
+firefox140.0 1 1
+chrome125.0.0.0 12 12
+chrome121.0.0.0 1 1
+chrome120.0.0.0 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20251218053713
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20251227161637
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20251227114005
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20251227161637
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 93 93
+From1 0 0
+From2 2 2
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+403 2 3194
+421 2 644
+404 1078 1593904
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 694
+/configuration.php 2 -
+/Gemfile.lock 1 -
+/server/.env.production 1 -
+/backend/.env.local 1 -
+/var/log/app.log 1 -
+/.config/stripe/config.toml 1 -
+/docker/.env 2 -
+/node_modules/stripe/package.json 1 -
+/payment.js 1 -
+/admin/stripe 1 -
+/.aws/secrets 1 -
+/src/stripe.js 1 -
+/t.php 2 -
+/config/stripe.rb 1 -
+/.secrets 2 -
+/admin/controllers/merchant.js 1 -
+/.env_sample 1 -
+/js/payment.js 1 -
+/apis/config/config.js 1 -
+/.npmrc 1 -
+/php_info.php.tmp 1 -
+/inc/config.php 1 -
+/server/config.js 1 -
+/dump.sql 2 -
+/config.rb 1 -
+/app/api/stripe/route.js 1 -
+/assets/js/config.js 1 -
+/js/checkout.js 1 -
+/infophp.php 2 -
+/.env.django 1 -
+/api/swagger.json 1 -
+/.stripe/keys 1 -
+/django/secrets.json 1 -
+/config/config.yml 2 -
+/package.json 2 -
+/settings.rb 1 -
+/api/secrets 1 -
+/scripts/info.php 1 -
+/config/keys.js 1 -
+/html/phpinfo.php 1 -
+/constants.json 1 -
+/public/.env 2 -
+/appsettings.Production.json 1 -
+/stripe_api.json 1 -
+/static/js/bundle.js 1 -
+/config/puma.rb 1 -
+/phpinfo.php.txt 1 -
+/info.php.old 1 -
+/env/.env 1 -
+/config/config.json 1 -
+/.aws/config.bak 1 -
+/.env.live 1 -
+/config/cable.yml 1 -
+/credentials.js 1 -
+/backend/config/settings.yml 1 -
+/stripe/.env 2 -
+/.dockerignore 3 -
+/partner/config/config.js 1 -
+/aws.json 3 -
+/.stripe.json 1 -
+/js/secrets.json 1 -
+/env.properties 1 -
+/admin/stripe.js 1 -
+/payment/config 1 -
+/stripe.json 2 -
+/billing.py 1 -
+/api/payment 1 -
+/aws.properties 1 -
+/php-info.php 2 -
+/config.properties 1 -
+/stripe/secrets.yml 1 -
+/probe.php 2 -
+/backend/config/development.yml 1 -
+/config/master.key 1 -
+/js/bundle.js 1 -
+/crm/.env 1 -
+/includes/phpinfo.php 1 -
+/.env.stage 1 -
+/admin/config 2 -
+/server/config/stripe.js 1 -
+/config 1 -
+/old/phpinfo.php 1 -
+/azure.json 2 -
+/docker-compose.yaml 2 -
+/src/services/stripe.js 1 -
+/billing.config.js 1 -
+/.config 1 -
+/config/env.js 1 -
+/openapi.yml 1 -
+/apps 7 -
+/Jenkinsfile 1 -
+/dev/phpinfo.php 1 -
+/files/phpinfo.php 1 -
+/public/js/bundle.js 1 -
+/.well-known/payment 1 -
+/js/config.js 1 -
+/config/checkout.js 1 -
+/frontend/.env 2 -
+/test.js 1 -
+/test.php.old 1 -
+/assets/js/stripe.js 1 -
+/aws-keys.env 1 -
+/config/secrets.js 1 -
+/config.env 1 -
+/helpers/stripe.js 1 -
+/conf/config.php 1 -
+/config/services.php 1 -
+/main.js 1 -
+/assets/info.php 1 -
+/api/keys 1 -
+/azure-pipelines.yml 1 -
+/static/js/chunk.js 1 -
+/.env.sample 2 -
+/en/.env 1 -
+/apikeys.json 2 -
+/testphp.php 2 -
+/config/settings.local 1 -
+/lib/.env 1 -
+/secrets.yml.enc 1 -
+/_fragment 1 -
+/aws-env.json 1 -
+/phpinfo.php.save 1 -
+/config/application.rb 1 -
+/api/actions 7 -
+/config/local.js 1 -
+/stripe.bak 1 -
+/build/ 1 -
+/stripe-config.yaml 1 -
+/env.prod 1 -
+/microservices/.env 1 -
+/includes/.env 1 -
+/src/payment.js 1 -
+/stripe.yaml 1 -
+/main/.env 1 -
+/api.js 1 -
+/api-keys.js 1 -
+/routes/stripe.js 1 -
+/vendor/.env 1 -
+/tmp/phpinfo.php 1 -
+/stripe-keys.json 2 -
+/config/payments.js 1 -
+/config.ini 1 -
+/.env.prod.local 2 -
+/api/settings 1 -
+/config/config.js 1 -
+/www/test.php 1 -
+/check.php 2 -
+/secrets.properties 1 -
+/secrets.yml 2 -
+/site/info.php 1 -
+/admin/payment 1 -
+/configuration 1 -
+/aws-config.json 2 -
+/cgi-bin/info.php 1 -
+/vite.config.js 1 -
+/stripe/credentials 1 -
+/sites/default/settings.php 2 -
+/includes/info.php 1 -
+/.env.staging 3 -
+/vendor/laravel-filemanager/js/script.js 3 -
+/admin/config.js 1 -
+/.env.production.local 2 -
+/api/stripe/keys 1 -
+/config/local.json 1 -
+/storage/logs/laravel.log 3 -
+/checkout.config.js 1 -
+/openapi.json 1 -
+/core/app/.env 1 -
+/upload/phpinfo.php 1 -
+/htdocs/phpinfo.php 1 -
+/.aws/credentials 3 -
+/backup/phpinfo.php 1 -
+/app/settings/production.py 1 -
+/app_dev.php/_profiler/open 1 -
+/.env.1 2 -
+/info_php.php 2 -
+/_next/data 7 -
+/build/static/js/bundle.js 1 -
+/.docker/config.json 2 -
+/var/log/nginx/error.log 1 -
+/modules/stripe.js 1 -
+/api/checkout.js 1 -
+/middleware/payment.js 1 -
+/settings.py 2 -
+/env.local 1 -
+/payment.py 1 -
+/backend/stripe.js 1 -
+/user/config/config.js 1 -
+/admin/info.php 1 -
+/new/.env 3 -
+/.env.js 1 -
+/app/config/parameters.yml 1 -
+/api_keys.js 1 -
+/system.ini 1 -
+/config/stripe.js 2 -
+/database.yml 1 -
+/payment.config.js 1 -
+/admin/php.php 1 -
+/wp-config.php 3 -
+/api/shared/.env 1 -
+/config.yml 3 -
+/settings.json 3 -
+/uploads/.env 1 -
+/public/js/stripe.js 1 -
+/logs/application.log 2 -
+/kubernetes/.env 1 -
+/uploads/info.php 1 -
+/config/constants.js 1 -
+/oauth.json 2 -
+/database/.env 1 -
+/test/info.php 1 -
+/assets/js/bundle.js 1 -
+/docker-compose.override.yml 2 -
+/js/main.js 1 -
+/var/www/html/error_log 2 -
+/keys.py 1 -
+/checkout.py 1 -
+/phpinfo.php.tmp 1 -
+/api/config/config.json 1 -
+/public/info.php 1 -
+/gatsby-config.js 1 -
+/constants.py 1 -
+/secrets.php 1 -
+/wp-config.php.bak 2 -
+/.api_keys 2 -
+/app.config.js 1 -
+/.env.backup 3 -
+/public/vendor/laravel-filemanager/js/script.js 3 -
+/config/environment.rb 1 -
+/swagger.js 1 -
+/config.py 2 -
+/static/js/vendor.js 1 -
+/site/.env 2 -
+/admin/controllers/partner.js 1 -
+/config/prod.js 1 -
+/web/.env 2 -
+/functions/.env 1 -
+/config/payment.json 1 -
+/Thumbs.db 2 -
+/php_info.php 2 -
+/secrets.json 4 -
+/gcp-credentials.json 2 -
+/checkout.json 1 -
+/routes/checkout.js 1 -
+/lambda/.env 1 -
+/_ignition/execute-solution 3 -
+/js/stripe.js 1 -
+/stripe.js 2 -
+/backup.sql 2 -
+/backend/.env 2 -
+/node_modules/.bin/env 1 -
+/api/shared/config/config.env 1 -
+/backend/config/production.yml 1 -
+/config/stripe.json 1 -
+/frontend/env.json 1 -
+/aws-config.js 1 -
+/.env.production 4 -
+/src/config.js 1 -
+/webpack.config.js 1 -
+/stripe-credentials.json 1 -
+/application-production.properties 1 -
+/config/settings.js 1 -
+/assets/.env 1 -
+/backend/config/default.yml 1 -
+/api/config/config.js 1 -
+/.pythonenv 1 -
+/info.php.txt 1 -
+/.env.remote 2 -
+/payments.json 1 -
+/static/js/2.ca066a4b.chunk.js 1 -
+/web/info.php 1 -
+/static/info.php 1 -
+/billing.js 1 -
+/secrets.rb 1 -
+/modules/.env 1 -
+/db_backup.sql 2 -
+/wp-config.php~ 1 -
+/src/keys.js 1 -
+/config/local_env.yml 1 -
+/phpinfo.php.bak 1 -
+/aws/credentials.bak 1 -
+/dev/test.php 1 -
+/app.config 1 -
+/keys.js 1 -
+/laravel/.env 1 -
+/application-prod.properties 1 -
+/.git/config 24 -
+/api/shared/config/.env 1 -
+/tmp/test.php 1 -
+/client/config.js 1 -
+/api/.env 2 -
+/phpversion.php 3 -
+/checkout/.env 1 -
+/django_settings.json 1 -
+/themes/.env 1 -
+/www/phpinfo.php 1 -
+/public/settings.json 1 -
+/controllers/stripe.js 1 -
+/configuration.json 1 -
+/stripe_keys.py 1 -
+/appsettings.Development.json 1 -
+/v2/.env 1 -
+/.dockerenv 2 -
+/payments.config.js 1 -
+/backend/config/stripe.js 1 -
+/keys.json 3 -
+/build/js/main.js 1 -
+/.wp-config.php.swp 1 -
+/controllers/checkout.js 1 -
+/.stripe 1 -
+/public/js/config.js 1 -
+/billing/config 1 -
+/yarn.lock 2 -
+/app/logs/prod.log 2 -
+/index.js 1 -
+/info3.php 2 -
+/stripe/secrets.json 1 -
+/exapi/.env 1 -
+/.env.test 4 -
+/aws/secrets.json 1 -
+/sitemaps/.env 1 -
+/config/stripe.yml 1 -
+/services/.env 1 -
+/controllers/payment.js 1 -
+/config/database.php 1 -
+/lab/.env 1 -
+/server/config/database.js 1 -
+/.env.dev.local 2 -
+/api/v2/config 2 -
+/2.php 2 -
+/secrets.ini 1 -
+/server/stripe.js 1 -
+/settings 1 -
+/database.json 1 -
+/app.py 1 -
+/settings.yml 2 -
+/includes/config.php 1 -
+/controllers/billing.js 1 -
+/dev/.env 1 -
+/controller/admin/post.js 1 -
+/configs/routes.js 1 -
+/Dockerfile 3 -
+/checkout.js 1 -
+/api/stripe/config 1 -
+/pi.php 2 -
+/sitemap.xml 1 -
+/config/application.yml 2 -
+/js/app.js 1 -
+/static/js/runtime-main.js 1 -
+/admin/phpinfo.php 1 -
+/.env.save 3 -
+/build/main.js 1 -
+/admin/settings 1 -
+/server/payment.js 1 -
+/secrets.py 2 -
+/stripe.ini 1 -
+/stripe/config.js 1 -
+/phpinfo.php.old 1 -
+/docs/swagger.json 1 -
+/server/config/payment.js 1 -
+/config.bak 1 -
+/static/js/app.js 1 -
+/public/config.js 1 -
+/.well-known/stripe 1 -
+/config.yaml 3 -
+/app/logs/dev.log 2 -
+/core/Datavase/.env 1 -
+/test.php.save 1 -
+/diagnostic.php 2 -
+/robots.txt 101 -
+/config/client.js 1 -
+/config/production.js 1 -
+/app.js 2 -
+/shared/config/config.js 1 -
+/assets/js/main.js 1 -
+/.env.2 2 -
+/public/phpinfo.php 1 -
+/payment.json 1 -
+/stripe.env 2 -
+/.env.secret 1 -
+/server/.env 2 -
+/settings.js 1 -
+/env 1 -
+/api/payment/config 1 -
+/api/config/config.yml 1 -
+/cgi-bin/phpinfo.php 1 -
+/php.php 2 -
+/credentials.json 3 -
+/wp-config.php.save 1 -
+/php_version.php 2 -
+/api_keys.json 2 -
+/dist/main.js 1 -
+/dist/app.js 1 -
+/config/credentials.yml.enc 1 -
+/config.backup 1 -
+/i.php 2 -
+/stripe.config.json 1 -
+/package-lock.json 1 -
+/helpers/payment.js 1 -
+/config/settings/local.py 1 -
+/.s3cfg 2 -
+/api/payment.js 1 -
+/static/config.json 1 -
+/php_error.log 2 -
+/app/etc/local.xml 2 -
+/info.php 4 -
+/portal/.env 1 -
+/stripe-config.js 1 -
+/config/billing.js 1 -
+/static/js/vendors.js 1 -
+/nuxt.config.js 1 -
+/.azure/credentials 2 -
+/config/keys.json 1 -
+/backup/info.php 1 -
+/htdocs/info.php 1 -
+/upload/info.php 1 -
+/_profiler/phpinfo 2 -
+/stripe.properties 1 -
+/api/stripe 1 -
+/prod/.env 1 -
+/config/secrets.yml 2 -
+/config/payments.json 1 -
+/local.settings.json 1 -
+/jenkins.yml 1 -
+/wp-config.php.old 1 -
+/config/.env 3 -
+/database.sql 2 -
+/.git/HEAD 1 -
+/python.config.json 1 -
+/1.php 2 -
+/aws/config 1 -
+/user.properties 1 -
+/cronlab/.env 1 -
+/composer.lock 1 -
+/site-backup.zip 2 -
+/application/.env 1 -
+/payment.config.json 1 -
+/phpinfo 2 -
+/pages/api/stripe.js 1 -
+/test/phpinfo.php 1 -
+/config.json 3 -
+/tokens.json 2 -
+/static/js/2.chunk.js 1 -
+/api/config.env 1 -
+/test.php 4 -
+/public/config.json 1 -
+/.gitignore 1 -
+/admin/test.php 1 -
+/.env 18 -
+/config/app.php 1 -
+/security.txt 2 -
+/aws-credentials.json 1 -
+/log/error.log 1 -
+/api/credentials 1 -
+/errors.log 2 -
+/s3.yml 2 -
+/api/stripe.js 2 -
+/api/action 7 -
+/rails.env 1 -
+/swagger.yml 1 -
+/backend/.env.production 1 -
+/saas/.env 1 -
+/tmp/info.php 1 -
+/tools/.env 1 -
+/plugins/.env 1 -
+/config.zip 2 -
+/config/settings.prod 1 -
+/.env.old 3 -
+/dev/info.php 1 -
+/stripe-keys.js 1 -
+/.env.stripe 1 -
+/nginx/.env 1 -
+/config/mail.php 1 -
+/config/production.json 1 -
+/static/phpinfo.php 1 -
+/debug.log 3 -
+/aws-keys.json 1 -
+/out/ 1 -
+/stripe-config.json 1 -
+/admin/settings.js 1 -
+/config/payment.js 1 -
+/public/test.php 1 -
+/middleware/stripe.js 1 -
+/old/info.php 1 -
+/public/js/app.js 1 -
+/web/test.php 1 -
+/aws/secrets.yaml 1 -
+/.aws/config 3 -
+/payments.js 1 -
+/src/config/api.js 1 -
+/info.php.save 1 -
+/build/static/js/main.js 1 -
+/api/v1/config 2 -
+/next.config.js 1 -
+/master.key.bak 1 -
+/src/utils/stripe.js 1 -
+/.vscode/.env 1 -
+/services/checkout.js 1 -
+/scripts/phpinfo.php 1 -
+/serverinfo.php 2 -
+/utils/stripe.js 1 -
+/stripe.config.js 1 -
+/error.log 3 -
+/services/payment.js 1 -
+/constants.js 1 -
+/conf/.env 1 -
+/backend/secrets.js 1 -
+/dist/js/main.js 1 -
+/payment/.env 2 -
+/services/stripe.js 1 -
+/config/settings.json 1 -
+/.travis.yml 1 -
+/aws/config.properties 1 -
+/routes/payment.js 1 -
+/helpers/utility.js 1 -
+/admin/controllers/payment.js 1 -
+/.circleci/configs/development.yml 1 -
+/config/private.js 1 -
+/database.properties 1 -
+/phpinfo.php 4 -
+/.env.bak 4 -
+/.well-known/security.txt 3 -
+/controller/api/post.js 1 -
+/.env.local 4 -
+/config/secrets.json 2 -
+/.env.php 1 -
+/node.config.json 1 -
+/psnlink/.env 1 -
+/config/database.yml 2 -
+/src/constants.js 1 -
+/local.ini 1 -
+/config/credentials.json 1 -
+/aws_keys.py 1 -
+/config/local.yml 1 -
+/static/js/main.js 1 -
+/app/.env 3 -
+/logs/error.log 2 -
+/.gitlab-ci.yml 1 -
+/swagger.json 1 -
+/server.php 2 -
+/app.log 1 -
+/config/local.py 1 -
+/config/settings.yml 1 -
+/static/js/main.141b0494.js 1 -
+/site/phpinfo.php 1 -
+/administrator/.env 1 -
+/debug.php 2 -
+/admin/keys 1 -
+/payment-config.js 1 -
+/config/initializers/secret_token.rb 1 -
+/api/config.js 2 -
+/config/parameters.yml 1 -
+/config/database.json 1 -
+/assets/js/app.js 1 -
+/secrets.js 2 -
+/manage.py 1 -
+/new/.env.local 2 -
+/core/.env 2 -
+/logs/app.log 1 -
+/api/.env.production 1 -
+/.env~ 1 -
+/backup.zip 2 -
+/apps/.env 2 -
+/settings/stripe 1 -
+/stripe-secret.json 1 -
+/public/stripe.json 1 -
+/api/billing/config 1 -
+/config/routes.rb 1 -
+/p.php 2 -
+/www/.env 1 -
+/settings/config.php 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 -
+/backup.tar.gz 2 -
+/global.json 1 -
+/storage/.env 1 -
+/v1/.env 1 -
+/var/log/apache2/error.log 1 -
+/controllers/settings.js 1 -
+/.env.example 2 -
+/php_info.php.save 1 -
+/info.php.bak 1 -
+/local/.env 1 -
+/application.properties 3 -
+/stripe_keys.js 1 -
+/app.ini 1 -
+/billing/.env 2 -
+/lib/payment.js 1 -
+/stripe/config.php 1 -
+/dist/ 1 -
+/api/billing.js 1 -
+/api/config/stripe.js 1 -
+/appsettings.json 1 -
+/.DS_Store 2 -
+/local.json 1 -
+/src/.env 2 -
+/config.js 3 -
+/auth.json 2 -
+/docker-compose.yml 3 -
+/.properties 1 -
+/payment.log 1 -
+/test.php.tmp 1 -
+/src/lib/stripe.js 1 -
+/user/controllers/index.js 1 -
+/pages/api/payment.js 1 -
+/checkout/config 1 -
+/.env.swp 1 -
+/assets/config.json 1 -
+/php_info.php.old 1 -
+/_debug 2 -
+/phptest.php 2 -
+/composer.json 2 -
+/.env.private 1 -
+/info.php.tmp 1 -
+/3.php 2 -
+/aws/config.ini 1 -
+/.next/static/ 1 -
+/aws/access-keys.js 1 -
+/.circleci/config.yml 1 -
+/html/info.php 1 -
+/stripe/config 2 -
+/admin.php 1 -
+/website/.env 1 -
+/.env.development 4 -
+/stripe.py 1 -
+/config/env/.env 1 -
+/www/info.php 1 -
+/config/live.js 1 -
+/app/api/payment/route.js 1 -
+/django.env 1 -
+/cron/.env 1 -
+/stripe.log 1 -
+/files/info.php 1 -
+/api-keys.json 1 -
+/new/.env.production 1 -
+/k8s-config.yml 2 -
+/static/js/main.chunk.js 1 -
+/vendor/stripe/ 1 -
+/info1.php 2 -
+/test.php.bak 1 -
+/js/.env 1 -
+/app/etc/env.php 2 -
+/lib/stripe.js 1 -
+/helper.js 1 -
+/client/.env 2 -
+/application.yml 2 -
+/php_info.php.bak 1 -
+/config/credentials.js 1 -
+/config/app.yml 1 -
+/logs/payment.log 1 -
+/server.js 2 -
+/admin/.env 2 -
+/static/stripe.json 1 -
+/docker/app/.env 1 -
+/.gcloud/credentials 2 -
+/.env.secrets 1 -
+/dist/bundle.js 1 -
+/info2.php 2 -
+/backend/config.js 1 -
+/static/js/main.e85f7a37.js 1 -
+/aws/credentials 1 -
+/admin/config.php 1 -
+/backend/payment.js 1 -
+/.next/server/pages/api/ 1 -
+/django.ini 1 -
+/stripe.yml 1 -
+/graphql 1 -
+/kubernetes.yml 2 -
+/assets/phpinfo.php 1 -
+/public/js/main.js 1 -
+/live/.env 1 -
+/public/_ignition/execute-solution 3 -
+/.aws/credentials.json 1 -
+/config/storage.yml 1 -
+/api/.env.local 1 -
+/.ruby-version 1 -
+/billing.json 1 -
+/local_settings.py 1 -
+/application.yaml 1 -
+/api/config 3 -
+/uploads/phpinfo.php 1 -
+/utils/payment.js 1 -
+/config.php 2 -
+/web/phpinfo.php 1 -
+/logs/stripe.log 1 -
+/app.json 1 -
+/development/.env 1 -
+/web.config 2 -
+/modules/payment.js 1 -
+/.env.prod 1 -
+/.git/ 3 -
+/api/checkout/config 1 -
+/test/test.php 1 -
+/stripe-secret.js 1 -
+/stripe_config.js 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 61
+209.38.89.131 4 4 0 20251218141355
+134.199.153.245 4 4 0 20251219023832
+170.64.129.112 4 4 0 20251219063138
+34.221.21.250 4 4 0 20251227104504
+3.140.182.19 3 3 0 20251221211414
+204.76.203.25 3 3 0 20251222124421
+34.244.231.81 2 2 0 20251217000317
+43.207.42.67 2 2 0 20251218071457
+154.28.229.215 2 2 0 20251202233855
+154.28.229.193 2 2 0 20251202092826
+51.20.64.112 2 2 0 20251209141704
+34.124.135.103 2 2 0 20251216013114
+195.178.110.54 2 2 0 20251204154258
+52.67.56.250 2 2 0 20251209162712
+195.178.110.155 2 2 0 20251206130500
+100.30.248.17 2 2 0 20251215072556
+51.20.65.255 2 2 0 20251211212524
+18.171.56.92 2 2 0 20251216151229
+119.3.49.128 2 2 0 20251208195429
+18.228.199.171 2 2 0 20251209183510
+16.147.7.175 2 2 0 20251218072914
+154.28.229.237 2 2 0 20251204010713
+103.4.250.50 2 2 0 20251202092827
+195.178.110.201 2 2 0 20251204150001
+35.78.112.174 1 1 0 20251205060714
+165.227.230.28 1 1 0 20251204135634
+199.45.154.134 1 1 0 20251201171846
+54.194.134.250 1 1 0 20251206043328
+3.85.231.242 1 1 0 20251217053430
+161.35.39.183 1 1 0 20251202161000
+205.210.31.234 1 1 0 20251227161637
+54.193.115.207 1 1 0 20251205081207
+103.196.9.49 1 1 0 20251203235310
+13.58.240.52 1 1 0 20251205082234
+206.168.34.54 1 1 0 20251218104838
+45.148.10.80 1 1 0 20251203155045
+18.206.89.243 1 1 0 20251217053430
+199.45.155.71 1 1 0 20251219153207
+160.22.214.87 1 1 0 20251227113758
+64.225.63.50 1 1 0 20251203084941
+18.118.110.96 1 1 0 20251201062339
+44.220.48.213 1 1 0 20251206010601
+66.132.153.122 1 1 0 20251227114005
+159.65.178.5 1 1 0 20251223234407
+162.142.125.218 1 1 0 20251222135614
+52.200.109.58 1 1 0 20251228053718 20251228053718 /
+171.97.228.230 1 1 0 20251227113758
+104.252.191.64 1 1 0 20251204010706
+104.236.76.64 1 1 0 20251208201453
+68.183.200.147 1 1 0 20251209214215
+107.172.195.66 1 1 0 20251202092827
+206.217.206.6 1 1 0 20251201014438
+103.4.251.239 1 1 0 20251202092821
+164.92.220.175 1 1 0 20251223032210
+147.182.250.58 1 1 0 20251201072122
+66.132.153.119 1 1 0 20251225140058
+147.185.132.85 1 1 0 20251222203330
+185.247.137.6 1 1 0 20251208174840
+87.236.176.152 1 1 0 20251218053713
+162.142.125.125 1 1 0 20251222122616
+154.28.229.94 1 1 0 20251202233855
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 23
+20251201 4 4 0 4
+20251202 12 12 0 9
+20251203 3 3 0 3
+20251204 8 8 0 7
+20251205 3 3 0 3
+20251206 4 4 0 3
+20251208 4 4 0 3
+20251209 8 8 0 5
+20251211 2 2 0 1
+20251212 1 1 0 1
+20251214 1 1 0 1
+20251215 2 2 0 2
+20251216 5 5 0 3
+20251217 5 5 0 4
+20251218 9 9 0 5
+20251219 9 9 0 3
+20251221 1 1 0 1
+20251222 4 4 0 4
+20251223 2 2 0 2
+20251225 1 1 0 1
+20251226 1 1 0 1
+20251227 5 5 0 5
+20251228 1 1 0 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+30s-2mn 1
+0s-30s 70
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 1
+/ 95 0 72 71
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 3
+100-500 3
+0-44 236
+1K-2K 990
+END_FILESIZE
+
+# Request Time Range - Request Time Frequency
+BEGIN_REQUESTTIME 0
+END_REQUESTTIME

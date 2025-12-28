@@ -1,0 +1,6 @@
+passwd:$6$J8N5cQl7eQtnzbQM$ygq2arg3uKNOHZjH48tRD8vI7PGrUfr0/YFbKGCMGTcX3dPUpgVKpNgSTp3AaEXRDEQR34cZEJ35Z3Tu3oPHb.
+quota:0
+homedir:/home/magentaw/mail/emil.magentaweb.org/contact
+strength:67
+lastchanged:-1
+perms:rw

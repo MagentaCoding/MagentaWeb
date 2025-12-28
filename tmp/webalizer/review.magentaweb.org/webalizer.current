@@ -1,0 +1,422 @@
+# Webalizer V2.23-08 Incremental Data - 12/28/2025 00:33:43
+2025 12 28 0 33 43
+379 12 75 4 3 33 564590 184 55 0
+1 1 138 1 28
+1 0 1745 1 0 0
+4 0 7713 4 3 3
+3 0 5702 3 2 2
+1 0 1745 1 0 0
+2 0 3705 2 1 1
+34 0 48085 5 9 4
+31 0 42168 2 6 1
+3 0 5437 2 1 1
+1 0 1745 1 0 0
+1 0 1745 1 0 0
+1 0 1745 1 0 0
+2 0 3746 2 1 1
+3 0 5501 3 1 1
+2 0 3711 2 1 1
+3 0 5425 2 1 1
+2 0 3760 2 1 1
+2 0 3419 2 1 1
+2 0 3711 2 1 1
+1 0 1745 1 0 0
+2 0 3698 2 1 1
+4 0 7608 4 3 3
+1 0 1745 1 0 0
+160 12 208371 25 120 13
+50 0 84708 7 12 7
+51 0 84544 8 11 6
+5 0 8650 4 3 3
+6 0 11108 3 4 2
+1 0 1605 1 1 1
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+32 0 44013 8
+9 0 16384 4
+0 0 0 0
+25 0 42373 5
+53 0 78763 10
+2 0 3700 1
+3 0 5441 1
+3 0 5441 1
+5 0 9600 4
+8 0 13403 6
+4 0 7268 3
+6 0 11619 5
+3 0 5353 2
+1 0 1745 0
+1 0 1745 0
+144 12 193317 103
+20 0 22501 19
+2 0 3490 0
+24 0 40670 5
+4 0 6980 0
+3 0 5304 2
+2 0 3490 0
+22 0 36547 4
+3 0 5443 1
+0
+0
+0
+12
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+4
+260
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+103
+0
+0
+# -urls- 
+/.well-known/acme-challenge/IW86YYKJ2I9X0Y6SCECQKZ0OO0EP-EZO
+0 1 7526769998777118817 64 0 0
+/.well-known/acme-challenge/O5173IXLNR05KFIE13UJ6HNY203669BV
+0 1 0 64 0 0
+/.well-known/acme-challenge/bIHnONqzFsMXSZmq45mpoocmNgkt50urBI3Loeyz9tc
+0 5 0 435 0 0
+/.well-known/acme-challenge/1alLB0GmtJn_Paajj3YY_l0bIeXXah_gBoFGHwegx70
+0 5 0 435 0 0
+# End Of Table - urls
+# -sites- (monthly)
+95.181.232.25
+0 1 0 1670 0 0
+-
+outbound1h.letsencrypt.org
+0 2 2 174 0 0
+-
+168.203.142.34.bc.googleusercontent.com
+0 2 0 3512 1 1766573296
+-
+ec2-13-60-184-31.eu-north-1.compute.amazonaws.com
+0 1 1 87 0 0
+-
+104.210.140.139
+0 2 0 3490 0 0
+-
+162.142.125.125
+0 1 0 1966 1 1765702472
+-
+104.210.140.142
+0 2 0 3490 0 0
+-
+104.210.140.132
+0 3 0 5235 0 0
+-
+ec2-47-129-30-227.ap-southeast-1.compute.amazonaws.com
+0 1 1 87 0 0
+-
+ec2-16-171-4-127.eu-north-1.compute.amazonaws.com
+0 1 1 87 0 0
+-
+webserver.bisecthosting.com
+0 2 2 128 0 0
+-
+192.71.2.56
+0 1 0 1674 1 1765945817
+-
+ec2-3-144-79-255.us-east-2.compute.amazonaws.com
+0 1 1 87 0 0
+-
+104.210.140.140
+0 1 0 1745 0 0
+-
+104.210.140.136
+0 2 0 3490 0 0
+-
+205.169.39.19
+0 1 0 1989 1 1766503907
+-
+134.209.205.244
+0 1 0 16 0 0
+-
+104.210.140.129
+0 3 0 5235 0 0
+-
+30.233.171.34.bc.googleusercontent.com
+0 1 0 1953 1 1766566575
+-
+205.169.39.182
+0 1 0 2004 1 1766503289
+-
+37.61.226.170
+0 1 0 2033 1 1766503937
+-
+ec2-35-166-214-21.us-west-2.compute.amazonaws.com
+0 1 1 87 0 0
+-
+194.180.49.168
+0 1 0 2012 1 1764689017
+-
+104.210.140.143
+0 2 0 3490 0 0
+-
+ec2-34-217-53-244.us-west-2.compute.amazonaws.com
+0 1 1 87 0 0
+-
+142.93.148.50
+0 2 0 3618 1 1766798241
+-
+138.197.136.210
+0 2 0 3696 1 1766473858
+-
+104.210.140.134
+0 1 0 1745 0 0
+-
+37.61.226.235
+0 1 0 1731 0 0
+-
+scanner-202.ch1.censys-scanner.com
+0 1 0 1966 1 1766056069
+-
+34.117.168.34.bc.googleusercontent.com
+0 1 0 1953 1 1766272753
+-
+josh.probe.onyphe.net
+0 1 0 1968 1 1766504753
+-
+untiring.monitoring.internet-measurement.com
+0 1 0 1977 1 1764760428
+-
+45.148.10.249
+0 30 0 40398 1 1764995833
+-
+worthy.monitoring.internet-measurement.com
+0 1 0 1976 1 1764982995
+-
+104.170.123.34.bc.googleusercontent.com
+0 1 0 1992 1 1766503878
+-
+2.57.122.173
+0 3 0 5745 1 1766829563
+-
+227.190.126.34.bc.googleusercontent.com
+0 2 0 3608 1 1766665696
+-
+164.90.150.141
+0 2 0 3694 1 1766591333
+-
+69.35.23.34.bc.googleusercontent.com
+0 1 0 1955 1 1766553464
+-
+104.210.140.135
+0 3 0 5235 0 0
+-
+64.227.190.89
+0 2 0 3692 1 1766763806
+-
+stalwart.monitoring.internet-measurement.com
+0 1 0 1980 1 1764663281
+-
+great.monitoring.internet-measurement.com
+0 1 0 1980 1 1764755366
+-
+67.207.94.172
+0 2 0 3692 1 1765226774
+-
+209.38.71.176
+0 2 0 3680 1 1765763200
+-
+htb-nsbnk6nvrh.htb-cloud.com
+0 2 0 3620 1 1766627988
+-
+ec2-13-214-33-64.ap-southeast-1.compute.amazonaws.com
+0 1 1 87 0 0
+-
+186.89.237.35.bc.googleusercontent.com
+0 1 0 1957 1 1766569818
+-
+65.87.7.112
+0 63 0 65544 2 1766506574
+-
+104.210.140.141
+0 1 0 1745 0 0
+-
+104.210.140.138
+0 2 0 3490 0 0
+-
+enduring.monitoring.internet-measurement.com
+0 1 0 1976 1 1764675090
+-
+ec2-100-30-248-17.compute-1.amazonaws.com
+0 2 0 4026 2 1765909544
+-
+scan.cypex.ai
+0 1 0 1985 1 1764980223
+-
+31.185.57.34.bc.googleusercontent.com
+0 1 0 1956 1 1766305133
+-
+226.184.173.34.bc.googleusercontent.com
+0 1 0 1954 1 1766663495
+-
+ec2-54-208-67-139.compute-1.amazonaws.com
+0 1 0 2001 1 1765538441
+-
+71.12.23.34.bc.googleusercontent.com
+0 1 0 1951 1 1766297044
+-
+8.109.247.35.bc.googleusercontent.com
+0 1 0 1956 1 1766288123
+-
+205.169.39.21
+0 1 0 2006 1 1766503284
+-
+104.210.140.130
+0 4 0 6980 0 0
+-
+188.241.177.42
+0 1 0 1996 1 1766503214
+-
+104.210.140.131
+0 3 0 5235 0 0
+-
+167.94.146.62
+0 1 0 1960 1 1764925419
+-
+dec04dc34a.scan.leakix.org
+0 36 0 58426 1 1766503238
+-
+192.71.142.35
+0 1 0 1612 1 1766782646
+-
+scanner-07.ch1.censys-scanner.com
+0 1 0 1964 1 1766686234
+-
+bf57ea116e.scan.leakix.org
+0 36 0 58601 1 1766503239
+-
+194.180.49.171
+0 30 0 40423 1 1765068254
+-
+ec2-3-145-158-207.us-east-2.compute.amazonaws.com
+0 1 1 87 0 0
+-
+milla.probe.onyphe.net
+0 1 0 1972 1 1766504592
+-
+208.84.101.66
+0 84 0 139784 4 1766686811
+-
+considerable.monitoring.internet-measurement.com
+0 1 0 1981 1 1764992041
+-
+lumeweaver.com
+0 2 0 3206 2 1766882023
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+lumeweaver.com
+0 1 0 1605 1 1766882023
+-
+# End Of Table - sites (daily)
+# -referrers- 
+http://review.magentaweb.org/
+0 4
+http://www.review.magentaweb.org/
+0 4
+- (Direct Request)
+0 371
+# End Of Table - referrers
+# -agents- 
+cypex.ai/scanning Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0
+0 1
+python-requests/2.32.5
+0 3
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0
+0 2
+Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)
+0 6
+Mozilla/5.0 (compatible; LumeWebScan/2.0; +https://lumeweaver.com/)
+0 2
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Linux x86_64) Firefox/117.0
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)
+0 73
+curl/7.83.1
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 2
+Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+0 4
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compat
+0 29
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115
+0 1
+Mozilla/5.0 (iPhone; CPU iPhone OS 17_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Mobile/15E14
+0 1
+Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (l9scan/2.0.1333e26373e2231313e24373; +https://leakix.net)
+0 70
+Mozilla/5.0 (iPhone; CPU iPhone OS 17_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/116.0.5845.177 Mobile/1
+0 2
+Cpanel-HTTP-Client/1.0
+0 2
+Mozilla/5.0 (X11; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0
+0 4
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+0 84
+python-httpx/0.28.1
+0 60
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+0 6
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+0 4
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.132 Safari/537.36
+0 1
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (compatible; CMS-Checker/1.0; +https://example.com)
+0 8
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0
+0 1
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

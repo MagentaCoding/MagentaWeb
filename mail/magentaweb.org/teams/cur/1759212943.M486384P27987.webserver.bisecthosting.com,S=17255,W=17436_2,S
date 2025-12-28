@@ -1,0 +1,181 @@
+Return-Path: <account-security-noreply@accountprotection.microsoft.com>
+Delivered-To: teams@magentaweb.org
+Received: from webserver.bisecthosting.com
+	by webserver.bisecthosting.com with LMTP
+	id COV4HI9122hTbQAAufviug
+	(envelope-from <account-security-noreply@accountprotection.microsoft.com>)
+	for <teams@magentaweb.org>; Tue, 30 Sep 2025 02:15:43 -0400
+Return-path: <account-security-noreply@accountprotection.microsoft.com>
+Envelope-to: teams@magentaweb.org
+Delivery-date: Tue, 30 Sep 2025 02:15:43 -0400
+Received: from mail-westusazon11020110.outbound.protection.outlook.com ([52.101.85.110]:14547 helo=BYAPR05CU005.outbound.protection.outlook.com)
+	by webserver.bisecthosting.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.98.2)
+	(envelope-from <account-security-noreply@accountprotection.microsoft.com>)
+	id 1v3TeJ-000000007Dw-0fZF
+	for teams@magentaweb.org;
+	Tue, 30 Sep 2025 02:15:43 -0400
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=E3vhRiekpaG8ECNdRRb/FwfAnO8La3/7UeLJHyHW9VTdVvl96GtqNfwJB3JyM8yOD5v17gCWrcWsxNyDFwMUll6jkkuJcq5GfW5nRS2Vz7FrL/YQQ/xv52gOfauY3be9w8XiZT9/NvBIq/80xYSJx5CXGPh2Gf/JeRiE672QK2ajiMjgrW9q6MAX3fb2xAoHOWh/B9ry/XgXwLuOZoF1Sg85hwNxaUCM5APC5ctGx/nI4mkyZc341CgC5jkr16/oNtdKaq8/n3XFofNVjlkYLaReeXi0k3YeU+KdZidcChbkwtiZYrEMI5pkB7NPK5SWDXvVEbpzVbIBGrSb9giigg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=HGORSkfmO2Mhz3EBo9v3yJU5asYeJqOKur+z2wp8+aE=;
+ b=PqqhO7/E/bwU444itYSjeDaAogLQ/csdAnMCzWlJQW9+soERO8K1gGSqMdLpX4MSc4J0aGv7tjVlfzVfG5HuidvlYQE3Bk/NWrb8Eu+dQ22E1e2yeq3dRfb3eqFJPoaiQlW8rVXRCV/U8WGPIQ9VGUUQ6tckMOh5JKa2JG61d5tzUUU042+JUbUkZtBJYtYHna/r1j3BDVpl3CMrERcvxShEuMXWpwQkq+rkL8SRNJuBgt9BgTlr/1CJzmKOmpGgwn7Cam6iC+MO8mzBMTlI4i27dWj5xSYjunEBLYYdJ3SNllKeQVCgBDfqpWEVvi3kadfbQt7M+xH5PURkK57zdQ==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none
+ action=none header.from=accountprotection.microsoft.com; dkim=none (message
+ not signed); arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=accountprotection.microsoft.com; s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=HGORSkfmO2Mhz3EBo9v3yJU5asYeJqOKur+z2wp8+aE=;
+ b=ZhYxd4BuODc5NFRLBe5OdiPSU6KM0SPuObW/XSFOB9hUlqA1mFN+yWRVx/87O+PDG5Q+3CaxRZKZPkC2uFOU45GOGia7WkAz1zKv8hmImV34Q/J3QoQPhzLC9YEHHpPB0ZtbrTekfQ55zzSo/GUiZPIPOzyHZMXch50D6ClIU6k=
+Received: from DM6PR08CA0059.namprd08.prod.outlook.com (2603:10b6:5:1e0::33)
+ by LV3PR16MB6320.namprd16.prod.outlook.com (2603:10b6:408:1d4::14) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.9160.17; Tue, 30 Sep
+ 2025 06:15:00 +0000
+Received: from CY4PEPF0000FCC2.namprd03.prod.outlook.com
+ (2603:10b6:5:1e0:cafe::ed) by DM6PR08CA0059.outlook.office365.com
+ (2603:10b6:5:1e0::33) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.20.9160.17 via Frontend Transport; Tue,
+ 30 Sep 2025 06:15:00 +0000
+X-MS-Exchange-Authentication-Results: spf=none (sender IP is 72.152.173.88)
+ smtp.mailfrom=accountprotection.microsoft.com; dkim=none (message not signed)
+ header.d=none;dmarc=none action=none
+ header.from=accountprotection.microsoft.com;
+Received: from accountprotection.microsoft.com (72.152.173.88) by
+ CY4PEPF0000FCC2.mail.protection.outlook.com (10.167.242.104) with Microsoft
+ SMTP Server (version=TLS1_3, cipher=TLS_AES_256_GCM_SHA384) id 15.20.9160.9
+ via Frontend Transport; Tue, 30 Sep 2025 06:14:59 +0000
+From: Microsoft-Konto-Team
+	<account-security-noreply@accountprotection.microsoft.com>
+Date: Mon, 29 Sep 2025 23:14:59 -0700
+Subject: =?utf-8?b?QmVzdMOkdGlnZW4=?= Sie Ihre E-Mail-Adresse
+To: teams@magentaweb.org
+X-Priority: 3
+X-MSAPipeline: MessageDispatcherEOP
+Message-ID: <GYH4UJ37CRU4.UC7XF6Q40OC23@bl02epf00024f2e>
+X-MSAMetaData: =?utf-8?q?DvLOsolAZMqcYGNMbeQC*ubU1b4rMYnDSKsMEiqX3E92UJXHAprU1oFjdYXyK?=
+ =?utf-8?q?10PIh5RsASMtY11PWQ28alyAF0M48Y!Zq*gF7WsiTNvm7NH1ZkWHW!9n7tydh?=
+ =?utf-8?q?LxxyBsLw$$?=
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="=-N2sLI6Cs5PaYUTqI5Ukq8A=="
+X-MS-TrafficTypeDiagnostic:
+	CY4PEPF0000FCC2:EE_FirstParty-MicrosoftAccount-V3-System|LV3PR16MB6320:EE_FirstParty-MicrosoftAccount-V3-System
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 1d0c63ca-a89d-4c1a-169c-08ddffe8afaf
+X-MS-Exchange-SenderADCheck: 1
+X-MS-Exchange-AntiSpam-Relay: 0
+X-Microsoft-Antispam:
+	BCL:0;ARA:13230040|61400799027|376014|13003099007|8096899003;
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?VXF6OURMWnlpUm9YdFpja09WbmszMkgzL1Zza2xkWU1rRXRvRkNzSFBMRTFx?=
+ =?utf-8?B?TWlTOTZZR0lySUZDSTZObDhLZGpKTmIwR0RHS0xGeHJ6RGUwQzhKNmJvdGJr?=
+ =?utf-8?B?TzlXSktYcTBIMkloUmRTb01DeHdtMTdXS3dOMWpQTmFVRWFQbXA3ZEZGNk14?=
+ =?utf-8?B?MGtMR0hJYVlCN0tEUWM0UXdITVV0aXprc2pOR2JHdEpRQUZ4bXNxSWJocFFp?=
+ =?utf-8?B?SmJReHAzWGdha2UzaTRuSlErN0c5Q1A4SFFpRm1lVUx2UXF6ZjZ0eVYvQWpC?=
+ =?utf-8?B?blRMMkIzMmlML2R3dGNZRDVycG5NOFZnZVZsYlhCYUh6WHNOajFMZjVMUG9Q?=
+ =?utf-8?B?NHF5U2hUcGZpdVl5Sm8zNXJLcWszb0REc1ZoUWNTTWZET1lXNkZyTGVwUDdE?=
+ =?utf-8?B?L1h0UDNlLzZZMnF4V1V1ZHpaMkx4WHdtQ0hZYlllM0p6aVdsVFZibDJaU01z?=
+ =?utf-8?B?cnJoRks0ZkxjcUZDRWt5VTdYd0ROUU1mY3F0NGZvWTJmQ0ZRNklzb2J4L2h2?=
+ =?utf-8?B?dDJ2ZjVWbFpMaUhFYVRYTFlFRVlyUGhVVFpIaUxEZ1JHaUFRY2tVcktha2Zw?=
+ =?utf-8?B?cGltZzZRT2lTWEVnK05PWXVKYUZmNDhRaFE1VG4zMm9ac3UxYTltOU5IQlV5?=
+ =?utf-8?B?TVlaWEY5Tmx2dWxZZGxSRzJPdVdtZ2FZYm52b1h5ZE9Kbm95eXZ1RXhBNnIx?=
+ =?utf-8?B?K1U3V3VIT1FSYnNpQ0QrNkQxQjlPZG5oRWt6dWZTS1c0VmRIS0RkQmJRbHpC?=
+ =?utf-8?B?V2dFZ2ZhZFR0bzRxZFdYWEhpSTB4ZDNGb3pVV2UrNG5XdEVFQUN3N2cyaUpk?=
+ =?utf-8?B?bXNyYnNnTkt5a0dJMGhCckcvMk9XUzFrK3ZnNjU3MGF5d3J3YVhvVnYzVXJS?=
+ =?utf-8?B?VGx6b0FlV3phbzhEN2lzZDRGMlB4UGZxWVZMKzJVN3c2NVQ3S01aZHk3eGpY?=
+ =?utf-8?B?M3pxNm9rQmpCNGFXcHhlUTBOQklHUG5iRXljUTVlejJnSmJ6ZElHVE0xTU12?=
+ =?utf-8?B?NVBQUEdLcko2UEg1T014K2Y1TWFnbWo3QVJmNHRBZTFWZW5MeDAvZ0VGVWZF?=
+ =?utf-8?B?UHVQcVlac2xZbjBXQ0hFRlRPb1hPNlhSbDFGVWQxVlhJMXVJRWk0dnprY1ZK?=
+ =?utf-8?B?eXdNRk1Tcmt0UlJsR0xYSUFpbTJFTmdBNENrOTRNdnFuZzhlaUNUWEsyT25L?=
+ =?utf-8?B?eGZQYjBxYUE4VXlmZ2xPbUppRVQwY3U2V1IrdVJidkdiNnRlRlJ2TCtYVzhP?=
+ =?utf-8?B?VEJGNGNNN2h4K3ViZCtad0pQZTQwODN5dmU1d2FFWTZmQ1pML3VIK005aE5M?=
+ =?utf-8?B?UTJTMHdKdnJsY2VTc1FyWnRtR2JCc3hzL3BIeEZxU1RVcnhpZTRXQXRRMFY3?=
+ =?utf-8?B?cnI1Q1hRVXRQeTZxdUdIdlhKSnBzZTgyeE82YndxY3dXY3hrSWI0cHVITURY?=
+ =?utf-8?B?dUs5bHlGT1R4K0tQQ2szVXorZGpxTTA4eHNqeVQydXhjbE1ya1VhRGIxakdI?=
+ =?utf-8?B?bWpjTnFNMDgwQXN6WkZqcHJMZG00NG5YZEd0aWpUaTc3L3pSVzk4Wnd0Nloy?=
+ =?utf-8?B?Tkc5K2dZVS9YcGpIQ1Z4dlJIL0xrK1BlYVRoSkNEUmIwNzA5c2tXS2Z4M3Ux?=
+ =?utf-8?B?U09CaVRFeXcvOWZlbEVnM1FjcHJRUjVReUNNdTF5b0F1aHV0NTF6NzhFWnJi?=
+ =?utf-8?B?T1Rjb1FXL1gvSXl5aDZ0MkhNTkI3RS9RTnBTYk1RM3dvcE1ocTgvcERXUnVM?=
+ =?utf-8?B?cjZPQkZRcEk5SXRXKzBvcXJHemR0VnpPb2hWbzhJWWUyU2xBMy9nWlQ1d2NW?=
+ =?utf-8?B?cFFuWkhmSUpJNkkwNllPU3EzZnhma0dnZElBbmg3Wng0YjV2TllwVDFHbFpZ?=
+ =?utf-8?B?emVna1JwbWt1ZUxwTWxhVnN0akpPekdIckdRU3hpa1ZqV090eHFmbHM5R1BE?=
+ =?utf-8?B?bkE0MnVoeWc2NGhqaGFESzYxZzg1YTEraXB0R2NTQXNrNmlkNHE0SFB5Mjg2?=
+ =?utf-8?B?bFA5MWpvTUcyOGNUSlpsK2JCd3hucjFnVzdvVC96SW9CcHp6bFVwRXRBRXVz?=
+ =?utf-8?B?ZUFMRldGelZuWGFFZEJrWjc5dFpWWDJ0WlU4VmZUcXM1UDZBMUdoeFF6Rlk4?=
+ =?utf-8?Q?znYs=3D?=
+X-Forefront-Antispam-Report:
+	CIP:72.152.173.88;CTRY:US;LANG:de;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:accountprotection.microsoft.com;PTR:InfoDomainNonexistent;CAT:NONE;SFS:(13230040)(61400799027)(376014)(13003099007)(8096899003);DIR:OUT;SFP:1102;
+X-MS-Exchange-AntiSpam-MessageData-ChunkCount: 1
+X-MS-Exchange-AntiSpam-MessageData-0:
+	ybxwdjFH83TuC2HeWlNYetVHzxJ5ksJMNDsp2jfL1q+tn5jiuaQ4mpaot7y3PIKIls25gX7H0hOGkDucLqxvT8ap/ra78fxJq5kDw8iy97tUuD3blmATzDeTP8AqGbMr+4F0SvKV+un3IwzDtUhxeXlKS/7CuxqytxSAev2zzYv6sLNBHL3Ns2Ti9jBlOWc7a1p91jtUWLTLUSvnr2370Zi9sYW0Z2hHLNS3JwJuDnDAsNCNkcIPjQyTXywK2hku3h9MgVLHjxK6b6n/31+i1QIZVU2g7oRHIwsWKocrKY6X0FDvyZnIDJThegTyqE5L10v75HenlcZRIDczJTRqlZtdWBZZ2qLXioCaU2HCYtDwbGHzz+9woBFatVtYHLLwQDIOb9MX8YBEOImRcAt7EdUY9VhrhMRhGQNx5WbWJMM7N4wL6dw9GSBDPZhkijAo6DMxmL5aEPCAthifHkCGGOGLMKgZPagZrv/BVVEqqqFzQ+5IEqNJgP7t9bCHYYoOdeVxmvs/GWLTMlmHK2pgQg==
+X-OriginatorOrg: accountprotection.microsoft.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 30 Sep 2025 06:14:59.9669
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 1d0c63ca-a89d-4c1a-169c-08ddffe8afaf
+X-MS-Exchange-CrossTenant-Id: 5ba90553-c2cd-460e-b5fd-ab93ad9155c7
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=5ba90553-c2cd-460e-b5fd-ab93ad9155c7;Ip=[72.152.173.88];Helo=[accountprotection.microsoft.com]
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: TreatMessagesAsInternal-CY4PEPF0000FCC2.namprd03.prod.outlook.com
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: LV3PR16MB6320
+X-Spam-Status: No, score=-16.2
+X-Spam-Score: -161
+X-Spam-Bar: ----------------
+X-Ham-Report: =?ISO-8859-1?Q?Spam_detection_software=2C_running_on_the_system_=22webserver=2Ebise?= =?ISO-8859-1?Q?cthosting=2Ecom=22=2C=0A_has_NOT_identified_this_inco?= =?ISO-8859-1?Q?ming_email_as_spam=2E__The_original=0A_message_has_be?= =?ISO-8859-1?Q?en_attached_to_this_so_you_can_view_it_or_label=0A_si?= =?ISO-8859-1?Q?milar_future_email=2E__If_you_have_any_questions=2C_s?= =?ISO-8859-1?Q?ee=0A_root=5C=40localhost_for_details=2E=0A_Content_p?= =?ISO-8859-1?Q?review=3A__Microsoft-Konto_Best=C3=A4tigen_Sie_Ihre_E?= =?ISO-8859-1?Q?-Mail-Adresse_Um_die=0A____Einrichtung_dieses_Microso?= =?ISO-8859-1?Q?ft-Kontos_abzuschlie=C3=9Fen=2C_m=C3=BCssen_wir_nur_n?= =?ISO-8859-1?Q?och=0A___sicherstellen=2C_dass_diese_E-Mail-Adresse_I?= =?ISO-8859-1?Q?hnen_geh=C3=B6rt=2E_=0A_Content_analysis_details=3A__?= =?ISO-8859-1?Q?_=28-16=2E2_points=2C_5=2E0_required=29=0A__pts_rule_?= =?ISO-8859-1?Q?name______________description=0A_----_---------------?= =?ISO-8859-1?Q?-------_---------------------------------------------?= =?ISO-8859-1?Q?-----=0A__0=2E0_RCVD=5FIN=5FVALIDITY=5FCERTIFIED=5FBL?= =?ISO-8859-1?Q?OCKED_RBL=3A_ADMINISTRATOR_NOTICE=3A_The=0A__________?= =?ISO-8859-1?Q?___________________query_to_Validity_was_blocked=2E__?= =?ISO-8859-1?Q?See=0A_____________________________https=3A//knowledg?= =?ISO-8859-1?Q?e=2Evalidity=2Ecom/hc/en-us/articles/20961730681243=0A_?= =?ISO-8859-1?Q?_____________________________for_more_information=2E=0A?= =?ISO-8859-1?Q?__________________________=5B52=2E101=2E85=2E110_list?= =?ISO-8859-1?Q?ed_in_sa-trusted=2Ebondedsender=2Eorg=5D=0A__0=2E0_RC?= =?ISO-8859-1?Q?VD=5FIN=5FVALIDITY=5FRPBL=5FBLOCKED_RBL=3A_ADMINISTRA?= =?ISO-8859-1?Q?TOR_NOTICE=3A_The_query_to=0A________________________?= =?ISO-8859-1?Q?______Validity_was_blocked=2E__See=0A________________?= =?ISO-8859-1?Q?_____________https=3A//knowledge=2Evalidity=2Ecom/hc/?= =?ISO-8859-1?Q?en-us/articles/20961730681243=0A_____________________?= =?ISO-8859-1?Q?_________for_more_information=2E=0A__________________?= =?ISO-8859-1?Q?___________=5B52=2E101=2E85=2E110_listed_in_bl=2Escor?= =?ISO-8859-1?Q?e=2Esenderscore=2Ecom=5D=0A__0=2E0_RCVD=5FIN=5FVALIDI?= =?ISO-8859-1?Q?TY=5FSAFE=5FBLOCKED_RBL=3A_ADMINISTRATOR_NOTICE=3A_Th?= =?ISO-8859-1?Q?e_query_to=0A______________________________Validity_w?= =?ISO-8859-1?Q?as_blocked=2E__See=0A_____________________________htt?= =?ISO-8859-1?Q?ps=3A//knowledge=2Evalidity=2Ecom/hc/en-us/articles/2?= =?ISO-8859-1?Q?0961730681243=0A______________________________for_mor?= =?ISO-8859-1?Q?e_information=2E=0A_____________________________=5B52?= =?ISO-8859-1?Q?=2E101=2E85=2E110_listed_in_sa-accredit=2Ehabeas=2Eco?= =?ISO-8859-1?Q?m=5D=0A__0=2E0_RCVD=5FIN=5FZEN=5FBLOCKED=5FOPENDNS_RB?= =?ISO-8859-1?Q?L=3A_ADMINISTRATOR_NOTICE=3A_The_query_to=0A_________?= =?ISO-8859-1?Q?____________________zen=2Espamhaus=2Eorg_was_blocked_?= =?ISO-8859-1?Q?due_to_usage_of_an=0A______________________________op?= =?ISO-8859-1?Q?en_resolver=2E_See=0A_____________________________htt?= =?ISO-8859-1?Q?ps=3A//www=2Espamhaus=2Eorg/returnc/pub/=0A__________?= =?ISO-8859-1?Q?___________________=5B52=2E101=2E85=2E110_listed_in_z?= =?ISO-8859-1?Q?en=2Espamhaus=2Eorg=5D=0A_-7=2E5_USER=5FIN=5FDEF=5FDK?= =?ISO-8859-1?Q?IM=5FWL____From=3A_address_is_in_the_default_DKIM_wel?= =?ISO-8859-1?Q?come-list=0A_-0=2E0_SPF=5FPASS_______________SPF=3A_s?= =?ISO-8859-1?Q?ender_matches_SPF_record=0A_-0=2E0_SPF=5FHELO=5FPASS_?= =?ISO-8859-1?Q?_________SPF=3A_HELO_matches_SPF_record=0A_-7=2E5_USE?= =?ISO-8859-1?Q?R=5FIN=5FDEF=5FSPF=5FWL_____From=3A_address_is_in_the?= =?ISO-8859-1?Q?_default_SPF_welcome-list=0A_-0=2E1_DKIM=5FVALID=5FEF?= =?ISO-8859-1?Q?__________Message_has_a_valid_DKIM_or_DK_signature_fr?= =?ISO-8859-1?Q?om=0A_____________________________envelope-from_domai?= =?ISO-8859-1?Q?n=0A_-0=2E1_DKIM=5FVALID_____________Message_has_at_l?= =?ISO-8859-1?Q?east_one_valid_DKIM_or_DK_signature=0A__0=2E0_ARC=5FV?= =?ISO-8859-1?Q?ALID______________Message_has_a_valid_ARC_signature=0A_?= =?ISO-8859-1?Q?_0=2E0_ARC=5FSIGNED_____________Message_has_a_ARC_sig?= =?ISO-8859-1?Q?nature=0A_-0=2E1_DKIM=5FVALID=5FAU__________Message_h?= =?ISO-8859-1?Q?as_a_valid_DKIM_or_DK_signature_from_author's=0A_____?= =?ISO-8859-1?Q?________________________domain=0A__0=2E1_DKIM=5FSIGNE?= =?ISO-8859-1?Q?D____________Message_has_a_DKIM_or_DK_signature=2C_no?= =?ISO-8859-1?Q?t_necessarily_valid=0A__0=2E0_HTML=5FMESSAGE_________?= =?ISO-8859-1?Q?__BODY=3A_HTML_included_in_message=0A_-0=2E5_ENV=5FAN?= =?ISO-8859-1?Q?D=5FHDR=5FSPF=5FMATCH__Env_and_Hdr_From_used_in_defau?= =?ISO-8859-1?Q?lt_SPF_WL_Match=0A_-0=2E5_DKIMWL=5FWL=5FHIGH_________?= =?ISO-8859-1?Q?DKIMwl=2Eorg_-_High_trust_sender?=
+X-Spam-Flag: NO
+
+--=-N2sLI6Cs5PaYUTqI5Ukq8A==
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Microsoft-Konto
+
+Bestätigen Sie Ihre E-Mail-Adresse
+
+Um die Einrichtung dieses Microsoft-Kontos abzuschließen, müssen wir nur noch sicherstellen, dass diese E-Mail-Adresse Ihnen gehört.
+
+Verwenden Sie zum Bestätigen Ihrer E-Mail-Adresse den folgenden Sicherheitscode: 209527
+
+Wenn Sie diesen Code nicht angefordert haben, können Sie diese E-Mail ignorieren, da Ihre E-Mail-Adresse u. U. versehentlich von einer anderen Person eingegeben wurde.
+
+Mit freundlichen Grüßen
+Ihr Microsoft-Konto-Team 
+Datenschutzerklärung​: https://go.microsoft.com/fwlink/?LinkId=521839 | Impressum: https://aka.ms/impressum_de
+Microsoft Corporation, One Microsoft Way, Redmond, WA 98052
+
+--=-N2sLI6Cs5PaYUTqI5Ukq8A==
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr"> 
+<head>
+<style type="text/css">
+ .link:link, .link:active, .link:visited {
+       color:#2672ec !important;
+       text-decoration:none !important;
+ }
+
+ .link:hover {
+       color:#4284ee !important;
+       text-decoration:none !important;
+ }
+</style>
+<title></title>
+</head>
+<body>
+<table dir="ltr">
+      <tr><td id="i1" style="padding:0; font-family:'Segoe UI Semibold', 'Segoe UI Bold', 'Segoe UI', 'Helvetica Neue Medium', Arial, sans-serif; font-size:17px; color:#707070;">Microsoft-Konto</td></tr>
+      <tr><td id="i2" style="padding:0; font-family:'Segoe UI Light', 'Segoe UI', 'Helvetica Neue Medium', Arial, sans-serif; font-size:41px; color:#2672ec;">Bestätigen Sie Ihre E-Mail-Adresse</td></tr>
+      <tr><td id="i4" style="padding:0; padding-top:25px; font-family:'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size:14px; color:#2a2a2a;">Um die Einrichtung dieses Microsoft-Kontos abzuschließen, müssen wir nur noch sicherstellen, dass diese E-Mail-Adresse Ihnen gehört.</td></tr>
+      <tr><td style="padding:0; padding-top:25px; font-family:'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size:14px; color:#2a2a2a;">Verwenden Sie zum Bestätigen Ihrer E-Mail-Adresse den folgenden Sicherheitscode: <span style="font-family:'Segoe UI Bold', 'Segoe UI Semibold', 'Segoe UI', 'Helvetica Neue Medium', Arial, sans-serif; font-size:14px; font-weight:bold; color:#2a2a2a;">209527</span></td></tr>
+      <tr><td id="i6" style="padding:0; padding-top:25px; font-family:'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size:14px; color:#2a2a2a;">Wenn Sie diesen Code nicht angefordert haben, können Sie diese E-Mail ignorieren, da Ihre E-Mail-Adresse u. U. versehentlich von einer anderen Person eingegeben wurde.</td></tr>
+      <tr><td style="padding:0; padding-top:25px; font-family:'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size:14px; color:#2a2a2a;">Mit freundlichen Grüßen</td></tr>
+      <tr><td id="i8" style="padding:0; font-family:'Segoe UI', Tahoma, Verdana, Arial, sans-serif; font-size:14px; color:#2a2a2a;">Ihr Microsoft-Konto-Team</td></tr>
+</table>
+<div lang="de" style="margin-top:20px;margin-bottom:10px;"><a class="link" href="https://go.microsoft.com/fwlink/?LinkId=521839">Datenschutzerklärung​</a> | <a class="link" href="https://aka.ms/impressum_de">Impressum</a><div style="margin-top:10px;">Microsoft Corporation, One Microsoft Way, Redmond, WA 98052</div></div></body>
+</html>
+--=-N2sLI6Cs5PaYUTqI5Ukq8A==--

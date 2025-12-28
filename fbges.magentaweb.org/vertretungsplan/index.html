@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Vertretungspläne</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  #nav select, #nav button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  iframe {
+    width: 100%;
+    height: 85vh;
+    border: none;
+    margin-top: 10px;
+  }
+</style>
+</head>
+<body>
+
+<h1>Vertretungspläne</h1>
+
+<div id="nav">
+  <select id="sourceSelect" onchange="sourceChanged()">
+    <option value="default">Default</option>
+    <option value="klasse">Klassen</option>
+    <option value="mnspro">MNS Pro</option>
+  </select>
+
+  <select id="classSelect" style="display:none;" onchange="updateClassFrame()">
+    <!-- Klassen werden per JS hinzugefügt -->
+  </select>
+</div>
+
+<iframe id="planFrame" src=""></iframe>
+
+<script>
+  // KW berechnen
+  function getCurrentWeek() {
+      const today = new Date();
+      const firstJan = new Date(today.getFullYear(), 0, 1);
+      const days = Math.floor((today - firstJan) / (24 * 60 * 60 * 1000));
+      const weekNumber = Math.ceil((days + firstJan.getDay() + 1) / 7);
+      return weekNumber;
+  }
+  const kw = getCurrentWeek();
+
+  // Klassen mit ihren wxxxx.htm Codes
+  const klassen = {
+      "5a":"w00001.htm", "5b":"w00002.htm", "5c":"w00003.htm", "5d":"w00004.htm", "5e":"w00005.htm",
+      "6a":"w00006.htm", "6b":"w00007.htm", "6c":"w00008.htm", "6d":"w00009.htm", "6e":"w00010.htm",
+      "7a":"w00011.htm", "7b":"w00012.htm", "7c":"w00013.htm", "7d":"w00014.htm",
+      "8a":"w00015.htm", "8b":"w00016.htm", "8c":"w00017.htm", "8d":"w00018.htm",
+      "9a":"w00019.htm", "9b":"w00020.htm", "9c":"w00021.htm", "9d":"w00022.htm",
+      "10a":"w00023.htm", "10b":"w00024.htm", "10c":"w00025.htm", "10d":"w00026.htm",
+      "EF":"w00027.htm",
+      "Q1":"w00028.htm",
+      "Q2":"w00029.htm"
+  };
+
+  // iFrame URLs
+  const urls = {
+      default: "https://fbges.de/vertret_schueler/default.htm",
+      mnspro: "https://my.mnspro.cloud/substitution-plan?rowsPerPage=30&secsPerPage=20&apiKey=1edcc38c-73cb-4e2f-8f23-08dd62fc4d05"
+  };
+
+  // Dropdown mit Klassen füllen
+  const classSelect = document.getElementById("classSelect");
+  for (const cls in klassen) {
+      const opt = document.createElement("option");
+      opt.value = cls;
+      opt.text = cls.toUpperCase();
+      classSelect.add(opt);
+  }
+
+  const frame = document.getElementById("planFrame");
+  const sourceSelect = document.getElementById("sourceSelect");
+
+  function sourceChanged() {
+      if(sourceSelect.value === "klasse") {
+          classSelect.style.display = "inline-block";
+          updateClassFrame(); // erste Klasse laden
+      } else {
+          classSelect.style.display = "none";
+          frame.src = urls[sourceSelect.value] || urls.default;
+      }
+  }
+
+  function updateClassFrame() {
+      const selectedClass = classSelect.value;
+      const file = klassen[selectedClass];
+      frame.src = `https://fbges.de/vertret_schueler/${kw}/w/${file}`;
+  }
+
+  // Seite initial laden
+  sourceChanged();
+</script>
+
+</body>
+</html>

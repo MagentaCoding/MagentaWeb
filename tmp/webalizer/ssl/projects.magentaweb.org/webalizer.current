@@ -1,0 +1,570 @@
+# Webalizer V2.23-08 Incremental Data - 12/28/2025 04:41:04
+2025 12 28 4 41 4
+379 79 121 5 4 36 448354 108 74 0
+1 1 153 1 28
+158 3 200827 6 11 3
+10 4 10234 9 4 4
+2 0 3502 2 0 0
+12 4 13884 9 5 4
+6 3 5080 6 4 4
+6 1 8581 6 2 2
+7 3 7017 7 3 3
+10 2 13799 8 2 2
+17 7 10253 11 11 6
+4 1 5261 4 1 1
+7 4 5261 7 4 4
+4 1 5263 4 1 1
+19 7 31257 13 12 8
+7 3 6958 7 4 4
+5 2 5262 5 2 2
+5 2 5261 5 2 2
+5 2 5262 5 2 2
+18 7 18902 6 9 3
+22 6 20585 7 12 2
+3 1 3506 3 1 1
+8 1 12062 5 1 1
+4 1 5262 4 1 1
+9 4 8605 7 4 4
+7 3 6902 6 3 3
+5 1 6932 5 1 1
+4 1 5267 3 1 1
+14 5 15622 9 5 5
+1 0 1747 1 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+8 3 8621 3
+11 4 12066 4
+21 6 25977 8
+11 3 14032 3
+4 0 7000 0
+10 2 13963 2
+6 0 10352 1
+7 3 6867 4
+7 2 8710 3
+10 5 8712 5
+10 4 10541 4
+9 6 5259 6
+20 7 28795 10
+159 2 204335 10
+9 4 8474 4
+5 1 5331 2
+5 2 5267 2
+1 0 1747 0
+14 5 8624 9
+11 4 11948 4
+10 3 12164 3
+5 1 6826 2
+17 8 14130 14
+9 4 8613 5
+0
+0
+0
+79
+0
+0
+0
+0
+0
+0
+0
+4
+0
+0
+0
+0
+0
+0
+0
+0
+0
+296
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/magentahtml/
+0 1 7814716426037852777 8159 0 0
+/magentadata/
+0 1 94360551696560 0 0 0
+/
+0 75 0 0 65 10
+/magentabackend/
+0 1 0 0 0 0
+/magentascript/
+0 1 0 8579 0 0
+# End Of Table - urls
+# -sites- (monthly)
+47.79.198.161
+0 2 1 252 1 1765638333
+/magentadata/
+74.7.227.165
+0 1 1 0 1 1765436451
+/
+74.7.243.224
+0 1 1 0 1 1764992199
+/
+74.7.227.162
+0 1 1 0 1 1765078939
+/
+scanner-xx.ch1.censys-scanner.com
+0 2 1 1642 1 1766862809
+/
+47.79.193.32
+0 2 1 8833 1 1765663859
+/magentascript/
+74.7.228.35
+0 3 0 5265 0 0
+-
+74.7.242.36
+0 1 1 0 1 1765265412
+/
+74.7.228.54
+0 2 0 3510 0 0
+-
+74.7.230.63
+0 1 0 1755 0 0
+-
+104.210.140.142
+0 2 0 3494 0 0
+-
+ec2-54-202-103-84.us-west-2.compute.amazonaws.com
+0 2 2 0 2 1765901398
+/
+74.7.242.5
+0 1 1 0 1 1764665901
+/
+104.210.140.132
+0 4 0 6988 0 0
+-
+205.210.31.35
+0 1 1 0 1 1765066650
+/
+74.7.241.170
+0 1 0 1760 0 0
+-
+74.7.241.128
+0 1 0 1760 0 0
+-
+host242.181-1-156.telecom.net.ar
+0 1 1 0 1 1766835478
+/
+74.7.230.7
+0 1 0 1758 0 0
+-
+74.7.241.133
+0 3 0 5272 0 0
+-
+74.7.228.52
+0 8 0 14072 0 0
+-
+perfect.monitoring.internet-measurement.com
+0 1 1 0 1 1765624316
+/
+74.7.241.138
+0 3 0 5268 0 0
+-
+45.144.212.43
+0 2 0 3285 0 0
+-
+ec2-52-33-251-114.us-west-2.compute.amazonaws.com
+0 2 0 3191 1 1765005035
+-
+64.227.7.30
+0 2 1 1700 1 1764616492
+/
+147.182.209.86
+0 2 1 1695 1 1766827959
+/
+74.7.230.20
+0 1 0 1755 0 0
+-
+74.7.244.51
+0 1 0 1755 0 0
+-
+ec2-54-195-53-179.eu-west-1.compute.amazonaws.com
+0 1 1 0 1 1765430568
+/
+104.210.140.140
+0 5 0 8735 0 0
+-
+104.210.140.136
+0 2 0 3494 0 0
+-
+74.7.228.59
+0 1 0 1755 0 0
+-
+47.79.218.49
+0 2 1 8411 1 1765629006
+/magentahtml/
+74.7.244.26
+0 2 0 3518 0 0
+-
+74.7.227.11
+0 1 1 0 1 1765939616
+/
+104.210.140.129
+0 3 0 5241 0 0
+-
+74.7.241.34
+0 1 1 0 1 1764579130
+/
+104.210.140.128
+0 2 0 3494 0 0
+-
+74.7.241.155
+0 1 0 1760 0 0
+-
+216.73.216.112
+0 2 1 1674 1 1765221282
+/
+45.139.104.171
+0 1 0 1737 0 0
+-
+74.7.228.42
+0 1 0 1759 0 0
+-
+103.135.124.34.bc.googleusercontent.com
+0 2 2 0 1 1766069265
+/
+104.210.140.143
+0 1 0 1747 0 0
+-
+134.251.83.34.bc.googleusercontent.com
+0 1 0 1577 0 0
+-
+47.79.192.115
+0 2 1 255 1 1765665145
+/magentabackend/
+74.7.241.166
+0 2 0 3520 0 0
+-
+64.225.60.39
+0 2 1 1701 1 1766529390
+/
+ec2-35-88-68-144.us-west-2.compute.amazonaws.com
+0 1 0 1594 0 0
+-
+104.210.140.134
+0 1 0 1747 0 0
+-
+74.7.242.13
+0 1 1 0 1 1764809397
+/
+74.7.241.53
+0 1 1 0 1 1765708732
+/
+47.79.201.77
+0 1 0 1695 1 1765700974
+-
+204.76.203.25.ptr.pfcloud.network
+0 6 3 5010 3 1766403609
+/
+198.235.24.17
+0 1 1 0 1 1765138512
+/
+ec2-3-252-253-106.eu-west-1.compute.amazonaws.com
+0 1 1 0 1 1765291540
+/
+216.72.90.34.bc.googleusercontent.com
+0 1 1 0 1 1766572478
+/
+ec2-35-88-11-170.us-west-2.compute.amazonaws.com
+0 2 1 1642 1 1766501668
+/
+74.7.175.138
+0 1 0 1756 0 0
+-
+ec2-3-12-103-253.us-east-2.compute.amazonaws.com
+0 6 2 0 1 1766185112
+/
+74.7.175.171
+0 1 0 1760 0 0
+-
+251.214.132.34.bc.googleusercontent.com
+0 1 0 1574 0 0
+-
+74.7.244.36
+0 1 0 1759 0 0
+-
+ec2-35-86-113-221.us-west-2.compute.amazonaws.com
+0 1 0 1596 1 1764917784
+-
+185.177.72.75
+0 1 0 1695 0 0
+-
+74.7.241.28
+0 1 1 0 1 1766878747
+/
+74.7.230.1
+0 1 0 1754 0 0
+-
+74.7.230.45
+0 1 0 1755 0 0
+-
+74.7.244.39
+0 2 0 3510 0 0
+-
+124.236.100.56
+0 1 1 0 1 1766098403
+/
+daring.monitoring.internet-measurement.com
+0 1 1 0 1 1765218759
+/
+74.7.175.176
+0 1 0 1756 0 0
+-
+104.210.140.135
+0 2 0 3494 0 0
+-
+83.191.90.34.bc.googleusercontent.com
+0 2 2 0 1 1764886348
+/
+159.203.137.150
+0 2 1 1665 1 1765591050
+/
+74.7.228.12
+0 1 0 1759 0 0
+-
+205.210.31.39
+0 1 1 0 1 1764926592
+/
+ec2-54-194-162-73.eu-west-1.compute.amazonaws.com
+0 1 1 0 1 1765409413
+/
+104.210.140.137
+0 1 0 1747 0 0
+-
+scanner-201.hk2.censys-scanner.com
+0 2 1 1642 1 1765627773
+/
+ec2-3-254-110-128.eu-west-1.compute.amazonaws.com
+0 1 1 0 1 1765323052
+/
+74.7.241.148
+0 1 0 1756 0 0
+-
+ec2-35-89-194-212.us-west-2.compute.amazonaws.com
+0 1 0 1592 1 1764889760
+-
+74.7.227.9
+0 1 1 0 1 1765943003
+/
+74.7.244.7
+0 2 0 3516 0 0
+-
+66.132.153.120
+0 2 1 1638 1 1764699328
+/
+ec2-18-222-17-72.us-east-2.compute.amazonaws.com
+0 6 2 0 1 1765306095
+/
+170.64.131.247
+0 11 4 11885 1 1766059290
+-
+74.7.175.174
+0 1 0 1756 0 0
+-
+ec2-44-250-183-107.us-west-2.compute.amazonaws.com
+0 2 1 1640 1 1766540070
+/
+104.210.140.141
+0 2 0 3494 0 0
+-
+74.7.228.33
+0 2 0 3510 0 0
+-
+74.7.241.39
+0 1 1 0 1 1764841368
+/
+104.210.140.138
+0 1 0 1747 0 0
+-
+ec2-100-30-248-17.compute-1.amazonaws.com
+0 2 2 0 2 1765776925
+/
+74.7.242.21
+0 1 1 0 1 1765249170
+/
+74.7.241.30
+0 3 3 0 3 1766765015
+/
+scan.cypex.ai
+0 2 2 0 2 1765753687
+/
+134.209.247.93
+0 2 1 1703 1 1765314384
+/
+47.79.201.149
+0 1 0 1694 1 1765660524
+-
+102.212.20.185
+0 1 1 0 1 1766835480
+/
+104.210.140.131
+0 3 0 5241 0 0
+-
+74.7.230.33
+0 2 0 3518 0 0
+-
+74.7.241.153
+0 7 0 12292 0 0
+-
+74.7.243.209
+0 1 1 0 1 1765446645
+/
+20.215.141.34.bc.googleusercontent.com
+0 1 1 0 1 1766573056
+/
+74.7.230.56
+0 1 0 1755 0 0
+-
+ec2-3-106-166-6.ap-southeast-2.compute.amazonaws.com
+0 152 1 193867 1 1764595573
+-
+74.7.241.183
+0 1 0 1756 0 0
+-
+74.7.228.34
+0 1 0 1759 0 0
+-
+198.235.24.236
+0 1 0 1725 0 0
+-
+209.38.25.219
+0 11 4 11906 1 1766110837
+-
+74.7.230.10
+0 2 0 3510 0 0
+-
+74.7.230.5
+0 2 0 3516 0 0
+-
+74.7.175.192
+0 1 0 1760 0 0
+-
+ec2-52-90-90-65.compute-1.amazonaws.com
+0 1 1 0 1 1765485378
+/
+45.148.10.80
+0 2 2 0 2 1764899840
+/
+74.7.227.16
+0 3 3 0 3 1766662786
+/
+74.7.227.17
+0 1 1 0 1 1765717877
+/
+74.7.175.170
+0 2 0 3520 0 0
+-
+# End Of Table - sites (monthly)
+# -sites- (daily)
+104.210.140.131
+0 1 0 1747 0 0
+-
+# End Of Table - sites (daily)
+# -referrers- 
+https://www.google.com/
+0 10
+- (Direct Request)
+0 364
+https://projects.magentaweb.org/
+0 2
+https://www.projects.magentaweb.org/
+0 3
+# End Of Table - referrers
+# -agents- 
+cypex.ai/scanning Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Chrome/126.0.0.0 Safari/537.36
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (X11; Linux x86_64)
+0 5
+Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)
+0 2
+Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
+0 4
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+0 22
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36 Assetnote
+0 12
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+0 6
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36; compat
+0 95
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/91.0.4472.124
+0 1
+EmailWolf 1.00
+0 1
+Mozilla/4.8 [en] (Windows NT 5.1; U)
+0 1
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML like Gecko) Maxthon/4.0.0.2000 Chrome/22.0.1229.79 Safari/537.1
+0 1
+Scrapy/2.13.4 (+https://scrapy.org)
+0 2
+Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Mobile Safari/537.36
+0 6
+Mozilla/5.0 (X11; Linux x86_64; rv:139.0) Gecko/20100101 Firefox/139.0
+0 2
+Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+0 1
+Scrapy/2.13.3 (+https://scrapy.org)
+0 2
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; ClaudeBot/1.0; +claudebot@anthropic.com)
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0
+0 2
+Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3187.0 Safari/537.366
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+0 2
+Mozilla/5.0 (iPhone; CPU iPhone OS 12_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenge
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
+0 2
+python-httpx/0.28.1
+0 151
+Hello from Palo Alto Networks, find out more about our scans in https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Sc
+0 2
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+0 8
+SonyEricssonZ800/R1Y Browser/SEMC-Browser/4.1 Profile/MIDP-2.0 Configuration/CLDC-1.1 UP.Link/6.3.0.0.0
+0 1
+Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; GPTBot/1.3; +https://openai.com/gptbot)
+0 21
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+0 1
+Mozilla/5.0 (compatible; wpbot/1.3; +https://forms.gle/ajBaxygz9jSR8p8G9)
+0 4
+Mozilla/5.0 (X11; Linux i686; rv:124.0) Gecko/20100101 Firefox/124.0
+0 2
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/134.0.0.0 Safari/537.36 Edg/1
+0 1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.3
+0 6
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

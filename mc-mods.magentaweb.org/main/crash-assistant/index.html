@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crash Assistant Repo Overview</title>
+<style>
+body { font-family: Arial; margin: 2rem; background: #f5f5f5; color: #222; transition: all 0.3s; }
+body.darkmode { background: #121212; color: #f5f5f5; }
+button { padding: 0.5rem 1rem; margin-bottom: 1rem; cursor: pointer; display: none; }
+.repo-section { margin-bottom: 2rem; padding: 1rem; border-radius: 8px; background: #fff; transition: all 0.3s; display: none; }
+body.darkmode .repo-section { background: #1e1e1e; }
+ul { padding-left: 1.2rem; }
+a { color: #0366d6; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.issue { border-top: 1px solid #ccc; padding: 0.5rem 0; }
+.issue:first-child { border-top: none; }
+</style>
+<noscript>
+  <style>
+    body { display: none; }
+    .nojs { display: block; }
+  </style>
+</noscript>
+</head>
+<body>
+
+<noscript class"nojs">
+  <h1>WarningJavaScript is disabled</h1>
+</noscript>
+
+<button id="darkmode-toggle">Toggle Darkmode</button>
+
+<div class="repo-section" id="repo-overview">
+<h2>Crash Assistant Repo Overview</h2>
+<ul>
+  <li><strong>Forks:</strong> <span id="forks"></span></li>
+  <li><strong>Contributors:</strong> <span id="contributors"></span></li>
+  <li><strong>Issues:</strong> <span id="issues"></span></li>
+  <li><strong>Branches:</strong> <span id="branches"></span></li>
+  <li><strong>Languages:</strong> <span id="languages"></span></li>
+  <li><strong>Pull Requests:</strong> <span id="pulls"></span></li>
+</ul>
+</div>
+
+<div class="repo-section" id="issues-details">
+<h2><a href="https://mc-mods.magentaweb.org/crash-assistant/issues">Issues Details</a></h2>
+<div id="issues-container"></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script>
+const repoBase = "https://api.github.com/repos/KostromDan/Crash-Assistant";
+
+// Zeige Button und Sektionen nur wenn JS aktiv ist
+document.getElementById('darkmode-toggle').style.display = 'inline-block';
+document.getElementById('repo-overview').style.display = 'block';
+document.getElementById('issues-details').style.display = 'block';
+
+// Darkmode toggle
+document.getElementById('darkmode-toggle').addEventListener('click', () => {
+  document.body.classList.toggle('darkmode');
+});
+
+// Helper to display lists
+function displayList(id, arr, prop='login') {
+  document.getElementById(id).innerHTML = arr.length ? arr.map(e => `<a href="${e.html_url}" target="_blank">${e[prop]}</a>`).join(", ") : "None";
+}
+
+// Fetch all data
+async function loadRepoData() {
+  const forks = await fetch(`${repoBase}/forks`).then(res => res.json());
+  displayList('forks', forks, 'owner.login');
+
+  const contributors = await fetch(`${repoBase}/contributors`).then(res => res.json());
+  displayList('contributors', contributors);
+
+  const issues = await fetch(`${repoBase}/issues`).then(res => res.json());
+  document.getElementById('issues').textContent = issues.length;
+  const container = document.getElementById('issues-container');
+  container.innerHTML = '';
+  issues.forEach(issue => {
+    const div = document.createElement('div');
+    div.className = 'issue';
+    div.innerHTML = `
+      <h3><a href="${issue.html_url}" target="_blank">${issue.title}</a> 
+      <small>(${issue.state}, Comments: ${issue.comments})</small></h3>
+      <div>${marked.parse(issue.body)}</div>
+    `;
+    container.appendChild(div);
+  });
+
+  const branches = await fetch(`${repoBase}/branches`).then(res => res.json());
+  displayList('branches', branches, 'name');
+
+  const languages = await fetch(`${repoBase}/languages`).then(res => res.json());
+  document.getElementById('languages').textContent = Object.keys(languages).map(l => `${l} (${languages[l]} bytes)`).join(", ") || "None";
+
+  const pulls = await fetch(`${repoBase}/pulls`).then(res => res.json());
+  displayList('pulls', pulls, 'title');
+}
+
+window.addEventListener('load', loadRepoData);
+</script>
+</body>
+</html>

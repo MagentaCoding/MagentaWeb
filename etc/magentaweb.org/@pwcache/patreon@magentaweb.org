@@ -1,0 +1,6 @@
+passwd:$6$Rir1MhGi1LT4YoVU$SHabH6te4d8CtKUHmHdQS.Oy0kDST7/z6Rh.Yzi.Yq7WwZGwUPfhZh01KKQwGvjQFrtt1ep7VDE/tO2GTzUEk0
+quota:0
+homedir:/home/magentaw/mail/magentaweb.org/patreon
+strength:100
+lastchanged:-1
+perms:rw

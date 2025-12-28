@@ -1,0 +1,6 @@
+passwd:$6$/YzXdhcs0v7K/tHQ$HSO8o0WpeRLJmh.px4SbwDACDdBppfddziRiYEL.AHHFRDrkJePDRGHUdin5RTwqCfVnY2ruyAtjVo7sXrkNR.
+quota:0
+homedir:/home/magentaw/mail/magentaweb.org/trustpilot
+strength:100
+lastchanged:-1
+perms:rw

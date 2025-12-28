@@ -1,0 +1,182 @@
+Return-Path: <support@support.zendesk.com>
+Delivered-To: contact@magentaweb.org
+Received: from webserver.bisecthosting.com
+	by webserver.bisecthosting.com with LMTP
+	id mJ9dBjXEB2mUvhcAufviug
+	(envelope-from <support@support.zendesk.com>)
+	for <contact@magentaweb.org>; Sun, 02 Nov 2025 15:51:01 -0500
+Return-path: <support@support.zendesk.com>
+Envelope-to: contact@magentaweb.org
+Delivery-date: Sun, 02 Nov 2025 15:51:01 -0500
+Received: from mta-out14.pod29.euw1.zdsys.com ([188.172.137.59]:34262)
+	by webserver.bisecthosting.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.98.2)
+	(envelope-from <support@support.zendesk.com>)
+	id 1vFf2P-00000006TlY-0Fqj
+	for contact@magentaweb.org;
+	Sun, 02 Nov 2025 15:51:01 -0500
+Received: from zendesk.com (unknown [127.0.0.6])
+	by mta-out15.pod29.euw1.zdsys.com (Zendesk) with ESMTP
+	id 6446bd84-4436-4522-9d1c-db602eaa7cfd
+	for <contact@magentaweb.org>;
+	Sun, 02 Nov 2025 20:50:16 +0000 (UTC)
+Date: Sun, 02 Nov 2025 20:50:16 +0000
+From: Zendesk <support@support.zendesk.com>
+To: contact@magentaweb.org
+Message-ID: <6907c40838da3_6215b011671_sprut@zendesk.com>
+Subject: =?UTF-8?Q?Anmeldung_bei_Zendesk_von_einem_neuen_Ger=C3=A4t_aus?=
+ =?UTF-8?Q?_erkannt?=
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_6907c40843e8b_6215b0117f";
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+X-Delivery-Context: device-31480349607837
+Auto-Submitted: auto-generated
+X-Auto-Response-Suppress: All
+X-Mailer: Zendesk Mailer
+X-Zendesk-From-Account-Id: 8b85949
+DKIM-Signature:  v=1; a=rsa-sha256; c=relaxed/relaxed; d=zendesk.com;
+ q=dns/txt; s=zendesk2; t=1762116616;
+ bh=rhM3l+gdal0dhecoZ2YGF5I0LCBua8+Z2MM7J5GYw6E=;
+ h=date:from:to:message-id:subject:mime-version:content-type:content-transfer-encoding;
+ b=P45U9Ao1K4sm92tNt/SbQ0KEHPa9cxS09FwrMsVfYG30kcGNV8NDq2zyhD4Z2Gr3ZxVxDS7uVlKhxs7HgyKrs6adx4W0bnzLLzMuvTlta2FGLNoy4gAok+ZwpTn/Vjp2i5VN3IRseU+u4x3XXsSUVK8xfpKySfgNLAg+fp+oZ0wMtMSBY3U22m8DrKECtbmas8RIko+CCBaVP6Ul30+QjVs6rDx9uZdblwIe77/lzHQP6zPuHvRZCH5yA2jf19CbB9lHV3t8W6aLb9/TuZoRBJYSznK+J+rmZRN/ZbMkLKP7kN85EG36P1IrncH78+uxY8fNnNJ2W4G5qpMBN2ixRA==
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: =?ISO-8859-1?Q?Spam_detection_software=2C_running_on_the_system_=22webserver=2Ebise?= =?ISO-8859-1?Q?cthosting=2Ecom=22=2C=0A_has_NOT_identified_this_inco?= =?ISO-8859-1?Q?ming_email_as_spam=2E__The_original=0A_message_has_be?= =?ISO-8859-1?Q?en_attached_to_this_so_you_can_view_it_or_label=0A_si?= =?ISO-8859-1?Q?milar_future_email=2E__If_you_have_any_questions=2C_s?= =?ISO-8859-1?Q?ee=0A_root=5C=40localhost_for_details=2E=0A_Content_p?= =?ISO-8859-1?Q?review=3A__Hallo_A_Gal!_Sie_haben_sich_am_2=2E_Novemb?= =?ISO-8859-1?Q?er_2025_um_21=3A50=0A___von_einem_neuen_Ger=C3=A4t_au?= =?ISO-8859-1?Q?s_bei_Ihrem_Zendesk-Konto_angemeldet=3A_Ort=3A_Sankt=0A_?= =?ISO-8859-1?Q?__Augustin=2C_NW=2C_Germany_=0A_Content_analysis_deta?= =?ISO-8859-1?Q?ils=3A___=280=2E0_points=2C_5=2E0_required=29=0A__pts?= =?ISO-8859-1?Q?_rule_name______________description=0A_----_---------?= =?ISO-8859-1?Q?-------------_---------------------------------------?= =?ISO-8859-1?Q?-----------=0A__0=2E0_RCVD=5FIN=5FZEN=5FBLOCKED=5FOPE?= =?ISO-8859-1?Q?NDNS_RBL=3A_ADMINISTRATOR_NOTICE=3A_The_query_to=0A__?= =?ISO-8859-1?Q?___________________________zen=2Espamhaus=2Eorg_was_b?= =?ISO-8859-1?Q?locked_due_to_usage_of_an=0A_________________________?= =?ISO-8859-1?Q?_____open_resolver=2E_See=0A_________________________?= =?ISO-8859-1?Q?____https=3A//www=2Espamhaus=2Eorg/returnc/pub/=0A___?= =?ISO-8859-1?Q?__________________________=5B188=2E172=2E137=2E59_lis?= =?ISO-8859-1?Q?ted_in_zen=2Espamhaus=2Eorg=5D=0A__0=2E0_URIBL=5FDBL=5FB?= =?ISO-8859-1?Q?LOCKED=5FOPENDNS_ADMINISTRATOR_NOTICE=3A_The_query_to?= =?ISO-8859-1?Q?=0A_____________________________dbl=2Espamhaus=2Eorg_?= =?ISO-8859-1?Q?was_blocked_due_to_usage_of_an=0A____________________?= =?ISO-8859-1?Q?__________open_resolver=2E_See=0A____________________?= =?ISO-8859-1?Q?_________https=3A//www=2Espamhaus=2Eorg/returnc/pub/=0A_?= =?ISO-8859-1?Q?____________________________=5BURI=3A_zendesk=2Ecom=5D=0A?= =?ISO-8859-1?Q?_____________________________=5BURI=3A_www=2Ezendesk=2Ed?= =?ISO-8859-1?Q?e=5D=0A__0=2E0_RCVD=5FIN=5FVALIDITY=5FRPBL=5FBLOCKED_?= =?ISO-8859-1?Q?RBL=3A_ADMINISTRATOR_NOTICE=3A_The_query_to=0A_______?= =?ISO-8859-1?Q?_______________________Validity_was_blocked=2E__See=0A_?= =?ISO-8859-1?Q?____________________________https=3A//knowledge=2Eval?= =?ISO-8859-1?Q?idity=2Ecom/hc/en-us/articles/20961730681243=0A______?= =?ISO-8859-1?Q?________________________for_more_information=2E=0A___?= =?ISO-8859-1?Q?_________________________=5B188=2E172=2E137=2E59_list?= =?ISO-8859-1?Q?ed_in_bl=2Escore=2Esenderscore=2Ecom=5D=0A__0=2E0_RCV?= =?ISO-8859-1?Q?D=5FIN=5FVALIDITY=5FSAFE=5FBLOCKED_RBL=3A_ADMINISTRAT?= =?ISO-8859-1?Q?OR_NOTICE=3A_The_query_to=0A_________________________?= =?ISO-8859-1?Q?_____Validity_was_blocked=2E__See=0A_________________?= =?ISO-8859-1?Q?____________https=3A//knowledge=2Evalidity=2Ecom/hc/e?= =?ISO-8859-1?Q?n-us/articles/20961730681243=0A______________________?= =?ISO-8859-1?Q?________for_more_information=2E=0A___________________?= =?ISO-8859-1?Q?__________=5B188=2E172=2E137=2E59_listed_in_sa-accred?= =?ISO-8859-1?Q?it=2Ehabeas=2Ecom=5D=0A__0=2E0_RCVD=5FIN=5FVALIDITY=5FC?= =?ISO-8859-1?Q?ERTIFIED=5FBLOCKED_RBL=3A_ADMINISTRATOR_NOTICE=3A_The?= =?ISO-8859-1?Q?=0A_____________________________query_to_Validity_was?= =?ISO-8859-1?Q?_blocked=2E__See=0A_____________________________https?= =?ISO-8859-1?Q?=3A//knowledge=2Evalidity=2Ecom/hc/en-us/articles/209?= =?ISO-8859-1?Q?61730681243=0A______________________________for_more_?= =?ISO-8859-1?Q?information=2E=0A_________________________=5B188=2E17?= =?ISO-8859-1?Q?2=2E137=2E59_listed_in_sa-trusted=2Ebondedsender=2Eor?= =?ISO-8859-1?Q?g=5D=0A_-0=2E0_SPF=5FPASS_______________SPF=3A_sender?= =?ISO-8859-1?Q?_matches_SPF_record=0A__0=2E1_DKIM=5FSIGNED__________?= =?ISO-8859-1?Q?__Message_has_a_DKIM_or_DK_signature=2C_not_necessari?= =?ISO-8859-1?Q?ly_valid=0A_-0=2E1_DKIM=5FVALID_____________Message_h?= =?ISO-8859-1?Q?as_at_least_one_valid_DKIM_or_DK_signature=0A__0=2E0_?= =?ISO-8859-1?Q?HTML=5FMESSAGE___________BODY=3A_HTML_included_in_mes?= =?ISO-8859-1?Q?sage=0A_-0=2E0_DKIMWL=5FWL=5FHIGH_________DKIMwl=2Eor?= =?ISO-8859-1?Q?g_-_High_trust_sender?=
+X-Spam-Flag: NO
+
+
+----==_mimepart_6907c40843e8b_6215b0117f
+Content-Type: text/plain;
+ charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+Hallo A Gal!
+
+Sie haben sich am 2. November 2025 um 21:50 von einem neuen Ger=C3=A4t au=
+s bei Ihrem Zendesk-Konto angemeldet:
+
+
+  Ort: Sankt Augustin, NW, Germany
+
+    IP: 80.134.135.17
+
+
+  Wenn die Anmeldung nicht von Ihnen durchgef=C3=BChrt wurde, sollten Sie=
+ sofort Ihr Kontokennwort =C3=A4ndern und Ihren Administrator benachricht=
+igen. M=C3=B6glicherweise hat ein Unbefugter versucht, auf Ihr Konto zuzu=
+greifen.
+
+
+----==_mimepart_6907c40843e8b_6215b0117f
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+
+<!DOCTYPE html>
+<html dir=3D"auto" lang=3D'de-x-8'>
+<head>
+  <style>
+  body[dir=3Drtl] .directional_text_wrapper { direction: rtl; unicode-bid=
+i: embed; }
+
+  </style>
+
+          <style type=3D"text/css">
+            @media only screen and (max-width: 768px) {
+              .simplified-email-footer .namecard {
+                display: block;
+                min-width: 100%;
+                padding: 0 0 16px 0; }
+
+              .simplified-email-footer .content {
+                padding: 16px; }
+            }
+          </style>
+        </head>
+<body>
+  <div style=3D"margin: 0px auto; text-align: center; font-size: 12px; co=
+lor: #a2a2a2; padding-bottom: 6px;" ></div>
+
+  <table style=3D"width: 100%;" cellspacing=3D"0" cellpadding=3D"0" >
+    <tbody>
+      <tr>
+        <td>
+          <table style=3D"width: 100%;">
+            <tbody>
+              <tr>
+                <td style=3D"font-size: 12px; font-weight: bold; color: #=
+fff; line-height: 1.5em; font-family: Helvetica, Arial, sans-serif; width=
+: 100%; text-align: center; background: #03363d; padding: 8px; margin: 4p=
+x;">Anmeldung bei Zendesk von einem neuen Ger=C3=A4t aus erkannt</td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td style=3D"text-align: center; padding-left: 4px;">
+          <table style=3D"width: 100%;">
+            <tbody>
+              <tr>
+                <td style=3D"font-size: 12px; font-family: Arial; font-st=
+yle: normal; font-variant: normal; padding: 8px; text-align: left;">
+                  =
+
+<p>Hallo A Gal!</p>
+
+<p>Sie haben sich am 2. November 2025 um 21:50 von einem neuen Ger=C3=A4t=
+ aus bei Ihrem Zendesk-Konto angemeldet:</p>
+
+<ul>
+  <li>Ort: Sankt Augustin, NW, Germany</li>
+
+    <li>IP: 80.134.135.17</li>
+</ul>
+
+  <p>Wenn die Anmeldung nicht von Ihnen durchgef=C3=BChrt wurde, sollten =
+Sie sofort Ihr Kontokennwort =C3=A4ndern und Ihren Administrator benachri=
+chtigen. M=C3=B6glicherweise hat ein Unbefugter versucht, auf Ihr Konto z=
+uzugreifen.</p>
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table style=3D"width: 100%;">
+            <tbody>
+              <tr>
+                <td style=3D"font-size: 12px; font-weight: bold; color: #=
+fff; line-height: 1.5em; font-family: Helvetica, Arial, sans-serif; width=
+: 100%; text-align: center; background: #03363d; padding: 8px;">Copyright=
+ =C2=A9 Zendesk</td>
+              </tr>
+              <tr>
+                <td style=3D"font-size: 12px; font-weight: bold; color: #=
+a2a2a2; line-height: 1.5em; font-family: Helvetica, Arial, sans-serif; wi=
+dth: 100%; text-align: center; padding: 8px;">Bereitgestellt von <a href=3D=
+"https://www.zendesk.de/service/?utm_campaign=3Dtext&amp;utm_content=3DMa=
+gentaWeb+%28nicht+offiziell+eingetragen%29&amp;utm_medium=3Dpoweredbyzend=
+esk&amp;utm_source=3Demail-notification" style=3D"color:black;" target=3D=
+"_blank">Zendesk</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
+
+
+----==_mimepart_6907c40843e8b_6215b0117f--

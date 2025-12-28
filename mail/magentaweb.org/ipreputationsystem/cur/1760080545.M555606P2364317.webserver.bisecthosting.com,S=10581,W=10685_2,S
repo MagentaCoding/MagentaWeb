@@ -1,0 +1,104 @@
+Return-Path: <gtoc_noreply@trendmicro.com>
+Delivered-To: ipreputationsystem@magentaweb.org
+Received: from webserver.bisecthosting.com
+	by webserver.bisecthosting.com with LMTP
+	id +DKMIKGy6GidEyQAufviug
+	(envelope-from <gtoc_noreply@trendmicro.com>)
+	for <ipreputationsystem@magentaweb.org>; Fri, 10 Oct 2025 03:15:45 -0400
+Return-path: <gtoc_noreply@trendmicro.com>
+Envelope-to: ipreputationsystem@magentaweb.org
+Delivery-date: Fri, 10 Oct 2025 03:15:45 -0400
+Received: from sjc1mailrelay5.trendmicro.com ([66.180.89.48]:41780)
+	by webserver.bisecthosting.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.98.2)
+	(envelope-from <gtoc_noreply@trendmicro.com>)
+	id 1v77Lt-00000009yy0-2LFP
+	for ipreputationsystem@magentaweb.org;
+	Fri, 10 Oct 2025 03:15:45 -0400
+Received: from sjc1mailrelay5.trendmicro.com (unknown [127.0.0.1])
+	by DDEI (Postfix) with ESMTP id 2F670164D39
+	for <ipreputationsystem@magentaweb.org>; Fri, 10 Oct 2025 07:15:00 +0000 (UTC)
+Received: from sjc1mailrelay5.trendmicro.com (unknown [127.0.0.1])
+	by DDEI (Postfix) with ESMTP id 17C42164D34
+	for <ipreputationsystem@magentaweb.org>; Fri, 10 Oct 2025 07:15:00 +0000 (UTC)
+X-DDEI-TLS-USAGE: Used
+Received: from listener-566c68c748-twz72 (unknown [35.164.201.151])
+	by sjc1mailrelay5.trendmicro.com (Postfix) with ESMTPS
+	for <ipreputationsystem@magentaweb.org>; Fri, 10 Oct 2025 07:15:00 +0000 (UTC)
+Date: Fri, 10 Oct 2025 07:14:59 +0000 (UTC)
+From: GTOC-noreply <gtoc_noreply@trendmicro.com>
+To: ipreputationsystem@magentaweb.org
+Message-ID: <767330379.57.1760080499180.JavaMail.tomcat8@listener-566c68c748-twz72>
+Subject: [ERSIP-4d6af08f-a902-43e8-8eb8-9403f57aab5c] QIL removal for
+ 74.112.76.31
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_56_964557870.1760080499179"
+X-TMASE-Version: DDEI-5.1-9.1.1004-29504.006
+X-TMASE-Result: 10--31.413500-10.000000
+X-TMASE-MatchedRID: efudVoPoNPw4K0gB6g7u35ObxJgN/hOx2rWnqd4fvlS+ZCINP4FpYKlG
+	tEmpvwwuQc4Sc/RvvK0Voj6R4RCQLC+dE/VTXwa9wCGU3q1ZqNODwLTbOQjvDu/c9UrKWT3AnCV
+	tk9BDTLP1mHNhTON+rSyiThXIEz9IfMtPKlH8m8hi71i5on34KvioIsi7Sa0gYT//1yu4TbhrFm
+	VfWDAwWwWJT+BlWUBjQShtUNoQpjigbHcAnm2Rk9QZ0Hylul0yyqyllX6UJIulCu6kKVgvEof61
+	dbc+smNNMs5PEVxVz4tQhEbf9gJH+i04AO+ZCiuBe3KRVyu+k0dzCEqnjsWC3nWuUUd2JfR3ZWp
+	Nu2Sc2F+70G49UYf80E63LAPYAQHXHEPHmpuRH05f9Xw/xqKXZwhktVkBBrQ/Fe+8oSUYKPHcBr
+	iiJvLGa/eCtbMrRw2MJXTQiEUmi4yBfDAF0YHCN934/rDAK3zUc1+O1X9AzE=
+X-TMASE-SNAP-Result: 1.821001.0001-0-1-22:0,33:0,34:0-0
+X-TMASE-INERTIA: 0-0;;;;
+X-TMASE-XGENCLOUD: 371b6c68-3254-4ed0-a11e-848289fc375a-0-0-200-0
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=trendmicro.com;
+	s=tm-relayoutbound; t=1760080500;
+	bh=mv/czYmLY7Ekf+TZNNeJ6n5DKWIt1clQ1Kz/8MkPba0=;
+	h=Date:From:To:Subject;
+	b=SEQ8RLt/GMPWKOoX9z2tJcs5raTpWGZnrLcbbgtr7AK9WNQ0q/9lDkOOXdj4FeOZ4
+	 zt1InW46tDWy9D3pZBPPka7ym+3iEjbO+SdbLBn2rLJPK7e2Dl5TzfXHpU85meYLdx
+	 kOlli/Dtp6iwCgktQItnUGxC95/zBPAn2ptabY50cdkD/8XT+L9qGADKWpzNw29vD2
+	 PACPDKY1sUphojHuwo6LTB+Nu+liPHJbdKSy71GNrhh7XoV6XpCfrE8cyJyvZOBNrX
+	 ef49xp9Ruy1e22YLE5xuNo/ED/qO8FaUT7QbyCmO7Td0Us3/8CJdcn4M2goVfpS3vp
+	 TWzXJb8FF+d/A==
+X-Spam-Status: No, score=0.2
+X-Spam-Score: 2
+X-Spam-Bar: /
+X-Ham-Report: =?ISO-8859-1?Q?Spam_detection_software=2C_running_on_the_system_=22webserver=2Ebise?= =?ISO-8859-1?Q?cthosting=2Ecom=22=2C=0A_has_NOT_identified_this_inco?= =?ISO-8859-1?Q?ming_email_as_spam=2E__The_original=0A_message_has_be?= =?ISO-8859-1?Q?en_attached_to_this_so_you_can_view_it_or_label=0A_si?= =?ISO-8859-1?Q?milar_future_email=2E__If_you_have_any_questions=2C_s?= =?ISO-8859-1?Q?ee=0A_root=5C=40localhost_for_details=2E=0A_Content_p?= =?ISO-8859-1?Q?review=3A__***This_email_is_generated_automatically=2E_?= =?ISO-8859-1?Q?Please_do_not_reply=0A____to_this_email_address=2E***?= =?ISO-8859-1?Q?_Hello_Alexander_Gal=2C_Thank_you_for_contacting_Tren?= =?ISO-8859-1?Q?d=0A____Micro_about_the_IP_being_listed_on_the_QIL=2E_?= =?ISO-8859-1?Q?=0A_Content_analysis_details=3A___=280=2E2_points=2C_?= =?ISO-8859-1?Q?5=2E0_required=29=0A__pts_rule_name______________desc?= =?ISO-8859-1?Q?ription=0A_----_----------------------_--------------?= =?ISO-8859-1?Q?------------------------------------=0A__0=2E0_RCVD=5FI?= =?ISO-8859-1?Q?N=5FVALIDITY=5FSAFE=5FBLOCKED_RBL=3A_ADMINISTRATOR_NO?= =?ISO-8859-1?Q?TICE=3A_The_query_to=0A______________________________?= =?ISO-8859-1?Q?Validity_was_blocked=2E__See=0A______________________?= =?ISO-8859-1?Q?_______https=3A//knowledge=2Evalidity=2Ecom/hc/en-us/?= =?ISO-8859-1?Q?articles/20961730681243=0A___________________________?= =?ISO-8859-1?Q?___for_more_information=2E=0A________________________?= =?ISO-8859-1?Q?_____=5B66=2E180=2E89=2E48_listed_in_sa-accredit=2Eha?= =?ISO-8859-1?Q?beas=2Ecom=5D=0A__0=2E0_RCVD=5FIN=5FVALIDITY=5FCERTIF?= =?ISO-8859-1?Q?IED=5FBLOCKED_RBL=3A_ADMINISTRATOR_NOTICE=3A_The=0A__?= =?ISO-8859-1?Q?___________________________query_to_Validity_was_bloc?= =?ISO-8859-1?Q?ked=2E__See=0A_____________________________https=3A//?= =?ISO-8859-1?Q?knowledge=2Evalidity=2Ecom/hc/en-us/articles/20961730?= =?ISO-8859-1?Q?681243=0A______________________________for_more_infor?= =?ISO-8859-1?Q?mation=2E=0A___________________________=5B66=2E180=2E8?= =?ISO-8859-1?Q?9=2E48_listed_in_sa-trusted=2Ebondedsender=2Eorg=5D=0A?= =?ISO-8859-1?Q?__0=2E0_URIBL=5FBLOCKED__________ADMINISTRATOR_NOTICE?= =?ISO-8859-1?Q?=3A_The_query_to_URIBL_was_blocked=2E=0A_____________?= =?ISO-8859-1?Q?________________See=0A_____________________________ht?= =?ISO-8859-1?Q?tp=3A//wiki=2Eapache=2Eorg/spamassassin/DnsBlocklists?= =?ISO-8859-1?Q?#dnsbl-block=0A______________________________for_more?= =?ISO-8859-1?Q?_information=2E=0A_____________________________=5BURI?= =?ISO-8859-1?Q?=3A_trendmicro=2Ecom=5D=0A__0=2E0_RCVD=5FIN=5FVALIDIT?= =?ISO-8859-1?Q?Y=5FRPBL=5FBLOCKED_RBL=3A_ADMINISTRATOR_NOTICE=3A_The?= =?ISO-8859-1?Q?_query_to=0A______________________________Validity_wa?= =?ISO-8859-1?Q?s_blocked=2E__See=0A_____________________________http?= =?ISO-8859-1?Q?s=3A//knowledge=2Evalidity=2Ecom/hc/en-us/articles/20?= =?ISO-8859-1?Q?961730681243=0A______________________________for_more?= =?ISO-8859-1?Q?_information=2E=0A_____________________________=5B66=2E1?= =?ISO-8859-1?Q?80=2E89=2E48_listed_in_bl=2Escore=2Esenderscore=2Ecom?= =?ISO-8859-1?Q?=5D=0A__0=2E0_RCVD=5FIN=5FZEN=5FBLOCKED=5FOPENDNS_RBL?= =?ISO-8859-1?Q?=3A_ADMINISTRATOR_NOTICE=3A_The_query_to=0A__________?= =?ISO-8859-1?Q?___________________zen=2Espamhaus=2Eorg_was_blocked_d?= =?ISO-8859-1?Q?ue_to_usage_of_an=0A______________________________ope?= =?ISO-8859-1?Q?n_resolver=2E_See=0A_____________________________http?= =?ISO-8859-1?Q?s=3A//www=2Espamhaus=2Eorg/returnc/pub/=0A___________?= =?ISO-8859-1?Q?__________________=5B66=2E180=2E89=2E48_listed_in_zen?= =?ISO-8859-1?Q?=2Espamhaus=2Eorg=5D=0A__0=2E0_URIBL=5FDBL=5FBLOCKED=5FO?= =?ISO-8859-1?Q?PENDNS_ADMINISTRATOR_NOTICE=3A_The_query_to=0A_______?= =?ISO-8859-1?Q?______________________dbl=2Espamhaus=2Eorg_was_blocke?= =?ISO-8859-1?Q?d_due_to_usage_of_an=0A______________________________?= =?ISO-8859-1?Q?open_resolver=2E_See=0A_____________________________h?= =?ISO-8859-1?Q?ttps=3A//www=2Espamhaus=2Eorg/returnc/pub/=0A________?= =?ISO-8859-1?Q?_____________________=5BURI=3A_servicecentral=2Etrend?= =?ISO-8859-1?Q?micro=2Ecom=5D=0A_____________________________=5BURI=3A_?= =?ISO-8859-1?Q?trendmicro=2Ecom=5D=0A_-0=2E0_SPF=5FPASS_____________?= =?ISO-8859-1?Q?__SPF=3A_sender_matches_SPF_record=0A_-0=2E1_DKIM=5FV?= =?ISO-8859-1?Q?ALID=5FAU__________Message_has_a_valid_DKIM_or_DK_sig?= =?ISO-8859-1?Q?nature_from_author's=0A_____________________________d?= =?ISO-8859-1?Q?omain=0A_-0=2E1_DKIM=5FVALID=5FEF__________Message_ha?= =?ISO-8859-1?Q?s_a_valid_DKIM_or_DK_signature_from=0A_______________?= =?ISO-8859-1?Q?______________envelope-from_domain=0A__0=2E1_DKIM=5FS?= =?ISO-8859-1?Q?IGNED____________Message_has_a_DKIM_or_DK_signature=2C_?= =?ISO-8859-1?Q?not_necessarily_valid=0A_-0=2E1_DKIM=5FVALID_________?= =?ISO-8859-1?Q?____Message_has_at_least_one_valid_DKIM_or_DK_signatu?= =?ISO-8859-1?Q?re=0A__0=2E8_KAM=5FASCII=5FDIVIDERS_____Email_that_us?= =?ISO-8859-1?Q?es_ascii_formatting_dividers_and=0A__________________?= =?ISO-8859-1?Q?___________possible_spam_tricks=0A_-0=2E4_DKIMWL=5FWL?= =?ISO-8859-1?Q?=5FHIGH_________DKIMwl=2Eorg_-_High_trust_sender?=
+X-Spam-Flag: NO
+
+------=_Part_56_964557870.1760080499179
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+***This email is generated automatically. Please do not reply to this email address.***
+
+Hello Alexander Gal,
+
+Thank you for contacting Trend Micro about the IP being listed on the QIL.
+
+Frequently Asked Questions regarding the QIL:
+---------------------------------
+[1] The QIL is blocking my mail!
+---------------------------------
+A. The QIL does not block any mail, mail servers that are subscribed to the QIL should send a temporary failure error to the sending mail server, if it is listed. The sending mail server will attempt to re-deliver the message at a later time and, if it has been removed from the QIL by then, it will be allowed to deliver the email.
+
+-------------------------------------
+[2.] Why is my IP address on the QIL?
+-------------------------------------
+A. IP addresses are listed in the QIL because they were recently involved in sending spam.
+
+------------------------------------------------
+[3.] How do I remove my IP address from the QIL?
+------------------------------------------------
+A. To remove from the QIL, perform a lookup on the IP with the ERS Lookup Tool https://servicecentral.trendmicro.com/en-US/ers. When the lookup is completed click on the 'Remove' link and this IP will be removed immediately. Removal can be requested once per 24 hours.
+
+-----------------------------------------------------------
+[4.] Why does my IP address keep getting listed on the QIL?
+-----------------------------------------------------------
+A. If we have more spam emails submitted to us from an IP address after it was removed from the QIL, your IP may be re-listed.
+ This means that whatever issue that caused it to be listed has not been resolved, or another problem is causing spam to originate from this IP address.
+ You need to secure the mail server and ensure that it will not be used in the delivery of spam in the future before requesting removal from the QIL.
+
+Case link: https://servicecentral.trendmicro.com/en-US/ers/case-tracking/?id=4d6af08f-a902-43e8-8eb8-9403f57aab5c
+----------------------------------------
+Kind regards,
+Spam Investigation Team
+Trend Micro Inc.
+------=_Part_56_964557870.1760080499179--
+

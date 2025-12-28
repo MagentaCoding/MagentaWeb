@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Crash-Assistant Issues</title>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<style>
+  body { font-family: Arial, sans-serif; background: #f9f9f9; color: #111; padding: 20px; transition: background 0.3s, color 0.3s; }
+  body.dark { background: #1e1e1e; color: #ddd; }
+  #toggleDark { margin-bottom: 20px; padding: 6px 12px; border: none; cursor: pointer; border-radius: 4px; background: #0366d6; color: white; }
+  #issues { display: flex; flex-direction: column; gap: 15px; }
+  .issue { background: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); transition: background 0.3s, color 0.3s; }
+  body.dark .issue { background: #2e2e2e; color: #ddd; }
+  .issue a { text-decoration: none; color: #0366d6; font-weight: bold; }
+  body.dark .issue a { color: #58a6ff; }
+  .issue img { max-width: 100%; margin-top: 5px; border-radius: 4px; }
+</style>
+</head>
+<body>
+
+<button id="toggleDark">Darkmode umschalten</button>
+<h1>Crash-Assistant GitHub Issues</h1>
+<div id="issues">Lade Issues...</div>
+
+<script>
+const repo = "KostromDan/Crash-Assistant";
+const container = document.getElementById("issues");
+const darkButton = document.getElementById("toggleDark");
+
+// Darkmode toggeln
+darkButton.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+});
+
+// Alle Issues laden
+fetch(`https://api.github.com/repos/${repo}/issues?state=all&per_page=100`)
+  .then(res => res.json())
+  .then(issues => {
+    container.innerHTML = ""; // Lade-Text entfernen
+    issues.forEach(issue => {
+      const div = document.createElement("div");
+      div.className = "issue";
+
+      // Markdown in HTML umwandeln
+      const bodyHTML = issue.body ? marked.parse(issue.body) : "<p>Keine Beschreibung</p>";
+
+      div.innerHTML = `
+        <a href="${issue.html_url}" target="_blank">${issue.title}</a>
+        <div>${bodyHTML}</div>
+        <p>Status: ${issue.state}, Kommentare: ${issue.comments}</p>
+      `;
+      container.appendChild(div);
+    });
+  })
+  .catch(err => {
+    container.innerHTML = "Fehler beim Laden der Issues.";
+    console.error(err);
+  });
+</script>
+
+</body>
+</html>

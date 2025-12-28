@@ -1,0 +1,759 @@
+AWSTATS DATA FILE 8.0 (build 20240604)
+# If you remove this file, all statistics for date 202510 will be lost/reset.
+# Last config file used to build this data file was /home/magentaw/tmp/awstats/awstats.bugs.magentaweb.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2087                
+POS_TIME 2759                
+POS_VISITOR 19582               
+POS_DAY 22456               
+POS_DOMAIN 3432                
+POS_LOGIN 3804                
+POS_ROBOT 3959                
+POS_WORMS 4232                
+POS_EMAILSENDER 4363                
+POS_EMAILRECEIVER 4506                
+POS_SESSION 22909               
+POS_FILESIZE 23459               
+POS_REQUESTTIME 23574               
+POS_SIDER 23076               
+POS_FILETYPES 4641                
+POS_DOWNLOADS 4743                
+POS_OS 4791                
+POS_BROWSER 5049                
+POS_SCREENSIZE 5789                
+POS_UNKNOWNREFERER 5863                
+POS_UNKNOWNREFERERBROWSER 6388                
+POS_ORIGIN 6581                
+POS_SEREFERRALS 6715                
+POS_PAGEREFS 6878                
+POS_SEARCHWORDS 7026                
+POS_KEYWORDS 7178                
+POS_MISC 2423                
+POS_ERRORS 7237                
+POS_CLUSTER 3660                
+POS_SIDER_404 7340                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20251101125717 1 0 17219392287138
+FirstTime 20251007141424
+LastTime 20251031183631
+LastUpdate 20251102071612 1 0 0 0 0
+TotalVisits 79                  
+TotalUnique 74                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 74                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 0 0
+JavascriptDisabled 0 0 0
+DirectorSupport 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 5426 2 2 1623
+1 4 4 10852 20 20 32075
+2 8 8 21704 48 48 61384
+3 0 0 0 2 2 1601
+4 1 1 2713 1 1 2713
+5 9 9 24417 25 25 38955
+6 3 3 8139 18 18 21903
+7 1 1 2713 22 22 28782
+8 11 11 29843 52 59 86315
+9 2 2 5426 2 6 7177
+10 5 5 13565 4 8 8679
+11 3 3 8139 82 86 141421
+12 1 1 2713 5 8 15693
+13 1 1 2713 4 6 11304
+14 18 18 9082 169 171 277299
+15 7 7 18991 5 5 8238
+16 6 6 16278 1 1 2713
+17 0 0 0 1 1 2713
+18 4 4 10852 1 2 1661
+19 1 1 2713 1 1 1585
+20 12 12 32556 248 288 463884
+21 2 2 5426 0 2 1665
+22 1 1 2713 1 2 1690
+23 6 6 16278 147 150 243302
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 13
+us 79 79 182421
+ru 6 6 16278
+pa 6 6 16278
+ca 6 6 16278
+rs 2 2 5426
+zz 2 2 174
+ro 1 1 2745
+jp 1 1 2713
+gr 1 1 2713
+lt 1 1 2713
+bg 1 1 2713
+nl 1 1 2713
+gb 1 1 87
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+checker 21 56973 20251017124901 0
+no_user_agent 7 13565 20251025115503 0
+Go\-http\-client/ 2 0 20251007141519 0
+curl 2 5426 20251015125932 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 2
+Unknown 11 911 0 0
+html 97 252341 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 14
+winxp 1 1
+androidmarshmallow 2 2
+winnt 2 2
+Unknown 26 26
+androidlollipop 1 1
+androidoreo 3 3
+linux 13 13
+macosx 2 2
+linuxubuntu 2 2
+macosx15 8 8
+win8.1 1 1
+win10 36 36
+ios_iphone 4 4
+win7 7 7
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 35
+msie7.0 4 4
+edge18 1 1
+chrome58.0.3029.110 9 9
+safari16.5 1 1
+mozilla 19 19
+safari15.4 1 1
+chrome83.0.4103.61 1 1
+chrome68.0.1248 1 1
+firefox133.0 1 1
+netscape5.0 3 3
+chrome37.0.2049.0 1 1
+chrome78.0.3904.108 12 12
+safari14.0.3 1 1
+chrome139.0.0.0 4 4
+chrome104.0.2216 1 1
+chrome81.0.4044.129 1 1
+chrome90.0.4430.93 1 1
+chrome113.0.0.0 4 4
+chrome63.0.3239.111 3 3
+chrome117.0.5938.132 2 2
+chrome25.0.1108.47 2 2
+chrome137.0.0.0 1 1
+chrome79.0.3945.79 1 1
+firefox139.0 4 4
+chrome52.0.1248.98 2 2
+chrome88.0.4240.193 6 6
+firefox47.0 4 4
+chrome125.0.6422.60 1 1
+Unknown 5 5
+chrome141.0.0.0 3 3
+firefox134.0 2 2
+chrome95.0.4638.69 1 1
+safari11.0 1 1
+chrome31.0.1650.16 1 1
+chrome135.0.0.0 3 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 7
+Mozilla/5.0_zgrab/0.x 20251027100225
+Cpanel-HTTP-Client/1.0 20251007141424
+python-httpx/0.28.1 20251024075131
+python-requests/2.32.3 20251007153543
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20251031183631
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20251007141426
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20251009012214
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+python-httpx/0.28.1 20251024075131
+Cpanel-HTTP-Client/1.0 20251007141424
+python-requests/2.32.3 20251007153543
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 102 102
+From1 0 0
+From2 6 6
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 6 6
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+404 872 1380173
+403 5 8238
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 346
+/appsettings.json 2 -
+/2019/wp-includes/wlwmanifest.xml 6 -
+/config/.env 4 -
+/service/email_service.py 2 -
+/js/.env 2 -
+/admin/controllers/merchant.js 1 -
+/settings.py 1 -
+//phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//.env.local 3 https://www.google.com/
+/dev/.env 2 -
+//old/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+/xampp/.env 2 -
+/_profiler/phpinfo 6 -
+//database/.env 3 https://www.google.com/
+/.env.old 5 https://www.google.com/
+/cron/.env 2 -
+/_all_dbs 2 -
+//administrator/.env 3 https://www.google.com/
+/test.php 5 -
+//.env 3 https://www.google.com/
+/backend/config/development.yml 1 -
+/configs/s3_config.json 1 -
+/main/.env 2 -
+/config/constants.js 1 -
+/_profiler/phpinfo/info.php 2 -
+/api/config.js 1 -
+/static/js/main.e85f7a37.js 1 -
+/karma.conf.json 2 -
+//vendor/phpunit/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//vendor/.env 3 https://www.google.com/
+//main/.env 3 https://www.google.com/
+/partner/config/config.js 1 -
+/main.yml 1 -
+http://bugs.magentaweb.org:80/2020/wp-includes/wlwmanifest.xml 1 -
+/2018/wp-includes/wlwmanifest.xml 4 -
+/website/.env 2 -
+/configs/routes-4aug.js 1 -
+/user/config/config.js 1 -
+/server-info.php 1 -
+//.env.production 3 https://www.google.com/
+/backend/config/default.yml 1 -
+//core/Datavase/.env 3 https://www.google.com/
+/media/wp-includes/wlwmanifest.xml 4 -
+//.env.backup 3 https://www.google.com/
+/lara/phpinfo.php 2 -
+/docker/.env 2 -
+/index.js 1 -
+//.env.testing 3 https://www.google.com/
+/docker/app/.env 2 -
+/portal/.env 2 -
+/controller/api/post.js 1 -
+/development/.env 2 -
+/.AWS_/credentials 2 -
+//.env.live 3 https://www.google.com/
+//log/.env 3 https://www.google.com/
+/.vscode/sftp.json 2 -
+//dev/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+/info 2 -
+/new/.env.local 2 -
+//application/.env 3 https://www.google.com/
+//backend/.env 3 https://www.google.com/
+//.env.elastic 3 https://www.google.com/
+//wp-content/plugins/mm-plugin/inc/vendors/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+/api/config.env 2 -
+//test/.env 3 https://www.google.com/
+/about 2 -
+/.remote.env 3 https://www.google.com/
+/node/.env_example 2 -
+//phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//.env.prod 3 https://www.google.com/
+/helpers/utility.js 1 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 2 -
+/apis/controllers/users.js 1 -
+/.aws/config 1 -
+/cloud/Scraper.js 1 -
+/wp-login.php 4 -
+/server-status 2 -
+/.git/config 12 -
+/sito/wp-includes/wlwmanifest.xml 6 -
+//backup/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+/wp-config 2 -
+/api/shared/config.env 2 -
+/sitemap.xml 3 -
+//.env.swp 3 https://www.google.com/
+/api/shared/config/.env 2 -
+/admin/.env 2 -
+/s/1333e26373e2231313e24373/_/ 2 -
+/.env.prod 2 -
+//.env~ 3 https://www.google.com/
+/website/wp-includes/wlwmanifest.xml 6 -
+/secured/phpinfo.php 1 -
+/.env.test.local 3 https://www.google.com/
+//exapi/.env 3 https://www.google.com/
+//.env.example.1 3 https://www.google.com/
+http://bugs.magentaweb.org:80/wp1/wp-includes/wlwmanifest.xml 1 -
+/config.js 1 -
+//tools/.env 3 https://www.google.com/
+//.env.development 3 https://www.google.com/
+/static/js/2.ca066a4b.chunk.js 1 -
+//new/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//protected/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+/admin/controllers/partner.js 1 -
+//cron/.env 3 https://www.google.com/
+//laravel/.env.local 3 https://www.google.com/
+/env.backup 2 -
+/telescope/requests 2 -
+//lib/phpunit/Util/PHP/eval-stdin.php 3 https://www.google.com/
+/login/ 3 -
+/config/config.json 1 -
+/app.py 1 -
+/.env 13 https://www.google.com/
+//public/.env.example 3 https://www.google.com/
+/.env.testing 3 https://www.google.com/
+/wp1/wp-includes/wlwmanifest.xml 6 -
+/www/.env 2 -
+//www/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//.env.www 3 https://www.google.com/
+/site/wp-includes/wlwmanifest.xml 6 -
+/awstats/.env 2 -
+http://bugs.magentaweb.org:80/site/wp-includes/wlwmanifest.xml 1 -
+//.env.dev 3 https://www.google.com/
+//upload/.env 3 https://www.google.com/
+//lib/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+/2020/wp-includes/wlwmanifest.xml 2 -
+//lib/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+/phpinfo.php 6 -
+/login.action 2 -
+/config/parameters.yml 1 -
+/new/.env.production 2 -
+/app/.env 2 -
+/api/shared/config/config.env 4 -
+/config/application.yml 1 -
+/.env.sqlite 3 https://www.google.com/
+/actuator/env 2 -
+/.env.live 3 https://www.google.com/
+/phpversion.php 2 -
+/config.env 2 -
+/admin/config 1 -
+/my_env/palash.py 1 -
+/shop/wp-includes/wlwmanifest.xml 6 -
+//.env.orig 3 https://www.google.com/
+//lib/phpunit/phpunit/Util/PHP/eval-stdin.php 3 https://www.google.com/
+/php.php 2 -
+/news/wp-includes/wlwmanifest.xml 6 -
+http://bugs.magentaweb.org:80/cms/wp-includes/wlwmanifest.xml 1 -
+//psnlink/.env 3 https://www.google.com/
+//lib/.env 3 https://www.google.com/
+/.env.bak 2 -
+/.travis.yml 1 -
+http://bugs.magentaweb.org:80/feed/ 1 -
+//admin/.env 3 https://www.google.com/
+/.circleci/configs/development.yml 1 -
+/xmlrpc.php 6 -
+/.aws/credentials 3 -
+//.env.test.local 3 https://www.google.com/
+//apps/.gitignore 3 https://www.google.com/
+//saas/.env 3 https://www.google.com/
+//v1/.env 3 https://www.google.com/
+/config.json 3 -
+/.env.production 4 -
+/aws.yml 1 -
+/admin/server_info.php 1 -
+//laravel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//.env.bak 3 https://www.google.com/
+/site/.env 2 -
+/apps/.env 2 -
+//.env.zip 3 https://www.google.com/
+/server/config/database.js 2 -
+/wp-includes/wlwmanifest.xml 6 -
+//API/.env 3 https://www.google.com/
+/api/.env 6 -
+//sites/all/libraries/mailchimp/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+/app_dev.php/_profiler/phpinfo 1 -
+/prod/.env 2 -
+/v2/_catalog 2 -
+//.env.template 3 https://www.google.com/
+//admin/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//.env.docker 3 https://www.google.com/
+//public/.env 3 https://www.google.com/
+/swagger.json 1 -
+/application.properties 1 -
+/swagger.js 1 -
+/dashboard/phpinfo.php 2 -
+/getcpuutil.php-bakworking 1 -
+//.env.remote 3 https://www.google.com/
+/helper.js 1 -
+/mytest/astech_robot.js 1 -
+/@vite/env 2 -
+/my_env/chakaash.py 1 -
+/.env.stage 2 -
+//.env.old 3 https://www.google.com/
+/xampp/phpinfo.php 2 -
+/register/ 1 -
+//config/.env 3 https://www.google.com/
+//.env_old 3 https://www.google.com/
+/configs/routes.js 1 -
+//.env.project 3 https://www.google.com/
+/blog/wp-includes/wlwmanifest.xml 6 -
+//demo/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+/api/objects/codes.php.save 1 -
+/aws/credentials 1 -
+/config/settings.local 1 -
+/crm/.env 2 -
+/backend/.env 4 -
+//vendor/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//site/.env 3 https://www.google.com/
+http://bugs.magentaweb.org:80/wordpress/wp-includes/wlwmanifest.xml 1 -
+/_profiler/phpinfo/phpinfo.php 2 -
+/mailer/.env 2 -
+/debug/default/view 3 -
+/.env.docker 3 https://www.google.com/
+/config/settings.prod 1 -
+/wp/wp-includes/wlwmanifest.xml 6 -
+/shared/config/config.js 1 -
+//.env.angular 3 https://www.google.com/
+/storage/logs/laravel.log 1 -
+/static/js/main.141b0494.js 1 -
+/_phpinfo.php 2 -
+/nginx/.env 2 -
+//.env.debug 3 https://www.google.com/
+/api/config/config.yml 1 -
+http://bugs.magentaweb.org:80/wp/wp-includes/wlwmanifest.xml 1 -
+/wp-config.php.bak 2 -
+/.env.production.local 2 -
+/s3.js 1 -
+//.env.sample 3 https://www.google.com/
+/.env_old 3 https://www.google.com/
+//.env.example 3 https://www.google.com/
+/backend/config/settings.yml 1 -
+/api/shared/.env 2 -
+//lab/.env 3 https://www.google.com/
+/env/.env 2 -
+http://bugs.magentaweb.org:80/2021/wp-includes/wlwmanifest.xml 1 -
+//.env.test 3 https://www.google.com/
+/config/local.yml 1 -
+/public/.env 2 -
+//.env_sample 3 https://www.google.com/
+/local/.env 2 -
+//en/.env 3 https://www.google.com/
+/.env_sample 5 https://www.google.com/
+/gatsby-config.js 1 -
+/i.php 2 -
+//assets/.env 3 https://www.google.com/
+/server-info 1 -
+//.env.db 3 https://www.google.com/
+/phpinfo 6 -
+//.env.postgres 3 https://www.google.com/
+/wordpress/ 1 -
+//app/.env 3 https://www.google.com/
+//vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//.env.bkp 3 https://www.google.com/
+/php_info.php 2 -
+/scripts/nodemailer.js 2 -
+/new/.env 2 -
+/.env.local 4 -
+//core/.env 3 https://www.google.com/
+/web/wp-includes/wlwmanifest.xml 6 -
+/cms/wp-includes/wlwmanifest.xml 6 -
+//phpunit/phpunit/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//.env.sqlite 3 https://www.google.com/
+/core/.env 2 -
+/user/controllers/index.js 1 -
+http://bugs.magentaweb.org:80/xmlrpc.php 1 -
+/laravel/.env 2 -
+//api/v2/.env 3 https://www.google.com/
+//wp-content/plugins/dzs-videogallery/class_parts/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//cronlab/.env 3 https://www.google.com/
+/public/js/main.js 1 -
+/apis/config/config.js 1 -
+//tests/.env 3 https://www.google.com/
+/contact/ 1 -
+/.env.debug 3 https://www.google.com/
+/robots.txt 5 -
+/index.php 1 -
+/lara/info.php 2 -
+http://bugs.magentaweb.org:80/blog/wp-includes/wlwmanifest.xml 1 -
+/test/wp-includes/wlwmanifest.xml 6 -
+//blog/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+/test 2 -
+//web/.env 3 https://www.google.com/
+/laravel/core/.env 2 -
+/server.js 1 -
+/app.js 1 -
+/my_env/newsletter.py 1 -
+//panel/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//phpunit/Util/PHP/eval-stdin.php 3 https://www.google.com/
+/.env.backup 5 https://www.google.com/
+/server 2 -
+/.env.example 4 -
+/node_modules/.env 2 -
+/controller/admin/post.js 1 -
+//.database.env 3 https://www.google.com/
+//api/.env 3 https://www.google.com/
+//uploads/.env 3 https://www.google.com/
+/app/ 3 -
+//api/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+/application/.env 2 -
+/web/.env 2 -
+http://bugs.magentaweb.org:80/web/wp-includes/wlwmanifest.xml 1 -
+http://bugs.magentaweb.org:80/shop/wp-includes/wlwmanifest.xml 1 -
+/js/main.js 1 -
+/config/storage.yml 1 -
+/app/config/parameters.yml 1 -
+/config/settings.json 1 -
+http://bugs.magentaweb.org:80/test/wp-includes/wlwmanifest.xml 1 -
+//core/app/.env 3 https://www.google.com/
+//.env.staging 3 https://www.google.com/
+/controllers/settings.js 1 -
+/helper/EmailHelper.js 1 -
+//cms/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//v2/.env 3 https://www.google.com/
+/.env.dev 5 https://www.google.com/
+/.env.bkp 3 https://www.google.com/
+//.env.copy 3 https://www.google.com/
+//vendor/phpunit/phpunit/Util/PHP/eval-stdin.php 3 https://www.google.com/
+/wp2/wp-includes/wlwmanifest.xml 6 -
+//wp-content/plugins/cloudflare/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+/.vscode/.env 2 -
+/kyc/.env 2 -
+/.git/HEAD 1 -
+/.DS_Store 2 -
+//api/.env.example 3 https://www.google.com/
+/conf/.env 2 -
+/mail/.env 2 -
+//sitemaps/.env 3 https://www.google.com/
+/wordpress/wp-includes/wlwmanifest.xml 6 -
+/laravel/info.php 2 -
+http://bugs.magentaweb.org:80/wp-includes/ID3/license.txt 1 -
+/.env.swp 3 https://www.google.com/
+/aws-secret.yaml 2 -
+/server/s3.js 1 -
+//.env.save 3 https://www.google.com/
+/info.php 8 -
+//web/.env.example 3 https://www.google.com/
+/server_info.php 1 -
+/new/.env.staging 2 -
+/sms.py 1 -
+http://bugs.magentaweb.org:80/2019/wp-includes/wlwmanifest.xml 1 -
+//laravel/.env 3 https://www.google.com/
+//wp-content/plugins/jekyll-exporter/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php 3 https://www.google.com/
+//apps/.env 3 https://www.google.com/
+//es/.env 3 https://www.google.com/
+//.environment 3 https://www.google.com/
+/main.js 1 -
+/config/aws.yml 1 -
+//.svn/text-base/.env 3 https://www.google.com/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 74
+179.43.169.98 6 6 16278 20251024151707
+35.89.70.86 4 4 10852 20251007204553
+34.169.242.205 3 3 8139 20251009084250
+134.209.101.17 3 3 8139 20251008015138
+34.1.20.34 3 3 8139 20251022055546
+64.23.247.61 3 3 8139 20251017082126
+18.219.122.173 3 3 8139 20251016202413
+134.209.52.78 3 3 8139 20251009053240
+34.168.229.42 3 3 8139 20251011020317
+143.198.57.239 3 3 8139 20251015234901
+205.169.39.105 2 2 5426 20251008052902
+16.52.44.50 2 2 5426 20251015143344
+44.250.64.163 2 2 5426 20251007210602
+44.249.3.119 2 2 5426 20251015052557
+18.201.115.149 2 2 5426 20251007232426
+34.209.145.4 2 2 5426 20251007163956
+74.112.76.31 2 2 128 20251007141424
+34.216.196.22 2 2 5426 20251008205838
+3.138.185.30 2 2 5426 20251027100225
+35.88.109.68 2 2 5426 20251007163956
+152.42.142.158 1 1 2713 20251011203117
+206.81.12.187 1 1 0 20251007141515
+23.178.112.103 1 1 87 20251007141425
+206.168.34.201 1 1 2713 20251031183631
+46.101.208.138 1 1 2713 20251017081808
+134.122.37.86 1 1 2713 20251010103318
+136.114.140.107 1 1 2713 20251012160105
+165.154.172.88 1 1 2713 20251015121726
+167.94.138.169 1 1 2713 20251008082135
+178.128.228.249 1 1 2713 20251009204728
+185.247.137.114 1 1 2713 20251009001327
+91.231.89.127 1 1 2713 20251008180432
+104.207.51.160 1 1 2713 20251012082655
+91.231.89.36 1 1 2713 20251008180349
+64.225.52.18 1 1 2713 20251009085953
+164.90.208.56 1 1 0 20251007141516
+104.197.69.115 1 1 0 20251007141534
+205.169.39.57 1 1 0 20251007141522
+44.242.136.200 1 1 2713 20251016152524
+165.154.162.212 1 1 2713 20251015130011
+167.94.146.55 1 1 2713 20251028111706
+34.124.187.223 1 1 2713 20251008004410
+64.15.129.108 1 1 2713 20251007152242
+54.187.6.94 1 1 87 20251007141426
+199.45.155.108 1 1 2713 20251013105317
+18.222.223.154 1 1 87 20251007141426
+185.177.72.24 1 1 2713 20251010024701
+89.37.58.120 1 1 2745 20251007142545
+18.117.234.232 1 1 87 20251007141426
+18.208.206.243 1 1 2713 20251019061605
+51.20.131.184 1 1 87 20251007141426
+64.15.129.103 1 1 2713 20251007152242
+18.141.220.35 1 1 87 20251007141426
+34.41.111.109 1 1 2713 20251012160104
+167.94.145.101 1 1 2713 20251014093022
+205.169.39.43 1 1 2713 20251029041110
+185.242.177.19 1 1 2713 20251007153543
+165.227.109.155 1 1 2713 20251022223906
+157.20.32.213 1 1 2713 20251017185548
+64.15.129.115 1 1 2713 20251007152243
+23.178.112.106 1 1 87 20251007141425
+91.134.35.95 1 1 2713 20251022101529
+159.89.112.138 1 1 2713 20251031112248
+13.61.141.170 1 1 87 20251007141426
+86.38.98.44 1 1 2713 20251009110844
+66.132.153.129 1 1 2713 20251008083415
+98.159.40.15 1 1 2713 20251011201146
+66.132.153.116 1 1 2713 20251014232300
+164.90.192.89 1 1 2713 20251008091058
+54.213.145.16 1 1 87 20251007141426
+185.177.72.22 1 1 2713 20251024075131
+206.168.34.208 1 1 2713 20251016105709
+185.242.177.52 1 1 2713 20251007152112
+185.247.137.177 1 1 2713 20251009012214
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 19
+20251007 33 33 49777 25
+20251008 13 13 35269 9
+20251009 11 11 29843 7
+20251010 2 2 5426 2
+20251011 5 5 13565 3
+20251012 3 3 8139 3
+20251013 1 1 2713 1
+20251014 2 2 5426 2
+20251015 9 9 24417 6
+20251016 7 7 18991 4
+20251017 5 5 13565 3
+20251019 4 4 10852 3
+20251020 1 1 2713 1
+20251022 5 5 13565 3
+20251024 2 2 5426 2
+20251027 1 1 2713 1
+20251028 1 1 2713 1
+20251029 1 1 2713 1
+20251031 2 2 5426 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+30s-2mn 1
+0s-30s 77
+2mn-5mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 5
+/ 97 252341 69 69
+/.well-known/acme-challenge/ZmEkb2Heg5ww3dAJw2cJZY5SmV8WZUegI9_Tb1tFlCs 5 435 5 5
+/.well-known/acme-challenge/-OfloSqCefxSqrH1JaviEVn0kQ3POjq8jXZEYZdDw1A 4 348 4 4
+/.well-known/acme-challenge/1LZELB45PX7ROM60EPOW1G9-O49L_J6J 1 64 1 0
+/.well-known/acme-challenge/R2FS5K07QMDB7TNIYFNBMTSJKVEISDXS 1 64 0 1
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 4
+1K-2K 858
+0-44 52
+44-100 11
+2K-5K 121
+END_FILESIZE
+
+# Request Time Range - Request Time Frequency
+BEGIN_REQUESTTIME 0
+END_REQUESTTIME

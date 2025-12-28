@@ -1,0 +1,656 @@
+AWSTATS DATA FILE 8.0 (build 20240604)
+# If you remove this file, all statistics for date 202510 will be lost/reset.
+# Last config file used to build this data file was /home/magentaw/tmp/awstats/ssl/awstats.files.magentaweb.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2092                
+POS_TIME 2770                
+POS_VISITOR 13632               
+POS_DAY 16824               
+POS_DOMAIN 3494                
+POS_LOGIN 3892                
+POS_ROBOT 4097                
+POS_WORMS 4518                
+POS_EMAILSENDER 4649                
+POS_EMAILRECEIVER 4792                
+POS_SESSION 17310               
+POS_FILESIZE 18658               
+POS_REQUESTTIME 18791               
+POS_SIDER 17494               
+POS_FILETYPES 4927                
+POS_DOWNLOADS 5163                
+POS_OS 5939                
+POS_BROWSER 6185                
+POS_SCREENSIZE 6850                
+POS_UNKNOWNREFERER 6924                
+POS_UNKNOWNREFERERBROWSER 7562                
+POS_ORIGIN 7842                
+POS_SEREFERRALS 7979                
+POS_PAGEREFS 8142                
+POS_SEARCHWORDS 8290                
+POS_KEYWORDS 8442                
+POS_MISC 2434                
+POS_ERRORS 8501                
+POS_CLUSTER 3748                
+POS_SIDER_404 8654                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20251101010809 20 2933 10385871484105
+FirstTime 20251001015235
+LastTime 20251030215143
+LastUpdate 20251101081112 20 0 19 0 0
+TotalVisits 94                  
+TotalUnique 80                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 82                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+AddToFavourites 0 9 0
+JavaEnabled 0 0 0
+DirectorSupport 0 0 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1 1 1625 12 14 21681
+1 3 3 4482 2 8 10055
+2 6 6 21217 19 23 39558
+3 4 8 334255 5 13 2915750
+4 0 2 39897288 3 6 8596
+5 1 4 1198405349 1 4 5266
+6 9 10 289244 3 7 7041
+7 1 1 1648 1 4 5043
+8 34 40 239878232 4 19 4364041
+9 11 56 1761823011 4 8 7050
+10 50 54 167898737 117 155 234976
+11 21 21 2066223 5 7 8634
+12 6 6 139017 3 5 8489
+13 22 26 137261009 227 248 7389367
+14 8 9 58659193 5 20 1198216118
+15 3 3 3507 4 8 11671
+16 3 3 3986 10 14 21782
+17 4 4 6072 4 7 11644
+18 6 6 10047 7 11 15127
+19 4 4 6645 75 76 119649
+20 8 8 11649 5 8 13098
+21 5 5 7875 1 6 8568
+22 2 2 3208 6 7 82120
+23 0 0 0 1 4 6869
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 14
+de 115 181 2783313762
+us 60 60 101665
+in 13 17 366783
+ru 4 4 5482
+rs 3 3 3957
+ca 3 3 4502
+gb 3 3 4981
+za 3 3 4529
+be 3 3 3507
+au 1 1 1680
+cn 1 1 1668
+jp 1 1 1169
+dk 1 1 1554
+vn 1 1 1169
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 1
+MagentaWebFileSystem 15 18 8061965 20251022082632
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+Discordbot/ 12 1212691402 20251031082050 0
+no_user_agent 5 7367 20251027072117 0
+GPTBot/ 4 77145 20251031224925 0
+scrapy 2 3158 20251008170512 0
+Go\-http\-client/ 2 3173 20251026192718 0
+bot[\s_+:,\.\;\/\\-] 1 1659 20251008141329 0
+curl 1 1867 20251006031123 0
+BW/ 1 1867 20251007090615 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+ttf 65 5266776 0 0
+txt 2 431536 0 0
+gif 2 2900598 0 0
+zip 2 1198188412 0 0
+html 137 326020 0 0
+shtml 10 17358 0 0
+pdf 4 328405 0 0
+mp4 59 1557122590 0 0
+mp3 1 19234713 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 23
+/mp4/1.mp4 14 16 311019115
+/mp4/17.mp4 9 12 368493572
+/minecraft/crashreports/crash-2025-10-12_11.59.43-server.txt 2 0 431536
+/.zip/LaptopTycoon.zip 2 0 959679834
+/.zip/Let'sSchool.zip 2 0 1436696990
+/mp4/4.mp4 1 1 48917510
+/mp4/9.mp4 1 1 81110474
+/mp4/3.mp4 1 1 17861488
+/mp4/10.mp4 1 1 52343534
+/pdf/doogle/DPIA%20Doogle%20and%20Lens%20Features.pdf 1 0 169094
+/mp4/15.mp4 1 1 87657402
+/mp4/11.mp4 1 1 55634580
+/mp4/16.mp4 1 1 54373906
+/mp4/6.mp4 1 1 70088976
+/mp4/7.mp4 1 1 57816400
+/mp4/2.mp4 1 2 90992896
+/mp4/14.mp4 1 1 55592446
+/mp3/OPEN.mp3 1 2 11390523
+/mp4/12.mp4 1 2 76381395
+/mp4/8.mp4 1 1 80521532
+/pdf/doogle/LIA%20Doogle%20and%20Lens%20Features.pdf 1 0 159311
+/mp4/13.mp4 1 1 48317364
+/mp3/CLOSED.mp3 0 1 7844190
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 12
+androidmarshmallow 9 9
+macosx12 1 1
+Unknown 9 9
+macosx15 25 25
+linux 32 32
+androidoreo 1 1
+win10 241 124
+bsdfreebsd 1 1
+linuxubuntu 3 3
+win7 4 4
+android10 2 2
+androidjellybean 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 32
+chrome116.0.0.0 2 2
+chrome136.0.0.0 1 1
+firefox120.0 20 20
+chrome76.0.3809.100 1 1
+chrome96.0.4664.110 1 1
+safari 52 2
+chrome76.0.3786.0 1 1
+firefox139.0 2 2
+chrome52.0.1248.98 2 2
+chrome67.0.2548 1 1
+netscape5.0 1 1
+chrome124.0.0.0 8 8
+mozilla 5 5
+chrome131.0.0.0 1 1
+chrome128.0.0.0 1 1
+chrome100.0.4896.75 1 1
+firefox134.0 3 3
+chrome76.0.3809.89 2 2
+chrome137.0.0.0 5 5
+safari26.0 10 10
+chrome117.0.0.0 1 1
+opera122.0.0.0 176 112
+Unknown 3 3
+firefox47.0 3 3
+chrome17.0.963.56 1 1
+firefox113.0 3 0
+chrome130.0.0.0 7 7
+chrome139.0.0.0 8 8
+chrome126.0.6478.182 1 1
+chrome119.0.0.0 4 4
+firefox136.0 1 1
+android 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20251007094601
+Python/3.10_aiohttp/3.13.1 20251027101139
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20251001084114
+Mozilla/5.0 20251026205903
+Mozilla/5.0_AppleWebKit/537.36_(KHTML,_like_Gecko;_compatible;_Perplexity-User/1.0;__https://perplexity.ai/perplexity-user) 20251008141240
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20251001152650
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Python/3.10_aiohttp/3.13.1 20251027101139
+Hello_from_Palo_Alto_Networks,_find_out_more_about_our_scans_in_https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity 20251007094601
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 123 192
+From1 0 0
+From2 1 1
+From3 0 0
+From4 88 136
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+302 1 238
+301 207 80481
+401 76 127402
+404 314 504307
+403 2 3317
+500 10 13602
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 176
+/dev/.env 1 -
+/config/storage.yml 1 -
+/core/.env 3 -
+/telescope/requests 2 -
+/swagger.js 1 -
+/wp-config.php 2 -
+/forms/fabricatedchaos, 1 -
+/backend/config/default.yml 1 -
+/crm/.env 1 -
+/swagger.json 3 -
+/.git/refs/remotes/origin/HEAD 1 -
+/api/gql 2 -
+/lara/info.php 1 -
+/debug/default/view 2 -
+/shared/config/config.js 1 -
+/actutor/env 1 -
+/awstats/.env 1 -
+/robots.txt 20 -
+/.env_sample 1 -
+/actuator/env 2 -
+/api/swagger.json 2 -
+/xampp/.env 1 -
+/controller/admin/post.js 1 -
+/secured/phpinfo.php 1 -
+/_profiler/phpinfo 1 -
+/.env.prod 1 -
+/.git/HEAD 1 -
+/pdf/doogle/LIA 1 -
+/controller/api/post.js 1 -
+/@vite/env 3 -
+/api 2 -
+/controllers/settings.js 1 -
+/server-status 2 -
+/server.js 1 -
+/https%3A/fonts.googleapis.com/css2%3Ffamily%3DNabla%26family%3DNova%2BSquare%26display%3Dswap 1 -
+/scripts/nodemailer.js 1 -
+/wp-config 1 -
+/v2/api-docs 2 -
+/aws-config.js 2 -
+/config.json 5 -
+/swagger/v1/swagger.json 2 -
+/conf/.env 1 -
+/local/.env 1 -
+/config/application.yml 1 -
+/info.php 3 -
+/static/js/2.ca066a4b.chunk.js 1 -
+/.git/logs/HEAD 3 -
+/config/aws.yml 1 -
+/.env.example 1 -
+/appsettings.json 1 -
+/.aws/credentials 1 -
+/swagger-ui.html 2 -
+/app.js 1 -
+/api/graphql 2 -
+/cloud/Scraper.js 1 -
+/s/1333e26373e2231313e24373/_/ 2 -
+/new/.env.production 1 -
+/pdf/doogle/DPIa%20Doogle%20and%20Lens%20Features.pdf 1 -
+/public/.env 1 -
+/xampp/phpinfo.php 1 -
+/server_info.php 1 -
+/service/email_service.py 1 -
+/dashboard/phpinfo.php 1 -
+/.vscode/sftp.json 3 -
+/test.php 1 -
+/main.js 1 -
+/backend/config/development.yml 1 -
+/.env.local 1 -
+/fonts/static/Tomorrow-Regular.ttf 6 https://fabricatedchaos.magentaweb.org/
+/wp-config.php.bak 1 -
+/api/.env 1 -
+/mp4/fonts/creepster.ttf 1 https://files.magentaweb.org/mp4/17.mp4
+/server-info 1 -
+/laravel/core/.env 1 -
+/_profiler/phpinfo/phpinfo.php 1 -
+/new/.env.local 1 -
+/configs/routes.js 1 -
+/mail/.env 1 -
+/.git/FETCH_HEAD 1 -
+/admin/controllers/partner.js 1 -
+/.gitlab-ci.yml 2 -
+/laravel/.env 1 -
+/.DS_Store 2 -
+/new/.env 1 -
+/.git/index 1 -
+/portal/.env 1 -
+/_profiler/phpinfo/info.php 1 -
+/aws-secret.yaml 1 -
+/kyc/.env 1 -
+/api/shared/config/.env 1 -
+/api/shared/config/config.env 1 -
+/prod/.env 1 -
+/searching-not-allowed.shtmlsearching-not-allowed.shtmlsearching-not-allowed.shtmlsearching-not-allowed.shtmlsearching-not-allowed.shtml403.shtml 1 -
+/gif/ClipWindowsGIF.gif](https://files.magentaweb.org/gif/ClipWindowsGIF.gif) 1 -
+/https%3A/fonts.googleapis.com/https%3A/fonts.googleapis.com/css2%3Ffamily%3DNabla%26family%3DNova%2BSquare%26display%3Dswap 1 -
+/admin/server_info.php 1 -
+/.vscode/.env 1 -
+/phpinfo 1 -
+/api-docs/swagger.json 2 -
+/helper.js 1 -
+/api/shared/config.env 1 -
+/.git/config 21 -
+/.env.bak 3 -
+/api/config.js 1 -
+/js/main.js 1 -
+/gatsby-config.js 1 -
+/about 2 -
+/graphql 2 -
+/development/.env 1 -
+/searching-not-allowed.shtmlsearching-not-allowed.shtmlsearching-not-allowed.shtmlsearching-not-allowed.shtmlsearching-not-allowed.shtmlsearching-not-allowed.shtml403.shtml 8 -
+/admin/.env 3 -
+/new/.env.staging 1 -
+/js/lkk_ch.js 7 -
+/admin/controllers/merchant.js 1 -
+/configs/routes-4aug.js 1 -
+/server 2 -
+/getcpuutil.php-bakworking 1 -
+/api/config.env 1 -
+/mailer/.env 1 -
+/env.backup 1 -
+/main/.env 1 -
+/apps/.env 1 -
+/server/config/database.js 1 -
+/login.action 2 -
+/nginx/.env 1 -
+/searching-not-allowed.shtmlsearching-not-allowed.shtmlsearching-not-allowed.shtmlsearching-not-allowed.shtmlsearching-not-allowed.shtmlsearching-not-allowed.shtmlsearching-not-allowed.shtmlsearching-not-allowed.shtmlsearching-not-allowed.shtml403.shtml 4 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 2 -
+/static/js/main.141b0494.js 1 -
+/sitemap.xml 1 -
+/apis/controllers/users.js 1 -
+/.git/objects/info/packs 1 -
+/settings.py 1 -
+/website/.env 1 -
+/_phpinfo.php 1 -
+/v3/api-docs 2 -
+/phpinfo.php 1 -
+/web/.env 1 -
+/karma.conf.json 1 -
+/backend/.env 3 -
+/api/objects/codes.php.save 1 -
+/static/js/main.e85f7a37.js 1 -
+/public/js/main.js 1 -
+/app/.env 1 -
+/.git/refs/heads/main 1 -
+/webjars/swagger-ui/index.html 2 -
+/swagger/index.html 2 -
+/.git/refs/heads/master 1 -
+/.env 13 -
+/v2/_catalog 2 -
+/docker/app/.env 1 -
+/.env.stage 1 -
+/config/constants.js 1 -
+/laravel/info.php 1 -
+/api/shared/.env 1 -
+/aws.config.js 2 -
+/.git/info/exclude 1 -
+/css/support_parent.css 7 -
+/config.js 3 -
+/apis/config/config.js 1 -
+/storage/logs/laravel.log 1 -
+/js/twint_ch.js 7 -
+/.env.old 1 -
+/site/.env 1 -
+/app.py 1 -
+/env/.env 1 -
+/config.env 1 -
+/searching-not-allowed.shtml 1 -
+/swagger/swagger-ui.html 2 -
+/app_dev.php/_profiler/phpinfo 1 -
+/application.properties 1 -
+/js/.env 1 -
+/node/.env_example 1 -
+/graphql/api 2 -
+/_all_dbs 2 -
+/.env.production.local 1 -
+/.git/packed-refs 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 82
+79.217.216.128 104 209 1562972913 20251012063506
+80.134.135.17 10 15 20700797 20251029131141
+61.8.128.151 5 5 12205 20251002060129
+61.8.129.78 5 5 21217 20251010025349
+157.143.122.60 4 4 7279 20251009082442
+23.20.19.201 3 3 3987 20251001104223
+196.251.88.64 3 3 4529 20251028095422
+3.238.57.161 2 2 3314 20251027103206
+195.178.110.201 2 2 3144 20251027101139
+159.89.40.65 2 2 2635 20251004112758
+185.203.132.199 2 2 2338 20251002142326
+103.4.250.28 2 2 3304 20251026184624
+206.189.103.51 1 1 1648 20251027162114
+167.99.56.191 1 1 1689 20251004060640
+167.71.246.114 1 1 784 20251004115749
+149.57.180.61 1 1 1169 20251001201558
+123.160.223.74 1 1 1668 20251009011534
+64.227.153.168 1 1 1648 20251026070432
+171.244.43.14 1 1 1169 20251001083508
+23.27.145.47 1 1 1867 20251004181942
+159.65.191.157 1 1 5910 20251004120534
+149.57.180.143 1 1 1341 20251002221438
+146.70.117.21 1 1 1657 20251027215343
+103.4.251.73 1 1 1652 20251026184617
+137.184.172.117 1 1 1645 20251029010501
+149.57.180.168 1 1 1867 20251004203536
+23.27.145.236 1 1 1341 20251002200810
+23.27.145.58 1 1 1609 20251009143807
+23.27.145.126 1 1 1610 20251030214920
+164.90.228.79 1 1 1685 20251026192651
+199.45.155.84 1 1 1169 20251001083436
+143.198.12.163 1 1 5982 20251004114453
+149.57.180.25 1 1 1867 20251004170148
+91.84.86.2 1 1 1670 20251028140406
+149.57.180.173 1 1 1169 20251002163249
+23.27.145.72 1 1 1867 20251004221651
+52.90.221.11 1 1 1661 20251026190315
+146.70.132.108 1 1 1654 20251027210059
+23.27.145.51 1 1 1867 20251005133641
+45.55.87.171 1 1 1867 20251004114919
+87.236.176.110 1 1 1169 20251001152650
+23.27.145.55 1 1 1867 20251004203637
+149.57.180.100 1 1 1169 20251001161900
+96.41.38.202 1 1 1625 20251028000646
+205.210.31.55 1 1 1867 20251007094601
+23.27.145.23 1 1 1341 20251002203936
+165.227.105.25 1 1 1867 20251004114355
+23.27.145.238 1 1 1614 20251009144028
+45.79.123.232 1 1 0 20251002024312
+134.122.55.20 1 1 1647 20251029144823
+61.8.128.168 0 4 328405 
+161.35.190.134 1 1 1689 20251004084113
+91.231.89.96 1 1 1619 20251026190719
+138.197.87.158 1 1 1867 20251004114140
+206.168.34.57 1 1 1169 20251001084114
+91.231.89.37 1 1 1169 20251001175810
+57.129.46.185 1 1 1169 20251001053049
+45.55.206.45 1 1 1867 20251004120012
+23.27.145.94 1 1 1613 20251030182137
+80.211.129.177 1 1 1554 20251026205903
+133.242.174.119 1 1 1169 20251001031635
+149.57.180.12 1 1 1867 20251004171158
+23.27.145.25 1 1 1169 20251001154827
+138.197.88.239 1 1 1867 20251004113303
+139.59.132.8 1 1 1680 20251026192628
+68.183.199.253 1 1 1169 20251001153510
+164.90.232.109 1 1 1689 20251003145717
+23.27.145.192 1 1 1867 20251005133933
+87.236.176.239 1 1 1169 20251001030435
+23.27.145.28 1 1 1613 20251030215143
+217.235.135.126 0 3 1199638711 
+155.2.219.157 1 1 1169 20251001115852
+149.57.180.60 1 1 1341 20251002214728
+213.209.157.216 1 1 1341 20251002201515
+149.57.180.166 1 1 1611 20251030182136
+44.208.221.197 1 1 1666 20251008141240
+91.231.89.34 1 1 1169 20251001175525
+164.92.226.74 1 1 1643 20251027093615
+152.32.215.244 1 1 1867 20251006031215
+159.203.29.39 1 1 1612 20251029104115
+149.57.180.2 1 1 1169 20251001201601
+134.122.118.127 1 1 1169 20251001093855
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 19
+20251001 22 22 26724 20
+20251002 13 13 21248 9
+20251003 59 59 4028351 2
+20251004 54 110 2267276999 20
+20251005 7 10 98752376 5
+20251006 1 1 1867 1
+20251007 3 3 5601 2
+20251008 4 4 7183 2
+20251009 4 4 6569 4
+20251010 5 5 21217 1
+20251012 2 3 217962 1
+20251013 0 1 215768 0
+20251020 8 8 13336 1
+20251022 0 1 34672585 0
+20251026 9 9 14803 8
+20251027 8 8 13060 7
+20251028 4 4 6655 3
+20251029 5 11 3236356 4
+20251030 4 6 1198194859 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+0s-30s 83
+30s-2mn 4
+1h+ 2
+5mn-15mn 4
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 27
+/ 97 149611 82 78
+/fonts/normal/Tomorrow.ttf 23 1319924 2 6
+/fonts/normal/16Segment.ttf 10 148176 2 0
+/forms/fabricatedchaos/ 9 6084 1 0
+/fonts/static/ 8 87864 0 0
+/fonts/static/CairoPlay-Regular.ttf 6 973848 0 0
+/fonts/static/TurretRoad-Medium.ttf 6 299088 0 0
+/fonts/static/Orbitron-Bold.ttf 6 148008 0 0
+/fonts/static/Tektur-Regular.ttf 6 453624 0 0
+/fonts/normal/ 6 26477 0 0
+/mp4/ 5 29910 1 1
+/searching-not-allowed.shtml 4 6737 2 1
+/fonts/ 4 3800 0 1
+/error/ 3 17730 1 2
+/searching-not-allowed.shtmlsearching-not-allowed.shtmlsearching-not-allowed.shtmlsearching-not-allowed.shtmlsearching-not-allowed.shtmlsearching-not-allowed.shtml403.shtml 3 5517 1 1
+/fonts/normal/Orbitron.ttf 2 77096 0 0
+/error/404.shtml 2 3402 0 1
+/forms/ 2 1568 1 1
+/fonts/normal/CairoPlay.ttf 2 1148616 0 0
+/fonts/normal/Orbitron-VariableFont_wght.ttf 1 38548 0 0
+/minecraft/crashreports/ 1 1058 0 1
+/minecraft/ 1 1136 1 0
+/fonts/normal/Tomorrow-Regular.ttf 1 57388 0 0
+/fonts/normal/CairoPlay-VariableFont_slnt,wght.ttf 1 574308 0 0
+/gif/ 1 782 0 1
+/fonts/normal/7%20Segment.ttf 1 28152 0 0
+/error/400.shtml 1 1702 0 0
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 6
+100-500 188
+0-44 38
+2K-5K 7
+1K-2K 553
+5K+ 187
+500-1K 38
+END_FILESIZE
+
+# Request Time Range - Request Time Frequency
+BEGIN_REQUESTTIME 0
+END_REQUESTTIME

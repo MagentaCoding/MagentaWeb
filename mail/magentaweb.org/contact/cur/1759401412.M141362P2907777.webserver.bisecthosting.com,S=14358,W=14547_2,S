@@ -1,0 +1,189 @@
+Return-Path: <alexander.gal@fbges.de>
+Delivered-To: contact@magentaweb.org
+Received: from webserver.bisecthosting.com
+	by webserver.bisecthosting.com with LMTP
+	id OAjbB8RV3miBXiwAufviug
+	(envelope-from <alexander.gal@fbges.de>)
+	for <contact@magentaweb.org>; Thu, 02 Oct 2025 06:36:52 -0400
+Return-path: <alexander.gal@fbges.de>
+Envelope-to: contact@magentaweb.org
+Delivery-date: Thu, 02 Oct 2025 06:36:52 -0400
+Received: from mail-germanywestcentralazon11020128.outbound.protection.outlook.com ([52.101.171.128]:47645 helo=FR6P281CU001.outbound.protection.outlook.com)
+	by webserver.bisecthosting.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.98.2)
+	(envelope-from <alexander.gal@fbges.de>)
+	id 1v4Gg8-0000000CK0o-3cTM
+	for contact@magentaweb.org;
+	Thu, 02 Oct 2025 06:36:52 -0400
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=jpzfy9Aa9D0DNI1VoYmD5Fb33WJ4MXw46iagM1QQnx7WfSM5ufwpMTNml8mmOLB6qaxl2WzY75RV6df5TSWwRCxKxQtZRinF2s0mPfuuGmpn4xtntX1vvoYAAtKNuG4oBnU0f7s8KIQ4OebLi/Z/96Vq+Uo0ihn5dNPJ0gefgPCdo9zqe9zjmd+i9i7ibPDkeL5RJsP7G0MqyGuCpTDkiT0aeUUHI/L9XwGDbIjBVytyjTUyr4Z7Xnhog8+jAZnFkx2btpdEODiEcILZnfvzoWwCph0u7IW0c+RaJeF2P3n5+yzjhtQgPy1XzwpQh8opcsopOlyY4mu0GqY5zVh+lg==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=16P0yU2eN4ro9ckoCDzlj6nxiNB7tPZdC6Qq5LM74bE=;
+ b=fAOtfu0fhoW186mSfRdd7P8busogHtgGiQHh4Phta9VF2BqxFkFjm2CqR37rtWknz7YxepChflbRrbCR47EXjDy/B7xRYjSYDC3urY3tOVTnhMfPhWSG7RGkbji/GveVUBwN4aoraWtN/75RBMk5Y4tm20kjE8axlzg/+9sdOz6Jfn3Dtw6Q8tZP4T9irO3wGXuL1AL55ewbmSSq+WhxrBmErv0Ut4yXfhH2WCJ6gbXwCXp4mhx6S5qBOflFmUOMbVzZbJMrkq9LIUxfiLtp060KKfgZfZLdxko+xpxQpNUTj0qK6LT5nxY3e8hFz7Kj0rad2X2XSg5BqSeVQwYIUA==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=fbges.de; dmarc=pass action=none header.from=fbges.de;
+ dkim=pass header.d=fbges.de; arc=none
+Received: from BE1P281MB3096.DEUP281.PROD.OUTLOOK.COM (2603:10a6:b10:61::6) by
+ FR3P281MB3263.DEUP281.PROD.OUTLOOK.COM (2603:10a6:d10:5e::11) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.9160.19; Thu, 2 Oct 2025 10:36:09 +0000
+Received: from BE1P281MB3096.DEUP281.PROD.OUTLOOK.COM
+ ([fe80::616f:49b5:6857:da5b]) by BE1P281MB3096.DEUP281.PROD.OUTLOOK.COM
+ ([fe80::616f:49b5:6857:da5b%5]) with mapi id 15.20.9160.017; Thu, 2 Oct 2025
+ 10:36:08 +0000
+From: Alexander Gal <alexander.gal@fbges.de>
+To: "contact@magentaweb.org" <contact@magentaweb.org>
+Subject: Test
+Thread-Topic: Test
+Thread-Index: AQHcM4haJdQ9VyjEZkGngwic4w39WQ==
+Date: Thu, 2 Oct 2025 10:36:08 +0000
+Message-ID:
+ <BE1P281MB309663FDA6B54FC310B365CE88E7A@BE1P281MB3096.DEUP281.PROD.OUTLOOK.COM>
+Accept-Language: de-DE, en-US
+Content-Language: de-DE
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+x-ms-reactions: allow
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=fbges.de;
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: BE1P281MB3096:EE_|FR3P281MB3263:EE_
+x-ms-office365-filtering-correlation-id: 14fbef04-1c06-4516-1869-08de019f7fbd
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam:
+ BCL:0;ARA:13230040|41320700013|366016|1800799024|376014|10070799003|38070700021|8096899003;
+x-microsoft-antispam-message-info:
+ =?iso-8859-1?Q?g7aSmRb2SNEB4ESzwsK9tcdWG8rCTcDStN3e21Y4iXzkXNjS3t2m8EpTPo?=
+ =?iso-8859-1?Q?jm1FKdnVz6CDYDssOypf77/XEji4qKACGR2YP76APKaa6lJJtx+ORCrWZ0?=
+ =?iso-8859-1?Q?ZszRwry46eMhtfk/rS7d4TB+6n1ajxlwx+5TWhbTW7ZHzY7MI9zId1kqFT?=
+ =?iso-8859-1?Q?Svy4FV284yAYVrAaj/MdanLjXkm/xnU9avqAgoJDgZPrHtRg8amfkStL8g?=
+ =?iso-8859-1?Q?o22Yc7aNMy/vKtYRu/jK5N76rXwaz/qGbMqShlCFQSky7kGGnh7MINQehZ?=
+ =?iso-8859-1?Q?Awt2Y18HCHOVhWywT7UF+z0GITDrtY2VL1JhF1JZBrPDDm94QeibghYDx/?=
+ =?iso-8859-1?Q?CQnfPVMrqvBEt2zZAF3ydJpewfH97NKoxYlUJG2JigZYb0F4HVHqR42Veg?=
+ =?iso-8859-1?Q?voVvubeDQye55sFeSbRKRwMVCv6Fs9WNZz4nTS1irrNZfyA4AsS1DIAPps?=
+ =?iso-8859-1?Q?nin0heGr3qt/Nfewo5Z39JB+KgGJ6V8UQC2LTje4wNUZdxwkK5OcHM0QWa?=
+ =?iso-8859-1?Q?9hoPgQudqLlUKPgLUdaX3KSqV/yhSb39d2F/Ez0J8FAnSVGIcsIaX2HzNc?=
+ =?iso-8859-1?Q?dzBBaQpuAoG5WBkwZ3qsaIj+wrpWi50tApU77yIYgvYE73ASF5RFE+DkdU?=
+ =?iso-8859-1?Q?ToLBCQDg8c23hydYYuGq2KiGEAC9RB7AaDBbSbAhbRFE2grojWFiMAVVk/?=
+ =?iso-8859-1?Q?nTu9mzzoIBuQg2NHYOJsbbW0Ifrk0eobIwOA5kFahT+GYFW3fPNfSMCFX+?=
+ =?iso-8859-1?Q?FJlkaNayxO0Q6lDY/BXD806Y5Jg5XbLw2x8MZXq8p+LKOk+/ek5NN7gm7R?=
+ =?iso-8859-1?Q?ZI656+XFUYtSYYhXgVxpQ+9GUIc7eK43vpmdLwmy5A7QPwQrirWXKwwj0h?=
+ =?iso-8859-1?Q?Sf1G/JbmCyNy4BCVzYMtK9TSRgeRzsnnG5Q6zSShh9onda2jgza5pEeBu5?=
+ =?iso-8859-1?Q?3/c22RAPQeAxxWCFquI65s3f7InsbHqeCLNeX/80gLmqS2k8GpD56cDImd?=
+ =?iso-8859-1?Q?lbZOkmJRMw2iHUjf4HxiKBDF80bKmey20d+gHa/TB83gkzaN7shEyOSFhw?=
+ =?iso-8859-1?Q?4UZxpLJ7sA+2j70qIx114t1PVafn96hIFWxTd+NP/Y/4iMfMVtYGDZ//Hj?=
+ =?iso-8859-1?Q?Ze/Cb2H9GtP2rt+dzHv0wSd0PS9TDa65dV/oC3VU6EZ22GqsN5wsyFW1a2?=
+ =?iso-8859-1?Q?0VbUZPWreQRdNHHz1y4ELLe6Tb29Wd2HY+fE40M9MfU7WGGxk7NvboGDcC?=
+ =?iso-8859-1?Q?Kqp/9VxI7jhO1wueDZQ9lMu8qYTla3EyVq401h0P9KRfy6v6x6PBwogJKY?=
+ =?iso-8859-1?Q?06+OQe9ic6H/g6R8Fx+wDTctRVke/RCc1Kjciw9qjUOrS51VPtB4BOjlXu?=
+ =?iso-8859-1?Q?5KW5A+IbUTn5GjBRJnGLJPklXFzBnu1hrXi4hrdpU3VjzuNXwbcpyEqcva?=
+ =?iso-8859-1?Q?/6wPDZsKLrTuQIA7AuDxcXf+FDIcdjEtp//glfSYdyu3koxf92dpZor7Ft?=
+ =?iso-8859-1?Q?I2zKnAO/2ylh+CS5EJKYddA3dq6fwT5dRYd66pA/NG9821ZUb0FnWid4bE?=
+ =?iso-8859-1?Q?GTuTpdztogiBPAFlrmEOOvMJB6+g?=
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:de;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:BE1P281MB3096.DEUP281.PROD.OUTLOOK.COM;PTR:;CAT:NONE;SFS:(13230040)(41320700013)(366016)(1800799024)(376014)(10070799003)(38070700021)(8096899003);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?iso-8859-1?Q?LSISVbboPB7/jRENGyzHcSXrcChKMcLh/FFjBUieKjkGyrHyzYPjs5/wkt?=
+ =?iso-8859-1?Q?u6hd+jfj3D9ml97bGXJiTEK3dDjbrWJGtPxfZQGxgpTL2LETb3QdrW58Ln?=
+ =?iso-8859-1?Q?oivjN7MWtrDVq7Lfo3jmPvr/ZGwVisNwwZEh08p7vVHEwGIgU4XCppNE8T?=
+ =?iso-8859-1?Q?DfjfrCHAi/5jRWUejhsdT5KyeApabYOEBCW2vpNSUs3fxv2LGSybA4zEUU?=
+ =?iso-8859-1?Q?LyOH/yw32WuzZCgOCsQJYvxy/i3COEwpx04xwCfsGv8xJpYQSVXyekKZvl?=
+ =?iso-8859-1?Q?Bm+6zFGrzHDZyCKki1o4vPL7osKLGhwoZ660fbmwKVi1yieL7MeqPurZbf?=
+ =?iso-8859-1?Q?2+OvyDPpS0f3Cqxh2X20DQvCj1HcgFKvgmDZ+B/eEZX9Co5UN5ymj4g7uT?=
+ =?iso-8859-1?Q?g9jry2RbAwoJaAaXUg40QAdjPJmDt2uBD4x5Yu0Czln6DUIZAKQRYG50+C?=
+ =?iso-8859-1?Q?hHNaIhrOw9Nne+8NTisosCi6N0oyJILWliDISblyFKARxfVTiABy04LQBC?=
+ =?iso-8859-1?Q?pqq6GXhZv8haQ6kLVA84KKjhWO4SUzYyOeKIApCQWJ9BRajxc/eF0DE1Xr?=
+ =?iso-8859-1?Q?BQi4Pi+7M4o73ztjyRruPSN8yqhpggL1LdFJF7K6A6Siyn5D64YTwHIm+k?=
+ =?iso-8859-1?Q?7RNq3EUFrbjHUzrNJ33YA8MiHxdMOvRPF6g/P54PGi7uWTeivPWlNd9zb+?=
+ =?iso-8859-1?Q?YPUC0ELCn4FNeQowiAoRH0YyN4re82W+kugcQJ3SaeiDDTCWm94f+/mjRt?=
+ =?iso-8859-1?Q?l3uKuyZX18pmZ1+TQVSIKcZ8a146mIeN83RAn4ZsqyDRweSvEyBwJ0pmDa?=
+ =?iso-8859-1?Q?7FKr/T/dgDyIUar29WB9LkmROy2ZSmFmpUoh/fMiiq1Gs/lPiSlKiHROeP?=
+ =?iso-8859-1?Q?+Hf0rCbqi50QkNGV6/Kwo9flwwvgtKSKUa+Qwf+kPxtyN3NNGiwXaSnVJB?=
+ =?iso-8859-1?Q?4YrDw+tbG8JQGj4xohszoAjqSpoCupU4X15DZnNfCD0A/z5Z9xnslyt14L?=
+ =?iso-8859-1?Q?uGMn8LDe6RGmR4dKJBS5BzU6qF4n27pMcVKtUkmRtee+JE7Ej53Tn8dhLu?=
+ =?iso-8859-1?Q?h1XaH4+dwi42yePOu8ynUGHSULzmXGNDdizpk514XJqLFKJlMPj+kvkAwp?=
+ =?iso-8859-1?Q?JGXWOi4clgUbINp+DdDl7cQUZavwys2D75+G4leES8tUgeNgpdavIWwrp1?=
+ =?iso-8859-1?Q?JuPyCOjm+YgeGM5ZZp3R8XeO4JcIJqHNb3mZP7ltTv+keFyHRlxke0x7Ag?=
+ =?iso-8859-1?Q?p6iM0d98SAKjlKGn2k3XbEuqtcPWvq0emvbOrPPKuRmN6buaYZoezhNZOJ?=
+ =?iso-8859-1?Q?9Wiawv7edOn0YVwfT+a8MNXJY+vgZvaeMlDopfd+oW1m1SixFXMgN/jMeL?=
+ =?iso-8859-1?Q?8Af8dMv/dcbyi+Cui8JzJSHzkE32qNCzyAioda4fC/P4Flsaift+slx2t0?=
+ =?iso-8859-1?Q?VtzlmGFT2jnip1zegHYe+pvqwDKG+Vw4IEaNfed5IRsISvKlmAH3H54uUk?=
+ =?iso-8859-1?Q?sOfQyqUvMv4lAjnzw7u20SWRRIG5xpYzkPwDrOKUB5qhAxPu1KcTW5yjgJ?=
+ =?iso-8859-1?Q?S2/lUs+7aZj7kQwo/K29bog/rnQO2wDiFPUU0GSM8YRSnRZayj3qX3VJXM?=
+ =?iso-8859-1?Q?JFSVr+qZ4NYcbyMZ8MvN7jb/QZuHX7ZtiOyurlDe6mG+Jp2AhMoZvDi7Wh?=
+ =?iso-8859-1?Q?0RCmdlInRHOllZfCLSprBYl85YUQJMOY+rAE/ziUNXeaTZ02kmvzxi67db?=
+ =?iso-8859-1?Q?+JeQ=3D=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_BE1P281MB309663FDA6B54FC310B365CE88E7ABE1P281MB3096DEUP_"
+MIME-Version: 1.0
+X-OriginatorOrg: fbges.de
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: BE1P281MB3096.DEUP281.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-Network-Message-Id: 14fbef04-1c06-4516-1869-08de019f7fbd
+X-MS-Exchange-CrossTenant-originalarrivaltime: 02 Oct 2025 10:36:08.7416
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: f6eb32eb-501b-4a41-b2bb-77bdc313e27f
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: +BC9+qNpCMSq/UnRYgOo8N+CAXQ16yDTsXAGdccR9CnUUPtWSN/PEnBSziCTyfpOPtVDh0Ewlq+ns2b7NIZMww==
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: FR3P281MB3263
+X-Spam-Status: No, score=0.0
+X-Spam-Score: 0
+X-Spam-Bar: /
+X-Ham-Report: =?ISO-8859-1?Q?Spam_detection_software=2C_running_on_the_system_=22webserver=2Ebise?= =?ISO-8859-1?Q?cthosting=2Ecom=22=2C=0A_has_NOT_identified_this_inco?= =?ISO-8859-1?Q?ming_email_as_spam=2E__The_original=0A_message_has_be?= =?ISO-8859-1?Q?en_attached_to_this_so_you_can_view_it_or_label=0A_si?= =?ISO-8859-1?Q?milar_future_email=2E__If_you_have_any_questions=2C_s?= =?ISO-8859-1?Q?ee=0A_root=5C=40localhost_for_details=2E=0A_Content_p?= =?ISO-8859-1?Q?review=3A__Dies_ist_ein_Test_Mit_freundlichen_Gr=C3=BC?= =?ISO-8859-1?Q?=C3=9Fen=2C_Ihr_Alexander=0A____Gal=2C_7d_=0A_Content?= =?ISO-8859-1?Q?_analysis_details=3A___=280=2E0_points=2C_5=2E0_requi?= =?ISO-8859-1?Q?red=29=0A__pts_rule_name______________description=0A_?= =?ISO-8859-1?Q?----_----------------------_-------------------------?= =?ISO-8859-1?Q?-------------------------=0A__0=2E0_RCVD=5FIN=5FVALID?= =?ISO-8859-1?Q?ITY=5FRPBL=5FBLOCKED_RBL=3A_ADMINISTRATOR_NOTICE=3A_T?= =?ISO-8859-1?Q?he_query_to=0A______________________________Validity_?= =?ISO-8859-1?Q?was_blocked=2E__See=0A_____________________________ht?= =?ISO-8859-1?Q?tps=3A//knowledge=2Evalidity=2Ecom/hc/en-us/articles/?= =?ISO-8859-1?Q?20961730681243=0A______________________________for_mo?= =?ISO-8859-1?Q?re_information=2E=0A____________________________=5B52?= =?ISO-8859-1?Q?=2E101=2E171=2E128_listed_in_bl=2Escore=2Esenderscore?= =?ISO-8859-1?Q?=2Ecom=5D=0A__0=2E0_RCVD=5FIN=5FVALIDITY=5FCERTIFIED=5FB?= =?ISO-8859-1?Q?LOCKED_RBL=3A_ADMINISTRATOR_NOTICE=3A_The=0A_________?= =?ISO-8859-1?Q?____________________query_to_Validity_was_blocked=2E_?= =?ISO-8859-1?Q?_See=0A_____________________________https=3A//knowled?= =?ISO-8859-1?Q?ge=2Evalidity=2Ecom/hc/en-us/articles/20961730681243=0A_?= =?ISO-8859-1?Q?_____________________________for_more_information=2E=0A?= =?ISO-8859-1?Q?_________________________=5B52=2E101=2E171=2E128_list?= =?ISO-8859-1?Q?ed_in_sa-trusted=2Ebondedsender=2Eorg=5D=0A__0=2E0_RC?= =?ISO-8859-1?Q?VD=5FIN=5FVALIDITY=5FSAFE=5FBLOCKED_RBL=3A_ADMINISTRA?= =?ISO-8859-1?Q?TOR_NOTICE=3A_The_query_to=0A________________________?= =?ISO-8859-1?Q?______Validity_was_blocked=2E__See=0A________________?= =?ISO-8859-1?Q?_____________https=3A//knowledge=2Evalidity=2Ecom/hc/?= =?ISO-8859-1?Q?en-us/articles/20961730681243=0A_____________________?= =?ISO-8859-1?Q?_________for_more_information=2E=0A__________________?= =?ISO-8859-1?Q?___________=5B52=2E101=2E171=2E128_listed_in_sa-accre?= =?ISO-8859-1?Q?dit=2Ehabeas=2Ecom=5D=0A_-0=2E0_SPF=5FPASS___________?= =?ISO-8859-1?Q?____SPF=3A_sender_matches_SPF_record=0A__0=2E0_RCVD=5FI?= =?ISO-8859-1?Q?N=5FZEN=5FBLOCKED=5FOPENDNS_RBL=3A_ADMINISTRATOR_NOTI?= =?ISO-8859-1?Q?CE=3A_The_query_to=0A_____________________________zen?= =?ISO-8859-1?Q?=2Espamhaus=2Eorg_was_blocked_due_to_usage_of_an=0A__?= =?ISO-8859-1?Q?____________________________open_resolver=2E_See=0A__?= =?ISO-8859-1?Q?___________________________https=3A//www=2Espamhaus=2Eo?= =?ISO-8859-1?Q?rg/returnc/pub/=0A_____________________________=5B52=2E1?= =?ISO-8859-1?Q?01=2E171=2E128_listed_in_zen=2Espamhaus=2Eorg=5D=0A_-?= =?ISO-8859-1?Q?0=2E0_SPF=5FHELO=5FPASS__________SPF=3A_HELO_matches_?= =?ISO-8859-1?Q?SPF_record=0A__0=2E0_ARC=5FSIGNED_____________Message?= =?ISO-8859-1?Q?_has_a_ARC_signature=0A__0=2E0_ARC=5FVALID___________?= =?ISO-8859-1?Q?___Message_has_a_valid_ARC_signature=0A__0=2E0_KAM=5FD?= =?ISO-8859-1?Q?MARC=5FSTATUS_______Test_Rule_for_DKIM_or_SPF_Failure?= =?ISO-8859-1?Q?_with_Strict=0A_____________________________Alignment?= =?ISO-8859-1?Q?=0A__0=2E0_HTML=5FMESSAGE___________BODY=3A_HTML_incl?= =?ISO-8859-1?Q?uded_in_message?=
+X-Spam-Flag: NO
+
+--_000_BE1P281MB309663FDA6B54FC310B365CE88E7ABE1P281MB3096DEUP_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Dies ist ein Test
+
+Mit freundlichen Gr=FC=DFen,
+
+Ihr Alexander Gal, 7d
+
+
+--_000_BE1P281MB309663FDA6B54FC310B365CE88E7ABE1P281MB3096DEUP_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+</head>
+<body>
+<div dir=3D"ltr" style=3D"font-family: Aptos, -apple-system, HelveticaNeue,=
+ sans-serif; font-size: 12pt;">
+Dies ist ein Test</div>
+<div id=3D"ms-outlook-mobile-body-separator-line" style=3D"font-family: Apt=
+os, -apple-system, HelveticaNeue, sans-serif;font-size: 12pt" dir=3D"ltr">
+<br>
+</div>
+<div style=3D"font-family: Aptos, Aptos_MSFontService, -apple-system, Robot=
+o, Arial, Helvetica, sans-serif; font-size: 12pt;" id=3D"ms-outlook-mobile-=
+signature">
+<div dir=3D"ltr" style=3D"font-family: Aptos, Aptos_MSFontService, -apple-s=
+ystem, Roboto, Arial, Helvetica, sans-serif; font-size: 12pt;">
+Mit freundlichen Gr=FC=DFen,</div>
+<div dir=3D"ltr" style=3D"font-family: Aptos, Aptos_MSFontService, -apple-s=
+ystem, Roboto, Arial, Helvetica, sans-serif; font-size: 12pt;">
+<br>
+</div>
+<div dir=3D"ltr" style=3D"font-family: Aptos, Aptos_MSFontService, -apple-s=
+ystem, Roboto, Arial, Helvetica, sans-serif; font-size: 12pt;">
+Ihr Alexander Gal, 7d</div>
+<div dir=3D"ltr" style=3D"font-family: Aptos, Aptos_MSFontService, -apple-s=
+ystem, Roboto, Arial, Helvetica, sans-serif; font-size: 12pt;">
+<br>
+</div>
+</div>
+</body>
+</html>
+
+--_000_BE1P281MB309663FDA6B54FC310B365CE88E7ABE1P281MB3096DEUP_--

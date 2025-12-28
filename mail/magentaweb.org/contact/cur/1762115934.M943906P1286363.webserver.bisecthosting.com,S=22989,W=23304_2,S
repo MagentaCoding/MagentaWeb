@@ -1,0 +1,315 @@
+Return-Path: <support@magentawebnichtoffizielleingetragen.zendesk.com>
+Delivered-To: contact@magentaweb.org
+Received: from webserver.bisecthosting.com
+	by webserver.bisecthosting.com with LMTP
+	id oUA1OF7BB2nboBMAufviug
+	(envelope-from <support@magentawebnichtoffizielleingetragen.zendesk.com>)
+	for <contact@magentaweb.org>; Sun, 02 Nov 2025 15:38:54 -0500
+Return-path: <support@magentawebnichtoffizielleingetragen.zendesk.com>
+Envelope-to: contact@magentaweb.org
+Delivery-date: Sun, 02 Nov 2025 15:38:54 -0500
+Received: from mta-out14.pod29.euw1.zdsys.com ([188.172.137.59]:41168)
+	by webserver.bisecthosting.com with esmtps  (TLS1.3) tls TLS_AES_256_GCM_SHA384
+	(Exim 4.98.2)
+	(envelope-from <support@magentawebnichtoffizielleingetragen.zendesk.com>)
+	id 1vFeqg-00000005KQw-2q2U
+	for contact@magentaweb.org;
+	Sun, 02 Nov 2025 15:38:54 -0500
+Received: from zendesk.com (unknown [127.0.0.6])
+	by mta-out15.pod29.euw1.zdsys.com (Zendesk) with ESMTP
+	id 0d664e16-1a8d-483a-9eb5-eb66e6c605f6
+	for <contact@magentaweb.org>;
+	Sun, 02 Nov 2025 20:38:09 +0000 (UTC)
+Date: Sun, 02 Nov 2025 20:38:09 +0000
+From: "Kunde (MagentaWeb (nicht offiziell eingetragen))" <support@magentawebnichtoffizielleingetragen.zendesk.com>
+Reply-To: "MagentaWeb (nicht offiziell eingetragen)" <support+idLVY5KW-07XNR@magentawebnichtoffizielleingetragen.zendesk.com>
+To: A Gal <contact@magentaweb.org>
+Message-ID: <LVY5KW07XNR_6907c131b4244_c6a6138a671f8a_sprut@zendesk.com>
+In-Reply-To: <LVY5KW07XNR@zendesk.com>
+Subject: [MagentaWeb (nicht offiziell eingetragen)] BEISPIEL: Wie funktioniert
+ Zendesk?
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_6907c131d5eec_6415b081606";
+ charset=utf-8
+Content-Transfer-Encoding: 7bit
+X-Delivery-Context: event-id-31480185480349
+X-Priority: 3
+Auto-Submitted: auto-generated
+X-Auto-Response-Suppress: All
+X-Mailer: Zendesk Mailer
+X-Zendesk-From-Account-Id: 8b85949
+X-Zendesk-Email-Id: 01K934N8M6QAB0TWNGAF0JAJ8R
+DKIM-Signature:  v=1; a=rsa-sha256; c=relaxed/relaxed; d=zendesk.com;
+ q=dns/txt; s=zendesk2; t=1762115889;
+ bh=uHfQvfSyyVenWymjzrTnsjzfYbh+Gd7lEv3ad+555XA=;
+ h=date:from:reply-to:to:message-id:in-reply-to:subject:mime-version:content-type:content-transfer-encoding;
+ b=b5R9WnDjKdc1w98s/65K0NVW0PmLRg1dQl/5Z9lY6YqR+SutnU8Nw4H3Fs8CR5yjYiZM7QnslYH+0okgSJSyR+wmH+Qjfa+NAdJyWr5rvarn4oZlhVtjvxnPiVABL9C3qSgJTzNPvA0fFkLubZLWxv7yiuYUGtdS7Z9Fpry7Q4A8lJ4e6ON61o/DLbtT+bjyCc69QOgnIGx6d/HyBBFqwNdb+P3I040qW8nSjRKCkiKi/+ItDwCx6W3FDOZn7xODEaxqWTqknoecxSMjnZiNhynwJ1/3UJaMYKDwst3ti1P3AjKuO9pYMZCHIqPlVYTO2ig/lQdpRiPHzqNfxcsZug==
+X-Spam-Status: No, score=1.5
+X-Spam-Score: 15
+X-Spam-Bar: +
+X-Ham-Report: =?ISO-8859-1?Q?Spam_detection_software=2C_running_on_the_system_=22webserver=2Ebise?= =?ISO-8859-1?Q?cthosting=2Ecom=22=2C=0A_has_NOT_identified_this_inco?= =?ISO-8859-1?Q?ming_email_as_spam=2E__The_original=0A_message_has_be?= =?ISO-8859-1?Q?en_attached_to_this_so_you_can_view_it_or_label=0A_si?= =?ISO-8859-1?Q?milar_future_email=2E__If_you_have_any_questions=2C_s?= =?ISO-8859-1?Q?ee=0A_root=5C=40localhost_for_details=2E=0A_Content_p?= =?ISO-8859-1?Q?review=3A__Ein_Ticket_=28#2=29_von_Kunde_ist_eingegan?= =?ISO-8859-1?Q?gen=2E_Es_ist_momentan=0A____niemandem_zugewiesen=2E=3C?= =?ISO-8859-1?Q?br/=3E=3Cbr/=3E_Hallo=2C_ich_zeige_Ihnen=2C_wie_Sie_u?= =?ISO-8859-1?Q?nd_Ihre=0A___Agenten_ganz_leicht_Tickets_beantworten_?= =?ISO-8859-1?Q?und_l=C3=B6sen_k=C3=B6nnen=2E_=0A_Content_analysis_de?= =?ISO-8859-1?Q?tails=3A___=281=2E5_points=2C_5=2E0_required=29=0A__p?= =?ISO-8859-1?Q?ts_rule_name______________description=0A_----_-------?= =?ISO-8859-1?Q?---------------_-------------------------------------?= =?ISO-8859-1?Q?-------------=0A__0=2E0_RCVD=5FIN=5FVALIDITY=5FRPBL=5FB?= =?ISO-8859-1?Q?LOCKED_RBL=3A_ADMINISTRATOR_NOTICE=3A_The_query_to=0A_?= =?ISO-8859-1?Q?_____________________________Validity_was_blocked=2E_?= =?ISO-8859-1?Q?_See=0A_____________________________https=3A//knowled?= =?ISO-8859-1?Q?ge=2Evalidity=2Ecom/hc/en-us/articles/20961730681243=0A_?= =?ISO-8859-1?Q?_____________________________for_more_information=2E=0A?= =?ISO-8859-1?Q?____________________________=5B188=2E172=2E137=2E59_l?= =?ISO-8859-1?Q?isted_in_bl=2Escore=2Esenderscore=2Ecom=5D=0A__0=2E0_?= =?ISO-8859-1?Q?RCVD=5FIN=5FVALIDITY=5FSAFE=5FBLOCKED_RBL=3A_ADMINIST?= =?ISO-8859-1?Q?RATOR_NOTICE=3A_The_query_to=0A______________________?= =?ISO-8859-1?Q?________Validity_was_blocked=2E__See=0A______________?= =?ISO-8859-1?Q?_______________https=3A//knowledge=2Evalidity=2Ecom/h?= =?ISO-8859-1?Q?c/en-us/articles/20961730681243=0A___________________?= =?ISO-8859-1?Q?___________for_more_information=2E=0A________________?= =?ISO-8859-1?Q?_____________=5B188=2E172=2E137=2E59_listed_in_sa-acc?= =?ISO-8859-1?Q?redit=2Ehabeas=2Ecom=5D=0A__0=2E0_URIBL=5FDBL=5FBLOCK?= =?ISO-8859-1?Q?ED=5FOPENDNS_ADMINISTRATOR_NOTICE=3A_The_query_to=0A_?= =?ISO-8859-1?Q?____________________________dbl=2Espamhaus=2Eorg_was_?= =?ISO-8859-1?Q?blocked_due_to_usage_of_an=0A________________________?= =?ISO-8859-1?Q?______open_resolver=2E_See=0A________________________?= =?ISO-8859-1?Q?_____https=3A//www=2Espamhaus=2Eorg/returnc/pub/=0A__?= =?ISO-8859-1?Q?_______________________=5BURI=3A_magentawebnichtoffiz?= =?ISO-8859-1?Q?ielleingetragen=2Ezendesk=2Ecom=5D=0A________________?= =?ISO-8859-1?Q?_____________=5BURI=3A_www=2Ezendesk=2Ede=5D=0A______?= =?ISO-8859-1?Q?_______________________=5BURI=3A_zendesk=2Ecom=5D=0A_?= =?ISO-8859-1?Q?_0=2E0_RCVD=5FIN=5FVALIDITY=5FCERTIFIED=5FBLOCKED_RBL?= =?ISO-8859-1?Q?=3A_ADMINISTRATOR_NOTICE=3A_The=0A___________________?= =?ISO-8859-1?Q?__________query_to_Validity_was_blocked=2E__See=0A___?= =?ISO-8859-1?Q?__________________________https=3A//knowledge=2Evalid?= =?ISO-8859-1?Q?ity=2Ecom/hc/en-us/articles/20961730681243=0A________?= =?ISO-8859-1?Q?______________________for_more_information=2E=0A_____?= =?ISO-8859-1?Q?____________________=5B188=2E172=2E137=2E59_listed_in?= =?ISO-8859-1?Q?_sa-trusted=2Ebondedsender=2Eorg=5D=0A__0=2E0_RCVD=5FI?= =?ISO-8859-1?Q?N=5FZEN=5FBLOCKED=5FOPENDNS_RBL=3A_ADMINISTRATOR_NOTI?= =?ISO-8859-1?Q?CE=3A_The_query_to=0A_____________________________zen?= =?ISO-8859-1?Q?=2Espamhaus=2Eorg_was_blocked_due_to_usage_of_an=0A__?= =?ISO-8859-1?Q?____________________________open_resolver=2E_See=0A__?= =?ISO-8859-1?Q?___________________________https=3A//www=2Espamhaus=2Eo?= =?ISO-8859-1?Q?rg/returnc/pub/=0A_____________________________=5B188?= =?ISO-8859-1?Q?=2E172=2E137=2E59_listed_in_zen=2Espamhaus=2Eorg=5D=0A?= =?ISO-8859-1?Q?_-0=2E0_SPF=5FPASS_______________SPF=3A_sender_matche?= =?ISO-8859-1?Q?s_SPF_record=0A__0=2E1_DKIM=5FSIGNED____________Messa?= =?ISO-8859-1?Q?ge_has_a_DKIM_or_DK_signature=2C_not_necessarily_vali?= =?ISO-8859-1?Q?d=0A_-0=2E1_DKIM=5FVALID_____________Message_has_at_l?= =?ISO-8859-1?Q?east_one_valid_DKIM_or_DK_signature=0A__0=2E0_HTML=5FM?= =?ISO-8859-1?Q?ESSAGE___________BODY=3A_HTML_included_in_message=0A_?= =?ISO-8859-1?Q?_0=2E0_HTML=5FFONT=5FLOW=5FCONTRAST_BODY=3A_HTML_font?= =?ISO-8859-1?Q?_color_similar_or_identical_to=0A____________________?= =?ISO-8859-1?Q?_________background=0A__1=2E5_FROM=5FLONG=5FDOM______?= =?ISO-8859-1?Q?____Absurdly_long_From_domain_name=0A_-0=2E0_DKIMWL=5FW?= =?ISO-8859-1?Q?L=5FHIGH_________DKIMwl=2Eorg_-_High_trust_sender?=
+X-Spam-Flag: NO
+
+
+----==_mimepart_6907c131d5eec_6415b081606
+Content-Type: text/plain;
+ charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Ein Ticket (#2) von Kunde ist eingegangen. Es ist momentan niemandem zuge=
+wiesen.<br/><br/>----------------------------------------------
+
+Hallo, ich zeige Ihnen, wie Sie und Ihre Agenten ganz leicht Tickets bean=
+tworten und l=C3=B6sen k=C3=B6nnen.
+
+Sie k=C3=B6nnen weitere Testanfragen von Kunden k=C3=B6nnen jederzeit an =
+**support@magentawebnichtoffizielleingetragen.zendesk.com** senden.
+
+Beginnen wir jedoch damit, ein Ticket zu l=C3=B6sen.
+
+Ihr Zendesk-Team
+
+--------------------------------
+Diese E-Mail ist ein Service von MagentaWeb (nicht offiziell eingetragen)=
+.
+
+
+
+
+
+
+
+
+
+
+
+[LVY5KW-07XNR]=
+
+----==_mimepart_6907c131d5eec_6415b081606
+Content-Type: text/html;
+ charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html><html dir=3D"auto" lang=3D"de-x-8"><head>
+  <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+  <style type=3D"text/css">
+    table td {
+      border-collapse: collapse;
+    }
+    body[dir=3Drtl] .directional_text_wrapper { direction: rtl; unicode-b=
+idi: embed; }
+
+  </style>
+
+          <style type=3D"text/css">
+            @media only screen and (max-width: 768px) {
+              .simplified-email-footer .namecard {
+                display: block;
+                min-width: 100%;
+                padding: 0 0 16px 0; }
+
+              .simplified-email-footer .content {
+                padding: 16px; }
+            }
+          </style>
+        </head>
+<body lang=3D"de" style=3D"width: 100%!important; margin: 0; padding: 0;"=
+>
+  <div style=3D"font-family: 'system-ui','-apple-system','BlinkMacSystemF=
+ont','Segoe UI','Roboto','Oxygen-Sans','Ubuntu','Cantarell','Helvetica Ne=
+ue','Arial','sans-serif'; font-size: 14px; line-height: 1.5; color:#44444=
+4;">
+    Ein Ticket (<a target=3D"_blank" href=3D"https://magentawebnichtoffiz=
+ielleingetragen.zendesk.com/agent/tickets/2">#2</a>) von Kunde ist eingeg=
+angen. Es ist momentan niemandem zugewiesen.<br><br><div class=3D"zd-comm=
+ent" dir=3D"auto">Hallo, ich zeige Ihnen, wie Sie und Ihre Agenten ganz l=
+eicht Tickets beantworten und l=C3=B6sen k=C3=B6nnen.<br><br>Sie k=C3=B6n=
+nen weitere Testanfragen von Kunden k=C3=B6nnen jederzeit an <b>support@m=
+agentawebnichtoffizielleingetragen.zendesk.com</b> senden.<br><br>Beginne=
+n wir jedoch damit, ein Ticket zu l=C3=B6sen.<br><br>Ihr Zendesk-Team</di=
+v>
+  </div><br>
+  <div style=3D"font-family: 'system-ui','-apple-system','BlinkMacSystemF=
+ont','Segoe UI','Roboto','Oxygen-Sans','Ubuntu','Cantarell','Helvetica Ne=
+ue','Arial','sans-serif'; font-size: 12px; line-height: 1.5; color: #4954=
+5c; margin: 10px 0 14px 0; padding-top: 10px;">
+    <bdo dir=3D"ltr">  <table dir=3D"ltr" class=3D"simplified-email-foote=
+r" style=3D"font-size: 14px; color: #000000; width: 100%; margin-bottom: =
+20px;">    <tbody>      <tr style=3D"background-color: white;">        <t=
+d dir=3D"ltr" class=3D"content" style=3D"font-family:'system-ui','-apple-=
+system','BlinkMacSystemFont','Segoe UI','Roboto','Oxygen-Sans','Ubuntu','=
+Cantarell','Helvetica Neue','Arial','sans-serif';width: 100%; border: sol=
+id 10px rgb(248,248,248); padding: 24px 32px;">          <table dir=3D"lt=
+r" style=3D"margin-right: auto;">            <tbody>              <tr>   =
+             <td dir=3D"ltr" style=3D"font-family:'system-ui','-apple-sys=
+tem','BlinkMacSystemFont','Segoe UI','Roboto','Oxygen-Sans','Ubuntu','Can=
+tarell','Helvetica Neue','Arial','sans-serif';padding:0;padding-right:8px=
+;">                  <span style=3D"border-radius: 2px; font-size: 12px; =
+font-weight: 500; vertical-align: text-top; background-color: #E34F32; co=
+lor: #fff; border-top: 3px solid #E34F32; border-right: 5px solid #E34F32=
+; border-bottom: 3px solid #E34F32; border-left: 5px solid #E34F32;">Offe=
+n</span>                </td>                <td dir=3D"ltr">            =
+      <span style=3D"font-weight:500; font-size:15px; line-height: 30px; =
+text-decoration: none; vertical-align: text-top;">Ticket <a href=3D"https=
+://magentawebnichtoffizielleingetragen.zendesk.com/agent/tickets/2" targe=
+t=3D"_new" style=3D"text-decoration:none;">#2</a></span>                <=
+/td>              </tr>            </tbody>          </table>          <t=
+able dir=3D"ltr" style=3D"border-spacing: 0px 10px; border-collapse: sepa=
+rate; margin-top: 14px;">            <tbody>              <tr>           =
+     <th class=3D"namecard" style=3D"font-weight: normal; min-width: 168p=
+x; text-align: left;">                  <table dir=3D"ltr">              =
+      <tbody><tr>                      <td dir=3D"ltr" style=3D"font-fami=
+ly:'system-ui','-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','=
+Oxygen-Sans','Ubuntu','Cantarell','Helvetica Neue','Arial','sans-serif';f=
+ont-weight: 500; border-right: solid 168px transparent;">                =
+        Anfragender                      </td>                    </tr>  =
+                  <tr>                      <td dir=3D"ltr" class=3D"ligh=
+t-text" style=3D"font-family:'system-ui','-apple-system','BlinkMacSystemF=
+ont','Segoe UI','Roboto','Oxygen-Sans','Ubuntu','Cantarell','Helvetica Ne=
+ue','Arial','sans-serif'; color: #333333;">                        <table=
+ dir=3D"ltr">                          <tbody><tr>                       =
+     <td dir=3D"ltr" style=3D"font-family:'system-ui','-apple-system','Bl=
+inkMacSystemFont','Segoe UI','Roboto','Oxygen-Sans','Ubuntu','Cantarell',=
+'Helvetica Neue','Arial','sans-serif';padding-left: 0px;">               =
+               <img src=3D"https://magentawebnichtoffizielleingetragen.ze=
+ndesk.com/images/2016/default-avatar-80.png" width=3D"20" height=3D"20" s=
+tyle=3D"border-radius: 50%; vertical-align: text-top">                   =
+         </td>                            <td dir=3D"ltr" style=3D"font-f=
+amily:'system-ui','-apple-system','BlinkMacSystemFont','Segoe UI','Roboto=
+','Oxygen-Sans','Ubuntu','Cantarell','Helvetica Neue','Arial','sans-serif=
+';padding-right:5px;">                              <span style=3D"line-h=
+eight: 20px">Kunde <example@zendesk.com></example@zendesk.com></span>    =
+                        </td>                          </tr>             =
+           </tbody></table>                      </td>                   =
+ </tr>                  </tbody></table>                </th>            =
+    <th class=3D"namecard" style=3D"font-weight: normal; min-width: 168px=
+; text-align: left;">                  <table dir=3D"ltr">               =
+     <tbody><tr>                      <td dir=3D"ltr" style=3D"font-famil=
+y:'system-ui','-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','O=
+xygen-Sans','Ubuntu','Cantarell','Helvetica Neue','Arial','sans-serif';fo=
+nt-weight: 500;">                        Mitarbeiter                     =
+ </td>                    </tr>                    <tr>                  =
+    <td dir=3D"ltr" class=3D"light-text" style=3D"font-family:'system-ui'=
+,'-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','Oxygen-Sans','=
+Ubuntu','Cantarell','Helvetica Neue','Arial','sans-serif'; color: #333333=
+;">                        <table dir=3D"ltr">                          <=
+tbody><tr>                                                        <td dir=
+=3D"ltr" style=3D"font-family:'system-ui','-apple-system','BlinkMacSystem=
+Font','Segoe UI','Roboto','Oxygen-Sans','Ubuntu','Cantarell','Helvetica N=
+eue','Arial','sans-serif';padding-left: 0px;">                           =
+   <img src=3D"https://magentawebnichtoffizielleingetragen.zendesk.com/im=
+ages/2016/default-avatar-80.png" width=3D"20" height=3D"20" style=3D"bord=
+er-radius: 50%; vertical-align: text-top;">                            </=
+td>                            <td dir=3D"ltr" style=3D"font-family:'syst=
+em-ui','-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','Oxygen-S=
+ans','Ubuntu','Cantarell','Helvetica Neue','Arial','sans-serif';margin-le=
+ft: 5px;">                                                            <sp=
+an style=3D"line-height: 20px; vertical-align: text-top;">A Gal</span>   =
+                                                       </td>             =
+                                         </tr>                        </t=
+body></table>                      </td>                    </tr>        =
+          </tbody></table>                </th>              </tr>       =
+     </tbody>          </table>          <table dir=3D"ltr" style=3D"bord=
+er-spacing: 0px 8px; margin-top: 16px;">            <tbody>              =
+              <tr>                <td dir=3D"ltr" style=3D"font-family:'s=
+ystem-ui','-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','Oxyge=
+n-Sans','Ubuntu','Cantarell','Helvetica Neue','Arial','sans-serif';font-w=
+eight: 500;padding-right:24px;">                  CCs                </td=
+>                <td dir=3D"ltr" class=3D"light-text" style=3D"font-famil=
+y:'system-ui','-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','O=
+xygen-Sans','Ubuntu','Cantarell','Helvetica Neue','Arial','sans-serif'; c=
+olor: #333333;">                  A Gal                </td>             =
+ </tr>                                          <tr>                <td d=
+ir=3D"ltr" style=3D"font-family:'system-ui','-apple-system','BlinkMacSyst=
+emFont','Segoe UI','Roboto','Oxygen-Sans','Ubuntu','Cantarell','Helvetica=
+ Neue','Arial','sans-serif';font-weight: 500;padding-right:24px;">       =
+           Follower                </td>                <td dir=3D"ltr" c=
+lass=3D"light-text" style=3D"font-family:'system-ui','-apple-system','Bli=
+nkMacSystemFont','Segoe UI','Roboto','Oxygen-Sans','Ubuntu','Cantarell','=
+Helvetica Neue','Arial','sans-serif'; color: #333333;">                  =
+-                </td>              </tr>                            <tr>=
+                <td dir=3D"ltr" style=3D"font-family:'system-ui','-apple-=
+system','BlinkMacSystemFont','Segoe UI','Roboto','Oxygen-Sans','Ubuntu','=
+Cantarell','Helvetica Neue','Arial','sans-serif';font-weight:500;padding-=
+right:24px;">                  Gruppe                </td>               =
+ <td dir=3D"ltr" class=3D"light-text" style=3D"font-family:'system-ui','-=
+apple-system','BlinkMacSystemFont','Segoe UI','Roboto','Oxygen-Sans','Ubu=
+ntu','Cantarell','Helvetica Neue','Arial','sans-serif'; color: #333333;">=
+                  Support                </td>              </tr>        =
+      <tr>                <td dir=3D"ltr" style=3D"font-family:'system-ui=
+','-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','Oxygen-Sans',=
+'Ubuntu','Cantarell','Helvetica Neue','Arial','sans-serif';font-weight:50=
+0;padding-right:24px;">                  Organisation                </td=
+>                <td dir=3D"ltr" class=3D"light-text" style=3D"font-famil=
+y:'system-ui','-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','O=
+xygen-Sans','Ubuntu','Cantarell','Helvetica Neue','Arial','sans-serif'; c=
+olor: #333333;">                  -                </td>              </t=
+r>              <tr>                <td dir=3D"ltr" style=3D"font-family:=
+'system-ui','-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','Oxy=
+gen-Sans','Ubuntu','Cantarell','Helvetica Neue','Arial','sans-serif';font=
+-weight:500;padding-right:24px;">                  Marke                <=
+/td>                <td dir=3D"ltr" class=3D"light-text" style=3D"font-fa=
+mily:'system-ui','-apple-system','BlinkMacSystemFont','Segoe UI','Roboto'=
+,'Oxygen-Sans','Ubuntu','Cantarell','Helvetica Neue','Arial','sans-serif'=
+; color: #333333;">                  MagentaWeb (nicht offiziell eingetra=
+gen)                </td>              </tr>              <tr>           =
+     <td dir=3D"ltr" style=3D"font-family:'system-ui','-apple-system','Bl=
+inkMacSystemFont','Segoe UI','Roboto','Oxygen-Sans','Ubuntu','Cantarell',=
+'Helvetica Neue','Arial','sans-serif';font-weight: 500;padding-right:24px=
+;">                  Typ                </td>                <td dir=3D"l=
+tr" class=3D"light-text" style=3D"font-family:'system-ui','-apple-system'=
+,'BlinkMacSystemFont','Segoe UI','Roboto','Oxygen-Sans','Ubuntu','Cantare=
+ll','Helvetica Neue','Arial','sans-serif'; color: #333333;">             =
+     Ticket                </td>              </tr>              <tr>    =
+            <td dir=3D"ltr" style=3D"font-family:'system-ui','-apple-syst=
+em','BlinkMacSystemFont','Segoe UI','Roboto','Oxygen-Sans','Ubuntu','Cant=
+arell','Helvetica Neue','Arial','sans-serif';font-weight: 500;padding-rig=
+ht:24px;">                  Kanal                </td>                <td=
+ dir=3D"ltr" class=3D"light-text" style=3D"font-family:'system-ui','-appl=
+e-system','BlinkMacSystemFont','Segoe UI','Roboto','Oxygen-Sans','Ubuntu'=
+,'Cantarell','Helvetica Neue','Arial','sans-serif'; color: #333333;">    =
+              Durch Beispielticket                </td>              </tr=
+>              <tr>                <td dir=3D"ltr" style=3D"font-family:'=
+system-ui','-apple-system','BlinkMacSystemFont','Segoe UI','Roboto','Oxyg=
+en-Sans','Ubuntu','Cantarell','Helvetica Neue','Arial','sans-serif';font-=
+weight: 500;padding-right:24px;">                  Priorit=C3=A4t        =
+        </td>                <td dir=3D"ltr" class=3D"light-text" style=3D=
+"font-family:'system-ui','-apple-system','BlinkMacSystemFont','Segoe UI',=
+'Roboto','Oxygen-Sans','Ubuntu','Cantarell','Helvetica Neue','Arial','san=
+s-serif'; color: #333333;">                  Normal                </td> =
+             </tr>            </tbody>          </table>          <table =
+dir=3D"ltr" style=3D"margin-top: 30px; margin-bottom: 17px;">            =
+<tbody>              <tr>                <td dir=3D"ltr" style=3D"font-fa=
+mily:'system-ui','-apple-system','BlinkMacSystemFont','Segoe UI','Roboto'=
+,'Oxygen-Sans','Ubuntu','Cantarell','Helvetica Neue','Arial','sans-serif'=
+;padding-left: 0px;">                  <a href=3D"https://magentawebnicht=
+offizielleingetragen.zendesk.com/agent/tickets/2" target=3D"_new" style=3D=
+"border-radius: 4px; height: 44px; background-color: rgb(31, 115, 183); b=
+order-top: 14px solid rgb(31, 115, 183); border-right: 26px solid rgb(31,=
+ 115, 183); border-bottom: 14px solid rgb(31, 115, 183); border-left: 26p=
+x solid rgb(31, 115, 183); text-decoration: none;">                    <s=
+pan style=3D"color: white; font-size: 15px">In Support anzeigen</span>   =
+               </a>                </td>              </tr>            </=
+tbody>          </table>        </td>      </tr>    </tbody>  </table></b=
+do>Diese E-Mail ist ein Service von MagentaWeb (nicht offiziell eingetrag=
+en). Bereitgestellt von <a href=3D"https://www.zendesk.de/service/?utm_ca=
+mpaign=3Dtext&amp;utm_content=3DMagentaWeb+%28nicht+offiziell+eingetragen=
+%29&amp;utm_medium=3Dpoweredbyzendesk&amp;utm_source=3Demail-notification=
+" style=3D"color:black;" target=3D"_blank">Zendesk</a>
+  </div><br>
+  =
+
+<span style=3D"color:#FFFFFF" aria-hidden=3D"true" class=3D"zd_encoded_id=
+">[LVY5KW-07XNR]</span><span style=3D"color:#FFFFFF" aria-hidden=3D"true"=
+>Ticket-Id:2</span><span style=3D"color:#FFFFFF" aria-hidden=3D"true">Acc=
+ount-Subdomain:magentawebnichtoffizielleingetragen</span>
+
+<div itemscope=3D"" itemtype=3D"http://schema.org/EmailMessage" style=3D"=
+display:none">  <div itemprop=3D"action" itemscope=3D"" itemtype=3D"http:=
+//schema.org/ViewAction">    <link itemprop=3D"url" href=3D"https://magen=
+tawebnichtoffizielleingetragen.zendesk.com/agent/tickets/2">    <meta ite=
+mprop=3D"name" content=3D"Ticket anzeigen">  </div></div></body></html>=
+
+----==_mimepart_6907c131d5eec_6415b081606--

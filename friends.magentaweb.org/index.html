@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <head><meta charset="utf-8">
+    <title>Friends</title>
+</head>
+<body>
+<h1>Willkommen</h1>
+<script>
+function getCookie(name) {
+    if (!document.cookie) return null;
+    const pairs = document.cookie.split("; ").map(c => c.split("="));
+    for (const [k, v] of pairs) {
+        if (k === name) return decodeURIComponent(v || "");
+    }
+    return null;
+}
+
+const who = getCookie("who");
+if (who === "Julian") {
+    // Julian zur persönlichen Seite leiten
+    window.location.href = "/julianhesse/";
+} else {
+    // Kein Julian: normale Seite / alternative anzeigen
+    console.log("Kein Julian oder kein Cookie. Besucher:", who);
+    window.location.href = "/error/424-2.shtml"
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Transport Simulator Bugtracker - ViewApp</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Iceberg&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <style>
+        body {
+            font-family: 'Iceberg', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #e6007e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        main {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        a {
+            color: #e6007e;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .bug-box {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .bug-status {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        
+        .app-ver {
+            font-size: 0.9rem;
+            color: #777;
+            margin-bottom: 10px;
+        }
+
+        .note {
+            font-size: 0.85rem;
+            color: #999;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>City Transport Simulator Bugtracker</h1>
+        <p>Inoffizieller Bugtracker von ViewApp für CTS. Offizielle Bugreports bitte über das Bugreportformular einreichen.</p>
+    </header>
+
+    <main>
+        <div class="bug-box">
+            <h2>Bugreport #1</h2>
+            <p class="bug-status"><strong>Status:</strong> Offiziell gemeldet</p>
+            <p class="app-ver">Spielversion: Release v1.3.0</p>
+            <p><strong>Beschreibung:</strong> Zwischen dem (H) Shuji-Nakamara-Platz und der (H) Börsenstraße existiert auf der Map keine optische Verbindung. Dies kann für Spieler verwirrend sein, da der Busweg nicht klar sichtbar ist.</p>
+            <p class="note">Quelle: Bugreport von MagentaGaming</p>
+            <p class="note">Quelle: ViewApp-Discord-Support-Ticket</p>
+        </div>
+
+        <div class="bug-box">
+            <h2>Bugreport #2</h2>
+            <p class="bug-status"><strong>Status:</strong> Offiziell gemeldet</p>
+            <p class="app-ver">Spielversion: Release v1.3.0</p>
+            <p><strong>Beschreibung:</strong> Bei Zusammenstoß mit Warnbaken, Leitbaken oder ähnlichen Objekten bleibt ein Bus nicht wie gewohnt stehen, sondern wird zurückgefedert. Dies wurde bei den Fahrzeugen New Lions City 19C und 18C getestet. Spieler könnten dies als unnatürlich empfinden, da andere Hindernisse normal anhalten.</p>
+            <p class="note">Quelle: Bugreport von MagentaGaming</p>
+            <p class="note">Quelle: ViewApp-Discord-Support-Ticket</p>
+        </div>
+
+        <div class="bug-box">
+            <h2>Bugreport #3</h2>
+            <p class="bug-status"><strong>Status:</strong> Könnte ein Bug sein | Offiziell gemeldet</p>
+            <p class="app-ver">Spielversion: Release v1.3.0</p>
+            <p><strong>Beschreibung:</strong> Beim Zurücksetzen des Busses auf die Straße wird dieser nicht immer korrekt positioniert. In einigen Fällen landet der Bus an Haltestellen, die mehrere hundert Meter entfernt sind, z. B. Industriestraße. Dies kann zu Verwirrung bei der Spielnavigation führen.</p>
+            <p class="note">Quelle: Beobachtung von MagentaGaming</p>
+            <p class="note">Quelle: ViewApp-Discord-Support-Ticket</p>
+        </div>
+
+        <div class="bug-box">
+            <h2>Weitere Optionen</h2>
+            <p><a href="/bugreport" target="_blank">Offizielles Bugreportformular</a></p>
+            <p><a href="/viewapp" target="_blank">Zurück zum ViewApp-Bugtracker</a></p>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,432 @@
+AWSTATS DATA FILE 8.0 (build 20240604)
+# If you remove this file, all statistics for date 202511 will be lost/reset.
+# Last config file used to build this data file was /home/magentaw/tmp/awstats/ssl/awstats.fbges.magentaweb.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2092                
+POS_TIME 2771                
+POS_VISITOR 8298                
+POS_DAY 10341               
+POS_DOMAIN 3338                
+POS_LOGIN 3652                
+POS_ROBOT 3807                
+POS_WORMS 4208                
+POS_EMAILSENDER 4339                
+POS_EMAILRECEIVER 4482                
+POS_SESSION 10789               
+POS_FILESIZE 11279               
+POS_REQUESTTIME 11399               
+POS_SIDER 10995               
+POS_FILETYPES 4617                
+POS_DOWNLOADS 4740                
+POS_OS 4788                
+POS_BROWSER 5021                
+POS_SCREENSIZE 5578                
+POS_UNKNOWNREFERER 5652                
+POS_UNKNOWNREFERERBROWSER 6109                
+POS_ORIGIN 6261                
+POS_SEREFERRALS 6397                
+POS_PAGEREFS 6541                
+POS_SEARCHWORDS 6749                
+POS_KEYWORDS 6901                
+POS_MISC 2435                
+POS_ERRORS 6960                
+POS_CLUSTER 3508                
+POS_SIDER_404 7078                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20251201005942 85 13883 16984456619720
+FirstTime 20251101131115
+LastTime 20251130235811
+LastUpdate 20251201071221 85 0 84 0 0
+TotalVisits 65                  
+TotalUnique 54                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 54                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+PDFSupport 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+QuickTimeSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 23 23 23614 69 76 270
+1 8 8 36704 5 13 248
+2 10 10 138811 4 13 8114
+3 7 7 67057 3 7 322
+4 47 47 752954 5 24 0
+5 15 15 250225 3 9 260
+6 0 0 0 1 3 0
+7 4 4 33528 1 5 0
+8 6 6 8078 2 6 253
+9 3 3 15980 0 1 0
+10 2 2 0 1 4 0
+11 2 2 0 2 3 0
+12 1 1 0 1 2 0
+13 1 1 0 4 7 0
+14 0 0 0 0 1 0
+15 1 1 15980 2 6 0
+16 2 2 17547 2 2 0
+17 2 2 20736 0 2 0
+18 2 2 0 1 2 0
+19 1 1 0 0 1 0
+20 0 0 0 2 4 0
+21 5 5 7634 4 12 560
+22 0 0 0 1 3 238
+23 7 7 0 73 75 16022
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 9
+de 90 90 1247330
+us 33 33 32815
+in 9 9 60762
+cn 8 8 0
+gb 4 4 47941
+ru 2 2 0
+be 1 1 0
+kr 1 1 0
+pl 1 1 0
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+GPTBot/ 15 7634 20251129233242 0
+no_user_agent 4 0 20251130235706 0
+robot 2 15268 20251130020122 0
+survey 2 0 20251114160435 0
+curl 2 0 20251128042431 0
+Go\-http\-client/ 2 0 20251130235811 0
+Links[\x20]\( 1 0 20251130131025 0
+bot[\s_+:,\.\;\/\\-] 1 0 20251110052348 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+html 132 1110375 0 0
+Unknown 15 263205 0 0
+cgi 2 15268 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 13
+ios_iphone 5 5
+android10 10 10
+macosx11 1 1
+win11 1 1
+linux 14 14
+win7 1 1
+macosx15 84 84
+Unknown 18 18
+macosx14 1 1
+win10 9 9
+androidoreo 1 1
+win8 1 1
+androidpie 3 3
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 27
+opera123.0.0.0 3 3
+chrome126.0.0.0 4 4
+chrome120.0.0.0 1 1
+mozilla 6 6
+firefox139.0 2 2
+chrome91.0.4472.124 1 1
+safari 2 2
+safari26.0.1 50 50
+chrome73.0.3683.75 1 1
+chrome4.0.213.0 1 1
+chrome136.0.0.0 16 16
+safari12.0 1 1
+chrome61.0.3163.128 1 1
+safari18.5 1 1
+chrome24.0.1295.0 1 1
+safari18.6 27 27
+chrome134.0.0.0 2 2
+firefox120.0 1 1
+chrome64.0.3282.119 1 1
+chrome126.0.6478.182 2 2
+chrome139.0.0.0 4 4
+opera122.0.0.0 2 2
+Unknown 3 3
+netscape5.0 10 10
+safari16.5 2 2
+chrome47.0.2526.106 1 1
+android 3 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+node-fetch/1.0_(_https://github.com/bitinn/node-fetch) 20251124053320
+Mozilla/5.0_(l9scan/2.0.1333e26373e2231313e24373;__https://leakix.net) 20251130235811
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20251111214954
+Mozilla/5.0 20251129033455
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20251106021950
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+node-fetch/1.0_(_https://github.com/bitinn/node-fetch) 20251124053320
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 120 120
+From1 0 0
+From2 0 0
+From3 20 20
+From4 9 9
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+https://www.taskcards.de 19 19
+https://www.taskcards.de 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+302 8 1916
+421 2 644
+301 4 761
+404 203 64
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 41
+/apple-touch-icon.png 4 -
+/apple-touch-icon-152x152-precomposed.png 2 -
+/apple-touch-icon-precomposed.png 4 -
+/api/swagger.json 4 -
+/swagger/index.html 4 -
+/debug/default/view 4 -
+/swagger/v1/swagger.json 4 -
+/graphql 4 -
+/webjars/swagger-ui/index.html 4 -
+/apple-touch-icon-152x152.png 2 -
+/server-status 4 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 4 -
+/api/graphql 4 -
+/api 4 -
+/.vscode/sftp.json 4 -
+/info.php 4 -
+/_all_dbs 4 -
+/robots.txt 46 -
+/.gitignore 1 -
+/.env 10 -
+/swagger.json 4 -
+/.git/config 7 -
+/pl/p/p1/index.php 1 -
+/s/1333e26373e2231313e24373/_/ 4 -
+/swagger/swagger-ui.html 4 -
+/sitemap.xml 1 -
+/server 4 -
+/graphql/api 4 -
+/telescope/requests 4 -
+/config.json 5 -
+/.DS_Store 4 -
+/actuator/env 4 -
+/v2/api-docs 4 -
+/v2/_catalog 4 -
+/api-docs/swagger.json 4 -
+/api/gql 4 -
+/login.action 4 -
+/swagger-ui.html 4 -
+/about 4 -
+/v3/api-docs 4 -
+/@vite/env 4 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 54
+87.78.48.22 49 49 797314 20251128055710
+80.134.135.17 12 12 15980 20251112004520
+93.226.218.169 10 10 175470 20251128044138
+93.226.223.89 5 5 65491 20251124054856
+61.8.129.166 5 5 36704 20251103013320
+113.31.186.146 4 4 0 20251105232432
+78.35.183.90 4 4 52641 20251126025446
+79.246.255.9 3 3 52643 20251126025508
+61.8.130.25 3 3 8078 20251106084650
+141.95.99.72 3 3 47941 20251124053320
+121.29.51.28 2 2 0 20251108125133
+165.22.34.189 2 2 0 20251129002604
+159.65.144.72 2 2 0 20251130235729
+164.90.208.56 2 2 0 20251130235811
+134.122.28.88 2 2 0 20251129002604
+3.92.143.245 2 2 0 20251130160001
+204.76.203.25 2 2 0 20251119091529
+143.198.3.95 1 1 0 20251129074629
+88.130.145.30 1 1 15980 20251120151842
+172.111.15.130 1 1 0 20251129003231
+64.225.110.247 1 1 0 20251124073928
+3.140.182.19 1 1 0 20251129112423
+193.142.132.33 1 1 0 20251129003300
+184.73.189.76 1 1 0 20251125181228
+83.135.243.238 1 1 17548 20251125073159
+165.227.214.95 1 1 0 20251130100621
+61.8.129.208 1 1 15980 20251111053514
+183.134.59.131 1 1 0 20251105213406
+206.189.99.181 1 1 0 20251109231103
+87.78.160.6 1 1 15980 20251106093145
+157.230.16.170 1 1 0 20251120043446
+64.227.17.70 1 1 0 20251106085429
+31.97.153.61 1 1 0 20251130235811
+195.164.49.144 1 1 0 20251129033455
+183.253.115.230 1 1 0 20251101131115
+93.133.150.46 1 1 17547 20251126163600
+52.112.103.72 1 1 17547 20251128044637
+149.57.180.158 1 1 0 20251103171416
+66.132.153.117 1 1 0 20251111194559
+185.247.137.232 1 1 0 20251106021950
+3.138.185.30 1 1 0 20251120013613
+195.178.110.54 1 1 0 20251130042139
+18.224.192.118 1 1 0 20251120001003
+3.70.184.5 1 1 7634 20251129215745
+199.45.155.84 1 1 0 20251111214954
+34.90.137.35 1 1 7634 20251130001003
+162.142.125.217 1 1 0 20251101180731
+131.103.56.241 1 1 0 20251129003227
+79.246.250.59 1 1 0 20251127081117
+162.142.125.125 1 1 0 20251109100451
+78.48.165.49 1 1 20736 20251130170131
+147.93.155.10 1 1 0 20251129015731
+161.123.132.52 1 1 0 20251129003249
+199.45.155.102 1 1 0 20251106085316
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 19
+20251101 2 2 0 2
+20251103 7 7 36704 3
+20251105 4 4 0 3
+20251106 9 9 24058 7
+20251107 1 1 15980 1
+20251108 1 1 0 1
+20251109 2 2 0 2
+20251111 3 3 15980 3
+20251112 12 12 15980 1
+20251117 1 1 15980 1
+20251119 1 1 0 1
+20251120 4 4 15980 4
+20251124 7 7 81472 4
+20251125 2 2 17548 2
+20251126 11 11 175472 4
+20251127 3 3 35094 2
+20251128 55 55 902596 4
+20251129 13 13 7634 11
+20251130 11 11 28370 9
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+2mn-5mn 3
+0s-30s 54
+30mn-1h 2
+1h+ 1
+15mn-30mn 1
+5mn-15mn 1
+30s-2mn 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 7
+/klassen/8d/sitzordnung/ 69 1092905 18 18
+/ 46 0 41 40
+/klassen/8d/sitzungsordnung 15 263205 1 2
+/klassen/8d/stundenplan/ 10 0 0 1
+/klassen/8d/ 4 9392 2 1
+/vertretungsplan/ 3 8078 1 1
+/cgi-sys/suspendedpage.cgi 2 15268 2 2
+END_SIDER
+
+# Payload Range - Payload Frequency
+BEGIN_FILESIZE 5
+100-500 13
+1K-2K 1
+0-44 330
+5K+ 82
+2K-5K 4
+END_FILESIZE
+
+# Request Time Range - Request Time Frequency
+BEGIN_REQUESTTIME 0
+END_REQUESTTIME

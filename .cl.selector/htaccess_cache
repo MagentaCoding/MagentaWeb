@@ -1,0 +1,78 @@
+[/home/magentaw/public_html]
+htaccess_list = /home/magentaw/public_html/.htaccess
+
+[/home/magentaw/mcvents.magentaweb.org]
+htaccess_list = /home/magentaw/mcvents.magentaweb.org/.htaccess
+
+[/home/magentaw/findi.magentaweb.org]
+htaccess_list = /home/magentaw/findi.magentaweb.org/.htaccess
+
+[/home/magentaw/friends.magentaweb.org]
+htaccess_list = /home/magentaw/friends.magentaweb.org/.htaccess
+
+[/home/magentaw/projects.magentaweb.org]
+htaccess_list = /home/magentaw/projects.magentaweb.org/.htaccess
+
+[/home/magentaw/mc-mods.magentaweb.org/main]
+htaccess_list = /home/magentaw/mc-mods.magentaweb.org/main/.htaccess
+
+[/home/magentaw/fbges.magentaweb.org]
+htaccess_list = /home/magentaw/fbges.magentaweb.org/.htaccess
+
+[/home/magentaw/cookies.magentaweb.org]
+htaccess_list = /home/magentaw/cookies.magentaweb.org/.htaccess
+
+[/home/magentaw/files.magentaweb.org]
+htaccess_list = /home/magentaw/files.magentaweb.org/.htaccess,/home/magentaw/files.magentaweb.org/files/.htaccess
+
+[/home/magentaw/mods.magentaweb.org]
+htaccess_list = /home/magentaw/mods.magentaweb.org/.htaccess
+
+[/home/magentaw/fabricatedchaos.magentaweb.org]
+htaccess_list = /home/magentaw/fabricatedchaos.magentaweb.org/.htaccess
+
+[/home/magentaw/bugs.magentaweb.org]
+htaccess_list = /home/magentaw/bugs.magentaweb.org/.htaccess
+
+[/home/magentaw/mailsystem.magentaweb.org]
+htaccess_list = /home/magentaw/mailsystem.magentaweb.org/.htaccess
+
+[/home/magentaw/webmail.magentaweb.org]
+htaccess_list = /home/magentaw/webmail.magentaweb.org/.htaccess
+
+[/home/magentaw/emil.magentaweb.org]
+htaccess_list = /home/magentaw/emil.magentaweb.org/.htaccess
+
+[/home/magentaw/datenschutz.magentaweb.org]
+htaccess_list = /home/magentaw/datenschutz.magentaweb.org/.htaccess
+
+[/home/magentaw/review.magentaweb.org]
+htaccess_list = /home/magentaw/review.magentaweb.org/.htaccess
+
+[/home/magentaw/api.magentaweb.org]
+htaccess_list = /home/magentaw/api.magentaweb.org/.htaccess,/home/magentaw/api.magentaweb.org/discord/.htaccess,/home/magentaw/api.magentaweb.org/crashassistant/.htaccess
+
+[/home/magentaw/magentasecurity.magentaweb.org]
+htaccess_list = /home/magentaw/magentasecurity.magentaweb.org/.htaccess,/home/magentaw/magentasecurity.magentaweb.org/discord/.htaccess
+
+[/home/magentaw/taskcards.magentaweb.org]
+htaccess_list = /home/magentaw/taskcards.magentaweb.org/.htaccess
+
+[/home/magentaw/legal.magentaweb.org]
+htaccess_list = /home/magentaw/legal.magentaweb.org/.htaccess
+
+[/home/magentaw/support.magentaweb.org]
+htaccess_list = 
+
+[/home/magentaw/events.magentaweb.org]
+htaccess_list = /home/magentaw/events.magentaweb.org/.htaccess
+
+[/home/magentaw/bank.magentaweb.org]
+htaccess_list = /home/magentaw/bank.magentaweb.org/.htaccess
+
+[/home/magentaw/teamspeak.magentaweb.org]
+htaccess_list = /home/magentaw/teamspeak.magentaweb.org/.htaccess
+
+[/home/magentaw/ads.magentaweb.org]
+htaccess_list = /home/magentaw/ads.magentaweb.org/.htaccess
+

@@ -1,0 +1,600 @@
+Return-Path: <bounce+7481e9.e05498-patreon=magentaweb.org@mailgun.patreon.com>
+Delivered-To: patreon@magentaweb.org
+Received: from webserver.bisecthosting.com
+	by webserver.bisecthosting.com with LMTP
+	id EGG0EbzL52gJ3DoAufviug
+	(envelope-from <bounce+7481e9.e05498-patreon=magentaweb.org@mailgun.patreon.com>)
+	for <patreon@magentaweb.org>; Thu, 09 Oct 2025 10:50:36 -0400
+Return-path: <bounce+7481e9.e05498-patreon=magentaweb.org@mailgun.patreon.com>
+Envelope-to: patreon@magentaweb.org
+Delivery-date: Thu, 09 Oct 2025 10:50:36 -0400
+Received: from m225-156.mailgun.net ([159.135.225.156]:48590)
+	by webserver.bisecthosting.com with esmtps  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+	(Exim 4.98.2)
+	(envelope-from <bounce+7481e9.e05498-patreon=magentaweb.org@mailgun.patreon.com>)
+	id 1v6ryV-0000000GFfG-3E1A
+	for patreon@magentaweb.org;
+	Thu, 09 Oct 2025 10:50:36 -0400
+DKIM-Signature: a=rsa-sha256; v=1; c=relaxed/relaxed; d=mailgun.patreon.com; q=dns/txt; s=krs; t=1760021412; x=1760028612;
+ h=Content-Transfer-Encoding: Content-Type: Message-Id: Reply-To: To: To: From: From: Subject: Subject: Mime-Version: Date: Sender;
+ bh=2m9q69VWY/Dexnlg63D1gNRi0sq9oHkt58BsJUG2CGc=;
+ b=DISFdTDGA1g59+5PEGaWTj4Jt1+NZag/YMYyLlbmFITbJoPBlk6/NOPOa9FBLLgcO33N0TCOeuJZTazRfqHttu90wMgP6XltpnvPAHCtsKc2rBBl8sECS2rlotYUunPmxKy3JfxgxqNE5G3wQ50WGYScsmVlFBAq3x7P0CVpKSE=
+X-Mailgun-Sid: WyJmNzRjMCIsInBhdHJlb25AbWFnZW50YXdlYi5vcmciLCJlMDU0OTgiXQ==
+Received: by b26b00411cae5227121e3e5780a126eaf357befdfb26d74ea41a22d6db847cb6 with HTTP
+ id 68e7cba4f694edce55258853; Thu, 09 Oct 2025 14:50:12 GMT
+X-Mailgun-Sending-Ip: 159.135.225.156
+Date: Thu, 09 Oct 2025 14:50:12 +0000
+Mime-Version: 1.0
+Subject: Confirm your email to get started on Patreon
+From: Patreon <no-reply@patreon.com>
+To: patreon@magentaweb.org
+X-Mailgun-Tag: template_verifyemail
+X-Mailgun-Rewrite-Sender-Header: false
+Reply-To: no-reply@mailgun.patreon.com
+X-Patreon-UUID: b9d1bf2b-8431-439a-ab42-2d9f00ce73d7
+X-Mailgun-Variables: {"batch_id": "749fc9a7-720d-465b-98b5-3e06165ae3d4", "bulk_mode": "0",
+ "custom_nonce": "", "domain_override": "mailgun.patreon.com",
+ "email_campaign_name": "transactional", "email_id":
+ "0a492128-1f38-4b55-9ebc-17dbb1ad8fcf", "email_priority": "high_priority",
+ "email_system": "email-service-nunjucks", "is_high_priority": "1",
+ "rate_limits": "[]", "recipient_size_bucket": "1", "recipient_type": "user",
+ "should_channel_throttle": "False", "should_ml_throttle": "False", "task_id":
+ "b9d1bf2b-8431-439a-ab42-2d9f00ce73d7", "template_name": "verifyemail",
+ "user_id": "189141783"}
+Message-Id: <20251009145012.fb087c9294fd5f28@mailgun.patreon.com>
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-Spam-Status: No, score=0.1
+X-Spam-Score: 1
+X-Spam-Bar: /
+X-Ham-Report: =?ISO-8859-1?Q?Spam_detection_software=2C_running_on_the_system_=22webserver=2Ebise?= =?ISO-8859-1?Q?cthosting=2Ecom=22=2C=0A_has_NOT_identified_this_inco?= =?ISO-8859-1?Q?ming_email_as_spam=2E__The_original=0A_message_has_be?= =?ISO-8859-1?Q?en_attached_to_this_so_you_can_view_it_or_label=0A_si?= =?ISO-8859-1?Q?milar_future_email=2E__If_you_have_any_questions=2C_s?= =?ISO-8859-1?Q?ee=0A_root=5C=40localhost_for_details=2E=0A_Content_p?= =?ISO-8859-1?Q?review=3A__Welcome_to_Patreon=2C_MagentaWeb!_Just_one?= =?ISO-8859-1?Q?_more_step_-_we_need=0A____to_confirm_your_email_so_y?= =?ISO-8859-1?Q?ou_don=E2=80=99t_miss_out_on_updates=2E_Confirm_Email?= =?ISO-8859-1?Q?_If=0A____you_didn=E2=80=99t_sign_up=2C_you_can_ignor?= =?ISO-8859-1?Q?e_this_email=2E_=0A_Content_analysis_details=3A___=280?= =?ISO-8859-1?Q?=2E1_points=2C_5=2E0_required=29=0A__pts_rule_name___?= =?ISO-8859-1?Q?___________description=0A_----_----------------------?= =?ISO-8859-1?Q?_--------------------------------------------------=0A_?= =?ISO-8859-1?Q?_0=2E0_RCVD=5FIN=5FVALIDITY=5FSAFE=5FBLOCKED_RBL=3A_A?= =?ISO-8859-1?Q?DMINISTRATOR_NOTICE=3A_The_query_to=0A_______________?= =?ISO-8859-1?Q?_______________Validity_was_blocked=2E__See=0A_______?= =?ISO-8859-1?Q?______________________https=3A//knowledge=2Evalidity=2Ec?= =?ISO-8859-1?Q?om/hc/en-us/articles/20961730681243=0A_______________?= =?ISO-8859-1?Q?_______________for_more_information=2E=0A____________?= =?ISO-8859-1?Q?_________________=5B159=2E135=2E225=2E156_listed_in_s?= =?ISO-8859-1?Q?a-accredit=2Ehabeas=2Ecom=5D=0A__0=2E0_RCVD=5FIN=5FVA?= =?ISO-8859-1?Q?LIDITY=5FCERTIFIED=5FBLOCKED_RBL=3A_ADMINISTRATOR_NOT?= =?ISO-8859-1?Q?ICE=3A_The=0A_____________________________query_to_Va?= =?ISO-8859-1?Q?lidity_was_blocked=2E__See=0A________________________?= =?ISO-8859-1?Q?_____https=3A//knowledge=2Evalidity=2Ecom/hc/en-us/ar?= =?ISO-8859-1?Q?ticles/20961730681243=0A_____________________________?= =?ISO-8859-1?Q?_for_more_information=2E=0A________________________=5B1?= =?ISO-8859-1?Q?59=2E135=2E225=2E156_listed_in_sa-trusted=2Ebondedsen?= =?ISO-8859-1?Q?der=2Eorg=5D=0A__0=2E0_RCVD=5FIN=5FVALIDITY=5FRPBL=5FB?= =?ISO-8859-1?Q?LOCKED_RBL=3A_ADMINISTRATOR_NOTICE=3A_The_query_to=0A_?= =?ISO-8859-1?Q?_____________________________Validity_was_blocked=2E_?= =?ISO-8859-1?Q?_See=0A_____________________________https=3A//knowled?= =?ISO-8859-1?Q?ge=2Evalidity=2Ecom/hc/en-us/articles/20961730681243=0A_?= =?ISO-8859-1?Q?_____________________________for_more_information=2E=0A?= =?ISO-8859-1?Q?___________________________=5B159=2E135=2E225=2E156_l?= =?ISO-8859-1?Q?isted_in_bl=2Escore=2Esenderscore=2Ecom=5D=0A__0=2E0_?= =?ISO-8859-1?Q?URIBL=5FDBL=5FBLOCKED=5FOPENDNS_ADMINISTRATOR_NOTICE=3A_?= =?ISO-8859-1?Q?The_query_to=0A_____________________________dbl=2Espa?= =?ISO-8859-1?Q?mhaus=2Eorg_was_blocked_due_to_usage_of_an=0A________?= =?ISO-8859-1?Q?______________________open_resolver=2E_See=0A________?= =?ISO-8859-1?Q?_____________________https=3A//www=2Espamhaus=2Eorg/r?= =?ISO-8859-1?Q?eturnc/pub/=0A_____________________________=5BURI=3A_?= =?ISO-8859-1?Q?email=2Emailgun=2Epatreon=2Ecom=5D=0A________________?= =?ISO-8859-1?Q?_____________=5BURI=3A_mailgun=2Epatreon=2Ecom=5D=0A_?= =?ISO-8859-1?Q?____________________________=5BURI=3A_c5=2Epatreon=2Ec?= =?ISO-8859-1?Q?om=5D=0A__0=2E0_RCVD=5FIN=5FZEN=5FBLOCKED=5FOPENDNS_R?= =?ISO-8859-1?Q?BL=3A_ADMINISTRATOR_NOTICE=3A_The_query_to=0A________?= =?ISO-8859-1?Q?_____________________zen=2Espamhaus=2Eorg_was_blocked?= =?ISO-8859-1?Q?_due_to_usage_of_an=0A______________________________o?= =?ISO-8859-1?Q?pen_resolver=2E_See=0A_____________________________ht?= =?ISO-8859-1?Q?tps=3A//www=2Espamhaus=2Eorg/returnc/pub/=0A_________?= =?ISO-8859-1?Q?____________________=5B159=2E135=2E225=2E156_listed_i?= =?ISO-8859-1?Q?n_zen=2Espamhaus=2Eorg=5D=0A_-0=2E0_SPF=5FPASS_______?= =?ISO-8859-1?Q?________SPF=3A_sender_matches_SPF_record=0A__0=2E1_DK?= =?ISO-8859-1?Q?IM=5FSIGNED____________Message_has_a_DKIM_or_DK_signa?= =?ISO-8859-1?Q?ture=2C_not_necessarily_valid=0A_-0=2E1_DKIM=5FVALID=5FE?= =?ISO-8859-1?Q?F__________Message_has_a_valid_DKIM_or_DK_signature_f?= =?ISO-8859-1?Q?rom=0A_____________________________envelope-from_doma?= =?ISO-8859-1?Q?in=0A_-0=2E1_DKIM=5FVALID_____________Message_has_at_?= =?ISO-8859-1?Q?least_one_valid_DKIM_or_DK_signature=0A__0=2E1_MIME=5FH?= =?ISO-8859-1?Q?TML=5FONLY_________BODY=3A_Message_only_has_text/html?= =?ISO-8859-1?Q?_MIME_parts=0A__0=2E0_HTML=5FMESSAGE___________BODY=3A_?= =?ISO-8859-1?Q?HTML_included_in_message=0A__0=2E0_HTML=5FIMAGE=5FRAT?= =?ISO-8859-1?Q?IO=5F04____BODY=3A_HTML_has_a_low_ratio_of_text_to_im?= =?ISO-8859-1?Q?age_area=0A__0=2E5_KAM=5FREALLYHUGEIMGSRC___RAW=3A_Sp?= =?ISO-8859-1?Q?am_with_image_tags_with_ridiculously_huge=0A_________?= =?ISO-8859-1?Q?_____________________http_urls=0A_-0=2E4_DKIMWL=5FWL=5FH?= =?ISO-8859-1?Q?IGH_________DKIMwl=2Eorg_-_High_trust_sender?=
+X-Spam-Flag: NO
+
+<!DOCTYPE html><html lang=3D"en" xmlns=3D"http://www.w3.org/1999/xhtml" xml=
+ns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-microsoft-com=
+:office:office" dir=3D"ltr"><head>
+<title></title>
+<meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1"=
+>
+<style type=3D"text/css">
+#outlook a{padding: 0;}
+=2EReadMsgBody{width: 100%;}
+=2EExternalClass{width: 100%;}
+=2EExternalClass *{line-height: 100%;}
+body{margin: 0; padding: 0; -webkit-text-size-adjust: 100%; -ms-text-size-a=
+djust: 100%;}
+table, td{border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspac=
+e: 0pt;}
+img{border: 0; height: auto; line-height: 100%; outline: none; text-decorat=
+ion: none; -ms-interpolation-mode: bicubic;}
+p{display: block; margin: 13px 0;}
+</style>
+<!--[if mso]>
+<xml>
+<o:OfficeDocumentSettings>
+<o:AllowPNG/>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+<![endif]-->
+<!--[if lte mso 11]>
+<style type=3D"text/css">
+=2Eoutlook-group-fix{width:100% !important;}
+</style>
+<![endif]-->
+<style type=3D"text/css">=20
+@media only screen and (max-width: 480px) {
+=2Edys-desktop { display: none !important; }
+div.dys-mobile { display: block !important; }
+tr.dys-mobile { display: table-row !important; }=20
+}
+</style>
+<style type=3D"text/css">
+@media only screen and (max-width:480px) {
+ table.full-width-mobile { width: 100% !important; }
+td.full-width-mobile { width: auto !important; }
+}
+@media only screen and (min-width:480px) {
+=2Edys-column-per-55 {
+width: 55% !important;
+max-width: 55%;
+}
+=2Edys-column-per-45 {
+width: 45% !important;
+max-width: 45%;
+}
+=2Edys-column-per-100 {
+width: 100.000000% !important;
+max-width: 100.000000%;
+}
+}
+u + #body a {color: #000000;text-decoration: underline;font-size: inherit; =
+font-family: inherit; font-weight: inherit; line-height: inherit; }
+ a {color: #000000;text-decoration: underline;}
+ @font-face {
+ font-family: "Oracle";
+ src: url("https://c5.patreon.com/external/fonts/oracle/PatreonOracle-Light=
+=2Ewoff2")
+ format("woff2"),
+ url("https://c5.patreon.com/external/fonts/oracle/PatreonOracle-Light.woff=
+")
+ format("woff");
+ font-weight: 200;
+ font-style: normal;
+ }
+ @font-face {
+ font-family: "Oracle";
+ src: url("https://c5.patreon.com/external/fonts/oracle/PatreonOracle-Book.=
+woff2")
+ format("woff2"),
+ url("https://c5.patreon.com/external/fonts/oracle/PatreonOracle-Book.woff"=
+)
+ format("woff");
+ font-weight: 400;
+ font-style: normal;
+ }
+ @font-face {
+ font-family: "Oracle";
+ src: url("https://c5.patreon.com/external/fonts/oracle/PatreonOracle-Mediu=
+m.woff2")
+ format("woff2"),
+ url("https://c5.patreon.com/external/fonts/oracle/PatreonOracle-Medium.wof=
+f")
+ format("woff");
+ font-weight: 700;
+ font-style: normal;
+ }
+ @font-face {
+ font-family: "OracleLight";
+ src: url("https://c5.patreon.com/external/fonts/oracle/PatreonOracle-Light=
+=2Ewoff2")
+ format("woff2"),
+ url("https://c5.patreon.com/external/fonts/oracle/PatreonOracle-Light.woff=
+")
+ format("woff");
+ font-weight: 400;
+ font-style: normal;
+ }
+ @font-face {
+ font-family: "OracleLight";
+ src: url("https://c5.patreon.com/external/fonts/oracle/PatreonOracle-Book.=
+woff2")
+ format("woff2"),
+ url("https://c5.patreon.com/external/fonts/oracle/PatreonOracle-Book.woff"=
+)
+ format("woff");
+ font-weight: 700;
+ font-style: normal;
+ }
+ @font-face {
+ font-family: "OracleTriple";
+ src: url("https://c5.patreon.com/external/fonts/oracle/PatreonOracleTriple=
+-Regular.woff2")
+ format("woff2"),
+ url("https://c5.patreon.com/external/fonts/oracle/PatreonOracleTriple-Regu=
+lar.woff")
+ format("woff");
+ font-weight: 400;
+ font-style: normal;
+ }
+ /* darkmode button support */
+ .dm-pbtn table tbody tr td{
+ background-image:linear-gradient(#ffffff,#ffffff) !important;
+ }
+ .dm-sbtn table tbody tr td{
+ background-image:linear-gradient(#ffffff,#ffffff) !important;
+ box-shadow: 0 0px 3px #fff;
+ }
+ /* darkmode button support targets outlook.com */
+ [data-ogsb] .dm-sbtn table tbody tr td{
+ border: 1px solid #feffff;
+ outline: 1px solid #feffff;=20
+ }=20
+ img {
+ max-width:570px;=20
+ }
+ @media only screen and (max-width:440px) {
+ .icon-col {
+ vertical-align: top !important;
+ }
+ .icon-text {
+ padding-top: 0px !important;
+ }
+ .icon-img {
+ padding-top: 5px !important;
+ }
+ }
+ .hidden-content {
+ position: relative;
+ }
+ .hidden-content * {
+ max-height: 350px;
+ overflow: hidden;
+ }
+ .hidden-content::after {
+ content: '';
+ bottom: 0;
+ left: 0;
+ position: absolute;
+ pointer-events: none;
+ background-image: linear-gradient(
+ to bottom,
+ rgba(255, 255, 255, 0),
+ rgba(255, 255, 255, 1) 50%
+ );
+ width: 100%;
+ height: 70px;
+ }
+</style>
+
+</head>
+<body id=3D"body" style=3D"background-color: #FFFFFF;"><div style=3D"backgr=
+ound-color: #FFFFFF;">
+=20
+ <style type=3D"text/css">
+ .dys-column-per-60 {
+ width: 60% !important;
+ max-width: 60%;
+ }
+ .dys-column-per-40 {
+ width: 40% !important;
+ max-width: 40%;
+ }
+ .dys-column-per-50 {
+ width: 50% !important;
+ max-width: 50%;
+ }
+ @media only screen and (max-width:480px) {
+ .dys-column-per-60 {
+ width: 100% !important;
+ max-width: 100%;
+ }
+ .dys-column-per-40 {
+ width: 100% !important;
+ max-width: 100%;
+ }
+ .dys-column-per-50 {
+ width: 100% !important;
+ max-width: 100%;
+ }
+ }
+ </style>
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"margin:0px auto;max-width:600px;"><table align=3D=
+"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" style=3D"width:100%;"><tbody><tr><td style=3D"direction:ltr;font-size:=
+0px;padding:10px 0px;padding-top:32px;text-align:center;vertical-align:top;=
+"><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"left" style=3D"font-size:0px;padding:0 0 0 16px;wo=
+rd-break:break-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0" role=3D"presentation" style=3D"border-collapse:collapse;border-spacing:0=
+px;"><tbody><tr><td style=3D"width:40px;"><a href=3D"http://email.mailgun.p=
+atreon.com/c/eJyMks3u2yoQxZ_G7IgA4w8WLO5VlNdAA4xjGoMtwInSp6-cpn-lahddzpzD4T=
+cwFqqbTfB6kGpyCgY6COap7DtL1Wg72iLred8Btl4Suy83E1ePmhG3l7pGk9bkUBOvkXVSjcSvE=
+UIy6x1zDh51hLBc93TaoGZc08mtkaDmQ8-Y4JILgofDOIgbhGsyCSLqmiEVcDWsCZa3I3jNQCrB=
+xUj51I5U2q6jCq2jfPDWcvDj5Ka3e8thzaE-9Ryu81f1FsuzVIz6VdCC-R4c0rSnb7u7FTJrNvj=
+BI_euZyBsDzDZVoG3FuUgvOUkaMFExxlTXHaMi9Nk2Tg4JZScfDeJsZHsb4OHYn7j0Zwseq51K0=
+37XyMujbg8Ho_PI0ezvew1muCb9vwvL9CI_vBH9GGPTXt-jUmyfqe-0K6YKjzQntZ8JRkqmiXEU=
+Ituuv-b7kwyurAFTNWU8B2N3d0Nq-Yf_frcUO8FMynzui_euBlSwsXUOa-1LqgvsBT8pcY_hKor=
+xm057r5jDtPzJ2eFcjv-2irP7SQsHWXLqWwVULBSUOHVxJjDofUD-Up4bc1nzEF2xPBRccmHsSV=
+3LX4EAAD___jf_ps" style=3D"color:#000000;text-decoration:underline;" target=
+=3D"_blank"><span style=3D"color:#000000;text-decoration:underline;"><img h=
+eight=3D"auto" src=3D"https://c5.patreon.com/external/email/logo/plogo@2x.p=
+ng?v=3D1" style=3D"border:none;border-radius:0px;display:block;font-size:13=
+px;height:auto;outline:none;text-decoration:none;width:100%;" width=3D"40">=
+</span></a></td></tr></tbody></table></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"border-radius:9px;margin:0px auto;max-width:600px=
+;"><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0"=
+ role=3D"presentation" style=3D"border-radius:9px;width:100%;"><tbody><tr><=
+td style=3D"direction:ltr;font-size:0px;padding:20px 0px;text-align:center;=
+vertical-align:top;"><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">=20
+ <tbody><tr><td align=3D"left" style=3D"font-size:0px;padding:10px 16px;wor=
+d-break:break-word;"><div style=3D"color:#000000;font-family:'Oracle', Aria=
+l, Helvetica,sans-serif;font-size:27px;font-weight:300;letter-spacing:0.32p=
+x;line-height:30px;text-align:left;"><p style=3D"margin-top:0;margin-bottom=
+:0;">Welcome to Patreon, MagentaWeb!</p></div></td></tr>=20
+ <tr><td align=3D"left" style=3D"font-size:0px;padding:10px 16px;word-break=
+:break-word;"><div style=3D"color:#000000;font-family:'Oracle', Arial, Helv=
+etica,sans-serif;font-size:15px;font-weight:300;letter-spacing:0.32px;line-=
+height:21px;text-align:left;">Just one more step - we need to confirm your =
+email so you don=E2=80=99t miss out on updates.</div></td></tr>=20
+ <tr><td align=3D"left" class=3D"dm-pbtn" style=3D"font-size:0px;padding:10=
+px 16px;word-break:break-word;" vertical-align=3D"middle"><table border=3D"=
+0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"borde=
+r-collapse:separate;line-height:100%;"><tbody><tr><td align=3D"center" bgco=
+lor=3D"#000000" role=3D"presentation" style=3D"background:#000000;border:1p=
+x solid #ffffff;border-color:#ffffff;border-radius:8px;cursor:auto;mso-padd=
+ing-alt:10px 25px;" valign=3D"middle"><a class=3D"dys-button-a" href=3D"htt=
+p://email.mailgun.patreon.com/c/eJyMkkuv0zAQhX9NvEvlVx5eeAGUIpCudAVsWFl-TBr=
+T2I5sp1X59ailXF0EC5bjc3zmm9EYXe2svJMDF5MVemgHil3L-860YjRdywD3pO80MMeR2ZaTCs=
+mBxMhupaagYooWJHIScMfFiFwK2keVzpCzdyCD9stxi7tV1wwp7mwKCCQZeowp4YQiuDmU1WHV_=
+hhV1AFkzToWbatPUS8Ph3cSay4ooWNLJja23HRdK8DYlgzOGKLdONnp4V6zT9nXq5z9cX6pHmK5=
+lgpB3ou2QD57C23c4vfNngqaJbHjxIaOU8OoIAK0A83I2A8Dh56NGnlJMe0IxoLwDhO6mwweByu=
+o4JPrJjo2HP9rcF_UHzySoEXOta6lYW8aemjo4XK5vP7S0INNcfI5NOxQ0wliw_ZP6wfyaXp3uX=
+4V3z4_iy_vz3H9uNGn43MfpqCvDe0dlNqwvc2ga8pq1UdQ4HxNuaH9VoPyrmH7_1nowx_A-S00b=
+H_fGsryAXmf9Aix6guYXcpHlHUFtfjga5FN97bp9iiD9auHWFXxP0CZzZ6gSvLqvV5XkFuBjMqc=
+tsUpO-sYYVF1zqnWBeRBLwV-q-EvocoKYV1uvc-Q_XT9xVl1Od1OxwhHzERNO3JGWs6EbrXhtKV=
+OTBhbGJgb0EvC_Qhfx9zIbjFkFISTYWToLOnPAAAA__-AKxk2" style=3D"background:#000=
+000;border-radius:8px;color:#FFFFFF;display:inline-block;font-family:'Oracl=
+e', Arial, Helvetica,sans-serif;font-size:16px;font-weight:700;line-height:=
+20px;margin:0;mso-padding-alt:0px;padding:10px 25px;text-decoration:none;te=
+xt-transform:none;" target=3D"_blank">Confirm Email</a></td></tr></tbody></=
+table></td></tr>
+=20
+ <tr><td align=3D"left" style=3D"font-size:0px;padding:10px 16px;word-break=
+:break-word;"><div style=3D"color:#706C64;font-family:'Oracle', Arial, Helv=
+etica,sans-serif;font-size:15px;font-weight:300;letter-spacing:0.32px;line-=
+height:21px;text-align:left;">If you didn=E2=80=99t sign up, you can ignore=
+ this email.</div></td></tr>
+ =20
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+=20
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"margin:0px auto;max-width:600px;"><table align=3D=
+"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" style=3D"width:100%;"><tbody><tr><td style=3D"direction:ltr;font-size:=
+0px;padding:10px 0px;text-align:center;vertical-align:top;"><!--[if mso | I=
+E]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"center" style=3D"font-size:0px;padding:10px 16px;w=
+ord-break:break-word;"><p style=3D"border-top-color:#cccccc;border-top-styl=
+e:solid;border-top-width:1px;font-size:1px;margin:0px auto;width:100%;"></p=
+><!--[if mso | IE]><table align=3D'center' border=3D'0' cellpadding=3D'0' c=
+ellspacing=3D'0' role=3D'presentation' style=3D'border-top-color:#cccccc;bo=
+rder-top-style:solid;border-top-width:1px;font-size:1px;margin:0px auto;wid=
+th:568px;' width=3D'568px'><tr><td style=3D'height:0;line-height:0;'>&nbsp<=
+/td></tr></table><![endif]--></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"margin:0px auto;max-width:600px;"><table align=3D=
+"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" style=3D"width:100%;"><tbody><tr><td style=3D"direction:ltr;font-size:=
+0px;padding:10px 0px;text-align:center;vertical-align:top;"><!--[if mso | I=
+E]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:middle;width:330px;">
+<![endif]--><div class=3D"dys-column-per-55 outlook-group-fix" style=3D"dir=
+ection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-ali=
+gn:middle;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" style=3D"vertical-align:middle;" width=3D"100%">
+ <tbody><tr><td align=3D"left" style=3D"font-size:0px;padding:10px 16px;pad=
+ding-bottom:0;word-break:break-word;"><div style=3D"color:#000000;font-fami=
+ly:'Oracle', Arial, Helvetica,sans-serif;font-size:24px;font-weight:350;let=
+ter-spacing:-0.48px;line-height:120%;text-align:left;">
+ Get the Patreon App
+ </div></td></tr>
+ <tr><td align=3D"left" style=3D"font-size:0px;padding:10px 16px;padding-to=
+p:0;word-break:break-word;"><div style=3D"color:#777777;font-family:'Oracle=
+', Arial, Helvetica,sans-serif;font-size:16px;font-weight:325;letter-spacin=
+g:-0.16px;line-height:140%;text-align:left;">
+ </div></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td><td style=3D"vertical-align:middle;width:270px;">
+<![endif]--><div class=3D"dys-column-per-45 outlook-group-fix" style=3D"dir=
+ection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-ali=
+gn:middle;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D=
+"0" role=3D"presentation" width=3D"100%"><tbody><tr><td style=3D"padding-le=
+ft:16px;padding-right:16px;vertical-align:middle;"><table border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" role=3D"presentation" style=3D"" width=3D"1=
+00%">
+ <tbody><tr><td><div>
+ <table align=3D"left" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" sty=
+le=3D"margin:0 auto; padding-right:16px;">
+ <tbody>
+ <tr>
+ <td>
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"border-collapse:collapse;border-spacing:0px;"><tbody><tr><td s=
+tyle=3D"width:118px;"><a href=3D"http://email.mailgun.patreon.com/c/eJxsksG=
+u2ywQhZ_G7IgAQwwLFv-vyq9hDTCOaWywAKdKn75ymnt1q3Y5cw7fHGAcNL9MMdhBmtkbGOggWK=
+Dyqhw12inaI7vyqwLsgyTuWO_TlgNaRvxRW96mlJNHS4JFpqTRJOQNYpryA0uJAe0Gcb0d6bJDK=
+5jTxeeNoOXDlTHBJRcET8fkYdsh3tKUYEPbCqQKvsWcYH07YrAMpBFcaMrnXlPplKIGnad8CM5x=
+CHr289u9l5hLbE-7xNvyWb3F-qwNN_sqaMXyiB5pOtL3w98rWawcvFYAQ381JiDOs1aD467n2oD=
+3XpNoBROKM2a4VIyLy-yYHrwRRs5BzUJ3kv3r4rFOf-SxnKx2aW2vXf9fJ8ZOjLDv9QL7vuJ5oh=
+PjUX93OzG-UZ0YY-BMSqmuXGtS7IdwTr1havAD3SWXGynQcFrjFlu1nfq_U99IQR_3iKlNNf7Ey=
+R3-js3yL_323NEeFQupSz7WMPkFUsJ1akvJra1oR1grfqjbX0KzDbd9PWc_sMT5-Xpp0qDez290=
+JnA3C0e17DmVvQEKTgoqgpkZ8zj0YSCfhNdCfMWcyU4M14ZLPuiePKz4FQAA___J5PJL" style=
+=3D"color:#000000;text-decoration:underline;" target=3D"_blank"><span style=
+=3D"color:#000000;text-decoration:underline;"><img alt=3D"Download on the A=
+pp Store" height=3D"auto" src=3D"https://c5.patreon.com/external/email/noti=
+fy-new-post/badge_appstore@2x.png" style=3D"border:none;display:block;font-=
+size:13px;height:auto;outline:none;text-decoration:none;width:100%;" width=
+=3D"118"></span></a></td></tr></tbody></table>
+ </td>
+ <td style=3D"width: 6px; line-height: 1px" width=3D"6">&nbsp;</td>=20
+ <td>
+ <table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentati=
+on" style=3D"border-collapse:collapse;border-spacing:0px;"><tbody><tr><td s=
+tyle=3D"width:130px;"><a href=3D"http://email.mailgun.patreon.com/c/eJxsks_=
+O2yAQxJ_G3IgA4z8cOLT65BeoerYWWNs0GCzAqdKnrxKl0Ve1x-U3zA4aDFS7zd7pQarFKhjoIJ=
+ijsu8MVaPpaIus530H2DpJzBmu854cakbsWWra55iiRU2cRtZJNRKXdvBxTjfM2TvUO_iwnvFyQ=
+M2Y4sWmnaDmQ8-Y4JILgg_FbGE_wK9xjrCjrhliAVt9ihBeCu80A6kEFyPlSztSabqOKjSW8sEZ=
+w8GNi11e6iP7lH29682v23t6wXIvFXf9HGjBfPMWaTzjj9NeC9m0VcCZMlIo1WNnVcv7pWfImJJ=
+c9JYTrwUTHWdMcdkxLi6LYeNglVBycd0ixkay_z3cl_mvPJqToLdaj9K0XxoxNWI6Atwva0prwM=
+eVRkylpoyNmOA4SiMmhxV8KE07ede0Hzbt7xUQXU7eNaLfQtN-YJy_fyNZv_Az04qxwk80l5RXk=
+qHiHPzua9FN97XpPkhG6w-Psc7F_8LZnPaKVfNP5_V-oD4LZlK2dAY32w1ixDDXLadaA-oJQsE_=
+dP8HVF1xP8Jj9w2zX-7PHkiFcn2UbJTjZhGGjrLlVLYKKBgpqHBqYczi0LqBvB2e3-WzzSPZw4a=
+Piks-jC25afE7AAD__yvK_QY" style=3D"color:#000000;text-decoration:underline;=
+" target=3D"_blank"><span style=3D"color:#000000;text-decoration:underline;=
+"><img alt=3D"Get it on Google Play" height=3D"auto" src=3D"https://c5.patr=
+eon.com/external/email/notify-new-post/badge_google_playstore@2x.png" style=
+=3D"border:none;display:block;font-size:13px;height:auto;outline:none;text-=
+decoration:none;width:100%;" width=3D"130"></span></a></td></tr></tbody></t=
+able>
+ </td>
+ </tr>
+ </tbody>
+ </table>
+ </div></td></tr>=20
+ </tbody></table></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"margin:0px auto;max-width:600px;"><table align=3D=
+"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" style=3D"width:100%;"><tbody><tr><td style=3D"direction:ltr;font-size:=
+0px;padding:10px 0px;text-align:center;vertical-align:top;"><!--[if mso | I=
+E]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"center" style=3D"font-size:0px;padding:10px 16px;w=
+ord-break:break-word;"><p style=3D"border-top-color:#cccccc;border-top-styl=
+e:solid;border-top-width:1px;font-size:1px;margin:0px auto;width:100%;"></p=
+><!--[if mso | IE]><table align=3D'center' border=3D'0' cellpadding=3D'0' c=
+ellspacing=3D'0' role=3D'presentation' style=3D'border-top-color:#cccccc;bo=
+rder-top-style:solid;border-top-width:1px;font-size:1px;margin:0px auto;wid=
+th:568px;' width=3D'568px'><tr><td style=3D'height:0;line-height:0;'>&nbsp<=
+/td></tr></table><![endif]--></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+=20
+=20
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"margin:0px auto;max-width:600px;"><table align=3D=
+"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" style=3D"width:100%;"><tbody><tr><td style=3D"direction:ltr;font-size:=
+0px;padding:10px 0px;padding-bottom:0;text-align:center;vertical-align:top;=
+"><!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"left" style=3D"font-size:0px;padding:10px 16px;wor=
+d-break:break-word;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"border-collapse:collapse;border-spacing:0p=
+x;"><tbody><tr><td style=3D"width:100px;"><a href=3D"http://email.mailgun.p=
+atreon.com/c/eJyMks3u2yoQxZ_G7IgA4w8WLO5VlNdAA4xjGoMtwInSp6-cpn-lahddzpzD4T=
+cwFqqbTfB6kGpyCgY6COap7DtL1Wg72iLred8Btl4Suy83E1ePmhG3l7pGk9bkUBOvkXVSjcSvE=
+UIy6x1zDh51hLBc93TaoGZc08mtkaDmQ8-Y4JILgofDOIgbhGsyCSLqmiEVcDWsCZa3I3jNQCrB=
+xUj51I5U2q6jCq2jfPDWcvDj5Ka3e8thzaE-9Ryu81f1FsuzVIz6VdCC-R4c0rSnb7u7FTJrNvj=
+BI_euZyBsDzDZVoG3FuUgvOUkaMFExxlTXHaMi9Nk2Tg4JZScfDeJsZHsb4OHYn7j0Zwseq51K0=
+37XyMujbg8Ho_PI0ezvew1muCb9vwvL9CI_vBH9GGPTXt-jUmyfqe-0K6YKjzQntZ8JRkqmiXEU=
+Ituuv-b7kwyurAFTNWU8B2N3d0Nq-Yf_frcUO8FMynzui_euBlSwsXUOa-1LqgvsBT8pcY_hKor=
+xm057r5jDtPzJ2eFcjv-2irP7SQsHWXLqWwVULBSUOHVxJjDofUD-Up4bc1nzEF2xPBRccmHsSV=
+3LX4EAAD___jf_ps" style=3D"color:#000000;text-decoration:underline;" target=
+=3D"_blank"><span style=3D"color:#000000;text-decoration:underline;"><img a=
+lt=3D"Patreon Wordmark" height=3D"auto" src=3D"https://c5.patreon.com/exter=
+nal/email/logo/patreon_wordmark@2x.png" style=3D"border:none;display:block;=
+font-size:13px;height:auto;outline:none;text-decoration:none;width:100%;" w=
+idth=3D"100"></span></a></td></tr></tbody></table></td></tr>
+=20
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+ <!--[if mso | IE]>
+<table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" st=
+yle=3D"width:600px;" width=3D"600"><tr><td style=3D"line-height:0px;font-si=
+ze:0px;mso-line-height-rule:exactly;">
+<![endif]--><div style=3D"margin:0px auto;max-width:600px;"><table align=3D=
+"center" border=3D"0" cellpadding=3D"0" cellspacing=3D"0" role=3D"presentat=
+ion" style=3D"width:100%;"><tbody><tr><td style=3D"direction:ltr;font-size:=
+0px;padding:10px 0px;padding-top:0;text-align:center;vertical-align:top;"><=
+!--[if mso | IE]>
+<table role=3D"presentation" border=3D"0" cellpadding=3D"0" cellspacing=3D"=
+0"><tr><td style=3D"vertical-align:top;width:600px;">
+<![endif]--><div class=3D"dys-column-per-100 outlook-group-fix" style=3D"di=
+rection:ltr;display:inline-block;font-size:13px;text-align:left;vertical-al=
+ign:top;width:100%;"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0=
+" role=3D"presentation" style=3D"vertical-align:top;" width=3D"100%">
+ <tbody><tr><td align=3D"left" style=3D"font-size:0px;padding:10px 16px;wor=
+d-break:break-word;"><div style=3D"color:#777777;font-family:'Oracle', Aria=
+l, Helvetica,sans-serif;font-size:15px;font-weight:300;letter-spacing:0.32p=
+x;line-height:21px;text-align:left;">
+ 600 Townsend Street <br>
+ San Francisco, CA 94103
+ <br><br>
+ This email was sent to <a href=3D"mailto:patreon@magentaweb.org" rel=3D"no=
+opener noreferrer" style=3D"color:#777777">patreon@magentaweb.org</a><br><a=
+ href=3D"http://email.mailgun.patreon.com/c/eJyMksvO4ygUhJ_G7Ii4xmbBYkZRXgN=
+xObaZGLAAJ8o8_SiZ9K-_1b3o5aE-iip0nO1-NTHoUajZKzvikZGAxVk6rCYnMQdypmdpgQeB3L=
+HdTCoBNEH-aL0kk0v2oFHQQKRQEwol2ZhNuUOtMYBONm7LkU-77RVKPvmSEGg6nglhVFCG4EUYb=
+9Nu45JNtgl0rzY363ss2W4fIgZNrFCMsgnTmU9YOCmxAucxHYNz1IZp9vOH3mssNfanXuOyfk0f=
+sT1bh6TfA25Q79EDzkf-5_C3hlbNuB_PjHAhBYh5JtQHR6SXYaRARhJQ1IwwSQlRVEhC2Wl2ZBq=
+9YkrMQc5sGgT5XfHYzE95NEWbXnvf28D_Gth1YNfH4_H9ysCuDXqPeWkDu74TD_x69GRaOaqHgV=
+-SzXYB86n2BZ9fUAwDv_zJt334BCEeaeCXtxuq-hPl3WeB3O0D3KnUBVXbwWwxxd70IP8e5AVV8=
+HGPkLtp8V8w7vA36Jp-O-_PHfTRoKK2lmMLxq82Z9hMX2vpfQN9tVuDH2r6Rei6Q9q319t3qHF-=
+_p-z23Z7LYhTgbqZOTwJTrHgymLrBMMsqJkQDyMPI_pyeK_ad5tXspcNnRQVdJw4umv2XwAAAP_=
+_XzsRgg" rel=3D"noopener noreferrer" style=3D"color:#777777">Manage your em=
+ail settings</a>
+ </div></td></tr>
+ </tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]--></td></tr></tbody></table></div><!--[if mso | IE]>
+</td></tr></table>
+<![endif]-->
+</div> <img width=3D"1" height=3D"1" alt=3D"" src=3D"http://email.mailgun.p=
+atreon.com/o/eJxskcEO2yAMhp-m3KiAQAgHLtO010AGnIY1gQhIp-7pp1RdtWk7mv_jw9geel=
+hcilZLMwcDmmrBIpWj8tRMXtEB2chHBThESfyx3t1WIlpGwtF62VwuOaAl0SJT0kwklg1SduWBt=
+aaIdoO03o583aFXLPkaykbQcj0yJrjkguBJuADbDumWXYYNba-QG4SeSob1TaRoGUgjuJgon4eJ=
+Sq8UNegD5Tp6zyFOc5jf9F5Tqak_7ZJuy6d6h-3ZOm72VdCG9ZEC0nzk70e4N7JYMWolPQJXQft=
+5ZFyMTKAYo5ZMy4mRZAUTijNmuFSMi-vs2aSDEUbOUc1iukj2v4-n5v7qx3JS7Rt4Xblh7vAD_b=
+XUG6nQ0a1pS73Zi_pyUV9JxZD2hLm7ln6i80e4Yz8tn_P-3NEeDStpSznW6MICOePq-lJL7yvab=
+7A2_J1u_wTddtz29Xz7gTXNz9eYSId2P3fgTeR-Fp5OcuBUDgYoeCmoiGZmLKAeoiYfw2ubf2rO=
+zk4NnwyXXE8DeVjxKwAA___Fl9xo"></body></html>

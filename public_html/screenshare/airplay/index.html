@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirPlay WLAN-Verbindung</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tomorrow:wght@400&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+
+    <style>
+        /* 3. CSS zur Anwendung des Fonts */
+        body {
+            font-family: 'Tomorrow', sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            font-weight: 400; /* Sicherstellen, dass der geladene 400er Schnitt verwendet wird */
+            margin-bottom: 30px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+        
+        /* 4. Stil für die WLAN-Details */
+        .hotspotconnectioninformation {
+            font-weight: bold;
+            color: #888888;
+            background-color: #f0f0f0;
+            padding: 15px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        /* 5. Abstand für den QR-Code */
+        #qrcode {
+            margin: 40px auto 0;
+            display: block;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Verwendung von AirPlay auf diesem Fernseher</h1>
+    
+    <p>Um AirPlay auf diesem LG-Fernseher zu verwenden, muss man sich mit dem WLAN „FBGS-iPad“ verbinden.</p>
+    
+    <p class="hotspotconnectioninformation">Name: FBGS-iPad<br>Passwort: -- Nicht vorhanden/bekannt --</p>
+    
+    <div id="qrcode"></div>
+
+    <scripts class="hidden" type="text/javascript">
+        // 6. WLAN-Daten im standardisierten QR-Code-Format
+        var wlanData = "WIFI:T:WPA;S:MagentaHotspotServices;P:hahahaha;;";
+        
+        // QR-Code-Instanz erstellen und generieren (256x256 Pixel)
+        var qrcode = new QRCode(document.getElementById("qrcode"), {
+            text: wlanData,
+            width: 256,
+            height: 256,
+            colorDark : "#000000",
+            colorLight : "#ffffff",
+            correctLevel : QRCode.CorrectLevel.H // Hohe Fehlerkorrektur
+        });
+    </scripts>
+
+</body>
+</html>

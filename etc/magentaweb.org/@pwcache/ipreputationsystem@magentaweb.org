@@ -1,0 +1,6 @@
+passwd:$6$CMxCsGJkd1/lu.XQ$vQnbIZfbpGdekIfk4MC6jEwamIgErNp2qyvLmz.Be1E0uSZNK8G7ty/x2bjuLCOIupDlegoXgxcdsVXkreo7i0
+quota:0
+homedir:/home/magentaw/mail/magentaweb.org/ipreputationsystem
+strength:100
+lastchanged:-1
+perms:rw

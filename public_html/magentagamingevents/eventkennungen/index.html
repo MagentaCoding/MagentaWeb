@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MagentaGamingEvents – Eventkennungen</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tomorrow&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --magenta: #e20074;
+            --accent-cancelled: #FF0000;
+            --accent-announced: #0000FF;
+            --accent-finished: #00FF00;
+            --accent-information: #00FFFF;
+            --bg: #111;
+            --fg: #f5f5f5;
+            --card-bg: #1b1b1b;
+            --radius: 16px;
+            --font: 'Tomorrow', sans-serif;
+        }
+
+        body {
+            background: var(--bg);
+            color: var(--fg);
+            margin: 0;
+            font-family: var(--font);
+            padding: 40px;
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 20px;
+            color: var(--magenta);
+        }
+
+        .event-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 24px;
+        }
+
+        .event-card {
+            background: var(--card-bg);
+            padding: 24px;
+            border-radius: var(--radius);
+            border-left: 6px solid var(--magenta);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        /* Hover-Effekt */
+        .event-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+        }
+
+        .event-card.cancelled {
+            border-left-color: var(--accent-cancelled);
+        }
+
+        .event-card.announced {
+            border-left-color: var(--accent-announced);
+        }
+        
+        .event-card.finished {
+            border-left-color: var(--accent-finished);
+        }
+
+        .event-card.information {
+            grid-column: 1 / -1;
+            grid-row: 1;
+            border-left-color: var(--accent-information);
+        }
+
+
+        .event-title {
+            font-size: 26px;
+            margin-bottom: 12px;
+        }
+
+        .event-info {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        /* Animation für laufende Events */
+        @keyframes ongoingFlash {
+            0% { border-left-color: #00FF00; }
+            50% { border-left-color: #00FFFF; }
+            100% { border-left-color: #00FF00; }
+        }
+
+        .event-card.ongoing {
+            animation: ongoingFlash 1.5s infinite;
+        }
+
+        /* Animation für Informationskarte */
+        @keyframes infoFlash {
+            0% { border-left-color: #FF0000; }
+            25% { border-left-color: #00FF00; }
+            50% { border-left-color: #0000FF; }
+            75% { border-left-color: #00FF00; }
+            100% { border-left-color: #FF0000; }
+        }
+
+        .event-card.information {
+            animation: infoFlash 2.5s infinite;
+        }
+
+        /* Status-Icons */
+        .event-card.cancelled::before {
+            content: "✖ ";
+        }
+        .event-card.announced::before {
+            content: "ℹ ";
+        }
+        .event-card.finished::before {
+            content: "✔ ";
+        }
+        .event-card.ongoing::before {
+            content: "⏳ ";
+        }
+        .event-card.information::before {
+            content: "INFORMATION | ℹ";
+        }
+
+    </style>
+</head>
+<body>
+    <h1>MagentaGamingEvents – Eventkennungen</h1>
+
+    <div class="event-grid">
+
+        <!-- Informationscard -->
+        <div class="event-card information">
+            <div class="event-info">Alle Event wurden abgesagt</div>
+            <div class="event-info">Für Mehr Informationen bitte eine Mail an <a href="mailto:events@magentaweb.org">events@magentaweb.org</a></div>
+        </div>
+
+        <!-- Event 1 -->
+        <div class="event-card cancelled">
+            <div class="event-title">Deducto 2 Event</div>
+            <div class="event-info">Eventkennung: <strong>MGE-1</strong></div>
+            <div class="event-info">Status: <strong>Abgesagt</strong></div>
+        </div>
+
+        <!-- Event 2 -->
+        <div class="event-card cancelled">
+            <div class="event-title">Dale & Dawson Event</div>
+            <div class="event-info">Eventkennung: <strong>MGE-2</strong></div>
+            <div class="event-info">Status: <strong>Abgesagt</strong></div>
+        </div>
+
+        <!-- Event 3 -->
+        <div class="event-card cancelled">
+            <div class="event-title">Minecraft PvP-Event</div>
+            <div class="event-info">Eventkennung: <strong>MGE-3</strong></div>
+            <div class="event-info">Status: <strong>Abgesagt</strong></div>
+        </div>
+
+    </div>
+
+</body>
+</html>
